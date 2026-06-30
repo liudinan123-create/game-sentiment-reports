@@ -17,7 +17,7 @@ body{background:#0d1117;color:#c9d1d9;font-family:-apple-system,BlinkMacSystemFo
 .report-lib li a{color:#58a6ff;text-decoration:none;font-size:0.85em;padding:4px 10px;background:#0d1117;border-radius:4px;border:1px solid #30363d;display:inline-block}
 .report-lib li a:hover{background:#1f2937;text-decoration:underline}
 
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1400px;margin:0 auto}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;max-width:1500px;margin:0 auto}
 
 .game-card{background:#161b22;border:1px solid #30363d;border-radius:10px;overflow:hidden;transition:border-color .15s}
 .game-card:hover{border-color:#58a6ff}
@@ -33,6 +33,13 @@ body{background:#0d1117;color:#c9d1d9;font-family:-apple-system,BlinkMacSystemFo
 .toggle-btn:hover{color:#f0f6fc;border-color:#58a6ff}
 
 .vl-body{padding:0 12px 12px}
+.platform-legend{display:flex;gap:12px;padding:8px 16px;border-bottom:1px solid #30363d;background:#0d111780;font-size:0.76em}
+.pl-item{display:flex;align-items:center;gap:4px;color:#8b949e}
+.pl-label{font-size:0.82em;font-weight:700;padding:1px 5px;border-radius:3px;display:inline-block;min-width:18px;text-align:center}
+.pl-cn .pl-label{background:#e53e3e20;color:#fc8181;border:1px solid #e53e3e40}
+.pl-en .pl-label{background:#3182ce20;color:#63b3ed;border:1px solid #3182ce40}
+.pl-jp .pl-label{background:#d69e2e20;color:#f6e05e;border:1px solid #d69e2e40}
+.pl-kr .pl-label{background:#38a16920;color:#68d391;border:1px solid #38a16940}
 .phase-row{display:flex;align-items:center;gap:8px;padding:7px 6px;border-radius:6px;font-size:0.82em;transition:background .1s}
 .phase-row:hover{background:#1c2333}
 .phase-row.current-row{background:#1a2d1a;border-left:3px solid #58a6ff;padding-left:10px}
@@ -54,13 +61,17 @@ body{background:#0d1117;color:#c9d1d9;font-family:-apple-system,BlinkMacSystemFo
 .char-badge.collab{background:#ea580c20;color:#fb923c;border:1px solid #ea580c40}
 .char-badge.unknown{background:#374151;color:#6b7280}
 
-.pr-report{text-align:right;flex-shrink:0;min-width:90px}
-.report-link{color:#58a6ff;text-decoration:none;font-size:0.75em;margin-left:4px;padding:1px 5px;border:1px solid #30363d;border-radius:3px}
-.report-link:hover{background:#1f2937;text-decoration:underline}
+.pr-report{text-align:right;flex-shrink:0;min-width:120px;display:flex;gap:3px;justify-content:flex-end}
+.report-link{color:#58a6ff;text-decoration:none;font-size:0.78em;margin-left:2px;padding:2px 7px;border-radius:4px;font-weight:600;transition:background .15s}
+.report-link[title="bilibili"]{background:#e53e3e15;color:#fc8181;border:1px solid #e53e3e35}
+.report-link[title="en"]{background:#3182ce15;color:#63b3ed;border:1px solid #3182ce35}
+.report-link[title="ja"]{background:#d69e2e15;color:#f6e05e;border:1px solid #d69e2e35}
+.report-link[title="ko"]{background:#38a16915;color:#68d391;border:1px solid #38a16935}
+.report-link:hover{filter:brightness(1.3);text-decoration:none}
 .report-btn.empty{color:#444;pointer-events:none;font-size:0.85em}
 
 .footer{text-align:center;color:#484f58;font-size:0.78em;margin-top:40px}
-@media(max-width:1100px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:1200px){.grid{grid-template-columns:1fr}}
 @media(max-width:700px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
@@ -80,6 +91,12 @@ body{background:#0d1117;color:#c9d1d9;font-family:-apple-system,BlinkMacSystemFo
     </div>
     <div class="gc-status current">进行中</div>
     
+  </div>
+  <div class="platform-legend">
+    <span class="pl-item pl-cn"><span class="pl-label">B</span> 中国/B站</span>
+    <span class="pl-item pl-en"><span class="pl-label">E</span> English</span>
+    <span class="pl-item pl-jp"><span class="pl-label">J</span> 日本</span>
+    <span class="pl-item pl-kr"><span class="pl-label">K</span> 韩国</span>
   </div>
   <div class="vl-body">
     <div class="phase-row  ">
@@ -124,6 +141,12 @@ body{background:#0d1117;color:#c9d1d9;font-family:-apple-system,BlinkMacSystemFo
     </div>
     <div class="gc-status current">进行中</div>
     <button class="toggle-btn" onclick="toggleCard(this)" title="展开全部版本">▶</button>
+  </div>
+  <div class="platform-legend">
+    <span class="pl-item pl-cn"><span class="pl-label">B</span> 中国/B站</span>
+    <span class="pl-item pl-en"><span class="pl-label">E</span> English</span>
+    <span class="pl-item pl-jp"><span class="pl-label">J</span> 日本</span>
+    <span class="pl-item pl-kr"><span class="pl-label">K</span> 韩国</span>
   </div>
   <div class="vl-body">
     <div class="phase-row collapsible-row ">
@@ -481,6 +504,12 @@ body{background:#0d1117;color:#c9d1d9;font-family:-apple-system,BlinkMacSystemFo
     <div class="gc-status current">进行中</div>
     <button class="toggle-btn" onclick="toggleCard(this)" title="展开全部版本">▶</button>
   </div>
+  <div class="platform-legend">
+    <span class="pl-item pl-cn"><span class="pl-label">B</span> 中国/B站</span>
+    <span class="pl-item pl-en"><span class="pl-label">E</span> English</span>
+    <span class="pl-item pl-jp"><span class="pl-label">J</span> 日本</span>
+    <span class="pl-item pl-kr"><span class="pl-label">K</span> 韩国</span>
+  </div>
   <div class="vl-body">
     <div class="phase-row collapsible-row ">
   <div class="pr-ver">版本时间线（从1.0版本至今）</div>
@@ -698,6 +727,12 @@ body{background:#0d1117;color:#c9d1d9;font-family:-apple-system,BlinkMacSystemFo
     </div>
     <div class="gc-status current">进行中</div>
     <button class="toggle-btn" onclick="toggleCard(this)" title="展开全部版本">▶</button>
+  </div>
+  <div class="platform-legend">
+    <span class="pl-item pl-cn"><span class="pl-label">B</span> 中国/B站</span>
+    <span class="pl-item pl-en"><span class="pl-label">E</span> English</span>
+    <span class="pl-item pl-jp"><span class="pl-label">J</span> 日本</span>
+    <span class="pl-item pl-kr"><span class="pl-label">K</span> 韩国</span>
   </div>
   <div class="vl-body">
     <div class="phase-row collapsible-row ">
@@ -934,6 +969,12 @@ body{background:#0d1117;color:#c9d1d9;font-family:-apple-system,BlinkMacSystemFo
     </div>
     <div class="gc-status current">进行中</div>
     <button class="toggle-btn" onclick="toggleCard(this)" title="展开全部版本">▶</button>
+  </div>
+  <div class="platform-legend">
+    <span class="pl-item pl-cn"><span class="pl-label">B</span> 中国/B站</span>
+    <span class="pl-item pl-en"><span class="pl-label">E</span> English</span>
+    <span class="pl-item pl-jp"><span class="pl-label">J</span> 日本</span>
+    <span class="pl-item pl-kr"><span class="pl-label">K</span> 韩国</span>
   </div>
   <div class="vl-body">
     <div class="phase-row collapsible-row ">
@@ -1560,6 +1601,12 @@ body{background:#0d1117;color:#c9d1d9;font-family:-apple-system,BlinkMacSystemFo
     </div>
     <div class="gc-status current">进行中</div>
     <button class="toggle-btn" onclick="toggleCard(this)" title="展开全部版本">▶</button>
+  </div>
+  <div class="platform-legend">
+    <span class="pl-item pl-cn"><span class="pl-label">B</span> 中国/B站</span>
+    <span class="pl-item pl-en"><span class="pl-label">E</span> English</span>
+    <span class="pl-item pl-jp"><span class="pl-label">J</span> 日本</span>
+    <span class="pl-item pl-kr"><span class="pl-label">K</span> 韩国</span>
   </div>
   <div class="vl-body">
     <div class="phase-row collapsible-row ">
