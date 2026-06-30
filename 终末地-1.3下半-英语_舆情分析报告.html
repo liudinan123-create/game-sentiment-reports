@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>终末地-1.3下半-YouTube · 舆情分析报告</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Microsoft YaHei','PingFang SC',sans-serif;background:#f5f7fa;color:#2c3e50;line-height:1.6}
+.container{max-width:1100px;margin:0 auto;padding:24px 20px}
+header{background:linear-gradient(135deg,#1a1a2e,#16213e);color:#fff;padding:32px 36px;border-radius:16px;margin-bottom:24px}
+header h1{font-size:28px;font-weight:700;margin-bottom:6px}
+header .sub{font-size:15px;opacity:.8;display:flex;gap:20px;flex-wrap:wrap}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:24px}
+.card{border-radius:14px;padding:22px 20px;text-align:center;position:relative;overflow:hidden}
+.card .emoji{font-size:32px;margin-bottom:6px}
+.card .numbers{display:flex;align-items:baseline;justify-content:center;gap:4px;flex-wrap:wrap}
+.card .count{font-size:28px;font-weight:800}
+.card .pct{font-size:28px;font-weight:800}
+.card .label{font-size:13px;opacity:.7;margin-top:6px}
+.card-pos{background:linear-gradient(135deg,#e8f5e9,#c8e6c9);color:#1b5e20}
+.card-neg{background:linear-gradient(135deg,#ffebee,#ffcdd2);color:#b71c1c}
+.card-neu{background:linear-gradient(135deg,#eceff1,#cfd8dc);color:#37474f}
+.charts{display:grid;grid-template-columns:1fr 1.5fr;gap:16px;margin-bottom:24px}
+.chart-box{background:#fff;border-radius:14px;padding:20px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.chart-box h3{font-size:16px;font-weight:700;margin-bottom:12px;color:#1a1a2e}
+.insights{margin-bottom:24px}
+.insight-block{background:#fff;border-radius:14px;margin-bottom:14px;box-shadow:0 1px 4px rgba(0,0,0,.06);overflow:hidden}
+.insight-header{display:flex;align-items:center;padding:16px 20px;cursor:pointer;user-select:none;gap:12px}
+.insight-header .badge{display:inline-block;padding:3px 12px;border-radius:20px;font-size:13px;font-weight:700;color:#fff}
+.badge-pos{background:#2e7d32}.badge-neg{background:#c62828}.badge-neu{background:#546e7a}
+.insight-header .count{font-size:14px;opacity:.7}
+.insight-header .arrow{font-size:18px;transition:transform .3s;margin-left:auto}
+.insight-block.open .arrow{transform:rotate(180deg)}
+.insight-body{display:none;padding:0 20px 20px 48px}
+.insight-block.open .insight-body{display:block}
+.insight-body p{margin-bottom:8px;font-size:14px;line-height:1.8}
+.insight-body .summary-para{font-size:15px;line-height:2;color:#2c3e50;background:#f8f9fa;border-left:4px solid #90a4ae;padding:14px 18px;border-radius:0 8px 8px 0;margin-bottom:14px}
+.badge-pos-para{border-left-color:#43a047!important}
+.badge-neg-para{border-left-color:#e53935!important}
+.badge-neu-para{border-left-color:#78909c!important}
+.insight-body .tone{color:#666;font-style:italic}
+.insight-body .focus-area{margin:6px 0;padding-left:12px;border-left:3px solid #ddd}
+.insight-body .focus-area.hot{border-color:#ff6f00}.insight-body .focus-area.warm{border-color:#ffa726}.insight-body .focus-area.cool{border-color:#90a4ae}
+.insight-body .quotes{background:#fafafa;border-radius:8px;padding:12px 16px;margin-top:8px}
+.insight-body .quotes .q{display:block;padding:3px 0;color:#555;font-size:13px}
+.insight-body .topics-list{font-size:13px;color:#666;margin-top:4px}
+.topic-table{width:100%;border-collapse:collapse;margin-top:12px;font-size:13px}
+.topic-table th{background:#1a1a2e;color:#fff;padding:7px 12px;text-align:center;font-weight:600}
+.topic-table th:first-child{text-align:left}
+.topic-table td{padding:6px 12px;border-bottom:1px solid #eee;text-align:center}
+.topic-table td:first-child{text-align:left;font-weight:500;color:#2c3e50}
+.topic-table tr:hover{background:#f5f7fa}
+.topic-table .td-pos{color:#2e7d32;font-weight:600}
+.topic-table .td-neg{color:#c62828;font-weight:600}
+.topic-table .td-neu{color:#546e7a}
+.download-section{background:#fff;border-radius:14px;padding:24px;box-shadow:0 1px 4px rgba(0,0,0,.06);text-align:center}
+.download-section h3{font-size:18px;font-weight:700;margin-bottom:6px}
+.download-section .note{font-size:13px;color:#999;margin-bottom:16px}
+.download-section .btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.download-section button{padding:10px 24px;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;transition:all .2s}
+.btn-csv{background:#1a1a2e;color:#fff}.btn-json{background:#37474f;color:#fff}.btn-xlsx{background:#2e7d32;color:#fff}
+.download-section button:hover{opacity:.85;transform:translateY(-1px)}
+footer{text-align:center;padding:20px;color:#aaa;font-size:12px}
+@media(max-width:768px){.cards{grid-template-columns:1fr}.charts{grid-template-columns:1fr}}</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <h1>终末地-1.3下半-YouTube · 舆情分析报告</h1>
+  <div class="sub">
+    <span>📊 总评论 466 条</span>
+    <span>📅 2026-06-30 11:23</span>
+    <span>🎮 终末地</span>
+    <span>📦 1.3下半</span>
+    <span>📱 YouTube</span>
+    <span>🏷 话题数 13</span>
+  </div>
+</header>
+
+<section class="cards">
+  <div class="card card-pos">
+    <div class="emoji">😊</div>
+    <div class="numbers"><span class="count">213</span> <span class="pct">(45.7%)</span></div>
+    <div class="label">正面评论</div>
+  </div>
+  <div class="card card-neg">
+    <div class="emoji">😡</div>
+    <div class="numbers"><span class="count">21</span> <span class="pct">(4.5%)</span></div>
+    <div class="label">负面评论</div>
+  </div>
+  <div class="card card-neu">
+    <div class="emoji">😐</div>
+    <div class="numbers"><span class="count">232</span> <span class="pct">(49.8%)</span></div>
+    <div class="label">中性评论</div>
+  </div>
+</section>
+
+<section class="charts">
+  <div class="chart-box">
+    <h3>📊 情感分布</h3>
+    <canvas id="sentimentChart"></canvas>
+  </div>
+  <div class="chart-box">
+    <h3>🔥 话题热度 Top 10</h3>
+    <canvas id="topicChart"></canvas>
+    <table class="topic-table" style="margin-top:16px">
+      <thead><tr><th>话题</th><th>总量</th><th>正面</th><th>负面</th><th>中性</th></tr></thead>
+      <tbody id="topicTableBody"></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="insights">
+  <h2 style="font-size:20px;font-weight:700;margin-bottom:14px;color:#1a1a2e;">💡 情感分析洞察</h2>
+  <div class="insight-block">
+<div class="insight-header" onclick="this.parentElement.classList.toggle('open')">
+  <span class="badge badge-pos">正面情感</span>
+  <span class="count">213 条（45.7%）</span>
+  <span class="arrow">▾</span>
+</div>
+<div class="insight-body">
+  <p class="summary-para badge-pos-para">卡缪的角色曲是这批英语评论中讨论热度最高的话题。这首电子舞曲风格的音乐由此前负责过危机合约曲目的制作人制作，玩家在音乐平台上找到完整版后反响热烈，大量玩家直接表示鹰角网络是音乐公司而非游戏公司。卡缪的走路姿态和气场表现被反复用aura farming来形容，玩家认为他刻意却迷人的气场表现是角色设计的亮点。卡缪与主角的握手拉扯演出被反复讨论，玩家解读为兄弟时刻和暧昧暗示的双重含义。罗西的裙摆尾巴裁剪设计被逐帧分析。与绝区零的雨果和崩铁的丹恒并列为渴望三人组。企鹅咕咕嘎嘎的萌系短视频贡献了大量正面互动。鹰角网络的整体音乐产出能力获得了高度一致的正面共识。</p>
+  <p class="tone">情感基调：以卡缪角色曲的音乐品质和走路姿态的气场表现为核心，鹰角音乐产出能力获得高度共识</p>
+  <div class="focus-area hot"><strong>🔥 卡缪角色曲制作水准</strong>：角色曲由危机合约制作人制作，在音乐平台找到完整版后反响热烈，鹰角被称为音乐公司</div><div class="focus-area hot"><strong>🔥 卡缪走路姿态与气场表现</strong>：卡缪的走路姿态和气场被反复用aura farming形容，被认为是角色设计亮点</div><div class="focus-area warm"><strong>📌 卡缪与主角握手拉扯演出</strong>：握手拉扯被解读为兄弟时刻和暧昧暗示的双重含义</div><div class="focus-area warm"><strong>📌 罗西裙摆尾巴裁剪设计</strong>：罗西裙摆处为尾巴留出的裁剪设计被逐帧分析</div><div class="focus-area cool"><strong>• 渴望三人组跨游戏对比</strong>：卡缪与绝区零雨果和崩铁丹恒并列为渴望三人组</div>
+  <div class="quotes"><span class="q">「鹰角是音乐公司吧游戏只是副业」</span><span class="q">「卡缪的aura farming太迷人了」</span><span class="q">「握手拉扯那段演出太精彩了」</span><span class="q">「罗西裙摆的裁剪设计太用心了」</span><span class="q">「卡缪雨果丹恒是渴望三人组」</span></div>
+  <p style='margin-top:10px;font-weight:600;'>高频正面话题</p><div class='topics-list'><div>• 角色/人物：115 条（占该话题 50%）</div><div>• 萌系/日常：62 条（占该话题 94%）</div><div>• 音乐/配音：33 条（占该话题 59%）</div><div>• 画面/美术：27 条（占该话题 61%）</div><div>• 卡池/抽卡：14 条（占该话题 58%）</div></div>
+</div>
+</div><div class="insight-block">
+<div class="insight-header" onclick="this.parentElement.classList.toggle('open')">
+  <span class="badge badge-neg">负面情感</span>
+  <span class="count">21 条（4.5%）</span>
+  <span class="arrow">▾</span>
+</div>
+<div class="insight-body">
+  <p class="summary-para badge-neg-para">负面反馈集中在两个方向。第一是AI内容争议，部分玩家直接将某些动画短视频标记为AI生成内容，要求鹰角使用CGI而非AI制作。第二是抽卡体验问题，有玩家在卡缪池子中投入大量抽卡次数未获得目标角色。此外有玩家表示不喜欢咕咕嘎嘎的内容。整体负面评论数量极少，主要集中在制作方式和个别内容偏好上。</p>
+  <p class="tone">情感基调：负面情绪极少且分散，AI制作方式是唯一值得关注的批评方向</p>
+  <div class="focus-area warm"><strong>📌 AI动画制作方式争议</strong>：部分玩家将动画短视频标记为AI生成内容，要求改用CGI</div><div class="focus-area cool"><strong>• 卡缪池子抽卡体验</strong>：有玩家在卡缪池子投入大量抽卡未获得目标角色</div>
+  <div class="quotes"><span class="q">「这是AI生成的垃圾内容」</span><span class="q">「请用CGI而不是AI」</span><span class="q">「抽卡没出卡缪太倒霉了」</span><span class="q">「不喜欢咕咕嘎嘎的内容」</span></div>
+  <p style='margin-top:10px;font-weight:600;'>高频负面话题</p><div class='topics-list'><div>• 角色/人物：10 条（占该话题 4%）</div><div>• 音乐/配音：1 条（占该话题 2%）</div><div>• 卡池/抽卡：1 条（占该话题 4%）</div><div>• 社区/运营：1 条（占该话题 8%）</div></div>
+</div>
+</div><div class="insight-block">
+<div class="insight-header" onclick="this.parentElement.classList.toggle('open')">
+  <span class="badge badge-neu">中性情感</span>
+  <span class="count">232 条（49.8%）</span>
+  <span class="arrow">▾</span>
+</div>
+<div class="insight-body">
+  <p class="summary-para badge-neu-para">中性评论呈现出强烈的社区玩梗文化和角色信息交换特征。不要罗西的梗源自赛马娘，在英语评论中被反复使用。卡缪与阿达希尔的关系引发大量讨论，包括两人对比和存在感被抢的调侃。角色曲寻歌信息交换极为频繁，大量玩家在评论区询问歌名和收听渠道。抽卡信息交换包括五十对五十输赢分享和极端出货对比。跨游戏对比是另一大中性话题，玩家将卡缪与鸣潮的罗克比气场、与高达的卡缪比名字来源。考据玩家分析了终末仪式角色的档案文本和纳采赫设定。</p>
+  <p class="tone">情感基调：玩梗文化和信息交换活跃，不要罗西梗和寻歌信息是最高频的互动模式</p>
+  <div class="focus-area hot"><strong>🔥 不要罗西梗文化传播</strong>：源自赛马娘的梗模板被反复使用，成为社区身份认同符号</div><div class="focus-area warm"><strong>📌 卡缪与阿达希尔关系讨论</strong>：两人对比和存在感被抢的调侃频繁出现</div><div class="focus-area warm"><strong>📌 角色曲寻歌信息交换</strong>：大量玩家在评论区询问歌名和收听渠道</div><div class="focus-area cool"><strong>• 抽卡信息交换</strong>：五十对五十输赢分享和极端出货对比</div>
+  <div class="quotes"><span class="q">「大家不要对罗西做那个」</span><span class="q">「卡缪就是年轻版的阿达希尔」</span><span class="q">「这歌叫什么名字」</span><span class="q">「五十对五十歪了」</span><span class="q">「卡缪和鸣潮的罗克气场很像」</span></div>
+  <p style='margin-top:10px;font-weight:600;'>高频中性话题</p><div class='topics-list'><div>• 角色/人物：104 条（占该话题 45%）</div><div>• 音乐/配音：22 条（占该话题 39%）</div><div>• 画面/美术：17 条（占该话题 39%）</div><div>• 卡池/抽卡：9 条（占该话题 38%）</div><div>• 版本/更新：5 条（占该话题 29%）</div></div>
+</div>
+</div>
+</section>
+
+<section class="download-section">
+  <h3>📥 下载完整标注数据</h3>
+  <p class="note">共 466 条评论的情感分析标注结果，含评论内容、情感标签、置信度、主题词</p>
+  <div class="btns">
+    <button class="btn-csv" onclick="downloadCSV()">📄 下载 CSV</button>
+    <button class="btn-json" onclick="downloadJSON()">📋 下载 JSON</button>
+    <button class="btn-xlsx" onclick="downloadExcel()">📊 下载 Excel</button>
+  </div>
+</section>
+
+<footer>
+  Generated by ACG Sentiment Analysis Skill · 2026-06-30 11:23
+</footer>
+</div>
+
+<script>
+const EMBEDDED_DATA = {"columns": ["comment", "sentiment", "sentiment_confidence", "topics"], "rows": [["菲比鼻子真靈,咕嘎每次有吃都會出現😅", "neutral", "0.6", "[\"角色/人物\"]"], ["真是好朋友,再等下去可能連骨頭都沒有了", "neutral", "0.6", "[]"], ["一群唐寶超自私", "negative", "0.8", "[]"], ["別人搶著要吃肯定香唷~", "neutral", "0.6", "[]"], ["they teleport when there is food available? time to cook!", "neutral", "0.6", "[]"], ["es como cuando eres el único que lleva agua en la asignatura de educación física xd", "neutral", "0.6", "[]"], ["不夠她們吃😅", "neutral", "0.6", "[]"], ["don't be so greedy gugu gaga ❤❤❤❤", "positive", "0.6", "[\"萌系/日常\"]"], ["我也想❤❤❤❤", "positive", "0.7", "[\"萌系/日常\"]"], ["ese gugugaga es ia😂😂😂😂😂", "neutral", "0.6", "[\"角色/人物\"]"], ["good to see the trio getting along ❤❤❤❤", "positive", "0.8", "[\"角色/人物\", \"萌系/日常\"]"], ["ruk mat jaldi jaldi message bhej do copy ka 📗📘", "neutral", "0.6", "[]"], ["so cute ❤", "positive", "0.8", "[\"萌系/日常\"]"], ["蝗虫三人组。", "negative", "0.8", "[]"], ["hindi aur english ka math ka copy ka homework kar liya 5 tarikh ko upyog mein mera to mujhe mila tha tujhe bhi tum itni mahiti maine tujhe dekha tha tujhe video teri do copy download😊 patanjali navya ka hua hoga hi nahin hoga chal theek hai bye mobile dekh rahi thi bye-bye ✋✋👏", "positive", "0.7", "[\"角色/人物\", \"萌系/日常\"]"], ["😡 nooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo", "negative", "0.7", "[]"], ["disco monster time 😜🤘😝🤘", "neutral", "0.6", "[]"], ["🙂🤟💟🍭💗🍒🍦🍓🧁🧋🥤", "neutral", "0.6", "[]"], ["she look like she’s dumb😅", "positive", "0.7", "[\"角色/人物\", \"画面/美术\"]"], ["poor gugu gaga 😢", "neutral", "0.6", "[]"], ["ขําเกิน 😂😂😂", "neutral", "0.6", "[]"], ["gugugaga:🌒~🌘", "neutral", "0.6", "[\"角色/人物\"]"], ["😂😂 these vids don’t make sense but i still like them", "positive", "0.7", "[]"], ["hahahahahahah", "neutral", "0.6", "[\"角色/人物\", \"萌系/日常\"]"], ["el demonio es...gugu gaga", "neutral", "0.6", "[]"], ["ay 3 angeles y 1 demonio", "neutral", "0.6", "[]"], ["she got so scared her eyes went to sides", "positive", "0.7", "[\"角色/人物\", \"角色设计\"]"], ["🐧🍌👽❤️‍🩹💃", "positive", "0.9", "[\"萌系/日常\"]"], ["Gugu Gaga 👶🐧 (Samantha) \"(medo) 😣 Ah não o monstro na sombra 👹😣, por favor saí da aqui seu monstro por favor 😣 (medo)\"", "positive", "0.7", "[\"角色/人物\", \"萌系/日常\"]"], ["❤️😂😂😂😂😂😂😂😂😂😂🎉🎉😂😂😂🎉🎉😂😂😂😂😂😂😂😂😂😂😂", "positive", "0.9", "[\"萌系/日常\"]"], ["cutest birds", "positive", "0.7", "[\"萌系/日常\"]"], ["このペンギン頭おかしい", "neutral", "0.6", "[]"], ["so funny", "positive", "0.8", "[\"萌系/日常\"]"], ["鶏もお前が嫌いだぁ😂", "negative", "0.7", "[]"], ["he will come, i will come, we all will come", "neutral", "0.6", "[\"角色/人物\"]"], ["bro really made a mv just to aura farm", "positive", "0.7", "[\"音乐/配音\", \"画面/美术\", \"肝度/养成\"]"], ["welp, there goes another new track for my late night driving playlist", "positive", "0.7", "[\"角色/人物\", \"版本/更新\"]"], ["synth/edm was not what i expected from camille's ep, but as usual, hg knocks it out of the park.", "neutral", "0.6", "[\"角色/人物\", \"音乐/配音\"]"], ["under my breath i whisper, \"this song is a banger.\"", "positive", "0.7", "[\"角色/人物\", \"音乐/配音\"]"], ["good luck, everyoneeee❤❤🌹 i wish all of you get camille!", "positive", "0.8", "[\"角色/人物\", \"卡池/抽卡\", \"萌系/日常\"]"], ["the song 👌🤌 the visuals 👌🤌✨️", "positive", "0.8", "[\"角色/人物\", \"音乐/配音\", \"画面/美术\"]"], ["bro is just straight-up aura farming with this song🔥", "positive", "0.7", "[\"角色/人物\", \"音乐/配音\", \"画面/美术\"]"], ["camille aura farming in a berlin night club in the late 90's", "neutral", "0.6", "[\"角色/人物\", \"画面/美术\", \"肝度/养成\"]"], ["waiiitttt the way he bent his spear to jump, whaaaa", "neutral", "0.6", "[\"角色/人物\"]"], ["best character so far! this song is very addicting too! keep more characters like him coming~", "positive", "0.8", "[\"角色/人物\", \"音乐/配音\"]"], ["don't know why, but this makes me have og arknight vibes.", "positive", "0.7", "[\"角色/人物\"]"], ["it was perfect, perfect. down to the last every minutes detail", "positive", "0.7", "[\"角色/人物\"]"], ["did not expect edm for him, but hey, i love edm 💃🕺", "positive", "0.7", "[\"音乐/配音\"]"], ["so we're all collectively here simping for this man ahhhhh he's so coooollllll 🫣", "neutral", "0.6", "[\"角色/人物\"]"], ["yeah music companies disguised as game company as always", "neutral", "0.6", "[\"音乐/配音\"]"], ["peak music company, glory to hypergryph", "positive", "0.8", "[\"音乐/配音\", \"社区/运营\"]"], ["you know how special he is when he has his own song❤❤", "positive", "0.8", "[\"角色/人物\", \"音乐/配音\", \"萌系/日常\"]"], ["bro looks more like a main push than zhuang fangyi💀 and im here for it", "positive", "0.6", "[\"画面/美术\"]"], ["camille camille camille", "neutral", "0.6", "[\"角色/人物\"]"], ["hypergryph feed us well. glory to hypergryph ❤", "positive", "0.8", "[\"社区/运营\", \"萌系/日常\"]"], ["whoa the music is perfect", "positive", "0.7", "[\"角色/人物\", \"音乐/配音\"]"], ["truly a music company, bởi vì cho từng mỗi nhân vật thôi mà lúc nào cũng có 3 đến 5 bản nhạc mới ❤.", "positive", "0.7", "[\"音乐/配音\", \"萌系/日常\"]"], ["need this on spotify! 🧛🏻", "neutral", "0.6", "[\"角色/人物\", \"音乐/配音\"]"], ["lets go my fav music company!", "positive", "0.8", "[\"音乐/配音\"]"], ["this is absolutely amazing, glory to hypergryph!", "positive", "0.8", "[\"角色/人物\", \"社区/运营\"]"], ["laevatain ep: \"are you looking back\" camille ep: \"no more looking back at yesterday\"", "positive", "0.7", "[\"角色/人物\", \"画面/美术\"]"], ["this is a sign. if he sells well, it means hg will release more males", "neutral", "0.6", "[\"角色/人物\", \"版本/更新\"]"], ["my husband loves to aura farm every chance he gets, doesn't he? 💕 another absolute banger from hypergryph !", "positive", "0.95", "[\"角色/人物\", \"画面/美术\", \"社区/运营\"]"], ["i'm surprised camile ep is not the one in the character story video, not complain tho, this one is good. however, we do need that one too.", "positive", "0.7", "[\"角色/人物\", \"剧情/故事\"]"], ["i'm in love", "positive", "0.7", "[]"], ["is time to camille everything", "neutral", "0.6", "[\"角色/人物\"]"], ["must pull all the way🗣️🗣️🔥🔥", "positive", "0.7", "[\"角色/人物\", \"卡池/抽卡\"]"], ["he came home guys! early, 50/50 won, and so did his weapon!", "neutral", "0.6", "[\"角色/人物\", \"战斗/玩法\"]"], ["hg being music company in disguise as usuall hahahhah", "neutral", "0.6", "[\"角色/人物\", \"音乐/配音\", \"萌系/日常\"]"], ["every single trailer been a masterpeace! this one in particula have so much screenshots potential, very beautiful presentation", "positive", "0.7", "[\"角色/人物\", \"画面/美术\", \"版本/更新\"]"], ["just found out that this was made by clstr 56 aka terry zhong- the same producer for operation dawnseeker (cc#8) in og arknights. so good <3", "positive", "0.8", "[\"角色/人物\", \"音乐/配音\", \"竞品/对比\"]"], ["so peak 😭", "positive", "0.8", "[]"], ["the music never fails in ake! so hyped for camille ❤🦇", "positive", "0.8", "[\"角色/人物\", \"音乐/配音\", \"萌系/日常\"]"], ["love to see the effort in making a character that feels different from the others", "positive", "0.7", "[\"角色/人物\"]"], ["excuse me sir, there's vampire in my synthwave/edm", "neutral", "0.6", "[\"音乐/配音\"]"], ["the cc music and now this! these new songs have been killing it! straight fire! keep it up!", "positive", "0.8", "[\"角色/人物\", \"音乐/配音\", \"版本/更新\"]"], ["john \"camille\" endfield.", "neutral", "0.6", "[\"角色/人物\", \"竞品/对比\"]"], ["1:32 straight fire 🔥🔥🔥", "positive", "0.8", "[]"], ["this is kinda fire ngl.", "positive", "0.7", "[\"角色/人物\"]"], ["this is insane, i absolutely love his aesthetics ❤", "positive", "0.8", "[\"角色/人物\", \"萌系/日常\"]"], ["2:07 my body is ready", "neutral", "0.6", "[\"角色设计\"]"], ["this is my time to shine", "neutral", "0.6", "[\"角色/人物\"]"], ["thank you for all the desktop wallpapers 💋", "neutral", "0.6", "[\"角色/人物\"]"], ["two absolute bangers, my man will come home from the war. or killing his brother, whatever he’s been up to.", "positive", "0.6", "[\"角色/人物\", \"剧情/故事\"]"], ["been waiting on pins and needles for this guy. best of luck to everyone! 🍀🍀🍀 thanks for another great soundtrack.", "positive", "0.8", "[\"角色/人物\", \"音乐/配音\", \"卡池/抽卡\"]"], ["i just finished the story: holy peak, perfect cliffhanger too! ❤", "positive", "0.9", "[\"角色/人物\", \"剧情/故事\", \"萌系/日常\"]"], ["este man farmea aura con cada video que le sacan🔥", "positive", "0.7", "[\"画面/美术\", \"肝度/养成\"]"], ["enfield (hypergraph) be dropping bangers every now and then are they really a game company?", "positive", "0.95", "[]"], ["such a nice vibe~", "neutral", "0.6", "[]"], ["he future skins will be peak.", "positive", "0.7", "[\"角色/人物\", \"角色设计\"]"], ["close enough, welcome back laterano churchstep", "neutral", "0.6", "[]"], ["damn this one is really good i love ittt", "positive", "0.9", "[\"角色/人物\"]"], ["so majestic. i have no more word.", "neutral", "0.6", "[]"], ["hypergryphs mvs are equal to none", "positive", "0.7", "[\"音乐/配音\", \"竞品/对比\", \"社区/运营\"]"], ["oh my god why is this track so good? trance? thank you so much hypergryph", "positive", "0.9", "[\"角色/人物\", \"音乐/配音\", \"社区/运营\"]"], ["trance music in 2026? omg gryphline no way you just gave me a nostalgia backlash to 2008! i will be rolling", "neutral", "0.6", "[\"音乐/配音\"]"], ["you guys killed it again. great job.", "positive", "0.7", "[]"], ["\"so you just need me to aurafarm while music is being played?\" - camille", "neutral", "0.6", "[\"角色/人物\", \"音乐/配音\", \"画面/美术\"]"], ["ok fine you won hg, i will get him.", "positive", "0.7", "[\"画面/美术\"]"], ["the best way to reveal a new character. keep it up! this bussin yall!", "positive", "0.8", "[\"角色/人物\", \"版本/更新\"]"], ["this is an absolute banger", "positive", "0.7", "[\"角色/人物\"]"], ["наконец то мои первые крутки на ивент персонажа будут потрачены. жду. трек шикарный <з", "neutral", "0.6", "[]"], ["got him in free 10 pull from mifu’s bannner thanks hypergryph glory to hypergryph 🛐", "positive", "0.7", "[\"角色/人物\", \"卡池/抽卡\", \"社区/运营\"]"], ["es increíble la música de este juego 🔥👍🏻", "positive", "0.8", "[]"], ["que música boa. 👏🏽 que venha camille. 🙌🏽", "neutral", "0.6", "[\"角色/人物\"]"], ["wow that was amazing! looks like we might be getting two eps? the operator story track is different and sounded like forts, crazy!", "positive", "0.9", "[\"角色/人物\", \"剧情/故事\", \"音乐/配音\"]"], ["знаете...если бы он станцевал в этом видео я был бы даже не против😋", "neutral", "0.6", "[]"], ["i just got himmmmm ❤❤😊😊😊", "positive", "0.8", "[\"萌系/日常\"]"], ["so excited🎉", "positive", "0.8", "[\"萌系/日常\"]"], ["i need a full version of this song! i am in love 😍", "positive", "0.8", "[\"角色/人物\", \"音乐/配音\", \"版本/更新\"]"], ["may all camille wanters be camille havers!", "neutral", "0.6", "[\"角色/人物\", \"卡池/抽卡\"]"], ["new song for endfield 👀👀", "positive", "0.7", "[\"音乐/配音\", \"竞品/对比\", \"版本/更新\"]"], ["trance ♥", "neutral", "0.6", "[\"音乐/配音\"]"], ["i don't know if it'll be true for me but i hope this is the silverash of endfield sell more camille n", "positive", "0.7", "[\"角色/人物\", \"竞品/对比\"]"], ["please put this on spotify! loving it :)", "positive", "0.7", "[\"角色/人物\", \"音乐/配音\"]"], ["woah i really like the typography", "positive", "0.8", "[\"角色/人物\", \"画面/美术\"]"], ["1:13 instant fold 🧎🏽‍♀️", "neutral", "0.6", "[]"], ["this one's sick", "neutral", "0.6", "[\"角色/人物\"]"], ["more synthwave letsgooooo", "neutral", "0.6", "[\"音乐/配音\"]"], ["yeaaah maan, maaa! hes so handsome 😭🥀❤", "positive", "0.8", "[\"萌系/日常\"]"], ["camillleeeeeeeeeee", "neutral", "0.6", "[]"], ["we need the song from his character trailer 🙏😔", "positive", "0.7", "[\"角色/人物\", \"音乐/配音\", \"版本/更新\"]"], ["got him in 20 pulls 🙃🙃", "neutral", "0.6", "[\"卡池/抽卡\"]"], ["i love this! ❤️ i got the character but one thing i would have loved if the halo moved up and down it would have been amazing! ✨", "positive", "0.95", "[\"角色/人物\", \"萌系/日常\"]"], ["cant wait❤", "positive", "0.7", "[\"萌系/日常\"]"], ["they are a music company that has a game ❤", "positive", "0.7", "[\"音乐/配音\", \"萌系/日常\"]"], ["i love this song! i also love the animations. <3", "positive", "0.7", "[\"角色/人物\", \"音乐/配音\", \"画面/美术\"]"], ["this song is such a banger! ❤", "positive", "0.8", "[\"角色/人物\", \"音乐/配音\", \"萌系/日常\"]"], ["pls add motobike for camille", "neutral", "0.6", "[\"角色/人物\"]"], ["camille", "neutral", "0.6", "[\"角色/人物\"]"], ["why is this so cool", "positive", "0.7", "[\"角色/人物\"]"], ["argh so good", "positive", "0.8", "[]"], ["crazy good", "positive", "0.7", "[]"], ["the song is kinda dope", "neutral", "0.6", "[\"角色/人物\", \"音乐/配音\"]"], ["17 minutes left 90 pulls and 4 issue 😭😭😭💀", "positive", "0.6", "[\"卡池/抽卡\"]"], ["absolute temazo ✋🗿✋", "neutral", "0.6", "[]"], ["sasugaaaaaa hg sama", "neutral", "0.6", "[\"角色/人物\"]"], ["absolute hypergryph.", "positive", "0.7", "[\"社区/运营\"]"], ["i got camille with first free 10 pull this time is my total lucky day", "neutral", "0.6", "[\"角色/人物\", \"卡池/抽卡\"]"], ["i hope we will see him more in stories❤❤❤", "positive", "0.7", "[\"萌系/日常\"]"], ["here we go", "neutral", "0.6", "[]"], ["camilleeee", "neutral", "0.6", "[\"角色/人物\"]"], ["yes camille, we does see the fit.", "positive", "0.7", "[\"角色/人物\"]"], ["holy this is awesome", "positive", "0.7", "[\"角色/人物\"]"], ["one more hour", "neutral", "0.6", "[]"], ["sorry akekuri, looks like you're going to the bench, at least until you're randomly meta in a future cc.", "positive", "0.7", "[\"角色/人物\", \"画面/美术\"]"], ["this is a helluva trailer", "neutral", "0.6", "[\"角色/人物\", \"版本/更新\"]"], ["also i love this video. n those wings reminds me of chaos fro. vincent valentine's transformation. but instead of a gun its a blood spear.", "positive", "0.7", "[\"角色/人物\"]"], ["absolutely the hottest character yet!❤❤❤", "positive", "0.7", "[\"角色/人物\", \"萌系/日常\"]"], ["oh boy i heard some endmin girls are screaming", "neutral", "0.6", "[\"角色/人物\"]"], ["(what a banger) waiting room for proxy ♥", "positive", "0.7", "[\"版本/更新\"]"], ["if i had a nickel for every time alecks le voiced a tall black haired male character in a gacha 1.3 2nd half i would have 2 nickels which isnt alot but its weird that it happened twice", "neutral", "0.6", "[\"角色/人物\", \"卡池/抽卡\", \"画面/美术\"]"], ["take my money!", "neutral", "0.6", "[\"氪金/付费\"]"], ["this for my dear laevatain, wish me luck fellas, i only have 500 oroberyl and a dream, pls my fellow gamers, lend me your luck.", "positive", "0.7", "[\"角色/人物\", \"卡池/抽卡\"]"], ["i will make a dps out of you my boy", "neutral", "0.6", "[\"角色/人物\", \"战斗/玩法\"]"], ["wth! this is incredible! :d", "neutral", "0.6", "[\"角色/人物\"]"], ["give it to meeee goth femboyyyy", "neutral", "0.6", "[\"角色/人物\"]"], ["why bro aura farming in every second", "neutral", "0.6", "[\"画面/美术\", \"肝度/养成\"]"], ["come home please", "neutral", "0.6", "[]"], ["обновления пришли утром ...", "neutral", "0.6", "[]"], ["the second threat to your heterosexuality after the pogranichnik, by the way.", "neutral", "0.6", "[\"角色/人物\"]"], ["he is the most attractive male character in a gacha i've ever seen i lost it this is what i've saved my pulls since launch for 😩", "negative", "0.7", "[\"角色/人物\", \"音乐/配音\", \"卡池/抽卡\"]"], ["hot boi with fire song !", "positive", "0.7", "[\"音乐/配音\"]"], ["those beats o_0 holy shit", "neutral", "0.6", "[]"], ["i adore him tot", "neutral", "0.6", "[]"], ["waaaa ya lo quiero xd hahaha", "neutral", "0.6", "[\"角色/人物\", \"萌系/日常\"]"], ["glory to hypergryph", "positive", "0.7", "[\"社区/运营\"]"], ["i've gone all in for this man... i hadn't pulled since lava girl. no regrets. would've only hoarded waiting for the next male character anyway.", "neutral", "0.6", "[\"角色/人物\", \"卡池/抽卡\", \"版本/更新\"]"], ["where is the zeta gundam ?", "neutral", "0.6", "[\"角色/人物\"]"], ["got him by headhunting dossier. wtf man! free😂. but i really don't wanna replace my akekuri, i am playing with her from the beginning. lol", "positive", "0.8", "[\"角色/人物\", \"萌系/日常\"]"], ["aura farm official mv", "neutral", "0.6", "[\"音乐/配音\", \"画面/美术\", \"社区/运营\"]"], ["beats 🔥", "positive", "0.7", "[]"], ["got 2 of him but sadly failed to get his weapon", "neutral", "0.6", "[\"角色/人物\", \"战斗/玩法\"]"], ["i've come", "neutral", "0.6", "[]"], ["i am back just for him", "neutral", "0.6", "[]"], ["i feel rossi's ep matches him more. but kudos, this ep is good", "positive", "0.7", "[\"角色/人物\"]"], ["edge lord asf", "neutral", "0.6", "[]"], ["he makes me want to download the game omg", "neutral", "0.6", "[\"角色/人物\"]"], ["что за красота", "neutral", "0.6", "[]"], ["i love him, maxed him out and the weapon", "positive", "0.7", "[\"角色/人物\", \"战斗/玩法\"]"], ["как всегда песни просто шик", "neutral", "0.6", "[]"], ["i got him at hard pityyy but at least he came homeeee😭😭😭😭😭😭", "positive", "0.7", "[\"角色/人物\", \"卡池/抽卡\"]"], ["track is fire! make a trance\\synth long version! say hi to me skport: zionia", "positive", "0.7", "[\"音乐/配音\", \"版本/更新\"]"], ["ещё 5 часов до тебя ❤", "positive", "0.7", "[\"萌系/日常\"]"], ["the description reminds me of we are empire", "neutral", "0.6", "[\"角色/人物\"]"], ["spotify pls?", "neutral", "0.6", "[\"音乐/配音\"]"], ["bro is solo aura famring", "neutral", "0.6", "[\"画面/美术\"]"], ["acting calm like im not screaming behind the screen🐧", "positive", "0.7", "[\"角色/人物\", \"萌系/日常\"]"], ["finally a male to pull alskdjaslkdj", "neutral", "0.6", "[\"卡池/抽卡\"]"], ["ohh the drip!", "neutral", "0.6", "[\"角色/人物\"]"], ["god he is so hot! i cant waitttttttt", "neutral", "0.6", "[\"角色/人物\"]"], ["no one has picked up the fact they have used the clockwork area for the music video", "neutral", "0.6", "[\"角色/人物\", \"音乐/配音\"]"], ["camillllllleeeeeeeee uwoghhhhhhh", "neutral", "0.6", "[]"], ["synth/edm! ! are we sure he is not a sankta", "neutral", "0.6", "[\"角色/人物\", \"音乐/配音\"]"], ["🤚absolute cinema 🖐️", "positive", "0.7", "[]"], ["cool mv😮", "positive", "0.7", "[\"音乐/配音\"]"], ["50 pulls and a dream", "neutral", "0.6", "[\"卡池/抽卡\"]"], ["mais 1 mastepiece", "neutral", "0.6", "[]"], ["everything are perfect🤌✨️✨️", "positive", "0.9", "[]"], ["he’s so fine", "positive", "0.7", "[\"画面/美术\"]"], ["he's always aura farming", "neutral", "0.6", "[\"画面/美术\", \"肝度/养成\"]"], ["imagine this becomes the reason we will get a warfarin alter 😅", "neutral", "0.6", "[\"角色/人物\"]"], ["it's all over the screen...", "neutral", "0.6", "[\"角色/人物\"]"], ["it will be such a waste if they do all this, then we never see him again. they did not have to go this hard on his music but so glad they did", "neutral", "0.6", "[\"角色/人物\", \"音乐/配音\"]"], ["man hes cute i would love for the mc and him to be more then friends like a love interest or something", "positive", "0.9", "[\"角色/人物\", \"萌系/日常\"]"], ["i was expecting lessing vibe theme", "neutral", "0.6", "[\"音乐/配音\"]"], ["my game keep crashing hg 😭 but luckily i got him in 60 pulls 😋", "positive", "0.7", "[\"卡池/抽卡\"]"], ["ok but what was the song from his trailer then?", "neutral", "0.6", "[\"角色/人物\", \"音乐/配音\", \"版本/更新\"]"], ["he looks like he's modelling for hugo boss", "positive", "0.7", "[\"角色/人物\", \"画面/美术\", \"战斗/玩法\"]"], ["guys please please check out the full version too, on yt music and spotify, it's so good sounds like something armin van buuren would make, good job to hypergryph!", "positive", "0.95", "[\"角色/人物\", \"音乐/配音\", \"版本/更新\"]"], ["i'm late", "neutral", "0.6", "[]"], ["l luv u my shaylaaaa", "neutral", "0.6", "[]"], ["game is so banger but please for the love of perlica make the endmin being voiced like other characters (especially with a so good seiyuu), going from endmin voice to link syndrom really break the rythm", "positive", "0.95", "[\"角色/人物\", \"战斗/玩法\"]"], ["my rossi/mi fu and laev teams are gonna be crazy with him", "neutral", "0.6", "[\"角色/人物\"]"], ["cenima 🎉", "positive", "0.7", "[\"萌系/日常\"]"], ["i wish its a bit longer, its pretty good", "positive", "0.7", "[]"], ["у меня блин игра после вихода камиля начала лагать и вилетать при попитке сразится с противником жду патч с виправлением ошибок я ждал етого персонажа штоб нормально затестить его а тут такие баги я теперь вобще играть не могу бо я захожу в игру спавнюсь возле врагов и игра вилетает полностю етот баг мне испортил впечатление об камиле разработчики исправтє пожалуста етот баг я не могу нормально поиграть", "neutral", "0.6", "[]"], ["ещё 10 часов до банера, позже отпишу выбил или нет. со второй десятки выбил с1, но его оружие не выпало увы", "neutral", "0.6", "[]"], ["i don't have a good team for him but i'm pulling anyway.", "positive", "0.7", "[\"卡池/抽卡\"]"], ["это вампир? или муж главной злодейки который станет главным злодеем ? трек прикольный", "neutral", "0.6", "[]"], ["it's a strange but interesting gay bar ads...", "neutral", "0.6", "[]"], ["love it but why is it so shortt 😭 3min version plsplspslpsl", "positive", "0.8", "[\"版本/更新\"]"], ["nah they are ragebaiting me to pull for him", "neutral", "0.6", "[\"卡池/抽卡\"]"], ["i need him yesterday", "positive", "0.7", "[]"], ["banger alert!", "positive", "0.7", "[]"], ["\"who is touching ma child?\" \"dont touch the child!", "neutral", "0.6", "[\"角色/人物\"]"], ["\"do not do the rossi\" is the equivalent of \"do not the horse\" from umamusume lol", "positive", "0.7", "[\"角色/人物\", \"萌系/日常\"]"], ["she wants to show off her cloak", "positive", "0.7", "[\"角色/人物\"]"], ["'rossi's are blue, violets are red why am i here and i shall disappear", "neutral", "0.6", "[\"角色/人物\"]"], ["modded soup soup really like showing her tail", "positive", "0.8", "[\"角色/人物\"]"], ["\"yvonne, fluorite why you keep smiling while doing it bruh...\" *edmin*", "neutral", "0.6", "[\"音乐/配音\"]"], ["wait... those aren’t horse girls?", "neutral", "0.6", "[\"角色/人物\"]"], ["gah damn- wait rossi no!", "neutral", "0.6", "[\"角色/人物\"]"], ["not the child... not that child", "neutral", "0.6", "[\"角色/人物\"]"], ["neurons just turn up the notch", "neutral", "0.6", "[\"角色/人物\"]"], ["i'm too early... anyway do not the -red hood- rossi!", "neutral", "0.6", "[\"角色/人物\"]"], ["yo the way she lands i can’t get out of my head (my bad)", "negative", "0.7", "[\"角色/人物\"]"], ["they know what they're doing", "positive", "0.7", "[]"], ["tails are nice tails i shall now pet", "positive", "0.7", "[]"], ["i love the snake", "positive", "0.7", "[\"角色/人物\"]"], ["ye i'm not just looking at the tail", "neutral", "0.6", "[\"角色/人物\", \"画面/美术\"]"], ["well, the thing that they pose like that it's cuz they want you to equip some gears for them", "positive", "0.7", "[\"角色/人物\"]"], ["tangtang asking for it!", "neutral", "0.6", "[\"角色设计\"]"], ["i've done my rossi", "neutral", "0.6", "[\"角色/人物\"]"], ["yeah...tails", "neutral", "0.6", "[]"], ["this is sick!", "neutral", "0.6", "[\"角色/人物\"]"], ["what the hell is this content pro", "neutral", "0.6", "[\"角色/人物\"]"], ["i miss endfield man, game was so relaxing... no storage tho and i wouldn't trade it for me wuwa", "neutral", "0.6", "[\"竞品/对比\"]"], ["i really want a feature where rossi climbs on the endmin’s back. idk why i just do", "positive", "0.7", "[\"角色/人物\"]"], ["originally i was upset tangtang stole my rossi. she made up for it real quick.", "positive", "0.7", "[\"角色/人物\"]"], ["rossi is red. tang tang is blue. their tails are cute. risk 42.", "positive", "0.7", "[\"角色/人物\", \"萌系/日常\"]"], ["i know what u wanna do spuddle and you will not escape the tama wrath", "positive", "0.7", "[\"角色/人物\"]"], ["hey, if i had a cool tail, i would also proudly show it off", "positive", "0.8", "[]"], ["gween snake :3", "neutral", "0.6", "[]"], ["soup soup ❤❤❤", "positive", "0.7", "[\"萌系/日常\"]"], ["tang tang tang sahuuuuuuuurrrrrr", "neutral", "0.6", "[]"], ["\"because they like to show off their tails\" dawg its because the devs want money 😂", "positive", "0.8", "[\"角色/人物\", \"竞品/对比\", \"氪金/付费\"]"], ["yea... tails...", "neutral", "0.6", "[]"], ["tangtang?", "neutral", "0.6", "[]"], ["the tails arent at the ass? i didnt know the tails would be at the lower back", "positive", "0.7", "[\"角色/人物\"]"], ["as a sensei from blue archive,... *\"yes rossi! imitate them!\"* 😭😭😭", "positive", "0.8", "[\"角色/人物\", \"竞品/对比\"]"], ["roses are red, i have trauma, when i saw this video, i went into a gooning coma😢😢", "positive", "0.7", "[\"角色/人物\"]"], ["500 lupos", "neutral", "0.6", "[]"], ["bomboclattt", "neutral", "0.6", "[]"], ["but rossi tail is fluffy, i wanna touch it", "neutral", "0.6", "[\"角色/人物\"]"], ["\"white with a red wolf print \"😭🙏", "positive", "0.8", "[]"], ["yeah \"tails\"...", "neutral", "0.6", "[]"], ["her brother will be the wolf who will come and do the unspeakable thing to you if you dare to touch rossi, sen--i mean, endmin", "positive", "0.7", "[\"角色/人物\", \"剧情/故事\"]"], ["do not the rossi, guys", "neutral", "0.6", "[\"角色/人物\"]"], ["rosi noooo", "neutral", "0.6", "[]"], ["do not the rossi", "neutral", "0.6", "[\"角色/人物\"]"], ["yovvone and tangtang are a bad influence on poor rossi.", "negative", "0.7", "[\"角色/人物\"]"], ["unfortunately for you, i've already cracked rossi. countless times.", "negative", "0.7", "[\"角色/人物\"]"], ["how are you people able to actually play the game without leaving the weapons screen animation? my heart is not letting me to leave their ass!😭😭😭", "positive", "0.8", "[\"角色/人物\", \"画面/美术\", \"战斗/玩法\"]"], ["uhooo rocci😭😭😭🙏🏻🙏🏻🙏🏻", "positive", "0.8", "[]"], ["you sound exactly like that pink haired guy thats obsessed with genshin, dont know his name.", "positive", "0.8", "[\"角色/人物\", \"画面/美术\", \"竞品/对比\"]"], ["yes rossi do imitate them😭😭", "positive", "0.8", "[\"角色/人物\"]"], ["yes officer it's him", "positive", "0.7", "[]"], ["yes rossi 😭😭😭😭😭😭😭 💢💢💢💢💢💢", "positive", "0.8", "[\"角色/人物\"]"], ["yes -red hood- rosi", "positive", "0.7", "[]"], ["plap plap plap plap plap", "neutral", "0.6", "[]"], ["we do not the rossi 😤", "negative", "0.7", "[\"角色/人物\"]"], ["she is growing so fast 🥹😭😭😭😭💢", "positive", "0.8", "[\"角色/人物\", \"萌系/日常\"]"], ["rossi show me whats under 😭😭😭😭😭💢💢💢💢💢", "positive", "0.8", "[\"角色/人物\"]"], ["yes rossi, imitate them", "positive", "0.7", "[\"角色/人物\"]"], ["fanservice thank you for existing", "neutral", "0.6", "[]"], ["i will the rossi and then the mi fu for i am insane", "neutral", "0.6", "[\"角色/人物\"]"], ["his brother told me to help rossi on the wolfpack sooo...", "neutral", "0.6", "[\"角色/人物\", \"剧情/故事\"]"], ["i really adore the design of rossis skirt... i noticed just about everyone just has a hole in their cloths where their tails come throug... but rossi skirt looks like it was designed with tail in mind, in that uniuqe way its cut at the back. so her tail can flutter under her skirt. i want to see more designs like that.", "positive", "0.8", "[\"角色/人物\", \"画面/美术\"]"], ["yes rossi! 🎉❤🎉🎉😭😭😭", "positive", "0.95", "[\"角色/人物\", \"萌系/日常\"]"], ["my fbi agent must be enjoying this too.", "positive", "0.7", "[\"角色/人物\"]"], ["❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎉🎉🎉🎉", "positive", "0.9", "[\"萌系/日常\"]"], ["i hate this you suck ai slop", "negative", "0.8", "[\"角色/人物\", \"社区/运营\"]"], ["he is too down bad not even a meteor could hide it.", "negative", "0.7", "[\"角色/人物\"]"], ["i always eat soup with some buns", "neutral", "0.6", "[]"], ["*hiding a lot* endmin: \"yes, you better hide those assets\"", "positive", "0.7", "[\"角色/人物\"]"], ["soup-soup is hiding a lot of cake-cake", "neutral", "0.6", "[]"], ["she was hiding that much under a small jacket?! what sorcery is this?", "neutral", "0.6", "[\"角色/人物\"]"], ["... not even the bonk can save you", "neutral", "0.6", "[\"角色/人物\"]"], ["not even endmin's full power can pull me out!", "neutral", "0.6", "[\"角色/人物\", \"卡池/抽卡\"]"], ["you underestimate my pausing capabilities", "neutral", "0.6", "[]"], ["she's unironically wearing the virgin killer sweater underneath 😂😂😂😂", "neutral", "0.6", "[\"角色/人物\"]"], ["tung tung had been hiding her \"thing\" from us", "neutral", "0.6", "[\"角色/人物\"]"], ["tang tang tang sahuuuuuuuuuuur", "neutral", "0.6", "[]"], ["i *really* love that split spinning at every intro😂😂😂", "positive", "0.8", "[]"], ["i have to go back to c everytime this man uploaded", "neutral", "0.6", "[\"角色/人物\"]"], ["i knew she's hiding some bakery under those jacket", "positive", "0.7", "[\"版本/更新\"]"], ["and here i thought all the soup was kept in the back.", "neutral", "0.6", "[\"角色/人物\"]"], ["now witout it, a loot can rise", "positive", "0.7", "[]"], ["except for that bakery 😂", "neutral", "0.6", "[]"], ["soup soup ❤❤❤❤❤❤❤", "positive", "0.7", "[\"萌系/日常\"]"], ["i swear it looked at me first", "neutral", "0.6", "[\"画面/美术\"]"], ["bros down bad even than joker with lopunny", "negative", "0.7", "[]"], ["thats a statement. thats a down (bad) statement indeed", "negative", "0.7", "[]"], ["\"... let them eat cakes!\"- a certain queen once said. well... don't mind me if i do. 😋", "neutral", "0.6", "[]"], ["best mods are the jacket mods. ty modders", "positive", "0.7", "[\"角色/人物\"]"], ["please spudente for the love of god please keep being down bad for every other gacha game out there", "positive", "0.6", "[\"角色/人物\", \"卡池/抽卡\"]"], ["always wondered why she's wearing these clothes, i suppose its kinda water repellant... but not spuddle repellant...", "neutral", "0.6", "[]"], ["be careful to not remove too much", "neutral", "0.6", "[]"], ["so gilberta?", "neutral", "0.6", "[]"], ["soup? like food?", "positive", "0.7", "[]"], ["why the damn description so long back at home, there lives a little maiden and she's called erika. that girl is my faithful little darling and my joy, erika. when the heather blooms in a reddish purple, i sing her this song in greeting. on the heath, there blooms a little flower and she's called erika. in my room, there also blooms a little flower and she's called erika. already in the grey of dawn, as it does at dusk, it looks at me, erika. and then it's to me as if it's saying aloud: \"are you thinking of your little bride?\" back at home, a maiden weeps for you and she's called erika.", "neutral", "0.6", "[\"角色/人物\", \"音乐/配音\", \"画面/美术\"]"], ["noone in that game dresses like a human person", "positive", "0.7", "[\"角色设计\"]"], ["please spudente for the love of god can you go back to umamusume content instead of you being down bad for every other gacha game out there?", "positive", "0.6", "[\"角色/人物\", \"卡池/抽卡\"]"], ["عدد عن عن عز😊", "positive", "0.9", "[\"萌系/日常\"]"], ["💀ehh je suis genet", "negative", "0.7", "[]"], ["banana guga?! if it were a cookie, that would be fine, but a banana? or do you prefer bananas instead of cookies? 😅😂😂😂", "positive", "0.7", "[\"画面/美术\"]"], ["1.咕嘎 是 家養/放養/野生的? 2.咕嘎 是異速生長/等比例放大? 3. 會說話/multilingual/ 只會咕嘎? 請賜教❤", "positive", "0.7", "[\"角色/人物\", \"萌系/日常\"]"], ["chubby gugu gaga has some bad manners 😢😢😢😢", "negative", "0.7", "[]"], ["fatiga de caracolera te vas a vengar", "neutral", "0.6", "[]"], ["more fuel for the fire", "positive", "0.7", "[\"角色/人物\"]"], ["el peor video q e bisto", "negative", "0.7", "[]"], ["i hate gugugaga", "negative", "0.7", "[\"角色/人物\"]"], ["hi my little saplings 🌱 i’d really appreciate it if you guys could like, share, and comment on this video! :d", "positive", "0.8", "[\"角色/人物\"]"], ["\"just close your eyes and sleep,\" most parentest thing to ever be spoken", "positive", "0.7", "[\"音乐/配音\", \"角色设计\"]"], ["my sleep schedule ain’t a schedule no more, it’s a freestyle", "neutral", "0.6", "[]"], ["i love your art style! it's so cute :d :3", "positive", "0.8", "[\"画面/美术\", \"萌系/日常\"]"], ["picture of a bed, insomniac: ain't happening", "neutral", "0.6", "[]"], ["your art is so yummmyyy! i've been blessed chat 🤤🤤", "neutral", "0.6", "[\"画面/美术\"]"], ["camille is so pretty ❤", "positive", "0.7", "[\"角色/人物\", \"萌系/日常\"]"], ["not me watching this at 3 am... i dont have insomnia, just a crappy sleep schedule 💀", "negative", "0.7", "[\"角色/人物\"]"], ["sapzuu getting more and more relatable with every video 😭♥️🖤", "positive", "0.7", "[]"], ["omg how are you so underrated? ❤❤", "positive", "0.8", "[\"卡池/抽卡\", \"萌系/日常\"]"], ["endfield! the factory must grow!", "neutral", "0.6", "[\"角色/人物\", \"竞品/对比\"]"], ["i love your art style! also i love how you did the hair on the insomniac character sm! <3", "positive", "0.8", "[\"角色/人物\", \"画面/美术\", \"角色设计\"]"], ["i love the way you draw chen", "positive", "0.8", "[\"角色/人物\"]"], ["this is what i tell my friends when they text me in the middle of 2 a.m 💀", "negative", "0.8", "[\"角色/人物\"]"], ["bro your artstyle is so delicious 🫶😭", "positive", "0.8", "[\"画面/美术\"]"], ["i love your art!", "positive", "0.7", "[\"画面/美术\"]"], ["i have insomnia as well and nothing makes me more joyful then having to dumb down and explain it to some of my friends who r a bit slow 🥰", "positive", "0.8", "[\"萌系/日常\"]"], ["scrumptious art ty for feeding us", "neutral", "0.6", "[\"画面/美术\"]"], ["peak character design", "positive", "0.7", "[\"角色/人物\", \"画面/美术\"]"], ["a insomniac character 👀 might download this game...", "neutral", "0.6", "[\"角色/人物\"]"], ["theyre so adorable", "positive", "0.7", "[\"萌系/日常\"]"], ["\"did you try lying on your bed and, yk closing ur eyes and relaxing?\" yeah it dont work for me!", "positive", "0.7", "[\"角色设计\"]"], ["yay ure drawing this now", "neutral", "0.6", "[\"角色/人物\"]"], ["bro really just asked him \"did you try sleeping?\" 💀", "positive", "0.6", "[]"], ["yeah well there are like 37 scenarios in my head and 40 other trains of thoughts and they are all approaching each other at high speeds. i cannot sleep", "positive", "0.7", "[\"角色/人物\"]"], ["underrated❤❤❤", "positive", "0.7", "[\"卡池/抽卡\", \"萌系/日常\"]"], ["i love your art style so effin much! and sorry for the question what kind of brushes do you use?", "positive", "0.7", "[\"角色/人物\", \"剧情/故事\", \"画面/美术\"]"], ["as a insomnic this is what i go through everyday (-_-)", "neutral", "0.6", "[\"角色/人物\"]"], ["i stated playing just for this hawtt dude", "neutral", "0.6", "[\"角色/人物\"]"], ["me, who has hypersomnia", "positive", "0.7", "[]"], ["my mom said she'll take me to a sleep specialist also it like 5 am <33", "positive", "0.7", "[]"], ["yeah maybe i should stop trying yoga poses, holding my breath every 30 seconds and hang on my door! thanks for the advice! 😊😊😊", "positive", "0.7", "[\"角色/人物\", \"萌系/日常\"]"], ["me too blue hair twin i have insomnia🥹🥹 though people do be telling me to “just sleep” like bro 🙏", "positive", "0.9", "[\"画面/美术\", \"萌系/日常\", \"角色设计\"]"], ["wheres this audio frommm", "neutral", "0.6", "[\"角色/人物\", \"音乐/配音\"]"], ["is this a bobs burgers audio or jst same actor?", "neutral", "0.6", "[\"角色/人物\", \"音乐/配音\"]"], ["an iq too high?", "neutral", "0.6", "[]"], ["i will never ever unhear bob 🥹🫶🏻 (i'm like bob's burgers #1 fan like nooo joke)", "positive", "0.9", "[\"萌系/日常\"]"], ["yessssss endfield 🥹🥹🥹🥹🥹 camille is literally the best :33", "positive", "0.9", "[\"角色/人物\", \"竞品/对比\", \"萌系/日常\"]"], ["wild gugugaga appear! must adopt!", "neutral", "0.6", "[\"角色/人物\"]"], ["このモフモフ材質最高すぎる ラバーみたいなググガガペンギンじゃなくてやっぱこっちやな", "positive", "0.7", "[]"], ["must have one now", "neutral", "0.6", "[]"], ["la atrape miya xd", "neutral", "0.6", "[]"], ["por qué mejor❤❤❤❤❤❤", "positive", "0.8", "[\"萌系/日常\"]"], ["i’ll do more than make it faint", "neutral", "0.6", "[]"], ["คนวงใน", "neutral", "0.6", "[]"], ["gugugaga pokéballs", "neutral", "0.6", "[\"角色/人物\"]"], ["great video! i hope you do not mind, i have added it as a youtube collab. thank youu 🙏 😊", "positive", "0.9", "[\"社区/运营\", \"萌系/日常\"]"], ["❤️❤❤❤❤❤❤😢😊", "positive", "0.9", "[\"萌系/日常\"]"], ["please use cgi instead of ai", "neutral", "0.6", "[\"社区/运营\"]"], ["where is the attack button?", "neutral", "0.6", "[\"角色/人物\", \"战斗/玩法\"]"], ["i will take her home and take good care ❤❤❤❤❤❤❤❤❤", "positive", "0.8", "[\"角色/人物\", \"萌系/日常\"]"], ["ohnoit's-afurrystayback", "neutral", "0.6", "[]"], ["لطيفة جدا❤❤❤❤❤", "positive", "0.9", "[\"萌系/日常\"]"], ["and done anty brainrot holly water", "neutral", "0.6", "[]"], ["wtf is thes", "negative", "0.7", "[]"], ["камиль: что? захотел посмотреть на мой завод?", "neutral", "0.6", "[]"], ["превью имба!", "neutral", "0.6", "[]"], ["а я с первого дня об этом узнал пока разглядывал его:)", "neutral", "0.6", "[]"], ["смотри куда хочешь но на плечо нет", "neutral", "0.6", "[]"], ["он ещё потом смущенно опускает взгляд))", "neutral", "0.6", "[]"], ["превьюшка видео шортса просто имба ❤ согласен улыбка флюорит это имба, прекрасно ❤", "positive", "0.7", "[\"萌系/日常\"]"], ["у эндмина мальчика тоже есть. я афигела", "neutral", "0.6", "[]"], ["он так сильно удивляется)", "neutral", "0.6", "[]"], ["превью топ 😂", "neutral", "0.6", "[]"], ["га превью повелся?", "neutral", "0.6", "[]"], ["аркаша моё уважение", "neutral", "0.6", "[]"], ["интересное превью", "neutral", "0.6", "[]"], ["я каждый раз угараю с его имени. почему именно камиль, почему?", "neutral", "0.6", "[]"], ["о меня зовут камиль прикольно 😂", "neutral", "0.6", "[]"], ["у меня эта фигня не работает. тоесть сматрю со всех сторон но нееет они не реагируют", "neutral", "0.6", "[]"], ["да йесть у него видео ради лайков и просмотров", "neutral", "0.6", "[]"], ["эх я не выбил ух", "neutral", "0.6", "[]"], ["咕嘎是可以舉起幾頓軋鋼圈 砸起重機 主人小心哄著", "neutral", "0.6", "[\"角色/人物\"]"], ["曲の疾走感、いいね👍️", "positive", "0.8", "[\"音乐/配音\"]"], ["why was bro grabbing the cows milk", "neutral", "0.6", "[\"角色/人物\"]"], ["gugugaga really as furk as furk", "positive", "0.7", "[\"角色/人物\"]"], ["naughty gugugaga", "neutral", "0.6", "[\"角色/人物\"]"], ["okay okay bro please i see you like gugu gaga but i don't every real this happy face one bully video", "positive", "0.9", "[\"角色/人物\", \"角色设计\"]"], ["cry for everithing", "neutral", "0.6", "[]"], ["😂😂😂😂😂😂😂😂😂😂😂❤❤❤❤😊😊😊", "positive", "0.9", "[\"萌系/日常\"]"], ["so cute", "positive", "0.7", "[\"萌系/日常\"]"], ["what is ts 😂", "neutral", "0.6", "[]"], ["you're being mean to her. good job in making a little girl cry.", "positive", "0.7", "[\"角色/人物\"]"], ["hahahahhaha😂😂😂😂😂😂", "neutral", "0.6", "[\"角色/人物\", \"萌系/日常\"]"], ["destroy it", "neutral", "0.6", "[]"], ["damn, they are gonna get cancelled on baker when this comes out. also it's most likely on seš'qa.", "positive", "0.7", "[\"角色/人物\", \"音乐/配音\"]"], ["we march at dawn for last rite", "neutral", "0.6", "[]"], ["btw... witching hour also took camille as model for their phamplet... its in one of his dialogue", "neutral", "0.6", "[\"角色/人物\", \"画面/美术\"]"], ["gotta start calling her adelheid! glory to adelheid!", "neutral", "0.6", "[\"角色/人物\", \"画面/美术\"]"], ["i am the nice nature finder, i find nice nature! nice nature is on last rites chest at 0:05", "neutral", "0.6", "[\"角色/人物\"]"], ["witching hour really insisted on using adelheid as a glorified billboard for their tech. poor girl has a lot more merits than they estimated.", "positive", "0.7", "[\"角色/人物\"]"], ["i am the nefarith finder, she is not here because she doesnt despise her name", "neutral", "0.6", "[\"角色/人物\"]"], ["last rite's files are a great read, i didnt expect her to be but she ended up my favorite character in ake", "positive", "0.9", "[\"角色/人物\"]"], ["ayy yoo what you cooking girll ?!", "neutral", "0.6", "[\"角色/人物\"]"], ["she’s the last standard six star i got. today i pulled lifeng with the free standard pulls, and finally used the six star selector we got from beginning of the game to get her. now i have 3 characters to build because previous standard six star was ember.", "positive", "0.7", "[\"角色/人物\", \"卡池/抽卡\", \"肝度/养成\"]"], ["i would move mountains and fight to my last breath to get her anything she asks for", "neutral", "0.6", "[\"角色/人物\", \"战斗/玩法\"]"], ["it's kind of funny, sarkaz used to be so discriminated against and seen through the lenses of sterotypes by the other races of terra. now witching hour (a company founded by sarkaz races for sarkaz races) is pushing sterotypes upon one of their employees in attempts to market her and their products. do we consider this progress?", "positive", "0.8", "[\"角色/人物\", \"萌系/日常\"]"], ["last right joining cape baldy in protesting bad names", "negative", "0.7", "[]"], ["on the other hand last rite is likely the next naczehrer king, manifesting from the increasing amounts of death and war on talos-2. witching hour knows this and thought endfield is the best place for her, aka making it endfield's problem. another fun fact: the last naczehrer king, nazzsalem despite being an aura farming god of decay and death, wasnt the biggest fan of the endless cycle of war and death that naczehrer are forced to live in. hence why they mention in the files how he would be moved if he was alive to see last rite.", "positive", "0.9", "[\"角色/人物\", \"画面/美术\", \"竞品/对比\"]"], ["yes my queen", "positive", "0.7", "[]"], ["i am the totally serious nice nature finder, nice nature is falling onto last rite's head at 0:00", "neutral", "0.6", "[\"角色/人物\"]"], ["waiting for a holy blender mk.ii to be registered as an operator", "neutral", "0.6", "[\"音乐/配音\", \"版本/更新\"]"], ["if she gets an alter hopefully it comes with a name change", "neutral", "0.6", "[\"角色/人物\"]"], ["i will write all letters if i hug :)", "neutral", "0.6", "[]"], ["echo tracker, 8 echo commenters as of now!", "neutral", "0.6", "[]"], ["she is very cute", "positive", "0.7", "[\"角色/人物\", \"萌系/日常\"]"], ["where can i look into who made this animation?", "neutral", "0.6", "[\"角色/人物\", \"画面/美术\"]"], ["ok, what if we buy her outfit ?", "neutral", "0.6", "[\"角色/人物\", \"画面/美术\", \"氪金/付费\"]"], ["\"must be the water\" -words of wisdom", "neutral", "0.6", "[\"角色/人物\"]"], ["someone's phone probably exploded from this detail", "neutral", "0.6", "[\"角色/人物\"]"], ["i can see spuddle is double thirsty", "neutral", "0.6", "[]"], ["yeah yeah water👀", "neutral", "0.6", "[]"], ["much been the water wind: excuse me now you're blaming water not me", "positive", "0.7", "[\"角色/人物\"]"], ["“white water dribbles down” 😔😭", "positive", "0.7", "[]"], ["must be the, uh, water.", "neutral", "0.6", "[]"], ["the wind is still strong today 😂", "neutral", "0.6", "[\"角色/人物\"]"], ["must be the... water \"let's add that to the words of wisdom.\"", "neutral", "0.6", "[\"角色/人物\"]"], ["the way i mean wei of the water", "neutral", "0.6", "[\"角色/人物\"]"], ["i could watch that spin at the start for hours.", "neutral", "0.6", "[\"角色/人物\", \"画面/美术\"]"], ["i love water when they go down the valley... the beauty of nature. 💦 ... wuling. i'm talking about wuling.", "positive", "0.7", "[\"角色/人物\"]"], ["spuddle has a seat full of water", "neutral", "0.6", "[]"], ["hmmm yes \"water\" 🤔", "positive", "0.7", "[]"], ["alright puddle chill out.", "neutral", "0.6", "[]"], ["da mole it stares at me", "neutral", "0.6", "[]"], ["i think any female character is just perfect in the rain but damn mifu ❤😂", "positive", "0.8", "[\"角色/人物\", \"萌系/日常\"]"], ["i've got a few water streaks myself, if you know what i mean...", "positive", "0.7", "[]"], ["what water?", "neutral", "0.6", "[]"], ["the reason theyre so focused on the water textures is because they want to simulate what its like when a woman is wet, something most players are unfamiliar with", "positive", "0.7", "[\"角色/人物\", \"音乐/配音\"]"], ["that's water? or just ...", "neutral", "0.6", "[]"], ["me after doing tama", "neutral", "0.6", "[]"], ["notice what is not impressive?", "neutral", "0.6", "[]"], ["ayoo why am i pinned 😭🙏💀🥶🥀🥹🤤👣😹😂", "positive", "0.9", "[\"萌系/日常\"]"], ["oh shi my phone overhe", "neutral", "0.6", "[]"]]};
+
+const sentimentChart = new Chart(document.getElementById('sentimentChart'), {
+  type: 'doughnut',
+  data: {
+    labels: ['正面', '负面', '中性'],
+    datasets: [{
+      data: [213, 21, 232],
+      backgroundColor: ['#4caf50', '#f44336', '#9e9e9e'],
+      borderColor: '#fff',
+      borderWidth: 3,
+      hoverBorderWidth: 4,
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: { position: 'bottom', labels: { padding: 20, font: { size: 13 } } },
+      tooltip: { callbacks: { label: ctx => ctx.label + ': ' + ctx.parsed.toLocaleString() + ' 条 (' + (ctx.parsed/466*100).toFixed(1) + '%)' } }
+    },
+  },
+  plugins: [{
+    id: 'doughnutPercentLabels',
+    afterDraw(chart) {
+      const ctx = chart.ctx;
+      const meta = chart.getDatasetMeta(0);
+      if (!meta || meta.data.length === 0) return;
+      const total = chart.data.datasets[0].data.reduce((a,b) => a+b, 0);
+      if (total === 0) return;
+      ctx.save();
+      ctx.font = 'bold 16px "Microsoft YaHei","Segoe UI",sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      meta.data.forEach((arc, i) => {
+        const val = chart.data.datasets[0].data[i];
+        const pct = (val / total * 100).toFixed(1) + '%';
+        const angle = (arc.startAngle + arc.endAngle) / 2;
+        const r = (arc.innerRadius + arc.outerRadius) / 2 + (arc.outerRadius - arc.innerRadius) * 0.2;
+        const x = arc.x + Math.cos(angle) * r;
+        const y = arc.y + Math.sin(angle) * r;
+        ctx.fillStyle = '#fff';
+        ctx.shadowColor = 'rgba(0,0,0,.3)';
+        ctx.shadowBlur = 3;
+        ctx.fillText(pct, x, y);
+        ctx.shadowBlur = 0;
+      });
+      ctx.restore();
+    }
+  }]
+});
+
+const topicPosData = [115, 62, 33, 27, 14, 12, 10, 9, 8, 4];
+const topicNegData = [10, 0, 1, 0, 1, 0, 1, 0, 0, 0];
+const topicNeuData = [104, 4, 22, 17, 9, 5, 2, 3, 2, 5];
+
+const topicChart = new Chart(document.getElementById('topicChart'), {
+  type: 'bar',
+  data: {
+    labels: ["角色/人物", "萌系/日常", "音乐/配音", "画面/美术", "卡池/抽卡", "版本/更新", "社区/运营", "竞品/对比", "角色设计", "战斗/玩法"],
+    datasets: [
+      { label: '正面', data: topicPosData, backgroundColor: '#4caf50', borderRadius: 4 },
+      { label: '负面', data: topicNegData, backgroundColor: '#f44336', borderRadius: 4 },
+      { label: '中性', data: topicNeuData, backgroundColor: '#bdbdbd', borderRadius: 4 },
+    ]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    scales: {
+      x: { stacked: true, title: { display: true, text: '讨论量' } },
+      y: { stacked: true }
+    },
+    plugins: {
+      legend: { position: 'bottom', labels: { padding: 16, font: { size: 12 } } },
+    }
+  }
+});
+
+// 填充话题数据表
+(function() {
+  const labels = ["角色/人物", "萌系/日常", "音乐/配音", "画面/美术", "卡池/抽卡", "版本/更新", "社区/运营", "竞品/对比", "角色设计", "战斗/玩法"];
+  const tbody = document.getElementById('topicTableBody');
+  for (let i = 0; i < labels.length; i++) {
+    const total = topicPosData[i] + topicNegData[i] + topicNeuData[i];
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${labels[i]}</td><td>${total.toLocaleString()}</td><td class="td-pos">${topicPosData[i].toLocaleString()}</td><td class="td-neg">${topicNegData[i].toLocaleString()}</td><td class="td-neu">${topicNeuData[i].toLocaleString()}</td>`;
+    tbody.appendChild(tr);
+  }
+})();
+
+function getCSV() {
+  const cols = EMBEDDED_DATA.columns;
+  const rows = EMBEDDED_DATA.rows;
+  const BOM = '\uFEFF';
+  let csv = BOM + cols.map(c => '"' + c.replace(/"/g, '""') + '"').join(',') + '\n';
+  for (const row of rows) {
+    csv += row.map(v => '"' + String(v).replace(/"/g, '""') + '"').join(',') + '\n';
+  }
+  return csv;
+}
+
+function downloadCSV() {
+  const csv = getCSV();
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = '终末地-1.3下半-YouTube_标注数据.csv';
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a); URL.revokeObjectURL(url);
+}
+
+function downloadJSON() {
+  const json = JSON.stringify(EMBEDDED_DATA, null, 2);
+  const blob = new Blob([json], { type: 'application/json;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = '终末地-1.3下半-YouTube_标注数据.json';
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a); URL.revokeObjectURL(url);
+}
+
+function downloadExcel() {
+  const cols = EMBEDDED_DATA.columns;
+  const data = [cols, ...EMBEDDED_DATA.rows];
+  const wb = XLSX.utils.book_new();
+  const ws = XLSX.utils.aoa_to_sheet(data);
+  XLSX.utils.book_append_sheet(wb, ws, '标注数据');
+  XLSX.writeFile(wb, '终末地-1.3下半-YouTube_标注数据.xlsx');
+}
+</script>
+</body>
+</html>
