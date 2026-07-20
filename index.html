@@ -78,37 +78,36 @@ body{background:#f5f7fa;color:#1a1a2e;font-family:-apple-system,BlinkMacSystemFo
 .footer{text-align:center;color:#9ca3af;font-size:0.78em;margin-top:40px}
 @keyframes pulse-dot{0%,100%{opacity:1}50%{opacity:.4}}
 
-/* ===== 顶部概览看板 ===== */
-.dashboard{max-width:1900px;margin:0 auto 24px;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);border-radius:14px;padding:20px 24px;box-shadow:0 4px 20px rgba(0,0,0,.15)}
-.dashboard-title{display:flex;align-items:center;gap:10px;color:#fff;font-size:1.1em;font-weight:600;margin-bottom:16px}
-.dashboard-title .live-dot{width:8px;height:8px;border-radius:50%;background:#22c55e;animation:pulse-dot 2s ease-in-out infinite}
-.dashboard-title .live-text{font-size:.7em;color:#86efac;font-weight:400}
-.dash-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
-.dash-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:14px 12px;transition:all .2s;cursor:pointer;position:relative;overflow:hidden}
-.dash-card:hover{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.25);transform:translateY(-2px)}
-.dash-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;border-radius:0 3px 3px 0}
-.dash-card.nte::before{background:#a78bfa}
-.dash-card.hsr::before{background:#60a5fa}
-.dash-card.zzz::before{background:#f472b6}
-.dash-card.wuwa::before{background:#34d399}
-.dash-card.genshin::before{background:#fbbf24}
-.dash-card.endfield::before{background:#fb923c}
-.dash-top{display:flex;align-items:center;gap:8px;margin-bottom:10px}
-.dash-icon{width:28px;height:28px;border-radius:6px;object-fit:cover;flex-shrink:0}
-.dash-name{color:#fff;font-size:.85em;font-weight:600;flex:1;min-width:0}
-.dash-name .dash-en{display:block;font-size:.68em;color:rgba(255,255,255,.5);font-weight:400}
-.dash-ver{color:#fff;font-size:1.4em;font-weight:700;margin-bottom:4px}
-.dash-ver .dash-half{font-size:.5em;color:rgba(255,255,255,.6);font-weight:400;margin-left:4px}
-.dash-time{color:rgba(255,255,255,.6);font-size:.72em;margin-bottom:8px}
-.dash-char{display:inline-block;font-size:.76em;padding:3px 8px;border-radius:4px;font-weight:500;white-space:nowrap}
-.dash-char.new-char{background:rgba(34,197,94,.2);color:#86efac;border:1px solid rgba(34,197,94,.3)}
-.dash-char.reprint{background:rgba(251,191,36,.2);color:#fde68a;border:1px solid rgba(251,191,36,.3)}
-.dash-char.collab{background:rgba(251,146,60,.2);color:#fdba74;border:1px solid rgba(251,146,60,.3)}
-.dash-status{position:absolute;top:8px;right:8px;font-size:.62em;padding:2px 6px;border-radius:3px}
-.dash-status.active{background:rgba(34,197,94,.2);color:#86efac}
-.dash-status.ending{background:rgba(251,191,36,.2);color:#fde68a}
-.dash-status.upcoming{background:rgba(96,165,250,.2);color:#93c5fd}
-.dash-progress{height:3px;background:rgba(255,255,255,.1);border-radius:2px;margin-top:8px;overflow:hidden}
+/* ===== 左侧栏表格看板 ===== */
+.main-layout{display:flex;gap:0;max-width:1900px;margin:0 auto;align-items:flex-start}
+.sidebar{width:340px;flex-shrink:0;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);border-radius:14px;padding:18px 16px;box-shadow:0 4px 20px rgba(0,0,0,.15);position:sticky;top:20px}
+.sidebar-title{display:flex;align-items:center;gap:8px;color:#fff;font-size:1em;font-weight:600;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid rgba(255,255,255,.1)}
+.sidebar-title .live-dot{width:8px;height:8px;border-radius:50%;background:#22c55e;animation:pulse-dot 2s ease-in-out infinite}
+.sidebar-title .live-text{font-size:.68em;color:#86efac;font-weight:400}
+.dash-table{width:100%;border-collapse:collapse;font-size:.78em}
+.dash-table thead th{color:rgba(255,255,255,.5);font-weight:500;font-size:.85em;padding:6px 4px;text-align:left;border-bottom:1px solid rgba(255,255,255,.1)}
+.dash-table thead th.center{text-align:center}
+.dash-table tbody tr{cursor:pointer;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.06)}
+.dash-table tbody tr:hover{background:rgba(255,255,255,.08)}
+.dash-table td{padding:8px 4px;vertical-align:middle;color:rgba(255,255,255,.85)}
+.dash-table td.center{text-align:center}
+.dash-table td.game-cell{display:flex;align-items:center;gap:6px;min-width:0}
+.dash-table .dash-icon{width:22px;height:22px;border-radius:5px;object-fit:cover;flex-shrink:0}
+.dash-table .game-name{color:#fff;font-weight:600;font-size:1em;white-space:nowrap}
+.dash-table .game-ver{color:#fff;font-weight:700;font-size:1.05em;white-space:nowrap}
+.dash-table .game-ver .half{font-size:.7em;color:rgba(255,255,255,.55);font-weight:400;margin-left:2px}
+.dash-table .game-time{color:rgba(255,255,255,.55);font-size:.92em;white-space:nowrap}
+.dash-table .char-cell .dash-char{display:inline-block;font-size:.82em;padding:2px 6px;border-radius:3px;font-weight:500;white-space:nowrap}
+.dash-table .char-cell .dash-char.new-char{background:rgba(34,197,94,.2);color:#86efac;border:1px solid rgba(34,197,94,.3)}
+.dash-table .char-cell .dash-char.reprint{background:rgba(251,191,36,.2);color:#fde68a;border:1px solid rgba(251,191,36,.3)}
+.dash-table .char-cell .dash-char.collab{background:rgba(251,146,60,.2);color:#fdba74;border:1px solid rgba(251,146,60,.3)}
+.dash-table .status-cell{text-align:center}
+.dash-table .status-tag{display:inline-block;font-size:.72em;padding:2px 6px;border-radius:3px;white-space:nowrap}
+.dash-table .status-tag.active{background:rgba(34,197,94,.2);color:#86efac}
+.dash-table .status-tag.ending{background:rgba(251,191,36,.2);color:#fde68a}
+.dash-table .status-tag.upcoming{background:rgba(96,165,250,.2);color:#93c5fd}
+.dash-table .status-tag.ended{background:rgba(255,255,255,.08);color:rgba(255,255,255,.4)}
+.dash-progress{height:3px;background:rgba(255,255,255,.1);border-radius:2px;margin-top:4px;overflow:hidden}
 .dash-progress-bar{height:100%;border-radius:2px;transition:width .3s}
 .dash-progress-bar.nte{background:#a78bfa}
 .dash-progress-bar.hsr{background:#60a5fa}
@@ -116,9 +115,9 @@ body{background:#f5f7fa;color:#1a1a2e;font-family:-apple-system,BlinkMacSystemFo
 .dash-progress-bar.wuwa{background:#34d399}
 .dash-progress-bar.genshin{background:#fbbf24}
 .dash-progress-bar.endfield{background:#fb923c}
-@media(max-width:1500px){.dash-grid{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:850px){.dash-grid{grid-template-columns:repeat(2,1fr)}}
+.main-content{flex:1;min-width:0;padding-left:24px}
 @media(max-width:1500px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:1100px){.main-layout{flex-direction:column}.sidebar{width:100%;position:static;margin-bottom:20px}.main-content{padding-left:0}}
 @media(max-width:850px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
@@ -128,16 +127,28 @@ body{background:#f5f7fa;color:#1a1a2e;font-family:-apple-system,BlinkMacSystemFo
   <div class="subtitle">6款竞品 · 版本时间线 · 卡池角色 · 舆情报告</div>
 </div>
 
-<!-- ===== 顶部概览看板 ===== -->
-<div class="dashboard">
-  <div class="dashboard-title">
+<!-- ===== 左侧栏 + 右侧主内容 ===== -->
+<div class="main-layout">
+<div class="sidebar">
+  <div class="sidebar-title">
     <span class="live-dot"></span>
-    最新版本概览
+    竞品版本概览
     <span class="live-text">实时更新</span>
   </div>
-  <div class="dash-grid" id="dashGrid"></div>
+  <table class="dash-table" id="dashTable">
+    <thead>
+      <tr>
+        <th>游戏</th>
+        <th class="center">版本</th>
+        <th>卡池区间</th>
+        <th>角色</th>
+        <th class="center">状态</th>
+      </tr>
+    </thead>
+    <tbody id="dashTbody"></tbody>
+  </table>
 </div>
-
+<div class="main-content">
 <div class="grid">
 <div class="game-card">
   <div class="gc-header">
@@ -1777,7 +1788,9 @@ body{background:#f5f7fa;color:#1a1a2e;font-family:-apple-system,BlinkMacSystemFo
 </div>
   </div>
 </div>
-</div>
+</div><!-- /grid -->
+</div><!-- /main-content -->
+</div><!-- /main-layout -->
 
 <div class="footer">数据来源：游戏官方公告 · App Store · Sensor Tower · 更新时间：2026-07</div>
 
@@ -1801,8 +1814,8 @@ const dashData = [
 
 function renderDash(){
   const now = new Date();
-  const grid = document.getElementById('dashGrid');
-  grid.innerHTML = dashData.map(g=>{
+  const tbody = document.getElementById('dashTbody');
+  tbody.innerHTML = dashData.map(g=>{
     const s = new Date(g.start), e = new Date(g.end);
     let status = 'active', statusText = '进行中', pct = 0;
     if(now < s){ status='upcoming'; statusText='即将开启'; }
@@ -1814,18 +1827,13 @@ function renderDash(){
       else statusText = '剩'+daysLeft+'天';
     }
     const charHtml = g.chars.map(c=>`<span class="dash-char ${c.t}">${c.n}</span>`).join(' ');
-    const card = document.querySelector('.game-card .gc-icon[alt="']') || document.querySelector(`.game-card:nth-child(1)`);
-    return `<div class="dash-card ${g.cls}" onclick="scrollToCard('${g.key}')">
-      <div class="dash-status ${status}">${statusText}</div>
-      <div class="dash-top">
-        <img class="dash-icon" src="${g.icon}" alt="${g.name}">
-        <div class="dash-name">${g.name}<span class="dash-en">${g.en}</span></div>
-      </div>
-      <div class="dash-ver">${g.ver}<span class="dash-half">${g.half}</span></div>
-      <div class="dash-time">${g.time}</div>
-      <div>${charHtml}</div>
-      <div class="dash-progress"><div class="dash-progress-bar ${g.cls}" style="width:${pct}%"></div></div>
-    </div>`;
+    return `<tr onclick="scrollToCard('${g.key}')">
+      <td><div class="game-cell"><img class="dash-icon" src="${g.icon}" alt="${g.name}"><span class="game-name">${g.name}</span></div></td>
+      <td class="center"><span class="game-ver">${g.ver}<span class="half">${g.half}</span></span></td>
+      <td><span class="game-time">${g.time}</span><div class="dash-progress"><div class="dash-progress-bar ${g.cls}" style="width:${pct}%"></div></div></td>
+      <td class="char-cell">${charHtml}</td>
+      <td class="status-cell"><span class="status-tag ${status}">${statusText}</span></td>
+    </tr>`;
   }).join('');
 }
 
