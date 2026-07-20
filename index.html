@@ -76,6 +76,48 @@ body{background:#f5f7fa;color:#1a1a2e;font-family:-apple-system,BlinkMacSystemFo
 .report-btn.empty{color:#9ca3af;pointer-events:none;font-size:0.85em}
 
 .footer{text-align:center;color:#9ca3af;font-size:0.78em;margin-top:40px}
+@keyframes pulse-dot{0%,100%{opacity:1}50%{opacity:.4}}
+
+/* ===== 顶部概览看板 ===== */
+.dashboard{max-width:1900px;margin:0 auto 24px;background:linear-gradient(135deg,#1a1a2e 0%,#16213e 100%);border-radius:14px;padding:20px 24px;box-shadow:0 4px 20px rgba(0,0,0,.15)}
+.dashboard-title{display:flex;align-items:center;gap:10px;color:#fff;font-size:1.1em;font-weight:600;margin-bottom:16px}
+.dashboard-title .live-dot{width:8px;height:8px;border-radius:50%;background:#22c55e;animation:pulse-dot 2s ease-in-out infinite}
+.dashboard-title .live-text{font-size:.7em;color:#86efac;font-weight:400}
+.dash-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.dash-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:14px 12px;transition:all .2s;cursor:pointer;position:relative;overflow:hidden}
+.dash-card:hover{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.25);transform:translateY(-2px)}
+.dash-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;border-radius:0 3px 3px 0}
+.dash-card.nte::before{background:#a78bfa}
+.dash-card.hsr::before{background:#60a5fa}
+.dash-card.zzz::before{background:#f472b6}
+.dash-card.wuwa::before{background:#34d399}
+.dash-card.genshin::before{background:#fbbf24}
+.dash-card.endfield::before{background:#fb923c}
+.dash-top{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.dash-icon{width:28px;height:28px;border-radius:6px;object-fit:cover;flex-shrink:0}
+.dash-name{color:#fff;font-size:.85em;font-weight:600;flex:1;min-width:0}
+.dash-name .dash-en{display:block;font-size:.68em;color:rgba(255,255,255,.5);font-weight:400}
+.dash-ver{color:#fff;font-size:1.4em;font-weight:700;margin-bottom:4px}
+.dash-ver .dash-half{font-size:.5em;color:rgba(255,255,255,.6);font-weight:400;margin-left:4px}
+.dash-time{color:rgba(255,255,255,.6);font-size:.72em;margin-bottom:8px}
+.dash-char{display:inline-block;font-size:.76em;padding:3px 8px;border-radius:4px;font-weight:500;white-space:nowrap}
+.dash-char.new-char{background:rgba(34,197,94,.2);color:#86efac;border:1px solid rgba(34,197,94,.3)}
+.dash-char.reprint{background:rgba(251,191,36,.2);color:#fde68a;border:1px solid rgba(251,191,36,.3)}
+.dash-char.collab{background:rgba(251,146,60,.2);color:#fdba74;border:1px solid rgba(251,146,60,.3)}
+.dash-status{position:absolute;top:8px;right:8px;font-size:.62em;padding:2px 6px;border-radius:3px}
+.dash-status.active{background:rgba(34,197,94,.2);color:#86efac}
+.dash-status.ending{background:rgba(251,191,36,.2);color:#fde68a}
+.dash-status.upcoming{background:rgba(96,165,250,.2);color:#93c5fd}
+.dash-progress{height:3px;background:rgba(255,255,255,.1);border-radius:2px;margin-top:8px;overflow:hidden}
+.dash-progress-bar{height:100%;border-radius:2px;transition:width .3s}
+.dash-progress-bar.nte{background:#a78bfa}
+.dash-progress-bar.hsr{background:#60a5fa}
+.dash-progress-bar.zzz{background:#f472b6}
+.dash-progress-bar.wuwa{background:#34d399}
+.dash-progress-bar.genshin{background:#fbbf24}
+.dash-progress-bar.endfield{background:#fb923c}
+@media(max-width:1500px){.dash-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:850px){.dash-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:1500px){.grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:850px){.grid{grid-template-columns:1fr}}
 </style>
@@ -84,6 +126,16 @@ body{background:#f5f7fa;color:#1a1a2e;font-family:-apple-system,BlinkMacSystemFo
 <div class="header">
   <h1>🎮 竞品版本监控台</h1>
   <div class="subtitle">6款竞品 · 版本时间线 · 卡池角色 · 舆情报告</div>
+</div>
+
+<!-- ===== 顶部概览看板 ===== -->
+<div class="dashboard">
+  <div class="dashboard-title">
+    <span class="live-dot"></span>
+    最新版本概览
+    <span class="live-text">实时更新</span>
+  </div>
+  <div class="dash-grid" id="dashGrid"></div>
 </div>
 
 <div class="grid">
@@ -1736,6 +1788,64 @@ function toggleCard(btn){
   btn.textContent = isExpanded ? '收起' : '▶';
   btn.title = isExpanded ? '收起旧版本' : '展开全部版本';
 }
+
+// ===== 概览看板数据 =====
+const dashData = [
+  {key:'genshin',cls:'genshin',icon:'icons/genshin.png',name:'原神',en:'Genshin Impact',ver:'6.7',half:'上半',time:'2026-07-01 ~ 07-22',chars:[{n:'木偶桑多涅',t:'new-char'}],start:'2026-07-01',end:'2026-07-22'},
+  {key:'wuwa',cls:'wuwa',icon:'icons/wuwa.png',name:'鸣潮',en:'Wuthering Waves',ver:'3.5',half:'上半',time:'2026-07-10 ~ 07-30',chars:[{n:'秧秧·玄翎',t:'new-char'}],start:'2026-07-10',end:'2026-07-30'},
+  {key:'zzz',cls:'zzz',icon:'icons/zzz.png',name:'绝区零',en:'Zenless Zone Zero',ver:'3.0',half:'下半',time:'2026-07-09 ~ 07-29',chars:[{n:'琉音',t:'new-char'}],start:'2026-07-09',end:'2026-07-29'},
+  {key:'hsr',cls:'hsr',icon:'icons/honkai_star_rail.png',name:'崩铁',en:'Honkai: Star Rail',ver:'4.3',half:'下半',time:'2026-06-24 ~ 07-14',chars:[{n:'昔涟',t:'new-char'}],start:'2026-06-24',end:'2026-07-14'},
+  {key:'nte',cls:'nte',icon:'icons/nte.png',name:'异环',en:'Neverness to Everness',ver:'1.2',half:'上半',time:'2026-07-02 ~ 07-22',chars:[{n:'真红',t:'new-char'}],start:'2026-07-02',end:'2026-07-22'},
+  {key:'endfield',cls:'endfield',icon:'icons/endfield.png',name:'终末地',en:'Arknights: Endfield',ver:'1.3',half:'下半',time:'2026-06-26 ~ 07-09',chars:[{n:'卡缪',t:'new-char'}],start:'2026-06-26',end:'2026-07-09'}
+];
+
+function renderDash(){
+  const now = new Date();
+  const grid = document.getElementById('dashGrid');
+  grid.innerHTML = dashData.map(g=>{
+    const s = new Date(g.start), e = new Date(g.end);
+    let status = 'active', statusText = '进行中', pct = 0;
+    if(now < s){ status='upcoming'; statusText='即将开启'; }
+    else if(now > e){ status='ended'; statusText='已结束'; }
+    else {
+      pct = Math.min(100, Math.max(0, Math.round((now-s)/(e-s)*100)));
+      const daysLeft = Math.ceil((e-now)/(86400000));
+      if(daysLeft <= 3) status='ending', statusText = daysLeft>0 ? '剩余'+daysLeft+'天' : '今日结束';
+      else statusText = '剩'+daysLeft+'天';
+    }
+    const charHtml = g.chars.map(c=>`<span class="dash-char ${c.t}">${c.n}</span>`).join(' ');
+    const card = document.querySelector('.game-card .gc-icon[alt="']') || document.querySelector(`.game-card:nth-child(1)`);
+    return `<div class="dash-card ${g.cls}" onclick="scrollToCard('${g.key}')">
+      <div class="dash-status ${status}">${statusText}</div>
+      <div class="dash-top">
+        <img class="dash-icon" src="${g.icon}" alt="${g.name}">
+        <div class="dash-name">${g.name}<span class="dash-en">${g.en}</span></div>
+      </div>
+      <div class="dash-ver">${g.ver}<span class="dash-half">${g.half}</span></div>
+      <div class="dash-time">${g.time}</div>
+      <div>${charHtml}</div>
+      <div class="dash-progress"><div class="dash-progress-bar ${g.cls}" style="width:${pct}%"></div></div>
+    </div>`;
+  }).join('');
+}
+
+function scrollToCard(key){
+  const map = {genshin:6,wuwa:4,zzz:3,hsr:2,nte:1,endfield:6};
+  const cards = document.querySelectorAll('.game-card');
+  const idx = {nte:0,hsr:1,zzz:2,wuwa:3,genshin:4,endfield:5};
+  if(idx[key] !== undefined){
+    const card = cards[idx[key]];
+    if(card){
+      card.scrollIntoView({behavior:'smooth',block:'center'});
+      card.style.transition='box-shadow .3s';
+      card.style.boxShadow='0 0 0 3px #2563eb';
+      setTimeout(()=>card.style.boxShadow='',2000);
+    }
+  }
+}
+
+renderDash();
+setInterval(renderDash, 600000); // 每10分钟刷新一次状态
 </script>
 </body>
 </html>
