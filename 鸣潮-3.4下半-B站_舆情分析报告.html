@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>鸣潮 3.4版本-B站 · 舆情分析报告</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<style>*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Microsoft YaHei','PingFang SC',sans-serif;background:#f5f7fa;color:#2c3e50;line-height:1.6}
+.container{max-width:1100px;margin:0 auto;padding:24px 20px}
+header{background:linear-gradient(135deg,#1a1a2e,#16213e);color:#fff;padding:32px 36px;border-radius:16px;margin-bottom:24px}
+header h1{font-size:28px;font-weight:700;margin-bottom:6px}
+header .sub{font-size:15px;opacity:.8;display:flex;gap:20px;flex-wrap:wrap}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:24px}
+.card{border-radius:14px;padding:22px 20px;text-align:center;position:relative;overflow:hidden}
+.card .emoji{font-size:32px;margin-bottom:6px}
+.card .numbers{display:flex;align-items:baseline;justify-content:center;gap:4px;flex-wrap:wrap}
+.card .count{font-size:28px;font-weight:800}
+.card .pct{font-size:28px;font-weight:800}
+.card .label{font-size:13px;opacity:.7;margin-top:6px}
+.card-pos{background:linear-gradient(135deg,#e8f5e9,#c8e6c9);color:#1b5e20}
+.card-neg{background:linear-gradient(135deg,#ffebee,#ffcdd2);color:#b71c1c}
+.card-neu{background:linear-gradient(135deg,#eceff1,#cfd8dc);color:#37474f}
+.charts{display:grid;grid-template-columns:1fr 1.5fr;gap:16px;margin-bottom:24px}
+.chart-box{background:#fff;border-radius:14px;padding:20px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.chart-box h3{font-size:16px;font-weight:700;margin-bottom:12px;color:#1a1a2e}
+.insights{margin-bottom:24px}
+.conclusion-box{background:linear-gradient(135deg,#1a1a2e,#16213e);color:#fff;padding:32px 36px;border-radius:16px;margin-bottom:24px}
+.conclusion-box h2{font-size:24px;font-weight:700;margin-bottom:12px}
+.conclusion-box p{font-size:16px;line-height:1.8;opacity:.85;margin:0}
+.conclusion-box b{color:#ffd700}
+.insight-block{background:#fff;border-radius:14px;margin-bottom:14px;box-shadow:0 1px 4px rgba(0,0,0,.06);overflow:hidden}
+.insight-header{display:flex;align-items:center;padding:16px 20px;cursor:pointer;user-select:none;gap:12px}
+.insight-header .badge{display:inline-block;padding:3px 12px;border-radius:20px;font-size:13px;font-weight:700;color:#fff}
+.badge-pos{background:#2e7d32}.badge-neg{background:#c62828}.badge-neu{background:#546e7a}
+.insight-header .count{font-size:14px;opacity:.7}
+.insight-header .arrow{font-size:18px;transition:transform .3s;margin-left:auto}
+.insight-block.open .arrow{transform:rotate(180deg)}
+.insight-body{display:none;padding:0 20px 20px 48px}
+.insight-block.open .insight-body{display:block}
+.insight-body p{margin-bottom:8px;font-size:14px;line-height:1.8}
+
+.badge-pos-para{border-left-color:#43a047!important}
+.badge-neg-para{border-left-color:#e53935!important}
+.badge-neu-para{border-left-color:#78909c!important}
+.insight-body .tone{color:#666;font-style:italic}
+.insight-body .focus-area{margin:6px 0;padding-left:12px;border-left:3px solid #ddd}
+.insight-body .focus-area.hot{border-color:#ff6f00}.insight-body .focus-area.warm{border-color:#ffa726}.insight-body .focus-area.cool{border-color:#90a4ae}
+.insight-body .quotes{background:#fafafa;border-radius:8px;padding:12px 16px;margin-top:8px}
+.insight-body .quotes .q{display:block;padding:3px 0;color:#555;font-size:13px}
+.insight-body .topics-list{font-size:13px;color:#666;margin-top:4px}
+.topic-table{width:100%;border-collapse:collapse;margin-top:12px;font-size:13px}
+.topic-table th{background:#1a1a2e;color:#fff;padding:7px 12px;text-align:center;font-weight:600}
+.topic-table th:first-child{text-align:left}
+.topic-table td{padding:6px 12px;border-bottom:1px solid #eee;text-align:center}
+.topic-table td:first-child{text-align:left;font-weight:500;color:#2c3e50}
+.topic-table tr:hover{background:#f5f7fa}
+.topic-table .td-pos{color:#2e7d32;font-weight:600}
+.topic-table .td-neg{color:#c62828;font-weight:600}
+.topic-table .td-neu{color:#546e7a}
+.download-section{background:#fff;border-radius:14px;padding:24px;box-shadow:0 1px 4px rgba(0,0,0,.06);text-align:center}
+.download-section h3{font-size:18px;font-weight:700;margin-bottom:6px}
+.download-section .note{font-size:13px;color:#999;margin-bottom:16px}
+.download-section .btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.download-section button{padding:10px 24px;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;transition:all .2s}
+.btn-csv{background:#1a1a2e;color:#fff}.btn-json{background:#37474f;color:#fff}.btn-xlsx{background:#2e7d32;color:#fff}
+.download-section button:hover{opacity:.85;transform:translateY(-1px)}
+footer{text-align:center;padding:20px;color:#aaa;font-size:12px}
+@media(max-width:768px){.cards{grid-template-columns:1fr}.charts{grid-template-columns:1fr}}</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <h1>鸣潮 3.4版本-B站 · 舆情分析报告</h1>
+  <div class="sub">
+    <span>📊 总评论 32,173 条</span>
+    <span>📅 2026-07-16 10:06</span>
+    <span>🎮 鸣潮</span>
+    <span>📱 B站</span>
+    <span>🏷 话题数 20</span>
+  </div>
+</header>
+<section class="conclusion-box">
+  <h2>📋 总结论</h2>
+  <p>中性讨论为主（76.7%），正面（13.7%）认可<b style='color:#ffd700;'>洛瑟菈角色设计与成女少女感反差魅力</b>，负面（9.6%）集中于<b style='color:#ff6b6b;'>变奏预输入bug大规模爆发（维里奈/长离/千咲/卡提希娅/海墟/嘉贝莉娜）</b>。角色/人物为最高热度话题（3126条）。热情期待与认可，对洛瑟菈人设和PV质量给予高度评价，联动内容带动了社区活跃度，不满与质疑，对bug修复优先级和联动池机制的批评最为集中，动作模组赶工争议持续发酵。</p>
+</section>
+
+<section class="cards">
+  <div class="card card-pos">
+    <div class="emoji">😊</div>
+    <div class="numbers"><span class="count">4,403</span> <span class="pct">(13.7%)</span></div>
+    <div class="label">正面评论</div>
+  </div>
+  <div class="card card-neg">
+    <div class="emoji">😡</div>
+    <div class="numbers"><span class="count">3,098</span> <span class="pct">(9.6%)</span></div>
+    <div class="label">负面评论</div>
+  </div>
+  <div class="card card-neu">
+    <div class="emoji">😐</div>
+    <div class="numbers"><span class="count">24,672</span> <span class="pct">(76.7%)</span></div>
+    <div class="label">中性评论</div>
+  </div>
+</section>
+
+<section class="charts">
+  <div class="chart-box">
+    <h3>📊 情感分布</h3>
+    <canvas id="sentimentChart"></canvas>
+  </div>
+  <div class="chart-box">
+    <h3>🔥 话题热度 Top 10</h3>
+    <canvas id="topicChart"></canvas>
+    <table class="topic-table" style="margin-top:16px">
+      <thead><tr><th>话题</th><th>总量</th><th>正面</th><th>负面</th><th>中性</th></tr></thead>
+      <tbody id="topicTableBody"></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="insights">
+  <h2 style="font-size:20px;font-weight:700;margin-bottom:14px;color:#1a1a2e;">💡 情感分析洞察</h2>
+  <div class="insight-block">
+<div class="insight-header" onclick="this.parentElement.classList.toggle('open')">
+  <span class="badge badge-pos">正面情感</span>
+  <span class="count">4,403 条（13.7%）</span>
+  <span style="font-size:13px;color:#43a047;margin-left:8px;flex:1;">热情期待与认可，对洛瑟菈人设和PV质量给予高度评价，联动内容带动了社区活跃度</span>
+  <span class="arrow">▾</span>
+</div>
+<div class="insight-body">
+  <div class="focus-area warm"><strong>🔥 洛瑟菈角色设计与成女少女感反差魅力</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 漂泊者与洛瑟菈CP向讨论及养猫暗示</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 边缘行者联动带动回坑入坑（露西）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 PV技术力提升与影视致敬（芙莉莲/艾达王/王牌特工）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 配音阵容（刘颐诺中配/伊藤静日配/无限大bgm）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 竞品横向对比（原神/异环/崩铁/明日方舟/怪猎荒野）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 抽卡体验分享（十连双金/低抽出货）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 声骸养成策略（轻云套/偏谐套/剪辑套）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 星炬学院剧情与拉贝尔学部废部梗</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 氪金策略与版本规划（梦州/夏空复刻/新秧秧）</strong>：</div>
+  <div class="quotes">
+<span class="q">「有没有人觉得这配色挺妙的」</span>
+<span class="q">「孩子们,鸣潮第一个实锤的小厨女来了」</span>
+<span class="q">「男漂和爱弥斯尤诺的三个皮肤好看啊,速度出@鸣潮」</span>
+<span class="q">「你来这我肯定推荐鸣潮,但是游戏永远是适合自己的最好,建议都上云游戏体验一下再做判断」</span>
+  </div>
+  <p style='margin-top:10px;font-weight:600;'>高频正面话题</p><div class='topics-list'>
+<div>• 角色/人物：757 条（占该话题 22%）</div>
+<div>• 卡池/抽卡：443 条（占该话题 13%）</div>
+<div>• 竞品/对比：421 条（占该话题 12%）</div>
+<div>• 版本/更新：326 条（占该话题 9%）</div>
+<div>• 剧情/故事：233 条（占该话题 7%）</div>
+</div>
+</div>
+</div>
+  <div class="insight-block">
+<div class="insight-header" onclick="this.parentElement.classList.toggle('open')">
+  <span class="badge badge-neg">负面情感</span>
+  <span class="count">3,098 条（9.6%）</span>
+  <span style="font-size:13px;color:#e53935;margin-left:8px;flex:1;">不满与质疑，对bug修复优先级和联动池机制的批评最为集中，动作模组赶工争议持续发酵</span>
+  <span class="arrow">▾</span>
+</div>
+<div class="insight-body">
+  <div class="focus-area warm"><strong>🔥 变奏预输入bug大规模爆发（维里奈/长离/千咲/卡提希娅/海墟/嘉贝莉娜）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 洛瑟菈动作模组赶工争议（对比琳奈/达妮娅/坎特雷拉）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 延奏特效缺失作为赶工佐证</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 联动池机制不满（150抽大保底/红球不能换金球/珊瑚打折/保底不继承）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 抽卡资源压力（联动和校长同上半/周本声骸16减至10）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 联动角色评价（大卫美颜过度/丽贝卡人设崩坏/露西全程梦游/强制联机星声）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 长离强度问题（数值偏低/不合轴/驻场过长/老火队露帕成本）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 社区节奏分裂（滑坡党/捂嘴党/陆赫斯cp/号商收号）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 技术优化（学院卡顿/移动端30-39帧/40系显卡适配）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 配队装备争议（冬烟/音感仪/秧秧穗穗）</strong>：</div>
+  <div class="quotes">
+<span class="q">「那可不,就椿那个装扮,进残星会都不用换衣服」</span>
+<span class="q">「洛老师你眼睛有点发紫是不是有点压抑」</span>
+<span class="q">「秋水的能力在剧情里纯忍者技能,都是替身+跑路」</span>
+  </div>
+  <p style='margin-top:10px;font-weight:600;'>高频负面话题</p><div class='topics-list'>
+<div>• 卡池/抽卡：446 条（占该话题 16%）</div>
+<div>• 角色/人物：388 条（占该话题 14%）</div>
+<div>• 竞品/对比：379 条（占该话题 13%）</div>
+<div>• 社区/运营：273 条（占该话题 10%）</div>
+<div>• 版本/更新：264 条（占该话题 9%）</div>
+</div>
+</div>
+</div>
+  <div class="insight-block">
+<div class="insight-header" onclick="this.parentElement.classList.toggle('open')">
+  <span class="badge badge-neu">中性情感</span>
+  <span class="count">24,672 条（76.7%）</span>
+  <span style="font-size:13px;color:#78909c;margin-left:8px;flex:1;">理性分析与信息分享，技术性讨论占比最高，对角色机制和配队策略的拆解最为深入</span>
+  <span class="arrow">▾</span>
+</div>
+<div class="insight-body">
+  <div class="focus-area warm"><strong>🔥 漂泊者黑海岸身份隐瞒机制（执花/守岸人/秋水/椿/安可）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 洛瑟菈与绯雪配队及霜渐伤害类型分析（千咲三号位/嘉贝莉娜）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 洛瑟菈二形态切换机制（礼帽/无礼帽/自动变回）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 抽卡保底经历（歪维里奈/鉴心/卡卡罗/3.4不分上下半）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 AI二创国风角色造型与官方皮肤对比</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 福瑞与兽耳娘概念辨析（明日方舟山/终末地大潘）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 海墟难度提升（西格莉卡/弗洛洛风抗限制）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 声骸模组与集协模组紧急修改痕迹</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 手机端优化（切人设置/卡顿/发热）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 鸣潮与原神游戏选择讨论（跑图/剧情跳过/设备适配）</strong>：</div>
+  <div class="focus-area warm"><strong>🔥 洛瑟菈CV讨论（中配原神瑶瑶/日配伊藤静）</strong>：</div>
+  <div class="quotes">
+<span class="q">「黑海岸内部人员:每次这个黑毛出现守岸人大人就会屁颠屁颠地跑过来,像个恋爱的小女人一样,这个黑毛到底是谁呀,好难猜啊,不敢说,不敢说」</span>
+<span class="q">「理性讨论一下洛瑟拉的伤害有没有折枝高,我只有一把常驻音感仪」</span>
+<span class="q">「又是音感仪哈哈哈,音感仪真缺啊。维里奈,守岸人,达尼亚,卜灵,校长,只能是换着用了,感觉自己好穷」</span>
+<span class="q">「库洛优化手机端切人设置,优化手机端,优化手机端,优化手机端。改成电脑的那种123改成电脑的那种123轮切改成电脑的那种」</span>
+  </div>
+  <p style='margin-top:10px;font-weight:600;'>高频中性话题</p><div class='topics-list'>
+<div>• 角色/人物：1981 条（占该话题 15%）</div>
+<div>• 竞品/对比：1944 条（占该话题 15%）</div>
+<div>• 卡池/抽卡：1538 条（占该话题 12%）</div>
+<div>• 版本/更新：1352 条（占该话题 10%）</div>
+<div>• 剧情/故事：1024 条（占该话题 8%）</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="download-section">
+  <h3>📥 下载完整标注数据</h3>
+  <p class="note">共 32,173 条评论的情感分析标注结果，含评论内容、情感标签、置信度、主题词</p>
+  <div class="btns">
+    <button class="btn-csv" onclick="downloadCSV()">📄 下载 CSV</button>
+    <button class="btn-json" onclick="downloadJSON()">📋 下载 JSON</button>
+    <button class="btn-xlsx" onclick="downloadExcel()">📊 下载 Excel</button>
+  </div>
+</section>
+
+<footer>
+  Generated by ACG Sentiment Analysis Skill · 2026-07-16 10:06
+</footer>
+</div>
+
+<script>
+const EMBEDDED_DATA = {"columns": ["comment", "sentiment", "sentiment_confidence", "topics"], "rows": [["校长:你在黑海岸人脉如何?背景硬不硬? 漂子:不太行,我上头没人", "positive", "", "[]"], ["有懂得吗有生之年被做进游戏", "positive", "", "[]"], ["老库的微表情越做越细了一堆雷霆表情包", "positive", "", "[]"], ["校长:你在黑海岸人脉如何?关系硬不硬? 漂:不太行,我上头没人", "positive", "", "[]"], ["难以想象老陆看到病例后,还得强忍嘴角说是「过敏」的心情(陆:可以作为新口味的参考方案)", "positive", "", "[]"], ["我以为最后一根丝带是给老陆的", "negative", "", "[]"], ["漂子!你在黑海岸到底什么级别啊?", "negative", "", "[]"], ["虽然莫宁确实权威但是她讲的课太专业了,不太适合普通人听", "negative", "", "[]"], ["秋水:食堂有什么好吃的 漂:建议买便宜的,到时候不心疼 秋水:那我高低得尝尝咸淡了", "negative", "", "[]"], ["太逆天了握草,不公平不公平我们以前吃的苦算什么", "negative", "", "[]"], ["老陆真是高情商,不说食物中毒,说过敏", "neutral", "", "[]"], ["拍照,改变地图颜色 孩子们,帮我问一下", "neutral", "", "[]"], ["还有这个哈哈哈哈", "neutral", "", "[]"], ["00:41 你这里哥对吗", "neutral", "", "[]"], ["深空联合:误闯天家~", "neutral", "", "[]"]]};
+
+// Sentiment Chart
+const ctx1 = document.getElementById('sentimentChart').getContext('2d');
+new Chart(ctx1, {
+  type: 'doughnut',
+  data: {
+    labels: ['正面', '负面', '中性'],
+    datasets: [{
+      data: [4403, 3098, 24672],
+      backgroundColor: ['#66bb6a', '#ef5350', '#90a4ae'],
+      borderWidth: 2,
+      borderColor: '#fff'
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: { position: 'bottom', labels: { font: { size: 13 } } },
+      tooltip: { callbacks: { label: function(ctx) { const pct = (ctx.parsed / 32173 * 100).toFixed(1); return ctx.label + ': ' + ctx.parsed + ' (' + pct + '%)'; } } }
+    }
+  }
+});
+
+// Topic Chart
+const topicData = ["角色/人物", "竞品/对比", "卡池/抽卡", "版本/更新", "剧情/故事", "画面/美术", "优化/体验", "角色设计", "动作/手感", "肝度/养成"];
+const topicCounts = [3126, 2744, 2427, 1942, 1430, 1214, 933, 628, 613, 537];
+const topicPos = [757, 421, 443, 326, 233, 190, 124, 106, 84, 73];
+const topicNeg = [388, 379, 446, 264, 173, 156, 125, 81, 104, 65];
+const topicNeu = [1981, 1944, 1538, 1352, 1024, 868, 684, 441, 425, 399];
+
+const ctx2 = document.getElementById('topicChart').getContext('2d');
+new Chart(ctx2, {
+  type: 'bar',
+  data: {
+    labels: topicData,
+    datasets: [
+      { label: '正面', data: topicPos, backgroundColor: '#66bb6a' },
+      { label: '负面', data: topicNeg, backgroundColor: '#ef5350' },
+      { label: '中性', data: topicNeu, backgroundColor: '#90a4ae' }
+    ]
+  },
+  options: {
+    responsive: true,
+    indexAxis: 'y',
+    scales: { x: { stacked: true }, y: { stacked: true } },
+    plugins: { legend: { position: 'bottom' } }
+  }
+});
+
+// Topic Table
+const tableBody = document.getElementById('topicTableBody');
+const tableData = [{"topic": "角色/人物", "total": 3126, "positive": 757, "negative": 388, "neutral": 1981}, {"topic": "竞品/对比", "total": 2744, "positive": 421, "negative": 379, "neutral": 1944}, {"topic": "卡池/抽卡", "total": 2427, "positive": 443, "negative": 446, "neutral": 1538}, {"topic": "版本/更新", "total": 1942, "positive": 326, "negative": 264, "neutral": 1352}, {"topic": "剧情/故事", "total": 1430, "positive": 233, "negative": 173, "neutral": 1024}, {"topic": "画面/美术", "total": 1214, "positive": 190, "negative": 156, "neutral": 868}, {"topic": "优化/体验", "total": 933, "positive": 124, "negative": 125, "neutral": 684}, {"topic": "角色设计", "total": 628, "positive": 106, "negative": 81, "neutral": 441}, {"topic": "动作/手感", "total": 613, "positive": 84, "negative": 104, "neutral": 425}, {"topic": "肝度/养成", "total": 537, "positive": 73, "negative": 65, "neutral": 399}, {"topic": "其他", "total": 532, "positive": 55, "negative": 37, "neutral": 440}, {"topic": "战斗/玩法", "total": 519, "positive": 76, "negative": 69, "neutral": 374}, {"topic": "入坑/退坑", "total": 466, "positive": 221, "negative": 80, "neutral": 165}, {"topic": "社区/运营", "total": 406, "positive": 31, "negative": 273, "neutral": 102}, {"topic": "氪金/付费", "total": 332, "positive": 47, "negative": 44, "neutral": 241}];
+tableData.forEach(function(row) {
+  const tr = document.createElement('tr');
+  tr.innerHTML = '<td>' + row.topic + '</td><td>' + row.total + '</td><td class="td-pos">' + row.positive + '</td><td class="td-neg">' + row.negative + '</td><td class="td-neu">' + row.neutral + '</td>';
+  tableBody.appendChild(tr);
+});
+
+// Download functions
+function downloadCSV() {
+  const data = EMBEDDED_DATA;
+  let csv = data.columns.join(',') + '\n';
+  data.rows.forEach(function(row) {
+    csv += row.map(function(cell) { return '"' + String(cell).replace(/"/g, '""') + '"'; }).join(',') + '\n';
+  });
+  const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8;' });
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = 'sentiment_data.csv';
+  link.click();
+}
+
+function downloadJSON() {
+  const blob = new Blob([JSON.stringify(EMBEDDED_DATA, null, 2)], { type: 'application/json' });
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = 'sentiment_data.json';
+  link.click();
+}
+
+function downloadExcel() {
+  const data = EMBEDDED_DATA;
+  const ws = XLSX.utils.aoa_to_sheet([data.columns, ...data.rows]);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, 'Sentiment');
+  XLSX.writeFile(wb, 'sentiment_data.xlsx');
+}
+</script>
+</body>
+</html>
