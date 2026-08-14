@@ -181,7 +181,7 @@ def extract_insights(soup: BeautifulSoup) -> tuple[dict[str, Any], dict[str, Any
         if not sentiment:
             continue
         body = block.select_one(".insight-body") or block
-        summary = body.select_one(".summary-para, .summary-text")
+        summary = block.select_one(".insight-header .summary-text") or body.select_one(".summary-para, .summary-text")
         generated[sentiment]["summary"] = clean_text(summary.get_text(" ", strip=True)) if summary else ""
         tone = body.select_one(".tone")
         legacy["overall_tone"][sentiment] = clean_text(tone.get_text(" ", strip=True)).removeprefix("情感基调：") if tone else ""
@@ -303,6 +303,10 @@ def migrate(site_dir: Path, dry_run: bool) -> dict[str, int]:
                     report_target, annotations_target = site_dir / report_path, site_dir / annotations_path
                     report_target.parent.mkdir(parents=True, exist_ok=True)
                     annotations_target.parent.mkdir(parents=True, exist_ok=True)
+                    if report_target.is_file():
+                        existing = json.loads(report_target.read_text(encoding="utf-8"))
+                        if existing.get("editorial_override"):
+                            report["editorial_override"] = existing["editorial_override"]
                     report_target.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
                     annotations_target.write_text(json.dumps(annotations, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
                     entry.pop("href", None)
