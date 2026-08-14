@@ -1,0 +1,4659 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-14",
+  "timezone": "Asia/Shanghai",
+  "games": [
+    {
+      "id": "nte",
+      "name": "异环",
+      "name_en": "NTE / Neverness to Everness",
+      "icon": "icons/nte.png",
+      "phases": [
+        {
+          "id": "nte-1-0-1",
+          "version": "1.0",
+          "phase": "上半",
+          "start": "2026-04-23",
+          "end": "2026-05-06",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "娜娜莉",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "nte-1-0-2",
+          "version": "1.0",
+          "phase": "下半",
+          "start": "2026-05-07",
+          "end": "2026-05-27",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "浔",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "nte-1-1-3",
+          "version": "1.1",
+          "phase": "上半",
+          "start": "2026-05-28",
+          "end": "2026-06-17",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "安魂曲",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "nte-1-1-4",
+          "version": "1.1",
+          "phase": "下半",
+          "start": "2026-06-18",
+          "end": "2026-07-01",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "卡尔斯",
+              "type": "new-char"
+            }
+          ],
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "href": "yh_nte_bilibili_report.html",
+              "download_name": "yh_nte_bilibili_report.html"
+            },
+            "en": {
+              "status": "ready",
+              "href": "yh_nte_en_report.html",
+              "download_name": "yh_nte_en_report.html"
+            },
+            "ja": {
+              "status": "ready",
+              "href": "yh_nte_ja_report.html",
+              "download_name": "yh_nte_ja_report.html"
+            },
+            "ko": {
+              "status": "ready",
+              "href": "yh_nte_ko_report.html",
+              "download_name": "yh_nte_ko_report.html"
+            }
+          }
+        },
+        {
+          "id": "nte-1-2-5",
+          "version": "1.2",
+          "phase": "上半",
+          "start": "2026-07-02",
+          "end": "2026-07-22",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "真红",
+              "type": "new-char"
+            }
+          ],
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "href": "异环-1.2上半-B站_舆情分析报告.html",
+              "download_name": "异环-1.2上半-B站_舆情分析报告.html"
+            },
+            "en": {
+              "status": "ready",
+              "href": "异环-1.2上半-英语_情感分析报告.html",
+              "download_name": "异环-1.2上半-英语_情感分析报告.html"
+            },
+            "ja": {
+              "status": "ready",
+              "href": "异环-1.2上半-日语_情感分析报告.html",
+              "download_name": "异环-1.2上半-日语_情感分析报告.html"
+            },
+            "ko": {
+              "status": "ready",
+              "href": "异环-1.2上半-韩语_情感分析报告.html",
+              "download_name": "异环-1.2上半-韩语_情感分析报告.html"
+            }
+          }
+        },
+        {
+          "id": "nte-1-2-6",
+          "version": "1.2",
+          "phase": "下半",
+          "start": "2026-07-23",
+          "end": "2026-08-12",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "伊洛伊",
+              "type": "new-char"
+            }
+          ],
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "href": "异环-1.2下半-B站_舆情分析报告.html",
+              "download_name": "异环-1.2下半-B站_舆情分析报告.html"
+            }
+          }
+        },
+        {
+          "id": "nte-1-3-7",
+          "version": "1.3",
+          "phase": "上半",
+          "start": "2026-08-13",
+          "end": "2026-09-03",
+          "end_estimated": true,
+          "characters": [
+            {
+              "name": "残虹",
+              "type": "new-char"
+            },
+            {
+              "name": "娜娜莉",
+              "type": "reprint"
+            }
+          ],
+          "reports": {},
+          "confidence": "official",
+          "sources": [
+            {
+              "title": "《异环》1.3版本更新公告",
+              "url": "https://yh.wanmei.com/news/gamebroad/20260812/263538.html",
+              "published_at": "2026-08-12"
+            }
+          ],
+          "estimate_basis": "官方已确认1.3版本于8月13日开启；下半卡池尚无官方日期，按三周阶段周期估算",
+          "notes": "按自然日口径，1.3首日归8月13日，1.2下半截止日自动调整为8月12日。"
+        }
+      ]
+    },
+    {
+      "id": "hsr",
+      "name": "崩铁",
+      "name_en": "Honkai: Star Rail",
+      "icon": "icons/honkai_star_rail.png",
+      "phases": [
+        {
+          "id": "hsr-1-0-1",
+          "version": "1.0",
+          "phase": "上半",
+          "start": "2023-04-26",
+          "end": "2023-05-17",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "希儿",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-1-0-2",
+          "version": "1.0",
+          "phase": "下半",
+          "start": "2023-05-18",
+          "end": "2023-06-06",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "景元",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-1-1-3",
+          "version": "1.1",
+          "phase": "上半",
+          "start": "2023-06-07",
+          "end": "2023-06-28",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "银狼",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-1-1-4",
+          "version": "1.1",
+          "phase": "下半",
+          "start": "2023-06-29",
+          "end": "2023-07-18",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "罗刹",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-1-2-5",
+          "version": "1.2",
+          "phase": "上半",
+          "start": "2023-07-19",
+          "end": "2023-08-09",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "刃",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-1-2-6",
+          "version": "1.2",
+          "phase": "下半",
+          "start": "2023-08-10",
+          "end": "2023-08-29",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "卡芙卡",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-1-3-7",
+          "version": "1.3",
+          "phase": "上半",
+          "start": "2023-08-30",
+          "end": "2023-09-20",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "丹恒•饮月",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-1-3-8",
+          "version": "1.3",
+          "phase": "下半",
+          "start": "2023-09-21",
+          "end": "2023-10-10",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "符玄",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-1-4-9",
+          "version": "1.4",
+          "phase": "上半",
+          "start": "2023-10-11",
+          "end": "2023-10-27",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "镜流",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-1-4-10",
+          "version": "1.4",
+          "phase": "下半",
+          "start": "2023-10-28",
+          "end": "2023-11-14",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "托帕&账账",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-1-5-11",
+          "version": "1.5",
+          "phase": "上半",
+          "start": "2023-11-15",
+          "end": "2023-12-06",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "藿藿",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-1-5-12",
+          "version": "1.5",
+          "phase": "下半",
+          "start": "2023-12-07",
+          "end": "2023-12-26",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "银枝",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-1-6-13",
+          "version": "1.6",
+          "phase": "上半",
+          "start": "2023-12-27",
+          "end": "2024-01-17",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "阮梅",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-1-6-14",
+          "version": "1.6",
+          "phase": "下半",
+          "start": "2024-01-18",
+          "end": "2024-02-05",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "真理医生",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-2-0-15",
+          "version": "2.0",
+          "phase": "上半",
+          "start": "2024-02-06",
+          "end": "2024-02-29",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "黑天鹅",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-2-0-16",
+          "version": "2.0",
+          "phase": "下半",
+          "start": "2024-03-01",
+          "end": "2024-03-26",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "花火",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-2-1-17",
+          "version": "2.1",
+          "phase": "上半",
+          "start": "2024-03-27",
+          "end": "2024-04-17",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "黄泉",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-2-1-18",
+          "version": "2.1",
+          "phase": "下半",
+          "start": "2024-04-18",
+          "end": "2024-05-07",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "砂金",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-2-2-19",
+          "version": "2.2",
+          "phase": "上半",
+          "start": "2024-05-08",
+          "end": "2024-05-29",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "知更鸟",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-2-2-20",
+          "version": "2.2",
+          "phase": "下半",
+          "start": "2024-05-30",
+          "end": "2024-06-18",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "波提欧",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-2-3-21",
+          "version": "2.3",
+          "phase": "上半",
+          "start": "2024-06-19",
+          "end": "2024-07-10",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "流萤",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-2-3-22",
+          "version": "2.3",
+          "phase": "下半",
+          "start": "2024-07-11",
+          "end": "2024-07-30",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "翡翠",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-2-4-23",
+          "version": "2.4",
+          "phase": "上半",
+          "start": "2024-07-31",
+          "end": "2024-08-21",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "云璃",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-2-4-24",
+          "version": "2.4",
+          "phase": "下半",
+          "start": "2024-08-22",
+          "end": "2024-09-09",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "椒丘",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-2-5-25",
+          "version": "2.5",
+          "phase": "上半",
+          "start": "2024-09-10",
+          "end": "2024-10-02",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "黑天鹅",
+              "type": "new-char"
+            },
+            {
+              "name": "飞霄",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-2-5-26",
+          "version": "2.5",
+          "phase": "下半",
+          "start": "2024-10-03",
+          "end": "2024-10-22",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "灵砂",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-2-6-27",
+          "version": "2.6",
+          "phase": "上半",
+          "start": "2024-10-23",
+          "end": "2024-11-13",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "乱破",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-2-6-28",
+          "version": "2.6",
+          "phase": "下半",
+          "start": "2024-11-14",
+          "end": "2024-12-03",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "复刻",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-2-7-29",
+          "version": "2.7",
+          "phase": "上半",
+          "start": "2024-12-04",
+          "end": "2024-12-25",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "星期日",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-2-7-30",
+          "version": "2.7",
+          "phase": "下半",
+          "start": "2024-12-26",
+          "end": "2025-01-14",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "忘归人",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-0-31",
+          "version": "3.0",
+          "phase": "上半",
+          "start": "2025-01-15",
+          "end": "2025-02-05",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "大黑塔",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-0-32",
+          "version": "3.0",
+          "phase": "下半",
+          "start": "2025-02-06",
+          "end": "2025-02-25",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "阿格莱雅",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-1-33",
+          "version": "3.1",
+          "phase": "上半",
+          "start": "2025-02-26",
+          "end": "2025-03-19",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "缇宝",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-1-34",
+          "version": "3.1",
+          "phase": "下半",
+          "start": "2025-03-20",
+          "end": "2025-04-08",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "万敌",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-2-35",
+          "version": "3.2",
+          "phase": "上半",
+          "start": "2025-04-09",
+          "end": "2025-04-30",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "遐蝶",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-2-36",
+          "version": "3.2",
+          "phase": "下半",
+          "start": "2025-05-01",
+          "end": "2025-05-20",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "那刻夏",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-3-37",
+          "version": "3.3",
+          "phase": "上半",
+          "start": "2025-05-21",
+          "end": "2025-06-11",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "风堇",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-3-38",
+          "version": "3.3",
+          "phase": "下半",
+          "start": "2025-06-12",
+          "end": "2025-07-01",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "赛飞儿",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-4-39",
+          "version": "3.4",
+          "phase": "上半",
+          "start": "2025-07-02",
+          "end": "2025-07-23",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "白厄",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-4-40",
+          "version": "3.4",
+          "phase": "下半",
+          "start": "2025-07-24",
+          "end": "2025-08-12",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "复刻",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-5-41",
+          "version": "3.5",
+          "phase": "上半",
+          "start": "2025-08-13",
+          "end": "2025-09-02",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "海瑟音",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-5-42",
+          "version": "3.5",
+          "phase": "下半",
+          "start": "2025-09-03",
+          "end": "2025-09-23",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "刻律德菈",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-6-43",
+          "version": "3.6",
+          "phase": "上半",
+          "start": "2025-09-24",
+          "end": "2025-10-15",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "长夜月",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-6-44",
+          "version": "3.6",
+          "phase": "下半",
+          "start": "2025-10-16",
+          "end": "2025-11-04",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "丹恒•腾荒",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-7-45",
+          "version": "3.7",
+          "phase": "上半",
+          "start": "2025-11-05",
+          "end": "2025-11-25",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "昔涟",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-7-46",
+          "version": "3.7",
+          "phase": "下半",
+          "start": "2025-11-26",
+          "end": "2025-12-16",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "昔涟",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-8-47",
+          "version": "3.8",
+          "phase": "上半",
+          "start": "2025-12-17",
+          "end": "2026-01-06",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "大丽花",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-8中-48",
+          "version": "3.8中",
+          "phase": "上半",
+          "start": "2026-01-07",
+          "end": "2026-01-27",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "复刻忘归人",
+              "type": "reprint"
+            },
+            {
+              "name": "灵砂",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-3-8-49",
+          "version": "3.8",
+          "phase": "下半",
+          "start": "2026-01-28",
+          "end": "2026-02-12",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "复刻阿格莱雅",
+              "type": "reprint"
+            },
+            {
+              "name": "星期日",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-4-0-50",
+          "version": "4.0",
+          "phase": "上半",
+          "start": "2026-02-13",
+          "end": "2026-03-02",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "爻光",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-4-0-51",
+          "version": "4.0",
+          "phase": "下半",
+          "start": "2026-03-03",
+          "end": "2026-03-24",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "火花",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-4-1-52",
+          "version": "4.1",
+          "phase": "上半",
+          "start": "2026-03-25",
+          "end": "2026-04-07",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "不死涂",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-4-1-53",
+          "version": "4.1",
+          "phase": "下半",
+          "start": "2026-04-08",
+          "end": "2026-04-21",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "不死涂",
+              "type": "new-char"
+            },
+            {
+              "name": "复刻捷跃",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-4-2-54",
+          "version": "4.2",
+          "phase": "上半",
+          "start": "2026-04-22",
+          "end": "2026-05-12",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "银狼LV.999",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-4-2-55",
+          "version": "4.2",
+          "phase": "下半",
+          "start": "2026-05-13",
+          "end": "2026-05-31",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "绯英",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-4-3-56",
+          "version": "4.3",
+          "phase": "上半",
+          "start": "2026-06-01",
+          "end": "2026-06-23",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "千冶·刃",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "hsr-4-3-57",
+          "version": "4.3",
+          "phase": "下半",
+          "start": "2026-06-24",
+          "end": "2026-07-14",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "昔涟",
+              "type": "new-char"
+            }
+          ],
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "href": "崩铁-4.3下半_舆情分析报告.html",
+              "download_name": "崩铁-4.3下半_舆情分析报告.html"
+            },
+            "en": {
+              "status": "ready",
+              "href": "崩铁-4.3下半-英语_舆情分析报告.html",
+              "download_name": "崩铁-4.3下半-英语_舆情分析报告.html"
+            },
+            "ja": {
+              "status": "ready",
+              "href": "崩铁-4.3下半-日语_舆情分析报告.html",
+              "download_name": "崩铁-4.3下半-日语_舆情分析报告.html"
+            },
+            "ko": {
+              "status": "ready",
+              "href": "崩铁-4.3下半-韩语_舆情分析报告.html",
+              "download_name": "崩铁-4.3下半-韩语_舆情分析报告.html"
+            }
+          }
+        },
+        {
+          "id": "hsr-4-4-58",
+          "version": "4.4",
+          "phase": "上半",
+          "start": "2026-07-15",
+          "end": "2026-08-04",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "姬子·启行",
+              "type": "new-char"
+            },
+            {
+              "name": "火花",
+              "type": "reprint"
+            },
+            {
+              "name": "丹恒·腾荒",
+              "type": "reprint"
+            },
+            {
+              "name": "长夜月",
+              "type": "reprint"
+            }
+          ],
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "href": "崩铁-4.4上半_舆情分析报告.html",
+              "download_name": "崩铁-4.4上半_舆情分析报告.html"
+            },
+            "ja": {
+              "status": "ready",
+              "href": "崩铁-4.4上半-日语_舆情分析报告.html",
+              "download_name": "崩铁-4.4上半-日语_舆情分析报告.html"
+            }
+          },
+          "confidence": "corroborated",
+          "sources": [
+            {
+              "title": "Version 4.4 Update Details",
+              "url": "https://www.hoyolab.com/article/45851903?reply=1",
+              "published_at": "2026-07-14"
+            },
+            {
+              "title": "崩坏：星穹铁道4.4跃迁日历",
+              "url": "https://wiki.biligame.com/sr/%E8%B7%83%E8%BF%81/4.0"
+            }
+          ],
+          "notes": "下半于8月5日中午开启，因此上半按自然日展示至8月4日。"
+        },
+        {
+          "id": "hsr-4-4-59",
+          "version": "4.4",
+          "phase": "下半",
+          "start": "2026-08-05",
+          "end": "2026-08-25",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "姬子·启行",
+              "type": "new-char"
+            },
+            {
+              "name": "刻律德菈",
+              "type": "reprint"
+            },
+            {
+              "name": "那刻夏",
+              "type": "reprint"
+            },
+            {
+              "name": "砂金",
+              "type": "reprint"
+            }
+          ],
+          "reports": {},
+          "confidence": "corroborated",
+          "sources": [
+            {
+              "title": "Version 4.4 Update Details",
+              "url": "https://www.hoyolab.com/article/45851903?reply=1",
+              "published_at": "2026-07-14"
+            },
+            {
+              "title": "崩坏：星穹铁道4.4跃迁日历",
+              "url": "https://wiki.biligame.com/sr/%E8%B7%83%E8%BF%81/4.0"
+            }
+          ],
+          "notes": "姬子·启行为全版本跃迁，下半继续开放。"
+        }
+      ]
+    },
+    {
+      "id": "zzz",
+      "name": "绝区零",
+      "name_en": "Zenless Zone Zero",
+      "icon": "icons/zenless_zone_zero.png",
+      "phases": [
+        {
+          "id": "zzz-1-0-1",
+          "version": "1.0",
+          "phase": "上半",
+          "start": "2024-07-04",
+          "end": "2024-07-24",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "艾莲",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-1-0-2",
+          "version": "1.0",
+          "phase": "下半",
+          "start": "2024-07-25",
+          "end": "2024-08-13",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "朱鸢",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-1-1-3",
+          "version": "1.1",
+          "phase": "上半",
+          "start": "2024-08-14",
+          "end": "2024-09-04",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "青衣",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-1-1-4",
+          "version": "1.1",
+          "phase": "下半",
+          "start": "2024-09-05",
+          "end": "2024-09-24",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "简",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-1-2-5",
+          "version": "1.2",
+          "phase": "上半",
+          "start": "2024-09-25",
+          "end": "2024-10-16",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "凯撒",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-1-2-6",
+          "version": "1.2",
+          "phase": "下半",
+          "start": "2024-10-17",
+          "end": "2024-11-05",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "柏妮思",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-1-3-7",
+          "version": "1.3",
+          "phase": "上半",
+          "start": "2024-11-06",
+          "end": "2024-11-27",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "柳",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-1-3-8",
+          "version": "1.3",
+          "phase": "下半",
+          "start": "2024-11-28",
+          "end": "2024-12-17",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "莱特",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-1-4-9",
+          "version": "1.4",
+          "phase": "上半",
+          "start": "2024-12-18",
+          "end": "2025-01-21",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "悠真",
+              "type": "new-char"
+            },
+            {
+              "name": "雅",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-1-5-10",
+          "version": "1.5",
+          "phase": "上半",
+          "start": "2025-01-22",
+          "end": "2025-02-12",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "耀嘉音",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-1-5-11",
+          "version": "1.5",
+          "phase": "下半",
+          "start": "2025-02-13",
+          "end": "2025-03-11",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "伊芙琳",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-1-6-12",
+          "version": "1.6",
+          "phase": "上半",
+          "start": "2025-03-12",
+          "end": "2025-04-02",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "零号·安比",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-1-6-13",
+          "version": "1.6",
+          "phase": "下半",
+          "start": "2025-04-03",
+          "end": "2025-04-22",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "扳机",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-1-7-14",
+          "version": "1.7",
+          "phase": "上半",
+          "start": "2025-04-23",
+          "end": "2025-05-14",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "薇薇安",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-1-7-15",
+          "version": "1.7",
+          "phase": "下半",
+          "start": "2025-05-15",
+          "end": "2025-06-05",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "雨果",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-2-0-16",
+          "version": "2.0",
+          "phase": "上半",
+          "start": "2025-06-06",
+          "end": "2025-06-25",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "仪玄",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-2-0-17",
+          "version": "2.0",
+          "phase": "下半",
+          "start": "2025-06-26",
+          "end": "2025-07-15",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "橘福福",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-2-1-18",
+          "version": "2.1",
+          "phase": "上半",
+          "start": "2025-07-16",
+          "end": "2025-08-06",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "柚叶",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-2-1-19",
+          "version": "2.1",
+          "phase": "下半",
+          "start": "2025-08-07",
+          "end": "2025-09-03",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "爱丽丝",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-2-2-20",
+          "version": "2.2",
+          "phase": "上半",
+          "start": "2025-09-04",
+          "end": "2025-09-24",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "席德",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-2-2-21",
+          "version": "2.2",
+          "phase": "下半",
+          "start": "2025-09-25",
+          "end": "2025-10-14",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "奥菲丝&「鬼火」",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-2-3-22",
+          "version": "2.3",
+          "phase": "上半",
+          "start": "2025-10-15",
+          "end": "2025-11-05",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "菲丝&「鬼火」",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-2-3-23",
+          "version": "2.3",
+          "phase": "下半",
+          "start": "2025-11-06",
+          "end": "2025-11-25",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "伊德海莉",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-2-4-24",
+          "version": "2.4",
+          "phase": "上半",
+          "start": "2025-11-26",
+          "end": "2025-12-16",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "琉音",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-2-4-25",
+          "version": "2.4",
+          "phase": "下半",
+          "start": "2025-12-17",
+          "end": "2025-12-29",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "般岳",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-2-5-26",
+          "version": "2.5",
+          "phase": "上半",
+          "start": "2025-12-30",
+          "end": "2026-01-20",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "叶瞬光",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-2-5-27",
+          "version": "2.5",
+          "phase": "下半",
+          "start": "2026-01-21",
+          "end": "2026-02-05",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "复刻",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-2-6-28",
+          "version": "2.6",
+          "phase": "上半",
+          "start": "2026-02-06",
+          "end": "2026-03-03",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "千夏",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-2-6-29",
+          "version": "2.6",
+          "phase": "下半",
+          "start": "2026-03-04",
+          "end": "2026-03-23",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "爱芮",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-2-7-30",
+          "version": "2.7",
+          "phase": "上半",
+          "start": "2026-03-24",
+          "end": "2026-04-14",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "南宫羽",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-2-7-31",
+          "version": "2.7",
+          "phase": "下半",
+          "start": "2026-04-15",
+          "end": "2026-05-05",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "希希芙",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-2-8-32",
+          "version": "2.8",
+          "phase": "上半",
+          "start": "2026-05-06",
+          "end": "2026-05-26",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "普罗米娅",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-2-8-33",
+          "version": "2.8",
+          "phase": "下半",
+          "start": "2026-05-27",
+          "end": "2026-06-16",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "星徽·比利",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "zzz-3-0-34",
+          "version": "3.0",
+          "phase": "上半",
+          "start": "2026-06-17",
+          "end": "2026-07-08",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "诺姆",
+              "type": "new-char"
+            }
+          ],
+          "reports": {
+            "en": {
+              "status": "ready",
+              "href": "绝区零-3.0上半-英语_情感分析报告.html",
+              "download_name": "绝区零-3.0上半-英语_情感分析报告.html"
+            },
+            "ja": {
+              "status": "ready",
+              "href": "绝区零-3.0上半-日语_情感分析报告.html",
+              "download_name": "绝区零-3.0上半-日语_情感分析报告.html"
+            },
+            "ko": {
+              "status": "ready",
+              "href": "绝区零-3.0上半-韩语_情感分析报告.html",
+              "download_name": "绝区零-3.0上半-韩语_情感分析报告.html"
+            }
+          }
+        },
+        {
+          "id": "zzz-3-0-35",
+          "version": "3.0",
+          "phase": "下半",
+          "start": "2026-07-09",
+          "end": "2026-07-28",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "琉音",
+              "type": "new-char"
+            }
+          ],
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "href": "绝区零-3.0下半-B站_舆情分析报告.html",
+              "download_name": "绝区零-3.0下半-B站_舆情分析报告.html"
+            }
+          }
+        },
+        {
+          "id": "zzz-3-1-36",
+          "version": "3.1",
+          "phase": "上半",
+          "start": "2026-07-29",
+          "end": "2026-08-18",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "蕾米埃尔",
+              "type": "new-char"
+            },
+            {
+              "name": "爱芮",
+              "type": "reprint"
+            }
+          ],
+          "reports": {},
+          "confidence": "official",
+          "sources": [
+            {
+              "title": "Version 3.1 Signal Search Details",
+              "url": "https://zenless.hoyoverse.com/en-us/news/165410?catchSpider=1&lang=en-us&page=news"
+            },
+            {
+              "title": "《绝区零》3.1版本调频说明",
+              "url": "https://www.taptap.cn/moment/830743692607229064"
+            }
+          ],
+          "notes": "蕾米埃尔为全版本调频；下半8月19日开启，故上半按自然日展示至8月18日。"
+        },
+        {
+          "id": "zzz-3-1-37",
+          "version": "3.1",
+          "phase": "下半",
+          "start": "2026-08-19",
+          "end": "2026-09-08",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "蕾米埃尔",
+              "type": "new-char"
+            },
+            {
+              "name": "希格莉德",
+              "type": "new-char"
+            }
+          ],
+          "reports": {},
+          "confidence": "official",
+          "sources": [
+            {
+              "title": "Version 3.1 Signal Search Details",
+              "url": "https://zenless.hoyoverse.com/en-us/news/165410?catchSpider=1&lang=en-us&page=news"
+            },
+            {
+              "title": "《绝区零》3.1版本调频说明",
+              "url": "https://www.taptap.cn/moment/830743692607229064"
+            }
+          ],
+          "notes": "蕾米埃尔全版本继续开放，希格莉德于下半加入。"
+        }
+      ]
+    },
+    {
+      "id": "wuwa",
+      "name": "鸣潮",
+      "name_en": "Wuthering Waves",
+      "icon": "icons/wuthering_waves.png",
+      "phases": [
+        {
+          "id": "wuwa-1-0-1",
+          "version": "1.0",
+          "phase": "上半",
+          "start": "2024-05-23",
+          "end": "2024-06-13",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "忌炎",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-1-0-2",
+          "version": "1.0",
+          "phase": "下半",
+          "start": "2024-06-14",
+          "end": "2024-06-27",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "吟霖",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-1-1-3",
+          "version": "1.1",
+          "phase": "上半",
+          "start": "2024-06-28",
+          "end": "2024-07-22",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "今汐",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-1-1-4",
+          "version": "1.1",
+          "phase": "下半",
+          "start": "2024-07-23",
+          "end": "2024-08-14",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "长离",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-1-2-5",
+          "version": "1.2",
+          "phase": "上半",
+          "start": "2024-08-15",
+          "end": "2024-09-07",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "折枝",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-1-2-6",
+          "version": "1.2",
+          "phase": "下半",
+          "start": "2024-09-08",
+          "end": "2024-09-28",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "相里要",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-1-3-7",
+          "version": "1.3",
+          "phase": "上半",
+          "start": "2024-09-29",
+          "end": "2024-10-24",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "守岸人",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-1-3-8",
+          "version": "1.3",
+          "phase": "下半",
+          "start": "2024-10-25",
+          "end": "2024-11-13",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "复刻",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-1-4-9",
+          "version": "1.4",
+          "phase": "上半",
+          "start": "2024-11-14",
+          "end": "2024-12-12",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "椿",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-1-4-10",
+          "version": "1.4",
+          "phase": "下半",
+          "start": "2024-12-13",
+          "end": "2025-01-01",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "复刻",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-2-0-11",
+          "version": "2.0",
+          "phase": "上半",
+          "start": "2025-01-02",
+          "end": "2025-01-22",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "珂萊塔",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-2-0-12",
+          "version": "2.0",
+          "phase": "下半",
+          "start": "2025-01-23",
+          "end": "2025-02-12",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "洛可可",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-2-1-13",
+          "version": "2.1",
+          "phase": "上半",
+          "start": "2025-02-13",
+          "end": "2025-03-05",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "菲比",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-2-1-14",
+          "version": "2.1",
+          "phase": "下半",
+          "start": "2025-03-06",
+          "end": "2025-03-26",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "布兰特",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-2-2-15",
+          "version": "2.2",
+          "phase": "上半",
+          "start": "2025-03-27",
+          "end": "2025-04-16",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "坎特蕾拉",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-2-2-16",
+          "version": "2.2",
+          "phase": "下半",
+          "start": "2025-04-17",
+          "end": "2025-04-28",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "复刻",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-2-3-17",
+          "version": "2.3",
+          "phase": "上半",
+          "start": "2025-04-29",
+          "end": "2025-05-21",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "赞妮",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-2-3-18",
+          "version": "2.3",
+          "phase": "下半",
+          "start": "2025-05-22",
+          "end": "2025-06-11",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "夏空",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-2-4-19",
+          "version": "2.4",
+          "phase": "上半",
+          "start": "2025-06-12",
+          "end": "2025-07-02",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "卡提希娅",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-2-4-20",
+          "version": "2.4",
+          "phase": "下半",
+          "start": "2025-07-03",
+          "end": "2025-07-23",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "露帕",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-2-5-21",
+          "version": "2.5",
+          "phase": "上半",
+          "start": "2025-07-24",
+          "end": "2025-08-13",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "弗洛洛",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-2-5-22",
+          "version": "2.5",
+          "phase": "下半",
+          "start": "2025-08-14",
+          "end": "2025-08-27",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "复刻",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-2-6-23",
+          "version": "2.6",
+          "phase": "上半",
+          "start": "2025-08-28",
+          "end": "2025-09-16",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "奧古斯塔",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-2-6-24",
+          "version": "2.6",
+          "phase": "下半",
+          "start": "2025-09-17",
+          "end": "2025-10-08",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "尤诺",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-2-7-25",
+          "version": "2.7",
+          "phase": "上半",
+          "start": "2025-10-09",
+          "end": "2025-10-29",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "嘉贝莉娜",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-2-7-26",
+          "version": "2.7",
+          "phase": "下半",
+          "start": "2025-10-30",
+          "end": "2025-11-19",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "仇远",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-2-8-27",
+          "version": "2.8",
+          "phase": "上半",
+          "start": "2025-11-20",
+          "end": "2025-12-10",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "千咲",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-2-8-28",
+          "version": "2.8",
+          "phase": "下半",
+          "start": "2025-12-11",
+          "end": "2025-12-24",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "复刻",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-3-0-29",
+          "version": "3.0",
+          "phase": "上半",
+          "start": "2025-12-25",
+          "end": "2026-01-14",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "琳奈",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-3-0-30",
+          "version": "3.0",
+          "phase": "下半",
+          "start": "2026-01-15",
+          "end": "2026-02-04",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "莫宁",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-3-1-31",
+          "version": "3.1",
+          "phase": "上半",
+          "start": "2026-02-05",
+          "end": "2026-02-25",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "爱弥斯",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-3-1-32",
+          "version": "3.1",
+          "phase": "下半",
+          "start": "2026-02-26",
+          "end": "2026-03-18",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "陆赫斯",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-3-2-33",
+          "version": "3.2",
+          "phase": "上半",
+          "start": "2026-03-19",
+          "end": "2026-04-09",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "西格莉卡",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-3-2-34",
+          "version": "3.2",
+          "phase": "下半",
+          "start": "2026-04-10",
+          "end": "2026-04-29",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "复刻",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-3-3-35",
+          "version": "3.3",
+          "phase": "上半",
+          "start": "2026-04-30",
+          "end": "2026-05-20",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "绯雪",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-3-3-36",
+          "version": "3.3",
+          "phase": "下半",
+          "start": "2026-05-21",
+          "end": "2026-06-07",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "达妮娅",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-3-4-37",
+          "version": "3.4",
+          "phase": "上半",
+          "start": "2026-06-08",
+          "end": "2026-06-12",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "露西",
+              "type": "collab"
+            },
+            {
+              "name": "丽贝卡",
+              "type": "collab"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "wuwa-3-4-38",
+          "version": "3.4",
+          "phase": "下半",
+          "start": "2026-06-13",
+          "end": "2026-07-09",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "洛瑟菈",
+              "type": "new-char"
+            }
+          ],
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "href": "鸣潮-3.4下半-B站_舆情分析报告.html",
+              "download_name": "鸣潮-3.4下半-B站_舆情分析报告.html"
+            },
+            "en": {
+              "status": "ready",
+              "href": "mc_wuwa_en_report.html",
+              "download_name": "mc_wuwa_en_report.html"
+            },
+            "ja": {
+              "status": "ready",
+              "href": "mc_wuwa_ja_report.html",
+              "download_name": "mc_wuwa_ja_report.html"
+            },
+            "ko": {
+              "status": "ready",
+              "href": "mc_wuwa_ko_report.html",
+              "download_name": "mc_wuwa_ko_report.html"
+            }
+          }
+        },
+        {
+          "id": "wuwa-3-5-39",
+          "version": "3.5",
+          "phase": "上半",
+          "start": "2026-07-10",
+          "end": "2026-07-29",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "秧秧·玄翎",
+              "type": "new-char"
+            },
+            {
+              "name": "琳奈",
+              "type": "reprint"
+            },
+            {
+              "name": "陆·赫斯",
+              "type": "reprint"
+            }
+          ],
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "href": "鸣潮-3.5上半-B站_舆情分析报告.html",
+              "download_name": "鸣潮-3.5上半-B站_舆情分析报告.html"
+            },
+            "en": {
+              "status": "ready",
+              "href": "鸣潮-3.5上半-英语_舆情分析报告.html",
+              "download_name": "鸣潮-3.5上半-英语_舆情分析报告.html"
+            },
+            "ja": {
+              "status": "ready",
+              "href": "鸣潮-3.5上半-日语_舆情分析报告.html",
+              "download_name": "鸣潮-3.5上半-日语_舆情分析报告.html"
+            }
+          },
+          "confidence": "corroborated",
+          "sources": [
+            {
+              "title": "鸣潮3.5版本活动日历",
+              "url": "https://forum.gamer.com.tw/G2.php?bsn=74934&lorder=4&sn=333"
+            },
+            {
+              "title": "鸣潮3.5版本卡池汇总",
+              "url": "https://www.taptap.cn/moment/823834749461070373"
+            }
+          ],
+          "notes": "下半7月30日开启，故上半按自然日展示至7月29日。"
+        },
+        {
+          "id": "wuwa-3-5-40",
+          "version": "3.5",
+          "phase": "下半",
+          "start": "2026-07-30",
+          "end": "2026-08-19",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "穗穗",
+              "type": "new-char"
+            },
+            {
+              "name": "爱弥斯",
+              "type": "reprint"
+            }
+          ],
+          "reports": {},
+          "confidence": "corroborated",
+          "sources": [
+            {
+              "title": "鸣潮3.5版本活动日历",
+              "url": "https://forum.gamer.com.tw/G2.php?bsn=74934&lorder=4&sn=333"
+            },
+            {
+              "title": "鸣潮3.5版本卡池汇总",
+              "url": "https://www.taptap.cn/moment/823834749461070373"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "genshin",
+      "name": "原神",
+      "name_en": "Genshin Impact",
+      "icon": "icons/genshin.png",
+      "phases": [
+        {
+          "id": "genshin-1-0-1",
+          "version": "1.0",
+          "phase": "上半",
+          "start": "2020-09-28",
+          "end": "2020-10-18",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "温迪",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-1-0-2",
+          "version": "1.0",
+          "phase": "下半",
+          "start": "2020-10-20",
+          "end": "2020-11-10",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "可莉",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-1-1-3",
+          "version": "1.1",
+          "phase": "上半",
+          "start": "2020-11-11",
+          "end": "2020-11-30",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "达达利亚",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-1-1-4",
+          "version": "1.1",
+          "phase": "下半",
+          "start": "2020-12-01",
+          "end": "2020-12-22",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "钟离",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-1-2-5",
+          "version": "1.2",
+          "phase": "上半",
+          "start": "2020-12-23",
+          "end": "2021-01-11",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "阿贝多",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-1-2-6",
+          "version": "1.2",
+          "phase": "下半",
+          "start": "2021-01-12",
+          "end": "2021-02-02",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "甘雨",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-1-3-7",
+          "version": "1.3",
+          "phase": "上半",
+          "start": "2021-02-03",
+          "end": "2021-02-16",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "魈",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-1-3-8",
+          "version": "1.3",
+          "phase": "中期",
+          "start": "2021-02-17",
+          "end": "2021-03-01",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "刻晴",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-1-3-9",
+          "version": "1.3",
+          "phase": "下半",
+          "start": "2021-03-02",
+          "end": "2021-03-16",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "胡桃",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-1-4-10",
+          "version": "1.4",
+          "phase": "上半",
+          "start": "2021-03-17",
+          "end": "2021-04-05",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "温迪(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-1-4-11",
+          "version": "1.4",
+          "phase": "下半",
+          "start": "2021-04-06",
+          "end": "2021-04-27",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "达达利亚(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-1-5-12",
+          "version": "1.5",
+          "phase": "上半",
+          "start": "2021-04-28",
+          "end": "2021-05-17",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "钟离(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-1-5-13",
+          "version": "1.5",
+          "phase": "下半",
+          "start": "2021-05-18",
+          "end": "2021-06-08",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "优菈",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-1-6-14",
+          "version": "1.6",
+          "phase": "上半",
+          "start": "2021-06-09",
+          "end": "2021-06-28",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "可莉(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-1-6-15",
+          "version": "1.6",
+          "phase": "下半",
+          "start": "2021-06-29",
+          "end": "2021-07-20",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "枫原万叶",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-2-0-16",
+          "version": "2.0",
+          "phase": "上半",
+          "start": "2021-07-21",
+          "end": "2021-08-09",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "神里绫华",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-2-0-17",
+          "version": "2.0",
+          "phase": "下半",
+          "start": "2021-08-10",
+          "end": "2021-08-31",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "宵宫",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-2-1-18",
+          "version": "2.1",
+          "phase": "上半",
+          "start": "2021-09-01",
+          "end": "2021-09-20",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "雷电将军",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-2-1-19",
+          "version": "2.1",
+          "phase": "下半",
+          "start": "2021-09-21",
+          "end": "2021-10-12",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "珊瑚宫心海",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-2-2-20",
+          "version": "2.2",
+          "phase": "上半",
+          "start": "2021-10-13",
+          "end": "2021-11-01",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "达达利亚(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-2-2-21",
+          "version": "2.2",
+          "phase": "下半",
+          "start": "2021-11-02",
+          "end": "2021-11-23",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "胡桃(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-2-3-22",
+          "version": "2.3",
+          "phase": "上半",
+          "start": "2021-11-24",
+          "end": "2021-12-13",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "阿贝多",
+              "type": "new-char"
+            },
+            {
+              "name": "优菈(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-2-3-23",
+          "version": "2.3",
+          "phase": "下半",
+          "start": "2021-12-14",
+          "end": "2022-01-04",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "荒泷一斗",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-2-4-24",
+          "version": "2.4",
+          "phase": "上半",
+          "start": "2022-01-05",
+          "end": "2022-01-24",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "申鹤",
+              "type": "new-char"
+            },
+            {
+              "name": "魈(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-2-4-25",
+          "version": "2.4",
+          "phase": "下半",
+          "start": "2022-01-25",
+          "end": "2022-02-15",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "甘雨",
+              "type": "new-char"
+            },
+            {
+              "name": "钟离(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-2-5-26",
+          "version": "2.5",
+          "phase": "上半",
+          "start": "2022-02-16",
+          "end": "2022-03-07",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "八重神子",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-2-5-27",
+          "version": "2.5",
+          "phase": "下半",
+          "start": "2022-03-08",
+          "end": "2022-03-29",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "雷电将军",
+              "type": "new-char"
+            },
+            {
+              "name": "珊瑚宫心海(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-2-6-28",
+          "version": "2.6",
+          "phase": "上半",
+          "start": "2022-03-30",
+          "end": "2022-04-18",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "神里绫人",
+              "type": "new-char"
+            },
+            {
+              "name": "温迪(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-2-6-29",
+          "version": "2.6",
+          "phase": "下半",
+          "start": "2022-04-19",
+          "end": "2022-05-30",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "神里绫华(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-2-7-30",
+          "version": "2.7",
+          "phase": "上半",
+          "start": "2022-05-31",
+          "end": "2022-06-20",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "夜兰",
+              "type": "new-char"
+            },
+            {
+              "name": "魈(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-2-7-31",
+          "version": "2.7",
+          "phase": "下半",
+          "start": "2022-06-21",
+          "end": "2022-07-12",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "荒泷一斗(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-2-8-32",
+          "version": "2.8",
+          "phase": "上半",
+          "start": "2022-07-13",
+          "end": "2022-08-01",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "枫原万叶",
+              "type": "new-char"
+            },
+            {
+              "name": "可莉(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-2-8-33",
+          "version": "2.8",
+          "phase": "下半",
+          "start": "2022-08-02",
+          "end": "2022-08-23",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "宵宫(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-3-0-34",
+          "version": "3.0",
+          "phase": "上半",
+          "start": "2022-08-24",
+          "end": "2022-09-08",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "提纳里",
+              "type": "new-char"
+            },
+            {
+              "name": "钟离(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-3-0-35",
+          "version": "3.0",
+          "phase": "下半",
+          "start": "2022-09-09",
+          "end": "2022-09-27",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "甘雨",
+              "type": "new-char"
+            },
+            {
+              "name": "珊瑚宫心海(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-3-1-36",
+          "version": "3.1",
+          "phase": "上半",
+          "start": "2022-09-28",
+          "end": "2022-10-13",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "赛诺",
+              "type": "new-char"
+            },
+            {
+              "name": "温迪(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-3-1-37",
+          "version": "3.1",
+          "phase": "下半",
+          "start": "2022-10-14",
+          "end": "2022-11-01",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "妮露",
+              "type": "new-char"
+            },
+            {
+              "name": "阿贝多(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-3-2-38",
+          "version": "3.2",
+          "phase": "上半",
+          "start": "2022-11-02",
+          "end": "2022-11-17",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "纳西妲",
+              "type": "new-char"
+            },
+            {
+              "name": "宵宫(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-3-2-39",
+          "version": "3.2",
+          "phase": "下半",
+          "start": "2022-11-18",
+          "end": "2022-12-06",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "八重神子",
+              "type": "new-char"
+            },
+            {
+              "name": "达达利亚(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-3-3-40",
+          "version": "3.3",
+          "phase": "上半",
+          "start": "2022-12-07",
+          "end": "2022-12-26",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "流浪者",
+              "type": "new-char"
+            },
+            {
+              "name": "荒泷一斗(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-3-3-41",
+          "version": "3.3",
+          "phase": "下半",
+          "start": "2022-12-27",
+          "end": "2023-01-17",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "雷电将军",
+              "type": "new-char"
+            },
+            {
+              "name": "神里绫人(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-3-4-42",
+          "version": "3.4",
+          "phase": "上半",
+          "start": "2023-01-18",
+          "end": "2023-02-06",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "艾尔海森",
+              "type": "new-char"
+            },
+            {
+              "name": "魈(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-3-4-43",
+          "version": "3.4",
+          "phase": "下半",
+          "start": "2023-02-07",
+          "end": "2023-02-28",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "胡桃",
+              "type": "new-char"
+            },
+            {
+              "name": "夜兰(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-3-5-44",
+          "version": "3.5",
+          "phase": "上半",
+          "start": "2023-03-01",
+          "end": "2023-03-20",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "迪希雅",
+              "type": "new-char"
+            },
+            {
+              "name": "赛诺(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-3-5-45",
+          "version": "3.5",
+          "phase": "下半",
+          "start": "2023-03-21",
+          "end": "2023-04-11",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "申鹤",
+              "type": "new-char"
+            },
+            {
+              "name": "神里绫华(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-3-6-46",
+          "version": "3.6",
+          "phase": "上半",
+          "start": "2023-04-12",
+          "end": "2023-05-01",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "纳西妲",
+              "type": "new-char"
+            },
+            {
+              "name": "妮露(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-3-6-47",
+          "version": "3.6",
+          "phase": "下半",
+          "start": "2023-05-02",
+          "end": "2023-05-23",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "白术",
+              "type": "new-char"
+            },
+            {
+              "name": "甘雨(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-3-7-48",
+          "version": "3.7",
+          "phase": "上半",
+          "start": "2023-05-24",
+          "end": "2023-06-12",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "宵宫",
+              "type": "new-char"
+            },
+            {
+              "name": "八重神子(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-3-7-49",
+          "version": "3.7",
+          "phase": "下半",
+          "start": "2023-06-13",
+          "end": "2023-07-04",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "艾尔海森",
+              "type": "new-char"
+            },
+            {
+              "name": "枫原万叶(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-3-8-50",
+          "version": "3.8",
+          "phase": "上半",
+          "start": "2023-07-05",
+          "end": "2023-07-24",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "优菈",
+              "type": "new-char"
+            },
+            {
+              "name": "可莉(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-3-8-51",
+          "version": "3.8",
+          "phase": "下半",
+          "start": "2023-07-25",
+          "end": "2023-08-15",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "珊瑚宫心海",
+              "type": "new-char"
+            },
+            {
+              "name": "流浪者(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-4-0-52",
+          "version": "4.0",
+          "phase": "上半",
+          "start": "2023-08-16",
+          "end": "2023-09-04",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "林尼",
+              "type": "new-char"
+            },
+            {
+              "name": "夜兰(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-4-0-53",
+          "version": "4.0",
+          "phase": "下半",
+          "start": "2023-09-06",
+          "end": "2023-09-26",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "钟离",
+              "type": "new-char"
+            },
+            {
+              "name": "达达利亚(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-4-1-54",
+          "version": "4.1",
+          "phase": "上半",
+          "start": "2023-09-27",
+          "end": "2023-10-16",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "那维莱特",
+              "type": "new-char"
+            },
+            {
+              "name": "胡桃(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-4-1-55",
+          "version": "4.1",
+          "phase": "下半",
+          "start": "2023-10-17",
+          "end": "2023-11-07",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "莱欧斯利",
+              "type": "new-char"
+            },
+            {
+              "name": "温迪(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-4-2-56",
+          "version": "4.2",
+          "phase": "上半",
+          "start": "2023-11-08",
+          "end": "2023-11-27",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "芙宁娜",
+              "type": "new-char"
+            },
+            {
+              "name": "白术(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-4-2-57",
+          "version": "4.2",
+          "phase": "下半",
+          "start": "2023-11-28",
+          "end": "2023-12-19",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "赛诺",
+              "type": "new-char"
+            },
+            {
+              "name": "神里绫人(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-4-3-58",
+          "version": "4.3",
+          "phase": "上半",
+          "start": "2023-12-20",
+          "end": "2024-01-08",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "娜维娅",
+              "type": "new-char"
+            },
+            {
+              "name": "神里绫华(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-4-3-59",
+          "version": "4.3",
+          "phase": "下半",
+          "start": "2024-01-09",
+          "end": "2024-01-30",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "雷电将军",
+              "type": "new-char"
+            },
+            {
+              "name": "宵宫(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-4-4-60",
+          "version": "4.4",
+          "phase": "上半",
+          "start": "2024-01-31",
+          "end": "2024-02-19",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "闲云",
+              "type": "new-char"
+            },
+            {
+              "name": "纳西妲(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-4-4-61",
+          "version": "4.4",
+          "phase": "下半",
+          "start": "2024-02-20",
+          "end": "2024-03-12",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "魈",
+              "type": "new-char"
+            },
+            {
+              "name": "八重神子(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-4-5-62",
+          "version": "4.5",
+          "phase": "上半",
+          "start": "2024-03-13",
+          "end": "2024-04-01",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "千织",
+              "type": "new-char"
+            },
+            {
+              "name": "荒泷一斗(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-4-5-63",
+          "version": "4.5",
+          "phase": "下半",
+          "start": "2024-04-02",
+          "end": "2024-04-23",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "那维莱特",
+              "type": "new-char"
+            },
+            {
+              "name": "枫原万叶(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-4-6-64",
+          "version": "4.6",
+          "phase": "上半",
+          "start": "2024-04-24",
+          "end": "2024-05-13",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "阿蕾奇诺",
+              "type": "new-char"
+            },
+            {
+              "name": "林尼(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-4-6-65",
+          "version": "4.6",
+          "phase": "下半",
+          "start": "2024-05-14",
+          "end": "2024-06-04",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "流浪者",
+              "type": "new-char"
+            },
+            {
+              "name": "白术(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-4-7-66",
+          "version": "4.7",
+          "phase": "上半",
+          "start": "2024-06-05",
+          "end": "2024-06-24",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "克洛琳德",
+              "type": "new-char"
+            },
+            {
+              "name": "艾尔海森(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-4-7-67",
+          "version": "4.7",
+          "phase": "下半",
+          "start": "2024-06-25",
+          "end": "2024-07-16",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "希格雯",
+              "type": "new-char"
+            },
+            {
+              "name": "芙宁娜(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-4-8-68",
+          "version": "4.8",
+          "phase": "上半",
+          "start": "2024-07-17",
+          "end": "2024-08-05",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "娜维娅",
+              "type": "new-char"
+            },
+            {
+              "name": "妮露(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-4-8-69",
+          "version": "4.8",
+          "phase": "下半",
+          "start": "2024-08-06",
+          "end": "2024-08-27",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "艾梅莉埃",
+              "type": "new-char"
+            },
+            {
+              "name": "夜兰(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-5-0-70",
+          "version": "5.0",
+          "phase": "上半",
+          "start": "2024-08-28",
+          "end": "2024-09-16",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "玛拉妮",
+              "type": "new-char"
+            },
+            {
+              "name": "枫原万叶(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-5-0-71",
+          "version": "5.0",
+          "phase": "下半",
+          "start": "2024-09-17",
+          "end": "2024-10-08",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "基尼奇",
+              "type": "new-char"
+            },
+            {
+              "name": "雷电将军(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-5-1-72",
+          "version": "5.1",
+          "phase": "上半",
+          "start": "2024-10-09",
+          "end": "2024-10-28",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "希诺宁",
+              "type": "new-char"
+            },
+            {
+              "name": "千织(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-5-1-73",
+          "version": "5.1",
+          "phase": "下半",
+          "start": "2024-10-29",
+          "end": "2024-11-19",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "纳西妲",
+              "type": "new-char"
+            },
+            {
+              "name": "胡桃(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-5-2-74",
+          "version": "5.2",
+          "phase": "上半",
+          "start": "2024-11-20",
+          "end": "2024-12-09",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "恰斯卡",
+              "type": "new-char"
+            },
+            {
+              "name": "林尼(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-5-2-75",
+          "version": "5.2",
+          "phase": "下半",
+          "start": "2024-12-10",
+          "end": "2024-12-31",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "那维莱特",
+              "type": "new-char"
+            },
+            {
+              "name": "钟离(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-5-3-76",
+          "version": "5.3",
+          "phase": "上半",
+          "start": "2025-01-01",
+          "end": "2025-01-20",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "玛薇卡",
+              "type": "new-char"
+            },
+            {
+              "name": "茜特菈莉",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-5-3-77",
+          "version": "5.3",
+          "phase": "下半",
+          "start": "2025-01-21",
+          "end": "2025-02-11",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "阿蕾奇诺",
+              "type": "new-char"
+            },
+            {
+              "name": "克洛琳德(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-5-4-78",
+          "version": "5.4",
+          "phase": "上半",
+          "start": "2025-02-12",
+          "end": "2025-03-03",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "梦见月瑞希",
+              "type": "new-char"
+            },
+            {
+              "name": "希格雯(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-5-4-79",
+          "version": "5.4",
+          "phase": "下半",
+          "start": "2025-03-04",
+          "end": "2025-03-25",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "芙宁娜",
+              "type": "new-char"
+            },
+            {
+              "name": "莱欧斯利(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-5-5-80",
+          "version": "5.5",
+          "phase": "上半",
+          "start": "2025-03-26",
+          "end": "2025-04-14",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "瓦雷莎",
+              "type": "new-char"
+            },
+            {
+              "name": "闲云(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-5-5-81",
+          "version": "5.5",
+          "phase": "下半",
+          "start": "2025-04-15",
+          "end": "2025-05-06",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "希诺宁",
+              "type": "new-char"
+            },
+            {
+              "name": "温迪(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-5-6-82",
+          "version": "5.6",
+          "phase": "上半",
+          "start": "2025-05-07",
+          "end": "2025-05-26",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "爱可菲",
+              "type": "new-char"
+            },
+            {
+              "name": "娜维娅(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-5-6-83",
+          "version": "5.6",
+          "phase": "下半",
+          "start": "2025-05-27",
+          "end": "2025-06-17",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "基尼奇",
+              "type": "new-char"
+            },
+            {
+              "name": "雷电将军(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-5-7-84",
+          "version": "5.7",
+          "phase": "上半",
+          "start": "2025-06-18",
+          "end": "2025-07-07",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "丝柯克",
+              "type": "new-char"
+            },
+            {
+              "name": "申鹤(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-5-7-85",
+          "version": "5.7",
+          "phase": "下半",
+          "start": "2025-07-08",
+          "end": "2025-07-29",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "玛薇卡",
+              "type": "new-char"
+            },
+            {
+              "name": "艾梅莉埃(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-5-8-86",
+          "version": "5.8",
+          "phase": "上半",
+          "start": "2025-07-30",
+          "end": "2025-08-18",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "伊涅芙",
+              "type": "new-char"
+            },
+            {
+              "name": "茜特菈莉(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-5-8-87",
+          "version": "5.8",
+          "phase": "下半",
+          "start": "2025-08-19",
+          "end": "2025-09-09",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "恰斯卡",
+              "type": "new-char"
+            },
+            {
+              "name": "玛拉妮(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-月之一-88",
+          "version": "月之一",
+          "phase": "上半",
+          "start": "2025-09-10",
+          "end": "2025-09-29",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "菈乌玛",
+              "type": "new-char"
+            },
+            {
+              "name": "纳西妲(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-月之一-89",
+          "version": "月之一",
+          "phase": "下半",
+          "start": "2025-09-30",
+          "end": "2025-10-21",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "菲林斯",
+              "type": "new-char"
+            },
+            {
+              "name": "夜兰(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-月之二-90",
+          "version": "月之二",
+          "phase": "上半",
+          "start": "2025-10-22",
+          "end": "2025-11-10",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "奈芙尔",
+              "type": "new-char"
+            },
+            {
+              "name": "芙宁娜(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-月之二-91",
+          "version": "月之二",
+          "phase": "下半",
+          "start": "2025-11-11",
+          "end": "2025-12-02",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "阿蕾奇诺",
+              "type": "new-char"
+            },
+            {
+              "name": "钟离(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-月之三-92",
+          "version": "月之三",
+          "phase": "上半",
+          "start": "2025-12-03",
+          "end": "2025-12-22",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "杜林",
+              "type": "new-char"
+            },
+            {
+              "name": "温迪(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-月之三-93",
+          "version": "月之三",
+          "phase": "下半",
+          "start": "2025-12-23",
+          "end": "2026-01-13",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "瓦雷莎",
+              "type": "new-char"
+            },
+            {
+              "name": "希诺宁(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-月之四-94",
+          "version": "月之四",
+          "phase": "上半",
+          "start": "2026-01-14",
+          "end": "2026-02-02",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "哥伦比娅",
+              "type": "new-char"
+            },
+            {
+              "name": "伊涅芙(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-月之四-95",
+          "version": "月之四",
+          "phase": "下半",
+          "start": "2026-02-03",
+          "end": "2026-02-24",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "兹白",
+              "type": "new-char"
+            },
+            {
+              "name": "那维莱特(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-月之五-96",
+          "version": "月之五",
+          "phase": "上半",
+          "start": "2026-02-25",
+          "end": "2026-03-16",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "法尔伽",
+              "type": "new-char"
+            },
+            {
+              "name": "菲林斯(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-月之五-97",
+          "version": "月之五",
+          "phase": "下半",
+          "start": "2026-03-17",
+          "end": "2026-04-07",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "丝柯克",
+              "type": "new-char"
+            },
+            {
+              "name": "爱可菲(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-月之六-98",
+          "version": "月之六",
+          "phase": "上半",
+          "start": "2026-04-08",
+          "end": "2026-04-27",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "莉奈娅",
+              "type": "new-char"
+            },
+            {
+              "name": "恰斯卡(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-月之六-99",
+          "version": "月之六",
+          "phase": "下半",
+          "start": "2026-04-28",
+          "end": "2026-05-19",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "菈乌玛",
+              "type": "new-char"
+            },
+            {
+              "name": "奈芙尔(复刻)",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-月之七-100",
+          "version": "月之七",
+          "phase": "上半",
+          "start": "2026-05-20",
+          "end": "2026-06-08",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "尼可",
+              "type": "new-char"
+            },
+            {
+              "name": "杜林（复刻）",
+              "type": "reprint"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "genshin-月之七-101",
+          "version": "月之七",
+          "phase": "下半",
+          "start": "2026-06-09",
+          "end": "2026-06-30",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "洛恩",
+              "type": "new-char"
+            },
+            {
+              "name": "马微卡（复刻）",
+              "type": "reprint"
+            }
+          ],
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "href": "原神-月之七下半-B站_舆情分析报告.html",
+              "download_name": "原神-月之七下半-B站_舆情分析报告.html"
+            },
+            "en": {
+              "status": "ready",
+              "href": "原神-月之七下半-英语_舆情分析报告.html",
+              "download_name": "原神-月之七下半-英语_舆情分析报告.html"
+            },
+            "ja": {
+              "status": "ready",
+              "href": "原神-月之七下半-日语_舆情分析报告.html",
+              "download_name": "原神-月之七下半-日语_舆情分析报告.html"
+            },
+            "ko": {
+              "status": "ready",
+              "href": "原神-月之七下半-韩语_舆情分析报告.html",
+              "download_name": "原神-月之七下半-韩语_舆情分析报告.html"
+            }
+          }
+        },
+        {
+          "id": "genshin-6-7-102",
+          "version": "6.7",
+          "phase": "上半",
+          "start": "2026-07-01",
+          "end": "2026-07-20",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "桑多涅",
+              "type": "new-char"
+            },
+            {
+              "name": "茜特菈莉",
+              "type": "reprint"
+            }
+          ],
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "href": "原神-6.7上半-B站_舆情分析报告.html",
+              "download_name": "原神-6.7上半-B站_舆情分析报告.html"
+            },
+            "en": {
+              "status": "ready",
+              "href": "原神-6.7上半-英语_情感分析报告.html",
+              "download_name": "原神-6.7上半-英语_情感分析报告.html"
+            },
+            "ja": {
+              "status": "ready",
+              "href": "原神-6.7上半-日语_情感分析报告.html",
+              "download_name": "原神-6.7上半-日语_情感分析报告.html"
+            },
+            "ko": {
+              "status": "ready",
+              "href": "原神-6.7上半-韩语_情感分析报告.html",
+              "download_name": "原神-6.7上半-韩语_情感分析报告.html"
+            }
+          },
+          "confidence": "corroborated",
+          "sources": [
+            {
+              "title": "原神6.7版本祈愿情报",
+              "url": "https://forum.gamer.com.tw/C.php?bsn=36730&snA=38665"
+            },
+            {
+              "title": "原神6.7卡池日程汇总",
+              "url": "https://games.appmatch.jp/gamewiki/genshinimpact/177845798983180296/"
+            }
+          ],
+          "notes": "下半7月21日晚开启，故上半按自然日展示至7月20日。"
+        },
+        {
+          "id": "genshin-6-7-103",
+          "version": "6.7",
+          "phase": "下半",
+          "start": "2026-07-21",
+          "end": "2026-08-11",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "哥伦比娅",
+              "type": "reprint"
+            },
+            {
+              "name": "雷电将军",
+              "type": "reprint"
+            }
+          ],
+          "reports": {},
+          "confidence": "corroborated",
+          "sources": [
+            {
+              "title": "原神6.7版本祈愿情报",
+              "url": "https://forum.gamer.com.tw/C.php?bsn=36730&snA=38665"
+            },
+            {
+              "title": "原神6.7卡池日程汇总",
+              "url": "https://games.appmatch.jp/gamewiki/genshinimpact/177845798983180296/"
+            }
+          ]
+        },
+        {
+          "id": "genshin-7-0-104",
+          "version": "7.0",
+          "phase": "上半",
+          "start": "2026-08-12",
+          "end": "2026-09-02",
+          "end_estimated": true,
+          "characters": [
+            {
+              "name": "奥黛塔",
+              "type": "new-char"
+            },
+            {
+              "name": "阿蕾奇诺",
+              "type": "reprint"
+            }
+          ],
+          "reports": {},
+          "confidence": "official",
+          "sources": [
+            {
+              "title": "Version 7.0 Event Wishes Notice - Phase I",
+              "url": "https://www.hoyolab.com/article_pre/18014398241022483"
+            }
+          ],
+          "estimate_basis": "官方确认7.0上半于8月12日开启；下半祈愿公告尚未检索到，按三周阶段周期估算",
+          "notes": "结束日待官方下半祈愿公告发布后，以新卡池首日覆盖并自动修正为前一自然日。"
+        }
+      ]
+    },
+    {
+      "id": "endfield",
+      "name": "终末地",
+      "name_en": "Arknights: Endfield",
+      "icon": "icons/endfield.png",
+      "phases": [
+        {
+          "id": "endfield-1-0-1",
+          "version": "1.0",
+          "phase": "上半",
+          "start": "2026-01-22",
+          "end": "2026-02-06",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "莱万汀",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "endfield-1-0-2",
+          "version": "1.0",
+          "phase": "中期",
+          "start": "2026-02-07",
+          "end": "2026-02-23",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "洁尔佩塔",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "endfield-1-0-3",
+          "version": "1.0",
+          "phase": "下半",
+          "start": "2026-02-24",
+          "end": "2026-03-11",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "伊冯",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "endfield-1-1-4",
+          "version": "1.1",
+          "phase": "上半",
+          "start": "2026-03-12",
+          "end": "2026-03-28",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "汤汤",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "endfield-1-1-5",
+          "version": "1.1",
+          "phase": "下半",
+          "start": "2026-03-29",
+          "end": "2026-04-16",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "洛茜",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "endfield-1-2-6",
+          "version": "1.2",
+          "phase": "上半",
+          "start": "2026-04-17",
+          "end": "2026-05-13",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "庄方宜",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "endfield-1-2-7",
+          "version": "1.2",
+          "phase": "下半",
+          "start": "2026-05-14",
+          "end": "2026-06-04",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "李芷妍",
+              "type": "new-char"
+            },
+            {
+              "name": "辉光庆典",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "endfield-1-3-8",
+          "version": "1.3",
+          "phase": "上半",
+          "start": "2026-06-05",
+          "end": "2026-06-25",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "弥弗",
+              "type": "new-char"
+            }
+          ],
+          "reports": {}
+        },
+        {
+          "id": "endfield-1-3-9",
+          "version": "1.3",
+          "phase": "下半",
+          "start": "2026-06-26",
+          "end": "2026-07-09",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "卡缪",
+              "type": "new-char"
+            }
+          ],
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "href": "终末地-1.3下半_舆情分析报告.html",
+              "download_name": "终末地-1.3下半_舆情分析报告.html"
+            },
+            "en": {
+              "status": "ready",
+              "href": "终末地-1.3下半-英语_舆情分析报告.html",
+              "download_name": "终末地-1.3下半-英语_舆情分析报告.html"
+            },
+            "ja": {
+              "status": "ready",
+              "href": "终末地-1.3下半-日语_舆情分析报告.html",
+              "download_name": "终末地-1.3下半-日语_舆情分析报告.html"
+            },
+            "ko": {
+              "status": "ready",
+              "href": "终末地-1.3下半-韩语_舆情分析报告.html",
+              "download_name": "终末地-1.3下半-韩语_舆情分析报告.html"
+            }
+          }
+        },
+        {
+          "id": "endfield-1-4-10",
+          "version": "1.4",
+          "phase": "上半",
+          "start": "2026-07-16",
+          "end": "2026-08-08",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "诀",
+              "type": "new-char"
+            }
+          ],
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "href": "终末地-1.4上半-B站_舆情分析报告.html",
+              "download_name": "终末地-1.4上半-B站_舆情分析报告.html"
+            },
+            "en": {
+              "status": "ready",
+              "href": "终末地-1.4上半-英语_舆情分析报告.html",
+              "download_name": "终末地-1.4上半-英语_舆情分析报告.html"
+            },
+            "ko": {
+              "status": "ready",
+              "href": "终末地-1.4上半-韩语_舆情分析报告.html",
+              "download_name": "终末地-1.4上半-韩语_舆情分析报告.html"
+            }
+          }
+        },
+        {
+          "id": "endfield-1-4-11",
+          "version": "1.4",
+          "phase": "下半",
+          "start": "2026-08-09",
+          "end": "2026-08-26",
+          "end_estimated": true,
+          "characters": [
+            {
+              "name": "梨诺",
+              "type": "new-char"
+            }
+          ],
+          "reports": {},
+          "confidence": "official",
+          "sources": [
+            {
+              "title": "《明日方舟：终末地》1.4版本下半活动公告",
+              "url": "https://endfield.hypergryph.com/news/9335"
+            },
+            {
+              "title": "晨星于此闪耀招募说明",
+              "url": "https://www.taptap.cn/moment/826580172495914096?group_id=323017"
+            }
+          ],
+          "estimate_basis": "官方公告仅写至下一版本维护前；按近期约六周版本周期估算下一次维护为8月27日",
+          "notes": "梨诺招募持续至下一版本更新维护前，页面结束日暂按版本周期预估。"
+        }
+      ]
+    }
+  ]
+}
