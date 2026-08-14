@@ -157,15 +157,33 @@ function phaseMatches(phase) {
   return searchable.includes(state.query);
 }
 
+function formatMetric(value) {
+  const number = Number(value);
+  if (value === null || value === undefined || value === "" || !Number.isFinite(number)) return null;
+  if (number >= 100000000) return `${Number((number / 100000000).toFixed(number >= 1000000000 ? 1 : 2))}亿`;
+  if (number >= 10000) return `${Number((number / 10000).toFixed(number >= 100000 ? 1 : 2))}万`;
+  return number.toLocaleString("zh-CN");
+}
+
+function metricCell(value) {
+  const formatted = formatMetric(value);
+  if (formatted === null) return '<div class="phase-metric"><span class="metric-value pending">待统计</span></div>';
+  return `<div class="phase-metric"><span class="metric-value" title="${escapeHtml(Number(value).toLocaleString("zh-CN"))}">${escapeHtml(formatted)}</span></div>`;
+}
+
 function phaseRow(phase) {
   const status = phaseStatus(phase);
   const activeClass = status === "active" ? " active-row" : "";
+  const metrics = phase.video_metrics || {};
   return `
     <div class="phase-row${activeClass}">
       <div class="phase-version">${escapeHtml(phase.version)}</div>
       <div class="phase-name">${escapeHtml(phase.phase)}</div>
       <div class="phase-time ${phase.end_estimated ? "estimated" : ""}">${escapeHtml(phase.start)} — ${phase.end_estimated ? "预估" : ""}${escapeHtml(phase.end)}</div>
       <div class="phase-characters">${characterTags(phase.characters)}</div>
+      ${metricCell(metrics.video_count)}
+      ${metricCell(metrics.total_views)}
+      ${metricCell(metrics.total_comments)}
       <div class="report-cell">${reportButtons(phase)}</div>
     </div>`;
 }
@@ -197,7 +215,7 @@ function gamePanel(game, matched) {
         <span class="phase-count">${matched.length} 个版本阶段</span>
       </div>
       <div class="phase-table-head" aria-hidden="true">
-        <span>版本</span><span>阶段</span><span>卡池区间</span><span>卡池角色</span><span>舆情报告</span>
+        <span>版本</span><span>阶段</span><span>卡池区间</span><span>卡池角色</span><span class="metric-head">视频总数</span><span class="metric-head">视频总播放量</span><span class="metric-head">视频总评论数</span><span class="report-head-label">舆情报告</span>
       </div>
       <div>${visible.map(phaseRow).join("")}</div>
       ${hiddenCount > 0 || expanded ? `<button class="expand-panel" type="button" data-expand-game="${escapeHtml(game.id)}">${expanded ? "收起历史版本" : `展开其余 ${hiddenCount} 个历史阶段`}</button>` : ""}
