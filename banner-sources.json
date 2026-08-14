@@ -1,0 +1,354 @@
+{
+  "scanned_at": "2026-08-14",
+  "timezone": "Asia/Shanghai",
+  "entries": [
+    {
+      "game": "异环",
+      "version": "1.3",
+      "phase": "上半",
+      "start": "2026-08-13",
+      "end": "2026-09-03",
+      "end_estimated": true,
+      "estimate_basis": "官方已确认1.3版本于8月13日开启；下半卡池尚无官方日期，按三周阶段周期估算",
+      "characters": [
+        {
+          "name": "残虹",
+          "type": "new-char"
+        },
+        {
+          "name": "娜娜莉",
+          "type": "reprint"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《异环》1.3版本更新公告",
+          "url": "https://yh.wanmei.com/news/gamebroad/20260812/263538.html",
+          "published_at": "2026-08-12"
+        }
+      ],
+      "confidence": "official",
+      "notes": "按自然日口径，1.3首日归8月13日，1.2下半截止日自动调整为8月12日。"
+    },
+    {
+      "game": "崩铁",
+      "version": "4.4",
+      "phase": "上半",
+      "start": "2026-07-15",
+      "end": "2026-08-04",
+      "characters": [
+        {
+          "name": "姬子·启行",
+          "type": "new-char"
+        },
+        {
+          "name": "火花",
+          "type": "reprint"
+        },
+        {
+          "name": "丹恒·腾荒",
+          "type": "reprint"
+        },
+        {
+          "name": "长夜月",
+          "type": "reprint"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Version 4.4 Update Details",
+          "url": "https://www.hoyolab.com/article/45851903?reply=1",
+          "published_at": "2026-07-14"
+        },
+        {
+          "title": "崩坏：星穹铁道4.4跃迁日历",
+          "url": "https://wiki.biligame.com/sr/%E8%B7%83%E8%BF%81/4.0"
+        }
+      ],
+      "confidence": "corroborated",
+      "notes": "下半于8月5日中午开启，因此上半按自然日展示至8月4日。"
+    },
+    {
+      "game": "崩铁",
+      "version": "4.4",
+      "phase": "下半",
+      "start": "2026-08-05",
+      "end": "2026-08-25",
+      "characters": [
+        {
+          "name": "姬子·启行",
+          "type": "new-char"
+        },
+        {
+          "name": "刻律德菈",
+          "type": "reprint"
+        },
+        {
+          "name": "那刻夏",
+          "type": "reprint"
+        },
+        {
+          "name": "砂金",
+          "type": "reprint"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Version 4.4 Update Details",
+          "url": "https://www.hoyolab.com/article/45851903?reply=1",
+          "published_at": "2026-07-14"
+        },
+        {
+          "title": "崩坏：星穹铁道4.4跃迁日历",
+          "url": "https://wiki.biligame.com/sr/%E8%B7%83%E8%BF%81/4.0"
+        }
+      ],
+      "confidence": "corroborated",
+      "notes": "姬子·启行为全版本跃迁，下半继续开放。"
+    },
+    {
+      "game": "绝区零",
+      "version": "3.1",
+      "phase": "上半",
+      "start": "2026-07-29",
+      "end": "2026-08-18",
+      "characters": [
+        {
+          "name": "蕾米埃尔",
+          "type": "new-char"
+        },
+        {
+          "name": "爱芮",
+          "type": "reprint"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Version 3.1 Signal Search Details",
+          "url": "https://zenless.hoyoverse.com/en-us/news/165410?catchSpider=1&lang=en-us&page=news"
+        },
+        {
+          "title": "《绝区零》3.1版本调频说明",
+          "url": "https://www.taptap.cn/moment/830743692607229064"
+        }
+      ],
+      "confidence": "official",
+      "notes": "蕾米埃尔为全版本调频；下半8月19日开启，故上半按自然日展示至8月18日。"
+    },
+    {
+      "game": "绝区零",
+      "version": "3.1",
+      "phase": "下半",
+      "start": "2026-08-19",
+      "end": "2026-09-08",
+      "characters": [
+        {
+          "name": "蕾米埃尔",
+          "type": "new-char"
+        },
+        {
+          "name": "希格莉德",
+          "type": "new-char"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Version 3.1 Signal Search Details",
+          "url": "https://zenless.hoyoverse.com/en-us/news/165410?catchSpider=1&lang=en-us&page=news"
+        },
+        {
+          "title": "《绝区零》3.1版本调频说明",
+          "url": "https://www.taptap.cn/moment/830743692607229064"
+        }
+      ],
+      "confidence": "official",
+      "notes": "蕾米埃尔全版本继续开放，希格莉德于下半加入。"
+    },
+    {
+      "game": "鸣潮",
+      "version": "3.5",
+      "phase": "上半",
+      "start": "2026-07-10",
+      "end": "2026-07-29",
+      "characters": [
+        {
+          "name": "秧秧·玄翎",
+          "type": "new-char"
+        },
+        {
+          "name": "琳奈",
+          "type": "reprint"
+        },
+        {
+          "name": "陆·赫斯",
+          "type": "reprint"
+        }
+      ],
+      "sources": [
+        {
+          "title": "鸣潮3.5版本活动日历",
+          "url": "https://forum.gamer.com.tw/G2.php?bsn=74934&lorder=4&sn=333"
+        },
+        {
+          "title": "鸣潮3.5版本卡池汇总",
+          "url": "https://www.taptap.cn/moment/823834749461070373"
+        }
+      ],
+      "confidence": "corroborated",
+      "notes": "下半7月30日开启，故上半按自然日展示至7月29日。"
+    },
+    {
+      "game": "鸣潮",
+      "version": "3.5",
+      "phase": "下半",
+      "start": "2026-07-30",
+      "end": "2026-08-19",
+      "characters": [
+        {
+          "name": "穗穗",
+          "type": "new-char"
+        },
+        {
+          "name": "爱弥斯",
+          "type": "reprint"
+        }
+      ],
+      "sources": [
+        {
+          "title": "鸣潮3.5版本活动日历",
+          "url": "https://forum.gamer.com.tw/G2.php?bsn=74934&lorder=4&sn=333"
+        },
+        {
+          "title": "鸣潮3.5版本卡池汇总",
+          "url": "https://www.taptap.cn/moment/823834749461070373"
+        }
+      ],
+      "confidence": "corroborated"
+    },
+    {
+      "game": "原神",
+      "version": "6.7",
+      "phase": "上半",
+      "start": "2026-07-01",
+      "end": "2026-07-20",
+      "characters": [
+        {
+          "name": "桑多涅",
+          "type": "new-char"
+        },
+        {
+          "name": "茜特菈莉",
+          "type": "reprint"
+        }
+      ],
+      "sources": [
+        {
+          "title": "原神6.7版本祈愿情报",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=36730&snA=38665"
+        },
+        {
+          "title": "原神6.7卡池日程汇总",
+          "url": "https://games.appmatch.jp/gamewiki/genshinimpact/177845798983180296/"
+        }
+      ],
+      "confidence": "corroborated",
+      "notes": "下半7月21日晚开启，故上半按自然日展示至7月20日。"
+    },
+    {
+      "game": "原神",
+      "version": "6.7",
+      "phase": "下半",
+      "start": "2026-07-21",
+      "end": "2026-08-11",
+      "characters": [
+        {
+          "name": "哥伦比娅",
+          "type": "reprint"
+        },
+        {
+          "name": "雷电将军",
+          "type": "reprint"
+        }
+      ],
+      "sources": [
+        {
+          "title": "原神6.7版本祈愿情报",
+          "url": "https://forum.gamer.com.tw/C.php?bsn=36730&snA=38665"
+        },
+        {
+          "title": "原神6.7卡池日程汇总",
+          "url": "https://games.appmatch.jp/gamewiki/genshinimpact/177845798983180296/"
+        }
+      ],
+      "confidence": "corroborated"
+    },
+    {
+      "game": "原神",
+      "version": "7.0",
+      "phase": "上半",
+      "start": "2026-08-12",
+      "end": "2026-09-02",
+      "end_estimated": true,
+      "estimate_basis": "官方确认7.0上半于8月12日开启；下半祈愿公告尚未检索到，按三周阶段周期估算",
+      "characters": [
+        {
+          "name": "奥黛塔",
+          "type": "new-char"
+        },
+        {
+          "name": "阿蕾奇诺",
+          "type": "reprint"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Version 7.0 Event Wishes Notice - Phase I",
+          "url": "https://www.hoyolab.com/article_pre/18014398241022483"
+        }
+      ],
+      "confidence": "official",
+      "notes": "结束日待官方下半祈愿公告发布后，以新卡池首日覆盖并自动修正为前一自然日。"
+    },
+    {
+      "game": "终末地",
+      "version": "1.4",
+      "phase": "下半",
+      "start": "2026-08-09",
+      "end": "2026-08-26",
+      "end_estimated": true,
+      "estimate_basis": "官方公告仅写至下一版本维护前；按近期约六周版本周期估算下一次维护为8月27日",
+      "characters": [
+        {
+          "name": "梨诺",
+          "type": "new-char"
+        }
+      ],
+      "sources": [
+        {
+          "title": "《明日方舟：终末地》1.4版本下半活动公告",
+          "url": "https://endfield.hypergryph.com/news/9335"
+        },
+        {
+          "title": "晨星于此闪耀招募说明",
+          "url": "https://www.taptap.cn/moment/826580172495914096?group_id=323017"
+        }
+      ],
+      "confidence": "official",
+      "notes": "梨诺招募持续至下一版本更新维护前，页面结束日暂按版本周期预估。"
+    }
+  ],
+  "pending": [
+    {
+      "game": "异环",
+      "version": "1.3",
+      "phase": "下半",
+      "reason": "目前仅检索到非官方预告，尚无可核验的官方开放日期与完整角色公告。"
+    },
+    {
+      "game": "原神",
+      "version": "7.0",
+      "phase": "下半",
+      "reason": "官方第二期祈愿公告尚未检索到；上半结束日暂按三周周期预估。"
+    }
+  ]
+}
