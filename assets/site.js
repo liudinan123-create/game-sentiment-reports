@@ -126,13 +126,18 @@ function reportButtons(phase) {
     if (!report || report.status !== "ready") {
       return `<span class="language-missing">${label}待补</span>`;
     }
-    const href = escapeHtml(report.href);
-    const filename = escapeHtml(report.download_name || report.href.split("/").at(-1));
+    const dataSource = report.data_source || "";
+    const rawHref = dataSource
+      ? `report-viewer.html?data=${encodeURIComponent(dataSource)}`
+      : report.href;
+    const href = escapeHtml(rawHref);
+    const filename = escapeHtml(report.download_name || `${phase.version}-${phase.phase}-${label}-舆情报告.html`);
+    const sourceAttribute = dataSource ? ` data-source="${escapeHtml(dataSource)}"` : "";
     return `
       <span class="report-set">
         <span class="language-label">${label}</span>
         <a class="report-action" href="${href}" target="_blank" rel="noopener">查看</a>
-        <button class="report-action download-report" type="button" data-href="${href}" data-filename="${filename}">下载</button>
+        <button class="report-action download-report" type="button" data-href="${href}" data-filename="${filename}"${sourceAttribute}>下载</button>
       </span>`;
   }).join("");
 }
@@ -236,6 +241,7 @@ function showToast(message) {
 
 async function downloadReport(button) {
   const href = button.dataset.href;
+  const dataSource = button.dataset.source;
   const filename = button.dataset.filename || "舆情报告.html";
   const originalText = button.textContent;
   button.disabled = true;
@@ -243,10 +249,28 @@ async function downloadReport(button) {
   showToast("正在准备报告文件，请稍候…");
 
   try {
-    const response = await fetch(href);
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const sourceBlob = await response.blob();
-    const blob = new Blob([sourceBlob], { type: "text/html;charset=utf-8" });
+    let blob;
+    if (dataSource) {
+      const [templateResponse, dataResponse] = await Promise.all([
+        fetch("report-viewer.html"),
+        fetch(dataSource),
+      ]);
+      if (!templateResponse.ok || !dataResponse.ok) {
+        throw new Error(`HTTP ${templateResponse.status}/${dataResponse.status}`);
+      }
+      const template = await templateResponse.text();
+      const reportData = await dataResponse.json();
+      const serialized = JSON.stringify(reportData, null, 2).replace(/<\/script/gi, "<\\/script");
+      const standaloneHtml = template.replace(
+        /(<script id="reportData" type="application\/json">)[\s\S]*?(<\/script>)/,
+        `$1\n${serialized}\n$2`,
+      );
+      blob = new Blob([standaloneHtml], { type: "text/html;charset=utf-8" });
+    } else {
+      const response = await fetch(href);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      blob = new Blob([await response.blob()], { type: "text/html;charset=utf-8" });
+    }
     const objectUrl = URL.createObjectURL(blob);
     const anchor = document.createElement("a");
     anchor.href = objectUrl;

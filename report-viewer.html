@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>舆情分析报告 · 固定模板审核版</title>
+<style>
+:root{
+  --bg:#f3f5f8;--surface:#ffffff;--surface-soft:#f8fafc;--ink:#202938;--muted:#697386;
+  --line:#e3e8ef;--brand:#26354f;--brand-2:#38516f;--accent:#b99055;
+  --positive:#16866d;--positive-soft:#e9f6f1;--positive-line:#b9dfd2;
+  --negative:#c94f63;--negative-soft:#fceef1;--negative-line:#efc2ca;
+  --neutral:#66758a;--neutral-soft:#eef2f6;--neutral-line:#cfd7e2;
+  --shadow:0 10px 28px rgba(31,43,61,.07);--radius:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
+button{font:inherit}.page{max-width:1120px;margin:0 auto;padding:26px 20px 48px}
+.report-toolbar{position:sticky;top:8px;z-index:20;display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:12px;padding:10px 12px;background:rgba(255,255,255,.96);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);backdrop-filter:blur(10px)}.report-toolbar button{border:1px solid var(--line);background:#fff;color:var(--brand);border-radius:8px;padding:7px 11px;font-size:12px;font-weight:700;cursor:pointer}.report-toolbar button:hover{background:var(--surface-soft)}.report-toolbar .primary{background:var(--brand);border-color:var(--brand);color:#fff}.report-toolbar .danger{color:var(--negative)}.report-toolbar .status{margin-left:auto;color:var(--muted);font-size:11px}.edit-only{display:none}.editing .edit-only{display:inline-block}.editing .view-only{display:none}.editing [contenteditable="true"]{outline:2px dashed #b99055;outline-offset:3px;border-radius:3px;background:#fffdf7;cursor:text}.editing .summary-text[contenteditable="true"]{padding:4px}.editing .topic-title strong[contenteditable="true"],.editing .topic-item>p[contenteditable="true"]{display:block;padding:3px}
+.admin-only{display:none}.admin-mode .admin-only{display:inline-block}.publish-dialog{width:min(520px,calc(100vw - 32px));border:0;border-radius:16px;padding:0;box-shadow:0 24px 70px rgba(25,35,52,.3);color:var(--ink)}.publish-dialog::backdrop{background:rgba(21,29,42,.56);backdrop-filter:blur(3px)}.publish-dialog form{padding:24px}.publish-dialog h2{font-size:19px;margin-bottom:6px}.publish-dialog .dialog-note{font-size:12px;color:var(--muted);margin-bottom:17px}.publish-dialog label{display:block;font-size:12px;font-weight:700;margin-top:12px}.publish-dialog input{width:100%;margin-top:6px;border:1px solid var(--line);border-radius:9px;padding:10px 11px;color:var(--ink);background:#fff}.publish-dialog input:focus{outline:2px solid #b9905580;border-color:var(--accent)}.publish-path{margin-top:12px;padding:9px 10px;border-radius:8px;background:var(--surface-soft);font:11px/1.5 Consolas,monospace;overflow-wrap:anywhere}.dialog-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:19px}.dialog-actions button{border:1px solid var(--line);border-radius:8px;padding:8px 13px;background:#fff;color:var(--brand);font-weight:700;cursor:pointer}.dialog-actions .primary{background:var(--brand);border-color:var(--brand);color:#fff}.dialog-status{min-height:20px;margin-top:10px;font-size:12px;color:var(--muted)}.dialog-status.error{color:var(--negative)}.dialog-status.success{color:var(--positive)}
+.report-head{background:linear-gradient(135deg,var(--brand),var(--brand-2));color:#fff;border-radius:var(--radius);padding:30px 34px;box-shadow:0 14px 34px rgba(38,53,79,.18)}
+.eyebrow{font-size:12px;letter-spacing:.12em;color:#d9e1eb;margin-bottom:9px}.report-head h1{font-size:clamp(20px,3vw,29px);line-height:1.45;font-weight:700}
+.headline-meta{display:flex;gap:9px 18px;flex-wrap:wrap;margin-top:14px;color:#dce4ee;font-size:13px}.headline-meta span{white-space:nowrap}
+.conclusion{margin-top:18px;background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:var(--radius);padding:22px 25px;box-shadow:var(--shadow)}
+.section-label{font-size:12px;color:var(--muted);font-weight:700;letter-spacing:.08em}.conclusion p{font-size:17px;font-weight:600;margin-top:7px;line-height:1.75}
+.sentiment-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}.sentiment-card{padding:20px;border-radius:14px;border:1px solid;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.sentiment-card .name{font-size:14px;font-weight:700}.sentiment-card .count{font-size:12px;margin-top:5px;opacity:.8}.sentiment-card .pct{font-size:29px;font-weight:800;letter-spacing:-.04em}
+.sentiment-card.positive{background:var(--positive-soft);border-color:var(--positive-line);color:var(--positive)}.sentiment-card.negative{background:var(--negative-soft);border-color:var(--negative-line);color:var(--negative)}.sentiment-card.neutral{background:var(--neutral-soft);border-color:var(--neutral-line);color:var(--neutral)}
+.chart-grid{display:grid;grid-template-columns:minmax(300px,.82fr) minmax(0,1.48fr);gap:16px;margin-top:18px;align-items:stretch}.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px;overflow:hidden;height:440px}.panel-title{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:8px}.panel-title h2{font-size:17px}.panel-title span{font-size:12px;color:var(--muted)}
+.donut-wrap{min-height:0;flex:1;display:grid;place-items:center}.chart-grid>.panel:first-child{display:flex;flex-direction:column}.donut{width:220px;aspect-ratio:1;border-radius:50%;position:relative;background:conic-gradient(var(--positive) 0 14%,var(--negative) 14% 40.4%,var(--neutral) 40.4% 100%)}.donut::after{content:"";position:absolute;inset:41px;border-radius:50%;background:var(--surface)}
+.donut-center{position:absolute;inset:0;z-index:1;display:grid;place-content:center;text-align:center}.donut-center b{font-size:28px}.donut-center span{font-size:12px;color:var(--muted)}
+.legend{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;font-size:12px}.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}.legend .p{background:var(--positive)}.legend .n{background:var(--negative)}.legend .u{background:var(--neutral)}
+.keyword-chart{display:grid;gap:3px;margin-bottom:8px}.keyword-row{display:grid;grid-template-columns:100px 1fr 38px;gap:6px;align-items:center;font-size:10px;line-height:1.1}.keyword-row>span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.keyword-row .track{height:6px;background:#edf1f5;border-radius:5px;overflow:hidden}.keyword-row .bar{display:block;height:100%;border-radius:5px;background:linear-gradient(90deg,var(--brand-2),#7189a5);width:var(--value)}.keyword-row b{text-align:right;font-size:9px;color:var(--muted)}
+.topic-table-wrap{overflow:visible;width:100%}.topic-table{width:100%;border-collapse:collapse;font-size:10px;table-layout:fixed}.topic-table th{background:var(--brand);color:#fff;padding:4px 5px;text-align:right;font-weight:600;white-space:nowrap}.topic-table th:first-child,.topic-table td:first-child{text-align:left;width:25%}.topic-table td{padding:3px 5px;text-align:right;border-bottom:1px solid var(--line);line-height:1.15;white-space:nowrap}.topic-table tbody tr:hover{background:var(--surface-soft)}.topic-table .pos{color:var(--positive);font-weight:700}.topic-table .neg{color:var(--negative);font-weight:700}.topic-table .neu{color:var(--neutral);font-weight:700}
+.insights{margin-top:22px}.insights>h2{font-size:19px;margin-bottom:13px}.insight{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;margin-top:12px}.insight summary{list-style:none;cursor:pointer;padding:17px 20px;display:grid;grid-template-columns:auto auto 1fr auto;gap:12px;align-items:center}.insight summary::-webkit-details-marker{display:none}.sentiment-badge{color:#fff;border-radius:999px;padding:4px 11px;font-size:12px;font-weight:700}.positive .sentiment-badge{background:var(--positive)}.negative .sentiment-badge{background:var(--negative)}.neutral .sentiment-badge{background:var(--neutral)}.summary-count{font-size:12px;color:var(--muted);white-space:nowrap}.summary-text{font-size:13px;font-weight:600}.positive .summary-text{color:var(--positive)}.negative .summary-text{color:var(--negative)}.neutral .summary-text{color:var(--neutral)}.chevron{color:var(--muted);transition:transform .2s}.insight[open] .chevron{transform:rotate(180deg)}
+.insight-body{padding:0 20px 22px 20px;border-top:1px solid var(--line)}.top3{display:grid;gap:11px;margin-top:18px}.topic-item{border-left:3px solid;padding:12px 14px;background:var(--surface-soft);border-radius:0 10px 10px 0}.positive .topic-item{border-color:var(--positive)}.negative .topic-item{border-color:var(--negative)}.neutral .topic-item{border-color:var(--neutral)}.topic-title{display:flex;align-items:start;justify-content:space-between;gap:14px}.topic-title strong{font-size:14px}.topic-share{white-space:nowrap;border-radius:999px;padding:3px 9px;font-size:11px;font-weight:700}.positive .topic-share{color:var(--positive);background:var(--positive-soft)}.negative .topic-share{color:var(--negative);background:var(--negative-soft)}.neutral .topic-share{color:var(--neutral);background:var(--neutral-soft)}.topic-item>p{font-size:13px;color:#4d5969;margin-top:6px}.topic-quotes{margin-top:9px;border-top:1px dashed var(--line);padding-top:8px}.topic-quotes summary{display:inline-flex;align-items:center;gap:6px;padding:0;cursor:pointer;list-style:none;font-size:11px;font-weight:700;color:var(--brand-2)}.topic-quotes summary::-webkit-details-marker{display:none}.topic-quotes summary::before{content:"＋";font-size:13px}.topic-quotes[open] summary::before{content:"－"}.topic-quotes .hide-label{display:none}.topic-quotes[open] .show-label{display:none}.topic-quotes[open] .hide-label{display:inline}.topic-quote-list{margin-top:7px}.quote{display:block;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin-top:6px;color:#4f5b6b;font-size:12px}
+.template-note{margin-top:18px;padding:15px 18px;background:#fff9ed;border:1px solid #ecd9b7;border-radius:12px;color:#755d34;font-size:12px}.template-note strong{display:block;margin-bottom:4px}
+footer{text-align:center;color:#8b95a4;font-size:11px;padding:23px 0 0}
+@media(max-width:800px){.report-toolbar .status{width:100%;margin-left:0}.sentiment-cards{grid-template-columns:1fr}.chart-grid{grid-template-columns:1fr}.panel{height:auto;min-height:420px}.chart-grid>.panel:first-child{height:420px}.insight summary{grid-template-columns:auto 1fr auto}.summary-count{display:none}.summary-text{grid-column:1/-2}.topic-title{display:block}.topic-share{display:inline-block;margin-top:7px}}
+@media print{body{background:#fff}.page{max-width:none;padding:0}.report-head,.panel,.insight,.conclusion{box-shadow:none}.template-note{display:none}.insight:not([open]) .insight-body{display:block}}
+</style>
+</head>
+<body>
+<main class="page">
+  <div class="report-toolbar" aria-label="报告操作">
+    <button type="button" class="primary view-only" onclick="enterEditMode()">编辑报告</button>
+    <button type="button" class="primary edit-only" onclick="saveDraft()">保存草稿</button>
+    <button type="button" class="edit-only" onclick="finishEditing()">完成编辑</button>
+    <button type="button" class="danger" onclick="restoreGenerated()">恢复自动内容</button>
+    <button type="button" onclick="document.getElementById('reportJsonInput').click()">载入报告 JSON</button>
+    <input id="reportJsonInput" type="file" accept="application/json,.json" hidden onchange="loadReportFile(this.files[0])">
+    <button type="button" onclick="downloadReportJSON()">下载报告 JSON</button>
+    <button type="button" onclick="downloadReportHTML()">下载报告 HTML</button>
+    <button type="button" onclick="downloadAnalysisJSON()">下载分析数据</button>
+    <button type="button" onclick="downloadAnalysisCSV()">下载分析 CSV</button>
+    <button type="button" class="admin-only primary" onclick="openPublishDialog()">发布到监控平台</button>
+    <span class="status" id="editStatus">当前显示：自动生成内容</span>
+  </div>
+  <header class="report-head">
+    <div class="eyebrow">舆情分析报告 / SENTIMENT REPORT</div>
+    <h1 id="reportTitle">白银之城 · CBT2 · 完整测试期 · 全角色</h1>
+    <div class="headline-meta" id="headlineMeta">
+      <span>监测时间：2026.07.23—07.28</span><span>平台：B站</span>
+    </div>
+  </header>
+
+  <section class="conclusion">
+    <div class="section-label">一句话总结论 · 整体分析</div>
+    <p id="overallConclusion">红蔷薇与男女主建模、灰姑娘案件和法索支线获赞；骑士团服饰、配音表情及虚幻5掉帧拖累体验，最需化解受众定位与“两头讨好”的信任危机。</p>
+  </section>
+
+  <section class="sentiment-cards" aria-label="情感分布概览">
+    <article class="sentiment-card positive"><div><div class="name">正面反馈</div><div class="count">4,107 条评论</div></div><div class="pct">14.0%</div></article>
+    <article class="sentiment-card negative"><div><div class="name">负面反馈</div><div class="count">7,754 条评论</div></div><div class="pct">26.4%</div></article>
+    <article class="sentiment-card neutral"><div><div class="name">中性反馈</div><div class="count">17,524 条评论</div></div><div class="pct">59.6%</div></article>
+  </section>
+
+  <section class="chart-grid">
+    <article class="panel">
+      <div class="panel-title"><h2>情感分布</h2><span>占比 / 评论数</span></div>
+      <div class="donut-wrap"><div class="donut" role="img" aria-label="正面14.0%，负面26.4%，中性59.6%"><div class="donut-center"><b>29,385</b><span>总评论数</span></div></div></div>
+      <div class="legend"><span><i class="p"></i>正面 14.0%</span><span><i class="n"></i>负面 26.4%</span><span><i class="u"></i>中性 59.6%</span></div>
+    </article>
+    <article class="panel">
+      <div class="panel-title"><h2>关键词分析 TOP10</h2><span>按提及量排序</span></div>
+      <div class="keyword-chart" id="keywordChart">
+        <div class="keyword-row"><span>红蔷薇</span><div class="track"><i class="bar" style="--value:100%"></i></div><b>2,842</b></div>
+        <div class="keyword-row"><span>男女主建模</span><div class="track"><i class="bar" style="--value:88%"></i></div><b>2,501</b></div>
+        <div class="keyword-row"><span>骑士团服饰</span><div class="track"><i class="bar" style="--value:79%"></i></div><b>2,244</b></div>
+        <div class="keyword-row"><span>受众定位</span><div class="track"><i class="bar" style="--value:72%"></i></div><b>2,046</b></div>
+        <div class="keyword-row"><span>灰姑娘案件</span><div class="track"><i class="bar" style="--value:64%"></i></div><b>1,819</b></div>
+        <div class="keyword-row"><span>虚幻5性能</span><div class="track"><i class="bar" style="--value:57%"></i></div><b>1,621</b></div>
+        <div class="keyword-row"><span>配音表情</span><div class="track"><i class="bar" style="--value:49%"></i></div><b>1,393</b></div>
+        <div class="keyword-row"><span>飞马操控</span><div class="track"><i class="bar" style="--value:42%"></i></div><b>1,194</b></div>
+        <div class="keyword-row"><span>抽卡保底</span><div class="track"><i class="bar" style="--value:35%"></i></div><b>995</b></div>
+        <div class="keyword-row"><span>正式服时间</span><div class="track"><i class="bar" style="--value:29%"></i></div><b>824</b></div>
+      </div>
+      <div class="topic-table-wrap">
+        <table class="topic-table">
+          <thead><tr><th>具体话题</th><th>讨论总量</th><th>正面占比</th><th>负面占比</th><th>中性占比</th></tr></thead>
+          <tbody id="topicTableBody">
+            <tr><td>其他讨论</td><td>17,935</td><td class="pos">12.6%</td><td class="neg">23.9%</td><td class="neu">63.5%</td></tr>
+            <tr><td>社区生态</td><td>4,664</td><td class="pos">15.6%</td><td class="neg">29.2%</td><td class="neu">55.3%</td></tr>
+            <tr><td>视觉表现</td><td>1,987</td><td class="pos">14.6%</td><td class="neg">36.7%</td><td class="neu">48.7%</td></tr>
+            <tr><td>角色讨论</td><td>1,140</td><td class="pos">26.9%</td><td class="neg">39.0%</td><td class="neu">34.1%</td></tr>
+            <tr><td>版本内容</td><td>1,059</td><td class="pos">11.1%</td><td class="neg">23.8%</td><td class="neu">65.1%</td></tr>
+            <tr><td>音频表现</td><td>846</td><td class="pos">12.2%</td><td class="neg">25.1%</td><td class="neu">62.8%</td></tr>
+            <tr><td>竞品讨论</td><td>745</td><td class="pos">18.8%</td><td class="neg">33.7%</td><td class="neu">47.5%</td></tr>
+            <tr><td>玩法体验</td><td>612</td><td class="pos">22.4%</td><td class="neg">28.1%</td><td class="neu">49.5%</td></tr>
+            <tr><td>商业化</td><td>588</td><td class="pos">13.9%</td><td class="neg">19.9%</td><td class="neu">66.2%</td></tr>
+            <tr><td>技术体验</td><td>423</td><td class="pos">16.3%</td><td class="neg">25.8%</td><td class="neu">57.9%</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+  </section>
+
+  <section class="insights" id="insightsContainer">
+    <h2>情感分析洞察</h2>
+    <details class="insight positive" open>
+      <summary><span class="sentiment-badge">正面反馈</span><span class="summary-count">4,107 条 · 14.0%</span><span class="summary-text">玩家主要认可角色与城市视觉、悬疑叙事和具体玩法创新，整体呈现较强的公测期待。</span><span class="chevron">⌄</span></summary>
+      <div class="insight-body">
+        <div class="top3">
+          <article class="topic-item"><div class="topic-title"><strong>TOP1 · 红蔷薇、男女主与英伦城市的视觉设计</strong><span class="topic-share">占正面反馈：待 JSON 计算</span></div><p>角色建模精度、渲染质感与服装风格获得集中称赞，红蔷薇及男女主外形尤其容易激发角色喜爱和入坑意愿。</p><details class="topic-quotes"><summary><span class="show-label">展示代表评论</span><span class="hide-label">收起代表评论</span></summary><div class="topic-quote-list"><span class="quote">“红蔷薇是真的很喜欢，有故人的影子。”</span></div></details></article>
+          <article class="topic-item"><div class="topic-title"><strong>TOP2 · 灰姑娘案件、法索支线与主线伏笔回收</strong><span class="topic-share">占正面反馈：待 JSON 计算</span></div><p>玩家肯定主线结尾串联伏笔的爆发感，也认可调查过程、人物互动、镜头调度与 CG 的衔接。</p><details class="topic-quotes"><summary><span class="show-label">展示代表评论</span><span class="hide-label">收起代表评论</span></summary><div class="topic-quote-list"><span class="quote">“你不玩我玩，二测体验无敌了，主线剧情伏笔到最后有一瞬间都串起来了，体验爆炸。”</span></div></details></article>
+          <article class="topic-item"><div class="topic-title"><strong>TOP3 · 飞马漂移、格挡振刀与卡牌做饭小游戏</strong><span class="topic-share">占正面反馈：待 JSON 计算</span></div><p>具体玩法带来新鲜感，格挡反馈、飞马加速以及支线小游戏成为玩家愿意主动传播的体验亮点。</p><details class="topic-quotes"><summary><span class="show-label">展示代表评论</span><span class="hide-label">收起代表评论</span></summary><div class="topic-quote-list"><span class="quote">“格挡振刀的反馈有点爽，骑的马居然能漂移还能攒条喷气加速。”</span></div></details></article>
+        </div>
+      </div>
+    </details>
+
+    <details class="insight negative">
+      <summary><span class="sentiment-badge">负面反馈</span><span class="summary-count">7,754 条 · 26.4%</span><span class="summary-text">负面反馈集中在受众定位信任危机、角色服饰与体型割裂，以及性能和移动操控问题。</span><span class="chevron">⌄</span></summary>
+      <div class="insight-body">
+        <div class="top3">
+          <article class="topic-item"><div class="topic-title"><strong>TOP1 · 小红书女性友好与男女受众定位争议</strong><span class="topic-share">占负面反馈：待 JSON 计算</span></div><p>玩家质疑产品同时迎合两类受众，内容调整进一步加剧对后续改方向、背刺和“两边不讨好”的担忧。</p><details class="topic-quotes"><summary><span class="show-label">展示代表评论</span><span class="hide-label">收起代表评论</span></summary><div class="topic-quote-list"><span class="quote">“看样子是要两边吃，但是看评论很明显两边不讨好。”</span></div></details></article>
+          <article class="topic-item"><div class="topic-title"><strong>TOP2 · 骑士团制服、女角色体型与配音表情割裂</strong><span class="topic-share">占负面反馈：待 JSON 计算</span></div><p>短裤制服、头身比例、嘴型与声线不贴脸等问题，使高精度模型产生明显割裂感和恐怖谷体验。</p><details class="topic-quotes"><summary><span class="show-label">展示代表评论</span><span class="hide-label">收起代表评论</span></summary><div class="topic-quote-list"><span class="quote">“要我说就是男的女的穿的都很丑，这不是男女的问题，是服装设计的问题。”</span></div></details></article>
+          <article class="topic-item"><div class="topic-title"><strong>TOP3 · 虚幻5帧率、飞马3C与跑跳镜头</strong><span class="topic-share">占负面反馈：待 JSON 计算</span></div><p>不同显卡用户均报告掉帧或卡顿；镜头、跳跃、奔跑和飞马卡台阶也被认为需要公测前重点打磨。</p><details class="topic-quotes"><summary><span class="show-label">展示代表评论</span><span class="hide-label">收起代表评论</span></summary><div class="topic-quote-list"><span class="quote">“镜头是乱动的，人物跑跳跨栏也全是问题，飞马卡台阶一直没有解决。”</span></div></details></article>
+        </div>
+      </div>
+    </details>
+
+    <details class="insight neutral">
+      <summary><span class="sentiment-badge">中性反馈</span><span class="summary-count">17,524 条 · 59.6%</span><span class="summary-text">中性讨论主要围绕配音表情、玩法形态、抽卡保底、主角切换与正式服时间进行信息核对。</span><span class="chevron">⌄</span></summary>
+      <div class="insight-body">
+        <div class="top3">
+          <article class="topic-item"><div class="topic-title"><strong>TOP1 · 雷霆配音、脸部表情与骑士团服饰</strong><span class="topic-share">占中性反馈：待 JSON 计算</span></div><p>玩家主要核对声线是否贴合建模、嘴部与表情是否自然，以及服装能否体现维多利亚英伦风格。</p><details class="topic-quotes"><summary><span class="show-label">展示代表评论</span><span class="hide-label">收起代表评论</span></summary><div class="topic-quote-list"><span class="quote">“这个游戏建模我看是最舒服的，但是雷霆配音受不了一点，好几个配音看着特别怪。”</span></div></details></article>
+          <article class="topic-item"><div class="topic-title"><strong>TOP2 · 探案流程、大世界或箱庭与同类二游对比</strong><span class="topic-share">占中性反馈：待 JSON 计算</span></div><p>评论持续询问地图结构和探案流程，并将战斗、角色与画面体验同其他二游进行比较。</p><details class="topic-quotes"><summary><span class="show-label">展示代表评论</span><span class="hide-label">收起代表评论</span></summary><div class="topic-quote-list"><span class="quote">“我只想问一下，是大世界还是箱庭啊？”</span></div></details></article>
+          <article class="topic-item"><div class="topic-title"><strong>TOP3 · 100抽保底、主角性别切换与正式服计划</strong><span class="topic-share">占中性反馈：待 JSON 计算</span></div><p>信息型讨论集中于抽卡规则、充值汇率、男女主切换、正式服时间、云游戏支持和配置需求。</p><details class="topic-quotes"><summary><span class="show-label">展示代表评论</span><span class="hide-label">收起代表评论</span></summary><div class="topic-quote-list"><span class="quote">“会歪，但是1—99抽出任何金都不会重置第100抽必出 UP 的一发。”</span><span class="quote">“问问各位能性别切换吗？什么时候正式服可以玩？”</span></div></details></article>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <aside class="template-note"><strong>审核版说明</strong>关键词柱状图和话题明细中的数值仅用于展示模板布局；正式报告将完全使用情感分析 JSON 中的真实数据。三类 TOP3 的“占该情感反馈比例”需要由全量语义簇规模计算，不会根据抽样评论次数估算。</aside>
+  <footer>ACG Sentiment Report Template · Review Draft</footer>
+</main>
+<dialog class="publish-dialog" id="publishDialog">
+  <form method="dialog" onsubmit="return false">
+    <h2>发布修订后的报告</h2>
+    <p class="dialog-note">内容将提交到 GitHub 仓库并触发 Pages 更新。Token 只在本次发布时保存在内存中，关闭弹窗或刷新页面即清除。</p>
+    <div class="publish-path" id="publishPath">尚未载入可发布的 JSON 文件</div>
+    <label for="githubToken">GitHub 细粒度 Token</label>
+    <input id="githubToken" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
+    <label for="commitMessage">提交说明</label>
+    <input id="commitMessage" type="text" maxlength="120" value="更新舆情报告人工修订内容">
+    <div class="dialog-status" id="publishStatus" role="status" aria-live="polite"></div>
+    <div class="dialog-actions"><button type="button" onclick="closePublishDialog()">取消</button><button type="button" class="primary" id="publishButton" onclick="publishReport()">确认发布</button></div>
+  </form>
+</dialog>
+<script id="reportData" type="application/json">
+{
+  "schema_version": 1,
+  "meta": {"game":"白银之城","version":"CBT2","phase":"完整测试期","character":"全角色","date_start":"2026-07-23","date_end":"2026-07-28","platform":"B站","generated_at":"2026-08-14T21:00"},
+  "analysis": {
+    "total_comments": 29385,
+    "sentiments": {"positive":{"count":4107,"percent":14.0},"negative":{"count":7754,"percent":26.4},"neutral":{"count":17524,"percent":59.6}},
+    "keywords": [{"name":"红蔷薇","count":2842},{"name":"男女主建模","count":2501},{"name":"骑士团服饰","count":2244},{"name":"受众定位","count":2046},{"name":"灰姑娘案件","count":1819},{"name":"虚幻5性能","count":1621},{"name":"配音表情","count":1393},{"name":"飞马操控","count":1194},{"name":"抽卡保底","count":995},{"name":"正式服时间","count":824}],
+    "topics": [{"name":"其他讨论","total":17935,"positive_percent":12.6,"negative_percent":23.9,"neutral_percent":63.5},{"name":"社区生态","total":4664,"positive_percent":15.6,"negative_percent":29.2,"neutral_percent":55.3},{"name":"视觉表现","total":1987,"positive_percent":14.6,"negative_percent":36.7,"neutral_percent":48.7},{"name":"角色讨论","total":1140,"positive_percent":26.9,"negative_percent":39.0,"neutral_percent":34.1},{"name":"版本内容","total":1059,"positive_percent":11.1,"negative_percent":23.8,"neutral_percent":65.1},{"name":"音频表现","total":846,"positive_percent":12.2,"negative_percent":25.1,"neutral_percent":62.8},{"name":"竞品讨论","total":745,"positive_percent":18.8,"negative_percent":33.7,"neutral_percent":47.5},{"name":"玩法体验","total":612,"positive_percent":22.4,"negative_percent":28.1,"neutral_percent":49.5},{"name":"商业化","total":588,"positive_percent":13.9,"negative_percent":19.9,"neutral_percent":66.2},{"name":"技术体验","total":423,"positive_percent":16.3,"negative_percent":25.8,"neutral_percent":57.9}]
+  },
+  "generated": {
+    "overall_conclusion":"红蔷薇与男女主建模、灰姑娘案件和法索支线获赞；骑士团服饰、配音表情及虚幻5掉帧拖累体验，最需化解受众定位与“两头讨好”的信任危机。",
+    "sentiments": {
+      "positive":{"summary":"玩家主要认可角色与城市视觉、悬疑叙事和具体玩法创新，整体呈现较强的公测期待。","topics":[{"rank":1,"title":"红蔷薇、男女主与英伦城市的视觉设计","detail":"角色建模精度、渲染质感与服装风格获得集中称赞，红蔷薇及男女主外形尤其容易激发角色喜爱和入坑意愿。","count":null,"share_percent":null,"quotes":["红蔷薇是真的很喜欢，有故人的影子。"]},{"rank":2,"title":"灰姑娘案件、法索支线与主线伏笔回收","detail":"玩家肯定主线结尾串联伏笔的爆发感，也认可调查过程、人物互动、镜头调度与 CG 的衔接。","count":null,"share_percent":null,"quotes":["你不玩我玩，二测体验无敌了，主线剧情伏笔到最后有一瞬间都串起来了，体验爆炸。"]},{"rank":3,"title":"飞马漂移、格挡振刀与卡牌做饭小游戏","detail":"具体玩法带来新鲜感，格挡反馈、飞马加速以及支线小游戏成为玩家愿意主动传播的体验亮点。","count":null,"share_percent":null,"quotes":["格挡振刀的反馈有点爽，骑的马居然能漂移还能攒条喷气加速。"]}]},
+      "negative":{"summary":"负面反馈集中在受众定位信任危机、角色服饰与体型割裂，以及性能和移动操控问题。","topics":[{"rank":1,"title":"小红书女性友好与男女受众定位争议","detail":"玩家质疑产品同时迎合两类受众，内容调整进一步加剧对后续改方向、背刺和“两边不讨好”的担忧。","count":null,"share_percent":null,"quotes":["看样子是要两边吃，但是看评论很明显两边不讨好。"]},{"rank":2,"title":"骑士团制服、女角色体型与配音表情割裂","detail":"短裤制服、头身比例、嘴型与声线不贴脸等问题，使高精度模型产生明显割裂感和恐怖谷体验。","count":null,"share_percent":null,"quotes":["要我说就是男的女的穿的都很丑，这不是男女的问题，是服装设计的问题。"]},{"rank":3,"title":"虚幻5帧率、飞马3C与跑跳镜头","detail":"不同显卡用户均报告掉帧或卡顿；镜头、跳跃、奔跑和飞马卡台阶也被认为需要公测前重点打磨。","count":null,"share_percent":null,"quotes":["镜头是乱动的，人物跑跳跨栏也全是问题，飞马卡台阶一直没有解决。"]}]},
+      "neutral":{"summary":"中性讨论主要围绕配音表情、玩法形态、抽卡保底、主角切换与正式服时间进行信息核对。","topics":[{"rank":1,"title":"雷霆配音、脸部表情与骑士团服饰","detail":"玩家主要核对声线是否贴合建模、嘴部与表情是否自然，以及服装能否体现维多利亚英伦风格。","count":null,"share_percent":null,"quotes":["这个游戏建模我看是最舒服的，但是雷霆配音受不了一点，好几个配音看着特别怪。"]},{"rank":2,"title":"探案流程、大世界或箱庭与同类二游对比","detail":"评论持续询问地图结构和探案流程，并将战斗、角色与画面体验同其他二游进行比较。","count":null,"share_percent":null,"quotes":["我只想问一下，是大世界还是箱庭啊？"]},{"rank":3,"title":"100抽保底、主角性别切换与正式服计划","detail":"信息型讨论集中于抽卡规则、充值汇率、男女主切换、正式服时间、云游戏支持和配置需求。","count":null,"share_percent":null,"quotes":["会歪，但是1—99抽出任何金都不会重置第100抽必出 UP 的一发。","问问各位能性别切换吗？什么时候正式服可以玩？"]}]}
+    }
+  },
+  "editorial_override":{"overall_conclusion":null,"sentiments":{"positive":{"summary":null,"topics":[null,null,null]},"negative":{"summary":null,"topics":[null,null,null]},"neutral":{"summary":null,"topics":[null,null,null]}},"updated_at":null},
+  "annotated_data":{"columns":["comment","sentiment","sentiment_confidence","topics"],"rows":[["红蔷薇是真的很喜欢，有故人的影子。","positive","0.88","[\"角色讨论\"]"],["看样子是要两边吃，但是看评论很明显两边不讨好。","negative","0.91","[\"社区生态\"]"],["我只想问一下，是大世界还是箱庭啊？","neutral","0.87","[\"版本内容\"]"]]}
+}
+</script>
+<script>
+const REPORT_DATA=JSON.parse(document.getElementById('reportData').textContent);
+const SENTIMENT_LABELS={positive:'正面反馈',negative:'负面反馈',neutral:'中性反馈'};
+const SENTIMENT_CLASSES={positive:'positive',negative:'negative',neutral:'neutral'};
+const PUBLISH_CONFIG={owner:'liudinan123-create',repo:'game-sentiment-reports',branch:'main',apiVersion:'2026-03-10'};
+let ACTIVE_DATA_SOURCE=null;
+
+function cloneValue(value){return JSON.parse(JSON.stringify(value));}
+function escapeHTML(value){return String(value??'').replace(/[&<>"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));}
+function reportKey(){const m=REPORT_DATA.meta;return `sentiment-draft:${m.game}:${m.version}:${m.phase}:${m.character}:${m.platform}`;}
+function currentTopic(sentiment,index){const generated=REPORT_DATA.generated.sentiments[sentiment].topics[index]||{};const override=REPORT_DATA.editorial_override.sentiments[sentiment].topics[index];return override?{...generated,...override}:generated;}
+function currentSummary(sentiment){return REPORT_DATA.editorial_override.sentiments[sentiment].summary??REPORT_DATA.generated.sentiments[sentiment].summary;}
+function currentConclusion(){return REPORT_DATA.editorial_override.overall_conclusion??REPORT_DATA.generated.overall_conclusion;}
+function hasOverrides(){return Boolean(REPORT_DATA.editorial_override.updated_at||REPORT_DATA.editorial_override.overall_conclusion||Object.values(REPORT_DATA.editorial_override.sentiments).some(s=>s.summary||s.topics.some(Boolean)));}
+
+function renderReport(){
+  const m=REPORT_DATA.meta,a=REPORT_DATA.analysis;
+  document.getElementById('reportTitle').textContent=[m.game,m.version,m.phase,m.character].filter(Boolean).join(' · ');
+  document.getElementById('headlineMeta').innerHTML=`<span>监测时间：${escapeHTML(m.date_start)}—${escapeHTML(m.date_end)}</span><span>平台：${escapeHTML(m.platform)}</span>`;
+  const conclusion=document.getElementById('overallConclusion');conclusion.textContent=currentConclusion();conclusion.dataset.editor='overall';
+  for(const key of ['positive','negative','neutral']){
+    const card=document.querySelector(`.sentiment-card.${SENTIMENT_CLASSES[key]}`),stats=a.sentiments[key];
+    card.querySelector('.count').textContent=`${Number(stats.count).toLocaleString()} 条评论`;card.querySelector('.pct').textContent=`${Number(stats.percent).toFixed(1)}%`;
+  }
+  const p=a.sentiments.positive.percent,n=a.sentiments.negative.percent;
+  document.querySelector('.donut').style.background=`conic-gradient(var(--positive) 0 ${p}%,var(--negative) ${p}% ${p+n}%,var(--neutral) ${p+n}% 100%)`;
+  document.querySelector('.donut-center b').textContent=Number(a.total_comments).toLocaleString();
+  document.querySelector('.legend').innerHTML=`<span><i class="p"></i>正面 ${p.toFixed(1)}%</span><span><i class="n"></i>负面 ${n.toFixed(1)}%</span><span><i class="u"></i>中性 ${a.sentiments.neutral.percent.toFixed(1)}%</span>`;
+  const maxKeyword=Math.max(...a.keywords.map(k=>k.count),1);
+  document.getElementById('keywordChart').innerHTML=a.keywords.slice(0,10).map(k=>`<div class="keyword-row"><span>${escapeHTML(k.name)}</span><div class="track"><i class="bar" style="--value:${(k.count/maxKeyword*100).toFixed(1)}%"></i></div><b>${Number(k.count).toLocaleString()}</b></div>`).join('');
+  document.getElementById('topicTableBody').innerHTML=a.topics.slice(0,10).map(t=>`<tr><td>${escapeHTML(t.name)}</td><td>${Number(t.total).toLocaleString()}</td><td class="pos">${Number(t.positive_percent).toFixed(1)}%</td><td class="neg">${Number(t.negative_percent).toFixed(1)}%</td><td class="neu">${Number(t.neutral_percent).toFixed(1)}%</td></tr>`).join('');
+  const blocks=['positive','negative','neutral'].map((sentiment,sentimentIndex)=>{
+    const stats=a.sentiments[sentiment],summary=currentSummary(sentiment),topics=[0,1,2].map(index=>{
+      const topic=currentTopic(sentiment,index),share=topic.share_percent==null?'待 JSON 计算':`${Number(topic.share_percent).toFixed(1)}%`;
+      const quotes=(topic.quotes||[]).map((quote,quoteIndex)=>`<span class="quote" data-editor="quote" data-sentiment="${sentiment}" data-topic-index="${index}" data-quote-index="${quoteIndex}">${escapeHTML(quote)}</span>`).join('');
+      return `<article class="topic-item"><div class="topic-title"><strong data-editor="topic-title" data-sentiment="${sentiment}" data-topic-index="${index}">TOP${index+1} · ${escapeHTML(topic.title)}</strong><span class="topic-share">占${SENTIMENT_LABELS[sentiment]}：${share}</span></div><p data-editor="topic-detail" data-sentiment="${sentiment}" data-topic-index="${index}">${escapeHTML(topic.detail)}</p><details class="topic-quotes"><summary><span class="show-label">展示代表评论</span><span class="hide-label">收起代表评论</span></summary><div class="topic-quote-list">${quotes}</div></details></article>`;
+    }).join('');
+    return `<details class="insight ${SENTIMENT_CLASSES[sentiment]}" ${sentimentIndex===0?'open':''}><summary><span class="sentiment-badge">${SENTIMENT_LABELS[sentiment]}</span><span class="summary-count">${Number(stats.count).toLocaleString()} 条 · ${Number(stats.percent).toFixed(1)}%</span><span class="summary-text" data-editor="sentiment-summary" data-sentiment="${sentiment}">${escapeHTML(summary)}</span><span class="chevron">⌄</span></summary><div class="insight-body"><div class="top3">${topics}</div></div></details>`;
+  }).join('');
+  document.getElementById('insightsContainer').innerHTML='<h2>情感分析洞察</h2>'+blocks;
+  document.getElementById('editStatus').textContent=hasOverrides()?`当前显示：人工修订内容 · ${REPORT_DATA.editorial_override.updated_at||''}`:'当前显示：自动生成内容';
+}
+
+function enterEditMode(){document.body.classList.add('editing');document.querySelectorAll('[data-editor]').forEach(el=>el.contentEditable='true');document.querySelectorAll('details.insight').forEach(el=>el.open=true);document.getElementById('editStatus').textContent='编辑中：统计数据已锁定';}
+function finishEditing(){collectEdits();document.body.classList.remove('editing');document.querySelectorAll('[contenteditable]').forEach(el=>el.removeAttribute('contenteditable'));renderReport();}
+function cleanText(value){return String(value||'').replace(/\s+/g,' ').trim();}
+function emptyOverrides(){return {overall_conclusion:null,sentiments:{positive:{summary:null,topics:[null,null,null]},negative:{summary:null,topics:[null,null,null]},neutral:{summary:null,topics:[null,null,null]}},updated_at:null};}
+function collectEdits(){
+  if(!document.body.classList.contains('editing'))return;
+  const next=emptyOverrides(),overall=cleanText(document.getElementById('overallConclusion').innerText);
+  if(overall!==REPORT_DATA.generated.overall_conclusion)next.overall_conclusion=overall;
+  for(const sentiment of ['positive','negative','neutral']){
+    const summaryEl=document.querySelector(`[data-editor="sentiment-summary"][data-sentiment="${sentiment}"]`),summary=cleanText(summaryEl?.innerText);
+    if(summary!==REPORT_DATA.generated.sentiments[sentiment].summary)next.sentiments[sentiment].summary=summary;
+    for(let index=0;index<3;index++){
+      const source=REPORT_DATA.generated.sentiments[sentiment].topics[index]||{},override={};
+      const title=cleanText(document.querySelector(`[data-editor="topic-title"][data-sentiment="${sentiment}"][data-topic-index="${index}"]`)?.innerText).replace(/^TOP\d+\s*[·•-]\s*/,'');
+      const detail=cleanText(document.querySelector(`[data-editor="topic-detail"][data-sentiment="${sentiment}"][data-topic-index="${index}"]`)?.innerText);
+      const quotes=[...document.querySelectorAll(`[data-editor="quote"][data-sentiment="${sentiment}"][data-topic-index="${index}"]`)].map(el=>cleanText(el.innerText));
+      if(title!==source.title)override.title=title;if(detail!==source.detail)override.detail=detail;if(JSON.stringify(quotes)!==JSON.stringify(source.quotes||[]))override.quotes=quotes;
+      if(Object.keys(override).length)next.sentiments[sentiment].topics[index]=override;
+    }
+  }
+  if(next.overall_conclusion||Object.values(next.sentiments).some(s=>s.summary||s.topics.some(Boolean)))next.updated_at=new Date().toISOString();
+  REPORT_DATA.editorial_override=next;
+}
+function saveDraft(){collectEdits();localStorage.setItem(reportKey(),JSON.stringify(REPORT_DATA.editorial_override));finishEditing();document.getElementById('editStatus').textContent='草稿已保存在本机浏览器';}
+function restoreGenerated(){if(!confirm('确认清除全部人工修改并恢复自动生成内容吗？'))return;REPORT_DATA.editorial_override=emptyOverrides();localStorage.removeItem(reportKey());document.body.classList.remove('editing');renderReport();}
+function filename(suffix){const m=REPORT_DATA.meta;return [m.game,m.version,m.phase,m.character].filter(Boolean).join('-')+suffix;}
+function downloadBlob(content,type,name){const url=URL.createObjectURL(new Blob([content],{type})),a=document.createElement('a');a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url);}
+function downloadReportJSON(){collectEdits();downloadBlob(JSON.stringify(REPORT_DATA,null,2),'application/json;charset=utf-8',filename('-舆情报告.json'));}
+function downloadReportHTML(){collectEdits();const clone=document.documentElement.cloneNode(true);clone.querySelector('#reportData').textContent=JSON.stringify(REPORT_DATA);clone.querySelector('body').classList.remove('editing');clone.querySelectorAll('[contenteditable]').forEach(el=>el.removeAttribute('contenteditable'));downloadBlob('<!DOCTYPE html>\n'+clone.outerHTML,'text/html;charset=utf-8',filename('-舆情报告.html'));}
+function downloadAnalysisJSON(){downloadBlob(JSON.stringify(REPORT_DATA.annotated_data,null,2),'application/json;charset=utf-8',filename('-情感分析数据.json'));}
+function csvText(){const d=REPORT_DATA.annotated_data,escape=value=>'"'+String(value??'').replace(/"/g,'""')+'"';return '\uFEFF'+[d.columns,...d.rows].map(row=>row.map(escape).join(',')).join('\r\n');}
+function downloadAnalysisCSV(){downloadBlob(csvText(),'text/csv;charset=utf-8',filename('-情感分析数据.csv'));}
+function repositoryDataPath(){
+  if(!ACTIVE_DATA_SOURCE)return null;
+  const url=new URL(ACTIVE_DATA_SOURCE,location.href),projectRoot='/game-sentiment-reports/';
+  let path=decodeURIComponent(url.pathname);
+  if(path.includes(projectRoot))path=path.slice(path.indexOf(projectRoot)+projectRoot.length);
+  else path=path.replace(/^\/+/, '');
+  if(url.origin!==location.origin||!path.startsWith('data/reports/')||!path.endsWith('.json')||path.includes('..')||path.includes('\\'))return null;
+  return path;
+}
+function setPublishStatus(message,type=''){const el=document.getElementById('publishStatus');el.textContent=message;el.className=`dialog-status ${type}`.trim();}
+function clearToken(){const input=document.getElementById('githubToken');if(input)input.value='';}
+function openPublishDialog(){
+  collectEdits();
+  const path=repositoryDataPath();
+  document.getElementById('publishPath').textContent=path?`${PUBLISH_CONFIG.owner}/${PUBLISH_CONFIG.repo} · ${PUBLISH_CONFIG.branch} · ${path}`:'当前报告不是从网站 data/reports/*.json 载入，无法直接发布';
+  document.getElementById('publishButton').disabled=!path;setPublishStatus('');document.getElementById('publishDialog').showModal();
+}
+function closePublishDialog(){clearToken();setPublishStatus('');document.getElementById('publishDialog').close();}
+function utf8ToBase64(value){const bytes=new TextEncoder().encode(value);let binary='';for(let i=0;i<bytes.length;i+=8192)binary+=String.fromCharCode(...bytes.subarray(i,i+8192));return btoa(binary);}
+async function githubRequest(url,token,options={}){
+  const response=await fetch(url,{...options,headers:{Accept:'application/vnd.github+json',Authorization:`Bearer ${token}`,'X-GitHub-Api-Version':PUBLISH_CONFIG.apiVersion,'Content-Type':'application/json',...(options.headers||{})}});
+  let payload=null;try{payload=await response.json();}catch(_error){}
+  if(!response.ok){const error=new Error(payload?.message||`GitHub 请求失败（${response.status}）`);error.status=response.status;throw error;}return payload;
+}
+async function publishReport(){
+  const path=repositoryDataPath(),token=document.getElementById('githubToken').value.trim(),message=document.getElementById('commitMessage').value.trim();
+  if(!path)return setPublishStatus('无法识别报告 JSON 的仓库路径。','error');
+  if(!token)return setPublishStatus('请粘贴仅限本仓库 Contents 读写权限的 Token。','error');
+  if(!message)return setPublishStatus('请填写提交说明。','error');
+  collectEdits();const button=document.getElementById('publishButton');button.disabled=true;setPublishStatus('正在读取最新版本并提交，请稍候…');
+  const apiPath=path.split('/').map(encodeURIComponent).join('/'),endpoint=`https://api.github.com/repos/${PUBLISH_CONFIG.owner}/${PUBLISH_CONFIG.repo}/contents/${apiPath}`;
+  try{
+    const current=await githubRequest(`${endpoint}?ref=${encodeURIComponent(PUBLISH_CONFIG.branch)}`,token);
+    const result=await githubRequest(endpoint,token,{method:'PUT',body:JSON.stringify({message,content:utf8ToBase64(JSON.stringify(REPORT_DATA,null,2)+'\n'),sha:current.sha,branch:PUBLISH_CONFIG.branch})});
+    localStorage.removeItem(reportKey());setPublishStatus(`发布成功：${result.commit?.sha?.slice(0,7)||'已提交'}。网站通常会在数分钟内更新。`,'success');
+    document.getElementById('editStatus').textContent='已发布到监控平台';clearToken();
+  }catch(error){
+    const hint=error.status===401?'Token 无效或已过期。':error.status===403?'Token 没有该仓库 Contents 读写权限。':error.status===409?'远端文件已变化，请刷新页面载入最新版后再发布。':error.message;
+    setPublishStatus(hint,'error');clearToken();
+  }finally{button.disabled=!repositoryDataPath();}
+}
+function replaceReportData(next){if(!next||next.schema_version!==1||!next.meta||!next.analysis||!next.generated)throw new Error('报告 JSON 结构不正确');for(const key of Object.keys(REPORT_DATA))delete REPORT_DATA[key];Object.assign(REPORT_DATA,next);if(!REPORT_DATA.editorial_override)REPORT_DATA.editorial_override=emptyOverrides();}
+async function loadReportFile(file){if(!file)return;try{replaceReportData(JSON.parse(await file.text()));ACTIVE_DATA_SOURCE=null;loadLocalDraft();renderReport();document.getElementById('editStatus').textContent='已载入本地文件：'+file.name;}catch(error){alert(error.message);}}
+function loadLocalDraft(){try{const draft=localStorage.getItem(reportKey());if(draft)REPORT_DATA.editorial_override=JSON.parse(draft);}catch(error){console.warn('无法读取本地草稿',error);}}
+async function initializeReport(){const params=new URLSearchParams(location.search),source=params.get('data');if(params.get('admin')==='1')document.body.classList.add('admin-mode');if(source){try{const sourceUrl=new URL(source,location.href),response=await fetch(sourceUrl);if(!response.ok)throw new Error(`无法读取报告数据（${response.status}）`);replaceReportData(await response.json());ACTIVE_DATA_SOURCE=sourceUrl.href;}catch(error){document.getElementById('editStatus').textContent=error.message;}}loadLocalDraft();renderReport();}
+document.getElementById('publishDialog').addEventListener('close',clearToken);
+initializeReport();
+</script>
+</body>
+</html>
