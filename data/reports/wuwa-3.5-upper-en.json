@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "鸣潮",
+    "version": "3.5",
+    "phase": "上半",
+    "character": "秧秧·玄翎 / 琳奈 / 陆·赫斯",
+    "date_start": "2026-07-10",
+    "date_end": "2026-07-29",
+    "platform": "YouTube（英语）",
+    "generated_at": "2026-07-17T12:18:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 3129,
+    "sentiments": {
+      "positive": {
+        "count": 349,
+        "percent": 11.2
+      },
+      "negative": {
+        "count": 233,
+        "percent": 7.4
+      },
+      "neutral": {
+        "count": 2547,
+        "percent": 81.4
+      }
+    },
+    "keywords": [
+      {
+        "name": "一般讨论",
+        "count": 1478
+      },
+      {
+        "name": "AI生成讨论",
+        "count": 310
+      },
+      {
+        "name": "情感-幽默",
+        "count": 272
+      },
+      {
+        "name": "抽卡/卡池",
+        "count": 157
+      },
+      {
+        "name": "皮肤/外观",
+        "count": 151
+      },
+      {
+        "name": "提问/讨论",
+        "count": 130
+      },
+      {
+        "name": "皮肤-性感讨论",
+        "count": 128
+      },
+      {
+        "name": "情感-喜爱",
+        "count": 118
+      },
+      {
+        "name": "皮肤细节",
+        "count": 107
+      },
+      {
+        "name": "短评论",
+        "count": 103
+      }
+    ],
+    "topics": [
+      {
+        "name": "一般讨论",
+        "total": 1478,
+        "positive_percent": 7.0,
+        "negative_percent": 6.0,
+        "neutral_percent": 87.0
+      },
+      {
+        "name": "AI生成讨论",
+        "total": 310,
+        "positive_percent": 19.7,
+        "negative_percent": 8.7,
+        "neutral_percent": 71.6
+      },
+      {
+        "name": "情感-幽默",
+        "total": 272,
+        "positive_percent": 6.6,
+        "negative_percent": 8.5,
+        "neutral_percent": 84.9
+      },
+      {
+        "name": "抽卡/卡池",
+        "total": 157,
+        "positive_percent": 14.0,
+        "negative_percent": 10.8,
+        "neutral_percent": 75.2
+      },
+      {
+        "name": "皮肤/外观",
+        "total": 151,
+        "positive_percent": 11.9,
+        "negative_percent": 7.3,
+        "neutral_percent": 80.8
+      },
+      {
+        "name": "提问/讨论",
+        "total": 130,
+        "positive_percent": 0.8,
+        "negative_percent": 4.6,
+        "neutral_percent": 94.6
+      },
+      {
+        "name": "皮肤-性感讨论",
+        "total": 128,
+        "positive_percent": 9.4,
+        "negative_percent": 11.7,
+        "neutral_percent": 78.9
+      },
+      {
+        "name": "情感-喜爱",
+        "total": 118,
+        "positive_percent": 87.3,
+        "negative_percent": 3.4,
+        "neutral_percent": 9.3
+      },
+      {
+        "name": "皮肤细节",
+        "total": 107,
+        "positive_percent": 10.3,
+        "negative_percent": 3.7,
+        "neutral_percent": 86.0
+      },
+      {
+        "name": "短评论",
+        "total": 103,
+        "positive_percent": 9.7,
+        "negative_percent": 2.9,
+        "neutral_percent": 87.4
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "鸣潮3.5版本YouTube英语区3129条评论呈现角色设计获认可、底层体验遭质疑的分化格局。正面声量由糯糯的跨语言好感与清霄剑仙机制驱动，中性讨论以角色强度对比和抽卡规划为主，负面评价直指库洛重皮肤渲染轻主机优化的资源分配错位及配队机制缺陷。玩家对新角色持积极态度，但对运营体验问题表达了明确不满。",
+    "sentiments": {
+      "positive": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "糯糯角色好评",
+            "detail": "糯糯作为新角色获得跨语言好评，可爱与沉稳特质被频繁提及",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "清霄剑仙设定",
+            "detail": "清霄被称为最强剑使用者，剑仙身份获集中好评，千剑操控视觉效果受关注",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "黎那千早日夏皮肤",
+            "detail": "水滴效果和行走鞋印细节获正面反馈，但定价1980星声引发性价比讨论",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "卡提希娅配队缺陷",
+            "detail": "卡提希娅在缺乏卡西奥娜时被定性为废号，气动属性免疫机制限制配队灵活性",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "Xbox端优化缺失",
+            "detail": "库洛在皮肤湿身渲染上投入精力却忽视Xbox端缺乏阴影和战斗帧率问题",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "抽卡资源紧张",
+            "detail": "长离、尤诺、奥古斯塔接连上线使F2P玩家抽卡资源捉襟见肘",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "弗洛洛与奥古斯塔抽卡优先级",
+            "detail": "玩家深入讨论弗洛洛和奥古斯塔的抽取策略，弗洛洛适配声骸队和湮灭队",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "清霄属性推测",
+            "detail": "玩家推测清霄属性为衍射或冷凝或气动，与外行者单体巨剑进行强度对比",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "竞品对比讨论",
+            "detail": "鸣潮与原神崩铁绝区零终末地的画面质量和角色设计对比频繁出现",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/wuwa-3.5-upper-en-annotations.json"
+  },
+  "migration": {
+    "source_html": "鸣潮-3.5上半-英语_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "our daughter is the best mech qingxiao is the best sword user cause she is the fkn sword immortal"
+      ],
+      "negative": [
+        "can not believe cartethyia went from the most op character to bricking your account in 1 year",
+        "the wet effects are nice but i think endfield keeps the crown for this one. also kuro if you can put this much effort into having a wet character leave marks on a seat at least put the same effort into optimising console"
+      ],
+      "neutral": [
+        "has to be noted this effect doesnt work on past summer skins only on chisa and lynae right now"
+      ]
+    },
+    "overall_tone": {
+      "positive": "",
+      "negative": "",
+      "neutral": ""
+    }
+  }
+}

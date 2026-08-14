@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "崩铁",
+    "version": "4.4",
+    "phase": "上半",
+    "character": "姬子·启行 / 火花 / 丹恒·腾荒 / 长夜月",
+    "date_start": "2026-07-15",
+    "date_end": "2026-08-04",
+    "platform": "YouTube（日语）",
+    "generated_at": "2026-07-23T11:24:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 3845,
+    "sentiments": {
+      "positive": {
+        "count": 1147,
+        "percent": 29.8
+      },
+      "negative": {
+        "count": 141,
+        "percent": 3.7
+      },
+      "neutral": {
+        "count": 2557,
+        "percent": 66.5
+      }
+    },
+    "keywords": [
+      {
+        "name": "其他",
+        "count": 3002
+      },
+      {
+        "name": "姬子",
+        "count": 260
+      },
+      {
+        "name": "剧情",
+        "count": 167
+      },
+      {
+        "name": "音乐",
+        "count": 113
+      },
+      {
+        "name": "星期日",
+        "count": 104
+      },
+      {
+        "name": "列车",
+        "count": 76
+      },
+      {
+        "name": "角色",
+        "count": 61
+      },
+      {
+        "name": "战斗",
+        "count": 58
+      },
+      {
+        "name": "黑塔",
+        "count": 45
+      },
+      {
+        "name": "抽卡",
+        "count": 38
+      }
+    ],
+    "topics": [
+      {
+        "name": "其他",
+        "total": 3002,
+        "positive_percent": 29.7,
+        "negative_percent": 3.0,
+        "neutral_percent": 67.4
+      },
+      {
+        "name": "姬子",
+        "total": 260,
+        "positive_percent": 30.4,
+        "negative_percent": 8.1,
+        "neutral_percent": 61.5
+      },
+      {
+        "name": "剧情",
+        "total": 167,
+        "positive_percent": 26.3,
+        "negative_percent": 7.2,
+        "neutral_percent": 66.5
+      },
+      {
+        "name": "音乐",
+        "total": 113,
+        "positive_percent": 36.3,
+        "negative_percent": 3.5,
+        "neutral_percent": 60.2
+      },
+      {
+        "name": "星期日",
+        "total": 104,
+        "positive_percent": 11.5,
+        "negative_percent": 4.8,
+        "neutral_percent": 83.7
+      },
+      {
+        "name": "列车",
+        "total": 76,
+        "positive_percent": 53.9,
+        "negative_percent": 5.3,
+        "neutral_percent": 40.8
+      },
+      {
+        "name": "角色",
+        "total": 61,
+        "positive_percent": 26.2,
+        "negative_percent": 6.6,
+        "neutral_percent": 67.2
+      },
+      {
+        "name": "战斗",
+        "total": 58,
+        "positive_percent": 46.6,
+        "negative_percent": 3.4,
+        "neutral_percent": 50.0
+      },
+      {
+        "name": "黑塔",
+        "total": 45,
+        "positive_percent": 17.8,
+        "negative_percent": 15.6,
+        "neutral_percent": 66.7
+      },
+      {
+        "name": "抽卡",
+        "total": 38,
+        "positive_percent": 28.9,
+        "negative_percent": 10.5,
+        "neutral_percent": 60.5
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "姬子存活重逢与归寂反派塑造获好评，小林未郁主题曲提振口碑，但姬子SP歪卡损失、货币战争PS5端BUG及归寂篇幅过短拉低评价，正面占优。",
+    "sentiments": {
+      "positive": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "姬子剧情线与列车组重逢的叙事冲击力 ：评论中最高频的正面情绪集中于姬子在本版本存活并与列车组重逢的剧情段落。崩坏3rd出身玩家特别提到等待七年终于等到拯救姬子的时刻，开拓者奔跑回顾历次旅程轨迹的动画演出被反复提及为催泪场景。星期日在本版本中被正式刻画为列车组一员、朗读开拓者心情的桥段也让玩家感到列车组羁绊加深。米哈伊尔与米沙在画面中出现的瞬间同样引发强烈情感反应。多数评论表示这是崩坏星穹铁道迄今为止最令人落泪的剧情。",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "归寂的反派魅力与声优演绎 ：归寂作为绝灭大君的敌方角色塑造获得玩家高度认可，评论称其为真正意义上既出色又恶劣的敌人，庆幸归寂站在敌对阵营。声优演绎被评价为兼具埃沃尔特式的优雅与威压感，成为玩家最喜爱的敌方角色配音之一。问答环节中询问归寂恋爱经历的互动设计、归寂像长辈一样劝玩家放下手机的台词，均被玩家视为米哈游擅长塑造魅力反派的证据。",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "小林未郁主题曲与BGM品质 ：小林未郁演唱的本版本主题曲成为讨论热度第三高的话题。玩家指出歌词中大量使用开拓相关短语，副歌部分的合唱编排让人感觉列车组全员在一起歌唱，这种编排方式极大增强了情感冲击。该曲被多名评论直接评为星铁历代第一曲目，超越拂晓的主题曲。此外姬子必杀技中召唤机甲时播放的星铁起动音乐也获得好评。",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "姬子SP卡池歪卡与光锥歪出 ：多名玩家在抽取姬子SP时遭遇歪卡，十连首抽直接被其他角色截胡、接近保底仍出货失败、光锥池同样歪出目标物品，云璃和归寂的歪出案例也被反复提及，有玩家感叹资金耗尽仍未获得目标角色，对抽卡投入与回报的失衡表达强烈不满。",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "货币战争PS5端BUG与反震编成平衡性问题 ：PS5端因BUG完全无法进入货币战争模式，正当防卫类敌人刷新时直接导致回合无法通关，反震编成以旅姬子为核心时火力严重不足需要高星级才能发挥作用，黑塔的货币伤害换算机制说明不清让玩家产生误解导致大败。",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "归寂剧情篇幅过短与姬子反复死亡的情感疲劳 ：归寂作为绝灭大君从初登场到被讨伐仅经历两个版本，玩家认为过于仓促未能展现其作为纳努克伤疤制造者的压迫感，姬子在多处场景反复死亡的安排令最推该角色的玩家感到情感上难以承受，官方宣传物料数量已超过实际更新的游戏章节内容也引发不满。",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "归寂的咖啡冲泡机制与三形态命运推测 ：玩家详细记录了归寂咖啡冲泡系统中大成功、成功、失败三种结果对应不同对话文本的机制，讨论冲泡失败时归寂仅给出模糊提示而非完整弱点信息的设计。多名玩家据此推测未着、试炼、归寂三个阶段分别对应愉悦、虚无、毁灭三种命运，并分析归寂在泄露绝灭大君弱点时真假参半的沟通策略。",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "火花复刻与姬子SP抽卡决策及资源投入分析 ：玩家围绕火花复刻卡池的抽取价值展开讨论，分享歪出和保底的实际经历，包括87连歪出后继续追抽至300连的资源消耗案例。专武光锥搭配火花的性能表现被多人提及，部分玩家认为火花虽非最强但复刻仍值得投入。姬子SP的人气被部分玩家归因于火花衣装热销的带动效应。",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "风焰弱点推测与千星都市潜在对决线 ：玩家推测风焰的弱点可能为黄泉，理由是黄泉的机制特性与风焰的暗属性形成克制关系。这一讨论延伸出两组潜在对决线的预测：千星都市中知更鸟与星啸的对决，以及黄泉与风焰的对决。砂金的护盾机制能否在风焰战中发挥足够防护也被纳入队伍编成的客观分析。",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/hsr-4.4-upper-ja-annotations.json"
+  },
+  "migration": {
+    "source_html": "崩铁-4.4上半-日语_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [],
+      "negative": [],
+      "neutral": []
+    },
+    "overall_tone": {
+      "positive": "",
+      "negative": "",
+      "neutral": ""
+    }
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "崩铁",
+    "version": "4.3",
+    "phase": "下半",
+    "character": "昔涟",
+    "date_start": "2026-06-24",
+    "date_end": "2026-07-14",
+    "platform": "YouTube（日语）",
+    "generated_at": "2026-06-30T11:22:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 1294,
+    "sentiments": {
+      "positive": {
+        "count": 396,
+        "percent": 30.6
+      },
+      "negative": {
+        "count": 24,
+        "percent": 1.9
+      },
+      "neutral": {
+        "count": 874,
+        "percent": 67.5
+      }
+    },
+    "keywords": [
+      {
+        "name": "角色/人物",
+        "count": 365
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 86
+      },
+      {
+        "name": "萌系/日常",
+        "count": 74
+      },
+      {
+        "name": "剧情/故事",
+        "count": 71
+      },
+      {
+        "name": "版本/更新",
+        "count": 50
+      },
+      {
+        "name": "音乐/配音",
+        "count": 45
+      },
+      {
+        "name": "竞品/对比",
+        "count": 37
+      },
+      {
+        "name": "战斗/玩法",
+        "count": 35
+      },
+      {
+        "name": "画面/美术",
+        "count": 26
+      },
+      {
+        "name": "社区/运营",
+        "count": 18
+      }
+    ],
+    "topics": [
+      {
+        "name": "角色/人物",
+        "total": 365,
+        "positive_percent": 44.9,
+        "negative_percent": 3.0,
+        "neutral_percent": 52.1
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 86,
+        "positive_percent": 40.7,
+        "negative_percent": 2.3,
+        "neutral_percent": 57.0
+      },
+      {
+        "name": "萌系/日常",
+        "total": 74,
+        "positive_percent": 68.9,
+        "negative_percent": 0.0,
+        "neutral_percent": 31.1
+      },
+      {
+        "name": "剧情/故事",
+        "total": 71,
+        "positive_percent": 40.8,
+        "negative_percent": 1.4,
+        "neutral_percent": 57.7
+      },
+      {
+        "name": "版本/更新",
+        "total": 50,
+        "positive_percent": 52.0,
+        "negative_percent": 8.0,
+        "neutral_percent": 40.0
+      },
+      {
+        "name": "音乐/配音",
+        "total": 45,
+        "positive_percent": 42.2,
+        "negative_percent": 2.2,
+        "neutral_percent": 55.6
+      },
+      {
+        "name": "竞品/对比",
+        "total": 37,
+        "positive_percent": 59.5,
+        "negative_percent": 0.0,
+        "neutral_percent": 40.5
+      },
+      {
+        "name": "战斗/玩法",
+        "total": 35,
+        "positive_percent": 37.1,
+        "negative_percent": 0.0,
+        "neutral_percent": 62.9
+      },
+      {
+        "name": "画面/美术",
+        "total": 26,
+        "positive_percent": 80.8,
+        "negative_percent": 0.0,
+        "neutral_percent": 19.2
+      },
+      {
+        "name": "社区/运营",
+        "total": 18,
+        "positive_percent": 61.1,
+        "negative_percent": 0.0,
+        "neutral_percent": 38.9
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "阿萨特·普拉玛德的背景故事是这批日语评论中讨论热度最高的话题。玩家详细分析了他从欢愉之路到开拓之路再到毁灭之路的转变过程，认为他对每条道路的失望最终导致选择通过散播苦难来锤炼人类品格的设定层次丰富。黄泉的可爱一面在日语评论中获得了正面反馈，玩家引用了她的台词认为即使结局已定仍可为之努力的态度令人感动。塞瑞涅的满命投入分享在日语玩家中出现，表明角色吸引力足够强。崩坏星穹铁道的叙事深度被日语玩家认为在新一代米哈游游戏中最为出色。与原神至冬国预告同日发布的联动效应也增强了正面情绪，玩家表示米哈游在同一天同时发布两款游戏的重要设定非常慷慨。阿哈作为欢愉星神的恶搞特质也获得了日语玩家的喜爱。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "阿萨特三道路转变设定",
+            "detail": "日语玩家详细分析阿萨特从欢愉到开拓到毁灭的转变过程和扭曲救赎逻辑",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "黄泉可爱一面与台词",
+            "detail": "黄泉的可爱一面和台词获得正面反馈，即使结局已定仍可努力的态度令人感动",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "崩铁叙事深度评价",
+            "detail": "日语玩家认为崩铁在新一代米哈游游戏中叙事最为出色",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "负面反馈集中在两个方向。第一是角色强度与投入不匹配，有玩家指出塞瑞涅和凯里德拉曾被社区视为最容易被跳过的角色，如今却受到追捧，认为这种态度存在虚伪。第二是阿萨特叙事的道德争议，部分玩家对阿萨特假扮隆介操控姬子的行为表达了强烈的负面看法，认为他的行为不可原谅。隆介是否被直接杀害的争论也出现在负面评论中，有玩家通过画面分析认为隆介可能只是濒死时被替换身份，但这一解读并未减轻对阿萨特的负面评价。还有玩家表示法伊诺版本的角色预告比阿萨特版本更帅气，暗示阿萨特的预告片质量不及预期。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "角色强度与社区态度虚伪",
+            "detail": "塞瑞涅和凯里德拉曾被视为易跳过角色，如今受追捧被认为态度虚伪",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "阿萨特操控姬子道德争议",
+            "detail": "部分玩家对阿萨特假扮隆介操控姬子的行为表达强烈负面看法",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "隆介死亡与身份替换争论",
+            "detail": "隆介是否被直接杀害的争论在负面评论中持续，画面分析各有解读",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "中性评论呈现出强烈的设定考据特征。阿萨特作为精神操纵者的分析是日语玩家最热衷的话题，有玩家将其与动漫中的反派角色进行对比，认为他的操纵手法达到了蓝染级别。阿萨特杀死隆介的地点分析也被详细讨论，玩家通过画面确认隆介被杀的地点就在姬子附近。尼采哲学在阿萨特设定中的引用被考据党发现。阿哈作为欢愉星神的背景设定继续引发讨论，玩家分析他与阿萨特之间的关系。开拓者即将面对的星核猎手和令使级别对手的讨论也是常见话题。黄泉的黑化模式入场演出被玩家期待加入到抽卡动画中。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "阿萨特精神操纵分析",
+            "detail": "日语玩家将阿萨特的操纵手法与蓝染等动漫反派对比进行深度分析",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "隆介死亡地点画面分析",
+            "detail": "玩家通过画面确认隆介被杀地点就在姬子附近，引发对阿萨特恶意程度的讨论",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "尼采哲学引用考据",
+            "detail": "考据党发现尼采哲学在阿萨特设定中的引用",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/hsr-4.3-lower-ja-annotations.json"
+  },
+  "migration": {
+    "source_html": "崩铁-4.3下半-日语_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "阿萨特的道路转变层次太丰富了",
+        "黄泉即使结局已定也要努力的态度令人感动",
+        "崩铁的叙事在新一代米哈游游戏中最好",
+        "米哈游同日发布两个重要预告太慷慨了"
+      ],
+      "negative": [
+        "塞瑞涅之前被说最弱现在又追，太虚伪了",
+        "阿萨特对姬子做的事不可原谅",
+        "隆介可能不是被直接杀的",
+        "法伊诺版本的预告比阿萨特的帅"
+      ],
+      "neutral": [
+        "阿萨特的操纵手法达到蓝染级别",
+        "隆介被杀的地点就在姬子附近",
+        "阿萨特设定里引用了尼采哲学",
+        "黄泉的黑化入场应该做成抽卡动画"
+      ]
+    },
+    "overall_tone": {
+      "positive": "以阿萨特叙事深度为核心正面情绪，黄泉的可爱形象和崩铁整体叙事品质提供补充",
+      "negative": "负面情绪较少且分散，主要集中在角色强度评价的社区态度和阿萨特行为的道德判断上",
+      "neutral": "设定考据深度参与为主，阿萨特的操纵者形象是日语社区最活跃的分析话题"
+    }
+  }
+}

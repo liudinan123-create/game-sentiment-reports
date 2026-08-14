@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "异环",
+    "version": "1.2",
+    "phase": "上半",
+    "character": "真红",
+    "date_start": "2026-07-02",
+    "date_end": "2026-07-22",
+    "platform": "YouTube（英语）",
+    "generated_at": "2026-07-08T12:19:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 2965,
+    "sentiments": {
+      "positive": {
+        "count": 599,
+        "percent": 20.2
+      },
+      "negative": {
+        "count": 329,
+        "percent": 11.1
+      },
+      "neutral": {
+        "count": 2037,
+        "percent": 68.7
+      }
+    },
+    "keywords": [
+      {
+        "name": "战斗/玩法",
+        "count": 43
+      },
+      {
+        "name": "优化/体验",
+        "count": 42
+      },
+      {
+        "name": "画面/美术",
+        "count": 8
+      },
+      {
+        "name": "竞品/对比",
+        "count": 3
+      },
+      {
+        "name": "剧情/故事",
+        "count": 2
+      },
+      {
+        "name": "音乐/配音",
+        "count": 1
+      },
+      {
+        "name": "肝度/养成",
+        "count": 1
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 1
+      },
+      {
+        "name": "版本/更新",
+        "count": 1
+      },
+      {
+        "name": "角色/人物",
+        "count": 1
+      }
+    ],
+    "topics": [
+      {
+        "name": "战斗/玩法",
+        "total": 43,
+        "positive_percent": 18.6,
+        "negative_percent": 11.6,
+        "neutral_percent": 69.8
+      },
+      {
+        "name": "优化/体验",
+        "total": 42,
+        "positive_percent": 14.3,
+        "negative_percent": 7.1,
+        "neutral_percent": 78.6
+      },
+      {
+        "name": "画面/美术",
+        "total": 8,
+        "positive_percent": 37.5,
+        "negative_percent": 25.0,
+        "neutral_percent": 37.5
+      },
+      {
+        "name": "竞品/对比",
+        "total": 3,
+        "positive_percent": 0.0,
+        "negative_percent": 0.0,
+        "neutral_percent": 100.0
+      },
+      {
+        "name": "剧情/故事",
+        "total": 2,
+        "positive_percent": 0.0,
+        "negative_percent": 0.0,
+        "neutral_percent": 100.0
+      },
+      {
+        "name": "音乐/配音",
+        "total": 1,
+        "positive_percent": 0.0,
+        "negative_percent": 0.0,
+        "neutral_percent": 100.0
+      },
+      {
+        "name": "肝度/养成",
+        "total": 1,
+        "positive_percent": 0.0,
+        "negative_percent": 0.0,
+        "neutral_percent": 100.0
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 1,
+        "positive_percent": 100.0,
+        "negative_percent": 0.0,
+        "neutral_percent": 0.0
+      },
+      {
+        "name": "版本/更新",
+        "total": 1,
+        "positive_percent": 0.0,
+        "negative_percent": 100.0,
+        "neutral_percent": 0.0
+      },
+      {
+        "name": "角色/人物",
+        "total": 1,
+        "positive_percent": 100.0,
+        "negative_percent": 0.0,
+        "neutral_percent": 0.0
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "英语区持正面态度的玩家群体中，新载具内容是讨论热度最高的话题，尤其是蝙蝠主题摩托车和保时捷联动载具。大量玩家表示摩托车可以跳跃和侧向移动等全方位运动机制超出预期，认为这是必须获取的内容。真紅角色的设计和新皮肤同样获得集中好评，玩家对角色在暴走模式下的演出效果和日常状态下的可爱形象之间的反差感到惊喜。在福利层面，开发商因每次BUG修复都发放抽卡货币而获得高度赞誉，玩家将其与其他同类型厂商对比，认为本作的免费友好程度远超竞品，有玩家表示仅花费很少的费用就获得了所有角色和保时捷皮肤及大量抽卡资源。4K画质和近6分钟的宽屏宣传视频演出被多次提及，玩家认为视觉效果非常出色。店长特殊活动和房屋系统虽然存在操作问题，但部分玩家仍认为内容本身有趣。摩托车的物理效果和操控手感也获得正面评价，部分玩家表示为了摩托车愿意持续投入资源。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "蝙蝠摩托车载具内容",
+            "detail": "摩托车可跳跃侧移的全方面运动机制超出预期，设计被评价为满分",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "开发商福利慷慨度",
+            "detail": "每次BUG修复发放大量抽卡货币，玩家对比其他厂商认为免费友好程度远超竞品",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "真紅角色设计与皮肤",
+            "detail": "暴走模式的帅气演出与日常可爱形象的反差获得好评，新皮肤引发抽取欲望",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "英语区持负面态度的玩家群体中，控制器操作和界面体验问题是最核心的抱怨焦点，尤其是主机版本的操作性被多次批评为极差。玩家反映主机版和PC版使用控制器时，几乎所有菜单操作都需要切换到鼠标，光标位置频繁重置、充值画面光标变透明、贝格尔系统无法用控制器输入文字等具体BUG被反复提及。房屋系统的家具配置操作在所有平台上都被评价为极差，玩家表示无法按预期放置家具导致体验焦躁。抽卡机制方面，有玩家直言太像赌博内容，对保时捷卡池和盲盒抽卡的沉没成本表示不满。薄荷角色的服装模型被修改引发了显著不满，玩家认为开发商在审查合规方面的处理方式不当。部分玩家将本作与其他开放世界游戏对比后给出极低评价。付费赢机制和针对大额付费玩家的定向内容也被明确批评。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "主机版控制器操作体验",
+            "detail": "主机版操作性被批评为极差，菜单操作必须切鼠标，光标频繁重置、充值画面光标透明",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "房屋家具配置操作",
+            "detail": "所有平台家具操作极差，无法按预期放置，只能全部撤销才能删除，玩家感到焦躁",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "薄荷角色服装模型修改",
+            "detail": "开发商修改薄荷角色服装模型引发不满，玩家认为审查合规处理方式不当",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "英语区持中性态度的玩家群体中，跨平台操作体验差异是最主要的讨论方向，大量玩家详细描述了PC版使用控制器时频繁需要切换到鼠标的具体场景，包括菜单导航、光标行为、贝格尔系统输入等。BUG报告类评论占据显著比例，轮胎旋转BUG、装备选择画面冻结、配送报告误操作导致卡死等具体问题被列出。房屋系统在所有平台的操作性问题被客观描述，玩家表示虽然内容有趣但操作令人放弃。角色强度平衡方面，真紅的属性设定和大世界体验强度被讨论，部分玩家认为其强度设定不够合理。跨平台画质差异也被提及，手机版最高画质被评价为太差。部分玩家表示跳过某些角色并非不喜欢而是已有足够的输出角色，体现了理性的资源管理策略。BUG补偿的跨区公平性也有讨论，玩家认为所有区域应同等受益。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "跨平台控制器鼠标切换",
+            "detail": "PC版控制器用户频繁切鼠标，主机版操作更困难，玩家客观描述具体场景",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "BUG报告（轮胎冻结光标）",
+            "detail": "轮胎旋转BUG未修复，装备画面高概率冻结，配送报告误操作导致卡死",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "房屋系统跨平台操作",
+            "detail": "所有平台家具操作差但内容有趣，玩家表示操作令人放弃使用",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/nte-1.2-upper-en-annotations.json"
+  },
+  "migration": {
+    "source_html": "异环-1.2上半-英语_情感分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "almost 6 minutes, wide screen and 2160p 4k, is this a movie?! man this is so peak",
+        "hotta really is the goat of being f2p friendly",
+        "bat bike is so accurate. and it jumps? sign me up. saving all fons so i can use less premium pulls for it!",
+        "im gonna grind non stop to get this masterpiece",
+        "1600 anulith is like 3200 from other games cough cough hoyo,kuro"
+      ],
+      "negative": [
+        "i hate p2w whale mechanics",
+        "ps版マージャンスキンマジ変えられなくてpc版で入りなおしてスキン変えた",
+        "家具動かすやつはどのプラットフォームでも操作性終わってますよ",
+        "ギャンブルコンテンツすぎるwwもういやwww",
+        "sadly this game is trash, better to replay gta v"
+      ],
+      "neutral": [
+        "they still haven't fixed the tire bug? it's not supposed to spin like that",
+        "pcでコントローラー使ってるけどよくマウスに持ち替えるくらい操作しにくい",
+        "メダルみたいな装備の選択画面行くと高確率でフリーズするの俺だけ?",
+        "one region shouldn't get all the benefits from bugs and etc. all regions should benefit",
+        "i'm skipping her not because i dislike her but because i already got hotori nanally and lacrimosa"
+      ]
+    },
+    "overall_tone": {
+      "positive": "兴奋与赞赏并存，玩家对载具内容和福利慷慨度表现出强烈热情，同时认可角色设计和视觉品质",
+      "negative": "不满与失望交织，操作体验是最主要的愤怒来源，角色修改和抽卡机制引发信任危机",
+      "neutral": "客观描述与理性分析为主，玩家在指出问题的同时保持建设性态度，部分表达无奈但未激烈批评"
+    }
+  }
+}

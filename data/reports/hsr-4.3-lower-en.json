@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "崩铁",
+    "version": "4.3",
+    "phase": "下半",
+    "character": "昔涟",
+    "date_start": "2026-06-24",
+    "date_end": "2026-07-14",
+    "platform": "YouTube（英语）",
+    "generated_at": "2026-06-30T11:23:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 1932,
+    "sentiments": {
+      "positive": {
+        "count": 677,
+        "percent": 35.0
+      },
+      "negative": {
+        "count": 71,
+        "percent": 3.7
+      },
+      "neutral": {
+        "count": 1184,
+        "percent": 61.3
+      }
+    },
+    "keywords": [
+      {
+        "name": "角色/人物",
+        "count": 995
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 111
+      },
+      {
+        "name": "萌系/日常",
+        "count": 110
+      },
+      {
+        "name": "画面/美术",
+        "count": 92
+      },
+      {
+        "name": "剧情/故事",
+        "count": 84
+      },
+      {
+        "name": "版本/更新",
+        "count": 79
+      },
+      {
+        "name": "音乐/配音",
+        "count": 72
+      },
+      {
+        "name": "战斗/玩法",
+        "count": 64
+      },
+      {
+        "name": "竞品/对比",
+        "count": 62
+      },
+      {
+        "name": "角色设计",
+        "count": 36
+      }
+    ],
+    "topics": [
+      {
+        "name": "角色/人物",
+        "total": 995,
+        "positive_percent": 41.0,
+        "negative_percent": 3.4,
+        "neutral_percent": 55.6
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 111,
+        "positive_percent": 45.0,
+        "negative_percent": 2.7,
+        "neutral_percent": 52.3
+      },
+      {
+        "name": "萌系/日常",
+        "total": 110,
+        "positive_percent": 87.3,
+        "negative_percent": 0.0,
+        "neutral_percent": 12.7
+      },
+      {
+        "name": "画面/美术",
+        "total": 92,
+        "positive_percent": 65.2,
+        "negative_percent": 3.3,
+        "neutral_percent": 31.5
+      },
+      {
+        "name": "剧情/故事",
+        "total": 84,
+        "positive_percent": 42.9,
+        "negative_percent": 4.8,
+        "neutral_percent": 52.4
+      },
+      {
+        "name": "版本/更新",
+        "total": 79,
+        "positive_percent": 58.2,
+        "negative_percent": 3.8,
+        "neutral_percent": 38.0
+      },
+      {
+        "name": "音乐/配音",
+        "total": 72,
+        "positive_percent": 40.3,
+        "negative_percent": 2.8,
+        "neutral_percent": 56.9
+      },
+      {
+        "name": "战斗/玩法",
+        "total": 64,
+        "positive_percent": 54.7,
+        "negative_percent": 0.0,
+        "neutral_percent": 45.3
+      },
+      {
+        "name": "竞品/对比",
+        "total": 62,
+        "positive_percent": 51.6,
+        "negative_percent": 1.6,
+        "neutral_percent": 46.8
+      },
+      {
+        "name": "角色设计",
+        "total": 36,
+        "positive_percent": 38.9,
+        "negative_percent": 5.6,
+        "neutral_percent": 55.6
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "阿萨特·普拉玛德是这批英语评论中讨论热度最高的角色。玩家称赞他作为前开拓者从欢愉之路失望转投毁灭之路的设定层次丰富，尤其是他假扮姬子父亲隆介将她养大、再通过摧毁一切来锤炼人类品格的操控型父爱被反复讨论。塞瑞涅作为新角色获得了大量正面反馈，玩家对她的外观设计表达了高度喜爱，部分玩家将其满命作为投入目标。阿哈作为欢愉星神被多次提及，玩家对他在背景设定中操纵一切的特质表示喜爱。计划乐园区域的剧情从休闲度假到与大君对战的转折节奏获得了正面评价。崩坏星穹铁道的整体叙事深度被英语玩家认为超越了原神和绝区零。与原神同日发布预告的联动效应增强了正面情绪。流萤的可爱形象继续贡献稳定的正面互动，知更鸟的角色魅力也获得了好评。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "阿萨特假扮隆介操控姬子叙事",
+            "detail": "英语玩家反复讨论阿萨特假扮姬子父亲养大她再摧毁一切的操控型父爱设定",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "塞瑞涅外观与投入热情",
+            "detail": "塞瑞涅的外观设计获得大量正面反馈，部分玩家将其满命作为投入目标",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "计划乐园剧情转折节奏",
+            "detail": "从休闲度假到与大君对战的转折节奏获得正面评价",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "负面反馈集中在三个方向。第一是计划乐园设计质量争议，有玩家认为计划乐园是崩铁中设计最差最偷懒的星球，在世界构建、叙事和写作层面都不及格。第二是队伍配置问题，多个评论对视频中的队伍搭配表达了不满，认为塞瑞涅没有搭配安菲鲁斯角色的配置缺乏协同。第三是抽卡后悔体验，玩家分享了在特定角色上的抽卡失误，包括抽了角色却发现不适合当前队伍体系、以及跳过了关键辅助角色导致主力无法发挥。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "计划乐园设计质量争议",
+            "detail": "有玩家认为计划乐园在世界构建、叙事和写作层面都不及格，是崩铁中设计最差的星球",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "队伍配置不满",
+            "detail": "多个评论对视频中的队伍搭配表达不满，认为缺乏协同",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "抽卡角色与队伍不匹配",
+            "detail": "玩家分享抽了角色却发现不适合当前队伍体系的后悔经历",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "中性评论呈现出设定考据和抽卡经验分享的特征。阿萨特从欢愉到开拓到毁灭的转变路径是讨论热度最高的话题，英语玩家用职场跳槽的比喻来描述他的道路转换。阿萨特是否比纳努克更年长的设定讨论也频繁出现。纳努克的建模外观在英语评论中引发了外貌讨论。黑塔作为天才俱乐部成员的背景设定被考据党分析。抽卡经验分享占据显著比例，玩家交流各自的资源分配策略和角色培养计划。与原神至冬国预告同日发布的联动效应是高频话题。记忆命途角色体系的配队交流也是常见话题。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "阿萨特道路转变职场跳槽比喻",
+            "detail": "英语玩家用职场跳槽比喻描述阿萨特从欢愉到开拓到毁灭的道路转换",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "阿萨特与纳努克年龄比较",
+            "detail": "阿萨特是否比纳努克更年长的设定讨论频繁出现",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "抽卡经验与资源分配交流",
+            "detail": "玩家交流各自的资源分配策略和角色培养计划",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/hsr-4.3-lower-en-annotations.json"
+  },
+  "migration": {
+    "source_html": "崩铁-4.3下半-英语_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "阿萨特假扮姬子父亲这段太让人心碎了",
+        "塞瑞涅太可爱了必须满命",
+        "计划乐园的剧情转折太精彩了",
+        "崩铁的叙事已经超越原神了",
+        "阿哈真的太有趣了"
+      ],
+      "negative": [
+        "计划乐园是崩铁里设计最差的星球",
+        "这个队伍配置太离谱了",
+        "抽了角色才发现不适合我的队伍",
+        "跳过了关键辅助导致主力没法用"
+      ],
+      "neutral": [
+        "阿萨特的职业经历太丰富了",
+        "阿萨特比纳努克还老吗",
+        "黑塔的背景设定很有深度",
+        "米哈游又在同一天发布两个重要预告",
+        "记忆命途的配队选择太多了"
+      ]
+    },
+    "overall_tone": {
+      "positive": "以阿萨特反派叙事的情感冲击为核心，塞瑞涅的萌系吸引力和整体叙事品质提供正面补充",
+      "negative": "负面情绪较少且分散，计划乐园设计质量是唯一的叙事层面负面反馈",
+      "neutral": "设定考据和抽卡经验交流并存，英语社区的讨论风格较为轻松幽默"
+    }
+  }
+}

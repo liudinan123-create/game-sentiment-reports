@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "终末地",
+    "version": "1.4",
+    "phase": "上半",
+    "character": "诀",
+    "date_start": "2026-07-16",
+    "date_end": "2026-08-08",
+    "platform": "B站",
+    "generated_at": "2026-07-20T14:19:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 15877,
+    "sentiments": {
+      "positive": {
+        "count": 1743,
+        "percent": 11.0
+      },
+      "negative": {
+        "count": 1872,
+        "percent": 11.8
+      },
+      "neutral": {
+        "count": 12262,
+        "percent": 77.2
+      }
+    },
+    "keywords": [
+      {
+        "name": "其他",
+        "count": 8187
+      },
+      {
+        "name": "卡池抽卡",
+        "count": 4162
+      },
+      {
+        "name": "剧情故事",
+        "count": 1848
+      },
+      {
+        "name": "战斗体验",
+        "count": 1183
+      },
+      {
+        "name": "新手体验",
+        "count": 900
+      },
+      {
+        "name": "版本评价",
+        "count": 854
+      },
+      {
+        "name": "角色设计",
+        "count": 830
+      },
+      {
+        "name": "运营反馈",
+        "count": 623
+      },
+      {
+        "name": "基建玩法",
+        "count": 398
+      },
+      {
+        "name": "音乐音效",
+        "count": 165
+      }
+    ],
+    "topics": [
+      {
+        "name": "其他",
+        "total": 8187,
+        "positive_percent": 6.8,
+        "negative_percent": 3.7,
+        "neutral_percent": 89.5
+      },
+      {
+        "name": "卡池抽卡",
+        "total": 4162,
+        "positive_percent": 11.0,
+        "negative_percent": 30.5,
+        "neutral_percent": 58.5
+      },
+      {
+        "name": "剧情故事",
+        "total": 1848,
+        "positive_percent": 22.0,
+        "negative_percent": 15.0,
+        "neutral_percent": 63.0
+      },
+      {
+        "name": "战斗体验",
+        "total": 1183,
+        "positive_percent": 26.6,
+        "negative_percent": 14.3,
+        "neutral_percent": 59.1
+      },
+      {
+        "name": "新手体验",
+        "total": 900,
+        "positive_percent": 20.3,
+        "negative_percent": 16.9,
+        "neutral_percent": 62.8
+      },
+      {
+        "name": "版本评价",
+        "total": 854,
+        "positive_percent": 17.1,
+        "negative_percent": 15.7,
+        "neutral_percent": 67.2
+      },
+      {
+        "name": "角色设计",
+        "total": 830,
+        "positive_percent": 32.9,
+        "negative_percent": 21.2,
+        "neutral_percent": 45.9
+      },
+      {
+        "name": "运营反馈",
+        "total": 623,
+        "positive_percent": 9.8,
+        "negative_percent": 16.9,
+        "neutral_percent": 73.4
+      },
+      {
+        "name": "基建玩法",
+        "total": 398,
+        "positive_percent": 10.3,
+        "negative_percent": 18.1,
+        "neutral_percent": 71.6
+      },
+      {
+        "name": "音乐音效",
+        "total": 165,
+        "positive_percent": 17.0,
+        "negative_percent": 1.2,
+        "neutral_percent": 81.8
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "终末地1.4上半版本B站舆情以中性讨论为主导， 武陵城五六小时超大杯主线与签到送限定角色 构成版本最大正面亮点， 诀在冰火电队的泛用性配队 获角色设计认可。但 大保底120抽机制 成为核心负面矛盾，庄方宜卡池后连续歪池触发资源枯竭与退游潮。基建新增气体工业致产线配平难度骤增需全拆重建，部分玩家质疑数据杀熟。版本整体呈现内容投入与商业化收割并行特征，玩家在满足与焦虑间明显分化。",
+    "sentiments": {
+      "positive": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "诀的泛用性配队体验",
+            "detail": "诀在冰火电三队均有高适配性，脱手战技手感丝滑，聚怪缓速效果优异。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "阿达希尔剧情演出与角色塑造",
+            "detail": "甚大裂隙前身份揭晓演出获评版本最佳，台词密度和角色塑造深度受好评。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "武陵城新版本内容体量",
+            "detail": "主线五六小时加五个活动量大管饱，应龙关箱庭地图全收集体验出色。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "抽卡保底机制成本过高",
+            "detail": "大保底120抽连续歪池导致资源枯竭，部分玩家因此退坑。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "武器池保底与武库配额紧缺",
+            "detail": "武器池频繁歪出，武库配额不足，专武成本高于角色引发不满。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "基建气体系统改建困难",
+            "detail": "气体工业引入后产线配平难度暴增，原有产线需全拆改建，蓝图抄建繁琐。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "配队攻略与角色定位讨论",
+            "detail": "碎冰队与传统冰队爆发差异对比，火队42核心地位明确，多套配队轴被开发。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "基建蓝图分享与攻略对比",
+            "detail": "a_me模块化方案优于一锅炖，息壤产能差异和产线限制被详细讨论。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "李织烟羽兽原型考据",
+            "detail": "北极燕鸥因迁徙习性对应角色往返获最多支持，岁家设定被反复讨论。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/endfield-1.4-upper-zh-annotations.json"
+  },
+  "migration": {
+    "source_html": "终末地-1.4上半-B站_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "诀的脱手战技释放后战场AI持续平A不停，手感丝滑程度远超此前所有辅助角色",
+        "武陵城新版本从下午两点打到晚上十一点仍未探索完毕，量大管饱",
+        "阿达希尔在甚大裂隙前向管理员自述前文明追随者身份的台词密度和角色塑造深度为目前版本最佳",
+        "签到送限定角色和一抽即得角色加专武的福利操作被玩家正面评价",
+        "模块化攻略5分钟即可完成新版本基建毕业且易改易更新，一锅炖每次版本更新需彻底翻拍"
+      ],
+      "negative": [
+        "从庄方宜卡池开始连续吃满四个以上大保底，120抽才出当期UP角色的情况极为普遍",
+        "基建气体矿的引入导致原有产线需要大规模改建，惰气暗管连接和息壤产线配平成为新痛点"
+      ],
+      "neutral": [
+        "模块化攻略5分钟即可完成新版本基建毕业且易改易更新，一锅炖每次版本更新需彻底翻拍",
+        "北极燕鸥因两极往返的迁徙习性对应李织烟在北部禁区和武陵之间的往返而获得最多支持"
+      ]
+    },
+    "overall_tone": {
+      "positive": "",
+      "negative": "",
+      "neutral": ""
+    }
+  }
+}

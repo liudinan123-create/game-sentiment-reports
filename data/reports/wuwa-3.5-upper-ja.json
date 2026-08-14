@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "鸣潮",
+    "version": "3.5",
+    "phase": "上半",
+    "character": "秧秧·玄翎 / 琳奈 / 陆·赫斯",
+    "date_start": "2026-07-10",
+    "date_end": "2026-07-29",
+    "platform": "YouTube（日语）",
+    "generated_at": "2026-07-17T15:47:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 2261,
+    "sentiments": {
+      "positive": {
+        "count": 600,
+        "percent": 26.5
+      },
+      "negative": {
+        "count": 431,
+        "percent": 19.1
+      },
+      "neutral": {
+        "count": 1230,
+        "percent": 54.4
+      }
+    },
+    "keywords": [
+      {
+        "name": "综合讨论",
+        "count": 1012
+      },
+      {
+        "name": "跨游戏比较",
+        "count": 354
+      },
+      {
+        "name": "提问/讨论",
+        "count": 171
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 156
+      },
+      {
+        "name": "优化/性能",
+        "count": 121
+      },
+      {
+        "name": "秧秧SP角色",
+        "count": 121
+      },
+      {
+        "name": "游戏技术细节",
+        "count": 96
+      },
+      {
+        "name": "其他角色讨论",
+        "count": 80
+      },
+      {
+        "name": "战斗/角色强度",
+        "count": 76
+      },
+      {
+        "name": "福利/新手政策",
+        "count": 68
+      }
+    ],
+    "topics": [
+      {
+        "name": "综合讨论",
+        "total": 1012,
+        "positive_percent": 17.9,
+        "negative_percent": 18.0,
+        "neutral_percent": 64.1
+      },
+      {
+        "name": "跨游戏比较",
+        "total": 354,
+        "positive_percent": 31.9,
+        "negative_percent": 22.0,
+        "neutral_percent": 46.0
+      },
+      {
+        "name": "提问/讨论",
+        "total": 171,
+        "positive_percent": 28.7,
+        "negative_percent": 9.4,
+        "neutral_percent": 62.0
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 156,
+        "positive_percent": 46.2,
+        "negative_percent": 13.5,
+        "neutral_percent": 40.4
+      },
+      {
+        "name": "优化/性能",
+        "total": 121,
+        "positive_percent": 10.7,
+        "negative_percent": 33.9,
+        "neutral_percent": 55.4
+      },
+      {
+        "name": "秧秧SP角色",
+        "total": 121,
+        "positive_percent": 32.2,
+        "negative_percent": 11.6,
+        "neutral_percent": 56.2
+      },
+      {
+        "name": "游戏技术细节",
+        "total": 96,
+        "positive_percent": 66.7,
+        "negative_percent": 7.3,
+        "neutral_percent": 26.0
+      },
+      {
+        "name": "其他角色讨论",
+        "total": 80,
+        "positive_percent": 25.0,
+        "negative_percent": 13.8,
+        "neutral_percent": 61.3
+      },
+      {
+        "name": "战斗/角色强度",
+        "total": 76,
+        "positive_percent": 15.8,
+        "negative_percent": 36.8,
+        "neutral_percent": 47.4
+      },
+      {
+        "name": "福利/新手政策",
+        "total": 68,
+        "positive_percent": 16.2,
+        "negative_percent": 73.5,
+        "neutral_percent": 10.3
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "鸣潮3.5版本YouTube平台共采集2261条评论，中性占比过半表明玩家以客观分析姿态主导讨论。秧秧SP版本同时承载最多正面期待与负面争议：玄翎战斗手感与两年回顾收束演出获高度认可，但强化迟迟未实装引发旧角色竞争力焦虑。吟霖与今汐的强度对比从完凸收益和队伍适配性维度展开量化分析。服装褶皱、水渍交互等物理细节被视为领先竞品的技术标志，而PS5缺少物理破坏和移动端优化缺失构成跨平台共性痛点。福利分配失衡是负面核心矛盾，3.4入坑玩家陷入中间期尴尬。赛博朋克联动赠角色被视为入坑主要动机，声优演出与叙事收束获专门称赞。",
+    "sentiments": {
+      "positive": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "秧秧SP角色演出",
+            "detail": "两年回顾影像中秧秧回到今州边邸前的收束场景被视为情感冲击力最强的段落，秧秧玄翎的战斗手感获得集中好评。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "吟霖与今汐角色热度",
+            "detail": "吟霖作为早期限定角色保持高人气，多条评论表示要抽取吟霖及专属武器；免费赠送今汐的福利活动和浪漫炮技能机制获正面反馈。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "物理交互技术细节",
+            "detail": "服装面料褶皱、角色下水后坐椅子留下水渍、竹林砍伐竹子弹射、雨天泳装湿透等物理效果被大量评论反复提及并高度认可。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "福利分配失衡",
+            "detail": "3.4联动入坑玩家无法获得3.5版本福利待遇，部分人考虑重开第三或第四个账号获取新手福利，卡在中间阶段的玩家处境最尴尬。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "数值膨胀与角色强化滞后",
+            "detail": "环境膨胀导致小月卡和小号基本失去价值，秧秧SP强化迟迟未实装，余和緋雪等角色缺乏最佳辅助搭配，抽卡成本与回报不匹配。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "移动端优化缺失",
+            "detail": "多名玩家反映鸣潮在中低端手机上几乎无法正常运行，即便旗舰手机也出现卡顿，移动端体验与PC端差距过大。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "秧秧SP外观与动作分析",
+            "detail": "玩家围绕秧秧SP粉色外观变化、剑舞动作风格展开客观分析，有玩家指出其动作模式与雪代缘接近，并关注该角色后续剧情走向。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "今汐与吟霖强度对比",
+            "detail": "玩家从完凸收益、仪式准备时长、队伍适配性三个维度分析两者输出差异，记录了今汐在4科斯フルール级别后单体伤害下降现象并提出修正需求。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "跨游戏万剑演出技术对比",
+            "detail": "鸣潮与绝区零、崩坏星穹铁道、原神在万剑大招演出上的对比引发技术讨论，玩家分析即时演算与过场动画两条路线差异，拆解清宵万剑召唤机制和清命剑法背景设定。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/wuwa-3.5-upper-ja-annotations.json"
+  },
+  "migration": {
+    "source_html": "鸣潮-3.5上半-日语_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "2年間を思い出して泣きそうになったわ、ガル仇の特殊走りと最後にヤンヤンで今州辺邸前に帰ってくる演出神",
+        "それでも俺は吟霖姉様を引くー! 始めて自引きした星5キャラだから姉様凸したい!当時星声が足りなくて引けなかった餅武器も欲しい!姉様愛してるぞー!",
+        "無料今汐げっちゅ",
+        "now that's attention to detail. simply amazing kuro.",
+        "今州~ブラックショアの終末系ファンタジーもとっつきにくいがキチッとまとまってた フルールドリス戦で一線超えてきたなと思ったら セブンヒルズで王道をバチっと決めて ラハイロイは最終決戦で1期のオープニング(?)が流れる激熱展開"
+      ],
+      "negative": [
+        "我被朋友3.4拉进来的多么的像小丑。一个月不到所有主线全解完,我现在越看越像小丑",
+        "我要創第三個帳號了,靠早知道就不要在連動時創第二個帳號,差一個版本福利全飛了,我覺得我就是一個🤡",
+        "環境膨脹到小月卡小號不如報廢了...",
+        "卡在中間時期的玩家最尷尬 不像老玩家什麼都有 也不能像新手一樣可以取福利",
+        "game become predatory since ver 3, that they usually release 1 character on 1 patch, then become 2-3 character on 1 patch."
+      ],
+      "neutral": [
+        "ヤンヤンとエイメス凸するならどっちがいいですか? それとも、チサ待ちの方がいいですかね?",
+        "サポユーノ、サブフローヴァ、メインヤンヤンのトリプルアタッカーでやりたいな...誰が攻撃しても強い",
+        "mobile players should be happy. pc wuwa is unoptimized af and eats cpu like morning bacon while gpu idle.(was smooth like butter until 2.0+ ) and still can not perform as it should.",
+        "ちなみにこれ左に表示出るイベント扱いだけどps5は破壊表現ないんでイベント達成できません ほんま頼むぞクロゲ...",
+        "緋雪無凸千咲3凸いるんだけどヤンヤン狙いに行った方がいいのかスイスイまで大人しく待ってた方がいいのかルシラー引けなかったせいで判断付かない..."
+      ]
+    },
+    "overall_tone": {
+      "positive": "",
+      "negative": "",
+      "neutral": ""
+    }
+  }
+}

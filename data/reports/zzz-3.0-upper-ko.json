@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "绝区零",
+    "version": "3.0",
+    "phase": "上半",
+    "character": "诺姆",
+    "date_start": "2026-06-17",
+    "date_end": "2026-07-08",
+    "platform": "YouTube（韩语）",
+    "generated_at": "2026-07-10T18:32:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 844,
+    "sentiments": {
+      "positive": {
+        "count": 314,
+        "percent": 37.2
+      },
+      "negative": {
+        "count": 83,
+        "percent": 9.8
+      },
+      "neutral": {
+        "count": 447,
+        "percent": 53.0
+      }
+    },
+    "keywords": [
+      {
+        "name": "其他",
+        "count": 657
+      },
+      {
+        "name": "角色设计",
+        "count": 65
+      },
+      {
+        "name": "抽卡/banner",
+        "count": 58
+      },
+      {
+        "name": "综合评价",
+        "count": 38
+      },
+      {
+        "name": "画面/美术",
+        "count": 13
+      },
+      {
+        "name": "版本更新",
+        "count": 11
+      },
+      {
+        "name": "音乐",
+        "count": 7
+      },
+      {
+        "name": "剧情/故事",
+        "count": 5
+      },
+      {
+        "name": "付费/氪金",
+        "count": 5
+      },
+      {
+        "name": "活动/福利",
+        "count": 4
+      }
+    ],
+    "topics": [
+      {
+        "name": "其他",
+        "total": 657,
+        "positive_percent": 32.7,
+        "negative_percent": 8.8,
+        "neutral_percent": 58.4
+      },
+      {
+        "name": "角色设计",
+        "total": 65,
+        "positive_percent": 33.8,
+        "negative_percent": 16.9,
+        "neutral_percent": 49.2
+      },
+      {
+        "name": "抽卡/banner",
+        "total": 58,
+        "positive_percent": 56.9,
+        "negative_percent": 13.8,
+        "neutral_percent": 29.3
+      },
+      {
+        "name": "综合评价",
+        "total": 38,
+        "positive_percent": 84.2,
+        "negative_percent": 5.3,
+        "neutral_percent": 10.5
+      },
+      {
+        "name": "画面/美术",
+        "total": 13,
+        "positive_percent": 46.2,
+        "negative_percent": 23.1,
+        "neutral_percent": 30.8
+      },
+      {
+        "name": "版本更新",
+        "total": 11,
+        "positive_percent": 36.4,
+        "negative_percent": 9.1,
+        "neutral_percent": 54.5
+      },
+      {
+        "name": "音乐",
+        "total": 7,
+        "positive_percent": 71.4,
+        "negative_percent": 14.3,
+        "neutral_percent": 14.3
+      },
+      {
+        "name": "剧情/故事",
+        "total": 5,
+        "positive_percent": 40.0,
+        "negative_percent": 20.0,
+        "neutral_percent": 40.0
+      },
+      {
+        "name": "付费/氪金",
+        "total": 5,
+        "positive_percent": 20.0,
+        "negative_percent": 40.0,
+        "neutral_percent": 40.0
+      },
+      {
+        "name": "活动/福利",
+        "total": 4,
+        "positive_percent": 50.0,
+        "negative_percent": 25.0,
+        "neutral_percent": 25.0
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "诺玛及其搭档帽子邦布成为本次版本更新中讨论热度最高的内容，大量韩文和英文评论集中表达了对诺玛角色外观细节和日语配音的喜爱，尤其是诺玛的面部表情变化和语音演出被频繁提及。帽子邦布的行为设计获得了极高的正面反馈，玩家反复描述帽子邦布在诺玛倒下后寻找主人的动画表现以及它骑在诺玛头顶的互动，认为这种搭档机制显著增强了角色的情感吸引力。维莉娜在评论中被多次提及，玩家将她与诺玛进行对比并讨论两人之间的关系定位。皮罗伊斯的性格塑造同样收到了正面评价，部分评论认为其性格表现让人联想到特定动漫角色。在抽卡方面，不少玩家分享了自己在十抽至七十抽范围内成功获得诺玛的经历，并表示对结果感到满意。艾莲的新皮肤和莱卡翁的服装外观也获得了集中好评，有英文评论直接表示莱卡翁的服装设计远超艾莲。光追技术的画面提升被部分高配玩家认可，但同时指出在洛斯卡利珀场景中存在性能负担。诺玛在战斗中倒下时对帽子邦布喊出逃跑台词的细节被多位玩家视为情感设计的高光时刻。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "诺玛与帽子邦布的搭档互动设计",
+            "detail": "玩家集中讨论帽子邦布在诺玛倒下后寻找主人、骑在头顶等行为动画，认为这种搭档机制强化了角色的情感连接",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "诺玛的日语配音和面部表情",
+            "detail": "大量评论称赞诺玛的日语声优表现和面部表情细节，认为配音质量和表情丰富度超出预期",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "诺玛卡池抽卡体验",
+            "detail": "多名玩家分享在十抽至七十抽内成功获得诺玛的经历，部分玩家同时获得了诺玛和专属音擎",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "负面评论中最突出的争议点是内容审查问题，多位韩文玩家表示绝区零在审查后角色外观表现力明显下降，认为审查前的版本展现了更好的角色细节呈现。抽卡方面的不满集中在歪出非目标角色的情况，多名玩家报告在诺玛卡池中歪出了猫又、十一号、格蕾丝等角色，导致无法获得诺玛。部分玩家因为正在为雷米埃尔囤积抽卡资源而不得不放弃抽取诺玛，表达了遗憾和纠结的情绪。英文评论中出现对版本缺乏男性角色的集中批评，有玩家直接表示因为没有男性角色而考虑退坑。关于诺玛作为儿童体型角色也引发了争议，部分评论认为围绕该角色的讨论内容不当且需要克制。性能方面，光追功能在移动端和部分显卡上造成的帧率下降被反复提及，移动端玩家表示无法享受画面提升带来的体验。有玩家将火属性击破角色与此前被淘汰的橘福福进行对比，担心诺玛可能面临同样的强度淘汰命运。此外，有评论对皮罗伊斯的性格表现表示不满，认为其性格设定与雷米埃尔相比不够匹配。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "诺玛卡池歪出猫又和十一号等非目标角色",
+            "detail": "多名玩家在诺玛卡池中歪出猫又、十一号、格蕾丝等角色，无法获得诺玛，表达强烈不满",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "内容审查导致角色外观表现力下降",
+            "detail": "韩文玩家集中批评审查后角色细节呈现不如审查前版本，认为开发方应该展示原始设计",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "为雷米埃尔囤积资源而放弃抽取诺玛",
+            "detail": "部分玩家因等待雷米埃尔复刻而放弃当前版本的诺玛，在两者之间难以取舍",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "中性评论主要围绕帽子邦布与诺玛的互动关系展开讨论，大量玩家将帽子邦布描述为诺玛的附属存在或搭档，并对其行为表现进行各种解读和玩笑。不少玩家在是否抽取诺玛还是等待雷米埃尔之间犹豫不决，反复权衡两个角色的价值。关于诺玛的强度定位也存在讨论，有玩家将其与橘福福进行对比，质疑诺玛是否值得投入资源以及是否会面临强度淘汰。皮罗伊斯的战斗力设定引发了玩家的猜测，有人讨论其在设定上是否达到虚空猎人级别。部分英文评论将诺玛的外观与间谍过家家的安雅进行类比，讨论角色设计的灵感来源。有玩家讨论了诺玛与格蕾丝相遇后的潜在互动，以及帽子邦布与尤克之间的技术关联。在装备方面，调谐器在音盘上的属性分配机制被提及，有玩家抱怨调谐器随机属性全部偏向防御力。此外，新艾利都的虚空猎人身份话题也被多次讨论，有玩家推测主角在未来可能获得虚空猎人称号。部分评论以玩笑方式讨论视频创作者的内容风格，以及诺玛相关视频中出现的各类梗和表情包。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "帽子邦布与诺玛的搭档关系解读",
+            "detail": "玩家讨论帽子邦布是诺玛的附属存在还是独立搭档，对其寻找主人的行为进行各种解读",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "抽取诺玛还是等待雷米埃尔的权衡",
+            "detail": "大量玩家在诺玛和雷米埃尔之间犹豫不决，讨论两者的性价比和抽取优先级",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "诺玛强度定位与橘福福对比",
+            "detail": "玩家质疑诺玛是否值得投入资源，担心其可能像橘福福一样被后续角色淘汰",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/zzz-3.0-upper-ko-annotations.json"
+  },
+  "migration": {
+    "source_html": "绝区零-3.0上半-韩语_情感分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "방부 진짜 개 귀엽네 ㅋㅋㅋㅋ 타겜유저인데 방부만 납치해서 수입해가고 싶네 ㅋㅋㅋㅋㅋ",
+        "continue the bloodline wise",
+        "아 불쌍한데 귀여워",
+        "노르마는 귀여우니까 들박보조기능으로 비행모자 들고나왔다는 젠평발언은 하지말아요"
+      ],
+      "negative": [
+        "하 검열 전엔 다 보였다는거잖아; 진짜 감다뒤네 젠레스",
+        "안녕하세요 불 격파 s급 캐릭터를 88뽑만에 얻었습니다 뽑기 사고가 난것같은데 방부인척 하면 노르마가 와줄까요...?",
+        "downgrade and not a single male i'm on the verge of quitting this game mannnn",
+        "온몸을 a로 도배를 해놓고선 왜s뽑이지...? 그곳만은 s란 소린가...?"
+      ],
+      "neutral": [
+        "모자 방부 지켜!",
+        "이정도면 노르마가 방부들 엄마고 노르마가 선브링어 아니냐 노르마 내 son 을 bring 하는구나!",
+        "과연 꼭 뽑아야할 성능일까? 아니면 노르마 옷에 크게 보이는 a마냥 a급 에이전트 정도의 성능일까 귤복복마냥 버려질까... 고민이되는구만",
+        "진짜 레미엘 유입으로 왔는데 젠평은 위대하군요"
+      ]
+    },
+    "overall_tone": {
+      "positive": "整体基调以热情和喜爱为主，玩家对诺玛和帽子邦布的可爱表现反应强烈，评论中充满兴奋和满足的情绪",
+      "negative": "整体基调以失望和不满为主，抽卡运气不佳和内容审查是最大的情绪触发点，部分玩家表现出退坑倾向",
+      "neutral": "整体基调以调侃和观望为主，玩家在讨论中表现出对角色和机制的理性分析态度，同时夹杂大量玩梗和玩笑"
+    }
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "终末地",
+    "version": "1.4",
+    "phase": "上半",
+    "character": "诀",
+    "date_start": "2026-07-16",
+    "date_end": "2026-08-08",
+    "platform": "YouTube（韩语）",
+    "generated_at": "2026-07-21T00:51:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 999,
+    "sentiments": {
+      "positive": {
+        "count": 361,
+        "percent": 36.1
+      },
+      "negative": {
+        "count": 55,
+        "percent": 5.5
+      },
+      "neutral": {
+        "count": 583,
+        "percent": 58.4
+      }
+    },
+    "keywords": [
+      {
+        "name": "其他讨论",
+        "count": 777
+      },
+      {
+        "name": "角色设计",
+        "count": 91
+      },
+      {
+        "name": "音乐/配音",
+        "count": 87
+      },
+      {
+        "name": "战斗/玩法",
+        "count": 71
+      },
+      {
+        "name": "角色互动/梗文化",
+        "count": 37
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 31
+      },
+      {
+        "name": "剧情/故事",
+        "count": 21
+      },
+      {
+        "name": "跨作品比较",
+        "count": 12
+      },
+      {
+        "name": "角色/人物",
+        "count": 10
+      },
+      {
+        "name": "优化/性能",
+        "count": 8
+      }
+    ],
+    "topics": [
+      {
+        "name": "其他讨论",
+        "total": 777,
+        "positive_percent": 30.6,
+        "negative_percent": 5.0,
+        "neutral_percent": 64.4
+      },
+      {
+        "name": "角色设计",
+        "total": 91,
+        "positive_percent": 81.3,
+        "negative_percent": 3.3,
+        "neutral_percent": 15.4
+      },
+      {
+        "name": "音乐/配音",
+        "total": 87,
+        "positive_percent": 50.6,
+        "negative_percent": 8.0,
+        "neutral_percent": 41.4
+      },
+      {
+        "name": "战斗/玩法",
+        "total": 71,
+        "positive_percent": 59.2,
+        "negative_percent": 14.1,
+        "neutral_percent": 26.8
+      },
+      {
+        "name": "角色互动/梗文化",
+        "total": 37,
+        "positive_percent": 70.3,
+        "negative_percent": 2.7,
+        "neutral_percent": 27.0
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 31,
+        "positive_percent": 35.5,
+        "negative_percent": 19.4,
+        "neutral_percent": 45.2
+      },
+      {
+        "name": "剧情/故事",
+        "total": 21,
+        "positive_percent": 42.9,
+        "negative_percent": 23.8,
+        "neutral_percent": 33.3
+      },
+      {
+        "name": "跨作品比较",
+        "total": 12,
+        "positive_percent": 16.7,
+        "negative_percent": 0.0,
+        "neutral_percent": 83.3
+      },
+      {
+        "name": "角色/人物",
+        "total": 10,
+        "positive_percent": 70.0,
+        "negative_percent": 0.0,
+        "neutral_percent": 30.0
+      },
+      {
+        "name": "优化/性能",
+        "total": 8,
+        "positive_percent": 12.5,
+        "negative_percent": 50.0,
+        "neutral_percent": 37.5
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "持正面态度的玩家中，诀(Arcane)的角色设计成为讨论热度最高的内容——大量评论直接表达对她眼部细节、微表情和脸红反应的喜爱，认为鹰角网络在角色面部精细度上达到了新高度。祀(Si/Proxy)的傲娇属性同样引发密集好评，玩家频繁使用tsundere、kuudere等词描述她在与管理员(Endmin/Pengmin)互动时的反差反应，尤其是她做出绝对电影(absolute cinema)姿势的桥段被反复提及。祀的英文配音也获得明确认可，有玩家表示声音可爱且非常合适。吉祥物企鹅(Penguin)与管理员的石头互动梗在多个视频评论区形成跨语言传播，英语和韩语评论中均出现absolute cinema和gugugaga等共同暗号。相当比例的正面评论表达了对诀的抽取意愿，部分玩家表示为获取她而调整抽卡计划，但也有玩家因资源限制选择跳过其他角色。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "诀(Arcane)的面部细节与微表情设计",
+            "detail": "玩家认为诀的眼部细节、脸红反应和微表情是终末地角色精细度的巅峰",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "祀(Si)的傲娇属性与绝对电影梗",
+            "detail": "祀在与管理员互动时的tsundere反应和absolute cinema姿势成为传播主轴",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "企鹅吉祥物与管理员的石头互动",
+            "detail": "Penguin做出absolute cinema姿势、管理员用石头封印的梗跨语言传播",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "负面评论数量较少且分散，真正指向游戏本体的批评集中在三个方面。首先是性能问题，有玩家反映游戏在PC上卡顿严重，影响体验。其次是对抽卡系统的批评，有玩家直接表示gameplay and gacha sucks，认为画面虽好但核心玩法和抽卡体验不佳。第三是对BOSS主题音乐的质疑，有玩家认为音乐既缺乏力量感也缺乏优雅感，试图营造重要感但失败了。此外，部分负面评论实际是对阿达希尔(Ardashir)喜剧桥段的夸张反应（如nah that is a violation），并非对游戏的真实批评。还有玩家表达了对抽卡资源管理的焦虑——获取诀后不得不跳过后续角色。韩语评论中出现对游戏运营的担忧和对制作难度的抱怨。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "PC端卡顿与性能问题",
+            "detail": "有玩家反映游戏在PC上lagging，直接影响游玩体验",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "抽卡系统与玩法批评",
+            "detail": "有玩家直接批评gameplay and gacha sucks",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "BOSS主题音乐质量质疑",
+            "detail": "有玩家认为BOSS曲既无力量感也无优雅感",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "中性讨论以角色互动桥段的复述和设定考据为主。管理员(Endmin/Pengmin)用石头封印阿达希尔(Ardashir)的喜剧片段被多个视频切片后在评论区大量改写为台词和表情梗，成为该批中性舆情的传播主轴。玩家围绕祀(Si)是否为Dusk的姐妹、她为何能封印阿达希尔、以及阿达希尔的配音为何像Minecraft村民等设定问题进行考据和讨论。部分评论将诀(Arcane)或祀与崩坏星穹铁道的飞霄(Fei Xiao)进行对比，主要用于辨认角色设计原型而非评价优劣。吉祥物企鹅的absolute cinema姿势在多个视频评论区以短句和emoji形式反复出现，承担了跨语言接梗功能。还有玩家询问角色名含义、剧情细节和游戏回归相关问题，整体仍处于信息收集和观望阶段。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "管理员封印阿达希尔的喜剧片段复述",
+            "detail": "石头封印桥段被切片后大量改写为台词和表情梗",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "祀的身份与封印能力考据",
+            "detail": "玩家围绕祀是否为Dusk姐妹、为何能封印阿达希尔进行设定考据",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "阿达希尔配音与角色对比",
+            "detail": "有玩家认为阿达希尔配音像Minecraft村民，也有玩家将诀和祀与飞霄对比",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/endfield-1.4-upper-ko-annotations.json"
+  },
+  "migration": {
+    "source_html": "终末地-1.4上半-韩语_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "she is so pretty",
+        "i love how she acts like a tsundere she is adorableee",
+        "啊啊 這是我第一次聽到 祀 的英文配音 聲音可愛 非常合適",
+        "부끄러워하는 거 왜 이렇게 귀엽냐...",
+        "confess your love x arknight enfield just peak"
+      ],
+      "negative": [
+        "good graphyc game but gameplay and gacha sucks",
+        "i need back play this game even though it is lagging on my pc",
+        "for a boss theme it has neither power nor elegance",
+        "엔필 망하지마라",
+        "you know after i got arcane i might have to skip the idol girl"
+      ],
+      "neutral": [
+        "she just acts shocked. lol",
+        "every operator blushing and its just endmin showing floating rocks",
+        "why does she remind me of feixioa",
+        "no way ardashir voice at first sounded like a minecraft villager",
+        "pengmin be like try anything funny and u will be like this rock"
+      ]
+    },
+    "overall_tone": {
+      "positive": "热情且以角色喜爱为核心，讨论高度集中在诀和祀的角色魅力与喜剧桥段上",
+      "negative": "批评零散且温和，真正负面集中在性能和抽卡体验",
+      "neutral": "以喜剧复述和设定考据为主，玩家处于信息收集和观望阶段"
+    }
+  }
+}

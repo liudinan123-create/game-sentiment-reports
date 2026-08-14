@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "原神",
+    "version": "月之七",
+    "phase": "下半",
+    "character": "洛恩 / 马微卡（复刻）",
+    "date_start": "2026-06-09",
+    "date_end": "2026-06-30",
+    "platform": "YouTube（韩语）",
+    "generated_at": "2026-06-30T11:22:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 2078,
+    "sentiments": {
+      "positive": {
+        "count": 170,
+        "percent": 8.2
+      },
+      "negative": {
+        "count": 59,
+        "percent": 2.8
+      },
+      "neutral": {
+        "count": 1849,
+        "percent": 89.0
+      }
+    },
+    "keywords": [
+      {
+        "name": "竞品/对比",
+        "count": 199
+      },
+      {
+        "name": "角色/人物",
+        "count": 134
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 96
+      },
+      {
+        "name": "画面/美术",
+        "count": 70
+      },
+      {
+        "name": "音乐/配音",
+        "count": 52
+      },
+      {
+        "name": "版本/更新",
+        "count": 51
+      },
+      {
+        "name": "战斗/玩法",
+        "count": 48
+      },
+      {
+        "name": "萌系/日常",
+        "count": 45
+      },
+      {
+        "name": "剧情/故事",
+        "count": 31
+      },
+      {
+        "name": "角色设计",
+        "count": 17
+      }
+    ],
+    "topics": [
+      {
+        "name": "竞品/对比",
+        "total": 199,
+        "positive_percent": 7.0,
+        "negative_percent": 2.0,
+        "neutral_percent": 91.0
+      },
+      {
+        "name": "角色/人物",
+        "total": 134,
+        "positive_percent": 22.4,
+        "negative_percent": 2.2,
+        "neutral_percent": 75.4
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 96,
+        "positive_percent": 15.6,
+        "negative_percent": 4.2,
+        "neutral_percent": 80.2
+      },
+      {
+        "name": "画面/美术",
+        "total": 70,
+        "positive_percent": 17.1,
+        "negative_percent": 5.7,
+        "neutral_percent": 77.1
+      },
+      {
+        "name": "音乐/配音",
+        "total": 52,
+        "positive_percent": 9.6,
+        "negative_percent": 0.0,
+        "neutral_percent": 90.4
+      },
+      {
+        "name": "版本/更新",
+        "total": 51,
+        "positive_percent": 27.5,
+        "negative_percent": 3.9,
+        "neutral_percent": 68.6
+      },
+      {
+        "name": "战斗/玩法",
+        "total": 48,
+        "positive_percent": 14.6,
+        "negative_percent": 0.0,
+        "neutral_percent": 85.4
+      },
+      {
+        "name": "萌系/日常",
+        "total": 45,
+        "positive_percent": 84.4,
+        "negative_percent": 0.0,
+        "neutral_percent": 15.6
+      },
+      {
+        "name": "剧情/故事",
+        "total": 31,
+        "positive_percent": 16.1,
+        "negative_percent": 12.9,
+        "neutral_percent": 71.0
+      },
+      {
+        "name": "角色设计",
+        "total": 17,
+        "positive_percent": 11.8,
+        "negative_percent": 11.8,
+        "neutral_percent": 76.5
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "冰之女皇和散兵是这批韩语评论中最受关注的角色。韩语玩家对冰之女皇的声线表现给予了正面评价，认为声音质感贴合冰雪女王的形象。散兵的可爱一面在韩语社区引发了强烈共鸣，玩家特别称赞她从冷酷到可爱的反差萌设计。水精灵角色的外观被形容为纯净如水般美丽。至冬国的音乐获得了好评，玩家认为背景音乐从枫丹主题自然过渡的设计很出色。部分韩语玩家将原神称为神级游戏，表达了对游戏整体品质的认可。阿兰访问场景中音乐切换到枫丹风格的细节也被注意到并给予好评。有玩家表示这是历代最佳版本，对原神工会角色的退场表示了认可。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "冰之女皇声线表现",
+            "detail": "韩语玩家认为冰之女皇的声音质感贴合冰雪女王形象",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "散兵反差萌设计",
+            "detail": "散兵从冷酷到可爱的反差萌在韩语社区引发强烈共鸣",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "至冬国音乐切换设计",
+            "detail": "阿兰访问场景中音乐从枫丹主题自然切换的细节获得好评",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "负面反馈集中在四个方向。第一是冰之女皇设计缺乏辨识度，韩语玩家认为相比芙宁娜和雷电将军，冰之女皇的设计偏向常见的贵族女性模板，期待高于实际表现。第二是女士角色美化争议，韩语玩家集中表达了对罗莎琳过度美化的不满，认为她在主线中的恶行已被确立，突然洗白是对角色一致性的破坏。第三是数值膨胀问题，韩语玩家反映免费账号面对高难度内容数值门槛过高，纳塔角色的技能与前代角色存在明显的风格割裂。第四是散兵设计变更，有玩家指出散兵的裙摆变短和人偶移除是为了合理化设计变更而强行修改角色性格设定，普罗尼亚人偶被移除被认为是不可原谅的设定破坏。钓鱼玩法被部分玩家批评为纯粹的无聊内容。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "冰之女皇设计缺乏辨识度",
+            "detail": "韩语玩家认为冰之女皇偏向常见贵族女性模板，相比芙宁娜和雷电将军缺乏特色",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "罗莎琳过度美化争议",
+            "detail": "韩语玩家集中批评对罗莎琳的洗白与主线恶行不一致，是对角色一致性的破坏",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "散兵人偶移除设定破坏",
+            "detail": "散兵裙摆变更和人偶移除被指责为强行修改角色性格设定，普罗尼亚移除被认为不可原谅",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "中性评论呈现出强烈的社区玩梗文化和跨游戏对比特征。韩语玩家将冰之女皇与罗诺瓦进行对比，讨论两者的设计差异。与鸣潮的竞争关系是高频话题，有玩家认为鸣潮不断进步迫使原神提升角色细节品质。执行官的梗文化在韩语社区极为活跃，包括博士和潘塔洛涅的人望梗、各执行官的绰号等。尤菈的强度讨论也是韩语社区的热点，玩家讨论她是否需要加强以及物理系角色的定位问题。UID相关的话题意外成为讨论焦点，玩家分享各自的UID数字含义。角色设计的合理性分析较为理性，有玩家指出散兵短裙可能是出于战斗便利性的合理设定。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "冰之女皇与罗诺瓦对比",
+            "detail": "韩语玩家将冰之女皇与罗诺瓦进行对比讨论设计差异",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "与鸣潮的竞争关系",
+            "detail": "鸣潮不断进步迫使原神提升角色细节品质是高频话题",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "执行官梗文化",
+            "detail": "博士和潘塔洛涅的人望梗、各执行官绰号在韩语社区极为活跃",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/genshin-月之七-lower-ko-annotations.json"
+  },
+  "migration": {
+    "source_html": "原神-月之七下半-韩语_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "散兵太可爱了",
+        "冰之女皇的声音很合适",
+        "阿兰场景的音乐切换很棒",
+        "水精灵像水一样美丽",
+        "原神真的是神级游戏"
+      ],
+      "negative": [
+        "冰之女皇设计比预想的普通",
+        "罗莎琳的洗白让人无法接受",
+        "散兵的人偶被移除是不可原谅的",
+        "纳塔角色和前代风格完全割裂",
+        "钓鱼玩法纯粹是无聊内容"
+      ],
+      "neutral": [
+        "冰之女皇和罗诺瓦谁更强",
+        "鸣潮进步逼着原神提升品质",
+        "博士和潘塔洛涅真没人望",
+        "尤菈什么时候能加强",
+        "散兵短裙可能是为了战斗方便"
+      ]
+    },
+    "overall_tone": {
+      "positive": "以散兵反差萌和至冬国音乐品质为核心正面情绪，整体评价较为热烈",
+      "negative": "韩语社区负面情绪较为集中和尖锐，角色设计变更和叙事一致性是最核心的批评点",
+      "neutral": "玩梗文化和跨游戏对比并存，韩语社区对角色设计合理性的分析较为理性"
+    }
+  }
+}

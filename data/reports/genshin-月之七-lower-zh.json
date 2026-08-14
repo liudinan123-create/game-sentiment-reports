@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "原神",
+    "version": "月之七",
+    "phase": "下半",
+    "character": "洛恩 / 马微卡（复刻）",
+    "date_start": "2026-06-09",
+    "date_end": "2026-06-30",
+    "platform": "B站",
+    "generated_at": "2026-06-30T11:48:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 206131,
+    "sentiments": {
+      "positive": {
+        "count": 32596,
+        "percent": 15.8
+      },
+      "negative": {
+        "count": 4084,
+        "percent": 2.0
+      },
+      "neutral": {
+        "count": 169451,
+        "percent": 82.2
+      }
+    },
+    "keywords": [
+      {
+        "name": "角色/人物",
+        "count": 45660
+      },
+      {
+        "name": "版本/更新",
+        "count": 18382
+      },
+      {
+        "name": "竞品/对比",
+        "count": 9336
+      },
+      {
+        "name": "萌系/日常",
+        "count": 8613
+      },
+      {
+        "name": "剧情/故事",
+        "count": 7358
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 5484
+      },
+      {
+        "name": "战斗/玩法",
+        "count": 5022
+      },
+      {
+        "name": "画面/美术",
+        "count": 3807
+      },
+      {
+        "name": "音乐/配音",
+        "count": 3083
+      },
+      {
+        "name": "社区/运营",
+        "count": 2530
+      }
+    ],
+    "topics": [
+      {
+        "name": "角色/人物",
+        "total": 45660,
+        "positive_percent": 17.9,
+        "negative_percent": 1.9,
+        "neutral_percent": 80.2
+      },
+      {
+        "name": "版本/更新",
+        "total": 18382,
+        "positive_percent": 16.2,
+        "negative_percent": 2.7,
+        "neutral_percent": 81.1
+      },
+      {
+        "name": "竞品/对比",
+        "total": 9336,
+        "positive_percent": 37.5,
+        "negative_percent": 2.4,
+        "neutral_percent": 60.1
+      },
+      {
+        "name": "萌系/日常",
+        "total": 8613,
+        "positive_percent": 76.2,
+        "negative_percent": 0.8,
+        "neutral_percent": 23.0
+      },
+      {
+        "name": "剧情/故事",
+        "total": 7358,
+        "positive_percent": 19.4,
+        "negative_percent": 3.8,
+        "neutral_percent": 76.8
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 5484,
+        "positive_percent": 31.0,
+        "negative_percent": 10.4,
+        "neutral_percent": 58.6
+      },
+      {
+        "name": "战斗/玩法",
+        "total": 5022,
+        "positive_percent": 12.6,
+        "negative_percent": 3.1,
+        "neutral_percent": 84.2
+      },
+      {
+        "name": "画面/美术",
+        "total": 3807,
+        "positive_percent": 26.0,
+        "negative_percent": 3.4,
+        "neutral_percent": 70.7
+      },
+      {
+        "name": "音乐/配音",
+        "total": 3083,
+        "positive_percent": 37.4,
+        "negative_percent": 1.3,
+        "neutral_percent": 61.3
+      },
+      {
+        "name": "社区/运营",
+        "total": 2530,
+        "positive_percent": 45.6,
+        "negative_percent": 17.0,
+        "neutral_percent": 37.4
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "冰之女皇安娜丝塔夏是这批B站评论中讨论热度最高的角色，她的全名安娜丝塔夏·费奥多罗夫娜·雪奈茨娜娅被玩家反复念诵，玩家表示这个名字本身就好听到让人有安全感。散兵桑多涅的睡衣形象和放下头发后的外观获得了密集好评，玩家认为这种生活化的可爱形象与执行官的冷酷定位形成了出色的反差。哥伦比娅在门外唱歌安慰散兵的细节被反复提及，玩家认为这段音乐的情感渗透力极强。至冬国生态短片和超越PV的动画质量获得了高度认可，玩家称赞角色穿越场景时的流畅度和光影效果。B站玩家对至冬PV播放量被平台压制的争议引发了大量盖楼式正面声援，玩家通过复制粘贴的方式表达对原神音乐品质和动画水准的支持。赛诺的梗文化在评论区极为活跃，玩家以各种方式调侃赛诺在至冬的寒冷处境。洛亨的技能机制和角色故事也获得了正面反馈。纳塔主题曲的播放量表现被玩家作为原神音乐品质的证据反复引用。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "冰之女皇全名与声线设计",
+            "detail": "安娜丝塔夏·费奥多罗夫娜·雪奈茨娜娅的全名被玩家反复念诵，玩家表示这个名字本身就好听到让人有安全感",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "散兵睡衣形象与反差设计",
+            "detail": "散兵桑多涅的睡衣形象和放下头发后的外观获得密集好评，生活化可爱与冷酷执行官形成出色反差",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "至冬PV播放量被压制争议声援",
+            "detail": "B站玩家通过盖楼式复制粘贴表达对至冬PV被平台压制的抗议和对原神品质的支持",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "负面反馈集中在四个方向。第一是跳过按钮的缺失，B站玩家反复抱怨对话无法跳过的问题，有玩家表示正是因为无法跳过才退坑。第二是抽卡体验问题，玩家详细分享了在6.0版本抽卡的糟糕经历，包括杜林大保底、少女歪迪卢克大保底、兹白捕获明光连续歪出等极端倒霉情况，有玩家表示真不敢抽。第三是萝莉角色缺失的不满，有玩家以激烈措辞要求至冬版本必须有新的限五萝莉角色和新剧情，否则就要当米黑。第四是卡池策划的不满，有玩家表示一看卡池就感受到了策划赚钱的欲望，对千星pv和商业化节奏表达了厌烦。此外部分玩家对预制节奏和社区复读式攻击表示了不屑，认为这些攻击毫无杀伤力反而很好笑。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "对话跳过功能缺失",
+            "detail": "B站玩家反复抱怨对话无法跳过，有玩家表示正是因为无法跳过才退坑",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "6.0版本抽卡极端倒霉经历",
+            "detail": "玩家分享杜林大保底、少女歪迪卢克大保底、兹白连续歪出等极端倒霉抽卡经历",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "至冬萝莉角色缺失不满",
+            "detail": "有玩家以激烈措辞要求至冬版本必须有新的限五萝莉角色和新剧情",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "中性评论呈现出强烈的B站梗文化和表情包刷屏特征。赛诺是评论区出现频率最高的角色名，但绝大多数是以梗的形式出现，包括给赛诺锁厕所、赛诺闭嘴、赛诺出去、给赛诺送水煮黑背鲈等各种调侃，这些评论本身没有明确的情感倾向但构成了社区互动的核心模式。至冬PV发布的确认和讨论是另一大中性话题，玩家反复确认PV是否真的发布了。枫丹好戏表情包的刷屏行为在中性评论中占据显著比例。冰之女皇抵达至冬的梗被用于各种语境。B站评论的灌水行为也较为突出，有玩家直接表示虽然不想看视频但要评论。角色关系和设定的讨论散见于评论中，但深度不如考据社区。前瞻特别节目的内容讨论也以信息交换为主，缺乏强烈的情感倾向。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "赛诺梗文化刷屏",
+            "detail": "赛诺是评论区出现频率最高的角色名，以各种调侃梗形式出现，构成社区互动核心模式",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "至冬PV发布确认讨论",
+            "detail": "玩家反复确认至冬PV是否真的发布，信息交换需求明显",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "枫丹好戏表情包刷屏",
+            "detail": "枫丹好戏表情包的刷屏行为在中性评论中占据显著比例",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/genshin-月之七-lower-zh-annotations.json"
+  },
+  "migration": {
+    "source_html": "原神-月之七下半-B站_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "安娜丝塔夏·费奥多罗夫娜·雪奈茨娜娅的名字太好听了念起来就有安全感",
+        "木偶放下头发来也是绝美",
+        "哥伦比娅在门外唱歌太感人了",
+        "至冬PV被压播放量太离谱了",
+        "赛诺至冬都这么冷了你还不放过我"
+      ],
+      "negative": [
+        "就是因为不能跳过剧情我才退坑的",
+        "6.0抽卡太非了杜林大保底少女歪迪卢克",
+        "没有萝莉我就当米黑了",
+        "一看卡池就感受到策划赚钱的欲望",
+        "预制节奏烂完了"
+      ],
+      "neutral": [
+        "赛诺闭嘴",
+        "赛诺出去",
+        "给赛诺送盘水煮黑背鲈",
+        "发PV了真的假的",
+        "伟大的冰之神终于抵达了至冬"
+      ]
+    },
+    "overall_tone": {
+      "positive": "以冰之女皇全名的美感和散兵反差萌为核心，至冬PV被压制的争议引发了社区罕见的盖楼式正面声援",
+      "negative": "负面情绪集中在抽卡运气和功能缺失上，跳过按钮和卡池商业化是最核心的抱怨点",
+      "neutral": "B站梗文化和表情包刷屏为主，赛诺梗是最高频的互动模式，评论区整体氛围轻松活跃"
+    }
+  }
+}

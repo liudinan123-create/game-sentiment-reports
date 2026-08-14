@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "原神",
+    "version": "6.7",
+    "phase": "上半",
+    "character": "桑多涅 / 茜特菈莉",
+    "date_start": "2026-07-01",
+    "date_end": "2026-07-20",
+    "platform": "YouTube（英语）",
+    "generated_at": "2026-07-08T15:10:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 7497,
+    "sentiments": {
+      "positive": {
+        "count": 2060,
+        "percent": 27.5
+      },
+      "negative": {
+        "count": 953,
+        "percent": 12.7
+      },
+      "neutral": {
+        "count": 4484,
+        "percent": 59.8
+      }
+    },
+    "keywords": [
+      {
+        "name": "玩法/机制",
+        "count": 1049
+      },
+      {
+        "name": "角色/剧情",
+        "count": 774
+      },
+      {
+        "name": "音乐/配音",
+        "count": 553
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 441
+      },
+      {
+        "name": "版本/更新",
+        "count": 423
+      },
+      {
+        "name": "运营/服务",
+        "count": 410
+      },
+      {
+        "name": "画面/美术",
+        "count": 329
+      },
+      {
+        "name": "竞品/对比",
+        "count": 311
+      },
+      {
+        "name": "优化/体验",
+        "count": 144
+      },
+      {
+        "name": "付费/商业",
+        "count": 123
+      }
+    ],
+    "topics": [
+      {
+        "name": "玩法/机制",
+        "total": 1049,
+        "positive_percent": 28.6,
+        "negative_percent": 21.7,
+        "neutral_percent": 49.7
+      },
+      {
+        "name": "角色/剧情",
+        "total": 774,
+        "positive_percent": 35.0,
+        "negative_percent": 18.3,
+        "neutral_percent": 46.6
+      },
+      {
+        "name": "音乐/配音",
+        "total": 553,
+        "positive_percent": 28.6,
+        "negative_percent": 20.6,
+        "neutral_percent": 50.8
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 441,
+        "positive_percent": 43.1,
+        "negative_percent": 15.9,
+        "neutral_percent": 41.0
+      },
+      {
+        "name": "版本/更新",
+        "total": 423,
+        "positive_percent": 39.7,
+        "negative_percent": 18.2,
+        "neutral_percent": 42.1
+      },
+      {
+        "name": "运营/服务",
+        "total": 410,
+        "positive_percent": 26.8,
+        "negative_percent": 26.3,
+        "neutral_percent": 46.8
+      },
+      {
+        "name": "画面/美术",
+        "total": 329,
+        "positive_percent": 73.9,
+        "negative_percent": 11.6,
+        "neutral_percent": 14.6
+      },
+      {
+        "name": "竞品/对比",
+        "total": 311,
+        "positive_percent": 35.4,
+        "negative_percent": 21.9,
+        "neutral_percent": 42.8
+      },
+      {
+        "name": "优化/体验",
+        "total": 144,
+        "positive_percent": 37.5,
+        "negative_percent": 27.1,
+        "neutral_percent": 35.4
+      },
+      {
+        "name": "付费/商业",
+        "total": 123,
+        "positive_percent": 31.7,
+        "negative_percent": 23.6,
+        "neutral_percent": 44.7
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "英语区正面评论以桑多涅（Sandrone）的动画质量和重设计为讨论核心，大量玩家称赞她的动作设计和音效达到了「米哈游真的很用心」的水准，尤其是专武上与芙卡洛斯处刑刀柄的呼应细节被反复发掘。莱欧斯利和赛诺因「星辉传导」机制而成为顶级DPS的讨论热度极高，七七DPS从6.2万跃升至9.6万的突破数据被多名玩家引用。地方传奇攻略中冻结队伍和莱欧斯利的元素技能吸收变色的战术成为分享热点。普洛尼亚与桑多涅的剧情关系获得正面解读，有玩家认为设计变更展现了桑多涅作为角色成长的体现。芙宁娜仍是GOAT级别的讨论基准，多名玩家表示芙宁娜仍然更好但同时也表达了对桑多涅的喜爱。希特拉莉和艾斯可菲耶的动画质量被拿来与绝区零比较，认为原神终于达到了绝区零的品质水准。斯库克队伍中芙宁娜的能量回复配合桑多涅的战斗循环被详细分享。鸣潮的全息boss对比中，部分玩家认为原神的迪士尼童话风格虽不同但同样令人享受。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "桑多涅动画质量与重设计赞誉",
+            "detail": "玩家称赞动作设计和音效达到高水准，专武与芙卡洛斯处刑刀柄的呼应被发掘",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "莱欧斯利/赛诺因星辉传导成为顶级DPS",
+            "detail": "星辉传导机制让莱欧斯利和赛诺成为顶级DPS，七七DPS从6.2万跃升至9.6万",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "地方传奇冻结队伍攻略分享",
+            "detail": "冻结队伍和莱欧斯利的元素技能吸收变色战术成为攻略热点",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "英语区负面评论以普洛尼亚被替换为核心爆发点，大量玩家对桑多涅取代普洛尼亚表示愤怒，认为这是米哈游用剧情借口掩盖设计偷懒。芭蕾高跟鞋替代足尖鞋的选择引发持续争议，多名芭蕾舞者指出她的芭蕾站姿完全错误，cosplayer的安全风险被反复警告。角色模型限制被玩家斥为模糊借口，玩家以绮良良的存在反驳——如果绮良良能做到为何奥德特不能。哥伦比娜的无鞋设计（水滴替代鞋跟）被拿来对比，质问为何不能采用同样方案。瓦雷莎的鞋设计创新被引用为「米哈游本有机会创新」的证据。mod封禁议题引发恐惧，6年老玩家表示不敢冒险使用mod因为怕被永久封禁。黄色裙子被评为丑死了，裙子穿模问题的技术借口被以米拉斯特女性角色的存在反驳。「米哈游讨厌原神粉丝」和「米哈游讨厌百合」的指控出现，部分玩家认为「只为女性角色坚持」的设计理念暴露了性别偏见。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "普洛尼亚被替换引发的愤怒",
+            "detail": "桑多涅取代普洛尼亚被斥为剧情借口掩盖设计偷懒，玩家表示愤怒",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "芭蕾高跟鞋vs足尖鞋争议",
+            "detail": "芭蕾舞者指出芭蕾站姿错误，cosplayer安全风险被警告，哥伦比娜无鞋设计被对比",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "角色模型限制借口反驳",
+            "detail": "玩家以绮良良存在反驳模型限制借口，瓦雷莎鞋设计创新被引用为「本有机会」的证据",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "英语区中性评论以mod合法性为最高频议题，大量玩家反复询问在亚服使用mod会不会被封号，主机玩家无法使用mod的困境被多次提及。一星武器等级上限的70级vs90级之争成为配队讨论热点，有玩家分享70级瓦卡/琳妮娅/爱野/杜林的攻略。角色持有率统计引发大量互动，多名玩家惊讶自己属于芙宁娜7.5%未持有者或钟离少数群体。阿蕾奇诺发音困难被讨论，玩家表示说出法吉奥的名字很不自在。绝区零开发者帮助原神的猜测成为持续话题，玩家认为「一些不在米哈游工作的人能做到他们做不到的事，这说明了问题」。凯瑟琳称呼旅行者为「我的女士」的细节被多人注意并讨论其含义。雷电影傀儡与女士的执行官互动成为剧情推测素材。鸣潮倒逼原神改进的共识在中性评论中同样广泛存在，「感谢鸣潮终于让原神真正做点什么」成为代表性观点。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "mod合法性与封号风险询问",
+            "detail": "大量玩家反复询问在亚服使用mod是否会被封号，主机玩家无法用mod的困境被提及",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "一星武器等级上限70级vs90级之争",
+            "detail": "70级瓦卡/琳妮娅/爱野/杜林攻略地方传奇的可行性被分享讨论",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "角色持有率统计互动",
+            "detail": "芙宁娜7.5%未持有者和钟离少数群体引发大量玩家互动讨论",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/genshin-6.7-upper-en-annotations.json"
+  },
+  "migration": {
+    "source_html": "原神-6.7上半-英语_情感分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "omg she looks incredible and her animations look incredible and the sound effects are on such high level as always（天哪她看起来太惊艳了，动画也惊艳，音效一如既往地高水准）",
+        "little did the people know, this update just made wrio and cyno one of the best dps in the game（大家还不知道，这次更新直接让莱欧斯利和赛诺成了游戏最强DPS之一）",
+        "dps qiqi was a good investment, she went from 62k to 96k（七七DPS真是好投资，从6.2万涨到9.6万）",
+        "the handle on sandrone's signature is very similar to the one that executed focalors（桑多涅专武的刀柄和处刑芙卡洛斯的那把非常相似）",
+        "furina still better and i don't care what any of y'all say (i love sandrone too though)（芙宁娜仍然更好，不管你们怎么说，不过我也爱桑多涅）"
+      ],
+      "negative": [
+        "crazy people still defend hoyo. oh but pulonia destroyed! that's their lore excuse to not put effort（疯狂的人还在为米哈游辩护。哦但普洛尼亚被毁了！那是他们不用心的剧情借口）",
+        "character model limitations is just an excuse, just remember that kirara exists（角色模型限制只是借口，记住绮良良的存在）",
+        "several ballerinas complained and criticized her designs be fr（好几个芭蕾舞者都抱怨和批评了她的设计，说真的）",
+        "i don't wanna get banned. especially after playing 6 years, imagine - all that progress - poof（我不想被封号。特别是玩了6年之后，想象一下——所有进度——瞬间没了）",
+        "because hoyo fucking hates yuri（因为米哈游该死的讨厌百合）"
+      ],
+      "neutral": [
+        "can i get banned in asia server if i used this mod?（在亚服用这个mod会被封号吗？）",
+        "yeh but what about people who don't use mods, you know console players?（但是不用mod的人怎么办，你知道主机玩家吗？）",
+        "i don't know why, but for some reason i feel very uncomfortable saying fagio's name（不知道为什么，但出于某种原因我说法吉奥的名字感到很不自在）",
+        "the fact that some dudes who don't work at hoyo can do a job that they can't on their game says something（一些不在米哈游工作的人能做到他们在自己游戏里做不到的事，这说明了问题）",
+        "everybody lets thank wuwa for finally making genshin actually do something（大家都来感谢鸣潮终于让原神真正做点什么）"
+      ]
+    },
+    "overall_tone": {
+      "positive": "兴奋且带有竞品比较意识，玩家对原神终于提升质量感到欣慰",
+      "negative": "愤怒且带有被背叛感，设计理念的性别偏见是深层情绪",
+      "neutral": "好奇与讨论为主，mod风险和竞品压力是潜在焦虑"
+    }
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "鸣潮",
+    "version": "3.4",
+    "phase": "下半",
+    "character": "洛瑟菈",
+    "date_start": "2026-06-13",
+    "date_end": "2026-07-09",
+    "platform": "YouTube（韩语）",
+    "generated_at": "2026-06-26T14:33:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 3403,
+    "sentiments": {
+      "positive": {
+        "count": 549,
+        "percent": 16.1
+      },
+      "negative": {
+        "count": 158,
+        "percent": 4.6
+      },
+      "neutral": {
+        "count": 2696,
+        "percent": 79.2
+      }
+    },
+    "keywords": [
+      {
+        "name": "其他",
+        "count": 543
+      },
+      {
+        "name": "角色/人物",
+        "count": 108
+      },
+      {
+        "name": "剧情/故事",
+        "count": 31
+      },
+      {
+        "name": "战斗系统",
+        "count": 30
+      },
+      {
+        "name": "音乐/配音",
+        "count": 26
+      },
+      {
+        "name": "联动/合作",
+        "count": 22
+      },
+      {
+        "name": "画质/画面",
+        "count": 21
+      },
+      {
+        "name": "商业化/氪金",
+        "count": 18
+      },
+      {
+        "name": "入坑/退坑",
+        "count": 16
+      },
+      {
+        "name": "优化/体验",
+        "count": 16
+      }
+    ],
+    "topics": [
+      {
+        "name": "其他",
+        "total": 543,
+        "positive_percent": 15.5,
+        "negative_percent": 4.1,
+        "neutral_percent": 80.5
+      },
+      {
+        "name": "角色/人物",
+        "total": 108,
+        "positive_percent": 24.1,
+        "negative_percent": 3.7,
+        "neutral_percent": 72.2
+      },
+      {
+        "name": "剧情/故事",
+        "total": 31,
+        "positive_percent": 16.1,
+        "negative_percent": 3.2,
+        "neutral_percent": 80.6
+      },
+      {
+        "name": "战斗系统",
+        "total": 30,
+        "positive_percent": 16.7,
+        "negative_percent": 3.3,
+        "neutral_percent": 80.0
+      },
+      {
+        "name": "音乐/配音",
+        "total": 26,
+        "positive_percent": 15.4,
+        "negative_percent": 15.4,
+        "neutral_percent": 69.2
+      },
+      {
+        "name": "联动/合作",
+        "total": 22,
+        "positive_percent": 9.1,
+        "negative_percent": 9.1,
+        "neutral_percent": 81.8
+      },
+      {
+        "name": "画质/画面",
+        "total": 21,
+        "positive_percent": 38.1,
+        "negative_percent": 9.5,
+        "neutral_percent": 52.4
+      },
+      {
+        "name": "商业化/氪金",
+        "total": 18,
+        "positive_percent": 11.1,
+        "negative_percent": 11.1,
+        "neutral_percent": 77.8
+      },
+      {
+        "name": "入坑/退坑",
+        "total": 16,
+        "positive_percent": 18.8,
+        "negative_percent": 12.5,
+        "neutral_percent": 68.8
+      },
+      {
+        "name": "优化/体验",
+        "total": 16,
+        "positive_percent": 12.5,
+        "negative_percent": 0.0,
+        "neutral_percent": 87.5
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "韩语圈YouTube评论中关于명조（鸣潮）的正面评价集中在3.5版本新角色质量、Cyberpunk: Edgerunners联动和世界观构建上。韩语圈玩家特别赞赏Kuro在男角色设计上的进步，评论认为3.5新男角色是鸣潮至今最佳。Cyberpunk联动被认为具有看过Edgerunners就不可能不玩的吸引力。世界观构建被韩语玩家评价为超越所有抽卡游戏。호떡（Hotteok/糖饼）成为3.5版本角色的韩语圈昵称，虽源自角色被压扁的场景但已成为亲切的社区文化符号。新角色的演出和设计频繁获得疯了级别的最高评价。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "3.5新男角色设计最高评价",
+            "detail": "韩语圈认为3.5新男角色是鸣潮至今最佳",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "Cyberpunk Edgerunners联动吸引力",
+            "detail": "看过Edgerunners的人不可能不玩的级别",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "世界观构建超越竞品",
+            "detail": "韩语玩家评价鸣潮世界观构建超越所有抽卡游戏",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "韩语圈负面评论的核心关注点集中在五个方面。首先是动画素材复用问题，多名玩家发现新角色Aemeath的大量攻击和待机动画与此前角色高度雷同，认为Kuro在角色制作上偷工减料，这直接影响了对新角色独创性的评价。其次是角色身体建模调整争议，玩家注意到部分女性角色的胸部物理效果被削弱，质疑官方在角色设计上进行自我审查，该问题引发了关于角色身体表现自由的讨论。第三是技能设计原创性争议，新角色的千鸟技能被指出与火影忍者的经典招式高度相似，玩家以调侃语气指出抄袭嫌疑。第四是连续卡池带来的经济压力，洛瑟菈和狐狸角色连续推出导致多名玩家钱包空虚，部分玩家表示连定期存款都取出用于抽卡，经济透支引发真实的焦虑情绪。第五是호떡（糖饼）昵称争议，部分玩家认为该角色在动画中被相当惨烈地压扁，场景血腥程度与可爱的糖饼称呼严重不符，质疑社区用幽默化方式消解了角色的悲剧性。此外，个别角色被评为设计一般，以及对中国修仙文化元素的不适也有零星提及。整体来看韩语圈负面以制作质量和经济压力为主，批评方式偏调侃但不失尖锐。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "动画素材大量复用",
+            "detail": "新角色Aemeath动画被指与此前角色高度雷同",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "胸部物理效果被削弱",
+            "detail": "女性角色身体建模调整引发自我审查质疑",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "千鸟技能抄袭嫌疑",
+            "detail": "新角色技能被指出自火影忍者千鸟",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "韩语圈中立评论以新角色反应、联动期待、Boss机制讨论和호떡(Hotteok)梗文化为中心。Edgerunners联动引发了看过Edgerunners就不可能不玩的期待表达。菲比系列短视频在韩语圈形成了独特的便利店、外卖等日常场景梗文化。新角色的Boss机制讨论中，玩家生动描述了应对Boss技能模式的体验过程。호떡梗已经从单纯的昵称发展为社区共同语言，夏天哪来的糖饼等变体评论层出不穷。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "Edgerunners联动期待",
+            "detail": "看过Edgerunners的玩家表示不可能不玩",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "菲比日常场景梗文化",
+            "detail": "菲比系列短视频形成便利店、外卖等日常梗",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "Boss机制体验描述",
+            "detail": "生动描述Boss技能模式的应对过程",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/wuwa-3.4-lower-ko-annotations.json"
+  },
+  "migration": {
+    "source_html": "mc_wuwa_ko_report.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "鸣潮世界观构建 >>>>> 所有抽卡游戏",
+        "至今为止鸣潮男角色中最棒的",
+        "哇 天哪 好帅",
+        "不是 是疯了吗 怎么男角色抽得这么好"
+      ],
+      "negative": [
+        "Aemeath大量大量复用的动画",
+        "为什么要削弱她的胸部物理呢？",
+        "除了BGM之外我听到的就是千鸟在蓄力然后释放……千鸟一千只鸟名不虚传",
+        "啊 该死 我没钱啊"
+      ],
+      "neutral": [
+        "哇 但是看过Edgerunners的人不可能不玩吧",
+        "那个技能出来的时候 嗯嗯……哦哦……是糖饼！我当时这样反应的",
+        "夏天哪来的糖饼……",
+        "这位是不是只挖一口井挖得太深了？"
+      ]
+    },
+    "overall_tone": {
+      "positive": "兴奋与自豪——角色质量和世界观是核心驱动力",
+      "negative": "调侃中带尖锐——以制作质量和经济压力为核心矛盾",
+      "neutral": "期待与梗文化为中心——健康活跃的社区文化"
+    }
+  }
+}

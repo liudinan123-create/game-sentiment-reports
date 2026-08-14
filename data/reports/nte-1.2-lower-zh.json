@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "异环",
+    "version": "1.2",
+    "phase": "下半",
+    "character": "伊洛伊",
+    "date_start": "2026-07-23",
+    "date_end": "2026-08-12",
+    "platform": "B站",
+    "generated_at": "2026-08-11T09:42:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 13548,
+    "sentiments": {
+      "positive": {
+        "count": 2412,
+        "percent": 17.8
+      },
+      "negative": {
+        "count": 1194,
+        "percent": 8.8
+      },
+      "neutral": {
+        "count": 9942,
+        "percent": 73.4
+      }
+    },
+    "keywords": [
+      {
+        "name": "其他讨论",
+        "count": 5056
+      },
+      {
+        "name": "社区生态",
+        "count": 3554
+      },
+      {
+        "name": "角色讨论",
+        "count": 1932
+      },
+      {
+        "name": "战斗体验",
+        "count": 1742
+      },
+      {
+        "name": "商业化",
+        "count": 702
+      },
+      {
+        "name": "版本内容",
+        "count": 562
+      }
+    ],
+    "topics": [
+      {
+        "name": "其他讨论",
+        "total": 5056,
+        "positive_percent": 14.5,
+        "negative_percent": 8.6,
+        "neutral_percent": 76.9
+      },
+      {
+        "name": "社区生态",
+        "total": 3554,
+        "positive_percent": 15.9,
+        "negative_percent": 9.3,
+        "neutral_percent": 74.8
+      },
+      {
+        "name": "角色讨论",
+        "total": 1932,
+        "positive_percent": 24.1,
+        "negative_percent": 7.2,
+        "neutral_percent": 68.7
+      },
+      {
+        "name": "战斗体验",
+        "total": 1742,
+        "positive_percent": 21.6,
+        "negative_percent": 10.1,
+        "neutral_percent": 68.3
+      },
+      {
+        "name": "商业化",
+        "total": 702,
+        "positive_percent": 22.2,
+        "negative_percent": 6.8,
+        "neutral_percent": 70.9
+      },
+      {
+        "name": "版本内容",
+        "total": 562,
+        "positive_percent": 20.6,
+        "negative_percent": 11.4,
+        "neutral_percent": 68.0
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "伊洛伊的聚怪回血和低门槛配队获认可；武器池大保底、错误的门（999夜）高肝闪退拖累体验，最需优先修复其性能并优化保底。",
+    "sentiments": {
+      "positive": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "伊洛伊在创生队与真红队的配队位置",
+            "detail": "评论围绕伊洛伊替换娜娜莉、老板娘或九原的选择展开，并认可其泳装、居家装和与主角、娜娜莉、九原组成的低操作循环；部分玩家将其视为新手补齐花队的优先角色。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "不歪角色池、0+0/0+1与专武取舍",
+            "detail": "玩家称角色池不歪使抽卡压力较低，常以0+0、0+1、满命和专武的成本来规划资源；“喜欢就抽、深渊不强制追数值”是较常见的正向态度。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "161的回血、聚怪和创生队补强",
+            "detail": "161被评价为不只是奶位，还能增伤、聚怪并改善新手在深渊和异象委托中的生存；与真红、娜娜莉、主角、哈索尔之间怎样分队是具体讨论焦点。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "武器池、大保底与刮刮乐",
+            "detail": "全量热度最高的有效问题之一是武器池抽到80才见UP、角色和武器反复吃大保底，以及刮刮乐投入与方丝回报落差；评论中出现对爆率被暗改的质疑和停止氪金的表态。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "999夜的破盾慢放、肝度与闪退",
+            "detail": "999夜被集中批评为破盾削韧频繁慢放、九万余进度后仍要补三万材料，且地图战斗或更新后会闪退；部分玩家将其与1.2下半内容劝退直接关联。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "伊洛伊（161）进入真红队和创生队的补强回报",
+            "detail": "围绕161的奶量、70至80级增伤、替换娜娜莉或浔后的实际收益争论较多；玩家既讨论其聚怪、增伤与生存价值，也质疑专武和抽取优先级。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "楼中回复与碎片梗（创生花、超标闪避、企鹅掌）",
+            "detail": "C07（15.49%）与C12（10.82%）是最大两簇，内容以短回复、机制追问和玩梗为主；样本中出现“稳定6朵创生花”“超标闪避改不改”及“企鹅掌/创生机关枪鼻祖”等说法。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "伊洛伊、161、真红、娜娜莉、安魂曲的配队与环合轴",
+            "detail": "C30、C20、C09、C17、C36、C38、C01合计1,478条（14.87%）：讨论伊洛伊替换九原或哈索尔、161在真红队/花队的位置、娜娜莉打环合，以及安魂曲和老板娘的队友取舍。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "70—90抽保底、十连出货与皮肤/弧盘",
+            "detail": "C32、C24、C23、C35、C34合计1,158条（11.65%）：集中晒提前出金、70—90抽才出、十连获得伊洛伊或皮肤，以及角色、皮肤和弧盘的同池结果。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/nte-1.2-lower-zh-annotations.json"
+  },
+  "migration": {
+    "source_html": "异环-1.2下半-B站_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "对xp就抽,这游戏对强度没要求的",
+        "限定奶抽一个肯定不亏的,而且161不是单纯的奶,有增伤有聚怪,泛用性很不错",
+        "异环主要不歪,出不出货怎么玩都舒服",
+        "已经出了,这次的滑翔翼是真心不错,可以抽一个玩玩",
+        "竞拍王常驻,挺好玩的"
+      ],
+      "negative": [
+        "欧个屁,尽给写垃圾常驻,这武器是必吃保底吗次次吃保底",
+        "999夜最大的作用是帮我把yly的e闪练得滚瓜烂熟!但是肝了九万多实在肝不动了,除了最后那99个啥材料总计还得3w,其它已经搬空了,满足了",
+        "云异环丢包率好频繁,按方向锁死,开车拐个弯锁死打方向,车都撞炸了,云幻塔就不这样,优化一下啊",
+        "但凡设计上三环就离不开主角,这也是砸锅卖铁(87抽)也要抽安魂曲的原因,不然二队实在太难受了",
+        "开服第一天玩的时候,打个新手教程的boss差点给我腱鞘炎干出来。上个版本退了大半个版本,他boss血量居然还没改"
+      ],
+      "neutral": [
+        "玩伊洛伊经常手贱把队友全弄死了然后刮半天",
+        "真红队是放娜娜莉伤害高些,还是小羊伤害高些?要是提升不大的话,不打算抽了",
+        "九十抽的保底给我吃满了哥们儿",
+        "后续版本的太刀女能当主c。问就是抽最新的角色看其他二游,很多两年前的角色都被后出角色压一头。机制更复杂,数值更膨胀",
+        "能不能少整点pvp的活动,或者可以用户自己选是否匹配的。"
+      ]
+    },
+    "overall_tone": {
+      "positive": "",
+      "negative": "",
+      "neutral": ""
+    }
+  }
+}

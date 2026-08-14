@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "鸣潮",
+    "version": "3.4",
+    "phase": "下半",
+    "character": "洛瑟菈",
+    "date_start": "2026-06-13",
+    "date_end": "2026-07-09",
+    "platform": "B站",
+    "generated_at": "2026-07-16T10:06:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 32173,
+    "sentiments": {
+      "positive": {
+        "count": 4403,
+        "percent": 13.7
+      },
+      "negative": {
+        "count": 3098,
+        "percent": 9.6
+      },
+      "neutral": {
+        "count": 24672,
+        "percent": 76.7
+      }
+    },
+    "keywords": [
+      {
+        "name": "角色/人物",
+        "count": 3126
+      },
+      {
+        "name": "竞品/对比",
+        "count": 2744
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 2427
+      },
+      {
+        "name": "版本/更新",
+        "count": 1942
+      },
+      {
+        "name": "剧情/故事",
+        "count": 1430
+      },
+      {
+        "name": "画面/美术",
+        "count": 1214
+      },
+      {
+        "name": "优化/体验",
+        "count": 933
+      },
+      {
+        "name": "角色设计",
+        "count": 628
+      },
+      {
+        "name": "动作/手感",
+        "count": 613
+      },
+      {
+        "name": "肝度/养成",
+        "count": 537
+      }
+    ],
+    "topics": [
+      {
+        "name": "角色/人物",
+        "total": 3126,
+        "positive_percent": 24.2,
+        "negative_percent": 12.4,
+        "neutral_percent": 63.4
+      },
+      {
+        "name": "竞品/对比",
+        "total": 2744,
+        "positive_percent": 15.3,
+        "negative_percent": 13.8,
+        "neutral_percent": 70.8
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 2427,
+        "positive_percent": 18.3,
+        "negative_percent": 18.4,
+        "neutral_percent": 63.4
+      },
+      {
+        "name": "版本/更新",
+        "total": 1942,
+        "positive_percent": 16.8,
+        "negative_percent": 13.6,
+        "neutral_percent": 69.6
+      },
+      {
+        "name": "剧情/故事",
+        "total": 1430,
+        "positive_percent": 16.3,
+        "negative_percent": 12.1,
+        "neutral_percent": 71.6
+      },
+      {
+        "name": "画面/美术",
+        "total": 1214,
+        "positive_percent": 15.7,
+        "negative_percent": 12.9,
+        "neutral_percent": 71.5
+      },
+      {
+        "name": "优化/体验",
+        "total": 933,
+        "positive_percent": 13.3,
+        "negative_percent": 13.4,
+        "neutral_percent": 73.3
+      },
+      {
+        "name": "角色设计",
+        "total": 628,
+        "positive_percent": 16.9,
+        "negative_percent": 12.9,
+        "neutral_percent": 70.2
+      },
+      {
+        "name": "动作/手感",
+        "total": 613,
+        "positive_percent": 13.7,
+        "negative_percent": 17.0,
+        "neutral_percent": 69.3
+      },
+      {
+        "name": "肝度/养成",
+        "total": 537,
+        "positive_percent": 13.6,
+        "negative_percent": 12.1,
+        "neutral_percent": 74.3
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "中性讨论为主（76.7%），正面（13.7%）认可 洛瑟菈角色设计与成女少女感反差魅力 ，负面（9.6%）集中于 变奏预输入bug大规模爆发（维里奈/长离/千咲/卡提希娅/海墟/嘉贝莉娜） 。角色/人物为最高热度话题（3126条）。热情期待与认可，对洛瑟菈人设和PV质量给予高度评价，联动内容带动了社区活跃度，不满与质疑，对bug修复优先级和联动池机制的批评最为集中，动作模组赶工争议持续发酵。",
+    "sentiments": {
+      "positive": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "洛瑟菈角色设计与成女少女感反差魅力",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "漂泊者与洛瑟菈CP向讨论及养猫暗示",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "边缘行者联动带动回坑入坑（露西）",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "变奏预输入bug大规模爆发（维里奈/长离/千咲/卡提希娅/海墟/嘉贝莉娜）",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "洛瑟菈动作模组赶工争议（对比琳奈/达妮娅/坎特雷拉）",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "延奏特效缺失作为赶工佐证",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "漂泊者黑海岸身份隐瞒机制（执花/守岸人/秋水/椿/安可）",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "洛瑟菈与绯雪配队及霜渐伤害类型分析（千咲三号位/嘉贝莉娜）",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "洛瑟菈二形态切换机制（礼帽/无礼帽/自动变回）",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/wuwa-3.4-lower-zh-annotations.json"
+  },
+  "migration": {
+    "source_html": "鸣潮-3.4下半-B站_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "有没有人觉得这配色挺妙的",
+        "孩子们,鸣潮第一个实锤的小厨女来了",
+        "男漂和爱弥斯尤诺的三个皮肤好看啊,速度出@鸣潮",
+        "你来这我肯定推荐鸣潮,但是游戏永远是适合自己的最好,建议都上云游戏体验一下再做判断"
+      ],
+      "negative": [
+        "那可不,就椿那个装扮,进残星会都不用换衣服",
+        "洛老师你眼睛有点发紫是不是有点压抑",
+        "秋水的能力在剧情里纯忍者技能,都是替身+跑路"
+      ],
+      "neutral": [
+        "黑海岸内部人员:每次这个黑毛出现守岸人大人就会屁颠屁颠地跑过来,像个恋爱的小女人一样,这个黑毛到底是谁呀,好难猜啊,不敢说,不敢说",
+        "理性讨论一下洛瑟拉的伤害有没有折枝高,我只有一把常驻音感仪",
+        "又是音感仪哈哈哈,音感仪真缺啊。维里奈,守岸人,达尼亚,卜灵,校长,只能是换着用了,感觉自己好穷",
+        "库洛优化手机端切人设置,优化手机端,优化手机端,优化手机端。改成电脑的那种123改成电脑的那种123轮切改成电脑的那种"
+      ]
+    },
+    "overall_tone": {
+      "positive": "",
+      "negative": "",
+      "neutral": ""
+    }
+  }
+}

@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "崩铁",
+    "version": "4.3",
+    "phase": "下半",
+    "character": "昔涟",
+    "date_start": "2026-06-24",
+    "date_end": "2026-07-14",
+    "platform": "YouTube（韩语）",
+    "generated_at": "2026-06-30T11:23:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 1003,
+    "sentiments": {
+      "positive": {
+        "count": 243,
+        "percent": 24.2
+      },
+      "negative": {
+        "count": 39,
+        "percent": 3.9
+      },
+      "neutral": {
+        "count": 721,
+        "percent": 71.9
+      }
+    },
+    "keywords": [
+      {
+        "name": "角色/人物",
+        "count": 251
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 98
+      },
+      {
+        "name": "竞品/对比",
+        "count": 51
+      },
+      {
+        "name": "剧情/故事",
+        "count": 45
+      },
+      {
+        "name": "萌系/日常",
+        "count": 41
+      },
+      {
+        "name": "版本/更新",
+        "count": 41
+      },
+      {
+        "name": "战斗/玩法",
+        "count": 32
+      },
+      {
+        "name": "画面/美术",
+        "count": 28
+      },
+      {
+        "name": "音乐/配音",
+        "count": 23
+      },
+      {
+        "name": "社区/运营",
+        "count": 21
+      }
+    ],
+    "topics": [
+      {
+        "name": "角色/人物",
+        "total": 251,
+        "positive_percent": 49.8,
+        "negative_percent": 4.4,
+        "neutral_percent": 45.8
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 98,
+        "positive_percent": 43.9,
+        "negative_percent": 6.1,
+        "neutral_percent": 50.0
+      },
+      {
+        "name": "竞品/对比",
+        "total": 51,
+        "positive_percent": 33.3,
+        "negative_percent": 2.0,
+        "neutral_percent": 64.7
+      },
+      {
+        "name": "剧情/故事",
+        "total": 45,
+        "positive_percent": 37.8,
+        "negative_percent": 0.0,
+        "neutral_percent": 62.2
+      },
+      {
+        "name": "萌系/日常",
+        "total": 41,
+        "positive_percent": 70.7,
+        "negative_percent": 0.0,
+        "neutral_percent": 29.3
+      },
+      {
+        "name": "版本/更新",
+        "total": 41,
+        "positive_percent": 36.6,
+        "negative_percent": 9.8,
+        "neutral_percent": 53.7
+      },
+      {
+        "name": "战斗/玩法",
+        "total": 32,
+        "positive_percent": 37.5,
+        "negative_percent": 3.1,
+        "neutral_percent": 59.4
+      },
+      {
+        "name": "画面/美术",
+        "total": 28,
+        "positive_percent": 67.9,
+        "negative_percent": 10.7,
+        "neutral_percent": 21.4
+      },
+      {
+        "name": "音乐/配音",
+        "total": 23,
+        "positive_percent": 52.2,
+        "negative_percent": 0.0,
+        "neutral_percent": 47.8
+      },
+      {
+        "name": "社区/运营",
+        "total": 21,
+        "positive_percent": 52.4,
+        "negative_percent": 0.0,
+        "neutral_percent": 47.6
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "流萤的可爱形象是这批韩语评论中最稳定的正面情绪来源。塞瑞涅的满命投入分享在韩语玩家中出现，表明角色吸引力足够强。崩坏星穹铁道的叙事深度被韩语玩家认可，部分玩家表示与原神至冬国预告同日发布的联动效应让人感到满足。阿哈作为欢愉星神的恶搞特质获得了韩语玩家的喜爱。部分韩语玩家分享了在崩铁中的抽卡经历，表示虽然有些角色投入后发现不如预期，但整体上对已抽取的角色没有太多遗憾。与原神和崩铁同时发布重要预告的策略被韩语玩家称为大商人的手笔。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "流萤可爱形象",
+            "detail": "流萤的可爱形象是韩语评论中最稳定的正面情绪来源",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "塞瑞涅满命投入",
+            "detail": "塞瑞涅的满命投入分享在韩语玩家中出现，表明角色吸引力足够强",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "与原神同日发布预告联动",
+            "detail": "韩语玩家称同时发布两款游戏重要预告的策略为大商人的手笔",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "负面反馈集中在两个方向。第一是抽卡后悔体验，韩语玩家集中分享了对刃、飞霄等角色的抽卡后悔，刃被指出抽了后发现没有合适的队伍搭配，飞霄使用了三个版本就因数值不足被弃用。第二是角色强度与投入不匹配，椒丘被明确指出在唯一配队中已经不再是最佳选择，部分角色被指出需要过高投入才能发挥作用。有玩家表示下载崩铁本身就是最大的失误。阿萨特操控姬子的行为在韩语评论中也引发了负面评价，但比例较小。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "刃与飞霄抽卡后悔",
+            "detail": "刃抽了后没有合适队伍搭配，飞霄使用三个版本就因数值不足被弃用",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "椒丘强度与投入不匹配",
+            "detail": "椒丘在唯一配队中已非最佳选择，部分角色需要过高投入",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "下载崩铁的后悔",
+            "detail": "有玩家表示下载崩铁本身就是最大的失误",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "中性评论呈现出强烈的跨游戏对比和设定考据特征。韩语玩家将冰之女皇与罗诺瓦进行对比，讨论两者的设计差异。原神和崩铁的角色关系被韩语玩家用父母和子女的比喻来描述，认为崩铁是父亲女儿的关系而原神是母亲儿子的关系。阿萨特杀死隆介的地点和方式被详细分析。阿萨特作为精神操纵者的设定被考据党深入讨论，韩语玩家分析了他的道路转变路径和扭曲的救赎逻辑。与原神至冬国预告同日发布的联动效应是高频话题。银狼九百九十九的抽卡讨论也出现在韩语评论中。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "冰之女皇与罗诺瓦对比",
+            "detail": "韩语玩家将冰之女皇与罗诺瓦进行对比讨论设计差异",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "原神与崩铁角色关系比喻",
+            "detail": "韩语玩家用父母子女比喻描述原神和崩铁的角色关系",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "阿萨特道路转变考据",
+            "detail": "韩语玩家深入分析阿萨特的道路转变路径和扭曲救赎逻辑",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/hsr-4.3-lower-ko-annotations.json"
+  },
+  "migration": {
+    "source_html": "崩铁-4.3下半-韩语_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "流萤太可爱了",
+        "塞瑞涅值得满命",
+        "米哈游同时发布两个预告真是大商人",
+        "阿哈太有趣了",
+        "抽卡虽然有些失误但整体不后悔"
+      ],
+      "negative": [
+        "抽了刃才发现没合适的队伍",
+        "飞霄用了三个版本就不行了",
+        "椒丘已经不是最佳选择了",
+        "下载崩铁是最大的失误"
+      ],
+      "neutral": [
+        "冰之女皇和罗诺瓦谁更强",
+        "崩铁是爸爸女儿原神是妈妈儿子",
+        "阿萨特的道路转变太扭曲了",
+        "银狼九百九十九这个数字太魔性了"
+      ]
+    },
+    "overall_tone": {
+      "positive": "正面情绪较为温和，以流萤可爱形象和同日发布联动的满足感为主",
+      "negative": "负面情绪集中在抽卡决策后悔上，角色强度与投入不匹配是最核心的批评点",
+      "neutral": "跨游戏对比和设定考据并存，韩语社区对原神和崩铁的联动关系保持轻松态度"
+    }
+  }
+}

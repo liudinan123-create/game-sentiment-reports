@@ -195,6 +195,7 @@ const SENTIMENT_LABELS={positive:'正面反馈',negative:'负面反馈',neutral:
 const SENTIMENT_CLASSES={positive:'positive',negative:'negative',neutral:'neutral'};
 const PUBLISH_CONFIG={owner:'liudinan123-create',repo:'game-sentiment-reports',branch:'main',apiVersion:'2026-03-10'};
 let ACTIVE_DATA_SOURCE=null;
+let ANALYSIS_DATA_CACHE=null;
 
 function cloneValue(value){return JSON.parse(JSON.stringify(value));}
 function escapeHTML(value){return String(value??'').replace(/[&<>"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));}
@@ -261,9 +262,17 @@ function filename(suffix){const m=REPORT_DATA.meta;return [m.game,m.version,m.ph
 function downloadBlob(content,type,name){const url=URL.createObjectURL(new Blob([content],{type})),a=document.createElement('a');a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url);}
 function downloadReportJSON(){collectEdits();downloadBlob(JSON.stringify(REPORT_DATA,null,2),'application/json;charset=utf-8',filename('-舆情报告.json'));}
 function downloadReportHTML(){collectEdits();const clone=document.documentElement.cloneNode(true);clone.querySelector('#reportData').textContent=JSON.stringify(REPORT_DATA);clone.querySelector('body').classList.remove('editing');clone.querySelectorAll('[contenteditable]').forEach(el=>el.removeAttribute('contenteditable'));downloadBlob('<!DOCTYPE html>\n'+clone.outerHTML,'text/html;charset=utf-8',filename('-舆情报告.html'));}
-function downloadAnalysisJSON(){downloadBlob(JSON.stringify(REPORT_DATA.annotated_data,null,2),'application/json;charset=utf-8',filename('-情感分析数据.json'));}
-function csvText(){const d=REPORT_DATA.annotated_data,escape=value=>'"'+String(value??'').replace(/"/g,'""')+'"';return '\uFEFF'+[d.columns,...d.rows].map(row=>row.map(escape).join(',')).join('\r\n');}
-function downloadAnalysisCSV(){downloadBlob(csvText(),'text/csv;charset=utf-8',filename('-情感分析数据.csv'));}
+async function analysisData(){
+  if(ANALYSIS_DATA_CACHE)return ANALYSIS_DATA_CACHE;
+  const embedded=REPORT_DATA.annotated_data||{columns:[],rows:[]};
+  if(!embedded.download_url)return embedded;
+  const response=await fetch(new URL(embedded.download_url,location.href));
+  if(!response.ok)throw new Error(`无法读取分析数据（${response.status}）`);
+  ANALYSIS_DATA_CACHE=await response.json();return ANALYSIS_DATA_CACHE;
+}
+async function downloadAnalysisJSON(){try{const data=await analysisData();downloadBlob(JSON.stringify(data,null,2),'application/json;charset=utf-8',filename('-情感分析数据.json'));}catch(error){alert(error.message);}}
+function csvText(data){const escape=value=>'"'+String(value??'').replace(/"/g,'""')+'"';return '\uFEFF'+[data.columns,...data.rows].map(row=>row.map(escape).join(',')).join('\r\n');}
+async function downloadAnalysisCSV(){try{const data=await analysisData();downloadBlob(csvText(data),'text/csv;charset=utf-8',filename('-情感分析数据.csv'));}catch(error){alert(error.message);}}
 function repositoryDataPath(){
   if(!ACTIVE_DATA_SOURCE)return null;
   const url=new URL(ACTIVE_DATA_SOURCE,location.href),projectRoot='/game-sentiment-reports/';
@@ -305,7 +314,7 @@ async function publishReport(){
     setPublishStatus(hint,'error');clearToken();
   }finally{button.disabled=!repositoryDataPath();}
 }
-function replaceReportData(next){if(!next||next.schema_version!==1||!next.meta||!next.analysis||!next.generated)throw new Error('报告 JSON 结构不正确');for(const key of Object.keys(REPORT_DATA))delete REPORT_DATA[key];Object.assign(REPORT_DATA,next);if(!REPORT_DATA.editorial_override)REPORT_DATA.editorial_override=emptyOverrides();}
+function replaceReportData(next){if(!next||next.schema_version!==1||!next.meta||!next.analysis||!next.generated)throw new Error('报告 JSON 结构不正确');for(const key of Object.keys(REPORT_DATA))delete REPORT_DATA[key];Object.assign(REPORT_DATA,next);ANALYSIS_DATA_CACHE=null;if(!REPORT_DATA.editorial_override)REPORT_DATA.editorial_override=emptyOverrides();}
 async function loadReportFile(file){if(!file)return;try{replaceReportData(JSON.parse(await file.text()));ACTIVE_DATA_SOURCE=null;loadLocalDraft();renderReport();document.getElementById('editStatus').textContent='已载入本地文件：'+file.name;}catch(error){alert(error.message);}}
 function loadLocalDraft(){try{const draft=localStorage.getItem(reportKey());if(draft)REPORT_DATA.editorial_override=JSON.parse(draft);}catch(error){console.warn('无法读取本地草稿',error);}}
 async function initializeReport(){const params=new URLSearchParams(location.search),source=params.get('data');if(params.get('admin')==='1')document.body.classList.add('admin-mode');if(source){try{const sourceUrl=new URL(source,location.href),response=await fetch(sourceUrl);if(!response.ok)throw new Error(`无法读取报告数据（${response.status}）`);replaceReportData(await response.json());ACTIVE_DATA_SOURCE=sourceUrl.href;}catch(error){document.getElementById('editStatus').textContent=error.message;}}loadLocalDraft();renderReport();}

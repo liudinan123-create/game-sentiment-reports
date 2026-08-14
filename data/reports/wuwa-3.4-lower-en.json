@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "鸣潮",
+    "version": "3.4",
+    "phase": "下半",
+    "character": "洛瑟菈",
+    "date_start": "2026-06-13",
+    "date_end": "2026-07-09",
+    "platform": "YouTube（英语）",
+    "generated_at": "2026-06-26T14:33:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 5977,
+    "sentiments": {
+      "positive": {
+        "count": 1604,
+        "percent": 26.8
+      },
+      "negative": {
+        "count": 217,
+        "percent": 3.6
+      },
+      "neutral": {
+        "count": 4156,
+        "percent": 69.5
+      }
+    },
+    "keywords": [
+      {
+        "name": "其他",
+        "count": 656
+      },
+      {
+        "name": "角色/人物",
+        "count": 271
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 93
+      },
+      {
+        "name": "画质/画面",
+        "count": 83
+      },
+      {
+        "name": "音乐/配音",
+        "count": 67
+      },
+      {
+        "name": "战斗系统",
+        "count": 52
+      },
+      {
+        "name": "探索/大世界",
+        "count": 49
+      },
+      {
+        "name": "版本/更新",
+        "count": 48
+      },
+      {
+        "name": "优化/体验",
+        "count": 45
+      },
+      {
+        "name": "剧情/故事",
+        "count": 38
+      }
+    ],
+    "topics": [
+      {
+        "name": "其他",
+        "total": 656,
+        "positive_percent": 25.3,
+        "negative_percent": 2.9,
+        "neutral_percent": 71.8
+      },
+      {
+        "name": "角色/人物",
+        "total": 271,
+        "positive_percent": 24.7,
+        "negative_percent": 4.8,
+        "neutral_percent": 70.5
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 93,
+        "positive_percent": 31.2,
+        "negative_percent": 5.4,
+        "neutral_percent": 63.4
+      },
+      {
+        "name": "画质/画面",
+        "total": 83,
+        "positive_percent": 38.6,
+        "negative_percent": 6.0,
+        "neutral_percent": 55.4
+      },
+      {
+        "name": "音乐/配音",
+        "total": 67,
+        "positive_percent": 41.8,
+        "negative_percent": 7.5,
+        "neutral_percent": 50.7
+      },
+      {
+        "name": "战斗系统",
+        "total": 52,
+        "positive_percent": 23.1,
+        "negative_percent": 11.5,
+        "neutral_percent": 65.4
+      },
+      {
+        "name": "探索/大世界",
+        "total": 49,
+        "positive_percent": 28.6,
+        "negative_percent": 4.1,
+        "neutral_percent": 67.3
+      },
+      {
+        "name": "版本/更新",
+        "total": 48,
+        "positive_percent": 33.3,
+        "negative_percent": 4.2,
+        "neutral_percent": 62.5
+      },
+      {
+        "name": "优化/体验",
+        "total": 45,
+        "positive_percent": 24.4,
+        "negative_percent": 2.2,
+        "neutral_percent": 73.3
+      },
+      {
+        "name": "剧情/故事",
+        "total": 38,
+        "positive_percent": 21.1,
+        "negative_percent": 2.6,
+        "neutral_percent": 76.3
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "英语YouTube评论中关于Wuthering Waves的正面讨论高度集中在3.5版本新增角色和联动内容上。Suisui（水水）和Yangyang（秧秧）的新形态展示引发了大量惊叹，玩家反复将其与PGR（战双帕弥什）的Hanying做对比，认为Kuro在角色设计上找到了自身传承的独特风格。Lucilla（洛瑟菈）作为此前版本的热门角色，仍然被大量玩家提及，许多人表示为她充值了99美元并呼吁官方在卡池排期上给玩家更多喘息空间。Cyberpunk: Edgerunners联动是另一条重要正面线索——玩家表示看完动画后回来享受联动剧情是一种幸福体验，认为Kuro的叙事质量已达到神级水准。3.5版本新增的Sentinel系统和新角色Aemeath也获得好评，被玩家形容为漂泊者的女儿。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "Suisui/Yangyang新角色展示",
+            "detail": "水水和秧秧新形态引发惊叹，玩家与PGR Hanying对比",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "Cyberpunk Edgerunners联动剧情",
+            "detail": "看完动画后享受联动剧情被认为是一种幸福，叙事获神级评价",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "Lucilla卡池热度与充值讨论",
+            "detail": "洛瑟菈仍被大量提及，玩家呼吁卡池排期留更多间隔",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "英语圈负面评论的核心关注点集中在五个方面。首先是Kuro在预告片和CG动画中展示的精美角色皮肤和服装长期不实装到游戏内，玩家反复呼吁将这些设计作为可获取皮肤加入游戏，认为把高质量外观仅用于一次性宣传动画是对资源的浪费，这导致部分玩家对官方诚意产生质疑。其次是优化与Bug问题，有玩家在3.5版本最终任务中遭遇摩托车追逐场景的物理穿模故障，车辆持续穿过建筑物水体无法正常完成关卡，直接影响游戏进度。第三是翻译质量问题，角色出场诗句的英文翻译与中文原文意境差距较大，被认为丢失了原文的文学性。第四是角色创新性争议，多名玩家指出新角色技能机制与原神纳西妲高度相似，质疑Kuro在战斗设计上缺乏突破。第五是剧情设定矛盾，秧秧在1.0版本中明确提到所有Sentinel都以龙形出现，但新版本Sentinel形态打破了这个设定，玩家认为这是设定吃书。此外，旧区域今州和黄龙地区仍被部分玩家厌恶，声画不同步问题也被提及。整体来看，英语圈负面情绪并非对游戏核心质量的否定，而是对Kuro在资源分配、翻译质量和设定一致性方面的期望落差。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "皮肤仅限CG不实装",
+            "detail": "预告片精美皮肤长期不加入游戏，玩家认为浪费资源且诚意不足",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "优化Bug影响进度",
+            "detail": "摩托车追逐任务物理穿模导致关卡无法完成",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "翻译质量丢失原文意境",
+            "detail": "角色诗句英文翻译与中文原文文学性差距大",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "中性评论以游戏机制提问、角色元素属性讨论、新内容爆料反应为主。大量玩家询问Yangyang是DPS还是辅助、新角色是什么元素属性，以及是否能免费获得。PGR老玩家频繁将鸣潮角色与战双角色做机制对比，讨论Kuro的游戏设计传承。关于新角色爆料的反应多为好奇和观望，对信息泄露表示惊讶但保持等待态度。部分玩家讨论是否要为新角色预留资源，形成了跳过还是抽取的策略讨论。中文评论也混入其中，反映了跨语言搜索带来的混合受众。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "角色定位与元素属性问答",
+            "detail": "询问Yangyang是DPS还是辅助、新角色元素属性",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "PGR与鸣潮机制对比",
+            "detail": "将鸣潮角色与战双帕弥什角色做机制传承对比",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "新内容爆料反应与观望",
+            "detail": "对泄露信息表示好奇但保持观望态度",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/wuwa-3.4-lower-en-annotations.json"
+  },
+  "migration": {
+    "source_html": "mc_wuwa_en_report.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "水水比折枝还要精致！？她到底是谁！？",
+        "我知道离开原神来玩这个游戏是最好的决定。",
+        "我的露西亚和含英终于在鸣潮里出现了（露西亚和含英是Kuro另一款游戏PGR的角色）",
+        "是的Kuro继续秀吧……让我们看看你有什么本事……"
+      ],
+      "negative": [
+        "修复最终任务里那个破摩托车追逐吧，我的车一直掉进建筑物的水里出不来，垃圾优化",
+        "Kuro用这些服装折磨我们，求求你们把它们加到游戏里吧",
+        "又是一天又是一堆永远不会出现在游戏里的精美皮肤，只存在于没用的预告片里",
+        "但是秧秧在1.0说过所有Sentinel都是龙形的，所以她撒谎了"
+      ],
+      "neutral": [
+        "秧秧是输出还是辅助？",
+        "我们能免费拿到秧秧吗？",
+        "根本看不出他们是什么属性",
+        "为什么我觉得水水是PGR含英的改版玩法"
+      ]
+    },
+    "overall_tone": {
+      "positive": "热情且充满期待，聚焦于新角色质量和联动叙事",
+      "negative": "期望落差驱动——对Kuro资源分配和设定一致性的建设性批评",
+      "neutral": "信息交换与策略讨论为主——社区知识共享的活跃表现"
+    }
+  }
+}

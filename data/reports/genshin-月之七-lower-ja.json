@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "原神",
+    "version": "月之七",
+    "phase": "下半",
+    "character": "洛恩 / 马微卡（复刻）",
+    "date_start": "2026-06-09",
+    "date_end": "2026-06-30",
+    "platform": "YouTube（日语）",
+    "generated_at": "2026-06-30T11:22:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 3168,
+    "sentiments": {
+      "positive": {
+        "count": 1066,
+        "percent": 33.6
+      },
+      "negative": {
+        "count": 48,
+        "percent": 1.5
+      },
+      "neutral": {
+        "count": 2054,
+        "percent": 64.8
+      }
+    },
+    "keywords": [
+      {
+        "name": "角色/人物",
+        "count": 901
+      },
+      {
+        "name": "萌系/日常",
+        "count": 351
+      },
+      {
+        "name": "版本/更新",
+        "count": 132
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 105
+      },
+      {
+        "name": "竞品/对比",
+        "count": 91
+      },
+      {
+        "name": "画面/美术",
+        "count": 89
+      },
+      {
+        "name": "音乐/配音",
+        "count": 80
+      },
+      {
+        "name": "战斗/玩法",
+        "count": 76
+      },
+      {
+        "name": "剧情/故事",
+        "count": 54
+      },
+      {
+        "name": "角色设计",
+        "count": 33
+      }
+    ],
+    "topics": [
+      {
+        "name": "角色/人物",
+        "total": 901,
+        "positive_percent": 44.8,
+        "negative_percent": 1.9,
+        "neutral_percent": 53.3
+      },
+      {
+        "name": "萌系/日常",
+        "total": 351,
+        "positive_percent": 87.5,
+        "negative_percent": 1.1,
+        "neutral_percent": 11.4
+      },
+      {
+        "name": "版本/更新",
+        "total": 132,
+        "positive_percent": 41.7,
+        "negative_percent": 0.8,
+        "neutral_percent": 57.6
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 105,
+        "positive_percent": 36.2,
+        "negative_percent": 1.0,
+        "neutral_percent": 62.9
+      },
+      {
+        "name": "竞品/对比",
+        "total": 91,
+        "positive_percent": 79.1,
+        "negative_percent": 2.2,
+        "neutral_percent": 18.7
+      },
+      {
+        "name": "画面/美术",
+        "total": 89,
+        "positive_percent": 68.5,
+        "negative_percent": 2.2,
+        "neutral_percent": 29.2
+      },
+      {
+        "name": "音乐/配音",
+        "total": 80,
+        "positive_percent": 51.2,
+        "negative_percent": 0.0,
+        "neutral_percent": 48.8
+      },
+      {
+        "name": "战斗/玩法",
+        "total": 76,
+        "positive_percent": 36.8,
+        "negative_percent": 2.6,
+        "neutral_percent": 60.5
+      },
+      {
+        "name": "剧情/故事",
+        "total": 54,
+        "positive_percent": 44.4,
+        "negative_percent": 5.6,
+        "neutral_percent": 50.0
+      },
+      {
+        "name": "角色设计",
+        "total": 33,
+        "positive_percent": 51.5,
+        "negative_percent": 3.0,
+        "neutral_percent": 45.5
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "散兵人偶使的动画内容在这批日语评论中引发了最密集的正面反馈。玩家反复称赞散兵眼睛中齿轮细节的建模精度，认为这种机械与人偶融合的设计在二次元风格中极具辨识度。散兵与哥伦比娅的茶会场景中枕投掷互动的演出质量获得了高度评价，玩家认为这种生活化场景让执行官角色展现了与主线冷酷形象截然不同的可爱一面。罗莎琳在散兵回忆中的出现让日语玩家产生了强烈的情感共鸣，她对散兵的友善态度被视为执行官之间难得的温情。冰之女皇的声音首次公开后，日语玩家对声线表现给出了正面评价，认为声音质感既有威严又带有母亲气质。至冬国场景的建筑和氛围设计也让玩家对后续版本充满期待。公子达达利亚的回归预告引发了老玩家的怀念情绪，部分玩家表示从游戏开服就在等待至冬国篇。哥伦比娅在门外唱歌的细节被多次提及，日语玩家对这种细腻的情感表达方式给予了高度认可。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "散兵齿轮眼睛建模精度",
+            "detail": "玩家反复称赞散兵眼睛中齿轮细节的建模，认为机械与人偶融合的设计极具辨识度",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "散兵与哥伦比娅茶会枕投掷演出",
+            "detail": "茶会场景中枕投掷互动的演出质量获得高度评价，生活化场景让执行官角色更加立体",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "罗莎琳回忆中的温情",
+            "detail": "罗莎琳在散兵回忆中对散兵的友善态度让日语玩家产生强烈情感共鸣",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "负面反馈集中在三个方向。第一是跳过按钮的缺失，日语玩家反复抱怨对话无法跳过的问题，认为官方给出的对话加速功能只是敷衍了事。第二是散兵设计变更，有玩家指出冰之国的角色穿着不够保暖，与设定中的严寒环境不符，散兵的短裙设计也被认为与角色原本的人偶使定位不一致。第三是雷电将军的叙事争议，部分玩家在看到罗莎琳的过去后对雷电将军的行为产生了更强烈的负面看法，认为她在御前比武中杀害罗莎琳的行为过于残忍，这种情绪在散兵相关动画发布后进一步激化。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "对话跳过功能缺失",
+            "detail": "日语玩家反复抱怨对话无法跳过，认为对话加速功能只是敷衍",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "至冬国角色服装与设定不符",
+            "detail": "玩家指出冰之国角色穿着不够保暖，与严寒环境设定不符",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "雷电将军杀罗莎琳争议",
+            "detail": "散兵动画发布后，部分玩家对雷电将军的行为产生更强烈的负面看法",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "中性评论呈现出设定考据和角色关系分析的特征。执行官之间的关系梳理是日语玩家最热衷的话题，包括潘塔洛涅与博士的互动、仆从对散兵的态度分析、以及女皇身边孩子的身份推测。公子达达利亚的钱包梗持续出现在评论区，玩家调侃他在至冬国篇中又会如何被消耗。棋盘 symbolism 的设定分析也有出现，玩家尝试从预告片中推导后续剧情走向。新角色数量之多让部分玩家表示一次无法完全消化所有信息。派蒙可能遭遇危险的伏笔也被细致的玩家注意到。角色声优话题在日语评论中较为突出，包括新角色的声优猜测和对现有声优表现的评价。抽卡资源规划也是常见话题，玩家讨论在多个执行官角色之间如何分配原石。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "执行官关系梳理与分析",
+            "detail": "日语玩家热衷分析执行官之间的互动关系，包括潘塔洛涅与博士、仆从对散兵的态度等",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "公子达达利亚钱包梗",
+            "detail": "达达利亚在至冬国篇中的钱包梗持续出现在评论区",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "棋盘设定推导剧情走向",
+            "detail": "玩家从预告片棋盘元素推导后续剧情走向",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/genshin-月之七-lower-ja-annotations.json"
+  },
+  "migration": {
+    "source_html": "原神-月之七下半-日语_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "散兵眼睛里齿轮的细节太精致了",
+        "散兵和哥伦比娅的枕投掷太可爱了",
+        "罗莎琳对散兵那么好让人心碎",
+        "冰之女皇的声音太合适了",
+        "终于等到至冬国了"
+      ],
+      "negative": [
+        "冰之国为什么有人穿得一点都不保暖",
+        "散兵自己都讨厌那条裙子",
+        "看了这个PV后更讨厌雷电将军了",
+        "跳过按钮到底什么时候出"
+      ],
+      "neutral": [
+        "达达利亚快把钱包拿来",
+        "一次看不完这么多新角色信息",
+        "潘塔洛涅和博士到底是什么关系",
+        "派蒙会不会出事"
+      ]
+    },
+    "overall_tone": {
+      "positive": "以散兵生活化动画的可爱演出为核心，罗莎琳的回忆和冰之女皇声线提供情感深度补充",
+      "negative": "负面情绪集中在功能缺失和角色设计合理性上，雷电将军叙事争议因新动画内容而再度发酵",
+      "neutral": "设定考据深度参与为主，执行官关系分析和声优话题是日语社区的特色讨论方向"
+    }
+  }
+}

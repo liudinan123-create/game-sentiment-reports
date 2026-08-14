@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "鸣潮",
+    "version": "3.4",
+    "phase": "下半",
+    "character": "洛瑟菈",
+    "date_start": "2026-06-13",
+    "date_end": "2026-07-09",
+    "platform": "YouTube（日语）",
+    "generated_at": "2026-06-26T14:33:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 2700,
+    "sentiments": {
+      "positive": {
+        "count": 617,
+        "percent": 22.9
+      },
+      "negative": {
+        "count": 175,
+        "percent": 6.5
+      },
+      "neutral": {
+        "count": 1908,
+        "percent": 70.7
+      }
+    },
+    "keywords": [
+      {
+        "name": "其他",
+        "count": 568
+      },
+      {
+        "name": "角色/人物",
+        "count": 94
+      },
+      {
+        "name": "剧情/故事",
+        "count": 49
+      },
+      {
+        "name": "联动/合作",
+        "count": 37
+      },
+      {
+        "name": "音乐/配音",
+        "count": 34
+      },
+      {
+        "name": "画质/画面",
+        "count": 30
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 30
+      },
+      {
+        "name": "BOSS/战斗",
+        "count": 15
+      },
+      {
+        "name": "战斗系统",
+        "count": 12
+      },
+      {
+        "name": "入坑/退坑",
+        "count": 12
+      }
+    ],
+    "topics": [
+      {
+        "name": "其他",
+        "total": 568,
+        "positive_percent": 22.0,
+        "negative_percent": 5.6,
+        "neutral_percent": 72.4
+      },
+      {
+        "name": "角色/人物",
+        "total": 94,
+        "positive_percent": 17.0,
+        "negative_percent": 8.5,
+        "neutral_percent": 74.5
+      },
+      {
+        "name": "剧情/故事",
+        "total": 49,
+        "positive_percent": 30.6,
+        "negative_percent": 6.1,
+        "neutral_percent": 63.3
+      },
+      {
+        "name": "联动/合作",
+        "total": 37,
+        "positive_percent": 27.0,
+        "negative_percent": 8.1,
+        "neutral_percent": 64.9
+      },
+      {
+        "name": "音乐/配音",
+        "total": 34,
+        "positive_percent": 38.2,
+        "negative_percent": 2.9,
+        "neutral_percent": 58.8
+      },
+      {
+        "name": "画质/画面",
+        "total": 30,
+        "positive_percent": 33.3,
+        "negative_percent": 3.3,
+        "neutral_percent": 63.3
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 30,
+        "positive_percent": 16.7,
+        "negative_percent": 6.7,
+        "neutral_percent": 76.7
+      },
+      {
+        "name": "BOSS/战斗",
+        "total": 15,
+        "positive_percent": 26.7,
+        "negative_percent": 6.7,
+        "neutral_percent": 66.7
+      },
+      {
+        "name": "战斗系统",
+        "total": 12,
+        "positive_percent": 25.0,
+        "negative_percent": 16.7,
+        "neutral_percent": 58.3
+      },
+      {
+        "name": "入坑/退坑",
+        "total": 12,
+        "positive_percent": 25.0,
+        "negative_percent": 0.0,
+        "neutral_percent": 75.0
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "日语圈YouTube评论中关于鳴潮的正面评价高度集中在3.5版本联动剧情和角色演出上。Cyberpunk: Edgerunners联动被日语玩家称为神级剧情，许多评论表示看完Edgerunners动画后再来享受鳴潮联动剧情感到无比幸福。ルシラー（洛瑟菈）的重力机制和满命演出获得持续好评，被认为是最棒的角色。ジンラン（景燃）和シン（心）等3.5新角色的共鳴者动画被赞清纯美丽，角色设计的腋下和腹股沟等细节刻画被资深玩家大加赞赏。此外，联动版与动画版的场景差异对比也引发热烈讨论，玩家认为鳴潮版在情感表达上更深一层。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "Cyberpunk Edgerunners联动神级剧情",
+            "detail": "看完动画后享受联动剧情被称幸福，叙事质量获神级评价",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "ルシラー重力机制与满命演出",
+            "detail": "洛瑟菈重力特别、满命演出最棒，角色魅力持续好评",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "ジンラン/シン等3.5新共鳴者动画",
+            "detail": "景燃、心等新角色共鳴者动画被赞清纯美丽",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "日语圈负面评论的核心关注点集中在四个方面。首先是角色建模的物理穿模问题，多位玩家注意到新角色在纳刀时刀鞘与武器的碰撞处理不当，刀刃直接穿过鞘壁，有资深玩家甚至详细讨论了通过鞘端留出空心区域并用脚本控制Y轴角度的技术解决方案，反映出玩家对建模精度的较高期望，这类细节问题直接影响了角色展示的沉浸感。其次是剧情理解门槛过高的问题，玩家将鸣潮与Kingdom Hearts系列做对比，认为派生作品过多导致叙事碎片化，新玩家难以跟上剧情脉络，部分玩家表示从初代开始跟到第三代仍然无法理解剧情走向。第三是声优匹配争议，松冈祯丞是否适合新角色引发讨论，部分玩家认为声线与角色形象存在落差。第四是资源耗尽焦虑，连续抽卡导致星碎储备耗尽，部分玩家表示虽然新角色设计精美但已无力抽取，只能无奈放弃。此外，部分玩家对用现实标准评判游戏作品的讨论方式表示反感，认为不应将现实物理法则强加于虚构世界。整体来看日语圈负面以技术细节和剧情理解为主，批评语气温和且建设性。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "纳刀穿模建模问题",
+            "detail": "刀鞘与武器物理碰撞处理不当，玩家讨论技术解决方案",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "剧情理解门槛过高",
+            "detail": "与KH系列对比，派生作品过多导致叙事碎片化",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "声优匹配争议",
+            "detail": "松冈祯丞声线是否适合新角色引发讨论",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "日语圈中立评论以角色名称读法讨论、剧情深度分析和信息感谢为中心。ジンラン的读法引发讨论，反映了日语玩家对中文角色名读法的困惑。ルシラー相关的剧情分析非常深入，有玩家写出长文分析梦境与现实边界的叙事手法，认为绝妙留白是角色整理情感的必要方式。新角色的狐狸女孩登场引发了兴奋反应。大量中文评论混入其中，反映了鳴潮搜索词在中文圈的覆盖。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "角色名称读法讨论",
+            "detail": "ジンラン等中文角色名的日语读法困惑",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "ルシラー剧情深度分析",
+            "detail": "梦境与现实边界的叙事手法分析",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "新角色狐狸女孩反应",
+            "detail": "狐狸女孩登场引发兴奋与好奇",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/wuwa-3.4-lower-ja-annotations.json"
+  },
+  "migration": {
+    "source_html": "mc_wuwa_ja_report.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "玩了赛博朋克、看了Edgerunners、然后能享受鸣潮的联动，这就是幸福",
+        "一开始看就很棒了，仔细看的话对腋下和腹股沟的执着也太厉害了吧！",
+        "清纯又美丽~",
+        "请教我吧师父❤❤😊"
+      ],
+      "negative": [
+        "给鞘网格用脚本赋予从剑网格的判定，和左臂网格一起在纳刀时机指定Y轴倾斜的话也许有戏",
+        "现实不一定等同于真实……不明白这一点的人就别来谈影像作品了",
+        "糟了，我可能最喜欢这个",
+        "差不多该出个男双形态了"
+      ],
+      "neutral": [
+        "ジンラン原来这么读吗……一如既往难读啊w",
+        "如果就这样触碰了的话就不能再称之为梦了……",
+        "我的眼睛没花吧，那是秧秧？"
+      ]
+    },
+    "overall_tone": {
+      "positive": "感动与赞赏交织——联动剧情与角色设计是核心驱动力",
+      "negative": "技术细节与剧情理解为主——温和且建设性的批评",
+      "neutral": "深度分析与知识分享——社区知识基盘的特征"
+    }
+  }
+}

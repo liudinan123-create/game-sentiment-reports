@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "绝区零",
+    "version": "3.0",
+    "phase": "上半",
+    "character": "诺姆",
+    "date_start": "2026-06-17",
+    "date_end": "2026-07-08",
+    "platform": "YouTube（日语）",
+    "generated_at": "2026-07-10T18:45:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 1333,
+    "sentiments": {
+      "positive": {
+        "count": 246,
+        "percent": 18.5
+      },
+      "negative": {
+        "count": 114,
+        "percent": 8.6
+      },
+      "neutral": {
+        "count": 973,
+        "percent": 73.0
+      }
+    },
+    "keywords": [
+      {
+        "name": "其他",
+        "count": 847
+      },
+      {
+        "name": "角色设计",
+        "count": 177
+      },
+      {
+        "name": "画面/美术",
+        "count": 89
+      },
+      {
+        "name": "抽卡/banner",
+        "count": 51
+      },
+      {
+        "name": "活动/福利",
+        "count": 30
+      },
+      {
+        "name": "音乐",
+        "count": 28
+      },
+      {
+        "name": "综合评价",
+        "count": 14
+      },
+      {
+        "name": "付费/氪金",
+        "count": 10
+      },
+      {
+        "name": "版本更新",
+        "count": 8
+      },
+      {
+        "name": "战斗系统",
+        "count": 6
+      }
+    ],
+    "topics": [
+      {
+        "name": "其他",
+        "total": 847,
+        "positive_percent": 11.7,
+        "negative_percent": 6.5,
+        "neutral_percent": 81.8
+      },
+      {
+        "name": "角色设计",
+        "total": 177,
+        "positive_percent": 48.0,
+        "negative_percent": 5.6,
+        "neutral_percent": 46.3
+      },
+      {
+        "name": "画面/美术",
+        "total": 89,
+        "positive_percent": 23.6,
+        "negative_percent": 19.1,
+        "neutral_percent": 57.3
+      },
+      {
+        "name": "抽卡/banner",
+        "total": 51,
+        "positive_percent": 13.7,
+        "negative_percent": 35.3,
+        "neutral_percent": 51.0
+      },
+      {
+        "name": "活动/福利",
+        "total": 30,
+        "positive_percent": 23.3,
+        "negative_percent": 13.3,
+        "neutral_percent": 63.3
+      },
+      {
+        "name": "音乐",
+        "total": 28,
+        "positive_percent": 10.7,
+        "negative_percent": 21.4,
+        "neutral_percent": 67.9
+      },
+      {
+        "name": "综合评价",
+        "total": 14,
+        "positive_percent": 78.6,
+        "negative_percent": 21.4,
+        "neutral_percent": 0.0
+      },
+      {
+        "name": "付费/氪金",
+        "total": 10,
+        "positive_percent": 10.0,
+        "negative_percent": 70.0,
+        "neutral_percent": 20.0
+      },
+      {
+        "name": "版本更新",
+        "total": 8,
+        "positive_percent": 37.5,
+        "negative_percent": 12.5,
+        "neutral_percent": 50.0
+      },
+      {
+        "name": "战斗系统",
+        "total": 6,
+        "positive_percent": 33.3,
+        "negative_percent": 0.0,
+        "neutral_percent": 66.7
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "诺玛的声优表现成为日文评论中讨论热度最高的内容，大量玩家集中称赞诺玛的被弹语音和日常台词的可爱程度，特别是被弹时的语气和撒娇时的声线变化被反复提及。维莉娜与诺玛之间的亲子关系获得了极高评价，玩家频繁描述两人在战斗切换时维莉娜回头看护诺玛的动画细节，并将这种互动直接称为母女关系。帽子邦布作为诺玛的搭档同样收获了集中好评，玩家讨论了帽子邦布在诺玛倒下后寻找主人的行为以及它在诺玛头顶的互动表现。阿基拉与诺玛之间围绕HDD技术借取的对话场景被多位玩家视为角色关系刻画的亮点，诺玛向阿基拉撒娇的姿态引发了大量正面反馈。在抽卡方面，多名玩家分享了自己在十抽至五十抽范围内成功获得诺玛的经历，部分玩家同时获得了诺玛的专属音擎。诺玛的表情动画细节包括脸颊颤动和面部表情变化被玩家视为角色制作质量的体现。信任度事件中诺玛的表现也获得了正面评价，玩家认为这些细节强化了角色的魅力。此外部分玩家将诺玛与橘福福进行对比，认为两人作为矮个子火属性角色具有相似的吸引力。十一号与诺玛的战斗配合以及瞬光小队的编成也被提及，玩家对角色之间的战斗语音互动表示满意。维莉娜和诺玛的编成组合被多位玩家视为值得同时抽取的理由，部分玩家为了实现这一组合而同时抽取了两名角色。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "诺玛的声优表现与被弹语音",
+            "detail": "玩家集中称赞诺玛的日语声优演绎，特别是被弹时的语气变化和撒娇台词的声线表现",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "维莉娜与诺玛的亲子关系刻画",
+            "detail": "玩家频繁描述战斗切换时维莉娜回头看护诺玛的动画细节，将两人互动称为母女关系",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "帽子邦布与诺玛的搭档互动",
+            "detail": "帽子邦布在诺玛倒下后寻找主人的行为以及骑在头顶的互动获得集中好评",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "抽卡资源冲突是负面评论中最突出的议题，大量玩家表示正在为雷米埃尔囤积抽卡资源而不得不放弃或纠结是否抽取诺玛，部分玩家因为无法同时满足两个角色的抽取需求而感到沮丧。抽卡歪出问题被频繁提及，多名玩家报告在诺玛卡池中歪出了猫又、十一号、莱卡翁、格蕾丝和科莱达等非目标角色，导致消耗大量抽卡资源后仍未获得诺玛。部分玩家因为歪出而不得不消耗全部囤积的多彩石，甚至面临首次付费充值的情况。千夏的卡池同样造成了资源消耗，有玩家为抽取千夏耗尽资源后无力再抽取诺玛。在角色外观方面，英文评论中出现了对诺玛儿童体型设计的批评，部分玩家认为游戏为一个外观类似儿童的角色添加物理细节是不合适的，甚至有玩家使用厌恶等词汇表达不满。角色排名讨论中存在不满情绪，玩家指出排名中缺少妮可、艾莲、卡利尤冬的角色以及凯撒和简等角色。怪猎联动相关讨论中出现对联动形式的质疑，部分玩家担心联动内容会影响游戏质量。仪玄在部分玩家眼中缺乏母亲属性，与维莉娜的定位形成对比，引发了角色定位的争议。街头霸王六的联动被玩家提及但认为并非正式联动。此外部分玩家对诺玛与维莉娜之间缺乏战斗协同效果表示遗憾，认为两人虽然关系密切但在实际编成中无法发挥配合优势。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "雷米埃尔与诺玛的抽卡资源冲突",
+            "detail": "大量玩家为囤积雷米埃尔资源而放弃或纠结抽取诺玛，部分玩家因资源不足面临首次付费充值",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "诺玛卡池歪出猫又和科莱达等角色",
+            "detail": "多名玩家在诺玛卡池中歪出猫又、十一号、莱卡翁、格蕾丝和科莱达，消耗大量资源后仍未获得诺玛",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "诺玛儿童体型设计争议",
+            "detail": "英文玩家批评游戏为外观类似儿童的诺玛添加物理细节，使用厌恶等词汇表达不满",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "维莉娜与诺玛的亲子关系是中性评论中讨论最密集的话题，大量玩家以玩笑方式描述两人之间的母女互动，特别是诺玛向维莉娜撒娇和维莉娜在战斗切换时回头看护诺玛的动画细节被反复提及。阿基拉与诺玛之间围绕HDD技术和眼球植入体的借取场景引发了大量讨论，玩家分析了邦布附身技术的原理以及阿基拉与林之间植入体技术的差异。抽卡策略讨论在中性评论中占据较大比重，大量玩家在抽取诺玛和等待雷米埃尔之间权衡，部分玩家分享了歪出后仍将剩余资源保留给雷米埃尔的策略。角色关系排名是另一大话题，玩家围绕妈妈、姐姐、妹妹、女友和宠物等定位对维莉娜、触发器、瞬光、林、思思娅等角色进行分类讨论，同时指出排名中缺少艾莲、妮可、凯撒和简等角色。联动话题讨论涵盖怪猎、Persona和JoJo等作品，玩家提出了以武器类型对应角色推出外观皮肤的联动方案设想。帕德米作为可玩角色的可能性被多次讨论，玩家将其与阿斯特拉姚和天使乐团的故事线进行关联分析。诺玛的外观和设定细节也引发了讨论，包括她与橘福福在矮个子火属性角色定位上的相似性，以及虚狩称号和太阳使者等设定术语的推测。罗丝卡利珐作为场景区域被提及，玩家讨论了该区域中角色编成的策略。此外邦布事件中出现的选择项被玩家视为维莉娜与诺玛关系的官方认证。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "维莉娜与诺玛的亲子互动动画细节",
+            "detail": "玩家以玩笑方式描述战斗切换时维莉娜回头看护诺玛的动画，将两人互动称为母女关系",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "HDD技术与眼球植入体的借取场景分析",
+            "detail": "玩家分析邦布附身技术原理以及阿基拉与林之间植入体技术的差异",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "抽取诺玛与等待雷米埃尔的策略权衡",
+            "detail": "大量玩家在两者之间权衡抽卡资源，分享歪出后保留资源给雷米埃尔的策略",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/zzz-3.0-upper-ja-annotations.json"
+  },
+  "migration": {
+    "source_html": "绝区零-3.0上半-日语_情感分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "被弾ボイスの【ナァ】はかわいいすぎる",
+        "ヴェリナママ大好きノルムーw",
+        "もうね...アキラとノルムーがパパと子供の会話なんだよ...駄々っ子ノルムー可愛い...",
+        "すり抜けて11号きた そのあと30連でノルムーきて最高...ハヤスギボンプとの相性良すぎ"
+      ],
+      "negative": [
+        "ごめんノルムー、引けねぇのだ。千夏が欲しくて、いつもの如く天井までいったから無理なのだ。語尾まで浸蝕されてるのに引けないなんて、拷問もいいところなのだ...",
+        "レミエールのためにノルムーは我慢だなって思ってたのにさあ もう引く気にされちゃってるからレミの時に石足りなかったら初めて課金する事になりそう",
+        "i can't believe i lost both my velina and norma 50/50s to koleda",
+        "we have remielle, caesar, zhuyuan, and jane doe and you still chose over something that looks like a child? disgusting"
+      ],
+      "neutral": [
+        "ヴェリナァ!窓がねぇのだぁぁぁぁぁ!",
+        "貸して貸して貸して」のところ、多分アキラの袖持ってから言ってる...はず...!",
+        "多分、アキラとトリガーの間に生まれた子",
+        "ノルムーって言動はギャンカワだけど、案外お顔は美人系よね"
+      ]
+    },
+    "overall_tone": {
+      "positive": "整体基调以热情喜爱为主，玩家对诺玛的声优表现和亲子关系刻画反应强烈，评论中充满兴奋和满足的情绪",
+      "negative": "整体基调以失望和纠结为主，抽卡资源冲突和歪出是最大的情绪触发点，部分玩家表现出对角色设计的不满",
+      "neutral": "整体基调以调侃和理性分析为主，玩家在讨论中表现出对角色关系和游戏设定的深入分析态度，同时夹杂大量玩梗和玩笑"
+    }
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "原神",
+    "version": "月之七",
+    "phase": "下半",
+    "character": "洛恩 / 马微卡（复刻）",
+    "date_start": "2026-06-09",
+    "date_end": "2026-06-30",
+    "platform": "YouTube（英语）",
+    "generated_at": "2026-06-30T11:22:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 3601,
+    "sentiments": {
+      "positive": {
+        "count": 1524,
+        "percent": 42.3
+      },
+      "negative": {
+        "count": 77,
+        "percent": 2.1
+      },
+      "neutral": {
+        "count": 2000,
+        "percent": 55.5
+      }
+    },
+    "keywords": [
+      {
+        "name": "角色/人物",
+        "count": 1947
+      },
+      {
+        "name": "画面/美术",
+        "count": 378
+      },
+      {
+        "name": "萌系/日常",
+        "count": 303
+      },
+      {
+        "name": "竞品/对比",
+        "count": 224
+      },
+      {
+        "name": "版本/更新",
+        "count": 184
+      },
+      {
+        "name": "音乐/配音",
+        "count": 170
+      },
+      {
+        "name": "战斗/玩法",
+        "count": 156
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 124
+      },
+      {
+        "name": "剧情/故事",
+        "count": 94
+      },
+      {
+        "name": "角色设计",
+        "count": 64
+      }
+    ],
+    "topics": [
+      {
+        "name": "角色/人物",
+        "total": 1947,
+        "positive_percent": 50.7,
+        "negative_percent": 2.3,
+        "neutral_percent": 47.0
+      },
+      {
+        "name": "画面/美术",
+        "total": 378,
+        "positive_percent": 73.0,
+        "negative_percent": 1.9,
+        "neutral_percent": 25.1
+      },
+      {
+        "name": "萌系/日常",
+        "total": 303,
+        "positive_percent": 94.4,
+        "negative_percent": 0.0,
+        "neutral_percent": 5.6
+      },
+      {
+        "name": "竞品/对比",
+        "total": 224,
+        "positive_percent": 56.2,
+        "negative_percent": 4.0,
+        "neutral_percent": 39.7
+      },
+      {
+        "name": "版本/更新",
+        "total": 184,
+        "positive_percent": 59.2,
+        "negative_percent": 2.7,
+        "neutral_percent": 38.0
+      },
+      {
+        "name": "音乐/配音",
+        "total": 170,
+        "positive_percent": 64.1,
+        "negative_percent": 2.4,
+        "neutral_percent": 33.5
+      },
+      {
+        "name": "战斗/玩法",
+        "total": 156,
+        "positive_percent": 52.6,
+        "negative_percent": 2.6,
+        "neutral_percent": 44.9
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 124,
+        "positive_percent": 53.2,
+        "negative_percent": 0.8,
+        "neutral_percent": 46.0
+      },
+      {
+        "name": "剧情/故事",
+        "total": 94,
+        "positive_percent": 62.8,
+        "negative_percent": 5.3,
+        "neutral_percent": 31.9
+      },
+      {
+        "name": "角色设计",
+        "total": 64,
+        "positive_percent": 51.6,
+        "negative_percent": 3.1,
+        "neutral_percent": 45.3
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "冰之女皇是这批英语评论中讨论热度最高的角色，她的母亲身份设定被广泛认为是出人意料的精彩转折，玩家表示这种将冰之神从预期的恋爱之神重新定义为母亲之神的处理方式非常出色。散兵的动画质量获得了英语玩家的高度评价，特别称赞角色穿越场景时的动画流畅度。俄罗斯玩家详细分析了至冬国场景中的斯拉夫文化元素，包括民间精灵传说、民族服饰考据和建筑风格，认为这些文化细节的融入非常到位。洛亨作为新角色的技能机制和角色故事获得了正面反馈，玩家分享了抽取后的使用体验，表示他的输出能力和角色魅力值得投入。哥伦比娅在门外唱歌安慰散兵的音乐设计被反复提及，玩家认为这段旋律的情感渗透力极强。公子达达利亚的回归和普尔契内拉的建模质量也获得了好评。与绝区零和崩坏星穹铁道的同日预告联动效应增强了整体正面情绪。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "冰之女皇母亲身份设定",
+            "detail": "英语玩家认为将冰之神从恋爱之神重新定义为母亲之神是出人意料的精彩转折",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "散兵动画流畅度",
+            "detail": "英语玩家高度评价散兵动画的流畅度，特别称赞角色穿越场景时的表现",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "至冬国斯拉夫文化元素",
+            "detail": "俄罗斯玩家详细分析了民间精灵传说、民族服饰和建筑风格的文化融入",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "负面反馈集中在三个方向。第一是跳过按钮的缺失，英语玩家反复抱怨对话无法跳过，认为对话加速只是敷衍。第二是散兵设计变更争议，有玩家认为角色讨厌自己裙子设计的设定是在嘲讽玩家对设计的不满，角色设计被指责为缺乏诚意。第三是对至冬国角色设计的预期落差，部分玩家担心米哈游再次推出模板化的女性角色设计，表示六年的等待不应以平庸的设计收场。洛亨虽然角色魅力获得认可，但部分玩家因资源规划选择跳过他的池子。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "对话跳过功能缺失",
+            "detail": "英语玩家反复抱怨对话无法跳过，认为对话加速只是敷衍",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "散兵设计变更争议",
+            "detail": "角色讨厌自己裙子设计的设定被指责为嘲讽玩家不满，设计缺乏诚意",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "至冬国角色设计预期落差",
+            "detail": "部分玩家担心米哈游推出模板化女性角色设计，六年等待不应以平庸收场",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "中性评论呈现出角色信息交换和跨游戏对比的特征。玛维卡和卡皮托诺的相关讨论频繁出现，玩家就玛维卡是否应该让卡皮托诺休息展开辩论。钟离的契约与冰之女皇的关系是设定考据的热点话题。与鸣潮的跨游戏对比在英语评论中较为突出，部分玩家认为鸣潮在某些方面做得更好。抽卡资源规划是常见话题，玩家讨论在多个执行官角色之间如何分配原石。尤菈的强度问题也被多次提及，玩家讨论她在当前版本中的定位和是否需要加强。旅行者使用冰元素步枪的预告画面引发了对战斗系统革新的讨论。新角色数量之多让部分玩家表示需要时间消化。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "玛维卡与卡皮托诺讨论",
+            "detail": "玩家就玛维卡是否应该让卡皮托诺休息展开辩论",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "钟离契约与冰之女皇关系考据",
+            "detail": "钟离的契约与冰之女皇的关系是设定考据的热点话题",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "与鸣潮的跨游戏对比",
+            "detail": "与鸣潮的跨游戏对比在英语评论中较为突出，部分玩家认为鸣潮某些方面更好",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/genshin-月之七-lower-en-annotations.json"
+  },
+  "migration": {
+    "source_html": "原神-月之七下半-英语_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "冰之女皇是母亲这个转折太棒了",
+        "散兵的动画流畅度令人惊叹",
+        "作为俄罗斯人看到这些文化细节很感动",
+        "洛亨的技能机制很有趣值得抽取",
+        "哥伦比娅唱歌的细节太感人了"
+      ],
+      "negative": [
+        "六年了连跳过按钮都不给",
+        "角色讨厌自己的裙子设计这是在嘲讽玩家吗",
+        "希望不要又是模板化的女性角色设计",
+        "洛亨角色不错但我选择跳过等至冬国"
+      ],
+      "neutral": [
+        "玛维卡应该让卡皮托诺休息",
+        "钟离和冰之女皇的契约到底涉及什么",
+        "鸣潮在某些方面做得更好",
+        "尤菈需要加强了",
+        "旅行者用冰元素步枪太酷了"
+      ]
+    },
+    "overall_tone": {
+      "positive": "以冰之女皇母亲身份的惊喜转折为核心，散兵动画质量和斯拉夫文化考据提供深度正面评价",
+      "negative": "负面情绪集中在功能缺失和角色设计诚意上，跳过按钮是最核心的抱怨点",
+      "neutral": "角色信息交换和跨游戏对比并存，设定考据保持活跃但语气较为理性"
+    }
+  }
+}

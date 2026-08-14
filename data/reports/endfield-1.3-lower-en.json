@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "终末地",
+    "version": "1.3",
+    "phase": "下半",
+    "character": "卡缪",
+    "date_start": "2026-06-26",
+    "date_end": "2026-07-09",
+    "platform": "YouTube（英语）",
+    "generated_at": "2026-06-30T11:23:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 466,
+    "sentiments": {
+      "positive": {
+        "count": 213,
+        "percent": 45.7
+      },
+      "negative": {
+        "count": 21,
+        "percent": 4.5
+      },
+      "neutral": {
+        "count": 232,
+        "percent": 49.8
+      }
+    },
+    "keywords": [
+      {
+        "name": "角色/人物",
+        "count": 229
+      },
+      {
+        "name": "萌系/日常",
+        "count": 66
+      },
+      {
+        "name": "音乐/配音",
+        "count": 56
+      },
+      {
+        "name": "画面/美术",
+        "count": 44
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 24
+      },
+      {
+        "name": "版本/更新",
+        "count": 17
+      },
+      {
+        "name": "社区/运营",
+        "count": 13
+      },
+      {
+        "name": "竞品/对比",
+        "count": 12
+      },
+      {
+        "name": "角色设计",
+        "count": 10
+      },
+      {
+        "name": "战斗/玩法",
+        "count": 9
+      }
+    ],
+    "topics": [
+      {
+        "name": "角色/人物",
+        "total": 229,
+        "positive_percent": 50.2,
+        "negative_percent": 4.4,
+        "neutral_percent": 45.4
+      },
+      {
+        "name": "萌系/日常",
+        "total": 66,
+        "positive_percent": 93.9,
+        "negative_percent": 0.0,
+        "neutral_percent": 6.1
+      },
+      {
+        "name": "音乐/配音",
+        "total": 56,
+        "positive_percent": 58.9,
+        "negative_percent": 1.8,
+        "neutral_percent": 39.3
+      },
+      {
+        "name": "画面/美术",
+        "total": 44,
+        "positive_percent": 61.4,
+        "negative_percent": 0.0,
+        "neutral_percent": 38.6
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 24,
+        "positive_percent": 58.3,
+        "negative_percent": 4.2,
+        "neutral_percent": 37.5
+      },
+      {
+        "name": "版本/更新",
+        "total": 17,
+        "positive_percent": 70.6,
+        "negative_percent": 0.0,
+        "neutral_percent": 29.4
+      },
+      {
+        "name": "社区/运营",
+        "total": 13,
+        "positive_percent": 76.9,
+        "negative_percent": 7.7,
+        "neutral_percent": 15.4
+      },
+      {
+        "name": "竞品/对比",
+        "total": 12,
+        "positive_percent": 75.0,
+        "negative_percent": 0.0,
+        "neutral_percent": 25.0
+      },
+      {
+        "name": "角色设计",
+        "total": 10,
+        "positive_percent": 80.0,
+        "negative_percent": 0.0,
+        "neutral_percent": 20.0
+      },
+      {
+        "name": "战斗/玩法",
+        "total": 9,
+        "positive_percent": 44.4,
+        "negative_percent": 0.0,
+        "neutral_percent": 55.6
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "卡缪的角色曲是这批英语评论中讨论热度最高的话题。这首电子舞曲风格的音乐由此前负责过危机合约曲目的制作人制作，玩家在音乐平台上找到完整版后反响热烈，大量玩家直接表示鹰角网络是音乐公司而非游戏公司。卡缪的走路姿态和气场表现被反复用aura farming来形容，玩家认为他刻意却迷人的气场表现是角色设计的亮点。卡缪与主角的握手拉扯演出被反复讨论，玩家解读为兄弟时刻和暧昧暗示的双重含义。罗西的裙摆尾巴裁剪设计被逐帧分析。与绝区零的雨果和崩铁的丹恒并列为渴望三人组。企鹅咕咕嘎嘎的萌系短视频贡献了大量正面互动。鹰角网络的整体音乐产出能力获得了高度一致的正面共识。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "卡缪角色曲制作水准",
+            "detail": "角色曲由危机合约制作人制作，在音乐平台找到完整版后反响热烈，鹰角被称为音乐公司",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "卡缪走路姿态与气场表现",
+            "detail": "卡缪的走路姿态和气场被反复用aura farming形容，被认为是角色设计亮点",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "卡缪与主角握手拉扯演出",
+            "detail": "握手拉扯被解读为兄弟时刻和暧昧暗示的双重含义",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "负面反馈集中在两个方向。第一是AI内容争议，部分玩家直接将某些动画短视频标记为AI生成内容，要求鹰角使用CGI而非AI制作。第二是抽卡体验问题，有玩家在卡缪池子中投入大量抽卡次数未获得目标角色。此外有玩家表示不喜欢咕咕嘎嘎的内容。整体负面评论数量极少，主要集中在制作方式和个别内容偏好上。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "AI动画制作方式争议",
+            "detail": "部分玩家将动画短视频标记为AI生成内容，要求改用CGI",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "卡缪池子抽卡体验",
+            "detail": "有玩家在卡缪池子投入大量抽卡未获得目标角色",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "",
+            "detail": "",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "中性评论呈现出强烈的社区玩梗文化和角色信息交换特征。不要罗西的梗源自赛马娘，在英语评论中被反复使用。卡缪与阿达希尔的关系引发大量讨论，包括两人对比和存在感被抢的调侃。角色曲寻歌信息交换极为频繁，大量玩家在评论区询问歌名和收听渠道。抽卡信息交换包括五十对五十输赢分享和极端出货对比。跨游戏对比是另一大中性话题，玩家将卡缪与鸣潮的罗克比气场、与高达的卡缪比名字来源。考据玩家分析了终末仪式角色的档案文本和纳采赫设定。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "不要罗西梗文化传播",
+            "detail": "源自赛马娘的梗模板被反复使用，成为社区身份认同符号",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "卡缪与阿达希尔关系讨论",
+            "detail": "两人对比和存在感被抢的调侃频繁出现",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "角色曲寻歌信息交换",
+            "detail": "大量玩家在评论区询问歌名和收听渠道",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/endfield-1.3-lower-en-annotations.json"
+  },
+  "migration": {
+    "source_html": "终末地-1.3下半-英语_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "鹰角是音乐公司吧游戏只是副业",
+        "卡缪的aura farming太迷人了",
+        "握手拉扯那段演出太精彩了",
+        "罗西裙摆的裁剪设计太用心了",
+        "卡缪雨果丹恒是渴望三人组"
+      ],
+      "negative": [
+        "这是AI生成的垃圾内容",
+        "请用CGI而不是AI",
+        "抽卡没出卡缪太倒霉了",
+        "不喜欢咕咕嘎嘎的内容"
+      ],
+      "neutral": [
+        "大家不要对罗西做那个",
+        "卡缪就是年轻版的阿达希尔",
+        "这歌叫什么名字",
+        "五十对五十歪了",
+        "卡缪和鸣潮的罗克气场很像"
+      ]
+    },
+    "overall_tone": {
+      "positive": "以卡缪角色曲的音乐品质和走路姿态的气场表现为核心，鹰角音乐产出能力获得高度共识",
+      "negative": "负面情绪极少且分散，AI制作方式是唯一值得关注的批评方向",
+      "neutral": "玩梗文化和信息交换活跃，不要罗西梗和寻歌信息是最高频的互动模式"
+    }
+  }
+}

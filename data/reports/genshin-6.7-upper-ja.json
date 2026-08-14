@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "原神",
+    "version": "6.7",
+    "phase": "上半",
+    "character": "桑多涅 / 茜特菈莉",
+    "date_start": "2026-07-01",
+    "date_end": "2026-07-20",
+    "platform": "YouTube（日语）",
+    "generated_at": "2026-07-08T15:10:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 2128,
+    "sentiments": {
+      "positive": {
+        "count": 575,
+        "percent": 27.0
+      },
+      "negative": {
+        "count": 218,
+        "percent": 10.2
+      },
+      "neutral": {
+        "count": 1335,
+        "percent": 62.7
+      }
+    },
+    "keywords": [
+      {
+        "name": "卡池/抽卡",
+        "count": 309
+      },
+      {
+        "name": "角色/剧情",
+        "count": 178
+      },
+      {
+        "name": "竞品/对比",
+        "count": 98
+      },
+      {
+        "name": "音乐/配音",
+        "count": 71
+      },
+      {
+        "name": "玩法/机制",
+        "count": 52
+      },
+      {
+        "name": "版本/更新",
+        "count": 46
+      },
+      {
+        "name": "付费/商业",
+        "count": 46
+      },
+      {
+        "name": "画面/美术",
+        "count": 44
+      },
+      {
+        "name": "优化/体验",
+        "count": 36
+      },
+      {
+        "name": "运营/服务",
+        "count": 16
+      }
+    ],
+    "topics": [
+      {
+        "name": "卡池/抽卡",
+        "total": 309,
+        "positive_percent": 39.2,
+        "negative_percent": 36.2,
+        "neutral_percent": 24.6
+      },
+      {
+        "name": "角色/剧情",
+        "total": 178,
+        "positive_percent": 43.8,
+        "negative_percent": 15.7,
+        "neutral_percent": 40.4
+      },
+      {
+        "name": "竞品/对比",
+        "total": 98,
+        "positive_percent": 88.8,
+        "negative_percent": 1.0,
+        "neutral_percent": 10.2
+      },
+      {
+        "name": "音乐/配音",
+        "total": 71,
+        "positive_percent": 54.9,
+        "negative_percent": 7.0,
+        "neutral_percent": 38.0
+      },
+      {
+        "name": "玩法/机制",
+        "total": 52,
+        "positive_percent": 32.7,
+        "negative_percent": 13.5,
+        "neutral_percent": 53.8
+      },
+      {
+        "name": "版本/更新",
+        "total": 46,
+        "positive_percent": 45.7,
+        "negative_percent": 6.5,
+        "neutral_percent": 47.8
+      },
+      {
+        "name": "付费/商业",
+        "total": 46,
+        "positive_percent": 28.3,
+        "negative_percent": 52.2,
+        "neutral_percent": 19.6
+      },
+      {
+        "name": "画面/美术",
+        "total": 44,
+        "positive_percent": 90.9,
+        "negative_percent": 4.5,
+        "neutral_percent": 4.5
+      },
+      {
+        "name": "优化/体验",
+        "total": 36,
+        "positive_percent": 5.6,
+        "negative_percent": 86.1,
+        "neutral_percent": 8.3
+      },
+      {
+        "name": "运营/服务",
+        "total": 16,
+        "positive_percent": 18.8,
+        "negative_percent": 18.8,
+        "neutral_percent": 62.5
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "日语区正面评论的核心聚焦于桑多涅（Sandrone）的可玩实装，大量玩家表示这是入坑六年来首次为之满命的角色，声优本多真梨子的演技被反复提及为赋予角色灵魂的关键因素。840连满命抽卡直播的惨烈过程反而催生了大量共情与应援评论，主播与本多小姐的互动成为社区热点。哥伦比娜（Columbina）与桑多涅的配对讨论热度极高，玩家用「哥伦比娜光束」调侃重击光束的爽快手感。芭蕾主题的服装设计获得集中好评，左手姿态和迎风展翅动作的细节被反复赞赏。枫丹魔神任务的推理环节和活动剧情被多名玩家称为神级剧情，尤其是「暖炉之家」（House of Hearth）的世界观描写被认为是有史以来最厚重的叙事。抓取明光机制虽被提及但多数评论认为840连的地狱仍属异常，法器武器的可爱外观也成为抽取动力。北斗、菲谢尔、迪奥娜等四星角色在配队讨论中被推荐为桑多涅的辅助组合。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "桑多涅可玩实装与声优本多真梨子演技",
+            "detail": "玩家认为本多小姐的演技为桑多涅注入了灵魂，多名评论表示这是六年来首次满命的角色",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "840连满命抽卡直播的共情效应",
+            "detail": "主播840连抽取桑多涅满命的惨烈过程引发大量应援与共情，歪卡地狱反而成为社区话题",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "哥伦比娜与桑多涅配对",
+            "detail": "玩家表示为哥伦比娜和桑多涅而玩原神，用「哥伦比娜光束」调侃重击光束手感",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "日语区负面评论集中在抽卡概率的极端案例上，840连5次歪卡的满命地狱引发大量玩家分享自身12万日元氪金或650连4命止步的惨痛经历，抓取明光机制被认为虽有缓解但仍不足以防止保底附近连续歪卡的最坏情况。月之世界任务被多名玩家批评为垃圾，战斗活动和区域延迟的设计被指责只有第一天有趣。PS5/手机的卡顿问题被多次提及，有玩家指出直播中因卡顿导致抽卡期待落空。天空武器被称为常驻垃圾，星辉兑换的黑岩系列被推荐为替代。垃圾多托雷和垃圾潘塔罗涅的负面称呼显示部分执行官角色仍被社区排斥。芙宁娜推的玩家因桑多涅的行为宣布放弃抽取，无法贯通护盾的机制限制也被提及。桑多涅戳脸颊的行为被批评为太像臭小鬼。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "840连5次歪卡抽卡地狱",
+            "detail": "满命需840连且5次歪卡的极端案例引发大量共鸣，12万日元氪金和650连4命止步的经历被分享",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "月之世界任务与战斗活动延迟设计",
+            "detail": "月之世界任务被称为垃圾，区域延迟设计被指责只有第一天有趣",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "PS5/手机卡顿问题",
+            "detail": "直播中因卡顿导致抽卡期待落空，PS5不产生此卡顿但手机端受影响",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "日语区中性评论以阿廖沙（Alyosha）的四星/五星推测为最高频话题，玩家根据顺序和赠送名额推测其可能为四星赠送角色，同时讨论其雷辅助定位和犬/枪/长柄武器的武器类型。希诺宁（Xilonen）与桑多涅的组队可行性被质疑，玩家指出希诺宁的元素附着性能几乎为零导致组合微妙，转而推荐艾斯可菲耶或尼可作为更好选择。2命希诺宁的精通增益被提议为替代方案。桑多涅与哥伦比娜的强度质疑以笑谈语气表达，枫原万叶是否可替代也被讨论。奥德特（Odette）的实装期待在多条评论中出现。声优更换疑惑引发讨论，有玩家注意到声音似乎不同并询问是否更换了声优。班尼特的围巾与犬角色的围脖相似性被指出，元素技能召唤小狗的机制成为猜测焦点。新角色赠送名额是否存在成为持续讨论点。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "阿廖沙四星/五星推测",
+            "detail": "玩家根据顺序推测阿廖沙为四星，讨论赠送名额可能性及雷辅助定位",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "希诺宁与桑多涅组合可行性",
+            "detail": "希诺宁元素附着性能几乎为零导致组合微妙，艾斯可菲耶/尼可被推荐为替代",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "2命希诺宁精通增益提案",
+            "detail": "希诺宁的精通增益被提议为桑多涅辅助替代方案",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/genshin-6.7-upper-ja-annotations.json"
+  },
+  "migration": {
+    "source_html": "原神-6.7上半-日语_情感分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "サンドローネは、私が『原神』を始めて6年間の中で、初めて直接完凸させた思い出深いキャラクターです（桑多涅是我玩原神六年来，第一个直接满命的最难忘的角色）",
+        "コロンビーナとサンドローネのために原神をやってる者です（我是为了哥伦比娜和桑多涅才玩原神的）",
+        "バレエモチーフ神すぎる... 衣装もバレエっぽいし手もゲーム用みたいだけど左手すごい綺麗（芭蕾主题太神了...服装也很芭蕾风格，手部设计虽然像游戏用的但左手特别漂亮）",
+        "840連...サンドローネ、ツンデレが過ぎますね（840连...桑多涅，傲娇过头了吧）",
+        "イベントストーリー本当に神でした本多さんのお芝居素敵すぎて鼻水ズビズビでした（活动剧情真的是神作，本多小姐的表演太棒了让我哭得稀里哗啦）"
+      ],
+      "negative": [
+        "ps5にこのラグは生じません...残念!（PS5不会产生这种卡顿...太遗憾了！）",
+        "月の世界任務やろうかと思ったけどみんなクソクソ言ってるのを見てやる気が失せてきた（本来想做月之世界任务，但看到大家都说垃圾就失去动力了）",
+        "戦闘イベだけじゃなくエリアにすら遅延入れてくるのホンマにクソすぎる（不仅战斗活动连区域都加延迟，真的太垃圾了）",
+        "恒常で天空のゴミが出た（常驻抽到了天空垃圾）",
+        "サンドローネがこんなことをするからフリーナ推しの私はサンドローネを引くのをやめた（桑多涅做出这种事，所以作为芙宁娜推的我放弃了抽桑多涅）"
+      ],
+      "neutral": [
+        "アリョーシャ君星4?だとしたら星五は1人だけなのかな（阿廖沙是四星？那样的话五星就只有一个人吗）",
+        "シロネンって星関連のバフデバフはできないからサンドローネと組ませるの微妙なんじゃないん?（希诺宁不能做星相关的增益减益，和桑多涅组队是不是不太合适？）",
+        "2凸シトラリはどうだろう?熟知バフあるし...（2命希诺宁怎么样？有精通增益...）",
+        "星4で配布枠かな?（四星赠送名额吗？）",
+        "これ、元素スキルでわんちゃん召喚するとか?!（这个，元素技能是召唤小狗吗？！）"
+      ]
+    },
+    "overall_tone": {
+      "positive": "热情且充满共情，抽卡地狱的苦涩反而加深了社区凝聚力",
+      "negative": "怨念深重但带有自嘲幽默，抽卡苦痛是核心情绪",
+      "neutral": "好奇与推测为主，社区在角色信息不完整时自发填空"
+    }
+  }
+}

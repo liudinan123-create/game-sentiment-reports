@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "异环",
+    "version": "1.2",
+    "phase": "上半",
+    "character": "真红",
+    "date_start": "2026-07-02",
+    "date_end": "2026-07-22",
+    "platform": "YouTube（韩语）",
+    "generated_at": "2026-07-08T12:19:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 2318,
+    "sentiments": {
+      "positive": {
+        "count": 432,
+        "percent": 18.6
+      },
+      "negative": {
+        "count": 215,
+        "percent": 9.3
+      },
+      "neutral": {
+        "count": 1671,
+        "percent": 72.1
+      }
+    },
+    "keywords": [
+      {
+        "name": "优化/体验",
+        "count": 26
+      },
+      {
+        "name": "剧情/故事",
+        "count": 3
+      },
+      {
+        "name": "竞品/对比",
+        "count": 2
+      },
+      {
+        "name": "版本/更新",
+        "count": 2
+      },
+      {
+        "name": "音乐/配音",
+        "count": 1
+      },
+      {
+        "name": "角色设计",
+        "count": 1
+      },
+      {
+        "name": "画面/美术",
+        "count": 1
+      },
+      {
+        "name": "战斗/玩法",
+        "count": 1
+      },
+      {
+        "name": "角色/人物",
+        "count": 1
+      }
+    ],
+    "topics": [
+      {
+        "name": "优化/体验",
+        "total": 26,
+        "positive_percent": 7.7,
+        "negative_percent": 3.8,
+        "neutral_percent": 88.5
+      },
+      {
+        "name": "剧情/故事",
+        "total": 3,
+        "positive_percent": 0.0,
+        "negative_percent": 33.3,
+        "neutral_percent": 66.7
+      },
+      {
+        "name": "竞品/对比",
+        "total": 2,
+        "positive_percent": 50.0,
+        "negative_percent": 0.0,
+        "neutral_percent": 50.0
+      },
+      {
+        "name": "版本/更新",
+        "total": 2,
+        "positive_percent": 0.0,
+        "negative_percent": 50.0,
+        "neutral_percent": 50.0
+      },
+      {
+        "name": "音乐/配音",
+        "total": 1,
+        "positive_percent": 0.0,
+        "negative_percent": 0.0,
+        "neutral_percent": 100.0
+      },
+      {
+        "name": "角色设计",
+        "total": 1,
+        "positive_percent": 0.0,
+        "negative_percent": 0.0,
+        "neutral_percent": 100.0
+      },
+      {
+        "name": "画面/美术",
+        "total": 1,
+        "positive_percent": 0.0,
+        "negative_percent": 100.0,
+        "neutral_percent": 0.0
+      },
+      {
+        "name": "战斗/玩法",
+        "total": 1,
+        "positive_percent": 0.0,
+        "negative_percent": 0.0,
+        "neutral_percent": 100.0
+      },
+      {
+        "name": "角色/人物",
+        "total": 1,
+        "positive_percent": 0.0,
+        "negative_percent": 0.0,
+        "neutral_percent": 100.0
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "韩语区持正面态度的玩家群体中，开发商的福利慷慨度是讨论热度最高的话题，玩家直言本作是免费友好程度最高的游戏，将大量抽卡货币的BUG修复补偿与其他厂商对比，认为本作的补偿力度远超竞品。S级标准角色自选礼包和感谢奖励被视为对玩家的极大诚意体现。新载具内容同样获得高度好评，蝙蝠摩托车的全方位运动能力让玩家惊喜，真紅的皮肤和摩托车成为玩家必抽目标。开发商对玩家反馈的响应速度获得赞赏，玩家表示及时发放补偿和修正审查合规问题体现了运营用心。角色服装细节差异化被部分玩家视为运营用心的体现。本作每次小BUG都发放十连抽的惯例被视为行业最高水准。保时捷联动载具和角色皮肤内容的丰富度也获得正面评价。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "开发商福利慷慨度",
+            "detail": "大量抽卡货币补偿远超其他厂商，S级角色自选礼包被视为极大诚意",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "蝙蝠摩托车全方位运动机制",
+            "detail": "摩托车可侧移的全方位运动能力让玩家惊喜，真紅皮肤加摩托车成为必抽目标",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "开发商响应速度与玩家反馈",
+            "detail": "及时发放补偿和修正审查问题，玩家认为这是听取玩家意见的证明",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "韩语区持负面态度的玩家群体中，薄荷角色的服装模型被修改引发最显著的不满，玩家直言开发商的处理方式不当，中国版先行上线后全球版才得到修复版本的差异也引发不满。真紅的强度设定被批评为失败，玩家认为从外观和演出强度来看真紅应是当前最强角色，但实际大世界体验偏弱，批评开发商向数值膨胀妥协。付费赢方面，摩托车被直接称为付费赢内容。摩托车设计本身也有负面声音，玩家认为外观丑陋，轮胎旋转效果被批评。BUG补偿跨区公平性被质疑，玩家认为一个区域不应独享BUG带来的补偿福利。中国版审查限制导致的内容差异被视为令人遗憾但可理解的问题。部分玩家对智能召唤道具总是召唤小型摩托车而非已购摩托车感到愤怒。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "薄荷服装模型修改与审查合规",
+            "detail": "薄荷服装模型被修改引发不满，审查处理方式被批评",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "真紅强度设定失败",
+            "detail": "真紅外观演出强但实际大世界弱，开发商被批向数值膨胀妥协",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "付费赢摩托车与设计",
+            "detail": "摩托车被称付费赢，设计被批丑陋，轮胎旋转效果被批评",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "韩语区持中性态度的玩家群体中，BUG修复补偿的跨区公平性是最主要的讨论方向，大量玩家理性讨论中国版因BUG获得大量抽卡货币后全球版是否应同等补偿，部分玩家表示所有区域遇到同样的BUG应获得同等补偿，也有玩家戏称希望BUG继续来以表达对补偿力度的认可。PC性能与跨平台体验差异被客观讨论，部分玩家表示PC无法流畅运行本作，手机版画质被批评。角色强度平衡方面，真紅的伤害数据被具体分析，玩家理性讨论配队和装备选择。其他游戏的类似机制被用来类比本作的某些设计问题。中国版审查限制导致的内容差异如角色服装修改被理性讨论，部分玩家表示理解开发商在中国市场面临的合规压力。新星球和宇宙战舰载具内容被客观提及。BUG报告类评论如主机升级时频繁出错也被列出。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "BUG补偿跨区公平性讨论",
+            "detail": "玩家理性讨论全球版是否应同等获得补偿，认为所有区域同等应补偿",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "PC性能与跨平台画质",
+            "detail": "PC无法流畅运行本作，手机版画质被批评，跨平台体验差异被客观描述",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "真紅角色强度数据分析",
+            "detail": "真紅伤害数据被具体分析，配队和装备选择被理性讨论",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/nte-1.2-upper-ko-annotations.json"
+  },
+  "migration": {
+    "source_html": "异环-1.2上半-韩语_情感分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "hotta really is the goat of being f2p friendly. i hope they continue to be generous with rewards as they are now",
+        "1600 anulith is like 3200 from other games cough cough hoyo,kuro",
+        "thank you hotta studio",
+        "holy shit this bike has 6d movement?",
+        "i will get shinku's skins and motorcycle no matter the cost. shinku's #1 fan"
+      ],
+      "negative": [
+        "of course everyone is complaining, the devs nerfed mint's assets",
+        "the dev really have some gut nerfing mint's bazongas",
+        "見た目と演出の強さ的に真紅を現時点の最強キャラにしないのは完全に失敗でしょ",
+        "damn pay to win bike",
+        "ugly bike is ugly"
+      ],
+      "neutral": [
+        "that is a lot, but at th same time we f they didn't it would put me off the game we deal with the same bugs, so should be compensated the same",
+        "one region shouldn't get all the benefits from bugs and etc. all regions should benefit. otherwise you will see a decline in players",
+        "原神の雷電将軍が爆発に戦意使うみたいなチグハグさあるなこれ",
+        "3.0 새로운 행성 및 우주전함 탈것 출시",
+        "wish my pc could handle nte well"
+      ]
+    },
+    "overall_tone": {
+      "positive": "感激与赞赏为主，玩家对福利慷慨度和开发商响应速度表现出高度认可",
+      "negative": "不满与批评为主，角色修改和强度设定是最主要的愤怒来源，付费赢和跨区公平性引发信任质疑",
+      "neutral": "理性分析与客观讨论为主，玩家在讨论补偿公平性和角色强度时保持建设性态度"
+    }
+  }
+}

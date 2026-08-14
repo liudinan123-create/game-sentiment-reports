@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "崩铁",
+    "version": "4.3",
+    "phase": "下半",
+    "character": "昔涟",
+    "date_start": "2026-06-24",
+    "date_end": "2026-07-14",
+    "platform": "B站",
+    "generated_at": "2026-06-30T16:18:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 14605,
+    "sentiments": {
+      "positive": {
+        "count": 2543,
+        "percent": 17.4
+      },
+      "negative": {
+        "count": 1034,
+        "percent": 7.1
+      },
+      "neutral": {
+        "count": 11028,
+        "percent": 75.5
+      }
+    },
+    "keywords": [
+      {
+        "name": "other",
+        "count": 10785
+      },
+      {
+        "name": "community",
+        "count": 1814
+      },
+      {
+        "name": "character",
+        "count": 829
+      },
+      {
+        "name": "gameplay",
+        "count": 521
+      },
+      {
+        "name": "ai_tech",
+        "count": 483
+      },
+      {
+        "name": "visual",
+        "count": 468
+      },
+      {
+        "name": "story",
+        "count": 295
+      },
+      {
+        "name": "music",
+        "count": 197
+      },
+      {
+        "name": "gacha",
+        "count": 148
+      }
+    ],
+    "topics": [
+      {
+        "name": "other",
+        "total": 10785,
+        "positive_percent": 15.5,
+        "negative_percent": 6.8,
+        "neutral_percent": 77.7
+      },
+      {
+        "name": "community",
+        "total": 1814,
+        "positive_percent": 19.6,
+        "negative_percent": 7.7,
+        "neutral_percent": 72.7
+      },
+      {
+        "name": "character",
+        "total": 829,
+        "positive_percent": 24.0,
+        "negative_percent": 8.8,
+        "neutral_percent": 67.2
+      },
+      {
+        "name": "gameplay",
+        "total": 521,
+        "positive_percent": 42.4,
+        "negative_percent": 7.1,
+        "neutral_percent": 50.5
+      },
+      {
+        "name": "ai_tech",
+        "total": 483,
+        "positive_percent": 19.0,
+        "negative_percent": 6.6,
+        "neutral_percent": 74.3
+      },
+      {
+        "name": "visual",
+        "total": 468,
+        "positive_percent": 22.2,
+        "negative_percent": 6.6,
+        "neutral_percent": 71.2
+      },
+      {
+        "name": "story",
+        "total": 295,
+        "positive_percent": 26.8,
+        "negative_percent": 7.1,
+        "neutral_percent": 66.1
+      },
+      {
+        "name": "music",
+        "total": 197,
+        "positive_percent": 24.9,
+        "negative_percent": 9.1,
+        "neutral_percent": 66.0
+      },
+      {
+        "name": "gacha",
+        "total": 148,
+        "positive_percent": 24.3,
+        "negative_percent": 16.2,
+        "neutral_percent": 59.5
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "持正面态度的玩家群体中，归寂与姬子之间的父女情感线成为讨论热度最高的内容，大量评论集中在归寂喝下咖啡那一段演出上，玩家认为这个场景把毁灭命途令使的人性面刻画得比此前任何版本都要细腻，尤其是归寂对姬子说出那句关于假话的台词时，多数玩家表示这是4.3下半情感冲击力最强的剧情片段。来古士作为新登场的角色，其胸前多出一双手臂的造型设计引发了极高热度的社区二创活动，玩家围绕多托雷这个谐音梗产出了大量二创内容，认为这种猎奇但又带有辨识度的设计比此前版本中规中矩的BOSS形象更有记忆点。阿哈作为欢愉星神在本版本的出场也获得了集中好评，玩家认为阿哈的台词风格和行事逻辑终于把欢愉命途那种戏谑与深不可测并存的特质展现了出来。在音乐层面，本版本的二创音乐视频传播效果突出，不少玩家表示归寂相关场景的配乐和二创音频上头感很强，反复收听后依然觉得旋律有层次。塞瑞涅的萌系角色设计也在正面评论中多次被提及，玩家认为她的外形轮廓和表情细节比此前同类角色更加精致。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "归寂与姬子父女情感线及咖啡场景演出",
+            "detail": "玩家认为归寂喝咖啡那段演出把毁灭令使的人性面刻画得比此前任何版本都细腻，关于假话的台词是本版本情感冲击力最强的片段",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "来古士多手臂造型的社区二创热度",
+            "detail": "玩家围绕多托雷谐音梗产出大量二创内容，认为猎奇但有辨识度的设计比此前BOSS形象更有记忆点",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "阿哈欢愉星神出场的台词与行事风格",
+            "detail": "玩家认为阿哈终于把欢愉命途那种戏谑与深不可测并存的特质展现出来",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "持负面态度的玩家群体中，4.3版本整体内容量不足成为被集中批评的问题，大量玩家直接指出上半版本已经很长草，下半版本仅提供五百星穹的活动奖励让人感到敷衍，认为这个版本在内容节奏上明显比此前版本偷懒。在抽卡体验方面，银狼专武歪成白露专武以及银狼需要大保底的情况被多名玩家提及，有玩家表示抽完刃之后一无所有，这种连续歪卡导致的资源枯竭体验让玩家感到沮丧。白厄的角色强度也成为负面评论的焦点，玩家指出白厄零加一配置一直不太行，没有队友支撑的情况下甚至需要二命才能用，这种命座依赖度让中等投入玩家感到不满。部分玩家将崩铁与绝区零进行对比，认为绝区零虽然送得多但单角色抽取成本同样很高，小保底歪了之后需要一百五六十抽才能拿到角色，这种跨游戏的抽卡焦虑在评论中被反复提及。此外有玩家直接表示本版本的活动不好玩，认为活动玩法的吸引力明显下降。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "4.3版本内容长草及活动奖励不足",
+            "detail": "玩家指出上半已经很长草，下半五百星穹的活动奖励让人感到敷衍，版本在内容节奏上明显偷懒",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "银狼专武歪白露专武及大保底资源枯竭",
+            "detail": "多名玩家提及银狼专武歪成白露专武以及大保底导致资源耗尽，抽完刃之后一无所有",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "白厄角色强度不足及命座依赖",
+            "detail": "玩家指出白厄零加一一直不太行，没队友不能没二命，命座依赖度让中等投入玩家不满",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "持中性态度的玩家群体中，来古士的造型设计是讨论量最大的话题，玩家围绕其胸前多出一双手臂的特征展开了大量跨作品对比，包括新世纪福音战士中十三号机的既视感、星际战甲中nidus恐惧神外观的相似度、终末的女武神中爱神仆人托举姿态的联想等，这些讨论以造型溯源和既视感分享为主，既非表扬也非批评。七宗罪电影的剧情讨论占据了相当比例的评论区篇幅，大量玩家在讨论暴怒是否算罪、折磨与直接击杀的区别、蝙蝠侠不杀原则等电影情节，这些内容与本版本视频的二创素材来源有关但本身不涉及对游戏版本的评价。归寂与毁灭命途相关的剧情讨论也以中性为主，玩家在梳理归寂对姬子说过的假话数量、推演归寂喝咖啡的逻辑等，属于剧情解析而非情感表达。社区中以@好友分享二创视频为主要互动形式的内容也归入中性，这类评论本身不包含对版本质量的态度。姬子咖啡与毁灭命途之间的梗在评论中被反复玩味，多数玩家将其视为有趣的社区创作而非对角色设计的褒贬。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "来古士多手臂造型的跨作品既视感讨论",
+            "detail": "玩家将造型与EVA十三号机、星际战甲nidus恐惧神外观、终末女武神爱神仆人进行对比，以溯源分享为主",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "七宗罪电影剧情的评论区讨论",
+            "detail": "大量玩家讨论暴怒是否算罪、折磨与击杀的区别、蝙蝠侠不杀原则，与二创素材来源有关但不涉及游戏评价",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "归寂与毁灭命途剧情解析",
+            "detail": "玩家梳理归寂对姬子说过的假话数量、推演喝咖啡的逻辑，属于剧情解析而非情感表达",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/hsr-4.3-lower-zh-annotations.json"
+  },
+  "migration": {
+    "source_html": "崩铁-4.3下半_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "归寂喝下这杯咖啡不是妥协了，而是推演了无数个宇宙，终于找到了一个喝了不会湮灭的结果",
+        "别给我阿哈听死了",
+        "初听活到头，再听真上头，听上三五遍，你也跟着扭",
+        "我还以为浪漫古士已经是巅峰，没想到还有高手"
+      ],
+      "negative": [
+        "上半已经很长草了，下半五百星穹的活动逗我玩呢",
+        "我银狼专武歪了白露专武，而且银狼大保底，导致抽完刃之后我现在一发都没有了",
+        "白厄01一直都不太行，白厄没队友都不能没2命",
+        "这个活动不好玩"
+      ],
+      "neutral": [
+        "我有一个想法，来古士用额外的手托住雷那是不是一种多托雷",
+        "mhy还是忘不了他的eva",
+        "其实也有类似的，参考warframe的nidus的恐惧神外观",
+        "这简单，歌查得怪人不都基本上都是四个手吗"
+      ]
+    },
+    "overall_tone": {
+      "positive": "以角色情感共鸣和社区二创热情为主，玩家对本版本的角色塑造和音乐传播效果表现出明显的喜爱",
+      "negative": "以版本内容量和抽卡体验的不满为主，玩家对本版本的活动奖励和角色强度设计表现出明显的失望",
+      "neutral": "以造型溯源、电影剧情讨论和社区互动为主，玩家在评论区进行跨作品对比和剧情解析，不涉及对版本质量的明确褒贬"
+    }
+  }
+}

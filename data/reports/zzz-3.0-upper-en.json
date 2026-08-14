@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "绝区零",
+    "version": "3.0",
+    "phase": "上半",
+    "character": "诺姆",
+    "date_start": "2026-06-17",
+    "date_end": "2026-07-08",
+    "platform": "YouTube（英语）",
+    "generated_at": "2026-07-10T19:01:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 981,
+    "sentiments": {
+      "positive": {
+        "count": 59,
+        "percent": 6.0
+      },
+      "negative": {
+        "count": 25,
+        "percent": 2.5
+      },
+      "neutral": {
+        "count": 897,
+        "percent": 91.4
+      }
+    },
+    "keywords": [
+      {
+        "name": "版本/更新",
+        "count": 8
+      },
+      {
+        "name": "音乐/配音",
+        "count": 2
+      },
+      {
+        "name": "优化/体验",
+        "count": 2
+      }
+    ],
+    "topics": [
+      {
+        "name": "版本/更新",
+        "total": 8,
+        "positive_percent": 12.5,
+        "negative_percent": 12.5,
+        "neutral_percent": 75.0
+      },
+      {
+        "name": "音乐/配音",
+        "total": 2,
+        "positive_percent": 0.0,
+        "negative_percent": 0.0,
+        "neutral_percent": 100.0
+      },
+      {
+        "name": "优化/体验",
+        "total": 2,
+        "positive_percent": 0.0,
+        "negative_percent": 50.0,
+        "neutral_percent": 50.0
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "诺玛的声优表现成为英文评论中讨论热度最高的正面内容，大量玩家集中称赞诺玛的英语声优Madeleine Dorroh的演绎水平，认为声优为角色注入了极高的表现力，部分玩家发现诺玛与妮姬中玛奇亚娜的声优为同一人后对声优选角表示认可。诺玛作为火属性击破手的定位获得了正面反馈，玩家将她与第一赛季的科莱达和第二赛季的橘福福进行对比，认为诺玛作为矮个子火属性击破手延续了该类型角色的高质量传统。维莉娜的战斗体验同样收获了集中好评，多名玩家表示维莉娜让异常队伍变得有趣，并将简的输出能力提升到了新的高度，部分玩家在130抽内同时获得维莉娜和她的专属音擎后表示毫无遗憾。在抽卡方面，多名玩家分享了在十抽至五十抽范围内成功获得诺玛和维莉娜的幸运经历。思思娅在战斗中的表现被玩家重点提及，特别是思思娅在战斗中让普罗米亚解除绑定并成功格挡攻击的场景被视为角色实力的体现。莱卡翁和莱特作为玩家最喜欢的角色被提及，玩家称赞莱卡翁的杀手气质和莱特的战斗风格。3.0版本整体体验获得了正面评价，玩家表示对第三赛季内容感到满意并期待太阳使者的登场。克拉雷特作为新的吸血鬼角色被玩家期待，部分玩家将其与维维安和雨果组成吸血鬼角色收藏。信任度事件的内容被玩家视为值得探索的部分，部分玩家表示希望在视频中看到更多角色互动反应。帽子邦布的概念和邦布军团的设定同样获得了正面反馈，部分玩家表示邦布军团的创意令人印象深刻。此外诺玛的搞笑特质被多位玩家提及，认为她在视频中制造的各种音效和行为是角色的核心魅力之一。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "诺玛声优Madeleine Dorroh的演绎表现",
+            "detail": "玩家集中称赞诺玛英语声优的表现力，并发现其与妮姬中玛奇亚娜为同一声优",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "诺玛作为火属性击破手与科莱达橘福福的对比",
+            "detail": "玩家将诺玛与科莱达和橘福福在矮个子火属性击破手定位上进行对比，认为延续了高质量传统",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "维莉娜异常队伍战斗体验与简的输出提升",
+            "detail": "多名玩家表示维莉娜让异常队伍变得有趣并将简的输出提升到新高度",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "诺玛的外观设计是负面评论中最集中的议题，多名玩家对诺玛的宽松裤子表示不满，认为宽松裤子破坏了角色整体设计的协调性和动画效果，部分玩家指出诺玛的原始设计应该是带领邦布军团的游行指挥者形象而非宇航员风格，宽松裤子的加入让角色显得更加幼态化。诺玛的肤色修改引发了争议，部分玩家认为将诺玛改为晒黑肤色在设定上不合理，因为诺玛不常外出且罗丝卡利珐的地理设定参照英格兰气候无法产生自然晒黑，同时有玩家指出诺玛的官方设定年龄为二十岁出头。抽卡损失是另一大负面来源，多名玩家报告在诺玛和维莉娜的卡池中五十对五十均歪给了科莱达，导致消耗大量抽卡资源后仍未获得目标角色。部分玩家在维莉娜卡池中连续两次触发硬保底耗尽全部资源，另有玩家歪出格蕾丝和丽娜后无法继续抽取。有玩家表示整个年度未赢得任何五十对五十，仅获得丽娜后称抽卡系统为垃圾。在角色强度方面，有玩家直接表示诺玛并非T0角色，不应被内容创作者误导而抽取，同时认为诺玛与黛琳的对比分析不够详细，释放队伍位置的论点对于已拥有多名限定击破手的玩家不成立。部分玩家对四十K联动持否定态度，认为开发商不会推出正式联动，并对开发商的版权态度表示不满。还有玩家对角色的儿童外观设计提出批评，认为游戏对一个外观类似儿童的角色进行物化处理是不合适的，表示庆幸修改版让角色看起来更像安全的儿童形象而非被物化的对象。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "诺玛宽松裤子设计破坏角色协调性",
+            "detail": "多名玩家认为宽松裤子破坏了诺玛的整体设计协调性和动画效果，角色应为带领邦布军团的游行指挥者而非宇航员",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "诺玛晒黑肤色与罗丝卡利珐地理设定的矛盾",
+            "detail": "玩家指出诺玛不常外出且罗丝卡利珐参照英格兰气候，自然晒黑在设定上不合理，同时诺玛官方年龄为二十岁出头",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "诺玛和维莉娜卡池五十对五十歪给科莱达",
+            "detail": "多名玩家在两个卡池中均歪给科莱达，消耗大量资源后仍未获得目标角色",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "仪玄的头像贴图讨论是中性评论中热度最高的话题，大量西班牙语玩家围绕仪玄在好友系统中使用搞笑鸡头图作为头像的行为展开讨论，将仪玄定位为天生的恶搞者，同时将雅和苍角的好友头像也纳入讨论范围，思思娅和爱丽丝的头像同样被提及，爱丽丝的天鹅座星座设定与帕埃同的神话关联被玩家分析。诺玛与黛琳的击破手对比是另一大讨论焦点，多名玩家在诺玛和黛琳之间权衡抽卡资源，部分玩家提出将两人同时编入普罗伊斯双击破手队伍的方案，同时讨论了诺玛与触发器的命座和音擎对比。维莉娜与诺玛的母女关系在中性评论中被频繁以玩笑方式讨论，玩家描述维莉娜作为养母与诺玛的互动场景，并将这种关系与简和安比等其他角色组合进行类比。抽卡策略讨论占据较大比重，大量玩家在抽取诺玛、囤积雷米埃尔和等待西格莉德之间权衡，部分玩家分享了歪出格蕾丝、丽娜和猫又后调整抽卡计划的经历。邦布音效和诺玛的语气词成为讨论热点，玩家模仿诺玛的eh-na和nanoda等语气词，并讨论邦布背景音效在角色技能组中的听觉体验。诺玛的外观修改同样是中性讨论的议题，玩家讨论了由仓鼠制作的修改版将诺玛改为宽松裤子和晒黑肤色的效果，部分玩家认为修改版让角色剪影更加独特。莱卡翁和莱特在新手玩家中被提及为最喜欢的角色。火属性队伍编成策略被多名玩家讨论，包括诺玛与黛琳和橘福福的击破手选择。枯萎领域和致命突袭的资源获取策略也被玩家提及，部分玩家分享了使用维多利亚清扫券快速完成零号空洞成就的方法。巡火烈焰作为剧情章节被新手玩家提及为当前进度位置。3.0剧情内容的整体反应也出现在讨论中，玩家表示对第三赛季故事持期待态度。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "仪玄搞笑鸡头头像与雅苍角好友头像讨论",
+            "detail": "西班牙语玩家围绕仪玄使用搞笑鸡头图作为头像展开讨论，将其定位为天生的恶搞者",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "诺玛与黛琳击破手对比和普罗伊斯双击破手队伍",
+            "detail": "多名玩家在诺玛和黛琳之间权衡，提出双击破手队伍方案并讨论命座和音擎对比",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "维莉娜与诺玛的母女关系互动场景",
+            "detail": "玩家以玩笑方式讨论维莉娜作为养母与诺玛的互动，并将其与其他角色组合类比",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/zzz-3.0-upper-en-annotations.json"
+  },
+  "migration": {
+    "source_html": "绝区零-3.0上半-英语_情感分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "like koleda in season 1, and ju fufu in season 2, norma is the smol fire stun agent who starts season 3 with a bang!",
+        "velina is soooo fun! she made me like playing anomaly again",
+        "incredible va work",
+        "3.0 has been super fun imo! i'm most looking forward to lady sunbringer!"
+      ],
+      "negative": [
+        "i can't believe i lost both my velina and norma 50/50s to koleda",
+        "nah it's horrible, the baggy pants ruins the vibe and her animation. she isn't an astronaut in the firstplace. she's suppose to look like a parade leader that leads bangboo armies.",
+        "don't get baited by this trash cc. pull norma if you want but no she is not meta",
+        "after hitting 80 pity for s billy i thought for sure my luck would be better in season 3 since it was so horrible in season 2. but nope. i hit hard pity twice for velina and now i'm broke again."
+      ],
+      "neutral": [
+        "yixuan shitposter desde la cuna",
+        "norma vs dialyn? nah, i use them for pyrois double stunner team",
+        "the snake is trying to protect her food ticket",
+        "3...2...1... eh-naahh!"
+      ]
+    },
+    "overall_tone": {
+      "positive": "整体基调以热情满意为主，玩家对诺玛的声优表现和火属性击破手定位反应强烈，同时对3.0版本整体体验表示认可",
+      "negative": "整体基调以失望和不满为主，外观设计争议和抽卡损失是最大的情绪触发点，部分玩家对角色强度定位和联动前景表示质疑",
+      "neutral": "整体基调以调侃和理性分析为主，玩家在讨论中表现出对角色关系和抽卡策略的深入分析态度，同时夹杂大量玩梗和模仿"
+    }
+  }
+}

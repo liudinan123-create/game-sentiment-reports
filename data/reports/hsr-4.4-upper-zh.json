@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "崩铁",
+    "version": "4.4",
+    "phase": "上半",
+    "character": "姬子·启行 / 火花 / 丹恒·腾荒 / 长夜月",
+    "date_start": "2026-07-15",
+    "date_end": "2026-08-04",
+    "platform": "B站",
+    "generated_at": "2026-07-22T09:56:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 6571,
+    "sentiments": {
+      "positive": {
+        "count": 1075,
+        "percent": 16.4
+      },
+      "negative": {
+        "count": 304,
+        "percent": 4.6
+      },
+      "neutral": {
+        "count": 5192,
+        "percent": 79.0
+      }
+    },
+    "keywords": [
+      {
+        "name": "其他讨论",
+        "count": 1965
+      },
+      {
+        "name": "剧情评价",
+        "count": 1473
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 920
+      },
+      {
+        "name": "归寂/绝灭大君",
+        "count": 809
+      },
+      {
+        "name": "姬子SP/拓星者",
+        "count": 711
+      },
+      {
+        "name": "整体评价",
+        "count": 554
+      },
+      {
+        "name": "世界观/设定",
+        "count": 514
+      },
+      {
+        "name": "战斗/机制",
+        "count": 434
+      },
+      {
+        "name": "社区梗/角色讨论",
+        "count": 375
+      },
+      {
+        "name": "音乐/美术/演出",
+        "count": 317
+      }
+    ],
+    "topics": [
+      {
+        "name": "其他讨论",
+        "total": 1965,
+        "positive_percent": 0.0,
+        "negative_percent": 0.0,
+        "neutral_percent": 100.0
+      },
+      {
+        "name": "剧情评价",
+        "total": 1473,
+        "positive_percent": 17.2,
+        "negative_percent": 5.9,
+        "neutral_percent": 76.8
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 920,
+        "positive_percent": 18.9,
+        "negative_percent": 7.7,
+        "neutral_percent": 73.4
+      },
+      {
+        "name": "归寂/绝灭大君",
+        "total": 809,
+        "positive_percent": 18.4,
+        "negative_percent": 5.9,
+        "neutral_percent": 75.6
+      },
+      {
+        "name": "姬子SP/拓星者",
+        "total": 711,
+        "positive_percent": 25.5,
+        "negative_percent": 6.5,
+        "neutral_percent": 68.1
+      },
+      {
+        "name": "整体评价",
+        "total": 554,
+        "positive_percent": 80.7,
+        "negative_percent": 14.8,
+        "neutral_percent": 4.5
+      },
+      {
+        "name": "世界观/设定",
+        "total": 514,
+        "positive_percent": 17.5,
+        "negative_percent": 5.1,
+        "neutral_percent": 77.4
+      },
+      {
+        "name": "战斗/机制",
+        "total": 434,
+        "positive_percent": 25.8,
+        "negative_percent": 6.7,
+        "neutral_percent": 67.5
+      },
+      {
+        "name": "社区梗/角色讨论",
+        "total": 375,
+        "positive_percent": 14.1,
+        "negative_percent": 4.0,
+        "neutral_percent": 81.9
+      },
+      {
+        "name": "音乐/美术/演出",
+        "total": 317,
+        "positive_percent": 33.1,
+        "negative_percent": 4.7,
+        "neutral_percent": 62.1
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "崩坏星穹铁道4.4版本B站舆情以中性讨论为主，正面评价聚焦归寂八问骰 子机制趣味性 、姬子启行觉醒情感冲击、拓星者机甲演出表现及远坂凛联动装备性价比，玩家高度认可角色深度与剧情演出。负面意见集中在 姬子SP卡池抽取成本过高、主线篇幅过 短且二相乐园断章引发不满、零命强度不足需高命座补全，货币战争玩法上手门槛偏高。中性讨论以归寂骰子随机性验证、末王力量逆转机制解读、焚风与纳努克关联推测为主线，玩家积极探讨世界观伏笔与后续走向。",
+    "sentiments": {
+      "positive": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "归寂八问骰子机制",
+            "detail": "投骰随机性引发大量讨论，玩家从发现到多账号验证到全收集策略，趣味性获正面评价",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "姬子启行觉醒演出",
+            "detail": "姬子交代后事的情感场景引发感动，拓星者机甲登场被评为最燃演出，Nightglow变奏对崩坏三老玩家有情感冲击",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "远坂凛联动装备性价比",
+            "detail": "货币战争中远坂凛一金币巨额增伤被认为超模，低成本高收益获得正面评价",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "姬子SP卡池成本",
+            "detail": "300抽1+1、500多抽2+1等高成本案例引发不满，零命强度不足需2+1命座补全",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "二相乐园断章处理",
+            "detail": "主线篇幅过短信息量低，二相乐园断章引发焦躁，PV演出与实际剧情不符",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "货币战争玩法门槛",
+            "detail": "上手难度偏高，反甲道具不足，商店刷新格子被无用物品占据",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "归寂骰子随机性验证",
+            "detail": "玩家从单账号发现到多账号验证骰子结果确实随机，讨论全收集策略",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "末王力量逆转机制",
+            "detail": "正放开拓线与倒放末王线假说引发解读，时间逆转机制成为讨论热点",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "世界观伏笔与推测",
+            "detail": "焚风怕黑与纳努克崇拜因果关联、爻光锦囊伏笔、虚照是否为阿哈假扮、第四终末命途属性等",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/hsr-4.4-upper-zh-annotations.json"
+  },
+  "migration": {
+    "source_html": "崩铁-4.4上半_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "过完剧情我突然对这老骰有点喜欢了，特别有趣",
+        "又哭又笑，感觉归寂贡献了这个版本剧情所有笑点",
+        "姬子动了20多下终于到怪动了，结果打一下反伤20多亿，反甲白厄的坦度，希儿级别的输出，攻防一条的最终兵器，无敌了主推大人",
+        "你归寂叔叔精得很，当年玩心上来了放过了星穹列车，间接导致了幻胧败走仙舟罗浮",
+        "真的绝了，简直一模一样，都是更沉稳的自己，给自己讲述未来"
+      ],
+      "negative": [
+        "二相乐园这地方真的烂完了，看完归寂的计划才得知满愿的那张纸条居然不是归寂塞的",
+        "失败就直接摆烂了，啊对对对，你说的都对",
+        "等的就是你！我运气太差了好几次失败",
+        "一想到之前一堆人搁那肯定崩铁姬子会死我就想笑"
+      ],
+      "neutral": [
+        "去查了一下，骰子结果确实是随机的。目前期待多账号玩家全收集",
+        "我一直以为这个骰子是固定大成功的 全是大成功",
+        "如果你在雅利洛打可可利亚之前回到列车，也会有老杨和姬子的特殊对话",
+        "意思爻老板相当于让球状闪电炸了一下是吗，只不过是反过来，没有观测者就会坍缩成量子态这样",
+        "这下知道为什么内鬼同时爆出了打过归寂和败走千星城两个结局了"
+      ]
+    },
+    "overall_tone": {
+      "positive": "",
+      "negative": "",
+      "neutral": ""
+    }
+  }
+}

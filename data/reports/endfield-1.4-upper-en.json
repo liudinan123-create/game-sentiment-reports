@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "终末地",
+    "version": "1.4",
+    "phase": "上半",
+    "character": "诀",
+    "date_start": "2026-07-16",
+    "date_end": "2026-08-08",
+    "platform": "YouTube（英语）",
+    "generated_at": "2026-07-20T17:28:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 733,
+    "sentiments": {
+      "positive": {
+        "count": 370,
+        "percent": 50.5
+      },
+      "negative": {
+        "count": 75,
+        "percent": 10.2
+      },
+      "neutral": {
+        "count": 288,
+        "percent": 39.3
+      }
+    },
+    "keywords": [
+      {
+        "name": "角色互动与喜剧表达",
+        "count": 468
+      },
+      {
+        "name": "剧情与世界观",
+        "count": 129
+      },
+      {
+        "name": "音乐与角色主题曲",
+        "count": 114
+      },
+      {
+        "name": "角色设计与喜爱",
+        "count": 72
+      },
+      {
+        "name": "其他讨论",
+        "count": 69
+      },
+      {
+        "name": "吉祥物与梗文化",
+        "count": 44
+      },
+      {
+        "name": "卡池与抽取体验",
+        "count": 38
+      },
+      {
+        "name": "跨作品比较",
+        "count": 17
+      },
+      {
+        "name": "游戏系统与玩法",
+        "count": 10
+      },
+      {
+        "name": "画面动画与美术",
+        "count": 9
+      }
+    ],
+    "topics": [
+      {
+        "name": "角色互动与喜剧表达",
+        "total": 468,
+        "positive_percent": 51.3,
+        "negative_percent": 4.3,
+        "neutral_percent": 44.4
+      },
+      {
+        "name": "剧情与世界观",
+        "total": 129,
+        "positive_percent": 45.0,
+        "negative_percent": 3.9,
+        "neutral_percent": 51.2
+      },
+      {
+        "name": "音乐与角色主题曲",
+        "total": 114,
+        "positive_percent": 64.0,
+        "negative_percent": 13.2,
+        "neutral_percent": 22.8
+      },
+      {
+        "name": "角色设计与喜爱",
+        "total": 72,
+        "positive_percent": 86.1,
+        "negative_percent": 8.3,
+        "neutral_percent": 5.6
+      },
+      {
+        "name": "其他讨论",
+        "total": 69,
+        "positive_percent": 18.8,
+        "negative_percent": 26.1,
+        "neutral_percent": 55.1
+      },
+      {
+        "name": "吉祥物与梗文化",
+        "total": 44,
+        "positive_percent": 43.2,
+        "negative_percent": 18.2,
+        "neutral_percent": 38.6
+      },
+      {
+        "name": "卡池与抽取体验",
+        "total": 38,
+        "positive_percent": 52.6,
+        "negative_percent": 28.9,
+        "neutral_percent": 18.4
+      },
+      {
+        "name": "跨作品比较",
+        "total": 17,
+        "positive_percent": 23.5,
+        "negative_percent": 11.8,
+        "neutral_percent": 64.7
+      },
+      {
+        "name": "游戏系统与玩法",
+        "total": 10,
+        "positive_percent": 30.0,
+        "negative_percent": 40.0,
+        "neutral_percent": 30.0
+      },
+      {
+        "name": "画面动画与美术",
+        "total": 9,
+        "positive_percent": 44.4,
+        "negative_percent": 33.3,
+        "neutral_percent": 22.2
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "1.4版本英文声量明显（正面50.5%、负面10.2%）但整体讨论量较少，角色相关内容(\"诀\"主题曲《寻诀》、祀喜剧桥段）传播效果突出，有效带动玩家对角色的关注与抽取意愿。负面主要集中于抽卡体验（高保底、50%歪卡）及性能门槛，可能抑制付费转化与回流。",
+    "sentiments": {
+      "positive": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "祀—陈千语—阿达希尔喜剧桥段驱动传播",
+            "detail": "角色反差表情、拙劣画像和“绝对电影”梗在短视频中反复出现，制造易转述笑点，强化角色关系记忆。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "诀《寻诀》以音乐品质锚定版本情绪",
+            "detail": "《寻诀》以艺术核音乐与氛围递进获密集赞誉，“杰作”“神曲”等评价延续“鹰角网络是音乐公司”共识，提升版本仪式感。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "诀与祀角色设计转化强喜爱",
+            "detail": "诀的外观、配音与技能观感获认可，祀因可爱傲娇吸引关注；反馈常延伸至“必抽”与调整抽卡计划。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "诀《寻诀》品质与信息呈现落差",
+            "detail": "部分评论认为《寻诀》歌曲普通、缺少辨识度，另有伴奏掩盖人声、画面闪烁及简介未标注创作者等问题，削弱角色曲放大效果。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "诀卡池高保底歪卡引发挫败",
+            "detail": "120抽硬保底、50%歪卡与资源见底引发挫败，已有“囤资源不再抽”等行为，角色吸引力未被否定但获取成本直接打击付费意愿。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "祀喜剧短视频二创聚集内容反感",
+            "detail": "喜剧短视频聚集剧透、低俗笑话和配乐过响等反感，75条负面中20条集中于一支俄语视频，风险属二创传播环境而非游戏本体否定。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "祀封印阿达希尔片段成复述主轴",
+            "detail": "祀封印阿达希尔、陈千语反复确认的桥段被短视频切片后大量改写为“失去气场”梗，成为中性舆情绝对传播主轴。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "玩家考据祀血脉与封印能力",
+            "detail": "玩家围绕祀是否为夕的姐妹、为何能封印阿达希尔等问题用旧作设定补全叙事，短视频笑点正导向世界观考据。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "玩家询问诀《寻诀》信息与渠道",
+            "detail": "《寻诀》下中性评论集中询问歌曲名、演唱者及流媒体上线，有人类比节奏游戏或电子乐，热度低于角色梗但与核心素材相关。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "clean_comment",
+      "sentiment",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/endfield-1.4-upper-en-annotations.json"
+  },
+  "migration": {
+    "source_html": "终末地-1.4上半-英语_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [],
+      "negative": [],
+      "neutral": []
+    },
+    "overall_tone": {
+      "positive": "",
+      "negative": "",
+      "neutral": ""
+    }
+  }
+}

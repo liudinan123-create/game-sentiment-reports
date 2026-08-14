@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "异环",
+    "version": "1.1",
+    "phase": "下半",
+    "character": "卡尔斯",
+    "date_start": "2026-06-18",
+    "date_end": "2026-07-01",
+    "platform": "B站",
+    "generated_at": "2026-06-26T03:00:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 21865,
+    "sentiments": {
+      "positive": {
+        "count": 1837,
+        "percent": 8.4
+      },
+      "negative": {
+        "count": 2243,
+        "percent": 10.3
+      },
+      "neutral": {
+        "count": 17785,
+        "percent": 81.3
+      }
+    },
+    "keywords": [
+      {
+        "name": "卡池/抽卡",
+        "count": 1733
+      },
+      {
+        "name": "角色/人物",
+        "count": 1617
+      },
+      {
+        "name": "肝度/养成",
+        "count": 627
+      },
+      {
+        "name": "角色设计",
+        "count": 583
+      },
+      {
+        "name": "优化/体验",
+        "count": 544
+      },
+      {
+        "name": "其他",
+        "count": 537
+      },
+      {
+        "name": "剧情/故事",
+        "count": 521
+      },
+      {
+        "name": "竞品/对比",
+        "count": 514
+      },
+      {
+        "name": "社区/运营",
+        "count": 485
+      },
+      {
+        "name": "战斗/玩法",
+        "count": 439
+      }
+    ],
+    "topics": [
+      {
+        "name": "卡池/抽卡",
+        "total": 1733,
+        "positive_percent": 11.8,
+        "negative_percent": 11.2,
+        "neutral_percent": 77.0
+      },
+      {
+        "name": "角色/人物",
+        "total": 1617,
+        "positive_percent": 17.2,
+        "negative_percent": 11.5,
+        "neutral_percent": 71.3
+      },
+      {
+        "name": "肝度/养成",
+        "total": 627,
+        "positive_percent": 8.8,
+        "negative_percent": 11.6,
+        "neutral_percent": 79.6
+      },
+      {
+        "name": "角色设计",
+        "total": 583,
+        "positive_percent": 25.4,
+        "negative_percent": 11.7,
+        "neutral_percent": 63.0
+      },
+      {
+        "name": "优化/体验",
+        "total": 544,
+        "positive_percent": 10.5,
+        "negative_percent": 14.5,
+        "neutral_percent": 75.0
+      },
+      {
+        "name": "其他",
+        "total": 537,
+        "positive_percent": 5.8,
+        "negative_percent": 9.3,
+        "neutral_percent": 84.9
+      },
+      {
+        "name": "剧情/故事",
+        "total": 521,
+        "positive_percent": 14.8,
+        "negative_percent": 12.7,
+        "neutral_percent": 72.6
+      },
+      {
+        "name": "竞品/对比",
+        "total": 514,
+        "positive_percent": 11.7,
+        "negative_percent": 19.1,
+        "neutral_percent": 69.3
+      },
+      {
+        "name": "社区/运营",
+        "total": 485,
+        "positive_percent": 8.0,
+        "negative_percent": 46.8,
+        "neutral_percent": 45.2
+      },
+      {
+        "name": "战斗/玩法",
+        "total": 439,
+        "positive_percent": 12.5,
+        "negative_percent": 15.0,
+        "neutral_percent": 72.4
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "持正面态度的玩家群体中，卡厄斯的传送门机制成为讨论热度最高的内容，大量评论认为这个随时放置的传送点在大世界探索中提供了极大的便利性，甚至有玩家表示这是异环相比同类产品最独特的差异化设计。卡厄斯的格斗俱乐部和暗黑赛车等都市玩法也获得了集中好评，尤其是格斗俱乐部中玩家之间的恶趣味互动——互相蹦蹦跳跳示好然后最后几秒偷袭抢第一的玩法被多次提及，玩家认为这种不严肃竞技的氛围非常有趣。抽卡方面，不少玩家分享了十连出金或单抽出卡厄斯的喜悦，认为保底机制相比竞品更加良心。九原的长按平A连招在低画质下反而更流畅这一发现也被正面讨论，玩家认为这说明底层的战斗系统设计是有深度的。此外，相当比例的正面评论表达了入坑或回坑意愿，有玩家表示开服时骂异环是垃圾游戏但回坑后停不下来。卡厄斯摘口罩的细节、安魂曲的剧情塑造、以及浔老板的建模精致度也多次出现在好评中。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "卡厄斯传送门探索机制",
+            "detail": "玩家认为随时放置传送门在大世界探索中极其便利，是异环最独特的差异化设计",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "格斗俱乐部恶趣味互动",
+            "detail": "玩家互相蹦跳示好然后偷袭抢第一的玩法被反复提及，认为不严肃竞技的氛围很有趣",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "抽卡保底良心度",
+            "detail": "十连出金、单抽出卡厄斯的分享较多，玩家认为保底机制比竞品更友好",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "持负面态度的玩家群体中，嘉豪即卡厄斯的建模质量成为争议最大的焦点，大量评论直接指出其目光呆滞、不会眨眼、头像处鼻子区域建模异常，甚至有玩家质问异环是不是不会做男角色，认为即便是卡池限定角色也不应有如此明显的建模缺陷。赛车活动的体验问题被集中吐槽——强制PVP、被炸下车后只能跑步追车、不能使用自己抽到的保时捷而被迫开NPC的破车，玩家认为这种设计完全不考虑用户体验。格斗俱乐部的开挂问题同样引发了强烈不满，有玩家详细描述了遇到名为昭阳的开挂者，被击中后无法动弹无法闪避，而举报系统因为只显示名称且名称不唯一而形同虚设。移动端优化是另一个重灾区，闪退、卡死、10分钟内闪退5次等反馈频繁出现。1.1版本新增的强制联机活动绑定奖励也遭到大量批评，玩家认为不是所有人都愿意当创作者或参与PVP，但奖励放在那里不玩就只能挂机，体验像坐牢。boss战中怪物飞天遁地打断输出轴、打一半卡到墙外boss血量回满等bug也被多次提及。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "卡厄斯(嘉豪)建模质量",
+            "detail": "玩家指出目光呆滞、不会眨眼、鼻子区域建模异常，质疑异环不会做男角色",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "赛车活动强制PVP体验",
+            "detail": "被炸下车只能跑步、不能用自己抽的车、强制绑定奖励，玩家认为完全不考虑体验",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "格斗俱乐部开挂泛滥",
+            "detail": "遇到开挂者无法动弹，举报系统因名称不唯一形同虚设",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "持中性态度的玩家群体中，最大量的内容是好友@互动和抽卡结果分享，玩家频繁在评论区@好友观看视频或参与讨论，同时分享自己十连出货、垫抽出金、保底歪了等抽卡经历。角色强度对比是另一个高频讨论方向，玩家在嘉豪和安魂曲谁更强、嘉豪和哈索尔怎么选、0觉和满觉伤害对比等问题上展开讨论，但态度相对客观中立。攻略性质的问答也占了不少比例，包括卡厄斯专武要不要抽、配队怎么搭、觉醒几命提升多少、突破材料去哪刷等。此外，关于异环与其他二游的横向对比也频繁出现，玩家将异环的抽卡资源、优化水平、活动设计等与原神、崩铁、鸣潮、绝区零、终末地等竞品进行对比，但大多数对比没有明确的褒贬倾向。还有一部分评论讨论的是视频内容本身而非游戏，比如夸赞UP主剪辑手法、视频封面、配乐选择等。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "抽卡结果分享",
+            "detail": "十连出货、垫抽出金、保底歪了等抽卡经历的频繁分享",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "角色强度对比讨论",
+            "detail": "嘉豪vs安魂曲、嘉豪vs哈索尔、0觉vs满觉伤害等配队和强度讨论",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "攻略问答",
+            "detail": "专武要不要抽、配队怎么搭、觉醒提升、突破材料等攻略性质问答",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/nte-1.1-lower-zh-annotations.json"
+  },
+  "migration": {
+    "source_html": "yh_nte_bilibili_report.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "传送门可是好东西啊",
+        "格鬥賽跟暗黑賽車 做得很好笑 就喜歡這種不認真競技 可以噁心對手的惡趣味",
+        "俺不中了,异环我错了我不该在开服的时候说你是垃圾游戏的,我前天回坑已经玩到现在都没停过了",
+        "卡厄斯对群无敌 ,没抽这这莉和老板娘的抽一个01卡厄斯游戏体验提升巨大",
+        "格斗俱乐部还挺好玩的"
+      ],
+      "negative": [
+        "嘉豪各方面做的都太差了,建模目光呆滞,连眼睛都不会眨",
+        "赛车格斗进去要么挂哥要么全员挂机,你游活动再出垃圾小游戏真就退坑了",
+        "格斗有人开挂,打到你第一下,就动都动不了,闪避也闪不了",
+        "10:20之后闪退了整整5次绝了",
+        "你实在不行你就把那些赛车任务全删了行不行啊?我真的不想赛车了"
+      ],
+      "neutral": [
+        "十抽出的,运气还好吧?",
+        "垫了20抽,一不小心出了",
+        "都是0觉,嘉豪和安魂曲那个更强一点,有早雾",
+        "零氪玩2游想全图鉴也就只能在异环了",
+        "它如果优化能像原神,特效能像鸣潮,剧情能像崩铁,活动排期产量能像绝区零,高难难度能像终末地,肝日常能像崩坏三,它就能变好游戏了"
+      ]
+    },
+    "overall_tone": {
+      "positive": "整体正面情绪集中在角色机制创新和都市玩法的趣味性上，玩家对卡厄斯的传送门设计和格斗俱乐部的社交互动给予了高度认可",
+      "negative": "负面情绪高度集中在建模质量、活动体验和移动端优化三大问题上，玩家对强制PVP和开挂泛滥的愤怒最为强烈",
+      "neutral": "中性评论以社交互动、抽卡分享和攻略讨论为主，情感倾向不明显，更多是游戏社区日常交流"
+    }
+  }
+}

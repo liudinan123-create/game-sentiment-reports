@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "终末地",
+    "version": "1.3",
+    "phase": "下半",
+    "character": "卡缪",
+    "date_start": "2026-06-26",
+    "date_end": "2026-07-09",
+    "platform": "YouTube（日语）",
+    "generated_at": "2026-06-30T11:23:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 536,
+    "sentiments": {
+      "positive": {
+        "count": 196,
+        "percent": 36.6
+      },
+      "negative": {
+        "count": 24,
+        "percent": 4.5
+      },
+      "neutral": {
+        "count": 316,
+        "percent": 59.0
+      }
+    },
+    "keywords": [
+      {
+        "name": "角色/人物",
+        "count": 264
+      },
+      {
+        "name": "画面/美术",
+        "count": 56
+      },
+      {
+        "name": "萌系/日常",
+        "count": 54
+      },
+      {
+        "name": "竞品/对比",
+        "count": 39
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 34
+      },
+      {
+        "name": "剧情/故事",
+        "count": 27
+      },
+      {
+        "name": "音乐/配音",
+        "count": 20
+      },
+      {
+        "name": "战斗/玩法",
+        "count": 16
+      },
+      {
+        "name": "角色设计",
+        "count": 12
+      },
+      {
+        "name": "版本/更新",
+        "count": 12
+      }
+    ],
+    "topics": [
+      {
+        "name": "角色/人物",
+        "total": 264,
+        "positive_percent": 48.5,
+        "negative_percent": 3.8,
+        "neutral_percent": 47.7
+      },
+      {
+        "name": "画面/美术",
+        "total": 56,
+        "positive_percent": 58.9,
+        "negative_percent": 0.0,
+        "neutral_percent": 41.1
+      },
+      {
+        "name": "萌系/日常",
+        "total": 54,
+        "positive_percent": 83.3,
+        "negative_percent": 0.0,
+        "neutral_percent": 16.7
+      },
+      {
+        "name": "竞品/对比",
+        "total": 39,
+        "positive_percent": 61.5,
+        "negative_percent": 0.0,
+        "neutral_percent": 38.5
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 34,
+        "positive_percent": 38.2,
+        "negative_percent": 11.8,
+        "neutral_percent": 50.0
+      },
+      {
+        "name": "剧情/故事",
+        "total": 27,
+        "positive_percent": 48.1,
+        "negative_percent": 11.1,
+        "neutral_percent": 40.7
+      },
+      {
+        "name": "音乐/配音",
+        "total": 20,
+        "positive_percent": 25.0,
+        "negative_percent": 0.0,
+        "neutral_percent": 75.0
+      },
+      {
+        "name": "战斗/玩法",
+        "total": 16,
+        "positive_percent": 56.2,
+        "negative_percent": 6.2,
+        "neutral_percent": 37.5
+      },
+      {
+        "name": "角色设计",
+        "total": 12,
+        "positive_percent": 58.3,
+        "negative_percent": 0.0,
+        "neutral_percent": 41.7
+      },
+      {
+        "name": "版本/更新",
+        "total": 12,
+        "positive_percent": 58.3,
+        "negative_percent": 8.3,
+        "neutral_percent": 33.3
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "卡缪是这批日语评论中讨论热度最高的角色。玩家称赞他的外观建模包括走路姿态和披风效果，认为这些细节的完成度很高。卡缪与主角的握手拉扯场景被反复讨论，玩家认为这段演出既展现了角色性格中的固执也展现了信任建立的过程。罗西凭借尾巴设计和不要罗西的社区梗成为第二讨论焦点。卡缪故事线暗示其兄弟将在后续新区域登场的伏笔让玩家对后续内容充满期待。企鹅咕咕嘎嘎的萌系短视频贡献了大量正面互动。部分日语玩家对卡缪故事线提出了批评，认为作为首次登场的角色缺乏前置铺垫就直接进入孤僻独行的角色模式，但这种批评在正面评论中比例较小。法乌斯特作为角色的酷帅特质也获得了正面评价。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "卡缪外观建模与走路姿态",
+            "detail": "玩家称赞卡缪的走路姿态和披风效果，认为细节完成度很高",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "卡缪与主角握手拉扯演出",
+            "detail": "握手拉扯场景被反复讨论，展现角色固执与信任建立的双重含义",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "罗西尾巴设计与社区梗",
+            "detail": "罗西凭借尾巴设计和不要罗西的社区梗成为第二讨论焦点",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "负面反馈集中在三个方向。第一是抽卡体验问题，有玩家在卡缪池子中投入大量抽卡次数未获得目标角色，反而歪出了米芙和安柏。第二是卡缪叙事铺垫不足，有玩家指出卡缪作为首次登场角色没有足够的前置铺垫就直接进入孤僻模式，故事转折也过于容易预测，boss战完全在过场动画中处理而非实机操作。第三是角色武器设计争议，有玩家对卡缪的武器是钻头表示不满。罗西相关评论中也有玩家表示不要罗西的梗被过度使用。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "卡缪池子抽卡体验",
+            "detail": "玩家在卡缪池子投入大量抽卡未获得目标角色，歪出米芙和安珀",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "卡缪叙事铺垫不足",
+            "detail": "卡缪作为首次登场角色缺乏前置铺垫，故事转折过于容易预测，boss战全是过场动画",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "卡缪武器钻头设计争议",
+            "detail": "有玩家对卡缪的武器是钻头表示不满",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "中性评论呈现出社区玩梗文化和角色信息交换的特征。不要罗西的梗源自赛马娘，在日语评论中被反复使用。主角是否选择了女性形象来体验卡缪故事线的讨论也频繁出现。角色配音的讨论在日语评论中较为突出，包括主角是否应该有配音的话题。卡缪的抽卡资源规划是常见话题。与绝区零和崩坏星穹铁道的跨游戏角色对比也时有出现，玩家将卡缪与这些游戏中的同类角色进行对比。角色场景中的细节发现也是日语玩家的兴趣点。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "不要罗西梗文化",
+            "detail": "源自赛马娘的不要罗西梗在日语评论中被反复使用",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "主角性别选择与故事体验",
+            "detail": "主角是否选择女性形象来体验卡缪故事线的讨论频繁出现",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "角色配音讨论",
+            "detail": "主角是否应该有配音的话题在日语评论中较为突出",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/endfield-1.3-lower-ja-annotations.json"
+  },
+  "migration": {
+    "source_html": "终末地-1.3下半-日语_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "卡缪的走路姿态太帅了",
+        "握手拉扯那段演出太精彩了",
+        "罗西的尾巴设计很用心",
+        "卡缪的兄弟要来了吗太期待了",
+        "咕咕嘎嘎太可爱了"
+      ],
+      "negative": [
+        "抽卡没出卡缪反而歪了米芙",
+        "卡缪的故事缺乏铺垫转折太容易猜到",
+        "boss战全是过场动画没有实机操作",
+        "武器是钻头有点失望"
+      ],
+      "neutral": [
+        "大家不要对罗西做那个",
+        "选女性主角体验卡缪故事会怎样",
+        "主角应该有配音",
+        "卡缪和绝区零的角色很像"
+      ]
+    },
+    "overall_tone": {
+      "positive": "以卡缪的外观魅力和演出细节为核心，罗西和咕咕嘎嘎提供萌系正面补充",
+      "negative": "负面情绪较少且分散，抽卡体验和叙事节奏是主要批评点",
+      "neutral": "玩梗文化和信息交换并存，日语社区对配音话题的关注度较高"
+    }
+  }
+}

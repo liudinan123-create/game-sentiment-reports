@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "异环",
+    "version": "1.1",
+    "phase": "下半",
+    "character": "卡尔斯",
+    "date_start": "2026-06-18",
+    "date_end": "2026-07-01",
+    "platform": "YouTube（韩语）",
+    "generated_at": "2026-06-26T14:33:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 1220,
+    "sentiments": {
+      "positive": {
+        "count": 489,
+        "percent": 40.1
+      },
+      "negative": {
+        "count": 100,
+        "percent": 8.2
+      },
+      "neutral": {
+        "count": 631,
+        "percent": 51.7
+      }
+    },
+    "keywords": [
+      {
+        "name": "其他",
+        "count": 190
+      },
+      {
+        "name": "角色/人物",
+        "count": 63
+      },
+      {
+        "name": "运营/活动",
+        "count": 38
+      },
+      {
+        "name": "入坑/退坑",
+        "count": 36
+      },
+      {
+        "name": "战斗系统",
+        "count": 35
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 34
+      },
+      {
+        "name": "赛车/驾驶",
+        "count": 34
+      },
+      {
+        "name": "音乐/配音",
+        "count": 22
+      },
+      {
+        "name": "画质/画面",
+        "count": 15
+      },
+      {
+        "name": "探索/开放世界",
+        "count": 14
+      }
+    ],
+    "topics": [
+      {
+        "name": "其他",
+        "total": 190,
+        "positive_percent": 34.7,
+        "negative_percent": 4.2,
+        "neutral_percent": 61.1
+      },
+      {
+        "name": "角色/人物",
+        "total": 63,
+        "positive_percent": 39.7,
+        "negative_percent": 9.5,
+        "neutral_percent": 50.8
+      },
+      {
+        "name": "运营/活动",
+        "total": 38,
+        "positive_percent": 65.8,
+        "negative_percent": 18.4,
+        "neutral_percent": 15.8
+      },
+      {
+        "name": "入坑/退坑",
+        "total": 36,
+        "positive_percent": 66.7,
+        "negative_percent": 16.7,
+        "neutral_percent": 16.7
+      },
+      {
+        "name": "战斗系统",
+        "total": 35,
+        "positive_percent": 60.0,
+        "negative_percent": 11.4,
+        "neutral_percent": 28.6
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 34,
+        "positive_percent": 52.9,
+        "negative_percent": 5.9,
+        "neutral_percent": 41.2
+      },
+      {
+        "name": "赛车/驾驶",
+        "total": 34,
+        "positive_percent": 38.2,
+        "negative_percent": 20.6,
+        "neutral_percent": 41.2
+      },
+      {
+        "name": "音乐/配音",
+        "total": 22,
+        "positive_percent": 40.9,
+        "negative_percent": 9.1,
+        "neutral_percent": 50.0
+      },
+      {
+        "name": "画质/画面",
+        "total": 15,
+        "positive_percent": 40.0,
+        "negative_percent": 26.7,
+        "neutral_percent": 33.3
+      },
+      {
+        "name": "探索/开放世界",
+        "total": 14,
+        "positive_percent": 50.0,
+        "negative_percent": 14.3,
+        "neutral_percent": 35.7
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "韩语圈YouTube评论中最正面的评价集中在保时捷(Porsche)联动相关内容。保时捷登场演出、漂移可能性以及各车辆的设计品质在韩国玩家间引发爆发性反响。特别是为了抽保时捷而充值的、甚至原本在二次元游戏中从不氪金的用户也表示为之花钱的反馈屡见不鲜。真紅(Shinku)的外形设计与声优获得持续好评，卡厄斯等新角色的期待感也维持在高水平。游戏整体画质与动画品质也频频获得\"疯了\"\"新鲜\"等评价。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "保时捷联动与漂移",
+            "detail": "保时捷演出/漂移/车辆自定义引发爆发性正面反响",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "真紅(Shinku)角色好评",
+            "detail": "真紅外形设计、声音、声优获持续好评",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "卡厄斯及新角色期待",
+            "detail": "对卡厄斯EP、真紅等新角色发布的期待与兴趣",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "韩语圈负面评论主要集中在车辆操控感不满和充值负担上。每次更新车辆操控感微妙变化导致每次都要重新适应的疲劳感被持续表达。免费(F2P)体验期结束后免费福利减少的失望，以及为抽保时捷而充值后血本无归的经历被多位玩家分享。男角色皮肤设计的遗憾和卡厄斯建模需要修改的意见虽是少数但也持续被提及。整体上负面比例较低，相比强烈愤怒更多是\"虽有遗憾但游戏还是好玩\"的温和批判语气。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "车辆操控感不稳定",
+            "detail": "每次补丁改变手感导致每次都要适应的不满",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "充值/血本无归后悔",
+            "detail": "为抽保时捷充值后血本无归的经历分享，免费期结束后的失望",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "男角色皮肤设计",
+            "detail": "卡厄斯虽已修改但男角色皮肤设计仍需改善的要求",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "韩语圈中立评论以贝果(Skia)梗/表情包/搞笑图分享、角色期待反应、纠结是否入坑为中心。Skia这一角色在韩语圈尤其成为梗(Meme)文化的中心，从贝果家出逃、乘坐地铁等Skia的搞笑行径展现出高参与度。Samwe、Mint等特定创作者的粉丝活动也较为显眼，新进用户\"要不要玩异环？\"\"看了第一个梗图就开始玩了\"等好奇心表达也持续不断。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "贝果/Skia Meme文化",
+            "detail": "Skia搞笑图、从家/地铁/便利店出逃等梗分享为中心",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "角色期待/好奇",
+            "detail": "对真紅/卡厄斯/保时捷等新内容的期待与入坑意愿表达",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "创作者粉丝/应援",
+            "detail": "Samwe/Mint等特定角色粉丝活动、应援评论",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/nte-1.1-lower-ko-annotations.json"
+  },
+  "migration": {
+    "source_html": "yh_nte_ko_report.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "디자인 미쳤다 ᄏᄏᄏᄏᄏ",
+        "포르쉐 연출 미쳤네 ᄏᄏᄏ",
+        "진짜 다 좋은데 제발 차 운전감도좀 고쳐줬으면 좋겠음",
+        "역시 신쿠는 이쁘다😊"
+      ],
+      "negative": [
+        "진짜 다 좋은데 제발 차 운전감도좀 고쳐줬으면 좋겠음",
+        "포르쉐 하다가 다 탕진함...",
+        "원붕젠명기타등등 서브컬쳐겜에서 현질을 아예 안했었는데 포르쉐에 돈을 쓰게 됨",
+        "하지만 게임이 너무... 흠..."
+      ],
+      "neutral": [
+        "이환 시작할까...",
+        "첫 짤 보고 이환 시작함",
+        "개집에서 뛰쳐나가는 ス키ア ᄏᄏᄏᄏᄏᄏ",
+        "와 뭐냐 이거 자동차 게임이였음? 해봐야겠네"
+      ]
+    },
+    "overall_tone": {
+      "positive": "兴奋且期待感高——联动与新角色是核心亮点",
+      "negative": "温和批判——喜欢游戏但明确指出待改善之处",
+      "neutral": "以梗与好奇为中心——健康的粉丝文化与新用户流入的平衡"
+    }
+  }
+}

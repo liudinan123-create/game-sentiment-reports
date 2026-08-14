@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "鸣潮",
+    "version": "3.5",
+    "phase": "上半",
+    "character": "秧秧·玄翎 / 琳奈 / 陆·赫斯",
+    "date_start": "2026-07-10",
+    "date_end": "2026-07-29",
+    "platform": "B站",
+    "generated_at": "2026-07-17T10:11:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 18909,
+    "sentiments": {
+      "positive": {
+        "count": 3141,
+        "percent": 16.6
+      },
+      "negative": {
+        "count": 6130,
+        "percent": 32.4
+      },
+      "neutral": {
+        "count": 9638,
+        "percent": 51.0
+      }
+    },
+    "keywords": [
+      {
+        "name": "卡池/抽卡",
+        "count": 1061
+      },
+      {
+        "name": "剧情/故事",
+        "count": 1049
+      },
+      {
+        "name": "角色/人物",
+        "count": 962
+      },
+      {
+        "name": "优化/体验",
+        "count": 915
+      },
+      {
+        "name": "版本/更新",
+        "count": 854
+      },
+      {
+        "name": "竞品/对比",
+        "count": 820
+      },
+      {
+        "name": "画面/美术",
+        "count": 615
+      },
+      {
+        "name": "肝度/养成",
+        "count": 497
+      },
+      {
+        "name": "角色设计",
+        "count": 313
+      },
+      {
+        "name": "入坑/退坑",
+        "count": 258
+      }
+    ],
+    "topics": [
+      {
+        "name": "卡池/抽卡",
+        "total": 1061,
+        "positive_percent": 24.5,
+        "negative_percent": 35.8,
+        "neutral_percent": 39.7
+      },
+      {
+        "name": "剧情/故事",
+        "total": 1049,
+        "positive_percent": 23.0,
+        "negative_percent": 33.6,
+        "neutral_percent": 43.5
+      },
+      {
+        "name": "角色/人物",
+        "total": 962,
+        "positive_percent": 34.4,
+        "negative_percent": 27.4,
+        "neutral_percent": 38.1
+      },
+      {
+        "name": "优化/体验",
+        "total": 915,
+        "positive_percent": 22.7,
+        "negative_percent": 37.7,
+        "neutral_percent": 39.6
+      },
+      {
+        "name": "版本/更新",
+        "total": 854,
+        "positive_percent": 21.7,
+        "negative_percent": 34.9,
+        "neutral_percent": 43.4
+      },
+      {
+        "name": "竞品/对比",
+        "total": 820,
+        "positive_percent": 22.0,
+        "negative_percent": 33.7,
+        "neutral_percent": 44.4
+      },
+      {
+        "name": "画面/美术",
+        "total": 615,
+        "positive_percent": 25.7,
+        "negative_percent": 35.9,
+        "neutral_percent": 38.4
+      },
+      {
+        "name": "肝度/养成",
+        "total": 497,
+        "positive_percent": 24.5,
+        "negative_percent": 31.8,
+        "neutral_percent": 43.7
+      },
+      {
+        "name": "角色设计",
+        "total": 313,
+        "positive_percent": 33.2,
+        "negative_percent": 26.5,
+        "neutral_percent": 40.3
+      },
+      {
+        "name": "入坑/退坑",
+        "total": 258,
+        "positive_percent": 44.6,
+        "negative_percent": 31.0,
+        "neutral_percent": 24.4
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "中性讨论为主（51.0%），正面（16.6%）认可秧秧两年情感线收束确认正宫、爱弥斯养女关系获温情反馈及AI二创突破番剧级品质，负面（32.4%）集中于 米池概率横向对比被批最苛刻且八连歪退游频发、摩托翱翔遭禁致探索体验倒退、星炬学院玄方城卡顿掉帧及声骸养成投入产出失衡 。竞品对比为最高热度话题（1061条）。情感线运营与探索机制创新获认可，但抽卡概率与性能优化为主要短板。",
+    "sentiments": {
+      "positive": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "秧秧正宫地位确认",
+            "detail": "3.2版本秧秧与漂泊者互明情愫，被确认为正宫，写信两年的情感线运营获好评",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "爱弥斯父女关系",
+            "detail": "爱弥斯与漂泊者的养女关系获正面好评，迷你爱弥斯和爱漂CP内容持续获正面反馈",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "洛瑟菈探索机制",
+            "detail": "洛瑟菈校长拍照技能极大提升梁鸢收集效率，大世界探索体验获好评",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "米池概率与抽卡体验",
+            "detail": "140抽未出零命、3万星声仅出01、卡卡罗连续歪卡、八连歪退游，米池概率被横向对比后认为最苛刻",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "穗穗配队与剧情缺失",
+            "detail": "三号位配队限制、下半卡池无个人剧情、二链爆伤稀释问题集中被批评",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "摩托探索体验",
+            "detail": "摩托在山地地形卡视野卡轮胎，翱翔被禁用后探索体验严重下降，质疑为推销摩托皮肤",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "秧秧守岸人双线设定",
+            "detail": "起点与终点的对称定位、第一实例第二实例轮回机制、信息流发起者与收集者关系分析",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "SP秧秧玄翎形态推测",
+            "detail": "噩梦PV分析、云渊之役阵亡将士频率接收、旧剑玄翎雀频率推动、濒临超频间接因素",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "守岸人与普瑞赛斯对比",
+            "detail": "视觉相似度对比延伸至索拉里斯与泰提斯技术体系差异，回音生物设定角度解释本质区别",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/wuwa-3.5-upper-zh-annotations.json"
+  },
+  "migration": {
+    "source_html": "鸣潮-3.5上半-B站_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "认真的说,无论从年龄还是从伦理还是从二人的感情上说,小爱都算是漂子(主角)的养女。感情上主角对小爱的类似家人的亲情,而小爱对主角与其说是爱情,不如说更像是极致的家人亲情,且十分重力。",
+        "我去,23分钟?这么高质量,先生这得花不少钱吧",
+        "洛瑟拉最夯的一集,太爽了!尤其是这次的地形,配个洛瑟拉,简直爽炸",
+        "毕竟是失忆后睁眼看到的第一个人 总会有些特别的情愫 这算是白月光吗",
+        "鸣潮3.5版本地图星声统计,请亲爱的漂泊者过目 总共:3871星声"
+      ],
+      "negative": [
+        "140抽00都没有 这池子概率真没问题吗",
+        "八连歪保底已退游 鸣潮是我玩过池子最毒的",
+        "800多个调谐器就出一个垃圾三词条 数值还是最低档的",
+        "手机60帧像是抱着微波炉 战斗掉帧严重",
+        "穗穗下半卡池连个个人剧情都没有 限定角色就这待遇"
+      ],
+      "neutral": [
+        "秧秧就是鸣潮大女主毋庸置疑了 个人认为爱弥斯的剧情地位并不高,和卡提一样是地区救世主,整体主线关联相较之下不大",
+        "从拉海洛开始,感觉漂子越来越像一个独立于玩家的角色了,他有自己的目标,有自己的情感,也有自己的遗憾",
+        "作为一个风系老前辈,我劝某些刚成年的小姑娘人不要茶里茶气的,还把别人睡觉的位置占了,还学别人鼓包子脸,真别太茶了",
+        "为什么要说出轨这种话 我们只是上级与下级的关系而已 我和秧秧谈恋爱跟守岸人你应该没关系吧",
+        "个人觉得很不错,前面铺垫新地区后面高燃boss战,最后甜甜后日谈,秧秧信息量很大"
+      ]
+    },
+    "overall_tone": {
+      "positive": "",
+      "negative": "",
+      "neutral": ""
+    }
+  }
+}

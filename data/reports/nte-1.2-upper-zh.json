@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "异环",
+    "version": "1.2",
+    "phase": "上半",
+    "character": "真红",
+    "date_start": "2026-07-02",
+    "date_end": "2026-07-22",
+    "platform": "B站",
+    "generated_at": "2026-07-08T09:48:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 47250,
+    "sentiments": {
+      "positive": {
+        "count": 7496,
+        "percent": 15.9
+      },
+      "negative": {
+        "count": 8186,
+        "percent": 17.3
+      },
+      "neutral": {
+        "count": 31568,
+        "percent": 66.8
+      }
+    },
+    "keywords": [
+      {
+        "name": "角色/人物",
+        "count": 6864
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 3841
+      },
+      {
+        "name": "优化/体验",
+        "count": 3560
+      },
+      {
+        "name": "战斗/玩法",
+        "count": 3017
+      },
+      {
+        "name": "社区/运营",
+        "count": 2844
+      },
+      {
+        "name": "版本/更新",
+        "count": 2210
+      },
+      {
+        "name": "肝度/养成",
+        "count": 2030
+      },
+      {
+        "name": "角色设计",
+        "count": 1210
+      },
+      {
+        "name": "剧情/故事",
+        "count": 1210
+      },
+      {
+        "name": "入坑/退坑",
+        "count": 1187
+      }
+    ],
+    "topics": [
+      {
+        "name": "角色/人物",
+        "total": 6864,
+        "positive_percent": 25.9,
+        "negative_percent": 26.4,
+        "neutral_percent": 47.6
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 3841,
+        "positive_percent": 19.0,
+        "negative_percent": 19.0,
+        "neutral_percent": 62.0
+      },
+      {
+        "name": "优化/体验",
+        "total": 3560,
+        "positive_percent": 17.1,
+        "negative_percent": 30.9,
+        "neutral_percent": 52.1
+      },
+      {
+        "name": "战斗/玩法",
+        "total": 3017,
+        "positive_percent": 20.6,
+        "negative_percent": 27.1,
+        "neutral_percent": 52.3
+      },
+      {
+        "name": "社区/运营",
+        "total": 2844,
+        "positive_percent": 17.1,
+        "negative_percent": 37.1,
+        "neutral_percent": 45.7
+      },
+      {
+        "name": "版本/更新",
+        "total": 2210,
+        "positive_percent": 18.6,
+        "negative_percent": 28.4,
+        "neutral_percent": 53.0
+      },
+      {
+        "name": "肝度/养成",
+        "total": 2030,
+        "positive_percent": 16.9,
+        "negative_percent": 19.8,
+        "neutral_percent": 63.3
+      },
+      {
+        "name": "角色设计",
+        "total": 1210,
+        "positive_percent": 23.6,
+        "negative_percent": 30.1,
+        "neutral_percent": 46.4
+      },
+      {
+        "name": "剧情/故事",
+        "total": 1210,
+        "positive_percent": 18.9,
+        "negative_percent": 21.6,
+        "neutral_percent": 59.5
+      },
+      {
+        "name": "入坑/退坑",
+        "total": 1187,
+        "positive_percent": 30.8,
+        "negative_percent": 30.7,
+        "neutral_percent": 38.5
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "异环1.2上半版本中真红角色成为正面讨论的核心焦点之一，玩家对其技能特效的视觉表现力和特效堆料程度给予高度评价，认为该角色在战斗演出方面达到了开服以来的最高水准。999夜桌游模式作为本期核心玩法获得了大量好评，玩家认为这种将桌游元素融入肉鸽框架的设计在二次元游戏中较为少见，提供了区别于常规战斗的策略体验。刮刮乐活动虽然部分玩家存在方斯亏损情况但整体娱乐性和互动反馈被认为设计得当。摩托车跑图功能被频繁提及，玩家认为大世界探索效率因此显著提升。薄荷角色凭借可爱的人物表现和互动台词收获了正面反馈。在剧情层面1.2版本的主线叙事节奏相比此前版本有所改善，角色间的互动桥段被认为轻松有趣。官方在版本初期对多个bug的快速响应和修复态度也被玩家正面认可，部分评论明确表示开发组听取社区反馈的行为增加了对游戏后续版本的信心。角色专属歌曲的音乐质量和编曲完成度同样进入了正面讨论范围。此外不歪池机制持续作为异环的核心竞争力被正面提及，玩家围绕90抽保底不歪的设计优势展开讨论，认为该机制在同类竞品中具有明显的成本和体验优势。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "真红角色特效与视觉表现",
+            "detail": "玩家集中讨论真红角色技能演出中的特效堆料程度，认为大招动画和战斗特效的完成度远超此前版本角色，视觉冲击力强",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "999夜桌游肉鸽模式",
+            "detail": "该模式被评价为本期最具创意的玩法内容，玩家认可桌游规则与肉鸽随机性的结合方式，认为策略深度和可重复游玩性较高",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "不歪池机制竞争力",
+            "detail": "玩家频繁将异环90抽保底不歪池与同类竞品的米池180抽大保底进行成本对比，认为不歪池在抽卡体验和经济负担上具有显著优势",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "负面讨论中真红角色强度问题占据了最大篇幅，大量玩家指出该角色在满命状态下的伤害输出仍不及同定位角色的零命表现，技能倍率和数值设计被质疑存在明显失衡。皮肤模型暗改争议是另一个集中爆发点，玩家发现真红JK皮肤的胸部模型在版本更新后被缩减、泳装皮肤的物理摇晃效果遭到删除、透肉材质表现降低，薄荷角色模型同样被削弱，这些变更在未提前公告的情况下实施引发了强烈不满。移动端闪退问题被反复提及，部分玩家表示在特定场景下频繁崩溃严重影响正常游玩。摩托车盲盒定价1180万方斯被批评定价过高且获取途径不透明。抽卡机制方面米池设计的保底逻辑和歪率被部分玩家批评为体验恶劣。多个严重bug被集中反馈包括死档问题导致存档损坏、伤害上限bug使特定任务无法完成。主线剧情的叙事跳跃感也被指出存在章节衔接不畅的问题。官方对这些问题的处理态度同样受到批评，部分玩家认为开发组选择冷处理而非及时回应社区关切。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "真红角色强度失衡",
+            "detail": "满命真红伤害不及同定位角色零命表现，技能倍率和数值设计被质疑，部分玩家建议强度党谨慎抽取",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "皮肤模型暗改争议",
+            "detail": "真红JK皮肤胸部模型被缩减、泳装皮肤物理摇晃效果删除、透肉材质降低、薄荷模型削弱，未经公告的变更引发强烈不满",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "移动端闪退与严重bug",
+            "detail": "移动端特定场景频繁闪退影响正常游玩，死档问题导致存档损坏，伤害上限bug使特定任务无法完成",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "中性讨论中移速负数bug的技术分析占据了大量篇幅，玩家从程序实现角度展开深入讨论，核心争议在于移速乘区采用加算还是乘算导致数值出现负数，部分评论从浮点数溢出和最小值校验缺失等技术层面进行了系统性分析，另有玩家引用其他游戏中类似bug案例进行对比论证。角色强度对比方面玩家理性分析了真红与安魂曲和娜娜莉之间的输出差异和配队定位，讨论涉及技能机制差异和命座收益曲线。999夜模式收到了大量改进建议包括增加关卡随机性、优化奖励结构和调整难度梯度等具体方案。游戏内货币体系中方斯与环石的定位和获取渠道被多次讨论，玩家对两种货币的使用优先级和兑换比例存在不同看法。刮刮乐活动被部分玩家从概率机制角度进行了数学分析，讨论涉及期望值计算和方差评估。救人视角锁定问题引发了操作体验层面的讨论，玩家提出了锁敌逻辑优化和手动切换方案。社区中大量二创内容和游戏梗的传播也构成了中性讨论的重要组成部分，包括角色表情包、剧情截图改写和配队攻略分享等。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "移速负数bug技术分析",
+            "detail": "玩家从加算与乘算、浮点数溢出、最小值校验等程序角度分析bug成因，引用全境封锁2、Warframe等游戏类似案例进行对比论证",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "角色强度理性对比",
+            "detail": "真红与安魂曲、娜娜莉的输出差异和配队定位被理性分析，讨论涉及技能机制差异和命座收益曲线",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "999夜模式改进建议",
+            "detail": "玩家提出增加关卡随机性、优化奖励结构、调整难度梯度等具体改进方案，认可产能但指出重复性问题",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/nte-1.2-upper-zh-annotations.json"
+  },
+  "migration": {
+    "source_html": "异环-1.2上半-B站_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "之前崩铁和绝区零都是被歪到退游,2年没关注二游了。异环出来玩了下,不歪池是真的爽",
+        "异环开服三个版本,我已经氪了两个满命了,成本在米游一个都抽不到",
+        "新玩法,冒险肉鸽,异环挺有想法的,做的挺不错",
+        "红字剧情重做了,娜娜莉救回来了",
+        "其实是异环福利好引发的问题,搁米池里现在能凑一个队伍就不错了,异环现在零氪都能3个队伍"
+      ],
+      "negative": [
+        "过于悲痛决定给异环停两个月月卡",
+        "退坑了,没意思",
+        "140抽4个皮肤就一个角色,都不想玩了",
+        "异环这一堆bug还用特意整活?",
+        "这特效皮这个四角裤真的丑的离谱,不改的话都不想买了"
+      ],
+      "neutral": [
+        "很那说是 bug 还是小巧思",
+        "这还真不是策划的锅,得看程序员写代码的时候移动速度是怎么实现的,有没有加保护",
+        "跟策划数学没关系,只能说明移速乘区是加算不是乘算,反映在代码上没有任何问题",
+        "其实两边都默认说游戏的buff debuff做哪种算法是主流,说乘法的认为是bug,说加法的认为是正常",
+        "这个游戏感觉是纯随机,纯随机回归期望概率挺大的"
+      ]
+    },
+    "overall_tone": {
+      "positive": "积极认可，玩家对真红特效表现、999夜玩法创意和不歪池机制表达高度满意，对官方快速响应bug的态度持肯定态度",
+      "negative": "失望与不满并存，玩家对真红强度失衡、皮肤暗改和移动端闪退表达强烈不满，对官方冷处理态度感到失望",
+      "neutral": "理性分析为主，玩家从技术、数学和游戏设计角度进行客观讨论，对bug成因和角色强度保持相对中立的比较态度"
+    }
+  }
+}

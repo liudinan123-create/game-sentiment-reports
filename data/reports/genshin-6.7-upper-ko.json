@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "原神",
+    "version": "6.7",
+    "phase": "上半",
+    "character": "桑多涅 / 茜特菈莉",
+    "date_start": "2026-07-01",
+    "date_end": "2026-07-20",
+    "platform": "YouTube（韩语）",
+    "generated_at": "2026-07-08T15:10:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 2533,
+    "sentiments": {
+      "positive": {
+        "count": 446,
+        "percent": 17.6
+      },
+      "negative": {
+        "count": 144,
+        "percent": 5.7
+      },
+      "neutral": {
+        "count": 1943,
+        "percent": 76.7
+      }
+    },
+    "keywords": [
+      {
+        "name": "角色/剧情",
+        "count": 229
+      },
+      {
+        "name": "玩法/机制",
+        "count": 197
+      },
+      {
+        "name": "卡池/抽卡",
+        "count": 183
+      },
+      {
+        "name": "竞品/对比",
+        "count": 160
+      },
+      {
+        "name": "画面/美术",
+        "count": 154
+      },
+      {
+        "name": "音乐/配音",
+        "count": 139
+      },
+      {
+        "name": "版本/更新",
+        "count": 112
+      },
+      {
+        "name": "运营/服务",
+        "count": 65
+      },
+      {
+        "name": "付费/商业",
+        "count": 52
+      },
+      {
+        "name": "优化/体验",
+        "count": 52
+      }
+    ],
+    "topics": [
+      {
+        "name": "角色/剧情",
+        "total": 229,
+        "positive_percent": 20.5,
+        "negative_percent": 8.7,
+        "neutral_percent": 70.7
+      },
+      {
+        "name": "玩法/机制",
+        "total": 197,
+        "positive_percent": 20.3,
+        "negative_percent": 11.2,
+        "neutral_percent": 68.5
+      },
+      {
+        "name": "卡池/抽卡",
+        "total": 183,
+        "positive_percent": 27.9,
+        "negative_percent": 9.8,
+        "neutral_percent": 62.3
+      },
+      {
+        "name": "竞品/对比",
+        "total": 160,
+        "positive_percent": 44.4,
+        "negative_percent": 5.6,
+        "neutral_percent": 50.0
+      },
+      {
+        "name": "画面/美术",
+        "total": 154,
+        "positive_percent": 65.6,
+        "negative_percent": 7.1,
+        "neutral_percent": 27.3
+      },
+      {
+        "name": "音乐/配音",
+        "total": 139,
+        "positive_percent": 20.1,
+        "negative_percent": 7.9,
+        "neutral_percent": 71.9
+      },
+      {
+        "name": "版本/更新",
+        "total": 112,
+        "positive_percent": 29.5,
+        "negative_percent": 8.9,
+        "neutral_percent": 61.6
+      },
+      {
+        "name": "运营/服务",
+        "total": 65,
+        "positive_percent": 21.5,
+        "negative_percent": 10.8,
+        "neutral_percent": 67.7
+      },
+      {
+        "name": "付费/商业",
+        "total": 52,
+        "positive_percent": 23.1,
+        "negative_percent": 15.4,
+        "neutral_percent": 61.5
+      },
+      {
+        "name": "优化/体验",
+        "total": 52,
+        "positive_percent": 28.8,
+        "negative_percent": 19.2,
+        "neutral_percent": 51.9
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "",
+    "sentiments": {
+      "positive": {
+        "summary": "韩语区正面评论以月亮地图（Moon map）的品质革命为核心惊叹点，多名玩家表示做世界任务时张嘴赞叹是第一次，认为原神用Unity也能做到这种程度后理解了为何社区会问「这真的是原神吗」。鸣潮与原神的优化对比中原神优势被承认——玩家指出他们优化做得真好，真是God Hoyo，月亮地图与现有原神完全不在一个水平，地图也更大但更新容量却没差多少。哥伦比娜与那维莱特的关系性作为剧情伏笔被讨论，「月之神的拳头足以让最高审判官慌张」的评论引发共鸣。七七替代可能性被提及——「哇可以用七七代替！原石不够所以抽起来很烦」。高跟鞋不如芭蕾鞋的设计提案出现——「穿芭蕾鞋之类的会更漂亮更搭」。阿廖沙的可爱设计获得好评——「阿廖沙！太可爱了！我喜欢他的设计！」。希特拉莉和欧洛伦的流畅动画被评为原神最高水准，「米哈游明显有偏爱」被指出。星穹铁道开始于月球探索，米哈游世界观整合期待感被表达。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "月亮地图品质革命与赞叹",
+            "detail": "做世界任务时张嘴赞叹是第一次，与现有原神完全不在一个水平但容量没差别",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "鸣潮vs原神优化对比（原神优势）",
+            "detail": "他们优化做得真好真是God Hoyo，月亮地图品质与现有原神完全不可比",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "哥伦比娜/那维莱特关系剧情伏笔",
+            "detail": "月之神的拳头足以让最高审判官慌张，那维是执政官级vs三月女神力量全部继承的准世界观最强者",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "韩语区负面评论集中在竞品压力下原神改善延迟的不满——多名玩家指出原神终于感受到了其他抽卡游戏的压力并开始认真了，认为早该如此。奖励问题是核心不满——「仍然无法说服我重新玩这个游戏，他们的奖励还是垃圾」的批评被提出。鸣潮倒逼原神的现实被承认——「不得不说，鸣潮在推动标准并迫使原神改进」，但这引申为原神自己做不到的自卑感。声优演技被批评——「配音有点烂，和场景不搭，她听起来一点都不慌张」。斯库克垃圾的角色平衡批评和「我讨厌芙宁娜/纳西妲/那维莱特/钟离」这种对未持有角色的情绪性拒绝出现。「我确信你不会说希诺宁是万叶的好替代，减抗少了4%，功能性只有三分之一」的精确数值对比批评被提出。艾斯可菲耶抽卡运不满和「这些角色我一个都没有纯粹因为运气太烂」的抽卡运系统不满反复出现。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "竞品压力下改善延迟的不满",
+            "detail": "原神终于感受到其他抽卡游戏压力并开始认真了，早该如此",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "奖励垃圾批评",
+            "detail": "仍然无法说服我重新玩这个游戏，他们的奖励还是垃圾",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "鸣潮倒逼产生的自卑感",
+            "detail": "鸣潮在推动标准并迫使原神改进，引申为原神自己做不到的自卑感",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "韩语区中性评论以手机容量问题（37-74GB）为核心讨论点，多名玩家对「手机版要40GB？」「37.66GB是手游？」「手机49GB？这猪游戏什么鬼」表达对容量膨胀的惊讶。角色持有率统计引发高互动——芙宁娜7.5%未持有者和钟离最少持有群体的玩家们分享「兄弟我就是那8%没芙宁娜的人」的统计位置。动画改善的认知广泛存在但「都6年了？迟到总比不到好」这种对迟到改善的遗憾伴随其中。月球探索被解读为星穹铁道的开端，米哈游世界观整合期待感被表达。那维莱特/哥伦比娜关系问题和神之心脏/月之神伏笔作为剧情推测素材使用。凯瑟琳称呼旅行者为「我的女士」的细节和棱镜史莱姆伏笔成为伏线分析对象。优菈未培养和物理角色边缘化与角色使用率统计连接讨论。绝区零开发者可能帮忙的猜测持续，希特拉莉是米哈游宠爱的认知被共享。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "手机容量37-74GB膨胀讨论",
+            "detail": "手机要40GB？37.66GB是手游？49GB？这猪游戏什么鬼的惊讶",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "角色持有率统计互动",
+            "detail": "芙宁娜7.5%未持有者，钟离最少持有群体玩家分享统计位置",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "6年后动画改善承认与遗憾",
+            "detail": "都6年了？迟到总比不到好，对迟到改善的复杂感情",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/genshin-6.7-upper-ko-annotations.json"
+  },
+  "migration": {
+    "source_html": "原神-6.7上半-韩语_情感分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "이번에는 오히려 감탄했음. 진짜 달 맵을 보면 퀄리티가 기존 원신이랑은 비교도 안되는 수준（这次反而赞叹了。看月亮地图的话品质和现有原神完全不在一个水平）",
+        "애네 최적화 개잘함 진짜, 갓 호 요（他们优化做得真好，真是God Hoyo）",
+        "우와 치치 대신 써도 되겠다! 원석 부족해서 픽뚫내기 귀찮았는데（哇可以用七七代替！原石不够所以抽起来很烦）",
+        "하이힐 말구 발레슈즈 같은거 신었으면 더 이쁘고 잘 어울릴거 같은데（不穿高跟鞋而穿芭蕾鞋之类的会更漂亮更搭吧）",
+        "alyosha! he's so cute! i love his designs!（阿廖沙！太可爱了！我喜欢他的设计！）"
+      ],
+      "negative": [
+        "genshin finally feels the pressure from other gacha games and locked in for once（原神终于感受到其他抽卡游戏压力并认真了一次）",
+        "still not convincing me to play the game again. their rewards are still trash（仍然无法说服我重新玩这个游戏，他们的奖励还是垃圾）",
+        "hate to be the one to say it, but wuwa is pushing the standard and forcing genshin to improve（很不想说，但鸣潮在推动标准并迫使原神改进）",
+        "the voice acting is kinda shit lol dosnt match there state or what they are doing（配音有点烂，和他们的状态或正在做的事完全不搭）",
+        "i know for a fucking fact you did not just call xilonen a great replacement for kazuha with 4 percent less resistance shred（我确信你不会说希诺宁是万叶的好替代，减抗少了4%）"
+      ],
+      "neutral": [
+        "나온지가 몇년인데 모바일이 40기가임?（出来几年了手机版要40GB？）",
+        "엄 37.66gb가... 모바일겜?（嗯 37.66GB是...手游？）",
+        "after like what 6 years? better late then never ig（都6年了？迟到总比不到好吧）",
+        "bro me being that 8% who doesnt own furina（兄弟我就是那8%没芙宁娜的人）",
+        "everybody lets thank wuwa for finally making genshin actually do something（大家都来感谢鸣潮终于让原神真正做点什么）"
+      ]
+    },
+    "overall_tone": {
+      "positive": "惊艳且带有对原神终于发挥潜力的欣慰，优化优势是核心满足感",
+      "negative": "不满与竞品压力承认混杂，对原神被动态度的失望是核心",
+      "neutral": "好奇心与统计自我认知混杂，容量问题和迟到改善是潜在不安"
+    }
+  }
+}
