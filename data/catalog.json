@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-14",
+  "updated_at": "2026-08-17",
   "timezone": "Asia/Shanghai",
   "games": [
     {
@@ -173,7 +173,13 @@
               "type": "reprint"
             }
           ],
-          "reports": {},
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "data_source": "data/reports/nte-1.3-upper-zh.json",
+              "download_name": "异环-1.3-上半-B站_舆情分析报告.html"
+            }
+          },
           "confidence": "official",
           "sources": [
             {

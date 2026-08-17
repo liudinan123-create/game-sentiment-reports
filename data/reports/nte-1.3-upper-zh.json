@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "异环",
+    "version": "1.3",
+    "phase": "上半",
+    "character": "残虹 / 娜娜莉",
+    "date_start": "2026-08-13",
+    "date_end": "2026-08-17",
+    "platform": "B站",
+    "generated_at": "2026-08-17T00:25:00+08:00"
+  },
+  "analysis": {
+    "total_comments": 22333,
+    "sentiments": {
+      "positive": {
+        "count": 3216,
+        "percent": 14.4
+      },
+      "negative": {
+        "count": 4287,
+        "percent": 19.2
+      },
+      "neutral": {
+        "count": 14830,
+        "percent": 66.4
+      }
+    },
+    "keywords": [
+      {
+        "name": "剧情内容",
+        "count": 6550
+      },
+      {
+        "name": "版本内容",
+        "count": 6292
+      },
+      {
+        "name": "角色讨论",
+        "count": 3099
+      },
+      {
+        "name": "社区生态",
+        "count": 2515
+      },
+      {
+        "name": "商业化",
+        "count": 1129
+      },
+      {
+        "name": "视觉表现",
+        "count": 827
+      },
+      {
+        "name": "技术体验",
+        "count": 668
+      },
+      {
+        "name": "养成资源",
+        "count": 505
+      },
+      {
+        "name": "运营服务",
+        "count": 418
+      },
+      {
+        "name": "竞品讨论",
+        "count": 330
+      }
+    ],
+    "topics": [
+      {
+        "name": "剧情内容",
+        "total": 6550,
+        "positive_percent": 12.1,
+        "negative_percent": 27.8,
+        "neutral_percent": 60.1
+      },
+      {
+        "name": "版本内容",
+        "total": 6292,
+        "positive_percent": 14.5,
+        "negative_percent": 17.6,
+        "neutral_percent": 67.9
+      },
+      {
+        "name": "角色讨论",
+        "total": 3099,
+        "positive_percent": 17.1,
+        "negative_percent": 13.4,
+        "neutral_percent": 69.5
+      },
+      {
+        "name": "社区生态",
+        "total": 2515,
+        "positive_percent": 6.0,
+        "negative_percent": 10.9,
+        "neutral_percent": 83.1
+      },
+      {
+        "name": "商业化",
+        "total": 1129,
+        "positive_percent": 25.6,
+        "negative_percent": 13.8,
+        "neutral_percent": 60.6
+      },
+      {
+        "name": "视觉表现",
+        "total": 827,
+        "positive_percent": 24.5,
+        "negative_percent": 11.6,
+        "neutral_percent": 63.8
+      },
+      {
+        "name": "技术体验",
+        "total": 668,
+        "positive_percent": 10.0,
+        "negative_percent": 40.7,
+        "neutral_percent": 49.3
+      },
+      {
+        "name": "养成资源",
+        "total": 505,
+        "positive_percent": 36.6,
+        "negative_percent": 6.5,
+        "neutral_percent": 56.8
+      },
+      {
+        "name": "运营服务",
+        "total": 418,
+        "positive_percent": 9.8,
+        "negative_percent": 19.9,
+        "neutral_percent": 70.3
+      },
+      {
+        "name": "竞品讨论",
+        "total": 330,
+        "positive_percent": 13.0,
+        "negative_percent": 8.5,
+        "neutral_percent": 78.5
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "异环1.3以残虹建模强度、泊暮区探索和排球之星趣味获赞，但残虹执迷度审讯剧情争议叠加移动端与活动故障，最需警惕付费信任流失。",
+    "sentiments": {
+      "positive": {
+        "summary": "正向反馈以残虹的倾陷配队强度与建模演出为核心，薄荷在排球之星的救球扣杀、大运挡网等玩法梗及泊暮区驾驶探索进一步放大版本爽感。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "残虹角色塑造与视觉设计",
+            "detail": "玩家认可残虹坏女人定位的辨识度，集中称赞其身材建模、原皮与家居服、皮衣等时装气质，以及招募动画和技能特效；部分玩家也能将对角色的喜爱与其剧情赎罪问题分开看待。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "残虹倾陷队与专武收益",
+            "detail": "残虹短轴爆发、强制倾陷和负面效果获得较多肯定，搭配达芙蒂尔、早雾、安魂曲等角色的配队讨论活跃；专武暴击收益及复用白藏倒带被认为能明显降低成型门槛。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "排球之星与薄荷动作包",
+            "detail": "玩家掌握发球、扣杀、救球和主控视角后普遍反馈玩法上头，薄荷的发扣球手感与救球能力尤受认可，并产生联机和PVP延展期待。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "negative": {
+        "summary": "残虹六级执迷度剧情将刑讯扇耳光置于送礼解锁链路，叠加排球之星人机与移动端交互故障，成为1.3负面核心。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "残虹六级执迷度审讯剧情",
+            "detail": "玩家并非普遍反对残虹受惩罚，而是集中质疑将刑讯扇耳光安排在抽取角色、赠礼提升执迷度后解锁的剧情中；幻影与本体切割、玩家只能旁观，以及同居互动缩减，使残虹厨、反对残虹者和付费玩家均认为自身诉求落空。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "1.3累计体验债与移动端优化",
+            "detail": "负面声量并非只由残虹剧情触发，自动轮换卡池、技能问题、手机端卡顿掉帧与按键失灵等旧账在版本上线后集中爆发，部分玩家由失望转向停止付费或退游观望。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "排球之星人机与操作指引",
+            "detail": "玩家集中批评队友AI发呆或撞网、扣球时机缺乏明确教学、默认视角和自动扣球设置不合理，移动端还存在按键无响应、球粘手或卡车、镜头飞移等问题；熟练后难度下降，但重复关卡与时间成本仍被认为折磨。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "中性讨论集中于残虹的命座配装、达芙蒂尔与安魂曲配队，以及沙滩排球接发扣球机制，整体以求解、攻略交流和剧情设定核对为主。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "残虹资源规划与驱动块配装",
+            "detail": "玩家主要询问拉满成本、零氪抽取预期、直伤或浊燃路线，以及咒伤、双暴、攻击增伤和环合值等驱动块属性取舍。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 2,
+            "title": "异环可玩性与达芙蒂尔替代",
+            "detail": "大量互动以“能否玩异环、能否玩残虹”的社区梗展开，同时穿插没有达芙蒂尔时如何替代、残虹是否值得投入等实际求助。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          },
+          {
+            "rank": 3,
+            "title": "残虹命座与主C配队",
+            "detail": "讨论围绕残虹一命和专武的补取价值，以及达芙蒂尔、早雾、伊洛伊、九原、浔、薄荷等队友的搭配与深渊通关需求。",
+            "count": null,
+            "share_percent": null,
+            "quotes": []
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [],
+    "download_url": "data/report-data/nte-1.3-upper-zh-annotations.json"
+  },
+  "migration": {
+    "source_html": "异环1.3_舆情分析报告.html",
+    "method": "legacy-html-extraction-v1",
+    "notes": "旧报告未明确关联代表评论与各TOP3，未自动错配。",
+    "unmapped_quotes": {
+      "positive": [
+        "薄荷这动作包真的用起来好爽,不管是发球还是扣球体感真的特别爽特别有手感,救球还吊",
+        "排球玩明白了真上头啊,啥时候开pvp模式",
+        "只能说残虹的专武是真的牛逼,什么叫我只升到40级就能白拿30%的暴击啊?并且在之前养的白藏,残虹居然能完美穿上白藏的倒带。完全没有刷新倒带的必要,直接毕业了说是(并且玩起来也是大号白藏的感觉,并且白藏的很多缺点也没了)",
+        "残虹真的是异环第一个让我有感觉的角色,从小羊泳装到妮夏建模开始,我感觉异环美工有点开智了",
+        "爬楼那一段确实捞,但是进雾巢后那一段给到夯好吗?"
+      ],
+      "negative": [
+        "不是说你不能审讯,但你把这段放进好感剧情是什么意思?",
+        "开篇爬楼的剧情太长了,快一个小时的量中间没有剧情就是重复找电视关电视,偶尔看看小纸条,还没开始正片先把耐心磨了一半。",
+        "双花并蒂那个异向委托不止有刷新不出怪的bug,同时还会出现怪一直刷新的bug,刚放俩技能怪就刷新,没招了。(详情可见我主页视频)",
+        "操作手感稀烂,没有足够的玩法指引,垃圾ai,移动端体验最差的一集,我云游戏时长都要被这东西耗不知道多少",
+        "夸张喔 我除了娜娜莉欧了点提前出了皮肤 后面全是保底+没皮肤+武器大保底 太黑了 杀熟啊这游戏"
+      ],
+      "neutral": [
+        "残虹一命值得补吗,0命达芙,1命早雾,01的161",
+        "说到底 残红本体和你抽到的那个残红压根不是同一个人 制作组在前瞻就说的很明白了",
+        "主控选啥子猫,队友选主角,主角把扣球发球拉满就好了",
+        "所以说不能切人是bug吗,我还以为是剧情需要"
+      ]
+    },
+    "overall_tone": {
+      "positive": "",
+      "negative": "",
+      "neutral": ""
+    }
+  }
+}
