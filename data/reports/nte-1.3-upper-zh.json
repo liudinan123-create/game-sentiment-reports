@@ -12,6 +12,13 @@
   },
   "analysis": {
     "total_comments": 23694,
+    "video_metrics": {
+      "video_count": 433,
+      "total_views": 16695837,
+      "total_comments": 145586,
+      "updated_at": "2026-08-17",
+      "source": "B站搜索·8月13日·1.3非官方"
+    },
     "sentiments": {
       "positive": {
         "count": 3108,
