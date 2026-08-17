@@ -186,7 +186,7 @@
             },
             "ja": {
               "status": "ready",
-              "data_source": "data/reports/nte-1.3-upper-ja.json",
+              "data_source": "data/reports/nte-1.3-upper-ja.json?v=20260817-top10",
               "download_name": "异环-1.3-上半-日语_舆情分析报告.html"
             },
             "ko": {

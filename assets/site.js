@@ -1,4 +1,5 @@
 const CATALOG_URL = "data/catalog.json";
+const CACHE_TOKEN = Date.now().toString(36);
 const LANGUAGES = [
   ["zh", "中文"],
   ["en", "EN"],
@@ -34,6 +35,11 @@ function escapeHtml(value = "") {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+}
+
+function freshDataUrl(value) {
+  if (!value) return value;
+  return `${value}${value.includes("?") ? "&" : "?"}_=${CACHE_TOKEN}`;
 }
 
 function beijingToday() {
@@ -127,8 +133,9 @@ function reportButtons(phase) {
       return `<span class="language-missing">${label}待补</span>`;
     }
     const dataSource = report.data_source || "";
+    const freshSource = freshDataUrl(dataSource);
     const rawHref = dataSource
-      ? `report-viewer.html?data=${encodeURIComponent(dataSource)}`
+      ? `report-viewer.html?data=${encodeURIComponent(freshSource)}`
       : report.href;
     const href = escapeHtml(rawHref);
     const filename = escapeHtml(report.download_name || `${phase.version}-${phase.phase}-${label}-舆情报告.html`);
@@ -270,8 +277,8 @@ async function downloadReport(button) {
     let blob;
     if (dataSource) {
       const [templateResponse, dataResponse] = await Promise.all([
-        fetch("report-viewer.html"),
-        fetch(dataSource),
+        fetch(freshDataUrl("report-viewer.html"), { cache: "no-store" }),
+        fetch(freshDataUrl(dataSource), { cache: "no-store" }),
       ]);
       if (!templateResponse.ok || !dataResponse.ok) {
         throw new Error(`HTTP ${templateResponse.status}/${dataResponse.status}`);
