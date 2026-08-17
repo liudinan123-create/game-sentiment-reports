@@ -8,7 +8,7 @@
     "date_start": "2026-08-13",
     "date_end": "2026-08-14",
     "platform": "YouTube",
-    "generated_at": "2026-08-17T16:09"
+    "generated_at": "2026-08-17T16:50"
   },
   "analysis": {
     "total_comments": 1557,
@@ -35,116 +35,116 @@
     },
     "keywords": [
       {
-        "name": "多语言短评与表情反应",
+        "name": "商业化",
+        "count": 344
+      },
+      {
+        "name": "社区生态",
         "count": 308
       },
       {
-        "name": "1.3版本角色、画面与资产综合讨论",
-        "count": 304
+        "name": "视觉表现",
+        "count": 215
       },
       {
-        "name": "住宅与角色卡池高额消费",
-        "count": 152
+        "name": "剧情内容",
+        "count": 212
       },
       {
-        "name": "水上摩托与泳装盲盒获取争议",
-        "count": 143
+        "name": "角色讨论",
+        "count": 155
       },
       {
-        "name": "残虹与鸣潮角色相似争议",
+        "name": "竞品讨论",
         "count": 91
       },
       {
-        "name": "残虹角色魅力与战斗演出",
-        "count": 83
+        "name": "其他讨论",
+        "count": 89
       },
       {
-        "name": "残虹羁绊剧情惩罚争议",
-        "count": 82
-      },
-      {
-        "name": "残虹罪责与洗白争议",
-        "count": 81
-      },
-      {
-        "name": "真红首发卡池与营收下滑",
+        "name": "运营服务",
         "count": 66
       },
       {
-        "name": "女性角色外观与衣装吸引力",
-        "count": 63
+        "name": "版本内容",
+        "count": 47
+      },
+      {
+        "name": "战斗体验",
+        "count": 30
       }
     ],
     "topics": [
       {
-        "name": "多语言短评与表情反应",
+        "name": "商业化",
+        "total": 344,
+        "positive_percent": 43.3,
+        "negative_percent": 28.2,
+        "neutral_percent": 28.5
+      },
+      {
+        "name": "社区生态",
         "total": 308,
         "positive_percent": 63.0,
         "negative_percent": 7.5,
         "neutral_percent": 29.5
       },
       {
-        "name": "1.3版本角色、画面与资产综合讨论",
-        "total": 304,
-        "positive_percent": 46.4,
-        "negative_percent": 18.1,
-        "neutral_percent": 35.5
+        "name": "视觉表现",
+        "total": 215,
+        "positive_percent": 47.9,
+        "negative_percent": 17.7,
+        "neutral_percent": 34.4
       },
       {
-        "name": "住宅与角色卡池高额消费",
-        "total": 152,
-        "positive_percent": 38.2,
-        "negative_percent": 36.8,
-        "neutral_percent": 25.0
+        "name": "剧情内容",
+        "total": 212,
+        "positive_percent": 34.9,
+        "negative_percent": 22.6,
+        "neutral_percent": 42.5
       },
       {
-        "name": "水上摩托与泳装盲盒获取争议",
-        "total": 143,
-        "positive_percent": 47.6,
-        "negative_percent": 21.0,
-        "neutral_percent": 31.5
+        "name": "角色讨论",
+        "total": 155,
+        "positive_percent": 55.5,
+        "negative_percent": 11.6,
+        "neutral_percent": 32.9
       },
       {
-        "name": "残虹与鸣潮角色相似争议",
+        "name": "竞品讨论",
         "total": 91,
         "positive_percent": 13.2,
         "negative_percent": 31.9,
         "neutral_percent": 54.9
       },
       {
-        "name": "残虹角色魅力与战斗演出",
-        "total": 83,
-        "positive_percent": 71.1,
-        "negative_percent": 4.8,
-        "neutral_percent": 24.1
+        "name": "其他讨论",
+        "total": 89,
+        "positive_percent": 42.7,
+        "negative_percent": 19.1,
+        "neutral_percent": 38.2
       },
       {
-        "name": "残虹羁绊剧情惩罚争议",
-        "total": 82,
-        "positive_percent": 54.9,
-        "negative_percent": 17.1,
-        "neutral_percent": 28.0
-      },
-      {
-        "name": "残虹罪责与洗白争议",
-        "total": 81,
-        "positive_percent": 30.9,
-        "negative_percent": 30.9,
-        "neutral_percent": 38.3
-      },
-      {
-        "name": "真红首发卡池与营收下滑",
+        "name": "运营服务",
         "total": 66,
         "positive_percent": 36.4,
         "negative_percent": 16.7,
         "neutral_percent": 47.0
       },
       {
-        "name": "女性角色外观与衣装吸引力",
-        "total": 63,
-        "positive_percent": 46.0,
-        "negative_percent": 17.5,
-        "neutral_percent": 36.5
+        "name": "版本内容",
+        "total": 47,
+        "positive_percent": 57.4,
+        "negative_percent": 4.3,
+        "neutral_percent": 38.3
+      },
+      {
+        "name": "战斗体验",
+        "total": 30,
+        "positive_percent": 73.3,
+        "negative_percent": 10.0,
+        "neutral_percent": 16.7
       }
     ]
   },
@@ -369,13 +369,13 @@
         "alpha's daughter and hiyuki's little sister i guess",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "as a gacha player i'd say her gameplay: cartethiya and camellya her looks : hiyuki and alpha her personality: remielle and fadia her clothes : hiyuki + suisui totally my opinion ✌️",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "seriously tho... she's so fine",
@@ -393,13 +393,13 @@
         "why she remind me of alpha from pgr",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "what's that sound, it's my annuliths flying away!",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "surprised no one said acheron from hsr",
@@ -411,7 +411,7 @@
         "vergil , you, again?! 😢",
         "neutral",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i am sorry but i have enough gachas",
@@ -435,61 +435,61 @@
         "raiden x hiyuki",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "she looks so different here than in her actual gameplay... i'm still waiting for a fan animation with this format of her. they could have done great with the intro... gameplay absolute fire though",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "darling in the franxx tree",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "why do i hear a storm that is approaching",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "❤❤❤love you",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "her blade reminds me of my yakuza construct and her features of my miko samurai",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i am her father but her grandfather is vergil",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "is she motivated?",
         "neutral",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "just realized that the graphics is as vibrant as czn's while mixed with wuwa elements for the openworld. not bad",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "she's the fusion of wuwa, absolute best",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "female sephiroth 👀",
@@ -507,13 +507,13 @@
         "lack creativity ahh gameplay",
         "negative",
         "0.89",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "holy ai",
         "negative",
         "0.89",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "ホトリの時もそうだけど、刀の音が戦ってて気持ちいい",
@@ -549,19 +549,19 @@
         "攻撃モーションかっこよすぎだろ! マジぜったいお迎えする",
         "positive",
         "0.94",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "かっこいい女性好きすぎる モーション良き イマジナリー残虹なのが一番驚いたけどw",
         "positive",
         "0.94",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "おいなんだこいつカッコよすぎだろ",
         "positive",
         "0.9",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "静と動きの演出が 使っていてとても気持ちよさそう 音もとても良い感じ! 流行りの魅せ方もきちんと 取り入れてて流石だなと思った",
@@ -573,13 +573,13 @@
         "かっこよすぎるな",
         "positive",
         "0.9",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "でっけえ刀かっこいい",
         "positive",
         "0.9",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "待ちきれなくてお揃いの水着買ってきた",
@@ -591,7 +591,7 @@
         "声優が好きすぎるから絶対お迎えする",
         "positive",
         "0.9",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "19日が待ち遠しいぜほんまに...",
@@ -603,19 +603,19 @@
         "かっこよすぎるし、剣技が美しい... これはほしすぎる",
         "positive",
         "0.94",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "キャラデザがいいし 刀のモーションもかっこよすぎる お迎え準備はできております残虹様!",
         "positive",
         "0.94",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "とりあえずゲットしたい。 爽快感高そう",
         "positive",
         "0.94",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "残虹良すぎる!",
@@ -627,7 +627,7 @@
         "刀=女性はもうかっこいい",
         "positive",
         "0.9",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "可愛がる︎💕︎︎",
@@ -663,7 +663,7 @@
         "i love it!❤️🥀",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "何がとはいわんけどめっちゃ見えててめちゃくちゃ笑ってしまった",
@@ -675,13 +675,13 @@
         "0:46 nice",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "刀の出し入れは貫通&顕現タイプか",
         "neutral",
         "0.83",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "これはもう入手やろ",
@@ -693,13 +693,13 @@
         "絶対お迎えするからね!まってろ!",
         "positive",
         "0.9",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "これは野太刀かな?とりあえずカッコよすぎる",
         "positive",
         "0.94",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "もう1回戦いたい",
@@ -711,7 +711,7 @@
         "タギドタギド タギタギ タギド",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "0:14 ダフォディールが来たと思ったら、雑魚が来て残念がってるのかな",
@@ -723,7 +723,7 @@
         "イイね。お迎えしよう",
         "positive",
         "0.9",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "もちろん、ザンコウの美しい剣さばきが好きです。私は彼の正式な夫なので、彼が好きなのです🥰👍🏻",
@@ -741,7 +741,7 @@
         "刀とポニテというだけで引く価値がある",
         "positive",
         "0.94",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "執着度とかそんなんヒソ、いやなんでもないです。 とても妖艶で美しい女性!",
@@ -759,7 +759,7 @@
         "イマジナリー残紅の街イベント追加しろ委員会",
         "neutral",
         "0.83",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "ダフォディールのためにイナンナ裏切って利害の一致で共闘するだけで、本人は1ミリたりとも改心してなかったら嬉しい",
@@ -771,7 +771,7 @@
         "オババの声すき",
         "positive",
         "0.9",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "ナナリもいるからどっちひこう そうだ、課金すればいいじゃない",
@@ -807,7 +807,7 @@
         "鳴潮のツバキとカルテジア足した感じのモーションでイイ🥰",
         "positive",
         "0.94",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "刀使うキャラっていつも桜の木の下で刀構えてるな",
@@ -819,7 +819,7 @@
         "nte版緋雪や!",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "眼帯のonoff機能を付けてほしい",
@@ -849,7 +849,7 @@
         "0:44 arigatogozaimasu",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "残虹好感度到达6级就会触发被扇耳光的动画",
@@ -945,7 +945,7 @@
         "草 警衛太神了w",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "1.0闆娘被擋,1.3殘紅又被擋😂😂😂",
@@ -957,7 +957,7 @@
         "警衛真的是神!當初連老闆娘時停都能趕出去",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "潯:(看戲中...)",
@@ -969,7 +969,7 @@
         "2.0版本 ss級角色 校園警衛😂",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "開玩笑人家可是 成太郎 老闆娘時間暫停都不放在眼裡了區區隱形算什麼😂😂😂",
@@ -993,7 +993,7 @@
         "這警衛比藏經閣的看書人道階還高",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "這應該會修,當初時停都能抓也是被改掉...",
@@ -1011,7 +1011,7 @@
         "1.0=承太郎 1.3=墓誌銘",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "保安哥!又是你!上次擋老闆娘進學校的也是你!",
@@ -1023,7 +1023,7 @@
         "這警衛到底是何方神聖?!",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "據野史記載,幾乎沒有外來異象敢在這個學校的早上出現,但其實不是沒有,而是都被泯除了(不招個實力比肩etd的警衛阿伯,如何保護海特洛學生的安全🎉",
@@ -1035,31 +1035,31 @@
         "校園傳說之七級異象:門口的警衛大叔",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "警衛版本概念神",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "v級異象----警衛xd",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "警衛:你隱身不代表妳身上的騷味也跟著隱身😂 網友:好好好好好,你這警衛這麼玩是吧?",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "這警衛強到靠北😂",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "保安:我是個保安,保安保安,保衛一方平安",
@@ -1089,19 +1089,19 @@
         "果然能當警衛的個個都是絕世高人",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "門衛還是太權威了",
         "positive",
         "0.9",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "不愧是拒絕嘉豪進入學校的警衛大叔",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "你大爺永遠是你大爺😂",
@@ -1113,13 +1113,13 @@
         "警衛滿配備來的,還有紅外線偵測",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "這警衛其實是規則類異象吧",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "大爺還是你大爺😂",
@@ -1143,7 +1143,7 @@
         "john等級的警衛😭",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "你大爺永遠是你大爺",
@@ -1161,7 +1161,7 @@
         "依舊規則之力",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "也就只有薄荷羈遇事件可以打贏警衛了😂😂",
@@ -1179,7 +1179,7 @@
         "校園警衛真神",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "警衛是概念神吧😂😂",
@@ -1191,13 +1191,13 @@
         "警衛先係隱藏boss!",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "出個s級警衛吧w",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "只有更新後的老闆娘能夠破除這招。",
@@ -1209,7 +1209,7 @@
         "警衛才是隱藏 boss 吧😂",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "老闆娘終於贏回一局😂",
@@ -1221,7 +1221,7 @@
         "警衛是 規則性異能 只要進入範圍都會出現提示 太強了",
         "positive",
         "0.94",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "一切皆為異象",
@@ -1251,13 +1251,13 @@
         "應該過一陣子就會被修了,跟潯一樣",
         "neutral",
         "0.83",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "警衛:不管誰來都不能隨意進入",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "同样会隐身当然知道谁在隐身。",
@@ -1281,13 +1281,13 @@
         "估计这个大爷之后又要被修了",
         "neutral",
         "0.83",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "真心覺得就別修了 當個異象彩蛋還比較好玩",
         "positive",
         "0.94",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "這門衛有火眼金睛吧?",
@@ -1311,7 +1311,7 @@
         "時停都能被抓了 怎麼會覺得隱身不會w",
         "positive",
         "0.94",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "原來是墓誌銘跟the would 要不來個 d4c或made in heaven",
@@ -1335,7 +1335,7 @@
         "警卫大概率是个异能者吧",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "所以警衛什麼時候進池,比潯還強的時間異能,以及比異象還厲害的探測異能",
@@ -1353,7 +1353,7 @@
         "怎麼換了警衛還是有超能力啊😅",
         "neutral",
         "0.83",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "時停的老闆都能抓的存在 你覺得呢",
@@ -1371,19 +1371,19 @@
         "誒說好的被開了勒(x",
         "neutral",
         "0.83",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "現在你們知道零號異象為什麼不敢直接現身海特洛了",
         "positive",
         "0.94",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "2.0新角色 門衛:喬魯諾.喬巴拿",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "你大爺還就真比etd跟異象強😂",
@@ -1401,7 +1401,7 @@
         "警衛異象等級:10 能否被泯除:否",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "到底開發團隊哪個人這麼無聊,要加上一個不可見的警衛妨礙玩家。",
@@ -1455,7 +1455,7 @@
         "買房子從來不是用裡面的東西,而是有老婆住",
         "positive",
         "0.94",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "每個房子都是這樣的,我買天駿公閣之前就已經先讓安魂曲上去跑步機",
@@ -1473,7 +1473,7 @@
         "有停車位我覺得就值了",
         "positive",
         "0.9",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "住久了,可以成為我的房產嗎?美麗國可以的😂",
@@ -1485,25 +1485,25 @@
         "這bog修了才公平",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "其他房子也是, 800萬的房子游泳池, 只要進去房子內, 邀請角色後然後就能使用動作",
         "neutral",
         "0.83",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "耶,又有1600了",
         "positive",
         "0.9",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "這麼一看真紅還挺有錢",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "家豪的含金量還在提升😅",
@@ -1515,7 +1515,7 @@
         "800萬的房子也跟現在一樣~最後還是改了><~",
         "neutral",
         "0.83",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "快去申請逆權侵佔 反正沒有業主的",
@@ -1551,13 +1551,13 @@
         "三國的音樂!",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "種菜被修好了",
         "positive",
         "0.9",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "說實話700萬多了,這房子真正要的是種田賺錢,其餘的沒啥屁用😅",
@@ -1593,7 +1593,7 @@
         "你這樣傳出來,官方的大手要伸過來了",
         "neutral",
         "0.83",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "🤔这是什么游戏啊?",
@@ -1605,13 +1605,13 @@
         "蹦沙卡拉卡蹦蹦蹦",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "從此各位都是血鴉了",
         "positive",
         "0.9",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "aキャラを輝かしてくれのは嬉しい",
@@ -1623,7 +1623,7 @@
         "犬の次はアドレーさんか!",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "残虹マジでデザイン良すぎてnte初の課金も考えてるんですけど、普通に異晶買うかキャラ専用の10連サイコロ買うのとどっちがいいですかね",
@@ -1635,7 +1635,7 @@
         "アドレーが!マジか嬉しい、、",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "このゲーム影に隠れてたaランクキャラが輝くタイミングが来るから本当に好き",
@@ -1653,13 +1653,13 @@
         "アドレーが輝くのか!",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "アドレーそこそこ育ています🎉",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "アドレーさん、残虹との相性が良すぎる。もはや残虹専用のアタッチメントと言っても良いくらい。",
@@ -1671,7 +1671,7 @@
         "アドレーさん初心者の頃めっちゃ使ってたから嬉しい",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "ようやくシールダーが最適候補に入ってきた!ゲーム下手としてはありがたい限り",
@@ -1689,7 +1689,7 @@
         "アドレー使いたくて残紅使うまである",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "あああああ育てるのが追いつかない... アドレーなんてガチャで出まくって凸して放置ですわ...",
@@ -1731,7 +1731,7 @@
         "ここに来てアドレーくるか",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "このガチャでゲットできるスキン?好きすぎるんだけどナナリも引きたいからどうしよう😭",
@@ -1743,7 +1743,7 @@
         "アドレーノータッチだわ育成しなきゃ",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "レクイエムサブアタになるんか・・・",
@@ -1779,7 +1779,7 @@
         "アドレーとか育ててないよー",
         "negative",
         "0.89",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "下父えぐない?そしてデカない?",
@@ -1821,19 +1821,19 @@
         "·第一抽就中了 娜娜莉皮肤~",
         "positive",
         "0.9",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "這些都是不值錢的東西,你抽多少好東西遊艇都是最後一抽,所以那些東西不值錢騙騙傻子還可以😊",
         "negative",
         "0.89",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "機率這種東西有差別的話,你賭博就不可能輸錢了",
         "neutral",
         "0.83",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "11抽出游艇,12抽出薄荷皮😂",
@@ -1845,13 +1845,13 @@
         "窮人的遊艇,富人的摩托艇",
         "neutral",
         "0.83",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "熟知識:918盲盒在那時也是暴率也是史上最高",
         "neutral",
         "0.83",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "我前幾次盲盒都保底,有點怕了。😅",
@@ -1941,7 +1941,7 @@
         "這機會不屬於你",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "超過百萬方斯就檢舉你 😑",
@@ -1971,7 +1971,7 @@
         "薄荷:好欸!",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "zankou: seeing things? me: yep, im seeing it alright.",
@@ -2007,7 +2007,7 @@
         "20 pulls and a dream! this is zero complaints on this 🙌",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "villains are always cool to have playable",
@@ -2031,13 +2031,13 @@
         "yessss a non censored version!",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i can't wait!",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "zankou combat showcase was absolute zankounema i love the samurai waifu of nte and she is badass indeed!",
@@ -2049,7 +2049,7 @@
         "1:11 that smile, that god damn smile",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "dev: how many references do you want in your playstyle zankou? zankou: yes",
@@ -2067,25 +2067,25 @@
         "her design is insane especially her sword, probably one of the best looking ōdachi i've seen(drip goes hard too)",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "the cameraman knew what they were doing, also the \"youre distracted\" made me laugh so hard😂",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "the way mint's face from the channel's thumbnail just showed up exactly on zankou's face at the end of the video killed me.",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "peak after peak after peak! ntpeak just keeps peaking!😍",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i've been waiting a long time for a camellya sp. and also i didn't expect them to make a mortenax blade sp this fast.",
@@ -2097,19 +2097,19 @@
         "where's that comment, may your win your 100/100",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "she's here omg 🔥 absolutely necessary angles no complains 🫡",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "she is dangerous i like that",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "can't wait to pull her. already have more than enough to guarantee her and her arc and have already prefarmed the materials to max her out.",
@@ -2121,19 +2121,19 @@
         "everthing about is pure masterpiece ❤❤❤ she is an absolute cinema!🎉❤❤❤",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "that feeling when the final boss joins your party without being nerfed!",
         "negative",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "damn her moves lowkie looks fire can't wait for release",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "hola bunos dias buenas tardes buenas noches hoy bengo a pedirles algo desde hace 3 meses juego nte y me a gustado especial su conducion sus carreteras es algo muy especial para mi pero no pude conseguir el porche 918 spyder es para que si se puede que buelva el carro pofavor lo nesesito era muy novato para conseguirlo me raian muy feliz gracias y espero que leean eato gracias y perdon por escribir mal",
@@ -2145,19 +2145,19 @@
         "already saving up for her! 😍",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "0:45 yes dev, very infomative details",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "that crazy face at the end holy",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "zankou will come home!",
@@ -2169,13 +2169,13 @@
         "man her attacks just look so cool",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "hotta knows what they're doing.",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "zankou es hermosa",
@@ -2187,43 +2187,43 @@
         "you’re finally here 🌸",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "gyaatt!",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "gyaaatt",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "absolute cinema 🙌",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "the angles were necessary for the plot 🔥🔥🔥",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "looking forward to all the bagel posts",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "c'est camellya 😮😮😮",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i can't wait to get both nanally and zankou soon!",
@@ -2241,13 +2241,13 @@
         "bloom for me! wither for me!",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "giant sword i love it <33",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "🥹 dafodill's evil sister, but i love that we also have playable antagonists 🫶🏻 excellent work, guys! ❤❤❤",
@@ -2265,31 +2265,31 @@
         "animations and graphic designs completely blowing the rest of the game out of the water at this point. hotta just keeps stepping up. so glad i joined this game",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "siuuuu lets goooo",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i liked her as a reoccurring villain",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "sankou i dont need her for fight only for her beauty what a character , thank you uncle nte",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "those are some dangerous angles 😳 😂",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "probablemente me quedaré con su piel básica de samurái y compraré el resto de las máscaras en la tienda para apoyar el juego, jaja.",
@@ -2301,31 +2301,31 @@
         "she'll be mine then i'll saving again for alphard! <3 nte best kind game!",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "absolute cinema",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "the game is a work of art",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "they release villains too? that's pretty cool",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "camellya, bianca: crepuscule/alpha: inverse crown and carty mashup.",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "the cutscene where is zankou cuts off the head of her alternative version, looks so good",
@@ -2337,13 +2337,13 @@
         "i love it!❤️🖤",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "daaaaaaaamn she looks very cool, combat seems amazing! im pulling for sure",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "very... yes",
@@ -2355,19 +2355,19 @@
         "i am ready! bring it on!",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "camera man needs a raise for those peak angles",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "perfect 🙌",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "oh yeah, she’s coming home no doubt about it",
@@ -2385,85 +2385,85 @@
         "peak! 🗻",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "mommy blade master. teach me your ways",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "this is what i've been waiting for, the zhankou character is awesome, i immediately gacha it until the 6th week 😊👍",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "0:46 this shot was essential to understand her gameplay, it seems",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "very nice!",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "damn that's a very nice camellya showcase. oh wait...wrong game",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "gotta say. nte knows what its audience wants, holy moly. take my money 💸",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "the cameraman needs a raise",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "omg she is perfect.",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "peak game ❤",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "thank you for keeping the game alive with quality content. there are some anime characters i'd like to see in this game: 1. esdeath from the anime 'akame ga kill!': akame, tatsumi, leone. 2. kyouka uzen from the anime 'mato seihei no slave': himari azuma. and high school dxd, issei hyoudou, rias gremory, akeno himejima. if these characters were added, all the servers would turn red and there would be a lot of players.",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "0:24 holy shrimp! 0:46 holy double shrimp!",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "so good",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "she is so cool omg",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "siapkan 😮",
@@ -2475,19 +2475,19 @@
         "i'm distracted? oh baby you have no idea...",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "animations are so cool🔥",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "nice camera movement",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "zankou gyatt is so good and zankou's swordmaster is so amazing",
@@ -2499,7 +2499,7 @@
         "uff bro",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "zanko is so cute! ❤️👍w~",
@@ -2511,7 +2511,7 @@
         "the wind is strong today",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "zankou looks like she will be a great asset to my team 😏",
@@ -2523,49 +2523,49 @@
         "que bendición🙏",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "yeah i need her",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "máster work. ❤",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "she's damn perfect!",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "que buen par de armas! 😱🥵🥵🥵",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i love nte",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "interesting angles",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "0:24 🔥❤ best angle!",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "thickest so far hope more are coming 😁",
@@ -2577,13 +2577,13 @@
         "that dress is hanging on for dear life in the thumbnail 10\\10",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "will the 2x offer return to the crystal shop? we need it, since version 1.3 is going to be packed with characters and vehicles",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "daffodil vs zankou: ❌ daffodil x zankou: ✔️",
@@ -2595,7 +2595,7 @@
         "1:15 that was abruptly cut ?",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "oh heck... mixture fighter!",
@@ -2607,37 +2607,37 @@
         "samurai illusion baddie = must pull",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "that end looks if she was a fighting game chacter's fight intro",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i feel some strange bao vibes. bao: moooommyyy! bark bark bark aaah!",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i'm heeeeere",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "and she's still crazy",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "there are some anime characters i would like to see in this game: 1. from the anime 'akame ga kill!': esdeath, akame, tatsumi, leone. 2. from the anime 'mato seihei no slave': kyouka uzen, himari azuma. and from 'high school dxd': issei hyoudou, rias gremory, akeno himejima.",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i almost regret wasting a massive ammount of resources to get shinku 200 pull outfit and a3... we didn't knew for sure zankou was a thing. and now we also have a lot of cool characters coming in future patches, such as blackbird, akane and nitsa, maybe alphard before 2.0? i'm gonna settle with a0+t1, and maybe the glider lol i'm not sure i'll be able to get a3 even with a rerun. nte wants me to waste all my resources every single patch! please, release some male units so that i can save more xd",
@@ -2649,7 +2649,7 @@
         "lady ❤",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "come home zankou",
@@ -2661,13 +2661,13 @@
         "she reminds me of sephiroth both got long swords both are insanely psychotic. and they both got white hair. and they're fighting styles, pretty similar.",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "1:00 omg i'm blooming.😅",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i think fadia and zankou would get along",
@@ -2679,25 +2679,25 @@
         "she know what we are watching",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "это прекрасно",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "yes worth the saving!",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "must've been the wind",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "sono venuto",
@@ -2709,13 +2709,13 @@
         "oh wow. i see some animations of camellya and cartethyia lol.",
         "positive",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "my pulls is ready🗿",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "0:37 bankai",
@@ -2727,37 +2727,37 @@
         "i can not wait to pull her",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "peak 😍",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "good view!",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "hace 2 minutos se lanzó miami funeral llegaré tan temprano😂😂😂",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "me like 🤩",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "god i love how crazy she is lmao",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "1:11 someone must've liked senti",
@@ -2775,31 +2775,31 @@
         "shes a mix of camellya and fleurdelys which im obsessed with",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "buff her",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "somebody get me an inhaler😭",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "dream girl wallahi",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "0:29 i mean, of course i'm distracted 👀 0:40 yes",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "looking forward to this character being added but kinda confused as to why which will probably be explained story wise and also that you can use nanally and daffodil even though one is physically weak and the other is part of the scarlet letter 🤔🤔",
@@ -2817,7 +2817,7 @@
         "pls make a bigger map",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "god i wish my pc was strong enough to handle this game consistently",
@@ -2829,55 +2829,55 @@
         "when camellya fused with fleurdelys be like:",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "she is so lovechild of ayaka+hiyuki 😮",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "sorry baicang, the samurai lady is here.",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "어어어어흐",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "una villana muy hermosa",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i skipped iroi for this i hope it is worth it",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "na de locos",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "cadê a tradução para português que foi anunciada antes mesmo do lançamento do jogo?",
         "negative",
         "0.92",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "zankou being chaos makes sense for her relationship with the incantation daffodil. if her story past the new episode has her trying to amend things with her sister, i’m all for it. i know that the currently playable one is like one of her special illusions that only zero can see, but i’m excited either way.",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "0:32 zankou: you’re distracted me: no i,m not💢 you’re doing that on purpose",
@@ -2895,19 +2895,19 @@
         "like if you want to get a6 as f2p",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "0 pulls no grind and just a dream",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "more videos pls",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "sorry if you make an animation of her feet moving around a field of flowers (at 1:14) then dont make the feet clip through all the flowers dang x-x (even a few rendered flowers in some spots could help it alot!)",
@@ -2925,79 +2925,79 @@
         "uff le dedique una por si las dudas 🧐🍷",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "and plus one vergil's daughter, yepy",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "camelya x fleurdelys",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i hope the storyline involving the abuse gets reworked.",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "is that dafodil sword?",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "me mata su sensualidad antes que su katana",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "no more sheep 🐏🐑! we are back on track ppl! weeeeeeeeeeeeeeeee! 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "it's remind me of camellya😢0:38",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "guilty gear vibes",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "gooners 😭",
         "negative",
         "0.89",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "so it's pgr's edgy alpha (nte version).",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "is there an optimization update coming for iphone?",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "первый",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "hold on ist zhankou's va that same va as kafka? 😨",
@@ -3009,13 +3009,13 @@
         "imma do something for you alright lmao",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "definitely distracted 100%",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "how do you know (zankou) i was dis...tracted? 😅",
@@ -3027,13 +3027,13 @@
         "you distracted...? 😭😭 before slice",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "my pity is ready! prepare to pay for your shinanigans with lots of farming.",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i don't quite get their approach to marketing this character. isn't this supposed to be her patch? without giving too many spoilers, she barely has any screen time in the 1.3 storyline. being a villain combined with such a limited role makes me feel absolutely no desire to own her. i don't know—i just don't connect with her, and i didn't get to see the aspects of her character i was hoping for. maybe it's just me, though; what do you guys think?",
@@ -3045,13 +3045,13 @@
         "we are forced to pull for her atp",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "flame masamune character?",
         "neutral",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "nte cant stop wining",
@@ -3063,13 +3063,13 @@
         "leme a6 her in 10 pulls please 🙏",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "que buenos angulos tiene el tráiler.",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "уговорили! кручу её ❤😂",
@@ -3081,13 +3081,13 @@
         "amazing!",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "bf > nte .d",
         "negative",
         "0.92",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "plz bring back zanku's tattoos as part of her old skinn. at least make it optional, so people can choose",
@@ -3099,13 +3099,13 @@
         "legendas em pt br? 😢",
         "negative",
         "0.89",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "why katana or that long sword is similar sound effect as hotori weapon? or am i imagining",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "zankou: your distracted me: yeah cause you hittin those poses",
@@ -3123,13 +3123,13 @@
         "yandere waifu is a best waifu",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "0:41 he also attacks with his sword without drawing it from the scabbard, just like vergil from dmc. for the morons who say everything is a copy, well here's another one for you v: enjoy the nods to other games!",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "yes of course zankou with his very beautiful sword swing, i like him because i am his legal wife🥰👍🏻",
@@ -3141,115 +3141,115 @@
         "sorry i won't be distracted",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "nahh this a gooner character",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "well, i can't kill her, so i might as well role for her...",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "sorry shinku, i need to buy her swimsuit first for the plots.😆",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "that new character reminds me of the character from umamusume agnes tachyon the two are very similar in their personality 🤔",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "will she really work in any comp?",
         "neutral",
         "0.88",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "ngl i think she might be undercover pretend to be villain side",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "am i seeing things?",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "it’s always bilibili that gets stuff first",
         "positive",
         "0.74",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "so, how's her pull value? like, is she a must pull or just good enough like shinku?",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "cade a tradução ptbr malditos",
         "negative",
         "0.89",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "dude... i wanted to like this game. why do you have to go and steal wuwa's character?",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "let me fight her",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "pls playable dottore 😢",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "no one saw nothing here, just her eyes",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i can fix her",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "we want physical games 😂😂😂😂, sorry my mistake",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "spoiler warning, looks like fake bella is training and then daffodil shows up",
         "negative",
         "0.85",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "woaw cloud kun is not present here unlike the cn version 😂",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "stop pausing the video at 0:46! have some dignity guys!",
@@ -3261,43 +3261,43 @@
         "skirk what do you do here?😑",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "it's all over my screen hotta (no one will see this comment)",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "why did they change her original outfit?!",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         ", , ...the cameraman: 😎🗿",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "reminds me of hotori's fighting style. and in general, i don't like her character, i'll probably skip her.",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "bro 1.0 characters look so bad in comparision, we like to see more of her type of design",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "thank you cameraman 🙏🙏🙏",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "no censor, yaay xdd now the men who cant control themselves can enjoy something xdd",
@@ -3321,31 +3321,31 @@
         "what are these gooner as camera shots",
         "negative",
         "0.89",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "cameraman putting in some work!",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "daffodil why fight with your sister just make it out you two",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "хиюки просто прекрасна!",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "is that camellya? is that a cartethyia? no thats a skip.",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "you had to copy three dolls from another game just to try to have one of good quality? this is a joke! precisaram copiar 3 bonecas de outro jogo para conseguir ter 1 de qualidade? palhaçada!",
@@ -3357,199 +3357,199 @@
         "bad guy with aura. unlike that 7 year old game with bad guys playing patty cake and licking lollipops off each other 🤣🤣🤣🤣🤣🤮",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "ясно, zzz 2.0",
         "negative",
         "0.89",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "#dropthemysteryboxprice",
         "negative",
         "0.89",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "why they are keep doing this keep changing character design whenever it's time to release it",
         "negative",
         "0.89",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "ngl this character feels unique in nte",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "her reasons are biggest in the game till now if i'm not wrong 😳",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "yh, two big reasons. big sword and big damage. 😂",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "2? i'd say 4!",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "definitely cosmos ... 😂",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "nope blackbird for me",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i think zankou is the last character with a design i like that we've seen so far, so i will try pulling her but no guarantees ill get her.",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "\"officer i heard it clap i swear!\"",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "now i want to know how my sword will fare against them 😂😂",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "huge personality",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "the clan might never know what \"starving\" word means",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "gimme that first person view in this instant",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "gawd dayumm! ❤️🥵❤️🥵❤️🥵🥵❤️",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "sword and mommy material",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "sorry i can't pull it out!",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "yes i can those 2 big reasons 😂😂😂",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "pulling for her is a necessity",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i either pull her or i let her pull me. both are fine",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i like her cuz the scarlet letter was the only thing that made me actually like the story. then nanally's.",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "yeah. two big reasons 😏",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "close enough, welcome home again hiyuki",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "hiyuki? hello?",
         "neutral",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "ohhh ok ok i get it 😅",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "2 big reasons to get her are - 1. gameplay of camelya 2. gameplay of carthethiya",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "it must be difficult for her to fight with them",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i understand soldier 🫡",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i feel like this is another version of hiyuki already that she forgot she had",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "the first time i saw her, i found those reasons already. even if there's no guarantee that time that she might become a playable character",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "she was already a must pull if she ever was playable the moment i saw her in the story for the first time",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i think mint’s gonna have to step down to second place in the reason size rankings",
@@ -3561,25 +3561,25 @@
         "hiyuki's big sis .",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "why is she looks exactly like hiyuki from wuwa but with little bit more assets? 😅",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "the first time ive seen her in the story... my gasted was flabbered on how huge those personality is😲🫣😏",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "2? i see 4. maybe 6.",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "zankou is hiyuki's younger sister",
@@ -3591,13 +3591,13 @@
         "ya we see the fit mam ✌️🗿",
         "positive",
         "0.74",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "nah, waiting for hotori and lacrimosa rerun",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "ready to pull zankou 🤩",
@@ -3609,73 +3609,73 @@
         "hiyuki 2.0 let's goo",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "huh... she kinda looks like my aunt when she was in her 20s-30s thou her chest was huge but not the same as zankou xd",
         "neutral",
         "0.88",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "yep damn curve",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "all i need is one reason. a bag of annualith to pull her",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i can't believe you really let my dark mind take over like that. i was waiting for the two big reasons. 😭",
         "negative",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "love my hiyuki + camellya + fleurdelys 💞",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "thanks to nte i got my iroi under 30 pulls",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "the switch up is crazy. didn't everyone hate her?",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "her smug face makes me wanna play the game",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "yes i think so too",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "everyone knows that two big reasosns literally right in front of you",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "bro those eyes",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i don't even have her team but i can't skip all that 😭",
@@ -3687,37 +3687,37 @@
         "😍 i cannot wait for her to come out. i need her",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "her design looks amazing. ❤",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "bad char des gameplay theme is a true chaos : samurai + miko + rope dancer",
         "negative",
         "0.89",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "breeding season able 8😊😊😊❤❤❤❤🎉",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i just wanna know what lore reasons lead to a villain becoming playable...",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "why see jing yuan mixed with jingliu...😭😭😭 i'm not shipping them but they're similar, tho",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "it indeed is big i have to agree",
@@ -3729,43 +3729,43 @@
         "wow such big reason🪩🪩",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i am skipping her until balckbird. gudluck to all",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "( ˃ᯅ˂) ( ꪊꪻ⊂) 💢💢😭😭😭",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "that eye just now really reminded me of my yakuza construct and brs limited character",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "😊😊😊😊😊😊😊❤❤❤🎉💋👍💗",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i don't remember her clothing being like that.",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "they should have kept the eye patch",
         "negative",
         "0.89",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "why not 6 cause i see cake and fruit and also pillow",
@@ -3777,43 +3777,43 @@
         "what about first-person perspective.",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "hate when ppl bring up the copying thing and name like 4 ppl she's copying doesn't everyone copy everything from something in life enjoy the damn game",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "they are looking at me 😳",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "skipping so hard.",
         "negative",
         "0.89",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "so what's the 2 big reasons?",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "actually 3.",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "big reasons but flat personality",
         "negative",
         "0.92",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "tbh not really because i don't find anything about the game enjoyable.",
@@ -3831,19 +3831,19 @@
         "her back must be killing her",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "idk why... but this really feels over exaggerated and unrealistic even for a game to me...",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "only 2? i see 5",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "doracoと同じ価格だと思ってた...1000万貯めたんだけどなぁ...",
@@ -3861,7 +3861,7 @@
         "おっ 金演出!→ア イ コ ン フ レ ー ム",
         "neutral",
         "0.83",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "マジでこれ絶対に上限まで行かないと出ないから普通に買わせて欲しい",
@@ -4125,7 +4125,7 @@
         "これをもっと早く知ってたらdoracoに使わなかった",
         "negative",
         "0.89",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "ドラコと同じなら回してた ポルシェは流石に無理",
@@ -4149,7 +4149,7 @@
         "みんとでっかぁ",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "水上バイクがあれば収容所行けるのかな🤔",
@@ -4209,7 +4209,7 @@
         "流石に家とかも買いたいからこれはスルーします。( ; ; )",
         "negative",
         "0.89",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "yes!yes!フォー!最高ー!水着ーー! これで、夜は眠れないぜ",
@@ -4317,7 +4317,7 @@
         "価格高すぎる...しかし引く。 ここまで価格上げたのは水着のためだろhottaくん マジでdoracoくらいの価格じゃないとキチいのよ",
         "negative",
         "0.89",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "ナナリ持ってないならマジでスキン要らない",
@@ -4347,13 +4347,13 @@
         "懂了 一樣只能同行的卡厄斯也是紅字歸良的(×",
         "neutral",
         "0.83",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "矜持!真好女孩",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "所以什麼時候可以把本體打至跪地",
@@ -4371,7 +4371,7 @@
         "做成這樣真的好白癡,根本是在勸退殘虹的真愛黨",
         "negative",
         "0.89",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "不敢跟幻想對象上床的夢男/女",
@@ -4383,25 +4383,25 @@
         "forget the city i want to be here in the countryside",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "actually wanted some forest zones w devs",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "damn it looks so good with full rt, sad my pc not strong enough for that. hotta keeps on cooking with this game.",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "relaxing map",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "this new map is absolutely stunning. a forest surrounds the stream, and the rain makes the map even more beautiful",
@@ -4413,31 +4413,31 @@
         "this type of map is my cup of tea, kudos to hotta",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "hotta continues to slay with this game 🥰",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "holy shit, its rare for gacha games to make such refreshing map which is fun just exploring",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "nte’s scenery is absolutely amazing. it helps me relieve the stress after working all day",
         "negative",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "manifesting one day i would be able to play this game",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "ps5 with a hd tv it's lush & majestic. country roads take me home.",
@@ -4449,13 +4449,13 @@
         "i was already excited but damn...this is beyond what i hoping for.",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "literally building a 5080/9800x3d build just for this game next weekend, can’t wait to enjoy this! :)",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "the new cozy house should've been in this area, i would've bought it instantly.",
@@ -4473,49 +4473,49 @@
         "와 그래픽 진짜 좋네",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "new region definitely give a new fresh vibe",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "reminds me of jasper national park in canada lol 2:26 this view exactly",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "w8 im a imagining this? first time seeing anime character was blending well on the realism look of environmental graphics? i mean wuwa was a 1 thing but this game character design was made purely for anime asthetic graphic",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "damn , when will 19 august come😢",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "the content they add for minor version updates are pretty substantial. i wonder what 2.0 will look like...",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "so good. looking forward to 1.3",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "looks so good.",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "this is the first time i have seen a nte map in detail and goddayumm it looks good. i was trying to keep myself to wuwa and endfield only due to time constraints, but ill have to think again lol. though nte player movement seems a little less polished compared to the others i mentioned. the stopping animations e.g.",
@@ -4539,25 +4539,25 @@
         "😇😇下週就能玩到了",
         "positive",
         "0.91",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "beautiful❤❤😊",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "this is actually insane, it's like those real life sceneries in facebook that are too good they doesn't feel real.",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "they just need to add way more roleplaying content to the game and this game will be perfect",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "how about the new property can you have a tour about it",
@@ -4569,31 +4569,31 @@
         "holy fuck this isnt what i expected. damn this looks amazing. hopefully the half-raytracing looks good.",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "better map than concurrent gachas realistic at least",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "waifu over meta,gng ✌️",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "the fact that everyone went back to the og skin is insane ❤😅",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "beautiful",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "how did we went from the big cities with skyscrapers to a jungle? hotta really brings surprises.",
@@ -4605,13 +4605,13 @@
         "it certainly is beautiful...the map is too.",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "is it just a raceway with racing related quests or are there general quests on the new map too?",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "also a nice place to use your supercar. but nooooo, of all vehicles i choose his tiny scooter that the forest swallows it whole...",
@@ -4629,13 +4629,13 @@
         "this game is going to be so huge by 2.0 if they keep up with this pace. i still want to see what the end of that really long bridge will look like.",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "2:07 is that a riceeee field!",
         "neutral",
         "0.88",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "está inspirado en kawaguchiko japón, me preguntó si se podría subir al nevado que se ve en el fondo, sería espectacular",
@@ -4647,19 +4647,19 @@
         "wonderful map",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i'm going to be honest. this is insanely beautiful. 😏",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "wait that forest is gorgeous wth this rivals wuwa new region",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i been saying give it a year and nte will have the best map out of all the open world gachas",
@@ -4671,25 +4671,25 @@
         "nte looks like a complete different game or like anime on full graphics i'm smartphone player pc graphics are so cool",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "looks like an area from ghost of yōtei, or an elder scrolls title. 👍🏻",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "bro pls share ur rig ? wht spec on this vod actually the camera third peson aslo on wide . how insane is",
         "neutral",
         "0.88",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "oh god, this was tof all along!",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "grass + rain = fps drop the comments* thank you hotta for adding more greenery and rain 🎉",
@@ -4707,25 +4707,25 @@
         "omg my minecraft modpack looks exactly like this",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i wonder if you can show this new map in first person mode ?",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "why is no one showing the new race layouts for duskmooe?",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "wow this map amazing, better than snezhaya",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "honestly beautiful, but i think the water physics could get an improvement especially on rainy roads... somehow annoying to look at once you notice it 4:23 wait it looks normal for shinku after he switches after 4:50 listen after 6:32, the sound is the same, asphalt and gravel/rock road, it would be even better with crunch sounds for every step.",
@@ -4737,13 +4737,13 @@
         "is already looks like map from forza horizon`s, is very cool. i want this 1.3 map already, driving and drifting in the countryside 24/7",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "hotta gilla bre",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "the road i like drive with my 4x4 car😊",
@@ -4761,7 +4761,7 @@
         "gives me sons of the forest vibes ngl",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "wish i could enable rt, even though i have an rtx gpu",
@@ -4773,43 +4773,43 @@
         "feels like a forza horizon map",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "becoming more gta day by day 📈",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "feels like when im on the phone the game has different studio lol",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "it seems like they are using the new unreal engine 5.7 landscape tool to the max just look at this huge forest",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "what are the specs on your pc, this looks great",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "eu só queria que esse jogo fosse bem otimizado...",
         "negative",
         "0.89",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "it’s looks like a canada",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "the new area will drop fps by lot, in nte city areas gives lot more fps, forest areas aint optimized well",
@@ -4821,37 +4821,37 @@
         "i just hope the map is not this empty later",
         "negative",
         "0.89",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "can rtx 5080 laptop have this setting? or using another app to be like this",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "wait is it out? how do we get there?",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "guys is there actually a new city?",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "hi, how many gb did you need to download for this update?",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "my youtube crashed while watching this. its as if my pc is giving me a sign. \"dont\"",
         "negative",
         "0.89",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "funny thing is i bet it's still more stable than a certain other game, even for console. okay okay i can't say that anymore since kuro is finally fixing their optimization next patch thankfully and finally but still you have to admit it shouldn't have taken this long but better late than never i suppose. just glad to be playing it without stuttering",
@@ -4863,19 +4863,19 @@
         "so from city game we're getting new map that is in wilderness map not a new city interesting not complaining btw",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "best gacha game of all time, w devs, w communty, w game",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "0:49 yup i'm in! ✋🫥🤚",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "one of the rules that witcher 3 developers mentioned when creating an open world map is the “40-second” rule ie every 40 secs while exploring the map - the players should see something and focus on it, like a pack of wild animals, an enemy encounter or maybe a wandering npc. the goal of the rule was to prevent open world fatigue and to allow players to do natural discovery. i will be brutally honest, this map, although beautiful, lacks the interactiveness to keep players engaged.",
@@ -4887,37 +4887,37 @@
         "what's the music/ost name ?",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "is this new update also on ps5?",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "reminds me of forza horizon",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "is this a new extended map ?",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "man i swear when i first saw the thumbnail i was like \"is that rover and hiyuki!?\"",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "it’s time for minecraft",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "could you tell me the pc specifications?",
@@ -4929,7 +4929,7 @@
         "looks amazing but rt will probably cook my 4070 super😂",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "so theres nothing to do but drive around an empty map, no characters, sidequests or anything but a couple collectables and people are ok with this?",
@@ -4941,7 +4941,7 @@
         "it just needs more cars and better driving physics and this game will basically replace forza horizon for me.",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "huhh im watching on my phone and it's saying don't watch dreams 😅😅",
@@ -4953,19 +4953,19 @@
         "don't know why but this new map looks like it's inspired from forza horizon 6",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "only if i had a good pc to play this game ( my phone graphis are trash)",
         "negative",
         "0.89",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "ayo is the update already here?",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "forest looks too empty and strange with all the foliage separated so far apart.",
@@ -4977,25 +4977,25 @@
         "레이트레이싱 써보고 싶은데 그래픽카드 너무 비싸서 못삼",
         "negative",
         "0.92",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "why is there a gas station in the forest?",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "rip mobile",
         "negative",
         "0.89",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "the map looks like forza horizon 6.",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "they...reuse the music? also, the map looks...so different, like it was a completely different engine. the enviroment looks way more real than anime-ish now.",
@@ -5013,37 +5013,37 @@
         "yeah, it's cool and beautiful, but it's still a gacha game )",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "what game size now",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "forza horizon 6 map inspired",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "sorry but rt with those character textures just look so jarring",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "it's so over",
         "negative",
         "0.92",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "but is there anything to do? this game is lacking so much",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i love this games appeal so much, i just can’t play it because of the combat. it’s so terrible.",
@@ -5055,61 +5055,61 @@
         "why is the char model old? they redesigned her right?",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "the map is way too empty, wtf—do you guys actually like this?",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "road, road, road, road... road ! yeah very fun, for 30min",
         "negative",
         "0.89",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "dam it as a mobile player im disappointed pc players has the graphics",
         "negative",
         "0.89",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "questo gioco trasmette una serenità assurda.",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "something genshin will never achieve",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "the issue about nte is that the story sucks, the maps are good but in a gacha the stoy is the most important for me",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "the game is dog... anew map won't change that",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "i mistook her for hiyuki",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "what ray tracing? looks like a game from 2018. and the dress and hair physics are a loop animation. the rain is a 2d texture filter on your screen, not on the actual environment",
         "negative",
         "0.95",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "what are you supposed to be able to do or what do you do on that giant auto-generated map in unreal engine 5? are there enemies scattered around those places or are the enemies just instanced? i didn't see any enemies.",
@@ -5121,7 +5121,7 @@
         "lifeless, sad, need some npc living their life ffs",
         "negative",
         "0.89",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "nice map but as always poor contents",
@@ -5133,13 +5133,13 @@
         "even with neat graphics the game looks cheap",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "shes a must pull.",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "zankou is the sole reason this heart still beats!",
@@ -5151,67 +5151,67 @@
         "great showcase thanks! the new area is frickin gorgeous! game is such a vibe",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "bro her mountains are huge",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "oh my...she can pull/gather enemy niceee",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "definitely pulling for her 😊",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "thank you for showing this early",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "her attacks are wow!",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i love the new area. it looks like a i just want around in nature. i love that.",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "she is gorgeous",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "istg they were staring at me first",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "whoa the quality",
         "positive",
         "0.9",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "mixup of hiyuki and camellya",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "yaaa sangat cantikkk❤❤, harus pulang sih, eh pastinya",
@@ -5223,7 +5223,7 @@
         "good luck getting her at early pity",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i dont have lacrimosa but im pulling manh",
@@ -5235,7 +5235,7 @@
         "her defaulr dress is bugging and cliping when she walk, hope the dev fix that",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "even though it has a lot of inspiration from wuthering waves but she is really good really xd",
@@ -5247,49 +5247,49 @@
         "now this is what we want to see, characters on release were super mid but now they are cooking",
         "negative",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "a quick question, whats the priority if ubhav her copies? thank you",
         "positive",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "what is her life skill, it looks like it had something to do with the volleyball hobby we are getting, just asking i usually pull for characters i like first then characters with useful life skills and the other one looks like a glove, what was it for?",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "mommmyyy. i need her.",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "servidor chinês ja peguei também",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "she looks like hiyuki wtf.",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "what the hell man, my youtube setting is only 480p but damn...",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "holy shit i need her",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "sorry iroi but i can resist zankou anymore. i will get her with a1 too.see you in nezt rerun",
@@ -5301,7 +5301,7 @@
         "ex+ tier",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "you should release another video with a full cycle reaction",
@@ -5313,13 +5313,13 @@
         "is this rtx or the actually game, also great video bro",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "50% of girls are shrine maidens or doms",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "oh noo i watsed my annulithsss 😭",
@@ -5331,7 +5331,7 @@
         "i kinda regret pulling for shinku and iroi",
         "negative",
         "0.89",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "как ведь она же не вышла бро💀",
@@ -5349,37 +5349,37 @@
         "gdamn ... wht this device spec on vod? unlimited fps?",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "can you showcase the outfits?",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "game doesnt look like that on a high end rig. you using a game filters? reshade? nividia?",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "whort it 👍",
         "positive",
         "0.9",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "if she a evil i am evil",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "what recommend build on her catridge main stats?",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "兄弟原來會中文嗎😂",
@@ -5391,7 +5391,7 @@
         "instead of gameplay leaks, i want story spoilers. is she still a villain? cuz right now i'd pull for her if i didn't hate her",
         "negative",
         "0.95",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "bro im gay but... why do i feel something...",
@@ -5403,37 +5403,37 @@
         "which server?",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i just wanted a skia summer skin",
         "negative",
         "0.89",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "they were wise to get rid of the one thigh high sock...",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "what element?",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "wtf is this new area how's this game free",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "her out reminds me of camellya from withering waves",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "hm the sword swing effect more like a stick... it should be like zhwing zhwing",
@@ -5445,7 +5445,7 @@
         "that outfit needs some clothes",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "stop copy kuro and hoyo",
@@ -5463,7 +5463,7 @@
         "雷尼:我沒意見-_-",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "不是,誰家犯人被審訊時穿得這麼華麗漂亮啊,至少也給她換套囚服吧? 不然搞得像耳光play一樣~xdd",
@@ -5583,7 +5583,7 @@
         "雷尼:大伙們我還沒死啊!",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "會在上線第一天就衝到好感度6的基本上不是廚子就是課長,結果讓他們第一批吃到這劇情,再次感謝幫國際服玩家吃第一口",
@@ -5631,13 +5631,13 @@
         "雷尼:我還沒死😂",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "這什麼play,我勸你們別多管閒事",
         "neutral",
         "0.88",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "他不是就是個意象被搧巴掌會怎樣",
@@ -5709,7 +5709,7 @@
         "沒有扇耳光?這種小兒科的哪裡上的了檯面 老虎凳、燒毛蛋、點天燈,隨便一樣都能讓人死去活來,還不留傷痕,尤其是老虎凳給你綁個40分鐘保證你手腳毫無知覺屎尿都無法自控",
         "neutral",
         "0.87",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "原本外型設計很對我胃口的,結果你跟我說我抽的殘紅竟然只是我意淫幻想出來的,這樣提升好感度有意義嗎?真他媽噁心的設計,抽的慾望都沒有了。鳴潮裡的弗洛洛雖是敵對目標,但好歹有給出為何會加入殘星會的原因(畢竟等太久了,不會再等了)",
@@ -5721,7 +5721,7 @@
         "雷尼沒死⋯亂說",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "蕾妮死掉了😮 不是還活著嗎?",
@@ -5739,7 +5739,7 @@
         "純噁心人的東西 這已經被噴報了",
         "positive",
         "0.3466430453632423",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "可是 蕾妮 他不是也渴望歸去 只是現在沒有無限生命 但她好像 比以前活的 更像人 不像人偶了 以蕾妮的角度 應該不恨殘虹",
@@ -5757,7 +5757,7 @@
         "正義必須要被執行 這是必要流程",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "雷妮:打的太轻了,我把出租车卖了给你批点螺纹钢😡",
@@ -5787,7 +5787,7 @@
         "sendtree pay",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "いい癖をお持ちで",
@@ -5853,7 +5853,7 @@
         "てか桜あたたっただけで切れる妖刀ヤバすぎだろ!",
         "positive",
         "0.91",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "僕より先に気づくとは...参りました!",
@@ -5883,13 +5883,13 @@
         "アニメーションまでやっちゃうとかお金かけてるな~すごいわ",
         "positive",
         "0.94",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "hokuro!it’s amazing!",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "やっと同士いたわ神、握手",
@@ -5901,7 +5901,7 @@
         "恐ろしく小さいホクロ otakainteじゃなきゃ見逃しちゃうね",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "大胸筋と大円筋にあるから、まだ秘密が隠れてる!",
@@ -5985,7 +5985,7 @@
         "也是有核爆了",
         "neutral",
         "0.88",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "我首抽4覺達夫有料了",
@@ -6015,7 +6015,7 @@
         "欸嘿嘿嘿抽爆好吧",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "問題是要一命啊😅",
@@ -6033,13 +6033,13 @@
         "光那幾命就弄不出來了 沒關係吧😂反正完全體長這樣,低配也行😂",
         "positive",
         "0.94",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "各位 自選19號過期,要換要快歐",
         "neutral",
         "0.83",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "不爽,因為國際服還沒有殘虹😂",
@@ -6051,7 +6051,7 @@
         "三覺殘紅 沒達夫跟安魂曲 老尷尬了",
         "negative",
         "0.89",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "在安魂曲就已經知道殘紅會出了,存到現在沒白等",
@@ -6069,7 +6069,7 @@
         "這影片第一句話 沒有覺醒 就不用看了",
         "neutral",
         "0.88",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "0+1是不是沒辦法?",
@@ -6111,13 +6111,13 @@
         "時間停止、空氣人間,下一個應該輪到認知改變",
         "neutral",
         "0.83",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "白嫖但是要花方斯收到了解暖心😊😊",
         "positive",
         "0.94",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "你的白嫖理解是不是有什麼事故?",
@@ -6129,7 +6129,7 @@
         "1.3我的一千萬多方斯感覺可能很快就見底了",
         "negative",
         "0.92",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "那麼貴的禮物 不買也罷",
@@ -6171,19 +6171,19 @@
         "i have two big reasons to pull for her.",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "she's huge 😍",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "holy hoonkers i mean she looks beautiful",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "the most desirable wife of all! 💖🌺 hotori aside🍷",
@@ -6195,25 +6195,25 @@
         "a baddie that deserves a pull. b)",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "first person view is gonna be wild 😂",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "holy moly",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "her attack is so fast",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "that neck animation will always remind me about esper zero covering zankou's neck with his sword.",
@@ -6225,25 +6225,25 @@
         "distracted already!",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "can she come out already",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "waiting for version 1.3",
         "positive",
         "0.6059410748956225",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "❤❤❤❤thank you for keeping the game alive with quality content. there are some anime characters i'd like to see in this game: 1. esdeath from the anime 'akame ga kill!': akame, tatsumi, leone. 2. kyouka uzen from the anime 'mato seihei no slave': himari azuma. and high school dxd, issei hyoudou, rias gremory, akeno himejima. if these characters were added, all the servers would turn red and there would be a lot of players.❤❤❤❤❤",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "if arlecchino and raiden shogun had a daughter",
@@ -6255,7 +6255,7 @@
         "giving everything for her i mean everything !",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "if evil, why hot? zankou my beloved <3",
@@ -6267,7 +6267,7 @@
         "shut up and take my money",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i will be poor and my wallet will be crying when she comes out. but its worth it",
@@ -6279,19 +6279,19 @@
         "hello ) very nice",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "we need to pull her😭😭",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "vergil's daughter from nte, here we go...",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "hills( story ) huge valley( 1.3 preview ) mount everest ( release )",
@@ -6303,13 +6303,13 @@
         "i can't wait to try version 1.3 🙏🏻✨",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "she is fusion with camellya and cartethiyia",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "that's a bigggg katana...",
@@ -6321,37 +6321,37 @@
         "holy lord those bazongarongas",
         "positive",
         "0.5911969825224302",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "ayyy ❤❤❤",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "yooo song is banger pls put this on radio",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "awesome.",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "now that's mount bustmore",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "i think she is the biggest 😮",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "zankou ๑𖹭",
@@ -6375,31 +6375,31 @@
         "she is gorgeous ❤",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "shes an incant!? thats what i need for my comp lets goooo",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "definitely some containment going on here.",
         "neutral",
         "0.88",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "gunna start playing her theme when i get her",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "respect 🎉",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i'm so so thankful there's no 50/50 because how the heck am i supposed to skip some of these characters?",
@@ -6411,7 +6411,7 @@
         "5 days left",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "hiyu...zankou",
@@ -6423,13 +6423,13 @@
         "la primera yandere del juego 🗣️🔥",
         "neutral",
         "0.4602616850473986",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "massive",
         "positive",
         "0.4793957600659867",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i pray for everyone to get zankou and her signature 🛐",
@@ -6441,7 +6441,7 @@
         "string looks elastic",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "katana/white hair and beauty combo never could ask anything better.if only she had exploration ability or flying like shinku.",
@@ -6453,7 +6453,7 @@
         "definitely pulling for her currently have 62 pity",
         "positive",
         "0.8301672099614812",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "my zankou's wife is truly beautiful and lovely, especially when she draws and unsheathes her sword🥰👍🏻",
@@ -6465,19 +6465,19 @@
         "first player enemy playable character",
         "positive",
         "0.4914773999477934",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i want to pull for her in global nooowwwww",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "this ultimate is too much camellya, if you got the reference 😂",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "jirou , derax siempre tubo razón con lo de shinku 😂😂 deraxus te papeo 😆🤣🤣",
@@ -6495,31 +6495,31 @@
         "i will be pulling",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "so pretty",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "😅 hello dev",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "uff 🚬🗿",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "seeing some camellya and cartethiya inspiration here",
         "neutral",
         "0.8301173818405837",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "no mint 💀",
@@ -6531,7 +6531,7 @@
         "i wonder whats lore reason or these flames at eye that they have",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "zankou’s illusion and reality state is a left trigger option, right? like lacrimosa changes attack types?",
@@ -6543,37 +6543,37 @@
         "physics 💀",
         "neutral",
         "0.88",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "ouu shii",
         "neutral",
         "0.72",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "wife 🤍",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "please nte mennnnn, we need more menn",
         "negative",
         "0.92",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i want to pull her but i feel like she’s gona be d tier. or maybe more like j tier 🤣",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "everything was cool until she spoke 😢",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "hehe my zankou shorts got more views. see nte. now let me have early access for new updates 😂",
@@ -6585,13 +6585,13 @@
         "nte just one thing please i beg make the game better for us mobile players i can hardly enjoy the game without crashing in 10 seconds",
         "negative",
         "0.95",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i just finished on myself because of this, just release her already",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "devs can you please change hotori dmg element make her chaos or lakshana or anything because after zankou release, she gonna be so useless 😅",
@@ -6609,7 +6609,7 @@
         "doesn't fit in the world, in my opinion. need something for the city. it's not matsuri.",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "i always love sexy and strong characters! shout outs to evelyn from zzz and daffodill from nte!",
@@ -6627,31 +6627,31 @@
         "another character for the gooners🥀🙏",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "what a skip, cant wait for blue hair chick. why shes not here?",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "im so curious if they implemented a feature for 1st-person view so that the world through her eyes is actually grey like in the character trailer, my hopes are high but reality tells me it probably won’t happen 🥹",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "goddam",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "❤️‍🩹 i love rebel girls ❤️‍🩹 their gameplay is fun and fast!",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "tidur fans wuwa besok ngatain game lain plagiat lagi😂",
@@ -6705,7 +6705,7 @@
         "min bahas genshin cis cis cis dong",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "2 orang yang tidak pernah ketemu juga bisa punya ide yang sama, aku pernah lihat kalimat yang intinya \"imajinasi akan sama dan terulang jika ada di bawah matahari yang sama\", aku lupa itu dari apa dan kalimat spesifik nya bagaimana tapi intinya seperti itu",
@@ -6777,7 +6777,7 @@
         "nte satu char untuk semua",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "yh, seenggaknya nte tau lah mana yang harus ditiru. jangan sampe ada batu goyang di nte.",
@@ -7029,7 +7029,7 @@
         "gk heran china",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "padahal mah ulti fleurdelys plagiat sama ulti game naruto char obito rikudou wkwkw",
@@ -7125,7 +7125,7 @@
         "judul min",
         "neutral",
         "0.5924739388025111",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "ya gmna ya sekarang ini udh gak ada yang original pasti ada isporasinya mau itu lagu,game,film pasti ada yang terispirasi dari satu sama lain tapi agak ironis sih fandom wuwa sering di tuduh copy genshin terus bilang genshin bukan yang nemu eh giliran gini malah nuduh niru sama sama tololnya kaya kebanyak fans genshin",
@@ -7275,7 +7275,7 @@
         "這就是首發後流水會逐漸下滑的具體呈現 而衰退這麼快的原因除了暑期檔各種神仙出招外 還有市場已經飽和導致各個營收被分散了 說白了還是紅海市場每一家的營收都變少了 異環的題材本身就已經夠衝出突圍了,我覺得最大的問題其實還是真紅的卡池首發操作就不是很好,後續雖有挽救但還是有具體損失 後面都像是連鎖效應",
         "negative",
         "0.95",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "都提早出了怎麼花錢",
@@ -7287,7 +7287,7 @@
         "異環我昨天因為要出遠門用手機(ios)玩才發現這遊戲手機問題真不少 pc體驗強太多太多了 倒不如說現在這個成績已經非常厲害了 畢竟大頭還是在pc端 財報也能證實這點",
         "negative",
         "0.92",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "明明最後是28,而且特效皮甚至沒上,還要等到20號,這成績我都還嫌太高,會讓蘇幻傲慢",
@@ -7341,13 +7341,13 @@
         "黑色阿爾卑斯山yyds",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "石頭被榨乾了 等下一版本(x",
         "neutral",
         "0.6989896654565869",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "手机流水并不客观。",
@@ -7371,7 +7371,7 @@
         "看來大多數人還是不能接受反派隨便就洗白",
         "positive",
         "0.94",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "玩測試服還要自已花錢抽角色誰想的到呢w",
@@ -7395,19 +7395,19 @@
         "誰要花錢當測試員阿,等國際服開門,日本人給軋軋課金,流水包準前10的拉,但應該也就那樣了,未來要賺錢只能盲盒膨脹深淵膨脹而已了",
         "negative",
         "0.89",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "沒差吧,本來就不好玩",
         "negative",
         "0.89",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "殘紅 壞女人 不抽😅 娜娜莉 有了 不抽😅",
         "neutral",
         "0.87",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "可以去b站看殘虹好感劇情 只能說拉完不意外",
@@ -7419,19 +7419,19 @@
         "中國內捲很嚴重,一個人月薪現在連3000人民幣可能都沒有了,下一天要怎麼活都是個問題,他們現在只有政治背景的富貴子弟才玩得起遊戲",
         "negative",
         "0.92",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "bro swiped like crazy",
         "neutral",
         "0.88",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "where is his avatar frame from?",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "can always hybrid and do crit/break.",
@@ -7455,13 +7455,13 @@
         "if a player with 0 ms is struggling with timing in volleyball then im cooked 😭",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i’m beginning to regret a6-ing lacrimosa",
         "negative",
         "0.89",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "the great theif arc provides all espers of the same element with 126 break intensity as long as there are 3 similar element espers in the team (zankou adler sakiri) and add on 120 break int base stat",
@@ -7479,31 +7479,31 @@
         "whale problems lol genshin and star rail did this to me and i stopped whaling 😂 i was like “well if this is my reward for spending i’m don’t whaling” 😂 low spenders never fear this in a double pull",
         "positive",
         "0.4640442845392527",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "how they gonna arrest a ghost 😂 ,she gonna fly through them police inside out",
         "positive",
         "0.6632058731424469",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "ngl, the developing, the programming is actually difficult to create this kind of character. i think nte is unique gacha game.",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "😍 need her.",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "why was bro started pointing his gun at his teammate xd",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "2 reasons why...",
@@ -7557,7 +7557,7 @@
         "はぁ、綺麗🫠",
         "neutral",
         "0.5229968792240123",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "やっぱり刀っていいな...",
@@ -7671,7 +7671,7 @@
         "my wife!",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "鏡花水月かフェニックス幻魔拳喰らったような台詞",
@@ -7707,7 +7707,7 @@
         "전세계 최초 보트 자가준비",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "게임 진짜 자유도 레전드네ᄏᄏᄏᄏ",
@@ -7725,7 +7725,7 @@
         "똑똑천재 나나리 <- 어감 존나귀여움",
         "positive",
         "0.8908588731297176",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "야가다 컨텐츠 아직 나오지도 않았는데 혼자 미리 즐기고있네 ᄏᄏᄏᄏᄏ",
@@ -7737,13 +7737,13 @@
         "진짜 천재임 그러고 보면 그타5에서 보트 견인차 끌고 가던게 있었는데.",
         "positive",
         "0.84",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "진짜 잘만들었네 똑똑천재 미쳤다",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "보트쌀먹은 진짜 똑똑천재네 ᄏᄏᄏ",
@@ -7761,7 +7761,7 @@
         "똑똑천재 나나리님은 어떻게든 방법을 생각해낸다~ 이말이야",
         "positive",
         "0.8792159676610781",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "ᄅᄋ 아무도 퀴디온을 막을 수 없으셈ᄏᄏᄏᄏ",
@@ -7773,7 +7773,7 @@
         "똑 똑 천 재 나 나 리 님 은",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "이번 블박 넘어갈까 했는데 저렇게 배가 있어야 하는 곳이 있다니 걱정했는데...이 영상을 보고 마음이 편안해졌습니다 ᄏᄏ",
@@ -7791,13 +7791,13 @@
         "대단하다,정말,.,",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "와씹...이건 똑똑천재 인정",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "창과 방패의 싸움 ᄏᄏᄏᄏ",
@@ -7809,7 +7809,7 @@
         "똑똑천재나나리 뽑아야겠지?",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "나나리 퀴디온은 한건 해냈다! ᄏᄏᄏᄏᄏ",
@@ -7821,7 +7821,7 @@
         "똑똑천재 인정 🎉",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "잠깐만을 몇번하는거임 ᄏᄏᄏ",
@@ -7833,7 +7833,7 @@
         "와 똑똑하넹 진짜",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "미친거같아요",
@@ -7851,7 +7851,7 @@
         "와 이건 똒똑천재 퀴디온 ᄏ",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "레전드 ᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏ",
@@ -7863,7 +7863,7 @@
         "와 이환안하지만 영상만 봐도 똑똑천재 인정!",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "ᄏᄏᄏᄏᄏ 설마했는데",
@@ -7875,7 +7875,7 @@
         "상상 하던게 진짜 이루어 지네요 ᄏ",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "오ᅥᅡ ᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏ",
@@ -7917,7 +7917,7 @@
         "ᄒᄒᄒᄒᄒᄒ대단하다 진짜",
         "neutral",
         "0.72",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "이사람 카오스인가요? 낚시한번 하려고 어디가는거얔ᄏᄏᄏ",
@@ -7941,13 +7941,13 @@
         "역시 이상현상은 최고야!",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "아 모야 업데이트 된줄",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "안아줬어요ᄏᄏᄏᄏᄏ",
@@ -7971,7 +7971,7 @@
         "자유도 높네",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "개웃기넼ᄏᄏᄏᄏᄏ",
@@ -7983,7 +7983,7 @@
         "똑똑천재 나나리님❤❤❤❤",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "개갓겜이네 ᄏᄏᄏᄏᄏᄏᄏᄏ",
@@ -8001,7 +8001,7 @@
         "이환 진짜 재밋땅",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "와... 대박 ᄏᄏᄏᄏ",
@@ -8067,13 +8067,13 @@
         "보트쌀먹 ᄉᄐᄎ",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "진짜 대박이네 이건",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "자유도 사발 ᄏᄏ",
@@ -8121,7 +8121,7 @@
         "절 대 쌀 먹 해",
         "neutral",
         "0.5229968792240123",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "씹덕겜주제에 자유도 뭔데ᄏᄏᄏᄏ",
@@ -8145,7 +8145,7 @@
         "한국엔 아직 업데이트가 안됏으니깐 세계최초가 되겠지 그런데 다른 국가에서도 업데이트가 됬다면 세계최초가 됬었겠나 어휴 진짜",
         "negative",
         "0.92",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "호타 불쾌한짓을 해놨네ᄏᄏ. 근데 껏다키면 리셋되요? 보트.",
@@ -8175,7 +8175,7 @@
         "殘虹把手機還給路人",
         "neutral",
         "0.87",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "因為殘虹很極端,而且相信她不覺得自己做的事情是壞事,無教化之可能,當徒無期。",
@@ -8211,7 +8211,7 @@
         "沒關係 等等一發出金就可以把殘紅帶回家了 連大牢都不用蹲",
         "positive",
         "0.91",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "如果是色盲 背紅綠燈紅黃綠的位置也可以把😂",
@@ -8223,7 +8223,7 @@
         "監獄play也挺不錯的",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "根據刑法,小紅帽未成年無法審判,但殘虹成年了,所以她需要為自己的行為負責 純掰哈別噴",
@@ -8241,7 +8241,7 @@
         "殘虹不就是個姐控把她放在達芙蒂爾旁,他就自動歸順和教化了",
         "neutral",
         "0.87",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "把殘虹還來!~",
@@ -8253,7 +8253,7 @@
         "說不定哪天有打不贏的殘像就會被放出來了,就跟死神的藍染一樣",
         "neutral",
         "0.83",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "我需要地下室,收留殘紅😢",
@@ -8295,7 +8295,7 @@
         "鉴定师不也是重度色盲吗?你什么时候见他等红灯了",
         "neutral",
         "0.87",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "因為司法不公",
@@ -8343,7 +8343,7 @@
         "「我們當年哪有這條件」 「大世界特效難做但不是不能做」 「時停不能撿東西很合理」",
         "neutral",
         "0.72",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "天天必抽,就知道抽抽抽!",
@@ -8355,7 +8355,7 @@
         "早說了殘虹是必抽😂下一個最強的必定是黑羽,這兩個主角人氣太高了",
         "positive",
         "0.91",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "我的躲貓貓有救了😂",
@@ -8385,7 +8385,7 @@
         "之前還有人說隱身不能撿",
         "neutral",
         "0.88",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "虹十字会成员报名中,可爱又迷人的反派角色。",
@@ -8403,7 +8403,7 @@
         "真的主推級了",
         "positive",
         "0.9",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "我要開影身開保險箱😂",
@@ -8415,13 +8415,13 @@
         "幻塔老傳統了 普攻聚怪 各種持傷 沒無敵貞一直被揍",
         "negative",
         "0.92",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "那同样人气挺高的exe队长的特效应该也不会差吧😂 继续蹲,有浔老板粉爪也够跑了",
         "neutral",
         "0.83",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "異環最大必抽",
@@ -8433,7 +8433,7 @@
         "媽ㄉ 隱身搶銀行 夢寐以求啊!",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "我現在覺得我幸好沒抽小綿羊",
@@ -8445,7 +8445,7 @@
         "很好奇隱身狀態可以在粉爪可以搭電梯嗎 可以的話太外掛了",
         "positive",
         "0.94",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "收到指令了:必抽",
@@ -8463,13 +8463,13 @@
         "欸對對對 那技能特效 鳴潮跟崩鐵都說讚",
         "neutral",
         "0.83",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "大世界特效不是第一個 驅動盤 休息日就有了 隱身不是時停 還能交互很合理",
         "neutral",
         "0.88",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "(還沒過醫院劇本)",
@@ -8499,7 +8499,7 @@
         "依舊大世界特效難做依舊搞出來了🤣",
         "positive",
         "0.9",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "每期你都說必抽 結果都倉管跟輪椅",
@@ -8565,7 +8565,7 @@
         "技で文字出るのかっこよ!",
         "positive",
         "0.9",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "引く気無かったが秋服見て「ン ゚!」となったので、引きます",
@@ -8577,7 +8577,7 @@
         "残虹の攻撃モーションカッケェ",
         "positive",
         "0.91",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "剣の音がいい...!",
@@ -8613,7 +8613,7 @@
         "the last part was \"excalibaaaaaa!\"",
         "neutral",
         "0.83",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "ホクロいいよね",
@@ -8631,7 +8631,7 @@
         "need this ost",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "残虹の連撃は速いですね😊刀音も良いです♫魅了されたい位、色々と素敵です😮何処がとは言えませんがw",
@@ -8673,7 +8673,7 @@
         "ほくろがイイ!",
         "positive",
         "0.9",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "残虹は俺のママ",
@@ -8757,13 +8757,13 @@
         "でっか!",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "背面で納刀してなかった?カッコよすぎかよ、やめてよ癖に刺さるじゃん",
         "positive",
         "0.94",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "剣振るのに袖邪魔じゃない?(今更)",
@@ -8793,7 +8793,7 @@
         "パニグレのアルファっぽいモーション",
         "neutral",
         "0.88",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "で、でかい何がとは言わんが",
@@ -8811,7 +8811,7 @@
         "第一段像椿,第二段像千冶刃",
         "neutral",
         "0.87",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "我們異環也有自己的無想一刀了😂😂😂",
@@ -8835,7 +8835,7 @@
         "欸?我看到了一日花 太賺了",
         "positive",
         "0.91",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "什麼時候更新!我也想扮演壞女人了!",
@@ -8847,31 +8847,31 @@
         "看來誰是親女兒很明顯了",
         "neutral",
         "0.88",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "每個新角色都要做新的世界特效,很擔心製作主的肝阿",
         "positive",
         "0.94",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "其實主角的弧盤也行:> 「休假日」",
         "neutral",
         "0.83",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "這遊戲每個角色的特效或功能都夠別人做一個遊戲了",
         "positive",
         "0.94",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "月亮不夠寫實 跟隔壁棚的月亮太陽差一大截 殘虹開大特效可以說是幻覺 不用寫實也沒關係 如果以後有改變環境的特效就要加油了",
         "negative",
         "0.92",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "操什麼縫合怪",
@@ -8907,7 +8907,7 @@
         "when the government isn't corrupt in nte world 😭😭",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "i don't care about that i need another coffee shop for my offline revenue lol",
@@ -8925,7 +8925,7 @@
         "since when investors invest in hetherau 😂",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "man i'm so glad i moved to nte. they are growing so fast, that my biggest fear is not being able to get all limited stuff that i want. i hope it's well optimized tho, giving performance for humble hardware, and also allowing good graphics for high end hardware.",
@@ -8937,19 +8937,19 @@
         "oh my g...they are preparing for the climax of act i (season i)",
         "positive",
         "0.5204438018074377",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "i'm from malaysia, no way we got merdeka 118/tower in nte",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "first thing i'm doing in 1.3 is taking nanally and haniel to the amusement park.",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "i almost cried for proudly when our merdeka 118 also appeared in hethereau too",
@@ -8973,13 +8973,13 @@
         "omg! it's merdeka 118 tower! 👇 malaysian",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "we got kltower and merdeka 118. next update gonna be a twin petronas tower 😂😂😂😂",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "this literally gives me the silhouette of liberty city complete with the seaport from a distance. hope 1.4 is gonna be a massive map expansion cuz the main story had concluded.",
@@ -8991,7 +8991,7 @@
         "so if this is the end of scarlet letter, man they really are gonna try a farcry 5 situation or something where each sub faction of this larger one overlooks and deals with a district or city of their own. this is speculation on my part, i already know china server got the update a week early which tbh i'm still on the fence about. it's not a really great idea in the lomg run since i already saw videos of the full story cutscenes on youtube and such.",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "nte will get even bigger and bigger with each patch (or every second or third patch)- we're eating good y'all!",
@@ -9015,7 +9015,7 @@
         "why though!? this looks so good then it looks better :)",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "yeah needed to see that everything outside of the current day map was just a placeholder. jesus the city looks crazy",
@@ -9027,7 +9027,7 @@
         "before: 1986 after: 2026",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "holy crap this is crazy 😭😭😭 dang it’s like double the size of new herland! finna make hethereau twice as large, and it looks quite good too. man i love the new addition, it makes the urban feel so much bigger and vast with tons of new things, places to go, things to do... but i’m pretty sure the file gonna triple too ngl. wonder how long the download time gonna take 🤔 also, i think we’re finally getting an industrial port or airport, at least that’s what it looks like at the very top there",
@@ -9039,19 +9039,19 @@
         "damm the glow up is insane",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "that tallest building looks like the shard from mirror's edge.",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "great. i just now figured out where the heck i am half the time and now i gotta learn a whole new city. looks great i must say.",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "now i patiently wait for a video of someone glitching into and exploring the whole area 😁",
@@ -9063,7 +9063,7 @@
         "tayge tayge rhythm plz",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "holy fu i knew that area from above with a drone glitch and expected it to be a zone with some beach houses",
@@ -9075,7 +9075,7 @@
         "my little nephew is about to go batshit insane over this map",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "すごい開拓されてるな...。 まだ入れないのに",
@@ -9093,7 +9093,7 @@
         "ainda bem que eles vão expandir a cidade 🏙️🌆😊",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "omg! i can't wait to revisit some of the changed areas. they deleted that entire forest and added maximum skyscrapers. think i'll revisit these places before the next patch drops.",
@@ -9105,7 +9105,7 @@
         "cool, a new tallest place tp put my chaos gate at",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "どれもコレも異象の仕業さ😂でもコレを見てしまうと、ヒナタ島や未聞浦が物足りなくなってしまうね、別荘でも作ろうか。",
@@ -9123,19 +9123,19 @@
         "thanks for showing changes ❤️",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "my device is getting weaker after seeing this:",
         "negative",
         "0.89",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "still want that skia summer skin tho",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "ビルが大量増殖中",
@@ -9153,37 +9153,37 @@
         "is that the fucking merdeka 118 lmao",
         "neutral",
         "0.93",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "this is real ?",
         "positive",
         "0.5986050256274922",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "they take away my solar farm 😢",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "did i see a runway in the far distance?",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "holy makarony",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "so we wil get baseball soon? xd hahaha omg... this game!",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "容量どれくらい増えるんだろ",
@@ -9195,31 +9195,31 @@
         "when will this city come i just saw forest on the trailer",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "rip forest mountain",
         "negative",
         "0.89",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "is that 118 tower?!",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "このゲーム楽しすぎて毎日息子と遊んでる",
         "positive",
         "0.91",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "deforestation",
         "negative",
         "0.92",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i hope its optimized",
@@ -9231,25 +9231,25 @@
         "周年並のアップデートやなー",
         "neutral",
         "0.5229968792240123",
-        "[\"角色讨论\"]"
+        "[\"战斗体验\"]"
       ],
       [
         "coming soon",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "deforestation~",
         "negative",
         "0.92",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "mobile gamers in shambles",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "そこまで都市面積ないし、未開放エリアにちょっと小さめの面積のビル群が立ってるだけやなおもってたらこんなガッツリ追加されるんかww まじでこれ全部開放される時についでにいい感じにビルが増えて既存のエリアと繋がればまじで大都市なるやん",
@@ -9273,7 +9273,7 @@
         "new area pacht 1.5?",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "are the buildings going to be another decors and only few of them use able?",
@@ -9285,7 +9285,7 @@
         "すべてが眩しいtwilight bay city 昔の曲だけどヘテロシティにぴったり",
         "positive",
         "0.91",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "can we visit pukaland finally?",
@@ -9297,7 +9297,7 @@
         "wait, is this real / official? or just a concept?",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "!? なんか高層ビルめっちゃ増えてて草www",
@@ -9321,7 +9321,7 @@
         "is this real?",
         "neutral",
         "0.6313872288667217",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "flatting a whole mountain to build city. a true capitalism experience (jk)",
@@ -9333,7 +9333,7 @@
         "ffs, why they change the already familiar landscape?!",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "みなとみらいあるやんw",
@@ -9381,7 +9381,7 @@
         "for over 6mil? yeah naw, i'd go w the villa",
         "negative",
         "0.92",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "hopefully i'll be able to afford this home so i can grow crops and earn additional fons, because i'm always broke on fons with gacha vehicle keep coming 😭",
@@ -9393,19 +9393,19 @@
         "dont wory chaos we see the fit",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "también quiero vivir ese hermoso sueño don pool",
         "positive",
         "0.94",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "damm 6.9 m 😹",
         "negative",
         "0.92",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "they need to add chilling on the porch, play swing, stargazing on the roof as guest activities really, if they want to utilize the house to the fullest.",
@@ -9429,19 +9429,19 @@
         "muy cara para lo que es, al menos espero que venga con buenas anomalias ya que pagar 6 millones por una casa así, se me hace caro.",
         "negative",
         "0.92",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "sweet it's under 7 bearly so cheepest one now to bad i know the jet ski is actually a smart long term pull there's something hidden out in the water and i will find it",
         "positive",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "\"our\".",
         "neutral",
         "0.87",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "6.9 mil!? wtf? it should be relatively cheaper than the penthouses! it'll take me weeks to save that much if the other events don't drain me first😢",
@@ -9459,7 +9459,7 @@
         "farm life",
         "neutral",
         "0.83",
-        "[\"其他讨论\"]"
+        "[\"社区生态\"]"
       ],
       [
         "i want it. i really want a cozy normal house away from the city. but it's too much money.",
@@ -9471,7 +9471,7 @@
         "game của trung quốc mà nhà cửa na ná nhật bản thế nhỉ 😮",
         "positive",
         "0.94",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "shinchan's house but modified. definately gonna buy.",
@@ -9489,7 +9489,7 @@
         "if it was around 4m then that would be the correct price for it",
         "negative",
         "0.89",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "i cant afford it sadly. only got 7,6 mil fons. around 20 mil jetski put me in -12mil xd",
@@ -9507,13 +9507,13 @@
         "wise is that you? where is belle?😭😭",
         "neutral",
         "0.91",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "ill save for it after i get mint skin",
         "negative",
         "0.7997829580182694",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "heard this house gonna be 6.9mill fons but i'm fkin broke",
@@ -9549,13 +9549,13 @@
         "am i tripping or i saw someone",
         "neutral",
         "0.8441424377592617",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "still cant sit on the toilet or take a bath...",
         "negative",
         "0.89",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "kemahalan gak sih? max 5juta lah karena ada fitur2 baru",
@@ -9567,19 +9567,19 @@
         "6.9m ... girl what is this inflation",
         "negative",
         "0.89",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "what furniture anomlies are available on this?",
         "negative",
         "0.93",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "adventure island/ theme park is update me open nhi nhi hoga kya ?😢",
         "neutral",
         "0.93",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "too expensive",
@@ -9597,7 +9597,7 @@
         "so its a matter of skipping the jetski or buying this home huhu",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"视觉表现\"]"
       ],
       [
         "are u going to buy that property? and it's 6m fons",
@@ -9615,7 +9615,7 @@
         "what anomaly furniture in there?",
         "neutral",
         "0.87",
-        "[\"版本内容\"]"
+        "[\"其他讨论\"]"
       ],
       [
         "too much cozy house not worth 7m it's like 1m 0r 2m house",
@@ -9669,7 +9669,7 @@
         "打著炫耀的名義又水了一集",
         "neutral",
         "0.87",
-        "[\"商业化\"]"
+        "[\"运营服务\"]"
       ],
       [
         "載具塗裝是沙灘車喔有點一般😅",
