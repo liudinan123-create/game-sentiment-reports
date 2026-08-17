@@ -185,7 +185,7 @@
               "download_name": "异环-1.3-上半-英语_舆情分析报告.html"
             },
             "ja": {
-              "status": "metrics_only",
+              "status": "ready",
               "data_source": "data/reports/nte-1.3-upper-ja.json",
               "download_name": "异环-1.3-上半-日语_舆情分析报告.html"
             },

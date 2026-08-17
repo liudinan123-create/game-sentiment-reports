@@ -241,7 +241,8 @@ function renderReport(){
   const blocks=['positive','negative','neutral'].map((sentiment,sentimentIndex)=>{
     const stats=a.sentiments[sentiment],summary=currentSummary(sentiment),topics=[0,1,2].map(index=>{
       const topic=currentTopic(sentiment,index),share=topic.share_percent==null?'待 JSON 计算':`${Number(topic.share_percent).toFixed(1)}%`;
-      const quotes=(topic.quotes||[]).map((quote,quoteIndex)=>`<span class="quote" data-editor="quote" data-sentiment="${sentiment}" data-topic-index="${index}" data-quote-index="${quoteIndex}">${escapeHTML(quote)}</span>`).join('');
+      const sourceQuotes=topic.quotes||[],translatedQuotes=topic.quote_translations||[],quoteField=translatedQuotes.length?'quote_translations':'quotes';
+      const quotes=sourceQuotes.map((quote,quoteIndex)=>`<span class="quote" data-editor="quote" data-quote-field="${quoteField}" data-sentiment="${sentiment}" data-topic-index="${index}" data-quote-index="${quoteIndex}">${escapeHTML(translatedQuotes[quoteIndex]||quote)}</span>`).join('');
       return `<article class="topic-item"><div class="topic-title"><strong data-editor="topic-title" data-sentiment="${sentiment}" data-topic-index="${index}">TOP${index+1} · ${escapeHTML(topic.title)}</strong><span class="topic-share">占${SENTIMENT_LABELS[sentiment]}：${share}</span></div><p data-editor="topic-detail" data-sentiment="${sentiment}" data-topic-index="${index}">${escapeHTML(topic.detail)}</p><details class="topic-quotes"><summary><span class="show-label">展示代表评论</span><span class="hide-label">收起代表评论</span></summary><div class="topic-quote-list">${quotes}</div></details></article>`;
     }).join('');
     return `<details class="insight ${SENTIMENT_CLASSES[sentiment]}" ${sentimentIndex===0?'open':''}><summary><span class="sentiment-badge">${SENTIMENT_LABELS[sentiment]}</span><span class="summary-count">${Number(stats.count).toLocaleString()} 条 · ${Number(stats.percent).toFixed(1)}%</span><span class="summary-text" data-editor="sentiment-summary" data-sentiment="${sentiment}">${escapeHTML(summary)}</span><span class="chevron">⌄</span></summary><div class="insight-body"><div class="top3">${topics}</div></div></details>`;
@@ -265,8 +266,8 @@ function collectEdits(){
       const source=REPORT_DATA.generated.sentiments[sentiment].topics[index]||{},override={};
       const title=cleanText(document.querySelector(`[data-editor="topic-title"][data-sentiment="${sentiment}"][data-topic-index="${index}"]`)?.innerText).replace(/^TOP\d+\s*[·•-]\s*/,'');
       const detail=cleanText(document.querySelector(`[data-editor="topic-detail"][data-sentiment="${sentiment}"][data-topic-index="${index}"]`)?.innerText);
-      const quotes=[...document.querySelectorAll(`[data-editor="quote"][data-sentiment="${sentiment}"][data-topic-index="${index}"]`)].map(el=>cleanText(el.innerText));
-      if(title!==source.title)override.title=title;if(detail!==source.detail)override.detail=detail;if(JSON.stringify(quotes)!==JSON.stringify(source.quotes||[]))override.quotes=quotes;
+      const quoteEls=[...document.querySelectorAll(`[data-editor="quote"][data-sentiment="${sentiment}"][data-topic-index="${index}"]`)],quotes=quoteEls.map(el=>cleanText(el.innerText)),quoteField=quoteEls[0]?.dataset.quoteField||'quotes';
+      if(title!==source.title)override.title=title;if(detail!==source.detail)override.detail=detail;if(JSON.stringify(quotes)!==JSON.stringify(source[quoteField]||[]))override[quoteField]=quotes;
       if(Object.keys(override).length)next.sentiments[sentiment].topics[index]=override;
     }
   }
