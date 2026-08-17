@@ -18,9 +18,10 @@ body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",Arial,sans-s
 button{font:inherit}.page{max-width:1120px;margin:0 auto;padding:26px 20px 48px}
 .report-toolbar{position:sticky;top:8px;z-index:20;display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:12px;padding:10px 12px;background:rgba(255,255,255,.96);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);backdrop-filter:blur(10px)}.report-toolbar button{border:1px solid var(--line);background:#fff;color:var(--brand);border-radius:8px;padding:7px 11px;font-size:12px;font-weight:700;cursor:pointer}.report-toolbar button:hover{background:var(--surface-soft)}.report-toolbar .primary{background:var(--brand);border-color:var(--brand);color:#fff}.report-toolbar .danger{color:var(--negative)}.report-toolbar .status{margin-left:auto;color:var(--muted);font-size:11px}.edit-only{display:none}.editing .edit-only{display:inline-block}.editing .view-only{display:none}.editing [contenteditable="true"]{outline:2px dashed #b99055;outline-offset:3px;border-radius:3px;background:#fffdf7;cursor:text}.editing .summary-text[contenteditable="true"]{padding:4px}.editing .topic-title strong[contenteditable="true"],.editing .topic-item>p[contenteditable="true"]{display:block;padding:3px}
 .admin-only{display:none}.admin-mode .admin-only{display:inline-block}.publish-dialog{width:min(520px,calc(100vw - 32px));border:0;border-radius:16px;padding:0;box-shadow:0 24px 70px rgba(25,35,52,.3);color:var(--ink)}.publish-dialog::backdrop{background:rgba(21,29,42,.56);backdrop-filter:blur(3px)}.publish-dialog form{padding:24px}.publish-dialog h2{font-size:19px;margin-bottom:6px}.publish-dialog .dialog-note{font-size:12px;color:var(--muted);margin-bottom:17px}.publish-dialog label{display:block;font-size:12px;font-weight:700;margin-top:12px}.publish-dialog input{width:100%;margin-top:6px;border:1px solid var(--line);border-radius:9px;padding:10px 11px;color:var(--ink);background:#fff}.publish-dialog input:focus{outline:2px solid #b9905580;border-color:var(--accent)}.publish-path{margin-top:12px;padding:9px 10px;border-radius:8px;background:var(--surface-soft);font:11px/1.5 Consolas,monospace;overflow-wrap:anywhere}.dialog-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:19px}.dialog-actions button{border:1px solid var(--line);border-radius:8px;padding:8px 13px;background:#fff;color:var(--brand);font-weight:700;cursor:pointer}.dialog-actions .primary{background:var(--brand);border-color:var(--brand);color:#fff}.dialog-status{min-height:20px;margin-top:10px;font-size:12px;color:var(--muted)}.dialog-status.error{color:var(--negative)}.dialog-status.success{color:var(--positive)}
-.report-head{background:linear-gradient(135deg,var(--brand),var(--brand-2));color:#fff;border-radius:var(--radius);padding:30px 34px;box-shadow:0 14px 34px rgba(38,53,79,.18)}
-.eyebrow{font-size:12px;letter-spacing:.12em;color:#d9e1eb;margin-bottom:9px}.report-head h1{font-size:clamp(20px,3vw,29px);line-height:1.45;font-weight:700}
+.report-head{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(410px,.92fr);gap:28px;align-items:stretch;background:linear-gradient(135deg,var(--brand),var(--brand-2));color:#fff;border-radius:var(--radius);padding:30px 34px;box-shadow:0 14px 34px rgba(38,53,79,.18)}
+.report-head-main{min-width:0;display:flex;flex-direction:column;justify-content:center}.eyebrow{font-size:12px;letter-spacing:.12em;color:#d9e1eb;margin-bottom:9px}.report-head h1{font-size:clamp(20px,3vw,29px);line-height:1.45;font-weight:700}
 .headline-meta{display:flex;gap:9px 18px;flex-wrap:wrap;margin-top:14px;color:#dce4ee;font-size:13px}.headline-meta span{white-space:nowrap}
+.video-metrics{align-self:stretch;display:flex;flex-direction:column;justify-content:center;padding:15px;border:1px solid rgba(255,255,255,.16);border-radius:14px;background:rgba(255,255,255,.08);box-shadow:inset 0 1px 0 rgba(255,255,255,.06)}.video-metrics-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}.video-metrics-head strong{font-size:12px;letter-spacing:.08em;color:#eef3f9}.video-metrics-head small{font-size:10px;color:#c8d4e2;white-space:nowrap}.video-metrics-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.video-metric{min-width:0;padding:12px 10px;border:1px solid rgba(255,255,255,.13);border-radius:10px;background:rgba(17,29,48,.2)}.video-metric-label{font-size:11px;color:#cdd8e5;white-space:nowrap}.video-metric-value{display:block;margin-top:5px;font-size:clamp(17px,1.8vw,23px);line-height:1.2;font-weight:800;letter-spacing:-.03em;font-variant-numeric:tabular-nums;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.video-metric-unit{display:block;margin-top:4px;font-size:10px;color:#aebdd0}
 .conclusion{margin-top:18px;background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:var(--radius);padding:22px 25px;box-shadow:var(--shadow)}
 .section-label{font-size:12px;color:var(--muted);font-weight:700;letter-spacing:.08em}.conclusion p{font-size:17px;font-weight:600;margin-top:7px;line-height:1.75}
 .sentiment-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}.sentiment-card{padding:20px;border-radius:14px;border:1px solid;display:flex;align-items:center;justify-content:space-between;gap:12px}
@@ -36,7 +37,8 @@ button{font:inherit}.page{max-width:1120px;margin:0 auto;padding:26px 20px 48px}
 .insight-body{padding:0 20px 22px 20px;border-top:1px solid var(--line)}.top3{display:grid;gap:11px;margin-top:18px}.topic-item{border-left:3px solid;padding:12px 14px;background:var(--surface-soft);border-radius:0 10px 10px 0}.positive .topic-item{border-color:var(--positive)}.negative .topic-item{border-color:var(--negative)}.neutral .topic-item{border-color:var(--neutral)}.topic-title{display:flex;align-items:start;justify-content:space-between;gap:14px}.topic-title strong{font-size:14px}.topic-share{white-space:nowrap;border-radius:999px;padding:3px 9px;font-size:11px;font-weight:700}.positive .topic-share{color:var(--positive);background:var(--positive-soft)}.negative .topic-share{color:var(--negative);background:var(--negative-soft)}.neutral .topic-share{color:var(--neutral);background:var(--neutral-soft)}.topic-item>p{font-size:13px;color:#4d5969;margin-top:6px}.topic-quotes{margin-top:9px;border-top:1px dashed var(--line);padding-top:8px}.topic-quotes summary{display:inline-flex;align-items:center;gap:6px;padding:0;cursor:pointer;list-style:none;font-size:11px;font-weight:700;color:var(--brand-2)}.topic-quotes summary::-webkit-details-marker{display:none}.topic-quotes summary::before{content:"＋";font-size:13px}.topic-quotes[open] summary::before{content:"－"}.topic-quotes .hide-label{display:none}.topic-quotes[open] .show-label{display:none}.topic-quotes[open] .hide-label{display:inline}.topic-quote-list{margin-top:7px}.quote{display:block;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin-top:6px;color:#4f5b6b;font-size:12px}
 .template-note{margin-top:18px;padding:15px 18px;background:#fff9ed;border:1px solid #ecd9b7;border-radius:12px;color:#755d34;font-size:12px}.template-note strong{display:block;margin-bottom:4px}
 footer{text-align:center;color:#8b95a4;font-size:11px;padding:23px 0 0}
-@media(max-width:800px){.report-toolbar .status{width:100%;margin-left:0}.sentiment-cards{grid-template-columns:1fr}.chart-grid{grid-template-columns:1fr}.panel{height:auto;min-height:420px}.chart-grid>.panel:first-child{height:420px}.insight summary{grid-template-columns:auto 1fr auto}.summary-count{display:none}.summary-text{grid-column:1/-2}.topic-title{display:block}.topic-share{display:inline-block;margin-top:7px}}
+@media(max-width:800px){.report-head{grid-template-columns:1fr;gap:20px}.report-toolbar .status{width:100%;margin-left:0}.sentiment-cards{grid-template-columns:1fr}.chart-grid{grid-template-columns:1fr}.panel{height:auto;min-height:420px}.chart-grid>.panel:first-child{height:420px}.insight summary{grid-template-columns:auto 1fr auto}.summary-count{display:none}.summary-text{grid-column:1/-2}.topic-title{display:block}.topic-share{display:inline-block;margin-top:7px}}
+@media(max-width:560px){.report-head{padding:24px 22px}.video-metrics-grid{grid-template-columns:1fr}.video-metric{display:grid;grid-template-columns:1fr auto;align-items:center;gap:3px 12px}.video-metric-value{grid-column:2;grid-row:1/3;margin-top:0}.video-metric-unit{margin-top:0}}
 @media print{body{background:#fff}.page{max-width:none;padding:0}.report-head,.panel,.insight,.conclusion{box-shadow:none}.template-note{display:none}.insight:not([open]) .insight-body{display:block}}
 </style>
 </head>
@@ -57,11 +59,21 @@ footer{text-align:center;color:#8b95a4;font-size:11px;padding:23px 0 0}
     <span class="status" id="editStatus">当前显示：自动生成内容</span>
   </div>
   <header class="report-head">
-    <div class="eyebrow">舆情分析报告 / SENTIMENT REPORT</div>
-    <h1 id="reportTitle">白银之城 · CBT2 · 完整测试期 · 全角色</h1>
-    <div class="headline-meta" id="headlineMeta">
-      <span>监测时间：2026.07.23—07.28</span><span>平台：B站</span>
+    <div class="report-head-main">
+      <div class="eyebrow">舆情分析报告 / SENTIMENT REPORT</div>
+      <h1 id="reportTitle">白银之城 · CBT2 · 完整测试期 · 全角色</h1>
+      <div class="headline-meta" id="headlineMeta">
+        <span>监测时间：2026.07.23—07.28</span><span>平台：B站</span>
+      </div>
     </div>
+    <section class="video-metrics" aria-label="视频传播数据">
+      <div class="video-metrics-head"><strong>视频传播概览</strong><small id="videoMetricsNote">数据待补充</small></div>
+      <div class="video-metrics-grid">
+        <div class="video-metric"><span class="video-metric-label">总视频数</span><b class="video-metric-value" id="videoCount">—</b><span class="video-metric-unit">个视频</span></div>
+        <div class="video-metric"><span class="video-metric-label">总播放量</span><b class="video-metric-value" id="videoViews">—</b><span class="video-metric-unit">次播放</span></div>
+        <div class="video-metric"><span class="video-metric-label">总评论数</span><b class="video-metric-value" id="videoComments">—</b><span class="video-metric-unit">条评论</span></div>
+      </div>
+    </section>
   </header>
 
   <section class="conclusion">
@@ -173,6 +185,7 @@ footer{text-align:center;color:#8b95a4;font-size:11px;padding:23px 0 0}
   "meta": {"game":"白银之城","version":"CBT2","phase":"完整测试期","character":"全角色","date_start":"2026-07-23","date_end":"2026-07-28","platform":"B站","generated_at":"2026-08-14T21:00"},
   "analysis": {
     "total_comments": 29385,
+    "video_metrics": {"video_count":null,"total_views":null,"total_comments":null,"updated_at":null,"source":null},
     "sentiments": {"positive":{"count":4107,"percent":14.0},"negative":{"count":7754,"percent":26.4},"neutral":{"count":17524,"percent":59.6}},
     "keywords": [{"name":"红蔷薇","count":2842},{"name":"男女主建模","count":2501},{"name":"骑士团服饰","count":2244},{"name":"受众定位","count":2046},{"name":"灰姑娘案件","count":1819},{"name":"虚幻5性能","count":1621},{"name":"配音表情","count":1393},{"name":"飞马操控","count":1194},{"name":"抽卡保底","count":995},{"name":"正式服时间","count":824}],
     "topics": [{"name":"其他讨论","total":17935,"positive_percent":12.6,"negative_percent":23.9,"neutral_percent":63.5},{"name":"社区生态","total":4664,"positive_percent":15.6,"negative_percent":29.2,"neutral_percent":55.3},{"name":"视觉表现","total":1987,"positive_percent":14.6,"negative_percent":36.7,"neutral_percent":48.7},{"name":"角色讨论","total":1140,"positive_percent":26.9,"negative_percent":39.0,"neutral_percent":34.1},{"name":"版本内容","total":1059,"positive_percent":11.1,"negative_percent":23.8,"neutral_percent":65.1},{"name":"音频表现","total":846,"positive_percent":12.2,"negative_percent":25.1,"neutral_percent":62.8},{"name":"竞品讨论","total":745,"positive_percent":18.8,"negative_percent":33.7,"neutral_percent":47.5},{"name":"玩法体验","total":612,"positive_percent":22.4,"negative_percent":28.1,"neutral_percent":49.5},{"name":"商业化","total":588,"positive_percent":13.9,"negative_percent":19.9,"neutral_percent":66.2},{"name":"技术体验","total":423,"positive_percent":16.3,"negative_percent":25.8,"neutral_percent":57.9}]
@@ -199,6 +212,8 @@ let ANALYSIS_DATA_CACHE=null;
 
 function cloneValue(value){return JSON.parse(JSON.stringify(value));}
 function escapeHTML(value){return String(value??'').replace(/[&<>"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));}
+function formatMetric(value){const number=Number(value);return value===null||value===undefined||value===''||!Number.isFinite(number)?'待统计':number.toLocaleString('zh-CN');}
+function renderVideoMetrics(metrics={}){document.getElementById('videoCount').textContent=formatMetric(metrics.video_count);document.getElementById('videoViews').textContent=formatMetric(metrics.total_views);document.getElementById('videoComments').textContent=formatMetric(metrics.total_comments);const note=[];if(metrics.source)note.push(metrics.source);if(metrics.updated_at)note.push(`更新 ${String(metrics.updated_at).replaceAll('-','.')}`);document.getElementById('videoMetricsNote').textContent=note.join(' · ')||'数据待补充';}
 function reportKey(){const m=REPORT_DATA.meta;return `sentiment-draft:${m.game}:${m.version}:${m.phase}:${m.character}:${m.platform}`;}
 function currentTopic(sentiment,index){const generated=REPORT_DATA.generated.sentiments[sentiment].topics[index]||{};const override=REPORT_DATA.editorial_override.sentiments[sentiment].topics[index];return override?{...generated,...override}:generated;}
 function currentSummary(sentiment){return REPORT_DATA.editorial_override.sentiments[sentiment].summary??REPORT_DATA.generated.sentiments[sentiment].summary;}
@@ -209,6 +224,7 @@ function renderReport(){
   const m=REPORT_DATA.meta,a=REPORT_DATA.analysis;
   document.getElementById('reportTitle').textContent=[m.game,m.version,m.phase,m.character].filter(Boolean).join(' · ');
   document.getElementById('headlineMeta').innerHTML=`<span>监测时间：${escapeHTML(m.date_start)}—${escapeHTML(m.date_end)}</span><span>平台：${escapeHTML(m.platform)}</span>`;
+  renderVideoMetrics(a.video_metrics||REPORT_DATA.video_metrics||m.video_metrics||{});
   const conclusion=document.getElementById('overallConclusion');conclusion.textContent=currentConclusion();conclusion.dataset.editor='overall';
   for(const key of ['positive','negative','neutral']){
     const card=document.querySelector(`.sentiment-card.${SENTIMENT_CLASSES[key]}`),stats=a.sentiments[key];
