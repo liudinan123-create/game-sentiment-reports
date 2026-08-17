@@ -70,7 +70,7 @@ footer{text-align:center;color:#8b95a4;font-size:11px;padding:23px 0 0}
       <div class="video-metrics-head"><strong>视频传播概览</strong><small id="videoMetricsNote">数据待补充</small></div>
       <div class="video-metrics-grid">
         <div class="video-metric"><span class="video-metric-label">总视频数</span><b class="video-metric-value" id="videoCount">—</b><span class="video-metric-unit">个视频</span></div>
-        <div class="video-metric"><span class="video-metric-label">总播放量</span><b class="video-metric-value" id="videoViews">—</b><span class="video-metric-unit">万次播放</span></div>
+        <div class="video-metric"><span class="video-metric-label">总播放量</span><b class="video-metric-value" id="videoViews">—</b><span class="video-metric-unit">次播放</span></div>
         <div class="video-metric"><span class="video-metric-label">总评论数</span><b class="video-metric-value" id="videoComments">—</b><span class="video-metric-unit">条评论</span></div>
       </div>
     </section>
@@ -213,7 +213,7 @@ let ANALYSIS_DATA_CACHE=null;
 function cloneValue(value){return JSON.parse(JSON.stringify(value));}
 function escapeHTML(value){return String(value??'').replace(/[&<>"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));}
 function formatMetric(value){const number=Number(value);return value===null||value===undefined||value===''||!Number.isFinite(number)?'待统计':number.toLocaleString('zh-CN');}
-function formatViewsInWan(value){const number=Number(value);return value===null||value===undefined||value===''||!Number.isFinite(number)?'待统计':(number/10000).toLocaleString('zh-CN',{minimumFractionDigits:1,maximumFractionDigits:1});}
+function formatViewsInWan(value){const number=Number(value);return value===null||value===undefined||value===''||!Number.isFinite(number)?'待统计':`${(number/10000).toLocaleString('zh-CN',{minimumFractionDigits:1,maximumFractionDigits:1})}万`;}
 function renderVideoMetrics(metrics={}){document.getElementById('videoCount').textContent=formatMetric(metrics.video_count);document.getElementById('videoViews').textContent=formatViewsInWan(metrics.total_views);document.getElementById('videoComments').textContent=formatMetric(metrics.total_comments);const note=[];if(metrics.source)note.push(metrics.source);if(metrics.updated_at)note.push(`更新 ${String(metrics.updated_at).replaceAll('-','.')}`);document.getElementById('videoMetricsNote').textContent=note.join(' · ')||'数据待补充';}
 function reportKey(){const m=REPORT_DATA.meta;return `sentiment-draft:${m.game}:${m.version}:${m.phase}:${m.character}:${m.platform}`;}
 function currentTopic(sentiment,index){const generated=REPORT_DATA.generated.sentiments[sentiment].topics[index]||{};const override=REPORT_DATA.editorial_override.sentiments[sentiment].topics[index];return override?{...generated,...override}:generated;}
