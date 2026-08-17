@@ -8,7 +8,7 @@
     "date_start": "2026-08-13",
     "date_end": "2026-08-14",
     "platform": "YouTube",
-    "generated_at": "2026-08-17T15:26"
+    "generated_at": "2026-08-17T16:09"
   },
   "analysis": {
     "total_comments": 1557,
@@ -35,72 +35,116 @@
     },
     "keywords": [
       {
-        "name": "商业化",
-        "count": 410
-      },
-      {
-        "name": "版本内容",
-        "count": 351
-      },
-      {
-        "name": "其他讨论",
+        "name": "多语言短评与表情反应",
         "count": 308
       },
       {
-        "name": "剧情内容",
-        "count": 212
+        "name": "1.3版本角色、画面与资产综合讨论",
+        "count": 304
       },
       {
-        "name": "角色讨论",
-        "count": 185
+        "name": "住宅与角色卡池高额消费",
+        "count": 152
       },
       {
-        "name": "竞品讨论",
+        "name": "水上摩托与泳装盲盒获取争议",
+        "count": 143
+      },
+      {
+        "name": "残虹与鸣潮角色相似争议",
         "count": 91
+      },
+      {
+        "name": "残虹角色魅力与战斗演出",
+        "count": 83
+      },
+      {
+        "name": "残虹羁绊剧情惩罚争议",
+        "count": 82
+      },
+      {
+        "name": "残虹罪责与洗白争议",
+        "count": 81
+      },
+      {
+        "name": "真红首发卡池与营收下滑",
+        "count": 66
+      },
+      {
+        "name": "女性角色外观与衣装吸引力",
+        "count": 63
       }
     ],
     "topics": [
       {
-        "name": "商业化",
-        "total": 410,
-        "positive_percent": 42.2,
-        "negative_percent": 26.3,
-        "neutral_percent": 31.5
-      },
-      {
-        "name": "版本内容",
-        "total": 351,
-        "positive_percent": 47.9,
-        "negative_percent": 16.2,
-        "neutral_percent": 35.9
-      },
-      {
-        "name": "其他讨论",
+        "name": "多语言短评与表情反应",
         "total": 308,
         "positive_percent": 63.0,
         "negative_percent": 7.5,
         "neutral_percent": 29.5
       },
       {
-        "name": "剧情内容",
-        "total": 212,
-        "positive_percent": 34.9,
-        "negative_percent": 22.6,
-        "neutral_percent": 42.5
+        "name": "1.3版本角色、画面与资产综合讨论",
+        "total": 304,
+        "positive_percent": 46.4,
+        "negative_percent": 18.1,
+        "neutral_percent": 35.5
       },
       {
-        "name": "角色讨论",
-        "total": 185,
-        "positive_percent": 58.4,
-        "negative_percent": 11.4,
-        "neutral_percent": 30.3
+        "name": "住宅与角色卡池高额消费",
+        "total": 152,
+        "positive_percent": 38.2,
+        "negative_percent": 36.8,
+        "neutral_percent": 25.0
       },
       {
-        "name": "竞品讨论",
+        "name": "水上摩托与泳装盲盒获取争议",
+        "total": 143,
+        "positive_percent": 47.6,
+        "negative_percent": 21.0,
+        "neutral_percent": 31.5
+      },
+      {
+        "name": "残虹与鸣潮角色相似争议",
         "total": 91,
         "positive_percent": 13.2,
         "negative_percent": 31.9,
         "neutral_percent": 54.9
+      },
+      {
+        "name": "残虹角色魅力与战斗演出",
+        "total": 83,
+        "positive_percent": 71.1,
+        "negative_percent": 4.8,
+        "neutral_percent": 24.1
+      },
+      {
+        "name": "残虹羁绊剧情惩罚争议",
+        "total": 82,
+        "positive_percent": 54.9,
+        "negative_percent": 17.1,
+        "neutral_percent": 28.0
+      },
+      {
+        "name": "残虹罪责与洗白争议",
+        "total": 81,
+        "positive_percent": 30.9,
+        "negative_percent": 30.9,
+        "neutral_percent": 38.3
+      },
+      {
+        "name": "真红首发卡池与营收下滑",
+        "total": 66,
+        "positive_percent": 36.4,
+        "negative_percent": 16.7,
+        "neutral_percent": 47.0
+      },
+      {
+        "name": "女性角色外观与衣装吸引力",
+        "total": 63,
+        "positive_percent": 46.0,
+        "negative_percent": 17.5,
+        "neutral_percent": 36.5
       }
     ]
   },
