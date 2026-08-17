@@ -190,8 +190,8 @@
               "download_name": "异环-1.3-上半-日语_舆情分析报告.html"
             },
             "ko": {
-              "status": "metrics_only",
-              "data_source": "data/reports/nte-1.3-upper-ko.json",
+              "status": "ready",
+              "data_source": "data/reports/nte-1.3-upper-ko.json?v=20260817-ko-ready",
               "download_name": "异环-1.3-上半-韩语_舆情分析报告.html"
             }
           },

@@ -1,6 +1,5 @@
 {
   "schema_version": 1,
-  "report_status": "metrics_only",
   "meta": {
     "game": "异环",
     "version": "1.3",
@@ -9,16 +8,5349 @@
     "date_start": "2026-08-13",
     "date_end": "2026-08-14",
     "platform": "YouTube",
-    "language": "ko",
-    "generated_at": "2026-08-17"
+    "generated_at": "2026-08-17T17:08"
   },
   "analysis": {
+    "total_comments": 831,
     "video_metrics": {
       "video_count": 68,
       "total_views": 439076,
       "total_comments": 1391,
       "updated_at": "2026-08-17",
       "source": "YouTube·2026-08-13—08-14·韩语采集组（用户CSV）"
+    },
+    "sentiments": {
+      "positive": {
+        "count": 324,
+        "percent": 39.0
+      },
+      "negative": {
+        "count": 228,
+        "percent": 27.4
+      },
+      "neutral": {
+        "count": 279,
+        "percent": 33.6
+      }
+    },
+    "keywords": [
+      {
+        "name": "其他讨论",
+        "count": 134
+      },
+      {
+        "name": "商业化",
+        "count": 118
+      },
+      {
+        "name": "战斗体验",
+        "count": 101
+      },
+      {
+        "name": "角色讨论",
+        "count": 97
+      },
+      {
+        "name": "社区生态",
+        "count": 95
+      },
+      {
+        "name": "竞品讨论",
+        "count": 93
+      },
+      {
+        "name": "运营服务",
+        "count": 79
+      },
+      {
+        "name": "视觉表现",
+        "count": 50
+      },
+      {
+        "name": "养成资源",
+        "count": 37
+      },
+      {
+        "name": "版本内容",
+        "count": 27
+      }
+    ],
+    "topics": [
+      {
+        "name": "其他讨论",
+        "total": 134,
+        "positive_percent": 36.6,
+        "negative_percent": 38.1,
+        "neutral_percent": 25.4
+      },
+      {
+        "name": "商业化",
+        "total": 118,
+        "positive_percent": 13.6,
+        "negative_percent": 59.3,
+        "neutral_percent": 27.1
+      },
+      {
+        "name": "战斗体验",
+        "total": 101,
+        "positive_percent": 49.5,
+        "negative_percent": 12.9,
+        "neutral_percent": 37.6
+      },
+      {
+        "name": "角色讨论",
+        "total": 97,
+        "positive_percent": 49.5,
+        "negative_percent": 5.2,
+        "neutral_percent": 45.4
+      },
+      {
+        "name": "社区生态",
+        "total": 95,
+        "positive_percent": 76.8,
+        "negative_percent": 3.2,
+        "neutral_percent": 20.0
+      },
+      {
+        "name": "竞品讨论",
+        "total": 93,
+        "positive_percent": 10.8,
+        "negative_percent": 39.8,
+        "neutral_percent": 49.5
+      },
+      {
+        "name": "运营服务",
+        "total": 79,
+        "positive_percent": 45.6,
+        "negative_percent": 24.1,
+        "neutral_percent": 30.4
+      },
+      {
+        "name": "视觉表现",
+        "total": 50,
+        "positive_percent": 54.0,
+        "negative_percent": 16.0,
+        "neutral_percent": 30.0
+      },
+      {
+        "name": "养成资源",
+        "total": 37,
+        "positive_percent": 21.6,
+        "negative_percent": 40.5,
+        "neutral_percent": 37.8
+      },
+      {
+        "name": "版本内容",
+        "total": 27,
+        "positive_percent": 25.9,
+        "negative_percent": 25.9,
+        "neutral_percent": 48.1
+      }
+    ]
+  },
+  "generated": {
+    "overall_conclusion": "异环1.3上半凭残虹建模演出、水上摩托与高自由度整活获赞，但近2000万Fons盲盒和泳装捆绑挫伤体验，最需关注载具实用性与跨游戏抄袭争端。",
+    "sentiments": {
+      "positive": {
+        "summary": "正面玩家集中称赞残虹接近绯雪水准的建模与独立3D演出，并期待1.3的水上摩托、黑色服装和直播内容；挖掘机拖船等高自由度整活也强化了社区欢乐感。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "残虹建模、3D演出与抽取期待",
+            "detail": "玩家认可残虹的角色完成度，称其建模与独立3D动画接近绯雪水准，动作调整后的观感有所改善；强烈的角色吸引力也直接转化为准备抽取和付费的意愿。",
+            "count": 50,
+            "share_percent": 15.4,
+            "quotes": [
+              "꿈의 회랑에서 엑스칼리버 모션 으로 이야기가 좀 많이 나왔었나보네 좀 낫다;",
+              "거의 히유키급으로 잘만든듯 앞으로의 이환도 기대하게 만드는 영웅같다",
+              "인겜 모델링이랑 별개로 3d 애니메이팅을 또 한거임? 일에 미친사람들만 모여서 만드는 게임이야?",
+              "어서와라. 지갑의 두께는 충분하다."
+            ],
+            "quote_translations": [
+              "看来梦之回廊里的“Excalibur动作”引发过不少讨论，现在好一些了；",
+              "感觉做得几乎有绯雪的水准，是一个让人对异环后续也产生期待的角色。",
+              "除了游戏内建模，还另外做了3D动画吗？这是只有工作狂才聚在一起制作的游戏吗？",
+              "来吧，我的钱包厚度已经足够了。"
+            ]
+          },
+          {
+            "rank": 2,
+            "title": "1.3水上摩托、黑色服装与直播期待",
+            "detail": "1.3展示的水上摩托被认为是很酷的新点子，角色黑色服装也带来直观惊喜，玩家同时表达了对版本直播和后续内容揭晓的期待。",
+            "count": 49,
+            "share_percent": 15.1,
+            "quotes": [
+              "jet ski such a cool idea",
+              "holy hell that black outfit",
+              "can't wait for the stream😅"
+            ],
+            "quote_translations": [
+              "水上摩托这个点子太酷了。",
+              "天啊，那身黑色服装太绝了。",
+              "等不及看直播了😅"
+            ]
+          },
+          {
+            "rank": 3,
+            "title": "挖掘机拖船与高自由度整活",
+            "detail": "视频中用挖掘机处理船只等非常规操作让玩家感到意外又好笑，评论将这种可自由尝试、能制造节目效果的体验视为异环的鲜明乐趣。",
+            "count": 41,
+            "share_percent": 12.7,
+            "quotes": [
+              "게임 진짜 자유도 레전드네ᄏᄏᄏᄏ",
+              "미쳤다ᄏᄏᄏ 포크레인으로 배를?",
+              "이환 진짜 재밌게 즐기네 ᄏᄏᄏᄏᄏᄏᄏ"
+            ],
+            "quote_translations": [
+              "这游戏的自由度真是传奇，哈哈哈哈。",
+              "太疯狂了，哈哈哈，用挖掘机来弄船？",
+              "异环玩得真有意思，哈哈哈哈哈哈哈。"
+            ]
+          }
+        ]
+      },
+      "negative": {
+        "summary": "负面反馈主要指向水上摩托盲盒近2000万Fons的高价与Mint、鉴定师泳装强制捆绑，并延伸至NTE、鸣潮与原神玩家围绕角色相似和抄袭指控的粉圈对骂。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "水上摩托盲盒近2000万Fons与泳装强制捆绑",
+            "detail": "玩家认为水上摩托自身用途不足以支撑近2000万Fons的成本，价格主要被Mint、鉴定师等泳装抬高；已有住房目标或Fons储备不足者普遍选择跳过，并批评即便活动投放资源也难以触及保底。",
+            "count": 64,
+            "share_percent": 28.1,
+            "quotes": [
+              "20 millonés? es un pésimo trato a no ser que metan una megaupdate que tenga el oceano como enfoque principal... pero aún asi es demasiado. nte es muy generoso en los banners de personajes pero en los de vehiculos desquitan todo lo bueno que hacen jajajajaj en algo tienen que canalizar esas ganas de exprimir a los jugadores",
+              "es un robo a dos manos xdxd, ni siendo ballena alcanzas a ahorrar los 19 millones porque solo darán 17m, si son f2p ni por las skins tiren.",
+              "justo alcance 8m para comprarme la casa más cara y me sales con que ocupo 20m para todo eso 🥀",
+              "voy a tirar mas que todo por la skin del perito y mint, sinceramente veo muy caro la moto de agua para no tener nada que hacer en la playa, si hubieran dicho que mas adelante se vienen eventos o misiones que necesiten la moto de agua fijo me la saco, pero por ahora no es indispensable y me gusto mas la casa"
+            ],
+            "quote_translations": [
+              "2000万？除非推出一场以海洋为核心的大更新，否则这交易太糟了……但即便如此也还是太贵。NTE在角色卡池上很慷慨，却在载具卡池里把之前的好全收回去了，看来总得找个地方榨玩家。",
+              "这简直是明抢。就算是氪金大户也存不到1900万，因为只会送1700万；如果是零氪玩家，连为了皮肤都别抽。",
+              "我才刚攒到800万准备买最贵的房子，你却告诉我这一套要2000万🥀",
+              "我主要想抽鉴定师和Mint的皮肤。说实话，海滩上根本没什么事情可做，水上摩托却卖得太贵；如果以后有必须使用它的活动或任务，我肯定会拿，但现在并非必需，我还是更喜欢房子。"
+            ]
+          },
+          {
+            "rank": 2,
+            "title": "1.3水上摩托用途有限且盲盒回报缺乏吸引力",
+            "detail": "玩家指出当前地图缺少可供水上摩托持续通行的水道，载具除海面移动外缺乏明确使用场景；只想要单件泳装者又被迫面对整盒定价，曾为Doraco消耗资源的零氪玩家因此更倾向保留资源或等待越野车、住宅等内容。",
+            "count": 51,
+            "share_percent": 22.4,
+            "quotes": [
+              "this kinda sucks considering the only thing i want from the whole box is one skin,but i have to pay tht nasty price for everything as a bundle idk if i m pulling on this blind box or not,the odds arent looking good id rather jst spend 2.4k crystals for the skin...",
+              "let's be honest atm the tide is a total skip. where else besides the ocean do we want to use it on anyway? there aren't any waterways we can make use of to traverse the map with it. so i really don't think people need to stress about it. in comparison the buggy that we're able to buy is way more interesting and what i'm personally looking forward to the most beside the new house.",
+              "ya i am not getting this i already made a big mistake spending my amulet as a f2p on the draco bike and got all the rewards from it i am not gonna spend more stuff on a jets ski"
+            ],
+            "quote_translations": [
+              "这感觉很糟，因为整盒里我只想要一件皮肤，却得按恶心的价格把所有东西捆绑买下。我不知道还要不要抽这个盲盒，概率看起来也不好；我宁可直接花2400水晶买那件皮肤。",
+              "说实话，现在这辆水上摩托完全可以跳过。除了海里还能在哪里用？地图里根本没有可供它通行的水道，所以大家没必要为它焦虑。相比之下，能买到的越野车更有意思，也是除新房子外我最期待的东西。",
+              "我不会拿它。我作为零氪玩家已经犯过一次大错，把护符花在Doraco摩托上并拿完了奖励；我不会再为水上摩托投入更多资源。"
+            ]
+          },
+          {
+            "rank": 3,
+            "title": "NTE、鸣潮与原神粉圈围绕相似性和抄袭指控对骂",
+            "detail": "印尼语讨论围绕角色动作、界面与活动设计是否构成抄袭持续升级；玩家互相指责鸣潮、原神粉丝双重标准、带节奏和恶意挑衅，争论已从NTE内容本身转向阵营攻击与社区毒性。",
+            "count": 37,
+            "share_percent": 16.2,
+            "quotes": [
+              "awalnya wuwek ngekor ui sampai event genshin, terus fandom bilang \"emang semuanya milik genshin\", sekarang baru nte niru animasi karakter langsung di bilang plagiat😂, emang ga salah gw mainin genshin dari zaman covid",
+              "gw sebagai pemain wuwa, santai2 aja mainin 2 game ini. yakin gw, yg ngompor2in ini, pasti hoyoshil mau adu domba 😂 info aja, gw pemain genshin sejak 1.0, uninstall krn fandomnya trll toxic, tukang fitnah dan suka adu domba",
+              "awal inspirasi di sebut plagiat adalah kelakuan fanbase genshin impact yang sebut semuanya plagiatin game nya jadi yang lain ikut-ikutan"
+            ],
+            "quote_translations": [
+              "一开始鸣潮从界面到活动都跟着原神做，粉丝却说‘难道一切都是原神的吗’；现在NTE才模仿角色动作，就立刻被说成抄袭😂。我从疫情时期就玩原神，果然没选错。",
+              "我作为鸣潮玩家，可以很轻松地同时玩这两款游戏。我敢说那些煽风点火的人肯定是米哈游水军，想挑拨双方😂。顺便说，我从原神1.0开始玩，后来因为粉圈太有毒、爱造谣和挑拨而卸载了。",
+              "把‘借鉴’称为‘抄袭’的风气，最初就是原神粉丝把什么都说成抄他们的游戏，后来其他人也跟着这么做。"
+            ]
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "中性讨论集中在残虹与《鸣潮》角色相似性的粉圈争议、强化E触发终结技及一命/觉醒配队取舍，以及水上摩托、泳装与999夜奖励的获取安排。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "残虹与《鸣潮》角色相似性及粉圈争论",
+            "detail": "玩家比较残虹与《鸣潮》角色在设计和动作上的相似程度，并讨论不同游戏粉圈对“借鉴”指控的双重标准；也有同时游玩两款游戏的用户认为相关争议应由开发商处理，不影响个人体验。",
+            "count": 46,
+            "share_percent": 16.5,
+            "quotes": [
+              "duh banyak haters wuwa disini, perasaan game itu yang paling sering bilang wuwa plagiat. nih wuwa kek gak boleh bet bilang kalo si zankou ini mirip, toh selain oknum fans wuwa udh biasa liat yang mirip. contoh di etheria restart, itu ada char yang plek ketiplek ultinya sama kayak jing yuan fans malah bilang jing yuan alternate univ lah, adek nya lah. di dna juga gitu, ada phoebe kemasan sachet tapi fans wuwa fine fine aja. agak lucu kalo wuwa yang emg bilang mirip langsung dikata katain sedangkan si ono yang selalu sama samain dianggep boleh-boleh aja",
+              "mau genshin, wuwa, nte, apapun fandom nya ada yg waras ada yang enggak, tapi jan pernah liat hal gini di gpu, udh itu aja 🗿",
+              "mau netral sih tp mo gimana, emng sama, bukan mirip, tapi sama, yg beda cuma efek animasinya, tapi ingat cuy, ini made in china, jd ga perlu di debatkan lagi :v",
+              "gw main dua duanya dan gapeduli yang penting gw nikmatin gamenya, soal plagiat itu urusan developernya"
+            ],
+            "quote_translations": [
+              "唉，这里好多《鸣潮》黑，明明那个游戏的玩家最常说《鸣潮》抄袭。现在《鸣潮》玩家连说残虹很像都不行了吗？而且除了少数人，《鸣潮》玩家早就习惯看到相似设计了。比如《Etheria: Restart》有角色的大招几乎和景元一模一样，粉丝反而说是平行宇宙景元、景元妹妹；《DNA》里也有“袋装菲比”，《鸣潮》粉丝照样无所谓。挺好笑的，《鸣潮》玩家一说像就被骂，另一个圈子天天拿来比较却被认为没问题。",
+              "无论《原神》《鸣潮》还是《异环》，任何圈子都有正常和不正常的人；但我从没在GPU群里见过这种事，就这样吧。🗿",
+              "本来想保持中立，但怎么办呢，确实是一样，不是相似，而是一样；区别只在动画特效。不过记住，这是中国制造，所以没必要再争了。:v",
+              "我两款都玩，也不在乎；只要我能享受游戏就行，抄袭问题是开发商之间的事。"
+            ]
+          },
+          {
+            "rank": 2,
+            "title": "残虹强化E、终结技与命座配队咨询",
+            "detail": "玩家核对残虹连续两次强化E后可用的特殊终结技与普通正面斩击，并询问一命、一觉、六觉的优先级，以及拉里莫等队友组合对队伍上限的影响。",
+            "count": 38,
+            "share_percent": 13.6,
+            "quotes": [
+              "6:14 이 부분의 울티 스킬이 강화 e를 두 번 사용할 시에 사용할 수 있는 울티 스킬이지 않나요? 강화 e를 2회 사용하지 못 했을 시에 기본적으로 발동되는 울티가 정면으로 크게 베어내는 것을 보면 해당 시간대의 궁극기가 뒤에서 설명해주신 강화 e를 사용해야 사용 가능한 궁극기라는 설명과 더 어울리는 것 같다고 생각 됩니다. 아마 울티 스킬의 사용 순서상 이해하기 쉬우라고 이렇게 배치하신 것 같은데, 장면과 설명이 반대가 된 것 같은 느낌이 들어서 댓글 남겨봅니다.",
+              "1돌 뭘 고르느냐에 따라 파티 구성이 달라지겠네",
+              "1돌 1각6각중에 우선순위는 뭘로보시나요? 6각에 1돌4각 라리모가 고점이 엄청높다라는 말이있던데 중섭테스트로는 고위험3별 6렙이 한싸이클에 끝난다고 하던데 1돌1각에 다포딜파티랑 1돌6각 라리모파티 고점차이가 궁금하네요"
+            ],
+            "quote_translations": [
+              "6:14这里的终结技，不是只有连续两次使用强化E后才能发动的吗？没有使用两次强化E时，默认终结技是向正面进行大范围斩击，所以这里的画面更像是后面解释的、使用强化E后才能使用的终结技。也许为了让技能使用顺序更容易理解才这样编排，但感觉画面和说明反了，所以留言。",
+              "看来选择哪个一命效果，会让队伍构成发生变化。",
+              "一命、一觉、六觉之间优先选哪个？听说六觉配一命四觉拉里莫的上限很高，国服测试里高危三星六级能一轮结束。想知道一命一觉的多段伤害队和一命六觉拉里莫队之间，上限差距有多大。"
+            ]
+          },
+          {
+            "rank": 3,
+            "title": "水上摩托、泳装与999夜奖励取舍",
+            "detail": "玩家询问999夜是否继续产出Annulith、已清空小游戏商店后是否还有回流价值，并依据活动赠送水上摩托、未来水上载具以及公寓和泳装资源需求决定是否跳过本期载具。",
+            "count": 34,
+            "share_percent": 12.2,
+            "quotes": [
+              "sre we gonna get more annulith on 999 nights? because then why would most people come back to it after already getting all the rewards from the mini game store.",
+              "i'm skipping, we will probably get boats and other water vehicles in future, i'm going focus on apartments and fons skins.",
+              "all the events and missions will give you a jet ski so absolute skip"
+            ],
+            "quote_translations": [
+              "999夜之后还会给更多Annulith吗？不然大多数人把小游戏商店的奖励全部拿完后，为什么还要回来玩？",
+              "我会跳过。以后大概会有船等其他水上载具，我准备把资源放在公寓、凡斯和时装上。",
+              "所有活动和任务都会送一辆水上摩托，所以肯定跳过。"
+            ]
+          }
+        ]
+      }
     }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [
+      [
+        "aキャラを輝かしてくれのは嬉しい",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "犬の次はアドレーさんか!",
+        "neutral",
+        "0.8",
+        "[\"养成资源\"]"
+      ],
+      [
+        "残虹マジでデザイン良すぎてnte初の課金も考えてるんですけど、普通に異晶買うかキャラ専用の10連サイコロ買うのとどっちがいいですかね",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "アドレーが!マジか嬉しい、、",
+        "positive",
+        "0.88",
+        "[\"养成资源\"]"
+      ],
+      [
+        "このゲーム影に隠れてたaランクキャラが輝くタイミングが来るから本当に好き",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "早霧の採用率ずっと高くてすげーとだけおもった",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "アドレーが輝くのか!",
+        "positive",
+        "0.88",
+        "[\"养成资源\"]"
+      ],
+      [
+        "アドレーそこそこ育ています🎉",
+        "neutral",
+        "0.8",
+        "[\"养成资源\"]"
+      ],
+      [
+        "アドレーさん、残虹との相性が良すぎる。もはや残虹専用のアタッチメントと言っても良いくらい。",
+        "positive",
+        "0.88",
+        "[\"养成资源\"]"
+      ],
+      [
+        "アドレーさん初心者の頃めっちゃ使ってたから嬉しい",
+        "positive",
+        "0.88",
+        "[\"养成资源\"]"
+      ],
+      [
+        "ようやくシールダーが最適候補に入ってきた!ゲーム下手としてはありがたい限り",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "早く来週になってほしいぜ!",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "アドレー使いたくて残紅使うまである",
+        "positive",
+        "0.88",
+        "[\"养成资源\"]"
+      ],
+      [
+        "あああああ育てるのが追いつかない... アドレーなんてガチャで出まくって凸して放置ですわ...",
+        "negative",
+        "0.88",
+        "[\"养成资源\"]"
+      ],
+      [
+        "灭 が 天 に見えて どこぞの豪鬼リスペクトかと思った",
+        "neutral",
+        "0.8",
+        "[\"运营服务\"]"
+      ],
+      [
+        "残虹・ダフォディール・レクイエム・ハニア で失諧編成にしてみても強そう",
+        "neutral",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "主人公使わなくてもいいの最高かな?",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "九原も良さそうな気がするけどどうなんだろう",
+        "neutral",
+        "0.8",
+        "[\"运营服务\"]"
+      ],
+      [
+        "幻鏡状態は何か見た目変わるんですか?",
+        "neutral",
+        "0.8",
+        "[\"运营服务\"]"
+      ],
+      [
+        "ここに来てアドレーくるか",
+        "neutral",
+        "0.8",
+        "[\"养成资源\"]"
+      ],
+      [
+        "このガチャでゲットできるスキン?好きすぎるんだけどナナリも引きたいからどうしよう😭",
+        "neutral",
+        "0.8",
+        "[\"运营服务\"]"
+      ],
+      [
+        "アドレーノータッチだわ育成しなきゃ",
+        "neutral",
+        "0.8",
+        "[\"养成资源\"]"
+      ],
+      [
+        "レクイエムサブアタになるんか・・・",
+        "neutral",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "女性キャラで1番身長デカいですか?",
+        "neutral",
+        "0.8",
+        "[\"运营服务\"]"
+      ],
+      [
+        "自前の育成状況から考えても、早霧、レクイエム、イロヒと組むしか選択肢がない",
+        "neutral",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "お母さま衣装あんのか",
+        "neutral",
+        "0.8",
+        "[\"养成资源\"]"
+      ],
+      [
+        "残虹、アド、イロ、ダフぉでやって欲しいです!",
+        "neutral",
+        "0.8",
+        "[\"运营服务\"]"
+      ],
+      [
+        "アドレーとか育ててないよー",
+        "negative",
+        "0.88",
+        "[\"养成资源\"]"
+      ],
+      [
+        "下父えぐない?そしてデカない?",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "一人称視点で下向いていただきたい",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "残虹、癖だな、また、癖なキャラが、追加される、ガチャ石が、足りない。",
+        "negative",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "새삼 느끼는데 감정사가 ᄌᄂ 쎄긴 했구나.",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "0:23 무친 하이라이트 어흐어흐어흐",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "와 이쁘다이 0:45",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "어흐 잔아가 진짜 미치겠다 ᄏᄏᄏᄏᄏᄏ 팬티검열 없는 이게 섭컬쳐겜이지... 검열하는 겜들 전부 구속해야함",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "곧 감정사들의 집에 초대될 예정입니다",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "내 파티에서 내려 백장",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "대검카타나... 저 광기! 신쿠는 잊었다... ᄏ 어서와라 잔홍아~!",
+        "positive",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "아 진짜 이환은 몸 픽뚫없어서 다행이다 예쁜 캐릭터들 명함은 다 챙겨갈 수 있어서 행복해...",
+        "positive",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "와 큰화면으로보니까 궁막타 개잘만들었네 ᄏᄏᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "1:12 여기있었구만 잔홍이... 나 감정사야. 왜 왔는지 알겠나?",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "0:23 현시점 모든 서브컬쳐 오픈월드 게임중 가장 바람직한 부분이자 본받아야하는 정신. 신쿠 명전 괜히 뽑았다... 끌리지도 않았는데, 얘가 나올줄 알았다면 참았지...ᅲᅲ",
+        "negative",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "유일하게 한국어 음성이 맘에 드네...제발 캐릭터마다 음성 고를수 있게 해주세요",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "아 수금원이 죽였지 내가 죽였냐고 ᄏᄏ",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "0:24 드르륵 탁 찰칵찰칵 드르륵 탁 드르륵 0:39 카...카멜리...ᅡ... 0:45 서비스장신이 투철하신 우리의 잔홍눈나",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "거의 히유키급으로 잘만든듯 앞으로의 이환도 기대하게 만드는 영웅같다",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "솔직히 거를려고했는데 모션이랑 캐디보고 바로 생각이 바꼈음...",
+        "positive",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "신쿠에 이어 환평을 또 밑으로 내릴 캐릭이구나 ᄏᄏᄏᄏᄏ 어흐어흐어흐",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "스킬 연출도 연출인데 잔덩이 미쳤네... 와",
+        "positive",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "잔홍 너무 예쁘'잔홍' ᄏᄏᄏ",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "최고다...!",
+        "positive",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "링코는 잠깐 나가있어!",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "1분전은 못참지",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "인겜 모델링이랑 별개로 3d 애니메이팅을 또 한거임? 일에 미친사람들만 모여서 만드는 게임이야?",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "솔직히 잔홍 아무 잘못 없다고 생각하면 개추 ᄏᄏ",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "잘익었군...😊",
+        "positive",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "잔홍 뭔가 물도 가를 법 함",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "이번 잔홍 코스튬 스킨 디자인과 컬러 배치 진짜 잘 나왔어요 사랑한다 이환 !",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "발전하는 카메라 구도 좋습니다",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "붕3 단편애니처럼 3d 맛깔나게 잘섞은거 오랜만에보네",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "뭐 많이 보이긴 하네ᄏᄏᄏᄏᄏᄏᄏ 0:37 띵조 카멜리아 라던가 0:53 고우키 순옥살 이라던가 0:55 띵조 카르티시아 궁이라던가 우으... 빤쮸 뜌땨이...",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "뜌...땨...뜌땨!",
+        "neutral",
+        "0.8",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "1:16 아돌 !",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "쮜엔헝~",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "르네야... 이젠 네가 필요없어...",
+        "neutral",
+        "0.8",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "르네는 미국 갔어! 여행가서 잘 지내고 있다고!",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "무조건 뽑는다 내 아내 ᄏᄏᄏᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "르네야 미안해 그렇게 됐다",
+        "neutral",
+        "0.8",
+        "[\"社区生态\"]"
+      ],
+      [
+        "머야 한국은 흰모자이크가 없네 진짜 흥하자 게임ᄏᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "후후후후 내 아내임 ᄏᄏᄏ 픽뚫이없으니 부담없이 돌파를 한다 ᄏᄏᄏ",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "뭐야 얘 왜 이뻐?",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "개호따 바람의 검심 아돌포즈 미챴지!",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "잔아가 애껴",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "르네? \"그게 누구야?\"",
+        "neutral",
+        "0.8",
+        "[\"社区生态\"]"
+      ],
+      [
+        "잔홍 내가 메챠쿠챠 해줄께",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "르네야...미안하다...그렇게 됐다...",
+        "neutral",
+        "0.8",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "수요일까지 기절하고싶네",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "어서 오거라 명전 칠만큼의 재화를 모아놨으니",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "글카를 올릴때가 됐나보다. 나는 이런 부드러운 프레임이 안나오던데",
+        "negative",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "르네? 뭐야 그 빌런은",
+        "neutral",
+        "0.8",
+        "[\"社区生态\"]"
+      ],
+      [
+        "마지막 칼이 다포딜 칼이네",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "어흐 한 맛이 참 많아서 뽑아야겟네",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "백장아 그렇게 됐다",
+        "neutral",
+        "0.8",
+        "[\"社区生态\"]"
+      ],
+      [
+        "내가 죽였냐! 니들이 스스로 죽었지!",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "와 마지막 제로구나",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "네 돌파할게요",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "아마 유저들은 잔홍이 뭘해도 이미 속죄했으리라고 믿을것",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "1:15 아돌 0식",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "르네 우는 콘 달아주고싶네",
+        "neutral",
+        "0.8",
+        "[\"社区生态\"]"
+      ],
+      [
+        "생각해보니 잔아가는 무죄면 개추",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "미안하지만 파티 2개 마저 키우기도 벅차서 3번째 컨셉파티 새로 만들기는 힘들다... 난 존버나 하련다.",
+        "negative",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "0:20, 0:46 이래도 안뽑아?",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "꿈의 회랑에서 엑스칼리버 모션 으로 이야기가 좀 많이 나왔었나보네 좀 낫다;",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "리모델링 전 목의 염주나 등 뒤에 天 뜨는 모습 보면 여자 고우키네",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "내가 너 때메 시작했다",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "애니메이션 종류가 여러 개 있네.",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "다포딜 없어서 다포딜 뽑으려고 트럭 2개.상시에.박았는데.백홍 나왔네...아오 개빡",
+        "negative",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "그래서 왜 보스가 캐릭터가 됬죠?",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "링코랑 잔홍 둘 중 하나만 뽑으라면 뭘 뽑아야할까나",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "이게 주년캐가 아니라고?",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "00:46 웃음소리 돌았네 일어판은 아예 없고 영문판은 코웃음치는느낌인데 한국어버전은 완전 광년이임;",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "제로가 참교육하고 정신차린다...그런 내용?",
+        "neutral",
+        "0.8",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "잔아가를 봤더니 제 감정주머니가 빵빵해졌어요",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "캐디 별로라 나중에 복귀하려했는데 바로 컷ᄏᄏ",
+        "negative",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "1080p인데도 화질 구린게 호타 답다 ᄏᄏᄏᄏᄏᄏᄏ",
+        "negative",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "형님들 누비인데 이겜 돌파 필요한가요?",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "명조 히유키랑 카르티시아 그 어딘가 느낌임",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "간지남캐 내라고",
+        "negative",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "전투가 살짝. 젠존제? 느낌이",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "잔홍이 다포딜한테 집착 하는데 ᄏᄏ 다포딜이격 안나오나ᄏᄏ 다포딜 한전케릭 나와야 할판인데요 ᄏᄏ",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "q. 주인공 일행이랑 적대한 막타충 아님? a. 사연이 있겠지",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "역겨운 검열겜 아닌게 너무좋다 그놈의 검열 열차겜 역겨워서 접었는데",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "분탕아니고 잔홍 궁모션은 타겜이랑 거의판박인데 아무말없이 조용하게넘어가거나 그냥 딴겜도 다 파쿠리인데 뭐 문제임 거리는게 웃기네 이환빠는애들 평균이냐?",
+        "negative",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "doracoと同じ価格だと思ってた...1000万貯めたんだけどなぁ...",
+        "negative",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "カオスの水着絶対買います",
+        "positive",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "マジでこれ絶対に上限まで行かないと出ないから普通に買わせて欲しい",
+        "negative",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "サーブ下手くそミントすこw",
+        "positive",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "おっ 金演出!→ア イ コ ン フ レ ー ム",
+        "neutral",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "ミントの部屋着が水着みたいなもんだし...",
+        "neutral",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "鑑定士の水着が1番刺さってる 普段使いもしまくってるし1番欲しいな",
+        "positive",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "水着スキンは全員狙います!",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "鑑定士の水着かわいいから欲しいがそれはそれとしてミントでっっっっっ!",
+        "positive",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "くっ...あともう少しで今のボックス良いの引けそうなんだよなぁ...頑張って引いて無理だったら諦めるか!",
+        "negative",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "ナナリ持ってない、でも水着がかわいいからガチャも回したくなる(遠くからニーシャが我を見ている)",
+        "positive",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "懐かしのポルシェガチャ()",
+        "neutral",
+        "0.8",
+        "[\"运营服务\"]"
+      ],
+      [
+        "今後も2回に1回ごととかのバージョンで1988万要求されるんかなぁ もうちょっとファンス集めるコンテンツ欲しいな💦",
+        "negative",
+        "0.88",
+        "[\"养成资源\"]"
+      ],
+      [
+        "鑑定士の水着、最高すぎません?",
+        "positive",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "スキン自動着せ替え機能ここで追加するのうまいな〜 セーラー服あるから、すけすけワイシャツあるから、の言い訳が通用しない。 まあ、どのみち引いてただろうけど",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "これ外れがほぼないのがいい",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "全部欲しいに決まっとるだろがぁぁぁぁ!",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "ミントと零の水着取る😊",
+        "positive",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "釣り人としては釣り場に行きやすくなるから水上バイク欲しいなぁ",
+        "positive",
+        "0.88",
+        "[\"版本内容\"]"
+      ],
+      [
+        "まぁ、出るまでやるしいいか...",
+        "neutral",
+        "0.8",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "dracoと同じかと思ったら死ぬほど高くて泣いた。",
+        "negative",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "無課金でも引けるようにファンス2000万用意しててよかった",
+        "positive",
+        "0.88",
+        "[\"养成资源\"]"
+      ],
+      [
+        "100万しかない詰んだ笑",
+        "negative",
+        "0.88",
+        "[\"养成资源\"]"
+      ],
+      [
+        "主人公の新衣装が入っている限り、ブラ箱は回さざるをえない。",
+        "neutral",
+        "0.8",
+        "[\"运营服务\"]"
+      ],
+      [
+        "どうしようかねぇ。まぁ欲しいし、引くか_",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "レクイエムの水着ください...",
+        "neutral",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "でも全部ひとつのブラインドボックスにまとめてくれて嬉しいよ どうせ天井まで出ないし",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "鑑定士の水着が可愛すぎて欲しいけどそんなファンスはないのでスルーかなと思ってます",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "今までboxガチャ全スルーしてきたので 今回もスルー 次のポルシェ第2段に向けて微課金は貯金だ!😂",
+        "neutral",
+        "0.8",
+        "[\"运营服务\"]"
+      ],
+      [
+        "ミント一択ですね。",
+        "positive",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "局長待ちだからグッと我慢",
+        "neutral",
+        "0.8",
+        "[\"运营服务\"]"
+      ],
+      [
+        "金たまったら引く感じで無理せず当たればいいなの感じでやればいいかな今回は",
+        "neutral",
+        "0.8",
+        "[\"运营服务\"]"
+      ],
+      [
+        "1万...コンビニに...フラフラ(~ ̇- ̇ )~",
+        "neutral",
+        "0.8",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "下着スキンほしい!",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "ドラコを引くべきか悩む... ドラコ引いたら持ちファンスが空っぽになるんで()",
+        "neutral",
+        "0.8",
+        "[\"养成资源\"]"
+      ],
+      [
+        "6回目からしか出ないのか〜💦 今回は保留しません",
+        "negative",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "これが定期的に来るせいで不動産が買えないんだけど...",
+        "negative",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "レクイエムの水着ないのか",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "衣装に興味がなくなって好感度もあげなくなったらファンスが減ることがなくなった(999夜すらやってない) 飛行系がくるまで我慢だ(来るのか)",
+        "neutral",
+        "0.8",
+        "[\"养成资源\"]"
+      ],
+      [
+        "ポルシェの時もそうだけどあくまでスキンはオマケ",
+        "neutral",
+        "0.8",
+        "[\"运营服务\"]"
+      ],
+      [
+        "乗り物を買うメリットって、乗って何処に行きたいか、便利性が重視されるわけで、水上で行きたいところがないって問題なんだよな(写真部を除く) 行けるか知らないけど、刑務所やヒナタ島に行けたとして、それで?ってなる。",
+        "negative",
+        "0.88",
+        "[\"版本内容\"]"
+      ],
+      [
+        "1988万か...頑張らないとな",
+        "neutral",
+        "0.8",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "水上バイクは別にいいけど、ミントと鑑定士のスキンはぜったい手に入れる でもおい、揺れすぎだぞミント。",
+        "positive",
+        "0.88",
+        "[\"版本内容\"]"
+      ],
+      [
+        "水着はいらないから水上バイク早く出てほしい",
+        "neutral",
+        "0.8",
+        "[\"版本内容\"]"
+      ],
+      [
+        "みんとでっかぁ",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "無課金は無理だなぁ ポルシェからガチャしてるからもう死んでる",
+        "negative",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "ドラコと同じなら回してた ポルシェは流石に無理",
+        "negative",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "水着スキンって意外と着なくなるからなあ",
+        "neutral",
+        "0.8",
+        "[\"运营服务\"]"
+      ],
+      [
+        "いや、全て取っとくぜ。",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "ニャクラッチ8回当てれば・・・",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "水着だけ引いて水上バイクは要らんかな多分町中をポルシェで走り回るから",
+        "neutral",
+        "0.8",
+        "[\"版本内容\"]"
+      ],
+      [
+        "ここから1000万稼ぐ方法があるのかなあ",
+        "neutral",
+        "0.8",
+        "[\"养成资源\"]"
+      ],
+      [
+        "これをもっと早く知ってたらdoracoに使わなかった",
+        "negative",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "ファルディーア様水着実装はよ",
+        "neutral",
+        "0.8",
+        "[\"养成资源\"]"
+      ],
+      [
+        "水着はヘタをしたら来年復刻しつつ違うデザインで2027ver.が出るなんて可能性もなくはなさそうで怖い",
+        "negative",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "ハソールの衣装はまだですか!",
+        "neutral",
+        "0.8",
+        "[\"运营服务\"]"
+      ],
+      [
+        "800万ファンスしかねぇ...",
+        "negative",
+        "0.88",
+        "[\"养成资源\"]"
+      ],
+      [
+        "マジかよ。家と乗り物で700万ぐらい使っちまったよ...",
+        "negative",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "流石に家とかも買いたいからこれはスルーします。( ; ; )",
+        "negative",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "やっと1000万ファンス貯まったのに全然足りねえ!ブラインドボックスガチャ高くない?",
+        "negative",
+        "0.88",
+        "[\"养成资源\"]"
+      ],
+      [
+        "ナナリもってないしポルシェと一緒は流石に引けない",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "これ石とファンスどっちから引いたらいいんだろうか",
+        "neutral",
+        "0.8",
+        "[\"养成资源\"]"
+      ],
+      [
+        "ジェットスキーとミントの水着が出れば止める",
+        "neutral",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "乗り物が最初から出るなら引くかもな。水着と逆にしてほしいわ。",
+        "negative",
+        "0.85",
+        "[\"运营服务\"]"
+      ],
+      [
+        "現状500万ファンスと3,000円石あるんだけど水着引けるかな...",
+        "neutral",
+        "0.8",
+        "[\"养成资源\"]"
+      ],
+      [
+        "バイク欲しい 手配度上げて水上バイクで逃げたらどうなるの知りたい",
+        "positive",
+        "0.88",
+        "[\"版本内容\"]"
+      ],
+      [
+        "yes!yes!フォー!最高ー!水着ーー! これで、夜は眠れないぜ",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "ナナリって以外とあるよね...",
+        "positive",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "今回はちとキツそうだなそろそろ課金も考えとかねば",
+        "negative",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "水上バイクがあれば収容所行けるのかな🤔",
+        "neutral",
+        "0.8",
+        "[\"版本内容\"]"
+      ],
+      [
+        "ポルシェガチャで萎えたのでこれ系はもうやらんな",
+        "negative",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "マジかよ。まだ500万も足らんのか",
+        "negative",
+        "0.88",
+        "[\"养成资源\"]"
+      ],
+      [
+        "250万ぶち当てまくればいい話やな",
+        "neutral",
+        "0.8",
+        "[\"运营服务\"]"
+      ],
+      [
+        "ポルシェの方の設定だったか~ ファンス足らない😢",
+        "negative",
+        "0.88",
+        "[\"养成资源\"]"
+      ],
+      [
+        "水着なんかいらないけど水上バイクだけ欲しい 別の入手方法が欲しい",
+        "negative",
+        "0.88",
+        "[\"版本内容\"]"
+      ],
+      [
+        "分かってたけどファンスガチャは中途半端な気持ちで挑んじゃダメな代物。今後どんなに魅力的なモノが来てもやらないと誓った。",
+        "negative",
+        "0.88",
+        "[\"养成资源\"]"
+      ],
+      [
+        "ナナリ持ってないのに水着だけ当たる人可哀想",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "正味...海月以上水上バイク以下の速度の水上歩行キャラ出ると思うの。 能力の定番やん?",
+        "neutral",
+        "0.8",
+        "[\"版本内容\"]"
+      ],
+      [
+        "価格高すぎる...しかし引く。 ここまで価格上げたのは水着のためだろhottaくん マジでdoracoくらいの価格じゃないとキチいのよ",
+        "negative",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "こんにちは👏ミントの水着が欲しいですが、porscheと同じとは😰水上バイクは欲しく無いので引かなきかもです😅",
+        "negative",
+        "0.88",
+        "[\"版本内容\"]"
+      ],
+      [
+        "ナナリ持ってないならマジでスキン要らない",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "ナナリが欲しいのにナナリが高いのはおかしい",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "tidur fans wuwa besok ngatain game lain plagiat lagi😂",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "awalnya wuwek ngekor ui sampai event genshin, terus fandom bilang \"emang semuanya milik genshin\", sekarang baru nte niru animasi karakter langsung di bilang plagiat😂, emang ga salah gw mainin genshin dari zaman covid",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "mau genshin, wuwa, nte, apapun fandom nya ada yg waras ada yang enggak, tapi jan pernah liat hal gini di gpu, udh itu aja 🗿",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "kek nya bakal jadi siklus di putaran game gacha ini mah, dulu ada genshin yg kek gitu ke wuwa pas baru rilis, bahkan game adek nya(hsr dll) pun ga lolos dari cecaran player genshin, eh skrng hal itu terjadi lagi tapi dari wuwa ke nte 😂, problem nya bkn di game tapi di \"fandom indo nya\" you know lah wkwk",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "mbak jadi va pls suara mu candu",
+        "positive",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "mau netral sih tp mo gimana, emng sama, bukan mirip, tapi sama, yg beda cuma efek animasinya, tapi ingat cuy, ini made in china, jd ga perlu di debatkan lagi :v",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "ah yes fandom wuwok si paling elit, tidur dulu besok ngerasa elit lagi 😂",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "hadeh,lagi lagi ulah pler gua😂 sorry ngab",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "min bahas genshin cis cis cis dong",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "2 orang yang tidak pernah ketemu juga bisa punya ide yang sama, aku pernah lihat kalimat yang intinya \"imajinasi akan sama dan terulang jika ada di bawah matahari yang sama\", aku lupa itu dari apa dan kalimat spesifik nya bagaimana tapi intinya seperti itu",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "eh bang lu ga boleh megang pistol udah jadi milik hak galbrena😂",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "masalahnya terlalu di besar besarkan yak :v",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "secara realitas, gaada satupun game yang sebenarnya \"original\", pasti ngedapetin inspirasi dari suatu hal (baik itu game lain, ataupun hal di dunia nyata).",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "😂 gua yang main game wuwa malah pengen main zte sih, game mana yang dari 1 karakter kayak pakek 3 karakter owkwowkwkw sayang sekali :v ssd gua gk cukup sad lah",
+        "positive",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "asik cuan",
+        "positive",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "game sempurna itu jangan dikritik, apalagi satwa nya juga sama-sama dari genshin kebanyakan. (bukan ngejelekin, tapi emang siklus nya gampang dikenal makanya gw berasumsi.)",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "hal seperti ini mulai muncul saat ada pendukung yang fanatik",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "wuwek tidur, besok ngekor lagi",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "sekarang udah hampir mustahil ada ide original, semuanya udah keluar semua😂 yang katanya fandom family friendly loh yaa",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "perasaan itu inspirasi bukannya plagiat, kalo plagiat itu ngambil 100 persen. inspirasi itu pasti ada modifikasi, ada namanya atm (amati tiru modifikasi)",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "nte satu char untuk semua",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "yh, seenggaknya nte tau lah mana yang harus ditiru. jangan sampe ada batu goyang di nte.",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "njirr bahan gorengan baru, bahkan pas nonton livestream lihat my istri zankou banyak yang bilang pas serangan ama kombat nya: “wahhh mirip apa tuh, jadi nih gorengan😂”. (mirip aja ini, gak sepenuhnya sama kok🗿👍🏻)",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "yaaaa fans gi pasti komen, panas kenapa ya fans gi padahal ga di senggol sok tiba tiba ada",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "awal inspirasi di sebut plagiat adalah kelakuan fanbase genshin impact yang sebut semuanya plagiatin game nya jadi yang lain ikut-ikutan",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "aku main dua2nya dan diem, mending dinikmati aja 😂",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "sedang menunggu gorengan dari grup gpu",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "bukan plagiat,tapi terinspirasi. bagus dong,berarti kiblat game gacha udah gante ke wuwa.",
+        "positive",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "dan pada akhirnya genshin lagi yang digoreng",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "hadeh fandom genshin lagi berulah😂",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "bukan menjiplak, terinspirasi 😂😂",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "fandom gpu ga disenggol ngekor. jangankan membela yang benar. developer kikir aja masih mereka sepo**. ga bisa nerima fakta, keren developernya. program cuci otak mereka bagus banget.",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "tidur fens wuwa ,besok halu lagi 😂, geme niru mau sok si paling ori 😂😂",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "ini terinpirasi kalau pelagiat tiru semua😅😅😅",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "bah, perdebatan bocah puber😂😂😂😂",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "fans wuwa lagi fans wuwa lagi 😹",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "apakah di clip terakhir adalah sosok admin",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "wadaw apaan itu",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "aku yang tidak peduli dengan plagiat 😎",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "bukannya animasi ultimate nya zankou juga awalnya di pake dulu ama mc pas di story 1.1? kok sewot sekarang dah?",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "kalau gitu vergil gimana? 😂",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "perasaan yg gua liat dri fandom official gak ada yg mempermasalahkan ini yakin itu bukan badut, di grup indo aja gak ada gorengan itu udh yakin itu bener\" fandom gamenya bukan monkey dri fandom pelopornya yg buat awal mula ini semua di anggap chaos. bhkan admin yg player gi pun kepancing bahas gorengan. udh bener main tinggal main gausah denger satwa gamenya. itulah knp gua jauhin game\" sekarang, udh gk sehat semenjak satwa berulah.",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "peduli apa gw, yg penting main",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "nah nah ini nih yg buat citra game jadi buruk yaitu karena sdm rendah dan mangki yg main game tersebut dan masuk fandom, membuat game nya bermasalah dan makin banyak kesulitan yg harus di selesai kan oleh pengembang game tsb. tidur mangki besok jadi super mangki lagi",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "mungkin ini saran aja kak, kalo mau ngasih info ambil dari komunitas nya sendiri. kenapa? karena kalo di ruang publik semua sifatnya anonim. bisa aja ada orang ngaku-ngaku fandom wuwa terus senggol sana sini. gua sebagai fandom nya bingung, topik ini muncul dimana? karena di komunitas sendiri cmn sedikit yang singgung dan bukan mempermasalahkan tapi bangga karena wuwa udh segede ini sampe ada yang mengambil inspirasi dari wuwa. kalaupun emg ada, gua mau ngomong sebenarnya itu hak mereka mau bilang apa tapi gua sendiri punya hak buat meluruskan kalau dalam bisnis ya wajar ada kemiripan satu dengan lain. lu liat noh minuman air putih, itu ada banyak padahal mah isinya sama-sama air putih. selama masih ada bagian yang dimodifikasi, memurut gua fine fine aja. note: ini gua kalo ketahuan admin busa dimarahin, karena aturannya gk boleh join gorengan gk jelas😅 tapi mau gimana, sebagai playernya gua gatel ngeliat banyak yang mojokin wuwa kalo soal gorengan. musuh wuwa tuh banyak.",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "udahlah game gacha sekarang emang kebanyakan pada saling niru jadi gak usah saling senggol wkwkw 😂 atau yg suka nyenggol game lain ini badut gpu ? komunitas game gacha sekarang emang makin ampas",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "waladalah",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "itu ngapa ada vidio promeia bjir🗿",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "yaelah itu tuh terinspirasi hampir semua game gacha juga biasanya punya drama kyk gini...come on tinggal di nikmatin aja game nya...",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "malah bagus klo refrensinya dari wuwa, gw malah jd pengen maen nte",
+        "positive",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "mungkin gda bahan lagi makanya nyerang nte soal nya genshin lagi masak",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "wuwa tidur besok nyari config",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "semua ide kalo diambil sumber yg sama gak ada kata plagiat, apalagi novel, buku, dongeng, mitologi yang sifatnya jelas siapa aja boleh make, cuma di indo ( yang pertama ) ngebuat dikira penemu ide nya",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "ngomongin plagiat artinya mereka kurang termotivasi😂",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "tapi yg kedua mirip banget sih jujur",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "animasi serangan skill emang mirip tapi zankou kayak gabungan 2 character :v",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "emang ada yg dramain yak perasaan sekarang malah lagi rame soal powercreep gara2 jingran dmg nya gede 😂😂 gak ada waktu ngurusin game orang sibuk nge hujat kuro😂😂",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "gw main dua duanya dan gapeduli yang penting gw nikmatin gamenya, soal plagiat itu urusan developernya",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "kali ini kedua🎉",
+        "positive",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "padahal player wuwa yg asli mah diem diem bae yg koar koar tuh biasanya pindahan genshin / bunglon gpu 🗿",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "kalo cuma efek skill harus nya hanya terinspirasi kalo sampe model efek skill intinya semua sama cuma warna itu baru plagiat kaya game moba inisial \"m\".",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "kok rasanya kayak nyerang wuwa yaa🤨(dengan nada heran) yang ulah komunitas wuwa harusnya serang komunitas wuwa, tapi kok rasanya ini yang di serang malah gamenya😮‍💨(jujur tersinggung walau gw main kedua game itu)",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "gk heran china",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "padahal mah ulti fleurdelys plagiat sama ulti game naruto char obito rikudou wkwkw",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "perasan dari dulu yg suka ngatain game lain plagiat gamenya itu hoyo knp tiba tiba player wuwa ikut ikutan?",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "lah ulti fleurdelys aja plagiat saber😂",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "peduli apa gw(developer kedua gamenya juga nggak peduli),patch depan gacha zankou.",
+        "positive",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "karena sudah banyak yang karya tercipta maka akan ada 1 atau 2 yg hampir mirip, kan yg buat manusia maklum aja 😅",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "padahal dari dulu ada kaya ginian gorengan terus",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "mending keqinglah",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "ya kalo emg plagiat ya plagiat aja 😌☕ masa kaga ngaku v: apalah",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "nda peduli drama, hanya peduli mba kemo😖",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "bukannya udah biasa inspirasi kayak gini di china?😅",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "aduh fans itu lagi semuanya di banding loh yah dikit dikit yang sama di banding lagi dan masalah rumput di banding lagi nah masalah karakter di banding lagi tapi kok gak banding device di game lain 🤭🤭🤭",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "emg d forum mana yg heboh bgt?",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "kek di rodok jir",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "pose gambar sama aja dibilang jiplak sama fandomnya gimana ya",
+        "neutral",
+        "0.6717564470597045",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "emang iya yg ngomong fandom wuwek? apa fandom lain yg pura\" jadi fandom wuwek? 🗿 diliat\" fandom asli liatnya biasa aja gada yg ribut",
+        "negative",
+        "0.6459298720665403",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "judul min",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "ya gmna ya sekarang ini udh gak ada yang original pasti ada isporasinya mau itu lagu,game,film pasti ada yang terispirasi dari satu sama lain tapi agak ironis sih fandom wuwa sering di tuduh copy genshin terus bilang genshin bukan yang nemu eh giliran gini malah nuduh niru sama sama tololnya kaya kebanyak fans genshin",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "gini doang di ributin aelah player 1.0 dari wuwa dan 1.2 gi diem aja 🗿",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "gw sebagai pemain wuwa, santai2 aja mainin 2 game ini. yakin gw, yg ngompor2in ini, pasti hoyoshil mau adu domba 😂 info aja, gw pemain genshin sejak 1.0, uninstall krn fandomnya trll toxic, tukang fitnah dan suka adu domba",
+        "negative",
+        "0.95",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "wehey gelut ni 2,yuk lanjut gpu nyimak dulu",
+        "neutral",
+        "0.58",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "saya sebgai pelayer wuwa... sngat senang... klo itu bnar plagiat wuwa",
+        "positive",
+        "0.74",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "padahal sama-sama game china malah pada ribut (emang kalo fanatik terhadap sesuatu itu tidak baik, apalagi dari wuwa)",
+        "negative",
+        "0.4987098229931546",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "wuwa kalo ga jadi public enemy paling ga bisa,heran wkwk",
+        "negative",
+        "0.9",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "gimana ya padahal serangan tebasan gitu tuh udah jadi hal umum dan kalau lihat lebih jauh mereka malah ngeplagiat tebasan saber dari fgo 😅",
+        "neutral",
+        "0.75",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "ya... seperti biasalah pasti ada ajalah drama plagiat dkk...",
+        "negative",
+        "0.6815824112454338",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "well padahal animasinya menurut rasanya udah ga terlalu asing atau pun nempel sama si w itu sih btw jumpscare apa itu 😳",
+        "neutral",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "ah gpu genshilit itu, liat gw uploadtanya😹😹😹 ga heran genshilit=israel suka adu domba game kek israel adu domba negara😂😂",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "duh banyak haters wuwa disini, perasaan game itu yang paling sering bilang wuwa plagiat. nih wuwa kek gak boleh bet bilang kalo si zankou ini mirip, toh selain oknum fans wuwa udh biasa liat yang mirip. contoh di etheria restart, itu ada char yang plek ketiplek ultinya sama kayak jing yuan fans malah bilang jing yuan alternate univ lah, adek nya lah. di dna juga gitu, ada phoebe kemasan sachet tapi fans wuwa fine fine aja. agak lucu kalo wuwa yang emg bilang mirip langsung dikata katain sedangkan si ono yang selalu sama samain dianggep boleh-boleh aja",
+        "neutral",
+        "0.78",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "이번엔 진짜 똑똑천재 인정이네 ᄏᄏᄏᄏ",
+        "positive",
+        "0.9223773799206798",
+        "[\"社区生态\"]"
+      ],
+      [
+        "전세계 최초 보트 자가준비",
+        "positive",
+        "0.5325329538189733",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "게임 진짜 자유도 레전드네ᄏᄏᄏᄏ",
+        "positive",
+        "0.98",
+        "[\"社区生态\"]"
+      ],
+      [
+        "이환 진짜 재밌게 즐기네 ᄏᄏᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.97",
+        "[\"社区生态\"]"
+      ],
+      [
+        "똑똑천재 나나리 <- 어감 존나귀여움",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "야가다 컨텐츠 아직 나오지도 않았는데 혼자 미리 즐기고있네 ᄏᄏᄏᄏᄏ",
+        "neutral",
+        "0.5248642459606055",
+        "[\"社区生态\"]"
+      ],
+      [
+        "진짜 천재임 그러고 보면 그타5에서 보트 견인차 끌고 가던게 있었는데.",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "진짜 잘만들었네 똑똑천재 미쳤다",
+        "positive",
+        "0.9549667098225949",
+        "[\"社区生态\"]"
+      ],
+      [
+        "보트쌀먹은 진짜 똑똑천재네 ᄏᄏᄏ",
+        "positive",
+        "0.9128116976196655",
+        "[\"社区生态\"]"
+      ],
+      [
+        "왜 진짜 똑똑천재임ᄏᄏᄏᄏ",
+        "positive",
+        "0.9420036320325472",
+        "[\"社区生态\"]"
+      ],
+      [
+        "똑똑천재 나나리님은 어떻게든 방법을 생각해낸다~ 이말이야",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "ᄅᄋ 아무도 퀴디온을 막을 수 없으셈ᄏᄏᄏᄏ",
+        "positive",
+        "0.74",
+        "[\"社区生态\"]"
+      ],
+      [
+        "똑 똑 천 재 나 나 리 님 은",
+        "neutral",
+        "0.5538069472048952",
+        "[\"社区生态\"]"
+      ],
+      [
+        "이번 블박 넘어갈까 했는데 저렇게 배가 있어야 하는 곳이 있다니 걱정했는데...이 영상을 보고 마음이 편안해졌습니다 ᄏᄏ",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "ᄏᄏᄏᄏ 와 이건 진짜 지렸네",
+        "positive",
+        "0.9530347486529904",
+        "[\"社区生态\"]"
+      ],
+      [
+        "대단하다,정말,.,",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "와씹...이건 똑똑천재 인정",
+        "positive",
+        "0.8789731330711351",
+        "[\"社区生态\"]"
+      ],
+      [
+        "창과 방패의 싸움 ᄏᄏᄏᄏ",
+        "neutral",
+        "0.78",
+        "[\"社区生态\"]"
+      ],
+      [
+        "똑똑천재나나리 뽑아야겠지?",
+        "positive",
+        "0.89",
+        "[\"社区生态\"]"
+      ],
+      [
+        "나나리 퀴디온은 한건 해냈다! ᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "똑똑천재 인정 🎉",
+        "positive",
+        "0.97",
+        "[\"社区生态\"]"
+      ],
+      [
+        "잠깐만을 몇번하는거임 ᄏᄏᄏ",
+        "neutral",
+        "0.8",
+        "[\"社区生态\"]"
+      ],
+      [
+        "와 똑똑하넹 진짜",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "미친거같아요",
+        "positive",
+        "0.6568442126958982",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "이게 뭐얔ᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏ",
+        "neutral",
+        "0.8",
+        "[\"社区生态\"]"
+      ],
+      [
+        "와 이건 똒똑천재 퀴디온 ᄏ",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "레전드 ᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "와 이환안하지만 영상만 봐도 똑똑천재 인정!",
+        "positive",
+        "0.9497522942580517",
+        "[\"社区生态\"]"
+      ],
+      [
+        "ᄏᄏᄏᄏᄏ 설마했는데",
+        "neutral",
+        "0.69",
+        "[\"社区生态\"]"
+      ],
+      [
+        "상상 하던게 진짜 이루어 지네요 ᄏ",
+        "positive",
+        "0.923338219054679",
+        "[\"社区生态\"]"
+      ],
+      [
+        "오ᅥᅡ ᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.7793510520186683",
+        "[\"社区生态\"]"
+      ],
+      [
+        "아니 이게 무슨 상호작용! ᄏᄏᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.5131575864487212",
+        "[\"社区生态\"]"
+      ],
+      [
+        "이건 진짜 뭐야 ᄏᄏᄏᄏ",
+        "positive",
+        "0.9244641951891625",
+        "[\"社区生态\"]"
+      ],
+      [
+        "겜 ᄌᄂ재밋게하네 ᄏᄏᄏᄏ",
+        "positive",
+        "0.4898057194951709",
+        "[\"社区生态\"]"
+      ],
+      [
+        "\"너만의 이환을 해\"",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "이건 미쳤네ᄏᄏᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "ᄒᄒᄒᄒᄒᄒ대단하다 진짜",
+        "positive",
+        "0.9339975285666661",
+        "[\"社区生态\"]"
+      ],
+      [
+        "이사람 카오스인가요? 낚시한번 하려고 어디가는거얔ᄏᄏᄏ",
+        "neutral",
+        "0.8",
+        "[\"社区生态\"]"
+      ],
+      [
+        "진짜 천재 인정 ᄏᄏ 개웃기네",
+        "positive",
+        "0.9218147165951639",
+        "[\"社区生态\"]"
+      ],
+      [
+        "들고가는거 개웃기네 ᄏᄏ",
+        "positive",
+        "0.580821561475593",
+        "[\"社区生态\"]"
+      ],
+      [
+        "역시 이상현상은 최고야!",
+        "positive",
+        "0.7126297965340371",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "아 모야 업데이트 된줄",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "안아줬어요ᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "미쳤다ᄏᄏᄏ 포크레인으로 배를?",
+        "positive",
+        "0.94",
+        "[\"社区生态\"]"
+      ],
+      [
+        "이게 왜 되냐고 ᄏᄏᄏᄏ",
+        "positive",
+        "0.5838106667444258",
+        "[\"社区生态\"]"
+      ],
+      [
+        "자유도 높네",
+        "neutral",
+        "0.7835456115182923",
+        "[\"社区生态\"]"
+      ],
+      [
+        "개웃기넼ᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.8383845090841269",
+        "[\"社区生态\"]"
+      ],
+      [
+        "똑똑천재 나나리님❤❤❤❤",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "개갓겜이네 ᄏᄏᄏᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "ᄏᄏᄏᄏᄏᄏᄏ진짜게임재밌게하시네 ᄅᄋ",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "이환 진짜 재밋땅",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "와... 대박 ᄏᄏᄏᄏ",
+        "positive",
+        "0.96",
+        "[\"社区生态\"]"
+      ],
+      [
+        "ᄏᄏᄏᄏ쌍숭이협회에서 인정합니다",
+        "positive",
+        "0.6378548288282023",
+        "[\"社区生态\"]"
+      ],
+      [
+        "이게 됀다고?ᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "노력추... 똑똑천재 양파쿵야는 답을 알고있다",
+        "positive",
+        "0.8501282802309799",
+        "[\"社区生态\"]"
+      ],
+      [
+        "미친 이게 왜 되는건데 ᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "이게 되네 ᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.5451609293266395",
+        "[\"社区生态\"]"
+      ],
+      [
+        "그럼 트럭 하나 챙기고 보트를 트럭이 실으면 더 좋겠구만ᄏᄏᄏ",
+        "neutral",
+        "0.6023834073593947",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "이젠 포크레인 탈수있군요",
+        "positive",
+        "0.5864728171775813",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "맵 강줄기가 ᄌᄂ 명기인가보네",
+        "positive",
+        "0.6217838152940721",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "민트는 공무상 강제징발해서 하는게 보트옴기기 음.../.",
+        "positive",
+        "0.4109980728642922",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "보트쌀먹 ᄉᄐᄎ",
+        "positive",
+        "0.5325329538189733",
+        "[\"社区生态\"]"
+      ],
+      [
+        "진짜 대박이네 이건",
+        "positive",
+        "0.96",
+        "[\"社区生态\"]"
+      ],
+      [
+        "자유도 사발 ᄏᄏ",
+        "neutral",
+        "0.8",
+        "[\"社区生态\"]"
+      ],
+      [
+        "콘스탄티노폴리스 점령 ᄀᄂ하겠네 ᄏᄏ",
+        "positive",
+        "0.6326505159809609",
+        "[\"社区生态\"]"
+      ],
+      [
+        "위치이동인가? ᄋ 호타의 의도를 파훼하는 전술인가? ᄋ 이것이 바로 전술적 위치 이동인 '긴빠이'다! 아쎄이! 얼른 자진입대 하지 않고 무얼 하는가!",
+        "positive",
+        "0.76",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "이게 왜 되는건데 ᄏᄏᄏᄏᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "보트를 애초에 개인이 조종할수 있는거였음?",
+        "neutral",
+        "0.96",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "덤프트럭에 실어 나를 수는 없나?",
+        "neutral",
+        "0.97",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "지게차는 안되나?",
+        "neutral",
+        "0.6219686603916219",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "절 대 쌀 먹 해",
+        "neutral",
+        "0.55",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "씹덕겜주제에 자유도 뭔데ᄏᄏᄏᄏ",
+        "neutral",
+        "0.6133538914375252",
+        "[\"社区生态\"]"
+      ],
+      [
+        "아니 무슨 보트를 안 뽑으면 못가게 만드냐 ᄏᄏᄏᄏᄏᄏᄏᄏ",
+        "negative",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "그래도 기본 배같은건 사든 주든 할 줄 알았는데 그냥 돈내야 갈 수 있는 유료 필드를 결국 만들었구나...",
+        "negative",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "한국엔 아직 업데이트가 안됏으니깐 세계최초가 되겠지 그런데 다른 국가에서도 업데이트가 됬다면 세계최초가 됬었겠나 어휴 진짜",
+        "negative",
+        "0.96",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "호타 불쾌한짓을 해놨네ᄏᄏ. 근데 껏다키면 리셋되요? 보트.",
+        "neutral",
+        "0.4421274433280301",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "이게 되네 ᄏᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.8039229370619737",
+        "[\"社区生态\"]"
+      ],
+      [
+        "ᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏ미친건갘ᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.7556750106269984",
+        "[\"社区生态\"]"
+      ],
+      [
+        "525 잔홍 리뷰 시작",
+        "neutral",
+        "0.99",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "(8/15) 돌파 현재 전부다 너무 좋아서 취향에 따라 3돌파 방향이 달라질 수 있음 (이런 캐릭은 처음) 1-2-4, 1-5-6, 1-3-6 등 다 괜찮은 수준 *노딱 때문에 모델링 품평 좀 잘랐음... 흑 *혹시나 잘못된 내용은 댓글에 정정하겠습니다. 감사합니다. 질문 주시면 답변 드리겠습니다. 0:00 오프닝 0:27 모델링 0:54 스킨 2:52 잔홍 간단 소개 3:12 아크 3:52 콘솔 4:27 패시브 스킬 4:48 도시 스킬 5:05 은신 5:13 스킬 6:21 기본 사이클 6:55 돌파 10:21 조합 10:57 상호 작용 11:55 마무리",
+        "positive",
+        "0.4229045531097043",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "11:51 ᄏᄏᄏᄏᄏᄏ 너무좋네ᄏᄏᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.97",
+        "[\"社区生态\"]"
+      ],
+      [
+        "모델링, 스킨 이번엔 진짜 잘 뽑은 것 같음 수영복도 신쿠는 좀 아쉬웠는데 잔홍은 제대로 비키니로 내줘서 좋다",
+        "positive",
+        "0.7583279416744556",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "빠른 후기 감사합니다 최소 명함인데 기대되네요",
+        "positive",
+        "0.4844845022453603",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "무조건 뽑앗! 가즈아!",
+        "positive",
+        "0.4224157558607166",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "대잔홍이다 무조건 뽑아! 설명할 시간이 없어!",
+        "positive",
+        "0.3912660174122392",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "12시간 방송하시고 이렇게 빨리 업로드를...고생하셨습니다!",
+        "neutral",
+        "0.7704533060163087",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "잔홍 진짜 스킨은 개지린다",
+        "positive",
+        "0.8997613323174177",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "꼬맹이 3명을 이끄는 잔홍누님 상상만해도 어흨",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "01:06 젠장, 멜탕 너 천재냐?",
+        "positive",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "좋은 정보 감사합니다!",
+        "positive",
+        "0.62760668726362",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "아... 미쳤다 진짜 ... 개떡상 각이다",
+        "positive",
+        "0.7167148852848922",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "in your videos could you maybe make some more recommendations? ex: for what types of accts do you recommend pulling or skipping the units depending on what they have etc",
+        "neutral",
+        "0.6121702235539336",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "모델링 진짜 ᄒᄃᄃ 하네 무조건 뽑아야겠지?",
+        "positive",
+        "0.7590119826391203",
+        "[\"社区生态\"]"
+      ],
+      [
+        "일단 2돌 도전",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "3돌 하기 위해서 비오는 날 벽돌 3일 메러 갑니다... 이 영상보고... 3돌전무+비키니... 안하면... 살아갈 이유가 없어짐...",
+        "positive",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "please do make a video about what we know about phoenix",
+        "neutral",
+        "0.98",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "혹시 저 다포딜 애정캐라 지금 5돌인데 풀돌 생각있거든요. 세팅도 붕괴 위주 치확치피 다 챙겼고. 잔홍 1돌 가져간다고 하면 5돌 옵이 1돌 옵보다 성능이 더 괜찮아질 수 있으려나요?",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "처음으로 돌파하고 싶어지는 캐릭이네요 ᄏᄏ 다포딜 명함인데 정가로 1~2돌 할까말까 고민되네요 잔홍이랑 쓸거면 5각이 좋아보이던데...",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "아싸리 잔홍 라모사 샤키리 다포딜 쓰는 극딜 조합은 어떤가요? 스코치 계속 돌릴것 같은데",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "어느겜이든 메인딜은 전무껴야지... 영상보고 결정했다. 156 3돌갈게요 ᄏᄏ",
+        "positive",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "3돌 하면 좋은 메인딜러구나",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "만약에 바이레일이 강한 캐릭터라면 호토리랑 조합하는 파티도 가능성이...? 링코가 나오면 잔라사링이 정배일 거 같긴 하지만 풀돌 호토리 있는 사람은 하니엘 대신 호토리를 써도 좋지 않을까 싶네요?",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "라크리모사는 없으니 전 무조건 다포딜이군요. .이번 잔홍도 일단은 제 성능 내려면 전무도 필수로 보이고요.",
+        "negative",
+        "0.91",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "음...신쿠팟이 있고 구원하고 백장 a급들...있는데 파티짜기가 넘 애매하네요...아까 상시 주사위 막 돌렸는데 구원 뜨기도 해서 참 암울함 ᅲᅲ",
+        "negative",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "5번 강제 붕괴, 디스코드 걸고 라크리모사 막타 치면 뽕맛 오지겠는데요",
+        "neutral",
+        "0.4299629532867096",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "그럼 지속딜러인 라리모랑도 잘 맞겠네용?",
+        "neutral",
+        "0.5662993775928272",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "공방에서 나왔던 잔홍은 집착도라고 표기한게 단순 실수 였던건가요? 다포딜에 대한 집착이 있는거 같아 잔홍만은 따로 집착도라고 표기한줄 알았는데 아니었나보군요?",
+        "neutral",
+        "0.96",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "성장 재료도 보여주면 좋을것 같아요 계속 찾아보게되네요",
+        "neutral",
+        "0.97",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "왖 ᅵᄂ짜 너무이쁜데?",
+        "positive",
+        "0.7164733812597924",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "잔홍만 기다리고 있습니다! 한주가 길게느꺼지네요 오랜만에 ᄒ... 콘솔도 준비됐어요... 너만오면된다 ᄒ...",
+        "positive",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "내 일로이는...블라썸에 써야해...",
+        "neutral",
+        "0.5056465502615334",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "나나리 픽업 놓쳐서 복각 뽑을까 했는데 생각이 완전히 바꼈다...",
+        "positive",
+        "0.8430795265393485",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "이게 12세 게임 일리는 없다 올라가라",
+        "positive",
+        "0.5290932244536445",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "1돌 뭘 고르느냐에 따라 파티 구성이 달라지겠네",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "걍 나오는캐릭 싹다 풀돌하면서 뽑아놓우니까 선택지가 많아서 좋긴한데 귀찮네... 난 사실 1파티만 집중적으로 키우는걸 좋아했나바...",
+        "positive",
+        "0.4452692635655981",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "이번 버전에 잔홍 뽑고 아마도 다음 버전엔 라크리모사 복각할 것 같으니 재화 벌 시간은 충분하네요😊",
+        "positive",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "저는 잔홍은 안뽑지만 멜탕님이 쓰시는걸 재밌게 보겠습니다 글섭에서도 잔홍 비틱 하세용~ 멜탕 화이팅~",
+        "neutral",
+        "0.4673975018348568",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "잔아가는 명조로 치면 장리급인듯",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "어우 돌파가 필수인 거 같은 딜러네 1돌까지는 200뽑 하려고 했으니 상관없는데 2개를 더 뽑는 건...",
+        "negative",
+        "0.94",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "잔홍이 환영이면 나중에 이격으로 진: 잔홍 나오는거아님? ᄃᄃ",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "does she need her sig for lacrimosa team or dupes",
+        "neutral",
+        "0.8",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "라리모 명함이라 악몽 유지가 안되니까 당장은 다포딜이 좋겠네...",
+        "neutral",
+        "0.8",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "후발주자 겜 중에서 진짜 이만한 게임 없는듯",
+        "positive",
+        "0.97",
+        "[\"社区生态\"]"
+      ],
+      [
+        "이번에 잔홍 때문에 시작하게 됬는데 일로이 뽑아야 할까여? 파디아도 있긴 한데 강추라고 하셔서 고민이네요 그리고 잔홍은 돌파가 필수일까요?",
+        "neutral",
+        "0.482901276494214",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "3돌파를 무조건 해라 이거군요...",
+        "positive",
+        "0.4046500927815323",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "아니 지금 까지 남캐 신경 안쓰고 좋다고 한 캐릭터 다 뽑은 나 한테 후회 해서 다음은 안 뽑기로 했는데 이건 못참지 ᄏᄏ",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "싸패 양파쿵야 때문에 잔홍이 고생이 많았네",
+        "neutral",
+        "0.5039142501158798",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "내가 죽였냐? 수금원이 죽였지",
+        "neutral",
+        "0.7347494633212822",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "확실히 픽뚫없어서 그런지 점점 돌파팔이가 쌔지는 느낌이 드는군요",
+        "negative",
+        "0.97",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "1돌 1각6각중에 우선순위는 뭘로보시나요? 6각에 1돌4각 라리모가 고점이 엄청높다라는 말이있던데 중섭테스트로는 고위험3별 6렙이 한싸이클에 끝난다고 하던데 1돌1각에 다포딜파티랑 1돌6각 라리모파티 고점차이가 궁금하네요",
+        "neutral",
+        "0.98",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "환영...이라니? 가짜 미사일이란 소리야...?",
+        "neutral",
+        "0.490335716740565",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "아 지갑이 좀 부활할까했는데!😭",
+        "negative",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "6:14 이 부분의 울티 스킬이 강화 e를 두 번 사용할 시에 사용할 수 있는 울티 스킬이지 않나요? 강화 e를 2회 사용하지 못 했을 시에 기본적으로 발동되는 울티가 정면으로 크게 베어내는 것을 보면 해당 시간대의 궁극기가 뒤에서 설명해주신 강화 e를 사용해야 사용 가능한 궁극기라는 설명과 더 어울리는 것 같다고 생각 됩니다. 아마 울티 스킬의 사용 순서상 이해하기 쉬우라고 이렇게 배치하신 것 같은데, 장면과 설명이 반대가 된 것 같은 느낌이 들어서 댓글 남겨봅니다.",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "흠...신쿠는 명함으로도 찢는데 잔홍은 왜 이렇게 약하게 나왔을까...",
+        "neutral",
+        "0.6274312878978651",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "아... 그럼 잔홍은 돌파를 좀 해야하나? 라리모도 없고 다포딜 돌파도 안되어 있는데에 사키리도 돌파 안되있잖아. 당장은 60뽑 밖에 없는데... 라리모도 갖고 싶고 카오스도 갖고 싶은데에ᅦ 어떡하면 좋지... 호토리 포기했는데 나중에 링코는 또 봐야하고... 잔홍은 최소 추천 돌파로는 1돌파인가요?",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "호토리 넣고 강화바이레일 스킬 기억저장으로 안나가나?",
+        "neutral",
+        "0.97",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "걍 15세로 올리자 ...",
+        "positive",
+        "0.511965920083023",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "잔홍 돌파 안하면 별볼일 없을것 같은데, 신쿠와 라크리모사나 써야 될듯...",
+        "neutral",
+        "0.5930870571564819",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "잔홍 파티에 라리모 1돌(6번) 의미가 있으려나요?",
+        "neutral",
+        "0.8787179237892095",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "can she unlock doors in pink paws while invisible?",
+        "positive",
+        "0.4666108649829709",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "참고로 은신 스킬 쓰면 안 들키고 도둑질 가능하답니다",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "6돌 ᄃᄃ 이거 호토리 풀돌 써본 사람은 다 알텐데...호토리가 파티 전체 공증 30퍼인데...이게 진짜 체감 쩌는데. 물론 본인이지만 공증 40퍼라고? 딴 애들 6돌 공명은 조건부로 피증 10퍼 8퍼, 방무 15퍼, 조건부로 방무 20퍼...이능력 저항 10퍼...조건부로 15퍼...이런거고 가장 좋고 편한 축에 들가는게 조건 없는 피증 15퍼 나나리, 조건 없는 파티 전체 공증 30퍼 호토리인데, 그냥 조건없이 본인 공증 40퍼에 스코치 강화까지 그냥 달려 나온다고? 물론 6돌 이야기긴 하지만 아무리 그래도 이전 케릭들과 너무 차이나는거 아니냐...뭐 한 1주년 2주년 케야? 얘들 신쿠부터 갑자기 밸런스 왜 이러냐...얘들도 약간 돌파팔이 하는 느낌이 드는데? 명함 살짝 나사 빠져있고 돌파에 팔다리 달리고 6돌 공명효과에 개쩌는거 넣어두고? 근데 호토리랑은 쓸 방법이 아예 없는건가 둘다 풀돌일때 호토리 공증 30퍼랑 잔홍 공증 40퍼...하면 어케 적용되는거지...",
+        "negative",
+        "0.99",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "궁피해 계수가 낮은거 맞음? 멸이 900%고 1차+2차궁 합산 계수가 2400%인데 궁딜 저평가되는게 맞나 2각도 궁피해 2.5배 만들어주는건데",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "야 지갑 털리겟네",
+        "negative",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "음... 이환 슬슬 접어야하나... 슬슬 돌파팔이에 전무팔이라...",
+        "negative",
+        "0.5781621108812947",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "저게 이쁘다고? 신쿠는 그나마 컨셉도 확실하고 모델링도 봐줄만은 했던거같은데 일로이부터 시작해서 링코는 걍 a급으로 나와도 아까울지경이고 도대체 잔홍은 다른쪽도 할말이 많지만 머리 스타일을 왜 저렇게 한거임? 심지어 이환이라는 게임의 전체적인 퀄리티로 놓고 봤을때 세부적인 모델링도 너무 대충만든거 같은 느낌이들 수 밖에 없음 솔직히 상시나 다른 a급 첨에 봤을때 정말 충격이였고 그나마 나나리나 라리모 같은 픽업캐들 보고 괜찮아 지겠지 생각하고 있었는데 게임이 다른쪽으로 정말 노력하는거 같은데 정작 제일 중요한 캐릭모델링은 퇴화하는거 같음 저 머리스타일보고도 이쁘다고 하는 사람들이 단체 최면에 걸린거처럼 보임",
+        "negative",
+        "0.99",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "아니 근데 이런 캐릭을 만들어놓고 손도못잡게 하고 포옹도 못하게 한다고? 너무하네",
+        "positive",
+        "0.5891413733970966",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "제로야 날 속인거니?",
+        "neutral",
+        "0.5683232668550268",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "잔홍 디자인이 확실히 쩔긴 하나보다 빵빵한 녀석 주제에 내 데이비드를 움직이다니 대단한 녀석이야",
+        "positive",
+        "0.6827164349667108",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "일더빙판 잔홍 성우가 17세교로 유명한 이노우에 키쿠코씨군요... 하필 저 성우가 맡은 캐릭터들마저 이 17세교에 가입하는 추세라서 어김없이 밈 붙을거 같은 느낌이ᄏᄏᄏ",
+        "positive",
+        "0.6378119714859323",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "일단 싹다 이쁘고 마음씨가 크니 좋은거 아닐까(?)",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "와 일본성우 강연 러스트 목소리네... 근데 다른 언어 연기도 뒤지지 않고.",
+        "positive",
+        "0.91",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "여윽시 네이키드 킹 믿고 듣습니다",
+        "positive",
+        "0.7083419088221332",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "한국어랑 일본어에 또 치이네...",
+        "positive",
+        "0.7914176570278825",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "앙 뉴냐...뉴냐 !",
+        "positive",
+        "0.74",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "중국 모든 폰겜 성우들 다 맘에안들었는데 잔홍은 맘에드네",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "다 좋은디.",
+        "positive",
+        "0.76",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "일본으로 다시바꿔야하나?",
+        "positive",
+        "0.5074479977213812",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "한국버전은 일로이가 최고네",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "왜 생각보다 중국어가 좋냐 영어는 약간 듣기평가 듣는 기분이야",
+        "positive",
+        "0.5454592016801075",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "일본이 쫀득하네",
+        "positive",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "중국이 개쩌는데 ᄃ",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "잔홍 중국어 개 잘뽑았는데?",
+        "positive",
+        "0.96",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "중국이랑 한국이 짜세네",
+        "positive",
+        "0.7239708237070348",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "한국판은 왜 홍북이가?",
+        "neutral",
+        "0.5671328340154895",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "아니진짜 생각보다 중국더빙들이 되게 멋있음",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "중음 한음이 잘 뽑혔네",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "다른거 다 괜찮은데 영어는 왜이리 에코가 심한 느낌이지",
+        "positive",
+        "0.6746947005737425",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "이건 미국이랑 일본이 잘 어울리네 중국은 말 나오자마자 재미도 없는 아침드라마 되고 한국은 싱크도 안맞는데 데다가 무슨 디아블로에서나 나올 법한 에코여",
+        "positive",
+        "0.5654556703424721",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "잔홍 중국어 톤 되게 괜찮은데?",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "일본성우 키쿠코 여사였네",
+        "neutral",
+        "0.99",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "잔홍 중국어 잘뽑힌거 같은데 겜 평균 연령대가 영포티라 그런지 다 싫어하네",
+        "positive",
+        "0.8240172766215795",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "잔홍성대는 중 > 일 > 한 > 미 순서로 좋은듯",
+        "neutral",
+        "0.93",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "와 진짜 나만 그런건가 한국어 진짜 별로임 뭐지 뭔가 그 말로 설명 못하는 그 빠꾸난게 있음 진짜 왜 별로지",
+        "positive",
+        "0.8810722743141375",
+        "[\"社区生态\"]"
+      ],
+      [
+        "점점 이환 쇼츠를 지하철에서 볼 수가 없어 ᅮᅮ",
+        "negative",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "ᄉᄇ ᄏᄏᄏᄏ 미치겠네 매번 생각하지만 이환 하는 분들은 다 미친거 같네 무슨 수를 써서라도 그런모습 장면만 찾으면서 보네 ᄏᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.6279875271708372",
+        "[\"社区生态\"]"
+      ],
+      [
+        "이환 진짜 갓겜이네 ᄃᄃ",
+        "positive",
+        "0.8556393968943944",
+        "[\"社区生态\"]"
+      ],
+      [
+        "뭐야 영상에서는 건전하신 분인 줄 알았는데 아니옄어",
+        "positive",
+        "0.5479877837996793",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "젠장... 출시하면 지갑엔 먼지만 남겠군...ᅮ",
+        "negative",
+        "0.94",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "너무 이쁘다❤",
+        "positive",
+        "0.5858273962833301",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "와 미쳣다... 스킨 2개다 사고싶네",
+        "positive",
+        "0.9431978482099185",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "호토리랑 같은 디자인의 옷계열이라 이쁘네요",
+        "neutral",
+        "0.5264682690353482",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "아 검스파인데 이번에도 200뽑에 스타킹스킨이네 호토리도 200뽑 박았는데 하...",
+        "neutral",
+        "0.3791648253364286",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "잔홍시절 기본스킨 없어진줄알았는데 그냥주다니 ᄃᄃ 풀돌해야지",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "머고 이겜 시작해볼까...",
+        "neutral",
+        "0.4429636890640452",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "세계최고의 게임",
+        "positive",
+        "0.7075248756574909",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "확실히 이환은 1인칭이 사기죠",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "일로이 포기한 대가를 받아야지 ᄒᄒᄒ",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "어서와라. 지갑의 두께는 충분하다.",
+        "positive",
+        "0.5607547449762427",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "저 미친검은색원피스스킨은 무슨일이있어도산다...",
+        "positive",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "호토리는 뒷목 잡고 거품이 문다",
+        "neutral",
+        "0.72",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "200뽑 스킨이 제일 맘에 드는데 횟수는 절대 못채우고...",
+        "positive",
+        "0.5437836742621674",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "200뽑 해야하나 ᄃᄃ",
+        "positive",
+        "0.6034772057164897",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "잔홍아 어서와라 풀돌로 보답하마",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "레미엘 잔홍 청초 너무하네",
+        "positive",
+        "0.82",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "이게 12세 이용가?",
+        "neutral",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "아...일로이 거르길 잘한거같다...",
+        "positive",
+        "0.81",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "갈수록 200뽑 스킨이 예뻐지는데 오픈 때 뽀록으로 뜬 내 스킨은 ᄀ- ...",
+        "positive",
+        "0.6050277209374114",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "primer skip de vehículos",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "en cada actualizacion nte viene para dejarme seco de fons",
+        "negative",
+        "0.6644385707782612",
+        "[\"商业化\"]"
+      ],
+      [
+        "no quería, pero si es nanally...",
+        "positive",
+        "0.84",
+        "[\"商业化\"]"
+      ],
+      [
+        "justo alcance 8m para comprarme la casa más cara y me sales con que ocupo 20m para todo eso 🥀",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "despues de la moto, nunca mas use el porsche, una moto de agua... primero pongan el mapa de venecia 😂",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "estaba juntando para comprar una propiedad pero creo que eso va a tener que esperar 😂",
+        "negative",
+        "0.7430626745743482",
+        "[\"商业化\"]"
+      ],
+      [
+        "voy a tirar mas que todo por la skin del perito y mint, sinceramente veo muy caro la moto de agua para no tener nada que hacer en la playa, si hubieran dicho que mas adelante se vienen eventos o misiones que necesiten la moto de agua fijo me la saco, pero por ahora no es indispensable y me gusto mas la casa",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "por fin algo con lo que puedo ahorrar",
+        "positive",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "si sigo gastando en vehículos nunca tendré las otras casas xd",
+        "negative",
+        "0.91",
+        "[\"商业化\"]"
+      ],
+      [
+        "piku, regrésame al pasado al banner del porsche para evitar que gaste 10k arolitas 🥀🥀🥀 es curioso pensar que hace una semana estuve pensando que estaría bien algún personaje o vehículo para ir por el agua y ahora meten esta moto actuatica...",
+        "negative",
+        "0.8579616078751929",
+        "[\"商业化\"]"
+      ],
+      [
+        "tío acabo de gastar todo para el carro y la moto y ahora moto acuática",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "tengo una pregunta , han dicho algo sobre si la moto acuática es permanente o cuando llegue 1.4 la quitará y ya no se podrá conseguir más?",
+        "neutral",
+        "0.99",
+        "[\"商业化\"]"
+      ],
+      [
+        "lo intentaré, pero caray apenas saqué la drako",
+        "neutral",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "no puede ser, lo del porche le di skip porque no me parecia gastar tanto por un vehiculo y la skin no me gustaba, pero ahora las skin de verano estan muy buenas la moto acuatica no me gusta pero las skin si y todo esta muy caro🫣 ademas lo que si quiero es la cuatrimoto que si voy a usar bastante al mobilizarme por el mapa pero todo esta caro no puede ser que la pobreza me persiga hasta en el juego😭",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "soy el like 1000 y comentario 100 xd",
+        "neutral",
+        "0.99",
+        "[\"商业化\"]"
+      ],
+      [
+        "mis fons🥀🥀",
+        "negative",
+        "0.91",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "lpm no sabia eso y estoy en quiebre",
+        "negative",
+        "0.85",
+        "[\"商业化\"]"
+      ],
+      [
+        "que se puede 20 millones dice... con lo que cuesta acumular 4 o 5...",
+        "negative",
+        "0.97",
+        "[\"商业化\"]"
+      ],
+      [
+        "moto acuática en pulls?😂superskip🎉",
+        "negative",
+        "0.4936922515533309",
+        "[\"商业化\"]"
+      ],
+      [
+        "lo veo demasiado caro para lo que es la verdad,yo creo que el precio esta inflado básicamente por las 3 skins que pusieron,porque la verdad la moto no vale 20m , que pasa que la moto es de la marca porsche o que para que valga eso xd,yo solo tiraré a ver si consigo la skin de mint y la perita la de nanally ni me interesa y sí sale la moto de agua por casualidad pués bien si no pues que la den,buena info.",
+        "negative",
+        "0.98",
+        "[\"商业化\"]"
+      ],
+      [
+        "la mint parece lux de league of legends, le andan sacando skins y es una inutil xd. creo que si tiro, lo haré solo por las skins de nanaly y zero",
+        "negative",
+        "0.91",
+        "[\"商业化\"]"
+      ],
+      [
+        "yo y mis humildes 5 fons para sacar todo😂",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "😢 paso, pensaba que iba a costar lo mismo que el banner anterior, ya había ahorrado un poco, y el resto lo iba a completar con él por dos de $269 qué son 1800 alioli, pero 20, 000fons o 13000 arolitas me queda muy lejos. 😂 el lado bueno es que este mes me ahorro$269, por qué no tiene caso comprarlo ni siquiera me voy a acercar a los 20 000 fons o 13000 arbolitos.",
+        "negative",
+        "0.99",
+        "[\"商业化\"]"
+      ],
+      [
+        "siempre voy a preferir personajes",
+        "neutral",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "piku ayudame,el unico dps y equipo que tengo es el de shinku,no tenog ninun otro,entonces que me aconsejas?escojer a nanally o a zankou?tengo pensado mas que nada zankou pero prefiero que me diga un experimentado como tu mi pana",
+        "negative",
+        "0.5983438152045096",
+        "[\"商业化\"]"
+      ],
+      [
+        "full skin la casa de 8m puede esperar 🫪",
+        "neutral",
+        "0.82",
+        "[\"商业化\"]"
+      ],
+      [
+        "voy por la casa",
+        "neutral",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "no manches ya me cansé no puedo ni gastar. 10000 porque siempre llega nuevo vehículos",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "que gaste areolitas en la moto y fonds en los personajes. deacuerdo",
+        "neutral",
+        "0.91",
+        "[\"商业化\"]"
+      ],
+      [
+        "yo apenas con mis 4 millones de fons",
+        "negative",
+        "0.8974844915522933",
+        "[\"商业化\"]"
+      ],
+      [
+        "buenas noches. yo con apenas 3 millones. esta vez lo skippeare y si puedo solo intentaré sacar las skins o los dados y ahora si me guardo las aerolitas porque en el banner de la moto si las use un poco.",
+        "negative",
+        "0.7401830314027977",
+        "[\"商业化\"]"
+      ],
+      [
+        "nooooo otra vez 😢, va a suceder otra vez, va a suceder otra vez. nota: dure la temporada completa para ahorrar ese dinero pipipi",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "menuda millonada, pero bueno, tocará tirar de cartera",
+        "negative",
+        "0.536415762138255",
+        "[\"商业化\"]"
+      ],
+      [
+        "joder pero de dónde saco tanto fons por las justas y pude con la moto el porche a lo mucho llegué a la skin, naa ya fué",
+        "negative",
+        "0.8567521474882099",
+        "[\"商业化\"]"
+      ],
+      [
+        "mrd no tengo no llego a dos millones de fons xd y eso que lo que quiero yo es la casita",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "nah deja, re caro",
+        "negative",
+        "0.98",
+        "[\"商业化\"]"
+      ],
+      [
+        "yo solo quiero las skins y bueno los dados si caen",
+        "neutral",
+        "0.86",
+        "[\"商业化\"]"
+      ],
+      [
+        "con lo que cuesta siquiera conseguir un millón de manera f2p jajaja",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "joe, me va a doler las skins pero en este banner no gasto más de un millón, demasiado pobre ya ando y encima no saque ningún vehículo en banners anteriores",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "actualmente no hay uso para la moto, así que dropeo 😂",
+        "negative",
+        "0.91",
+        "[\"商业化\"]"
+      ],
+      [
+        "osea yo quiero si o si sacar a nanally y hotori así tenga q hacer la 1ra recarga ( solo tengo 52 dads rojos xd) así q básicamente se podría decir q tendría chance de conseguirlo todo 🤔🤔",
+        "negative",
+        "0.4790651394560997",
+        "[\"商业化\"]"
+      ],
+      [
+        "pues ya hace rato compre la propiedad de 8m asi que creo que si le llego a sacar pues tengo casi 4m",
+        "neutral",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "solo conseguire la skin de mint nanally y perito😢",
+        "neutral",
+        "0.82",
+        "[\"商业化\"]"
+      ],
+      [
+        "tengo todos los personajes menos chaos, todo por gastar en el porsche que al final no obtuve 😭",
+        "negative",
+        "0.5393415905329134",
+        "[\"商业化\"]"
+      ],
+      [
+        "se me hace muy tonto que actualización con actualización metan vehículos de evento tan caros. literalmente casi no da para ahorrar, o si quieres conseguir lo demas como las propiedades, los carros a agencia, mejorarlos, comprar las propiedades, los muebles, las subastas, las abilidades etc etc, todo eso ocupa fons, yo ya llegué al top 58 de riqueza ya tengo el marcó del top 60, pero aún así no uno no puede disfrutar bien de las otras cosas que ocupan fons por tirarse a ahorrar en todo momento",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "la moto acuática será un desperdicio ya que cotidianamente quien va a usar la moto acuática como se usa la moto o el automóvil xd",
+        "negative",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "yo con 6m de fons que estaba ahorrando mejor que me vendan las skins si van a poner mierdas asi 😔",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "apenas tengo 2 millones luego de haberme gastado 1 millon sin querer en reguladores de agua pa peces ademas de haberme comprado la casa de 8 millones ._. como q la moto acuatica me va a valer burguer, prefiero ahorrar para la casa nueva",
+        "negative",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "20 millonés? es un pésimo trato a no ser que metan una megaupdate que tenga el oceano como enfoque principal... pero aún asi es demasiado. nte es muy generoso en los banners de personajes pero en los de vehiculos desquitan todo lo bueno que hacen jajajajaj en algo tienen que canalizar esas ganas de exprimir a los jugadores",
+        "negative",
+        "0.99",
+        "[\"商业化\"]"
+      ],
+      [
+        "bueno solo con la moto estoy conforme pero siempre antes del vehículo me sale todo lo demás 😢",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "y yo con 100 fons ya valio",
+        "negative",
+        "0.7071914091700899",
+        "[\"商业化\"]"
+      ],
+      [
+        "adiós a la moto acuática, me gasto los 6.5m en el auto de 12m ya q no pude sacar el porsche",
+        "neutral",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "pero sera posible? yo no me veo juntanto esa cantidad. con el porshe intente pero fracase rotundas 😢",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "mi duda es si ese vehículo será único o meteran vehículos acuáticos en consecionario",
+        "negative",
+        "0.7586917190332166",
+        "[\"商业化\"]"
+      ],
+      [
+        "soy pobre xd",
+        "negative",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "20 millones 😮😮 la única skin que me interesa es la del perito por favor que me salga pronto no quiero gastar tantos fons",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "pues la tentacion me gano y saque la moto \"siendo que dije que le daria skip porque la probe y no me gusto\" la consegui y sigue sin gustarme asi que como no me interesa la moto de agua si sale todo en orden me ahorro 4.2m y sino pues mala mia porque quiero solo los skins...",
+        "neutral",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "despues avisame cuantos fons totales hay en esta nueva version",
+        "neutral",
+        "0.98",
+        "[\"商业化\"]"
+      ],
+      [
+        "ptm ya no me alcanzan los fonts, toca skip.",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "no puedo comprar nada xq paso toda la versión para sacar los vehículos 😔",
+        "negative",
+        "0.5725735444433032",
+        "[\"商业化\"]"
+      ],
+      [
+        "lo único que me interesa, es nanally y la perita, pero es que me da flojera xddd",
+        "negative",
+        "0.4909297544741927",
+        "[\"商业化\"]"
+      ],
+      [
+        "que le den a las skins. no me compro ropa en la vida real, me voy a gastar dinero para ropa en un juego. a por la moto de cabeza",
+        "neutral",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "el peor error que puedes cometer es gastar arolitas en ese tipo de banner. a menos que seas ballena",
+        "negative",
+        "0.6605718386517078",
+        "[\"商业化\"]"
+      ],
+      [
+        "es neta apenas si puedo conseguir la moto 20 millones chale no la conseguire",
+        "negative",
+        "0.6568338712230799",
+        "[\"商业化\"]"
+      ],
+      [
+        "yo a esto eventons les termino dando skip olímpicamente se me hace imposible conseguir tantos fons 💀",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "que bueno que nunca quiero los vehículos",
+        "positive",
+        "0.76",
+        "[\"商业化\"]"
+      ],
+      [
+        "ni por el carriso voy a gastar 20 millones lo siento, skip, no me interesa ni la moto ni las skins la verdad, ya tengo el porche y la moto de shinku",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "la vez pasada dio para 15 millones lo darán igual ?",
+        "neutral",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "si consigo primero las skin lo dejo o espero hasta el final para sacar la moto acuática.",
+        "negative",
+        "0.6117706008839711",
+        "[\"商业化\"]"
+      ],
+      [
+        "actualmente tengo solo 7.5 millones de fons... no se va a poder",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "lo comprara su madre",
+        "negative",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "pos toca skip",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "skip si supera 10m",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "otra vez no 😮‍💨dejame compra mis casa a meno una vencion",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "el único vehículo que hay que tirar es al jet, nada mas",
+        "negative",
+        "0.616450336610118",
+        "[\"商业化\"]"
+      ],
+      [
+        "tengo 12 casi 13 milloens y ns si gastarme para tener la ultimas 18 pulls de arma q son como 1.5 millones o me lo guardo para tener la moto y las skins mas rapido",
+        "negative",
+        "0.8334899339013855",
+        "[\"商业化\"]"
+      ],
+      [
+        "varias preguntas 1 la moto acuática va a ser como la draco y el porche que se consigue con las cajas y te pueden tocar las skins en dichas quejas dos cuántos cuál es el día verdadero porque estuve estos días trabajando y no me he enterado el 1.3 solo de los maravillosos shorts tres el tema de los dados qué va a ser uno para la primera otro parana nanally otro para la segunda de la 1.3 y el último para hotori en la primera mitad como siempre habrá uno con dos casillas una casilla para el primero y el otro para la otra y otro donde esté hotori en la segunda mitad hotori y la otra",
+        "negative",
+        "0.9109722704961027",
+        "[\"商业化\"]"
+      ],
+      [
+        "alv 20 millones, naaa, si las skins estuvieran buenas valdria la pena, pero no me gustaron :(",
+        "negative",
+        "0.8486632480425808",
+        "[\"商业化\"]"
+      ],
+      [
+        "alguien sabe cuando viene el rerum de nanali?.",
+        "neutral",
+        "0.99",
+        "[\"商业化\"]"
+      ],
+      [
+        "es un robo a dos manos xdxd, ni siendo ballena alcanzas a ahorrar los 19 millones porque solo darán 17m, si son f2p ni por las skins tiren.",
+        "negative",
+        "0.99",
+        "[\"商业化\"]"
+      ],
+      [
+        "no gracias, no me hace falta, segundo skip de vehículo que hago 🗿",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "el banner de porche volverá a salir ?",
+        "negative",
+        "0.6019581549165184",
+        "[\"商业化\"]"
+      ],
+      [
+        "full skip.la moto no me llama y 20 millones por 3 skin la verdad no me llama ademas de que no tengo nanally y no pienso sacarla!",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "el problema es exactamente las skins la moto de agua/jetski vale 11 millones las skins 3 millones cada una, como en la tienda permanente. allí están los 20millones el hecho que las pusieran en la gacha fons hace que salga tan caro",
+        "negative",
+        "0.8976666941298869",
+        "[\"商业化\"]"
+      ],
+      [
+        "スターズバレー、見た目以上にかなり本格的で楽しみすぎます! キャラごとに得意不得意があるなら、最強の組み合わせを探すのも面白そうですね😂 皆さんなら誰と誰をペアにしたいですか?",
+        "positive",
+        "0.6388010399821099",
+        "[\"运营服务\"]"
+      ],
+      [
+        "鑑定士の走る後ろ姿なんかすごいな",
+        "neutral",
+        "0.7",
+        "[\"商业化\"]"
+      ],
+      [
+        "お願いだから対人にポイッと放り込む『前に』操作説明と実践形式のチュートリアルを入れてくれ運営・・・オークションマジで酷かったってアンケ入れました・・・",
+        "negative",
+        "0.99",
+        "[\"运营服务\"]"
+      ],
+      [
+        "水着見れるだけでも最高",
+        "positive",
+        "0.5546783249804579",
+        "[\"版本内容\"]"
+      ],
+      [
+        "元々バレーやってたからこういうの考えてやるのマジで楽しい",
+        "positive",
+        "0.98",
+        "[\"运营服务\"]"
+      ],
+      [
+        "これ幻塔で見たな",
+        "positive",
+        "0.6592334546827161",
+        "[\"运营服务\"]"
+      ],
+      [
+        "とりあえずナナリ確定で",
+        "neutral",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "ナナリってリベロかよ",
+        "positive",
+        "0.4744471074705494",
+        "[\"商业化\"]"
+      ],
+      [
+        "これマルチなんか?",
+        "positive",
+        "0.4615405322815894",
+        "[\"运营服务\"]"
+      ],
+      [
+        "quick update: it's 12,980 annulith. i'm sorry. it's not an excuse, but i'm currently recovering from food poisoning, so my math was off 😢",
+        "neutral",
+        "0.8",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "jet ski such a cool idea",
+        "positive",
+        "0.97",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i'm saving everything for last day and wait for the next update mystery box in my opinion next porsche collab will worth my fons unless hathor bikini skin comes 😂",
+        "negative",
+        "0.4664129950688958",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "skipping these box after the porsche collab makes my mental a lot more calmer",
+        "negative",
+        "0.4852366210158728",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "1 mission... get the nanally skin.",
+        "positive",
+        "0.83",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "still hoping for the porsche phase 2 collab. i really want that 911 930 so bad.",
+        "negative",
+        "0.5193331719368095",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "guess i'm kinda lucky by being like the only person who doesn't want to pull any character in the next version xd i don't even want the vehicle, i just want zero skin, btw these videos really help me with my decisions in game cuz i'm usually not mathing anything out ❤",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "stocking up on fons (even doing more city activities than my usual), i can do with 2 homes and all aside those blindboxes",
+        "negative",
+        "0.542657268280045",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "it's gana be the last 2 for the third time 😭",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "can you have passengers on the tide vehicle? they had it on the preview and illustration art.",
+        "negative",
+        "0.4987859612180494",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "ya i am not getting this i already made a big mistake spending my amulet as a f2p on the draco bike and got all the rewards from it i am not gonna spend more stuff on a jets ski",
+        "negative",
+        "0.97",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "since i pulled both porsche and draco, after seeing this i felt that i can finally buy fenglin villa😂 and if lucky even the other 2 remaining property.",
+        "negative",
+        "0.4942730258524904",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "4.6 mil fons, ready and waiting. was gonna save it for the new house, but what the heck. bring it on!",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i just got my nannaly friendship skin tho",
+        "neutral",
+        "0.93",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i have enough font for this car, but new apartment is my attention 😂",
+        "neutral",
+        "0.8",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "when is the game adding black market organ sales? i just bought the villa and i'm still financially recovering from it... hopefully there'll be a way to get the water vehicles other than through the gacha",
+        "negative",
+        "0.96",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "is the only way to get fons to spend city stamina every week?",
+        "negative",
+        "0.7120929422368146",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "so... summer outfit and jet ski are in same box event?",
+        "positive",
+        "0.5012872823390339",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "might wait and see how much fon's i have towards the end...don't care about spending a single annulith or even getting the jetski since it seems to much for something like that. mostly just want the swimsuits because it feels weird swimming in my mansion pool in street clothes lol...though zero's porsche outfit does look sort of like a wet suit",
+        "negative",
+        "0.5735358175430616",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i want only appraiser and mint skins i don't give any fork about the jetski",
+        "negative",
+        "0.4901592717398669",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "over 8 million fons right now. i really thought i had this mostly covered. why is this as expensive as the porsche? is it because of all the skins?",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "brother i have 9.3 million fons. should i go for it. i already has draco ❤❤",
+        "negative",
+        "0.7514943471414602",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "if this was priced like the draco, then i wouldn't mind but at 19.8m fons, i'll rather save up for the next part of the porsche collab.",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "me personally will use fons fully until 12th (about 9.18 fons i can manage easily), if i get mc skin already then stop, otherwise burn some annulith, because i only want zankou this patch and skip every other char.",
+        "neutral",
+        "0.8",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "dawg this is deadass the 3rd blind box event in a row please let me buy an apartment or something i'm begging you i'm so broke 💔",
+        "negative",
+        "0.4249298462588013",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "nope saving my 16m for the next actual collab car.",
+        "neutral",
+        "0.93",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "how th am i supposed to earn 20m fons? i only got 4m and 7k annulith which im saving for zankou😭😭😭",
+        "negative",
+        "0.97",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "19m im never going to buy a 3rd home man",
+        "negative",
+        "0.97",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "if they add some aquatic area in 1.3 then this is a must pull, but the other rewards doesnt really seem all that interesting so idk.",
+        "neutral",
+        "0.8",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i'm thinking skip, i can't spare annulith because i after hotori, i may not get nanally but i hope i get hotori even if just a0 and not get her other perk. and for fons if possible i will get them using fons instead. but right now i delayed to much, i need fons for pendragon, shinku livery, and apartment. and beside it is summer event and i don't think there much thing to do in the sea. i'm just hoping for 1.3 sea event not required to have jetski. and slso why all new vehicle always mystery boxes.",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i dont like any of the skins so its an easy skip. will be spending on the new house",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "damn why does this have to be so pricy🤧, i stopped at 10 pulls on the porche, may have to leave this also but damn the rewards are kinda solid. they should have copied the motor bike blind box😂🤧",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "they said volleyball is not a new income, its an alternative for heist sadly",
+        "neutral",
+        "0.6919880187734835",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "just soing 8 rolls, all fons, i just want the zero and mint skins i do not care abt anything else",
+        "negative",
+        "0.7189190367331599",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "annulith should used for arc or character pull not for vehicles❤",
+        "negative",
+        "0.91",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "yeah no. i'm waiting to get my pendragon",
+        "negative",
+        "0.4489804990513943",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "this kinda sucks considering the only thing i want from the whole box is one skin,but i have to pay tht nasty price for everything as a bundle idk if i m pulling on this blind box or not,the odds arent looking good id rather jst spend 2.4k crystals for the skin...",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "these blind boxes are honestly getting ridiculous, i am happy that the gacha system is forgiving but the blind boxes just make up for the forgiving gacha. honestly these boxes give me more anxiety than any character banners yet",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "nah, fk that, i hate misisng charcters inbetween of vollecting all, u still need nanaly and chaos for the premium ones, and baicang from the regular banner",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "let's be honest atm the tide is a total skip. where else besides the ocean do we want to use it on anyway? there aren't any waterways we can make use of to traverse the map with it. so i really don't think people need to stress about it. in comparison the buggy that we're able to buy is way more interesting and what i'm personally looking forward to the most beside the new house.",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "20m fons?i only have 1 million fons😂😂😂",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "im gonna skip it since im saving up for hotori rerun i need 4 mroe copies of her and more copies of her arc",
+        "positive",
+        "0.8",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i'm skipping, we will probably get boats and other water vehicles in future, i'm going focus on apartments and fons skins.",
+        "neutral",
+        "0.94",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "easiest skip of my life",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "this limited vehicles are useless basically i will just skip it",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "all the events and missions will give you a jet ski so absolute skip",
+        "neutral",
+        "0.8",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i don't even care anymore about that gacha",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "ギリ間に合わない気がしてきた\\(^o^)/",
+        "positive",
+        "0.5553351107264769",
+        "[\"运营服务\"]"
+      ],
+      [
+        "正直、今のバイクが引けてないから水着目当てなら残しておくべきかな",
+        "neutral",
+        "0.88",
+        "[\"版本内容\"]"
+      ],
+      [
+        "そりゃ運営もガチャ引かせたいだろうし、水着はみんなほしいだろうからこの値段設定にするよ",
+        "neutral",
+        "0.8",
+        "[\"运营服务\"]"
+      ],
+      [
+        "ボックスガチャの値段が2回目で減ったから、コラボ仕様の天井額だと思ってたのに。これはキツイ。",
+        "negative",
+        "0.5107379786024363",
+        "[\"运营服务\"]"
+      ],
+      [
+        "期末考査を捨ててまでporscheを引きました。あの地獄をもう一度ですか?",
+        "neutral",
+        "0.449940167869236",
+        "[\"运营服务\"]"
+      ],
+      [
+        "鑑定士の水着だけほしいから出たら撤退かなあ",
+        "neutral",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "正直こっちよりもまずハンター取引所が最優先😭",
+        "negative",
+        "0.86",
+        "[\"版本内容\"]"
+      ],
+      [
+        "水着も入ってるんだったら引くしか無いじゃないか(boxガチャ皆勤賞)",
+        "neutral",
+        "0.4021532915961432",
+        "[\"运营服务\"]"
+      ],
+      [
+        "マモンのレベル上限増やしたいから物件のために貯めてたけどどうしようかなぁ",
+        "neutral",
+        "0.91",
+        "[\"运营服务\"]"
+      ],
+      [
+        "一軒屋優先してスル~します😅",
+        "positive",
+        "0.5864728171775813",
+        "[\"运营服务\"]"
+      ],
+      [
+        "うーん、水着は欲しいけど水上バイクは要らんし...一軒家優先にするか。",
+        "neutral",
+        "0.89",
+        "[\"版本内容\"]"
+      ],
+      [
+        "水着は残虹の水着(セクシーすぎるので高いが仕方ない)だけにする😢",
+        "neutral",
+        "0.5197464934982255",
+        "[\"商业化\"]"
+      ],
+      [
+        "月パス ハンター褒賞 毎週毎月のファンス全部買ってるけどそれでも2000万の水上バイク取るんきついわw",
+        "negative",
+        "0.98",
+        "[\"养成资源\"]"
+      ],
+      [
+        "まだ1000万しかないぞよ",
+        "negative",
+        "0.5276564537572216",
+        "[\"养成资源\"]"
+      ],
+      [
+        "だめだなー、確実に引くから",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "ナナリ持ってないんだけど復刻来るの?このタイミングで新衣装ってことは",
+        "neutral",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "やり込んでる人はファンスで買える。リアルマネーでも問題ない人は課金して買える。ボックス式いいと思うけど",
+        "negative",
+        "0.3912979802677861",
+        "[\"养成资源\"]"
+      ],
+      [
+        "at this point gateoo is the face of nte, from news/changes/cinematics you name it",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "keeping daffodil flowers separate from others, nice touch.",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i need some crazy in my life 😂",
+        "neutral",
+        "0.7739518782646344",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "\"nobody sees u like i do\" \"nobody loves u to death like i do\" zankou to daffodil...daaaym the doomed yuri power",
+        "positive",
+        "0.4893960331235051",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "music is fire",
+        "positive",
+        "0.4255865826599723",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i just love to see that they didn't overshadow there standard char (daffodil) or show her week to point out there s rank limited char the aura and unbeatable personality daff hold keeps the same even on the animated short and combat showcase video of zankuo and that's the part i love playing this game that they didn't show there old characters week as compared to new one 🫡",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "james bond feeling...",
+        "positive",
+        "0.75",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "1:57 first recorded instance of zankou doing something nice: she hugs daffodill to console her about her dead rabbit. aww! ...wait, she didn't kill the rabbit, did she?",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "can't wait for the stream😅",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "oii oiii hotta become a music studio at this point.",
+        "positive",
+        "0.4836487505824135",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "like this one more than the last 4. nanally and hotori still had the best ones.",
+        "positive",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "didn't expect to be first",
+        "neutral",
+        "0.8",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "okay now i get why they removed the eyepatch with zankou. she does look prettier that way.",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "top ep music nte: 1. caos. 2. zankou. 3. nanally. 4. shinku.",
+        "positive",
+        "0.7897529205594145",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "is there any version of this without the subtitles?",
+        "neutral",
+        "0.8",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "yeah she definitely has some weird obsession with daffodil... im not saying it's a crush per say but i'm not ruling it out either...",
+        "neutral",
+        "0.8",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "sooo... where are the people that called out nte for being \"ai slop\" now?",
+        "positive",
+        "0.86",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "when is stream starting 😩😩",
+        "neutral",
+        "0.94",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "oh...coen on...hotta show us what mc's soul looks like what tf is he 😭😭😭 we still have no lore behind who tf he is",
+        "negative",
+        "0.4553208681927418",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "so, she and daff are gay—is that why we can't go on dates with daff? or am i just misunderstanding? since we won't be able to have date interactions or anything with sankou either... two beautiful, powerful characters we can't access :c",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "they are playing it risky trying to get yuri enjoyers' attention. at the end, normal people know what a sibling/rivalry is but these guys never learn.",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "水上車両tideも欲しいけど、水着が入っているなら多少すり抜けても少し嬉しいですね😂 いつものブラインドボックスより精神的に優しい...かも? 皆さんはtideと水着、どちらを狙いますか?",
+        "positive",
+        "0.5105439368086505",
+        "[\"运营服务\"]"
+      ],
+      [
+        "最初タギドと空耳しました 「水上バイクタギド」、いい響きですね",
+        "neutral",
+        "0.4594829827092415",
+        "[\"版本内容\"]"
+      ],
+      [
+        "ファンスが、ファンスがないっ!",
+        "neutral",
+        "0.5591290288483732",
+        "[\"养成资源\"]"
+      ],
+      [
+        "海しか移動できないっぽいし普段使い全くしなさそうだからほんとにミントのスキンだけ欲しい...",
+        "neutral",
+        "0.4037149748059148",
+        "[\"商业化\"]"
+      ],
+      [
+        "ボックスも機会があったら復刻してくんないかな... コラボはさすがに無理だろうけど、一部は何かしらで復刻してほしい。",
+        "positive",
+        "0.4653243045637582",
+        "[\"运营服务\"]"
+      ],
+      [
+        "タイド(とサウザン)はおまけ 水着、手に入れるぞ",
+        "positive",
+        "0.7003468466787527",
+        "[\"版本内容\"]"
+      ],
+      [
+        "水上バイクは欲しいんだが、値段がポルシェでナナリ未所持でココミントも別に水着欲しくはないのよね...。 主人公は999スキンが良いし、海も私服か落書きで良いし...大当たりに実質外れ三枠...。",
+        "negative",
+        "0.97",
+        "[\"版本内容\"]"
+      ],
+      [
+        "tideって名前の洗剤あったなーと思って調べてみたら英語で潮汐(ちょうせき)って意味らしいですね。水上バイクが出るって事はまさかドル○ィンウェーブとコラボ狙ってる...?",
+        "neutral",
+        "0.6577621845666315",
+        "[\"版本内容\"]"
+      ],
+      [
+        "何度も言ってしまう... 「ファンスが足りないですね...」と。😂",
+        "neutral",
+        "0.4277173005741354",
+        "[\"养成资源\"]"
+      ],
+      [
+        "残虹がバギースキンってことは... おわかりいただけただろうか...",
+        "neutral",
+        "0.5587940797399228",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "tideよりも水着狙う人が多そう",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "でもさぁ・・・このtide夢の種周回してる時にはかなり役に立つと思うんだけど・・・・",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "鑑定士しか運転できないのかなぁ",
+        "neutral",
+        "0.97",
+        "[\"商业化\"]"
+      ],
+      [
+        "これって日本はいつからですか?😊",
+        "neutral",
+        "0.5284894928640771",
+        "[\"运营服务\"]"
+      ],
+      [
+        "개쩌는 메인스토리는 다음주 한섭에서 ᄀᄀ 치지직 다시보기로 보면 무검열로 가능 ᄀᄀ",
+        "positive",
+        "0.88",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "내용은 알찬데 ᄉᄇ 집 밖에서 볼 수가 없는 채널 ᄏᄏᄏᄏᄏᄏᄏ 와 근데 막짤은 ᄅᄋ 기가막히게 뽑았다",
+        "positive",
+        "0.8590525190327216",
+        "[\"社区生态\"]"
+      ],
+      [
+        "1:04 우효오옷 하다가 갑자기 진지하게 스킬 알아보는 낙차가 ᄏᄏᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "서브컬쳐 유튜버 진입장벽 개높네 ᄃ ᄃ...",
+        "positive",
+        "0.4823413342980868",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "말이 정말 천박한데 이 텐션덕분에 하루하루 힘이나네요 영상 재미있게봤습니다",
+        "positive",
+        "0.98",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "온필드시간 늘어난캐릭 나오는거보니까 슬슬 3파티컨텐츠 내려고하나 준비해야될거같기도하고",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "텐션 ᄏᄏᄏᄏᄏ",
+        "neutral",
+        "0.8",
+        "[\"社区生态\"]"
+      ],
+      [
+        "*집구석에서 소리 줄이고 봐야하는 영상*",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "젠평을 어느 유튜버가 올려듯이 이분이 환평 올릴기세네 ᄏᄏᄏ",
+        "neutral",
+        "0.8",
+        "[\"社区生态\"]"
+      ],
+      [
+        "개잔빙 미챴지",
+        "positive",
+        "0.5864728171775813",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "이채널 보고 나면 항상 기빨려있음 ᄃ",
+        "negative",
+        "0.7",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "디온농가 반드시살려",
+        "positive",
+        "0.87",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "잔홍 무한 헥스 겁나 기대되네 령,주,령,주( ᄎ주ᄅ렁ᄎ주ᄅ렁사이클) 무한헥스사이클 보는맛 지릴듯",
+        "positive",
+        "0.5681038182237346",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "최잔홍씨 19일날 봅시다. 잔홍아 안녕~!",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "와 일러보다 인게임에서 보니까 엄청 큰데? 죽인만큼 키울수 있겠는걸? ,",
+        "positive",
+        "0.8389948160042406",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "복귀자인데 라리모없으면 지속피해쪽은 못쓰나요? 아니면 그냥 딜좀 낮게나오나요 다포딜은 있고요 링코봐서 뽑아야한다면 뽑을거라",
+        "neutral",
+        "0.98",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "아크 쌀먹의 길을 멀군아...",
+        "negative",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "옆집의 히유키 베이스에 카멜리아 한스푼섞고 카르티시아 궁 옮겨놨네 ᄃᄃ",
+        "negative",
+        "0.94",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "내 마누라 당장 1돌 간다잇",
+        "neutral",
+        "0.7944166706330242",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "이로이는 혹시 왠만하면 그대로 필요할까요? 1주일 안된뉴비인데 잔홍 뽑을려고 모으고있는데 이로이 하면 애매해져서 ᅲᅮ",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "아 다포딜 라크리모사 둘다 없는 뉴비인데 잔홍뽑고 싶네요.오픈때 타기도 때문에 빡쳐서 접었다가 요즘 복귀한거 후회중",
+        "neutral",
+        "0.5040868206488764",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "뭔가 이때까진 파티가 조잡한 느낌이 있었는데, 잔홍을 파츠로 스코치, 헥스는 완성되는 느낌이네",
+        "neutral",
+        "0.5883029177196586",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "개쩌는 퀴디온스텝❤❤❤ 개꼴리는 퀴디온방송❤❤❤",
+        "positive",
+        "0.88",
+        "[\"社区生态\"]"
+      ],
+      [
+        "나나리 나와!",
+        "positive",
+        "0.7416842686938317",
+        "[\"社区生态\"]"
+      ],
+      [
+        "스킨리뷰 ᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.7793510520186683",
+        "[\"社区生态\"]"
+      ],
+      [
+        "사키리가 고정인건 아는데 사키리 없을때 잠깐동안 쓸 대체는 없는걸까요 파티는 잔홍,라리모,?,하니엘",
+        "neutral",
+        "0.6416370626403541",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "잔홍 다포딜 라크리모사 이렇게 셋이 쓰는건 별로인가요?",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "근데 노딱 드셨나 가림이 늘어 났는걸?",
+        "positive",
+        "0.5615905090357621",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "쓸꺼면 명전필수. 1돌시 자가버프 동시적용으로 고점이 뚫리면서 3돌이상까지도 욕심나게하는 딜러다...라고 이해하면 되겠죠?",
+        "positive",
+        "0.526465352805962",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "호타는 스타킹 질감 소전2 우중이한테 한수 배워라😂😂😂",
+        "positive",
+        "0.4220676230560776",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "언제나 항상 천박하십니다 형님!",
+        "neutral",
+        "0.8",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "갠적으로 라리모가 주력캐라 사키리를 쓰거나 아예 라리모를 서브로 쓰는 잔홍은 뽑아도 거의 안 쓸거같은데 옷걸이를 너무 잘내놨어...",
+        "negative",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "ᄉᄇ ᄏᄏᄏᄏᄏᄏᄏ",
+        "positive",
+        "0.74",
+        "[\"社区生态\"]"
+      ],
+      [
+        "스킨 리뷰 천박한거봐라... 올리는 영상 중 절반이 노딱일듯. 너무 좋아",
+        "neutral",
+        "0.5291072636359",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "海上をジェットスキーで探索できるイベント、めちゃくちゃ楽しみです! 漂流物を集めてポイントを稼ぐという内容もかなり面白そうですね😂 皆さんはこのイベント、どんな遊び方をしてみたいですか?",
+        "positive",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "なんで夏終わりのシーズンに夏イベントてんこ盛りにしたのか謎...(要らないとは言ってない)",
+        "neutral",
+        "0.8",
+        "[\"运营服务\"]"
+      ],
+      [
+        "これって水上バイク持ってないとやれないのかな",
+        "neutral",
+        "0.4052882971594002",
+        "[\"版本内容\"]"
+      ],
+      [
+        "이걸안뽑아? 독하다 독해 ᄏᄏᄏᄏᄏ",
+        "neutral",
+        "0.5200846160585829",
+        "[\"社区生态\"]"
+      ],
+      [
+        "진짜 옷이랑 안대만 벗었는데 전혀 다른캐릭같네 잘바꿨다😊",
+        "positive",
+        "0.9112771019374222",
+        "[\"社区生态\"]"
+      ],
+      [
+        "와 흔들리는거봐",
+        "positive",
+        "0.9138898281988036",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "1버전은 잔홍 신쿠팟 몰빵으로 성공적이겠군 ᄏᄏ",
+        "positive",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "현시점 이환 최고 비쥬얼이다",
+        "positive",
+        "0.6460068116813956",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "선생님들... 최면 걸린것마냥 추에만 시선이 가요",
+        "neutral",
+        "0.8",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "미쳤네ᄏᄏᄏᄏ 풀돌 해야겠지?",
+        "positive",
+        "0.6042779107713148",
+        "[\"社区生态\"]"
+      ],
+      [
+        "5...부바",
+        "neutral",
+        "0.52",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "아 ᄏᄏᄏ 뽑고싶다",
+        "positive",
+        "0.96",
+        "[\"社区生态\"]"
+      ],
+      [
+        "기존 의상도 좋았는데 아숩네",
+        "positive",
+        "0.6595896210716391",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "which zankou outfit wins? drop your favorite below!",
+        "positive",
+        "0.4865878734683063",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "give her to me 😢",
+        "neutral",
+        "0.697985657563922",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "imo: original>story>pulling>payed>bond skins",
+        "neutral",
+        "0.4111145609500532",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i like the black one so much 😍❤❤❤❤",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "story design ❤❤❤❤❤❤❤",
+        "neutral",
+        "0.4634059746424526",
+        "[\"社区生态\"]"
+      ],
+      [
+        "her redesign looks best as an outfit she wears for combat",
+        "positive",
+        "0.6029708510288544",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "last or first",
+        "neutral",
+        "0.4624895387096758",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "second one",
+        "neutral",
+        "0.4690276988972465",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "standard outfit for me",
+        "neutral",
+        "0.8",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "what the what bro 💔✌️",
+        "positive",
+        "0.4215526003376771",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "1 orginal one 2 black 3 that traditional 4 new redesign 5 red",
+        "neutral",
+        "0.99",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "every outfit is best but chinese one is really good",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "yo pienso usar el clásico, soy un hombre débil a su naturaleza xd",
+        "neutral",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "holy hell that black outfit",
+        "positive",
+        "0.96",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "black outfit doeee",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i'll never buy skins...but that black outfit tho",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "is the purple/red glow and particles around the sword blade from the signature arc?",
+        "positive",
+        "0.3987238668614612",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "this time... the japanese voice sounds like a mother of 3 children😂😅... i'd say the english one wins... coz it makes her sounds powerful, prominent, dangerous, and sounds evil😢 really suits her... the chinese one still fine tho! 💯❤🔥",
+        "positive",
+        "0.4712107937131149",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "which one is her bond 10 skin?",
+        "neutral",
+        "0.98",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "リンコ、戦闘時だけじゃなく部屋で過ごしている私服姿も最高すぎます! 普段とのギャップがかなり良いですね😂 皆さんはリンコの私服姿、どう思いましたか?",
+        "positive",
+        "0.98",
+        "[\"运营服务\"]"
+      ],
+      [
+        "実家でくつろいでる中高時代の姉妹を思い出すラフさ",
+        "positive",
+        "0.5864728171775813",
+        "[\"运营服务\"]"
+      ],
+      [
+        "ぷるんって!いまぷるんってした!",
+        "positive",
+        "0.5864728171775813",
+        "[\"运营服务\"]"
+      ],
+      [
+        "仕草が全てkawaii",
+        "positive",
+        "0.98",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "個人的にさだちゃんの可愛さが気になっちまうよ",
+        "positive",
+        "0.93",
+        "[\"养成资源\"]"
+      ],
+      [
+        "残虹とナナリくるからスルーかな...",
+        "positive",
+        "0.457281651035026",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "靴をソファにつけるな!後でソファニーするのに、病気になっちゃうだろ!😡",
+        "positive",
+        "0.7421398988866217",
+        "[\"养成资源\"]"
+      ],
+      [
+        "hi, my name is zero, and welcome to jackass",
+        "positive",
+        "0.4544963998738024",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i know nte knows their player base when they have trailers like that for updates. 😂😂",
+        "negative",
+        "0.3621871089470955",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "im so fking glad that nte is just having fun with random things! i love the little minigame thingies they put every now and then! and to some some people are dissing the game because **checks notes:** it had a couple of billboards showing ai generated video ads 🤣🤣🤣",
+        "negative",
+        "0.4553601151270151",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "wheelchair the new meta",
+        "neutral",
+        "0.73",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "it reminds me of the old open world car games i used to play when i was a kid😂😂😂",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "not my husband! now i gotta rush him to the freaking er. 😭",
+        "negative",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "we are tokyo drifting the freaking wheelchair with this update 🙌🙌🗣️🗣️",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "lmfao, as someone who’s in a powered wheelchair why is my first thought also: wheelchair stunts baby 😂",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "did they fix the handling for the nissan gtr, if so i would go back lol",
+        "neutral",
+        "0.8",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "in my head is just happywheels music when dat happen lol",
+        "positive",
+        "0.78",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "this brings back memories to gta vice city and san andreas xd",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "yank!",
+        "positive",
+        "0.4870750013980923",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "ナナリとミントの水着は課金枠なのわかるしボックスにぶち込まれてもしゃーないかって思うけど鑑定士の水着課金枠はおかしいやろ 主人公やぞ配布枠やろそれは",
+        "positive",
+        "0.4625552508941427",
+        "[\"商业化\"]"
+      ],
+      [
+        "普通にショップ販売して欲しい... 300万ファンスで何着か用意してくれてるじゃん! そっちで販売してくれよ! って常々思ってます てかそもそもブラインドボックスの衣装とかの報酬以外がしょぼいのも悪い",
+        "negative",
+        "0.88",
+        "[\"养成资源\"]"
+      ],
+      [
+        "水上バイクは刑務所に帰れるから手に入れる",
+        "positive",
+        "0.88",
+        "[\"版本内容\"]"
+      ],
+      [
+        "水着常設販売の方が正直いつでも買えてありがたいのにな",
+        "positive",
+        "0.87",
+        "[\"运营服务\"]"
+      ],
+      [
+        "追加クソデカマップに広大な湖があって、水上バイクがインフラになるに100ファンス",
+        "neutral",
+        "0.82",
+        "[\"版本内容\"]"
+      ],
+      [
+        "nteは物理演算がすごいので水着ガチャは引くしかないよなぁぁ?",
+        "negative",
+        "0.4805812997884701",
+        "[\"运营服务\"]"
+      ],
+      [
+        "水上バイクは面白そうだけど高すぎる...でも自分が欲しいカオスの水着は別売りで手に入るのでそこだけはありがたいです",
+        "neutral",
+        "0.78",
+        "[\"版本内容\"]"
+      ],
+      [
+        "マジ高い!ドラコ位の値段なら良かった...",
+        "positive",
+        "0.3819217978209012",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "水着とかのスキンはもう 課金だけでいいんだけどなぁ",
+        "neutral",
+        "0.82",
+        "[\"运营服务\"]"
+      ],
+      [
+        "まぁでも今回ドライブ専用のマップ追加されるし今後それ用の場所が設けられるかもしれない",
+        "neutral",
+        "0.8",
+        "[\"运营服务\"]"
+      ],
+      [
+        "やっとファンス貯金が1000万超えたのにまだ足りないのか・・・",
+        "negative",
+        "0.6475844345854249",
+        "[\"养成资源\"]"
+      ],
+      [
+        "水上バイクがオマケだからね、仕方ないね",
+        "neutral",
+        "0.8",
+        "[\"版本内容\"]"
+      ],
+      [
+        "ブラインドボックスを最高2,000万ファンスに設定する割には獲得ファンスを頑なに増やそうとしないのはなんなんだ。 石でも引けるから課金してね♡って事なんだろうけど、ちょっと商売下手と思わざるを得ないな",
+        "negative",
+        "0.88",
+        "[\"养成资源\"]"
+      ],
+      [
+        "水上バイクはおまけ。 水着のミントやナナリ、残虹とイチャイチャするためにあるんだよ!",
+        "positive",
+        "0.94",
+        "[\"版本内容\"]"
+      ],
+      [
+        "水上バイク、欲しかったけど最悪自分で泳げばヒナタ島も刑務所も行けるから要らないかな。。。 それよりもミントの水着! それだけの為にbox引くのは辛過ぎるぅー!😭",
+        "negative",
+        "0.88",
+        "[\"版本内容\"]"
+      ],
+      [
+        "もう...水上バイクはどうでもいいとして、なんか水着に釣られるのがちょっと馬鹿馬鹿しく感じてきたので、2、3回まわしてあとはメイド服来るまで温存しよかなメイド服なんて来る見込みなんてないけど",
+        "negative",
+        "0.95",
+        "[\"版本内容\"]"
+      ],
+      [
+        "気のせいだと思うんだけど水上バイク砂浜の上走ってたんだよなぁ・・・見間違いだよなぁ・・・・流石にだとしたら水上バイクじゃ無いもんなぁ。",
+        "neutral",
+        "0.8",
+        "[\"版本内容\"]"
+      ],
+      [
+        "一部のキャラばっかり過剰にスキン追加もういらないから今回のブラインドボックスもスルーだな 初期スキンしかないキャラにもっと焦点を当ててくれ",
+        "negative",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "ミントの水着は確実に2000万以上の価値がある",
+        "positive",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "未来にヘリがくるだろうとおもうから今回もスルーだな=w=まぁ。白蔵先生だったら2000万とかしてもやぶからスティックだったが(`・ω・ ́)!",
+        "neutral",
+        "0.88",
+        "[\"运营服务\"]"
+      ],
+      [
+        "まぁファンスと円石合わせたら無事無課金でも回せる位やからそこはね? 問題はファンスが余るほどまだまだ育成や物件に車等の使い道が多い事だ! おしっ、銀行口座残りいくらやったかな?...",
+        "neutral",
+        "0.8",
+        "[\"养成资源\"]"
+      ],
+      [
+        "tenía que estar loca para estar tan buena 😆",
+        "positive",
+        "0.91",
+        "[\"商业化\"]"
+      ],
+      [
+        "thought it was hiyuki for a second",
+        "positive",
+        "0.3818106212020951",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "nte is owning the competence honestly",
+        "positive",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "bro knew what he was doing when he added the battle cats music w",
+        "positive",
+        "0.7161103700086032",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i do hope they expansion chars there and add more stories with it. like if we could do that mosa tomato heist what mint told they did. 999 nights has lot of potentially for side quest content. but it shouldnt been part of msq.",
+        "neutral",
+        "0.8",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "hey ... w video my favourite cc... i have a concern and i wish to know your honest opinion about it. if there are infinit tower floor...then doesnt that means they have to tweak the gearing system to relsove the character power gating and cieling allowing you to both level gear parts and socket like in any rog gearing sustem or .mmo...which means also renovating and expanding upon the hp system to avoid both hp inflation and power creep.😊",
+        "negative",
+        "0.7614372717842037",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "999 nights event should be kept in the game and i hope it does",
+        "negative",
+        "0.5334905777406751",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i want hunters crucible as a permanent mode and i want a endless mode where i can use my main party",
+        "positive",
+        "0.84",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "and more story and more areas🎉",
+        "neutral",
+        "0.5141513655086115",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "ill never understand why so many people like fighting a timer so much, but it is what it is, have fun doing the same character and move rotation for 5 hrs straight on enemies with millions of hp.",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "nte doing peak content once more🔥",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "so after watching and reading the comments, i do agree with more floors and content. love it. but will nte add more prizes to the store for those that already have all the stuff in the store? cuz what's the point in grinding endless floors if we're not going to get anything from it",
+        "neutral",
+        "0.8",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "what rewards we are getting from that 99 floors",
+        "neutral",
+        "0.8",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "sre we gonna get more annulith on 999 nights? because then why would most people come back to it after already getting all the rewards from the mini game store.",
+        "neutral",
+        "0.96",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "question. so when receveing rare items you had to “reveal” them (roll the dice and define quality number value), but after challenge mode this got removed making standard the quality of all items did these just happened to me, is the same for everyone or did i do something wrong?",
+        "neutral",
+        "0.8",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i hated 999 nights hp inflation but it’s content ig",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i agree with him on the developers, adding more characters to the roster. it will look so cool if any of the other nte characters had their own looks in this mood too. 🤩",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "so like tower in tof or smth. seems cool",
+        "positive",
+        "0.4198279881533891",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i hates that content because hp inflasion so ass",
+        "negative",
+        "0.99",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i would like illustrive realm endgame in wuwa😢",
+        "neutral",
+        "0.8",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "to be fair the mode is ass if we can't use the characters we bout fuck it i dont wanna play shinku for 4 months while i have zanko it should not use the game mode characters",
+        "negative",
+        "0.5832014207576259",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "lol i've just finished it... there's no way they would've expected ppl to buy all those skins in one update",
+        "negative",
+        "0.93",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "빨리 1인칭 시점으로 밑에 내려다보고싶다 흐흐",
+        "positive",
+        "0.5406814805797113",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "잔홍은 아가야~",
+        "neutral",
+        "0.5952174941818218",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "잔아가 혼자 다른 겜에서 온거같냐ᄃᄃ",
+        "positive",
+        "0.624743185849176",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "잔홍누나!",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "뭔가 침대에서 날 누워 놓고 내려다볼 것 같네",
+        "neutral",
+        "0.6788290175001102",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "이쁜 눈나!",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "와 이상주머니 보소~",
+        "positive",
+        "0.72",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "우리들에 아내임",
+        "positive",
+        "0.86",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "폰돌렸는데왜가랑이안보이냐ᅳᅳ",
+        "negative",
+        "0.79",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "무슨 얘 혼자 명조에서 넘어온거 같냐",
+        "neutral",
+        "0.8",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "バイクや泳いでる時の写真撮れないの残念に思ってたからありがたい",
+        "positive",
+        "0.96",
+        "[\"运营服务\"]"
+      ],
+      [
+        "今後イロヒが必要になってきそうでdracoに使ったの後悔してきた",
+        "positive",
+        "0.4326262736144472",
+        "[\"运营服务\"]"
+      ],
+      [
+        "way better than buying like 20$ for a skin",
+        "negative",
+        "0.4533820615685868",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "\"like nanally in her swimsuit\" shows lacrimosa.",
+        "positive",
+        "0.8132810408933646",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "don't forget that theyre adding a feature that your character changes skin when you go to a certain area. so...",
+        "negative",
+        "0.4219780164003847",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i went for the porsche cause i like cars and it's a rare vehicle irl. i went for the draco cause it's fun af and the mobility is solid... i do not care about skins or water vehicles, and the price is insane.",
+        "positive",
+        "0.95",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i will go for it unfortunately... i'll not having any apartment yet but i will get nanally swimsuit, miny swimsuit and zero swimsuits",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "im going for skin since they automatic change each area now",
+        "positive",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "did you say potential?",
+        "neutral",
+        "0.7894793076288307",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "a jetskii and 3 skins worth up to 19.8 million fons is to much for this dude but 19.8 million for 1 car and 1 skin was just right for him...lmao",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i tried playing nte and my quests kept on glitching out, i fixed it for the most part but i forgot what to do. im level 7 currently, do you know how i progress in the story?",
+        "negative",
+        "0.88",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "do you think 2.5 m fons will be enough because i do plan to go for them",
+        "negative",
+        "0.6584951252134148",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i hope we get swimsuit soon😋",
+        "positive",
+        "0.94",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "another wife❤❤❤",
+        "positive",
+        "0.4673479279970797",
+        "[\"社区生态\"]"
+      ],
+      [
+        "yey zankou wait other outfit zankou dance",
+        "positive",
+        "0.7500496073399279",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "mommy zankou",
+        "positive",
+        "0.4797846553348032",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "not to long now boyz",
+        "negative",
+        "0.5144682211553037",
+        "[\"其他讨论\"]"
+      ]
+    ]
   }
 }
