@@ -2506,7 +2506,20 @@
               "type": "reprint"
             }
           ],
-          "reports": {},
+          "video_metrics": {
+            "video_count": 525,
+            "total_views": 8223106,
+            "total_comments": 56481,
+            "updated_at": "2026-08-19",
+            "source": "B站关键词“鸣潮3.5”全量视频统计"
+          },
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "data_source": "data/reports/wuwa-3.5-lower-zh.json",
+              "download_name": "鸣潮-3.5下半-B站_舆情分析报告.html"
+            }
+          },
           "confidence": "corroborated",
           "sources": [
             {
