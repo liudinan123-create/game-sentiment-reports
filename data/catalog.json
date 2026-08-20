@@ -4470,7 +4470,20 @@
               "type": "reprint"
             }
           ],
-          "reports": {},
+          "video_metrics": {
+            "video_count": 475,
+            "total_views": 40018492,
+            "total_comments": 171860,
+            "updated_at": "2026-08-13",
+            "source": "B站关键词“原神7.0”严格版本过滤"
+          },
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "data_source": "data/reports/genshin-7.0-upper-zh.json",
+              "download_name": "原神-7.0上半-B站_舆情分析报告.html"
+            }
+          },
           "confidence": "official",
           "sources": [
             {
