@@ -2523,6 +2523,11 @@
               "status": "ready",
               "data_source": "data/reports/wuwa-3.5-lower-ja.json",
               "download_name": "鸣潮-3.5下半-日语_舆情分析报告.html"
+            },
+            "ko": {
+              "status": "ready",
+              "data_source": "data/reports/wuwa-3.5-lower-ko.json",
+              "download_name": "鸣潮-3.5下半-韩语_舆情分析报告.html"
             }
           },
           "confidence": "corroborated",

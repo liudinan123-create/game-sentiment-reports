@@ -1,0 +1,3225 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "鸣潮",
+    "version": "3.5",
+    "phase": "下半",
+    "character": "穗穗 / 爱弥斯",
+    "date_start": "2026-07-30",
+    "date_end": "2026-07-31",
+    "platform": "YouTube（韩语）",
+    "generated_at": "2026-08-21T16:35"
+  },
+  "analysis": {
+    "total_comments": 442,
+    "video_metrics": {
+      "video_count": 62,
+      "total_views": 119221,
+      "total_comments": 1066,
+      "updated_at": "2026-07-31",
+      "source": "YouTube韩语关键词‘명조 3.5’有效视频统计"
+    },
+    "sentiments": {
+      "positive": {
+        "count": 110,
+        "percent": 24.9
+      },
+      "negative": {
+        "count": 148,
+        "percent": 33.5
+      },
+      "neutral": {
+        "count": 184,
+        "percent": 41.6
+      }
+    },
+    "keywords": [
+      {
+        "name": "商业化",
+        "count": 176
+      },
+      {
+        "name": "竞品讨论",
+        "count": 70
+      },
+      {
+        "name": "角色讨论",
+        "count": 48
+      },
+      {
+        "name": "其他讨论",
+        "count": 37
+      },
+      {
+        "name": "视觉表现",
+        "count": 22
+      },
+      {
+        "name": "剧情内容",
+        "count": 20
+      },
+      {
+        "name": "社区生态",
+        "count": 20
+      },
+      {
+        "name": "战斗体验",
+        "count": 19
+      },
+      {
+        "name": "版本内容",
+        "count": 16
+      },
+      {
+        "name": "技术体验",
+        "count": 8
+      }
+    ],
+    "topics": [
+      {
+        "name": "商业化",
+        "total": 176,
+        "positive_percent": 20.5,
+        "negative_percent": 37.5,
+        "neutral_percent": 42.0
+      },
+      {
+        "name": "竞品讨论",
+        "total": 70,
+        "positive_percent": 22.9,
+        "negative_percent": 41.4,
+        "neutral_percent": 35.7
+      },
+      {
+        "name": "角色讨论",
+        "total": 48,
+        "positive_percent": 27.1,
+        "negative_percent": 14.6,
+        "neutral_percent": 58.3
+      },
+      {
+        "name": "其他讨论",
+        "total": 37,
+        "positive_percent": 37.8,
+        "negative_percent": 18.9,
+        "neutral_percent": 43.2
+      },
+      {
+        "name": "视觉表现",
+        "total": 22,
+        "positive_percent": 27.3,
+        "negative_percent": 36.4,
+        "neutral_percent": 36.4
+      },
+      {
+        "name": "剧情内容",
+        "total": 20,
+        "positive_percent": 20.0,
+        "negative_percent": 55.0,
+        "neutral_percent": 25.0
+      },
+      {
+        "name": "社区生态",
+        "total": 20,
+        "positive_percent": 60.0,
+        "negative_percent": 5.0,
+        "neutral_percent": 35.0
+      },
+      {
+        "name": "战斗体验",
+        "total": 19,
+        "positive_percent": 21.1,
+        "negative_percent": 26.3,
+        "neutral_percent": 52.6
+      },
+      {
+        "name": "版本内容",
+        "total": 16,
+        "positive_percent": 12.5,
+        "negative_percent": 62.5,
+        "neutral_percent": 25.0
+      },
+      {
+        "name": "技术体验",
+        "total": 8,
+        "positive_percent": 12.5,
+        "negative_percent": 25.0,
+        "neutral_percent": 62.5
+      }
+    ],
+    "pipeline_metrics": {
+      "insight_input_positive": 107,
+      "insight_input_negative": 130,
+      "insight_input_neutral": 120,
+      "estimated_insight_input_tokens": 9279,
+      "agent_labeled_count": 400,
+      "translated_quote_count": 90,
+      "estimated_agent_tokens": 10620,
+      "quality_gate": {
+        "thresholds": {
+          "validation_accuracy": 0.85,
+          "per_class_precision": 0.8,
+          "per_class_recall": 0.8,
+          "high_confidence_audit_error": 0.08,
+          "model_rule_conflict": 0.15
+        },
+        "decision": "finalized",
+        "stage": 2,
+        "trigger_reasons": [],
+        "precise_label_cap": 400,
+        "agent_labeled_count": 400,
+        "current_batch_by_provisional_group": {
+          "positive": 30,
+          "negative": 0,
+          "neutral": 50
+        },
+        "estimated_sentiment_label_tokens": 1341,
+        "remaining_budget": 0,
+        "validation": {
+          "status": "ok",
+          "validation_count": 26111,
+          "validation_accuracy": 0.611543,
+          "per_class_precision": {
+            "positive": 0.591516,
+            "negative": 0.604799,
+            "neutral": 0.628837
+          },
+          "per_class_recall": {
+            "positive": 0.575684,
+            "negative": 0.61345,
+            "neutral": 0.631914
+          },
+          "per_class_f1": {
+            "positive": 0.583493,
+            "negative": 0.609094,
+            "neutral": 0.630372
+          },
+          "per_class_support": {
+            "positive": 6613,
+            "negative": 8669,
+            "neutral": 10829
+          },
+          "confusion_matrix": [
+            [
+              3807,
+              1095,
+              1711
+            ],
+            [
+              1023,
+              5318,
+              2328
+            ],
+            [
+              1606,
+              2380,
+              6843
+            ]
+          ],
+          "label_order": [
+            "positive",
+            "negative",
+            "neutral"
+          ],
+          "cv_folds": 5
+        },
+        "audit": {
+          "high_confidence_audit_count": 31,
+          "high_confidence_audit_error": 0.354839,
+          "model_rule_conflict": 0.567873
+        }
+      }
+    }
+  },
+  "generated": {
+    "overall_conclusion": "角色动作特效、入场语音与抽卡氛围获认可，但3.5下半内容干涸、分日解锁及难度回报失衡引发不满，最需关注内容供给与活动节奏。",
+    "sentiments": {
+      "positive": {
+        "summary": "正面玩家热议爱弥斯与Qingxiao抽取好运，并认可穗穗、秧秧的入场语音、动作特效及3.5节奏安排。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "爱弥斯等角色抽卡好运与玩家互相祝愿",
+            "detail": "玩家集中分享爱弥斯专武、角色及多名五星的成功抽取，也频繁互祝卡池好运，并期待莫奈复刻或爱弥斯更高共鸣链。",
+            "count": 23,
+            "share_percent": 20.91,
+            "quotes": [
+              "good luck to everyone on your pulls!",
+              "praying to get lucky on pulls🙏",
+              "good luck everyone",
+              "good luck to all !",
+              "i really hope i can get mornye if she reruns next patch",
+              "finally got aemeath sig after 75 pulls",
+              "i'm feelin lucky ;)",
+              "i finally got aemeath!",
+              "i got 5 5star resonators since xbox launch😂",
+              "i worked so hard for aemath s2 please god let me win and get her s3"
+            ],
+            "quote_translations": [
+              "祝大家抽卡好运！",
+              "祈祷抽卡时能走好运🙏",
+              "祝大家好运。",
+              "祝所有人好运！",
+              "我真的希望莫奈下个版本复刻时能抽到她。",
+              "75抽后终于拿到爱弥斯专武。",
+              "我感觉自己要走运了 ;)",
+              "我终于抽到爱弥斯了！",
+              "Xbox上线以来我已经抽到了5个五星共鸣者😂",
+              "我为了爱弥斯S2努力了很久，求神让我赢一次拿到她S3。"
+            ]
+          },
+          {
+            "rank": 2,
+            "title": "穗穗与秧秧的动作特效、入场语音及3.5节奏认可",
+            "detail": "玩家认可3.5放慢节奏对非高强度玩家更友好，同时称赞穗穗、秧秧的专属语音、服装纹理、3D模型、动作与特效细节。",
+            "count": 18,
+            "share_percent": 16.36,
+            "quotes": [
+              "it is just one patch they are taking slow, and half the players lost their minds. that is what happens when you serve gold one time instead of the monthly platinum",
+              "1:48 cinema gameplay. absolute peak fiction",
+              "5:32 chisa reference, this has potential",
+              "6:09 banger take edit: having suisui's involvement in the first half actually made it easier to skip yangyang for me.",
+              "unemployed players is the only one complaining , me on the other hand only explored like 40% of the map, halfway through the story and still finishing some side quests. and finishing limited events. this is in favor for me really 😂",
+              "i like how she has exclusive intro voiceline if yangyang is outroing into her",
+              "for 3d model wuwa didnt lose to any game. just they purposely flatten some part of 3d model to make characters appear more 2d like. its fk harder than using only 3d model.",
+              "they have been going hard on their characters designs, yeah? looking at the clothes textures for example, and how great they convey the quality of the clothes she's wearing. i can already tell she's in a different tax bracket compared to all other people in the game hahaha.",
+              "the attention to detail in this game is incredible tbh (the lanterns in yangyang's ult?!). i was so stunned by so many of suisui's fx and animations that i had to pull lol. she's already elevating my hiyuki team!",
+              "she's stunning! although i didn't manage to deal with her yet in combat, only looking at her movements makes me mesmerized."
+            ],
+            "quote_translations": [
+              "这只是一个放慢节奏的版本，结果一半玩家都崩溃了。一次给过黄金后，大家就看不上每月的白金了。",
+              "1:48 像电影一样的实机演出，简直是巅峰级叙事。",
+              "5:32 有千咲的彩蛋，这很有潜力。",
+              "6:09 这观点太棒了。编辑：穗穗在上半段的参与，反而让我更容易跳过秧秧。",
+              "只有无业玩家在抱怨；我地图才探索约40%，主线做到一半，还在清支线和限时活动，这种安排其实更适合我😂",
+              "我喜欢秧秧退场切换到她时会触发专属入场语音这个细节。",
+              "鸣潮的3D模型不输任何游戏，只是故意压平部分模型让角色更像2D，这比纯3D更难。",
+              "他们最近角色设计真的很下功夫，比如服装纹理和面料质感，明显比其他角色更“昂贵”。",
+              "游戏细节惊人（秧秧大招里的灯笼？！）；穗穗的特效和动画让我惊艳到直接抽了，她也提升了我的日雪队！",
+              "她太惊艳了！虽然还没实战，只看动作就让我着迷。"
+            ]
+          },
+          {
+            "rank": 3,
+            "title": "Qingxiao卡池期待与星声筹备",
+            "detail": "玩家高频表达对Qingxiao设计和登场的兴奋，已开始预留抽数、规划专武与Denia、Mornye配队，并希望有限星声能够覆盖目标。",
+            "count": 11,
+            "share_percent": 10.0,
+            "quotes": [
+              "qingxiao pullers attendance!👇",
+              "qingxio is so cool, really like her design",
+              "can't wait for qingxiao",
+              "words cannot describe how exited i am for qinxiao",
+              "got my suisui + aeameath laser sword. saving my left over pulls to qingxiao now. around 40pulls thanks for pull count.",
+              "i so glad i got aemeath and her weapon with only 50 pulls qingxiao is next 🔥",
+              "qingxiao coming home 100%",
+              "i got s1 suisui and her weapon with just 73 pulls today and now i feel like i just used all my ancestors luck in this banner. i still have 50 pulls left and i want qingxiao and need to get ready to lose my next 4 50/50 losses🛐. hope kuro can bless my account again and give me qingxiao🛐",
+              "i want qingxiao 😭",
+              "bro just tell me🥲🥲... qingxiao can be paired with denia and mornye(s1) i am all in for her...with her weapon! hope...i can get her in 10k astrites...(will be farming more if possible)"
+            ],
+            "quote_translations": [
+              "Qingxiao抽取者签到！👇",
+              "Qingxiao太酷了，真的很喜欢她的设计。",
+              "等不及Qingxiao了。",
+              "语言无法形容我对Qingxiao有多兴奋。",
+              "抽到了穗穗和爱弥斯的激光剑，剩下大约40抽存给Qingxiao，感谢抽数统计。",
+              "我太高兴了，只用50抽就拿到爱弥斯和她的武器；下一个就是Qingxiao🔥",
+              "Qingxiao百分之百会来我家。",
+              "今天只用73抽就拿到S1穗穗和她的武器，感觉祖辈的运气都用在这个卡池了。我还剩50抽，想要Qingxiao，也得准备好接下来连续歪四次。希望库洛再次眷顾账号，把Qingxiao给我。",
+              "我想要Qingxiao😭",
+              "兄弟快告诉我🥲🥲……Qingxiao能和Denia、Mornye（S1）组队吗？我准备连她和专武都抽，希望1万星声能拿下，还会继续攒。"
+            ]
+          }
+        ]
+      },
+      "negative": {
+        "summary": "负面讨论集中在3.5版本内容干涸与体验退步、活动和剧情的时间门槛，以及穗穗卡池50/50失利造成的资源损失。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "3.5版本内容干涸与综合体验退步",
+            "detail": "玩家认为3.5下半缺少足够的剧情和活动支撑，探索因摩托和图标引导而变得空洞，复刻活动、慢节奏主线及整体完成度均不及此前版本，部分长期玩家因此失去上线动力。",
+            "count": 40,
+            "share_percent": 27.03,
+            "quotes": [
+              "to be honest, i feel like it's even worse not having events when the exploration is streamlined this much. for most stuff, since the release of the motorcycle, you follow the main road and find it all. chests are in clusters, the collectibles are scattered across high places mostly and the rest of the map is quite literally empty. and it feels annoying to move around without the bike as well. the entire map is built around bike traversal, leaving lots of the map just empty and hollow. there is literally no point in exploration anymore if all you do is run to an icon on the map, find most of the relevant stuff around it and leave. the birds are the only exception for me and for those i have to use the motorcycle if i don't want to go crashout. tbh i hated lahai-roi for this aspect and i so hoped mengzhou would go back to the roots. it seems i was wrong",
+              "this patch has been lame as hell tbh, the story was a slow crawl, the events (especially godforsaken knock-off vampire survivors) are mostly boring reruns of events i didn't like in the first place, the one event that's good is time gated, map exploration is basically completely automated at this point so there's no reason to even navigate the new map, so on and so forth. this is the first time in over 400 hours of gameplay that i've been majorly losing motivation to bother playing the game when everything is boring as hell yet takes forever to complete.",
+              "as a gamer who plays for the story, i find it really unsatisfying that there’s no story content in the second half. on top of that, i’m having trouble completing certain side quests (on ps5), so i can’t even collect the rewards or have something—anything—to do. plus, the way the motorcycle flies around gets on my nerves so much that i don’t even enjoy exploring what is otherwise a truly beautiful area. so, for me, it’s been a three-week dry spell.",
+              "releasing maybe 16 hours of gameplay every version and then also timegating it is insane on top of the weekly mode and the events not even being that good to begin with unironically the only thing i look forward to these days is the story and endstate matrix",
+              "so people are finally opening there eyse and realising that if is not for the story the content in the game is dry as f*ck and has been that way for long ahh time",
+              "i feel like it would have been better if we were to experience rover's perspective first, be curious how rover got his electro powers and as a second main quest suisui would explain it as a storytel how she had convinced hsin to give him power or whatever that was, dont remember rn. this way players would have been hooked up till the second half of a patch with some sort of unexplained mystery and the whole 3.5 wouldnt feel awkward - but thats my perspective, feel free to have yours.",
+              "kuro isn't doing it with 3.5 main quest. the facts and numbers said it all. and to think that not long ago, we had the peak like 3.1 and 3.3, the fumbling is so bad this time.",
+              "just like every other gacha game there’s nothing to do when the 2nd part of the banner releases lol",
+              "yes, this patch is a downgrade compared to the previous few peak ones.",
+              "i’m still finishing up lahai-roi after a break so i’m glad i have content to catch up with seeing that 3.5 is pretty dry."
+            ],
+            "quote_translations": [
+              "说实话，在探索被简化到这种程度时，没有活动就更糟了。地图围绕摩托移动设计，大片区域空洞，探索只剩跑图标；我讨厌拉海洛伊这点，本以为蒙州会回归本源，结果我错了。",
+              "这个版本烂透了：故事推进慢，活动多是无聊复刻，好活动还被时间门槛限制，探索几乎自动化；玩了四百多小时以来，我第一次严重失去继续玩的动力。",
+              "作为剧情玩家，下半没有剧情很不满足；PS5支线又有问题，摩托探索也很烦。虽然区域很美，但对我来说已经干旱了三周。",
+              "每个版本可能就十六小时玩法还要限时解锁，加上周常和质量一般的活动太离谱；现在只期待剧情和终末矩阵。",
+              "大家终于意识到，如果不是剧情，这游戏的内容一直都干得要命。",
+              "如果先从漂泊者视角体验，再由穗穗解释雷系能力来源会更好，这样谜团能留到下半，整个3.5也不会显得尴尬。",
+              "库洛这次3.5主线没做好，事实和数据已经说明；不久前还有3.1和3.3的高峰，这次失手太严重。",
+              "和其他抽卡游戏一样，卡池下半一开就没事可做。",
+              "没错，这次版本相比前几个巅峰版本是一次倒退。",
+              "我休息后还在补拉海洛伊，所以庆幸还有内容可追，但3.5确实很干。"
+            ]
+          },
+          {
+            "rank": 2,
+            "title": "活动时间门槛、难度回报与下半节奏不满",
+            "detail": "玩家反感活动和剧情被分日解锁，认为强制每日登录限制了自由安排；虚拟危机等活动又存在难度偏高、奖励吸引力不足的问题，与下半内容稀少叠加后进一步放大挫败感。",
+            "count": 19,
+            "share_percent": 12.84,
+            "quotes": [
+              "yep this time gated stuff is so so stupid. why does everything have to be locked, why can't we just play whenever we want? all these minigames are so not fun , what a waste of time ... lament was boring af too... still no co op mission etc",
+              "this guy was easy enough... but the next one, the twins, i lasted 5 minutes, but then, i just started dying and i just ran out of interest. i feel it was too hard for the reward, so i think this is the limit.",
+              "imo... it looks like kuro is trying to retain their player numbers by time gating everything. forcing people to log on everyday for event unlocks to replace the lack of story engagement they will be getting.",
+              "i was so mad when i saw they time gated virtual crisis this is restarted",
+              "this whole timegating shenanigans is getting old. we already have enough systems that force us to log in every day, don't need more.",
+              "the virtual crisis event is at 40 already kinda hard, not gonna lie.",
+              "ah yes let’s time gate the story too...",
+              "web event ruined wuwa",
+              "true there's nothing to do 😂",
+              "i was suprised not having second haf story . day ruined ."
+            ],
+            "quote_translations": [
+              "对，这种时间门槛太蠢了，为什么不能想玩就玩？小游戏不好玩，纯浪费时间，哀鸣也无聊，还没有联机任务。",
+              "这个还算简单，但下一个双子我撑了五分钟后就一直死，直接没兴趣；难度相对于奖励太高，到这里就是极限了。",
+              "我觉得库洛用各种时间门槛留住玩家，强迫每日登录，以弥补缺少剧情参与感。",
+              "看到虚拟危机被时间门槛限制时我气坏了，太荒谬。",
+              "这套时间门槛已经过时了；每天强制登录的系统够多，不需要更多。",
+              "说实话，虚拟危机到40级就已经挺难了。",
+              "好嘛，现在连剧情也要限时解锁了……",
+              "网页活动毁了鸣潮。",
+              "确实没东西可做😂",
+              "我很惊讶下半居然没剧情，一天都毁了。"
+            ]
+          },
+          {
+            "rank": 3,
+            "title": "穗穗卡池50/50失利与抽取资源损失",
+            "detail": "多名玩家集中反馈穗穗卡池歪50/50、较深垫数后仍未获得目标角色，以及零氪资源和钱包压力；现有赠送抽数被认为不足以覆盖失败风险，部分玩家只能停抽或等待复刻。",
+            "count": 15,
+            "share_percent": 10.14,
+            "quotes": [
+              "i lost my suisui 5050 and i might not be able to get her 😔",
+              "i lost my 50/50 😭😭😭😭😭",
+              "good luck everyone. i lost my 50/50 at 75th pull 😢",
+              "lost my 50/50 of suisui😢",
+              "great video lost my 50/50 as f2p it's really painfull",
+              "im just lost 50/50 😭🥀🥀",
+              "had 18k, spent 5k for suisui, 65 pity lost 50/50😭💔, now waiting for qinxiao with 13k but i'll definitely get suisui some other day 🥹",
+              "40 something pulls when 50/50 exists is just not enough",
+              "lost 50/50 for suisui",
+              "just lost my 50/50 on sui sui. commenting to let my wallet breathe"
+            ],
+            "quote_translations": [
+              "我的穗穗50/50歪了，可能拿不到她了😔",
+              "我的50/50歪了😭😭😭😭😭",
+              "祝大家好运。我第75抽歪了50/50😢",
+              "穗穗的50/50歪了😢",
+              "视频很棒，但我这个零氪歪了50/50，真的很痛苦。",
+              "我刚刚50/50歪了😭🥀🥀",
+              "本来有1.8万星声，给穗穗花了5000，65垫歪了50/50；现在留1.3万等清霄，但以后肯定还会拿穗穗。",
+              "存在50/50时，四十多抽根本不够。",
+              "穗穗50/50歪了。",
+              "刚在穗穗池歪了50/50，来评论让钱包喘口气。"
+            ]
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "中性讨论主要围绕3.5后半内容开放节奏、艾弥斯/穗穗配队与抽取决策，以及穗穗的投入价值和实战定位。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "3.5剧情、活动解锁与内容消耗节奏",
+            "detail": "玩家讨论后半活动分批解锁与剧情任务安排：部分人等待全部开放后集中体验，部分人认为限时解锁能避免一天清空；同时也有人围绕穗穗剧情拆分、角色任务接受度和新任务缺失展开解释。",
+            "count": 56,
+            "share_percent": 30.4,
+            "quotes": [
+              "i'm just doing dailies and playing poe 2 and palworld. will do the full events when fully unlocked. no. dif on this complaint. even if vc was fully unlocked we would finish it in a day or two and just say there's nothing to do🤣",
+              "imagine finishing all event in one day and not login again tomorrow... that why they put the coldown to unlock",
+              "i don't like how they always time gate the 2nd half events.",
+              "i was looking for the story and event",
+              "not starting the event until everything is unlocked.",
+              "considering how long the story was. maybe kuro was telling us to try and pace ourselves. unemployed i understand if you play right through. im still 1 hour in the 3.5 story since most times of my day and night is spent at work.",
+              "@saintontas a lot of people didn't like companion quest and have it removed.",
+              "if suisui part was saved to the second half saint would just call rover's awakening dues ex machina just like qingxiao",
+              "i think it’s because people just don’t like character story quests",
+              "i was like wheres the new quest type shit."
+            ],
+            "quote_translations": [
+              "我现在只做日常，同时玩《流放之路2》和《幻兽帕鲁》，等活动全部解锁再一次做完。即使虚拟危机全开，我们也会一两天清完，然后又说没事做。",
+              "想象第一天就清空所有活动，第二天不再登录；这就是他们设置冷却、分批解锁的原因。",
+              "我不喜欢他们总是给后半活动加时间门槛。",
+              "我当时在找剧情和活动。",
+              "全部内容解锁之前，我不会开始这个活动。",
+              "考虑到剧情长度，也许库洛是想让大家放慢节奏。一直玩的人我能理解；我每天大部分时间都在工作，现在3.5剧情才玩了一小时。",
+              "很多人不喜欢角色同行任务，希望把它移除。",
+              "如果把穗穗部分留到后半，Saint又会像评价清霄一样，把漂泊者觉醒说成机械降神。",
+              "我觉得原因可能是很多人本来就不喜欢角色故事任务。",
+              "我当时就在想：新的任务类型去哪了？"
+            ]
+          },
+          {
+            "rank": 2,
+            "title": "艾弥斯/穗穗队伍搭配与抽取优先级",
+            "detail": "玩家集中核对穗穗、千咲、艾弥斯等角色的队伍适配与机制收益，并结合已有命座、专武、保底和后续角色安排，判断应补命座、换队友还是继续攒抽。",
+            "count": 35,
+            "share_percent": 19.0,
+            "quotes": [
+              "if you have s2 suisui would she be a better option for fusion burst over chisa? i also don’t have denia will be getting next patch could lynae work in denia’s spot if she’s also s2?",
+              "i really want to know what i need to prioritize. i've got chisa s0 with sig weapon same with suisui. should i have s1 suisui or hiyuki s2? both have sig weapon. i don't have lucilla btw. i am able to clear toa for now. i plan to skip new banner until hsin. should i save until hsin?",
+              "i have s2 ameath, and currently on 74 pity with no guarantee. i have all her premium supports and another 5 fully buit other teams. should i go for new resonator in next patch or go for s3 ameath",
+              "i am wondering how people think suisui goes into aemeath fusion burst i'm sorry? aemeath does not consume fusion burst when she explodes it meaning she does not consume negative status so she gets no buff from suisui's giving next resonator mist outro thing",
+              "between chisa and suisui for fusion burst, chisa is a better option as aeneath cannot fully benefit from suisui's kit. (she cannot consume fusion burst to get the attack buff)",
+              "i'm f2p, got aemeath and lynae , should i buy aemeath r1 or save for mornye ?",
+              "can i keep running amyeathe, denia, mornye or would chisa just be way better even tho i got s1 on mornye (i don't really want lynea.)",
+              "hey there, is aemeath, lynae and verina better than aemeath, lynae and chisa?",
+              "at s2 aemeath which will be better to build fusion or tune rupture",
+              "i heard she is only compatible with yang yang and hiyuki not with aemeath and carte. now i am confused lol"
+            ],
+            "quote_translations": [
+              "如果有二命穗穗，她在聚爆队里会比千咲更好吗？我也没有达妮娅，下版本会抽；二命琳奈能否代替达妮娅？",
+              "我有零命专武千咲和穗穗，该补穗穗一命还是霜雪二命？两人都有专武，我没有露西拉，目前能通深塔，也准备一直攒到辛；应该怎么选？",
+              "我有二命艾弥斯，现在垫了74抽且没有大保底；她的高配辅助我都有，另外还有五支完整队伍。下版本该抽新角色，还是补艾弥斯三命？",
+              "我不明白为什么有人觉得穗穗能进艾弥斯聚爆队。艾弥斯引爆时不会消耗聚爆或负面状态，因此吃不到穗穗给下一名共鸣者的迷雾延奏增益。",
+              "艾弥斯聚爆队里，千咲比穗穗更合适，因为艾弥斯无法完整利用穗穗机制，也不能消耗聚爆来获得攻击增益。",
+              "我是无氪，已有艾弥斯和琳奈；该买艾弥斯一命，还是为莫妮娅攒着？",
+              "我能继续用艾弥斯、达妮娅、莫妮娅吗？还是千咲会好得多？虽然莫妮娅有一命，而且我不太想要琳奈。",
+              "艾弥斯、琳奈、维里奈这队，会比艾弥斯、琳奈、千咲更好吗？",
+              "二命艾弥斯更适合构筑聚爆还是调律破裂？",
+              "我听说她只适配泱泱和霜雪，不适配艾弥斯与卡提希娅；现在我有点糊涂了。"
+            ]
+          },
+          {
+            "rank": 3,
+            "title": "穗穗抽取结果、专武投入与实战定位判断",
+            "detail": "围绕穗穗的讨论集中在歪卡后是否继续抽、补一命或专武是否划算，以及无专武配装、无氪队伍、轮转速度和与千咲速切表现的差异。",
+            "count": 15,
+            "share_percent": 8.2,
+            "quotes": [
+              "so i lost my 50/50 on suisui, should i still go for her, since i have yangyang and hyuki, or should i save them for mornye/denia for my aemeath in 3.6? and i also feel like suisui would have a rerun soon so?",
+              "lost 50/50 now im saveing for jingran and then i will pull suisui on her rerun😊",
+              "hey, i just got her sig weapon, and if i wonder that worth it to buy suisui sequence node in shop for s1, im have 450 ish coral.",
+              "lost my 50/50 on suisui - time to save for hsin 😊",
+              "so which one is better crit dmg or hp% for those who have suisui without her sig",
+              "total pulls for suisui + weapon: 135 which is pretty avg. but winning the 50-50 is the most important part.",
+              "what do you think of suisui?",
+              "f2p team with suisui video?",
+              "sui sui rotation is fast compare to chisa",
+              "i think chisa outperforms suisui when it comes to qs. but it's not meant for everyone."
+            ],
+            "quote_translations": [
+              "我抽穗穗时歪了；已有泱泱和霜雪，还该继续抽她，还是为3.6艾弥斯队的莫妮娅或达妮娅攒着？我也觉得穗穗可能很快复刻。",
+              "50/50歪了，现在准备先为惊人攒，再等穗穗复刻时抽她。",
+              "我刚拿到她的专武，想知道用大约450珊瑚在商店买穗穗命座升到一命值不值。",
+              "穗穗池歪了，现在该为辛攒了。",
+              "没有穗穗专武时，暴伤和生命百分比哪个更好？",
+              "穗穗加专武总共用了135抽，算是平均水平；但最重要的还是赢下50/50。",
+              "你觉得穗穗怎么样？",
+              "能做一期穗穗无氪队伍的视频吗？",
+              "与千咲相比，穗穗的轮转更快。",
+              "我觉得速切方面千咲优于穗穗，但速切并不适合所有人。"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [
+      [
+        "between chisa and suisui for fusion burst, chisa is a better option as aeneath cannot fully benefit from suisui's kit. (she cannot consume fusion burst to get the attack buff)",
+        "neutral",
+        "0.94",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "can i keep running amyeathe, denia, mornye or would chisa just be way better even tho i got s1 on mornye (i don't really want lynea.)",
+        "neutral",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "hello, i will play aemeath with denia and qingxiao with denia. what weapon would i pull of those 3? im using emerald of genesis(aemeath) and waltz in masquerade (denia) .",
+        "neutral",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "at s2 aemeath which will be better to build fusion or tune rupture",
+        "neutral",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "i probably won't be able to get her weapon. but i hope s0r1 denia and s0r1 chisa kinda closes the gap.",
+        "neutral",
+        "0.7",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "will aemeath, jianxin, verina/mornye is good?",
+        "neutral",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "que sería mejor para aemeth, sacar su arma o a denia? por andar calando suerte saque a denia con una single jajaja y me cambio todos mis planes xd",
+        "neutral",
+        "0.86",
+        "[\"商业化\"]"
+      ],
+      [
+        "i don’t have mornye, i have suisui, lynae and chisa.",
+        "neutral",
+        "0.99",
+        "[\"商业化\"]"
+      ],
+      [
+        "hey there, is aemeath, lynae and verina better than aemeath, lynae and chisa?",
+        "neutral",
+        "0.98",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "bro i use ameath lynae sk team and on the middle tower floor 1 on her 2nd ult sometimes i do 270k damage and sometimes i do 380k can u tell me why it happens plzzz",
+        "neutral",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "just got her s3",
+        "neutral",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "i started yesterday and i got aemeath in my first 10 pull omg she looks cool and i have no idea how many things work so yea what is the most easy team u suggest should i get suisui or should i just save? idk what to do welp i have no idea how to build her either oof ;-;",
+        "positive",
+        "0.76",
+        "[\"商业化\"]"
+      ],
+      [
+        "i cant heat aemeath ult more than 250k , s0r1 ame with lynae and verina, atk 2300, cr 70 cd 260. what should i do? what i did wrong? response",
+        "neutral",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "if you have s2 suisui would she be a better option for fusion burst over chisa? i also don’t have denia will be getting next patch could lynae work in denia’s spot if she’s also s2?",
+        "neutral",
+        "0.99",
+        "[\"商业化\"]"
+      ],
+      [
+        "which is better for 3 cost echo? 2 fusion or 1 fusion and 1 atk%?",
+        "neutral",
+        "0.99",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "what is your suisui sequences?",
+        "neutral",
+        "0.99",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i'm f2p, got aemeath and lynae , should i buy aemeath r1 or save for mornye ?",
+        "neutral",
+        "0.99",
+        "[\"商业化\"]"
+      ],
+      [
+        "timegating 100 astrites event is crazy",
+        "negative",
+        "0.97",
+        "[\"版本内容\"]"
+      ],
+      [
+        "\" i'm greedy and stupid\"",
+        "negative",
+        "0.82",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i was so mad when i saw they time gated virtual crisis this is restarted",
+        "negative",
+        "0.92",
+        "[\"版本内容\"]"
+      ],
+      [
+        "considering how long the story was. maybe kuro was telling us to try and pace ourselves. unemployed i understand if you play right through. im still 1 hour in the 3.5 story since most times of my day and night is spent at work.",
+        "neutral",
+        "0.83",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "i was looking for the story and event",
+        "neutral",
+        "0.87",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "its so dry that there is no way to farm astrites",
+        "negative",
+        "0.98",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "to be honest, i feel like it's even worse not having events when the exploration is streamlined this much. for most stuff, since the release of the motorcycle, you follow the main road and find it all. chests are in clusters, the collectibles are scattered across high places mostly and the rest of the map is quite literally empty. and it feels annoying to move around without the bike as well. the entire map is built around bike traversal, leaving lots of the map just empty and hollow. there is literally no point in exploration anymore if all you do is run to an icon on the map, find most of the relevant stuff around it and leave. the birds are the only exception for me and for those i have to use the motorcycle if i don't want to go crashout. tbh i hated lahai-roi for this aspect and i so hoped mengzhou would go back to the roots. it seems i was wrong",
+        "negative",
+        "0.99",
+        "[\"版本内容\"]"
+      ],
+      [
+        "true there's nothing to do 😂",
+        "negative",
+        "0.91",
+        "[\"版本内容\"]"
+      ],
+      [
+        "patch so dry that sain opened zzz 😂",
+        "negative",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "imo... it looks like kuro is trying to retain their player numbers by time gating everything. forcing people to log on everyday for event unlocks to replace the lack of story engagement they will be getting.",
+        "negative",
+        "0.97",
+        "[\"运营服务\"]"
+      ],
+      [
+        "i pulled my soysoy, equipped the echo set i already had built, leveled her stuff, played her in toa, nodded in approval, did my daily tacet fields, saw time-gated events and decided to wait for all of them to unlock, then logged off. this patch is going to drag on so hard.",
+        "negative",
+        "0.97",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "as a returning player, theres a lot of things to do .-.",
+        "neutral",
+        "0.76",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "schmidley came with no event and story",
+        "negative",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "i was shocked to see no story quest",
+        "negative",
+        "0.92",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "it is just one patch they are taking slow, and half the players lost their minds. that is what happens when you serve gold one time instead of the monthly platinum",
+        "positive",
+        "0.75",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "that suisui 'afterstory' idea is actually so good 😭 saint, i think kuro needs to employ you...",
+        "positive",
+        "0.92",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "not starting the event until everything is unlocked.",
+        "neutral",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "i am unemployed because my job gatekept me",
+        "neutral",
+        "0.67",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i miss companion quests",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "bruh when he finally opened the event section of this game 😂",
+        "neutral",
+        "0.72",
+        "[\"版本内容\"]"
+      ],
+      [
+        "alrighty ladies and gentlemen",
+        "neutral",
+        "0.99",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "electro rover being essentially useless killed the hype for me. and this region didn’t have that new area flare like septimont or lahai-roi gave me. i also didn’t particularly care about yangyang new form i thought she was kinda boring.",
+        "negative",
+        "0.99",
+        "[\"商业化\"]"
+      ],
+      [
+        "1:48 cinema gameplay. absolute peak fiction",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "soy sauce doesn't need her own story because she was involved in yapyap story and soon to be involved in hsin story. i hate not having story content though, makes the patch super dry.",
+        "negative",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "2.7 all over again msq ended in first half, vampire survival, second half empty. atleast theres a combat event",
+        "negative",
+        "0.96",
+        "[\"版本内容\"]"
+      ],
+      [
+        "3.5 second half shorten like how saint pulling suisui. lore accurate",
+        "negative",
+        "0.68",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "as a gamer who plays for the story, i find it really unsatisfying that there’s no story content in the second half. on top of that, i’m having trouble completing certain side quests (on ps5), so i can’t even collect the rewards or have something—anything—to do. plus, the way the motorcycle flies around gets on my nerves so much that i don’t even enjoy exploring what is otherwise a truly beautiful area. so, for me, it’s been a three-week dry spell.",
+        "negative",
+        "0.99",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "i’m still finishing up lahai-roi after a break so i’m glad i have content to catch up with seeing that 3.5 is pretty dry.",
+        "negative",
+        "0.84",
+        "[\"商业化\"]"
+      ],
+      [
+        "this whole timegating shenanigans is getting old. we already have enough systems that force us to log in every day, don't need more.",
+        "negative",
+        "0.99",
+        "[\"商业化\"]"
+      ],
+      [
+        "5:32 chisa reference, this has potential",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i agree. that way the storytelling would be perfect.",
+        "positive",
+        "0.88",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "bro, i broke f2p with lunite sub because of how dry everything is. i cleared all of xuanfang including the previous events, we gonna need more than that",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i had lynae(got her and her weapon in 40pulls) so i pulled for aemeath, lost 50/50 in 10 pulls and no hot aemeath finally.",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "imagine finishing all event in one day and not login again tomorrow... that why they put the coldown to unlock",
+        "neutral",
+        "0.81",
+        "[\"商业化\"]"
+      ],
+      [
+        "wheres the mainquest for suisui",
+        "negative",
+        "0.78",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i was like wheres the new quest type shit.",
+        "neutral",
+        "0.6832120539669276",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i feel like it would have been better if we were to experience rover's perspective first, be curious how rover got his electro powers and as a second main quest suisui would explain it as a storytel how she had convinced hsin to give him power or whatever that was, dont remember rn. this way players would have been hooked up till the second half of a patch with some sort of unexplained mystery and the whole 3.5 wouldnt feel awkward - but thats my perspective, feel free to have yours.",
+        "negative",
+        "0.86",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "when saint playin virtual crisis?",
+        "neutral",
+        "0.6970840115489269",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i'm just doing dailies and playing poe 2 and palworld. will do the full events when fully unlocked. no. dif on this complaint. even if vc was fully unlocked we would finish it in a day or two and just say there's nothing to do🤣",
+        "neutral",
+        "0.76",
+        "[\"商业化\"]"
+      ],
+      [
+        "it's all 2.7 again 😢",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "doing tedious tadks like this one so we can unlock 2-3 pulls is something i will never do in any gacha. apart from the trial combat thing, just skept everything",
+        "negative",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "summer vacation",
+        "neutral",
+        "0.99",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "6:13 i was thinking make the yap yap talking with the village npc an after story so the story is not a compulsory for players to experience",
+        "neutral",
+        "0.85",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "i guess the event is if we will win the 50-50 from lingyang😂",
+        "neutral",
+        "0.72",
+        "[\"商业化\"]"
+      ],
+      [
+        "\"3.5 phase 2 is a disaster\"",
+        "negative",
+        "0.99",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "just like every other gacha game there’s nothing to do when the 2nd part of the banner releases lol",
+        "negative",
+        "0.93",
+        "[\"版本内容\"]"
+      ],
+      [
+        "i lost my suisui 5050 and i might not be able to get her 😔",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "filler patch",
+        "neutral",
+        "0.5025996812657962",
+        "[\"商业化\"]"
+      ],
+      [
+        "6:09 banger take edit: having suisui's involvement in the first half actually made it easier to skip yangyang for me.",
+        "positive",
+        "0.76",
+        "[\"商业化\"]"
+      ],
+      [
+        "the thumbnail xddd",
+        "neutral",
+        "0.72",
+        "[\"社区生态\"]"
+      ],
+      [
+        "i lost my 50/50 😭😭😭😭😭",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i failed to get her signature 😢",
+        "negative",
+        "0.97",
+        "[\"商业化\"]"
+      ],
+      [
+        "the reason this is also happening because good chunk was larping about the 2.8 story quest being bad and being a companion quest but admittedly it fleshed out chisa a whole lot that people actually cared about her involvement in lahai roi even if it wasn't realized in the end suisui wasn't a focus of the story at all and she's just bound to be pretty irrelevant unless yapyap specifically involves her.",
+        "negative",
+        "0.76",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "ah yes let’s time gate the story too...",
+        "negative",
+        "0.92",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "if suisui part was saved to the second half saint would just call rover's awakening dues ex machina just like qingxiao",
+        "neutral",
+        "0.4850689890495345",
+        "[\"商业化\"]"
+      ],
+      [
+        "i was suprised not having second haf story . day ruined .",
+        "negative",
+        "0.98",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "unemployed players is the only one complaining , me on the other hand only explored like 40% of the map, halfway through the story and still finishing some side quests. and finishing limited events. this is in favor for me really 😂",
+        "positive",
+        "0.85",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "releasing maybe 16 hours of gameplay every version and then also timegating it is insane on top of the weekly mode and the events not even being that good to begin with unironically the only thing i look forward to these days is the story and endstate matrix",
+        "negative",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "why are we even timegating flappy bird that doesnt even give one full pull in total? at that point keep those astrites to youreelf",
+        "negative",
+        "0.99",
+        "[\"商业化\"]"
+      ],
+      [
+        "i don't like how they always time gate the 2nd half events.",
+        "neutral",
+        "0.5093684172303996",
+        "[\"版本内容\"]"
+      ],
+      [
+        "2026 with ai in development and devs that could work for food because they have no jobs and we still have dry patches 😭 it's art/texture artist that stall 100% lazy bastarts, i hope in 1-2 years ai will be on their level and we could have 5 events instead of 1.5",
+        "negative",
+        "0.99",
+        "[\"商业化\"]"
+      ],
+      [
+        "hi",
+        "neutral",
+        "0.7971124558145225",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "but this event is honestly tuff bro st extreme 40 i was getting ma ass hella beat",
+        "negative",
+        "0.89",
+        "[\"版本内容\"]"
+      ],
+      [
+        "\"sorry player, we don't want to give new content right now, wait 2, 3 or 6 days, and if you don't want to wait for as many as 3 free pulls, then give us the money, we're a poor studio.\" it's just idiocy and it's in many cases, just the greed of the developer to pump more money out of you and not otherwise. otherwise, it would be possible to release the main event, the story, and only then the additional events in a week, rather than this idiocy with days, hours, and seconds. just give more freedom to players, whales give you a house and another yaht, bro.",
+        "negative",
+        "0.99",
+        "[\"商业化\"]"
+      ],
+      [
+        "chinese region stories are prob the most annoying chapters in gacha games. i always feel that they try to stuff so much lore (maybe because they get excited with chinese similarities) that they just over due it. maybe they got even more info dump in the second half that they just split it. it’s prob gonna be even longer.",
+        "negative",
+        "0.96",
+        "[\"商业化\"]"
+      ],
+      [
+        "@saintontas a lot of people didn't like companion quest and have it removed.",
+        "neutral",
+        "0.85",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "the virtual crisis event is at 40 already kinda hard, not gonna lie.",
+        "negative",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "no fox no need for events. where fox. why start of the video have half of screen focused on male crouch.",
+        "negative",
+        "0.91",
+        "[\"版本内容\"]"
+      ],
+      [
+        "i honestly hate this system a lot, there's already nothing to do and now we're getting time gated from the only thing there is to play",
+        "negative",
+        "0.99",
+        "[\"版本内容\"]"
+      ],
+      [
+        "unemployeds are the only one who have done evrything , i still have exploration + all evets to do except photo one",
+        "neutral",
+        "0.72",
+        "[\"版本内容\"]"
+      ],
+      [
+        "we missed the best part of 2.7 and got a similar thing to the worst part of 2.7",
+        "negative",
+        "0.93",
+        "[\"商业化\"]"
+      ],
+      [
+        "employed i swear",
+        "neutral",
+        "0.72",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "heck no, if they put suisui's part in the second part it would've been garbage. you're saying put a purposeful powerup in the story without prior build up. that's a real dues ex machina. accidental powerups are fine with getting later information on how they're able to do so like for example main character subconciously able to do something then a teacher comes later on to teach them what it is and how to properly do it. that's a full on weapon handed off in the time of need if there's no build up. the best answer was they should've did suisui banner first and delayed the erover+yangyang 5* till part 2. it would've also properly fleshed out yangyang's section which would've fixed it's concentrated info dump issue.",
+        "negative",
+        "0.96",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "i was so excited for a suisui character story but got disappointed big time. kuro did my darling dirty",
+        "negative",
+        "0.98",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "bro honestly i think you are a really good content creator, ur fun af with the chat and all the stuff, and u are kind uinque in the way ur bring the content throu this game, keep it up",
+        "positive",
+        "0.98",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "true this patch is a little dry. though i think kuro will learn from this if we give feedback on the forms.",
+        "negative",
+        "0.8",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "zzz nte and wuwa are all on the same schedule recently, so i think wuwa is just trying to break out of that cycle",
+        "neutral",
+        "0.72",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "they could've at least gave suisui a companion story quest",
+        "negative",
+        "0.92",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "i'm early unc",
+        "neutral",
+        "0.86",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "5:47 fym aura looking cutscene. ngl probably one of the worst transformation sequences i've seen and the only saving grace was that hsin was there talking to rover. the final battle was way more cinematic and should've been what the transformation looked like",
+        "negative",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "yep this time gated stuff is so so stupid. why does everything have to be locked, why can't we just play whenever we want? all these minigames are so not fun , what a waste of time ... lament was boring af too... still no co op mission etc",
+        "negative",
+        "0.99",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "wuwa patch so bad i downloaded zzz anniv patch just to try and for the rewards",
+        "negative",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "web event ruined wuwa",
+        "negative",
+        "0.95",
+        "[\"版本内容\"]"
+      ],
+      [
+        "spawn camping",
+        "neutral",
+        "0.93",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "screw the events make more story",
+        "negative",
+        "0.93",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "nah, a story that focused on the character feature banner is a bs move ever",
+        "negative",
+        "0.97",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "i think it’s because people just don’t like character story quests",
+        "neutral",
+        "0.84",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "they need to copy hsr with their endgame events because they have a ton.",
+        "negative",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "kuro isn't doing it with 3.5 main quest. the facts and numbers said it all. and to think that not long ago, we had the peak like 3.1 and 3.3, the fumbling is so bad this time.",
+        "negative",
+        "0.97",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "i love when kuro is copying genshin, its so cool",
+        "negative",
+        "0.79",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "so people are finally opening there eyse and realising that if is not for the story the content in the game is dry as f*ck and has been that way for long ahh time",
+        "negative",
+        "0.99",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "maybe you should complete your exploration and all the events before saying there is nothing to do 😏",
+        "positive",
+        "0.73",
+        "[\"版本内容\"]"
+      ],
+      [
+        "3.5 sure does have a problem. lack of free astrites.",
+        "negative",
+        "0.97",
+        "[\"商业化\"]"
+      ],
+      [
+        "this patch has been lame as hell tbh, the story was a slow crawl, the events (especially godforsaken knock-off vampire survivors) are mostly boring reruns of events i didn't like in the first place, the one event that's good is time gated, map exploration is basically completely automated at this point so there's no reason to even navigate the new map, so on and so forth. this is the first time in over 400 hours of gameplay that i've been majorly losing motivation to bother playing the game when everything is boring as hell yet takes forever to complete.",
+        "negative",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "saint: complains about pacing. also saint: lets take this pivotal plot point that also serves as character portrait for suisui and just push it all to the second half so we just win the yanyang story because we are cool. like the way suisui tricks the trickster sentinel so that we end up with electro is what makes this story great because it finally makes this mc has all elements feel way more natural rather than they just get it because they are the mc. that has always been very annoying and unsatisfying in genshin because they just dont give a fuck to explain it. and while wuwa tryed to give story reasons these story reasons have kind of just been the same. we just get it because we are the mc. even if there was an in universe explanation the reason was kinda because we are the mc. but this time they actually gave us a good reason. like suisui literally scammed a god so she could give us powers to help save her sister. this in tandem with yangyang evolving her forte and also gaining a different element is the point of this story. it grounds rover by showing that its not just them that can get multiple elements. at the same time it also grounds the deities in the game by showing that they are flawed as well as alot less powerful than they seemed before in comparison to humans. it also reverts the expectation of fate through yangyangs connection with the goddess of fate who literally admits that she has absolutely no control. she can weave a fate but that fate can always be changed. this story opposes a bunch of tropes and expectations to give the characters more power and agency while at the same time humbling rover. we win at the end not because we are the mc. we win at the end because suisui commited to scamming a literal god to help her sister. without having that knowledge the story wouldn't work the way they intended. they would have had to hold back the entire climax to have it in the second half. which wouldn't be possible because then we wouldn't get the new boss aso.",
+        "positive",
+        "0.92",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "yes, this patch is a downgrade compared to the previous few peak ones.",
+        "negative",
+        "0.96",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "this is genuinely one of the most boring patches the game has had",
+        "negative",
+        "0.99",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "the whole video in short answer is the video facts is nothing ✔️",
+        "negative",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "you guys really unemployed 😂 try to finish everything the moment it released goddamn...",
+        "negative",
+        "0.92",
+        "[\"技术体验\"]"
+      ],
+      [
+        "this mf skip the story and then make a video asking for more story 😂",
+        "negative",
+        "0.9",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "i'm suprised unc can play flappy bird 😅",
+        "neutral",
+        "0.78",
+        "[\"社区生态\"]"
+      ],
+      [
+        "2.6 needs to drop already man...",
+        "neutral",
+        "0.72",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "unrelated but, i hope mornye comes next patch, because i was finally able to get lynae and aemeath today 🥲, but as far as this patch, i still haven’t even started the new yang yang quest because i’m catching up on the rest of the game",
+        "positive",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "tragic: the unemployed have run out of things to do 😂😂😂",
+        "neutral",
+        "0.7",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "추가 1) 영상 오류 부분 내용 파티 조합에서 히유키와 에이메스 조합 중간에 치사가 들어가있는데 치사가 아니라 루실라와 데니아야 내가 미아내ᅲᅲᅲ 추가 2) 오픈 사이클을 깜빡해서 추가 오픈 사이클: 평*4 > e+평 > 평*4 > e > r > 반주 추가 3) 파수인 전무 공격력 버프 수수는 적용 안 됨을 확인",
+        "neutral",
+        "0.93",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "매번 잘보고있읍니다 감사합니다 :)",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "수수커뮤에서 무지성 1돌바이럴 많던데 써보니까 걍 에이메스랑 쓸거아니면 명함으로 차고넘치는듯 합니다 ᄏᄏ 전 오히려 공효세팅때문에 전무를 뽑았음... 판변 세팅 개빡세ᅲᅲ",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "니브님덕분에 오늘 양치수로 허무 고난도 쉽게 클리어 했습니다.감사합니다.근데 요즘 쿠로 전무 왤케 스택 막지막에 주고 이럼...아무리 픽뚫없어도 그렇지ᄏᄏᄏᄏ",
+        "neutral",
+        "0.72",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "히루 파티에만 쓸거니 명전만 해야긋다~",
+        "neutral",
+        "0.72",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "드디어나왔다! 평행세계 쇼군! 명조 세계관에서는 친남매",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "히유키 치사 수수 로 쓰면될까요?",
+        "neutral",
+        "0.9337389624797697",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "이상팟 아닐때 받는 버프량이 어느정도일까요. 반주 피증 25퍼가 끝인가요",
+        "neutral",
+        "0.99",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "양치파 양치수 비교하면 양양이 얼마나 세지나요?",
+        "neutral",
+        "0.98",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "히유키 수수만 있는데 쓸만한게 잇나여?",
+        "neutral",
+        "0.98",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "당장 수수 뽑고 싶지만 우리 딸 3돌해야 되서 한동안 보류다 ᅲᅲ",
+        "neutral",
+        "0.72",
+        "[\"商业化\"]"
+      ],
+      [
+        "아 치사가 없어서 쓸데가없네...",
+        "negative",
+        "0.94",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "명조 뉴빈데 그러면 에이메스랑 수수 명전은 같이 쓰기 별로라는 말이죠? ᄂ 혹시 추후에 여별이나 청초같은애들이랑 쓸 수도 있을까요?",
+        "neutral",
+        "0.8988470969250194",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "수수 2돌에 암흑효과 크피증 없어서 양양이랑 붙이면 2돌 없는거랑 마찬가지 아님?",
+        "negative",
+        "0.77",
+        "[\"商业化\"]"
+      ],
+      [
+        "부옵 공효 40%이상 붙인다면 31111 추천하셨는데, 그거보다 4코 메인옵 hp하면 34111 하는게 최종적으로 가져가는 hp%가 많은데 왜 31111 이라고 하시는거죠?",
+        "neutral",
+        "0.85",
+        "[\"养成资源\"]"
+      ],
+      [
+        "히유키 루실라 수수로 조합해도 괜찮으려나요?",
+        "neutral",
+        "0.99",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "전무 차이 6퍼도 작은 차이는 아니긴 하지만 명조는 메인딜러 아니면 올쌀먹해도 엔드컨텐츠 깨는게 아무 지장없으니 참고해라 매트릭스에서 점수 조금이라도 올리고 싶다, 룩딸 못참는다 가 아니라면",
+        "neutral",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "그...수수 반주 쓰고나서 버프주는 시간이 널널하시다고 하는데...살짝 빡빡 할수도 있다고 봐요. 6초x4=24초로 2번자리 섭딜러에서 6초 이상 머무르고 메인딜로 넘어가야 발동되는 버프가 있어서 메인딜러가 18초 이내에 회피와 지랄맞은 공중이동 생각하면서 최종 공격 까지 사용한다 치면 아슬아슬 할지도...",
+        "neutral",
+        "0.7894739721450184",
+        "[\"商业化\"]"
+      ],
+      [
+        "수수가 옥수수인가요 수수깡인가요",
+        "neutral",
+        "0.7698399531060508",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "궁금한게 있는데요, 공효 260% 기준이 온필드일 때(현재 파티) 인가요 아니면 파티에 없을 때 인가요? 지금 온필드에선 276%, 파티에 없을땐 240%대 나오는데 부옵으로 공효를 더 땡겨야하는지 궁금합니다",
+        "neutral",
+        "0.8534044696541061",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "안녕하세요 명조 뉴비라 그런데 평소 캐릭터들 스탯을 맞출때 파티편성에서 제외한 기준으로 맞추면 되는걸까요?",
+        "neutral",
+        "0.7448461716348558",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "개인적인 질문인데요 11133이 11343 보다 hp 수급이 높다고 하셨는데 제가 계산했을 땐 뭔가 이상해서요... 혹시 제가 어느부분을 놓치고 있는지 알려주실 수 있나요? 1c = 22.8% 3c = 30% 4c = 33% 경우의 수 1. 1c 3개 / 3c all 공효 2. 1c 2개 / 3c all 공효 / 4c hp 3. 1c 4개 / 3c 공효 4. 1c 3개 / 3c 공효, hp 5. 1c 2개 / 3c 공효, hp / 4c hp 계산 1. 22.8 * 3 = 68.4 2. 22.8 * 2 + 33 = 78.6 3. 22.8 * 4 = 91.2 4. 22.8 * 3 + 30 = 98.4 5. 22.8 * 2 + 30 + 33 = 108.6",
+        "neutral",
+        "0.99",
+        "[\"养成资源\"]"
+      ],
+      [
+        "억지로 1돌 강제하는거 없어서 잘나온듯",
+        "positive",
+        "0.96",
+        "[\"商业化\"]"
+      ],
+      [
+        "개억지 6초룰로 퀵스왑 탄압하는거 짜치면 개추 ᄏᄏᄏ",
+        "negative",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "히치수 에치수 뭔데",
+        "neutral",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "link website : link page : line official : @wisdomtopup",
+        "neutral",
+        "0.97",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "เอิ่มมเลิกตะโกนตอนช่วงขายของเถอะคับมันดังไปคับใช้เสียงระดับธรรมดาก็ได้คับ",
+        "negative",
+        "0.94",
+        "[\"音频表现\"]"
+      ],
+      [
+        "จัดอันดับตัวสกิลอลังการหน่อยคับบ❤",
+        "neutral",
+        "0.72",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "เปิด zani s6 ปจต. มารู้สึกเล่นไม่คุ้มเลย😅 แต่ไม่เป็นไรสวยให้อภัย",
+        "positive",
+        "0.82",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "ลงหอจบสามดาวไม่ได้เเล้ว ;w;",
+        "negative",
+        "0.96",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "10วันมีโอกาสที่จะเล่นถึงsol5ไหมครับ",
+        "neutral",
+        "0.99",
+        "[\"版本内容\"]"
+      ],
+      [
+        "augusta c0 + ประจําตัว ยังไหวไหมครับ ผมเป็นผู้เล่นใหม่",
+        "neutral",
+        "0.98",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "ผมเลิกไปตอนจบ 2.0 กลับมาเล่น id เดิมจะร้อง เพชรก็มีนิดหน่อย จะเอาซุยซุยก็ไม่มีทีม เอาเอเมทก็ไม่มีซัพ ปวดหัวเลย",
+        "negative",
+        "0.94",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "เกมนี้ ตําแหน่งซับน้อยเกินไป แถมล็อคทีมอีก ตัวที่ all around สุดก็ sk มอเน่ต้อง s1",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "อาการหนักจัดๆลูซี่พึ่งมาไม่นานแท้ๆ",
+        "negative",
+        "0.84",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "get 20% off on wuwa lunites! safe & convenient! 👉register for enjoygm using my link",
+        "neutral",
+        "0.72",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "qingxiao pullers attendance!👇",
+        "positive",
+        "0.84",
+        "[\"商业化\"]"
+      ],
+      [
+        "got s5 calcharo hope this is enough",
+        "neutral",
+        "0.72",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "genuinely have the mbappe special on my astrite count right now, but i'm a greedy goblin and want everything",
+        "neutral",
+        "0.72",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "good luck to everyone on your pulls!",
+        "positive",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "jingran is coming home😋😋",
+        "positive",
+        "0.88",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "if i lose 50/50 on suisui, qx will be next on the list",
+        "neutral",
+        "0.97",
+        "[\"商业化\"]"
+      ],
+      [
+        "i'm sorry everyone in xuanfang, there is only hsin for me. no pulls until then.",
+        "neutral",
+        "0.82",
+        "[\"商业化\"]"
+      ],
+      [
+        "qingxio is so cool, really like her design",
+        "positive",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "hell yeah, got suisui ❤️❤️",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "good luck everyone. i lost my 50/50 at 75th pull 😢",
+        "negative",
+        "0.76",
+        "[\"商业化\"]"
+      ],
+      [
+        "here goes the luck x) thank you for the giveaway",
+        "positive",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "i lost on every support character ever and i lost on suisui too. 144 pulls gone just like that",
+        "negative",
+        "0.96",
+        "[\"商业化\"]"
+      ],
+      [
+        "thanks for the update. qingxiao's gameplay is good but im waiting for hsin. became broke after suisui t_t",
+        "positive",
+        "0.76",
+        "[\"商业化\"]"
+      ],
+      [
+        "can't wait for qingxiao",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "words cannot describe how exited i am for qinxiao",
+        "positive",
+        "0.99",
+        "[\"商业化\"]"
+      ],
+      [
+        "love your astrite count videos! would appreciate it if you could release them a few days before the banner changes, so i know if i can afford the current characters weapon😌",
+        "positive",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "omg we can't touch the pity at all , hell yeaaaaahhhh😂 30 pulls amazing 👏",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "got my suisui + aeameath laser sword. saving my left over pulls to qingxiao now. around 40pulls thanks for pull count.",
+        "positive",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "hearing this make sooth my aching heart after loosing back to back zezhi (reverb pull) and suisui (standard pull).",
+        "positive",
+        "0.76",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "praying to get lucky on pulls🙏",
+        "positive",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "good luck everyone",
+        "positive",
+        "0.91",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "yo dude wassgud",
+        "neutral",
+        "0.9027101862022148",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "good luck to all !",
+        "positive",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "i so glad i got aemeath and her weapon with only 50 pulls qingxiao is next 🔥",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i genuinely need the lunite sub ngl",
+        "neutral",
+        "0.82",
+        "[\"商业化\"]"
+      ],
+      [
+        "is the main story continuing on and jingran qingxiao release?",
+        "neutral",
+        "0.99",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "i really hope i can get mornye if she reruns next patch",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i am aiming for qingxiao. but gotta grind for asterites.",
+        "neutral",
+        "0.85",
+        "[\"商业化\"]"
+      ],
+      [
+        "finally got aemeath sig after 75 pulls",
+        "positive",
+        "0.96",
+        "[\"商业化\"]"
+      ],
+      [
+        "i'm feelin lucky ;)",
+        "positive",
+        "0.94",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i’m planning to wait for hsin... but maybe sword lady or lantern man will be too epic to skip!",
+        "positive",
+        "0.76",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "lost 50/50 now im saveing for jingran and then i will pull suisui on her rerun😊",
+        "neutral",
+        "0.76",
+        "[\"商业化\"]"
+      ],
+      [
+        "got lucky pulling on yangyang, calcharo came along with her but was last to drop so i'm still guaranteed. oh rng gods bless me with schmidley🙏",
+        "positive",
+        "0.91",
+        "[\"商业化\"]"
+      ],
+      [
+        "ngl, i already finished my 10pulls on aemeath, but next stop is hsin 🖤🙌🏾",
+        "neutral",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "is it me or did you count fantasies of thousand gateways different from the weekly resets one? cuz both are the same.",
+        "neutral",
+        "0.9196827316438843",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "lost my 50/50 for ammeath so l'm left with only 26 pulls right now. i'm crine l hope l can still get jingran😭😭",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "when is ciaconna getting a rerun?",
+        "neutral",
+        "0.99",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "holy cow",
+        "positive",
+        "0.76",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "officially got sui sui 🙂‍↕️ next up jingran then hsin 🤞🏽",
+        "positive",
+        "0.96",
+        "[\"商业化\"]"
+      ],
+      [
+        "praying🙏🙏🙏🙏",
+        "positive",
+        "0.74",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i need every astrites after the massacre of the collab.",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "so i lost my 50/50 on suisui, should i still go for her, since i have yangyang and hyuki, or should i save them for mornye/denia for my aemeath in 3.6? and i also feel like suisui would have a rerun soon so?",
+        "neutral",
+        "0.72",
+        "[\"商业化\"]"
+      ],
+      [
+        "i got queenyang and her signature on the last day 😅😅😅 losing 50\\50 hits hard after 60 and hardest after 70 pulls if kuro doesn't remove 50/50 then they should remove it after doing 50 or 60 pulls that would be better.",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "got suisui in 70 pulls and her sig in 30 pulls with 110 pulls in the bank now. now time to grind for hiyuki + sig and my team is complete!",
+        "positive",
+        "0.98",
+        "[\"商业化\"]"
+      ],
+      [
+        "qingxiao coming home 100%",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i have 85 pulls atm after winning the 50/50 on suisui and im skipping 3.6 so im basiclly guaranteed hsin in 3.7:)",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i did 60 pulls on trying to get a copy of yangyang without hitting a 5 star. so hoping the 20 saved for both weapon and suisui pulls plus another 2,000 astrites i haven't converted",
+        "neutral",
+        "0.83",
+        "[\"商业化\"]"
+      ],
+      [
+        "play 2 accounts new teams on the 2nd account and older teams on the first account choose those teams according to sub dps cuz support and healer needed on both accounts and prioritise events and latest quests over the permanent challenges and quest in the new account and collecting daily's you'll end up having almost every character with their signatures in both accounts combinedly. only play exploration and permanent challenges when needed in the new account. thank me later your choice to do so.",
+        "neutral",
+        "0.72",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "i finally got aemeath!",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "im so conflicted on what to pull everyone looks so strong and cool and i have like 0 luck :(",
+        "negative",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "nice",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i have 32k astrites. saving for hsin, maybe if mornye reruns id pull her. just got lucky on a suisui pull on 32",
+        "positive",
+        "0.83",
+        "[\"商业化\"]"
+      ],
+      [
+        "even though i got suisui hella early im still a little broke rn when it comes to astrite",
+        "negative",
+        "0.83",
+        "[\"商业化\"]"
+      ],
+      [
+        "i just lost to lingang off all the standard why? 71pity btw 😢",
+        "neutral",
+        "0.6671582773057144",
+        "[\"商业化\"]"
+      ],
+      [
+        "at 60 pity got xuanling and its weapon when the banner is nearly at 4 hours just made it somehow 🥴",
+        "positive",
+        "0.89",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "saving for denia rerun. i need my luuk premium.",
+        "neutral",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "jingran is literally the missing piece for my matrix team, but i kinda want hsin too so its so hard to decide;<",
+        "neutral",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "failed the 50/50 on the rerun banner stopping so i can guarantee the next",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "lost the 50/50 and i am broke due to last update",
+        "negative",
+        "0.98",
+        "[\"商业化\"]"
+      ],
+      [
+        "i need qingxiao, her sig and mornye next patch",
+        "neutral",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "20k astrites for jingran saved, hopefully i can save for hsin",
+        "neutral",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "qingxiao pullers",
+        "positive",
+        "0.6320264847818684",
+        "[\"商业化\"]"
+      ],
+      [
+        "260 pulls. getting suisui for my yangyang",
+        "neutral",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "lost my 50/50 of suisui😢",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i don't have a single summon left, thanks to encore 😅",
+        "negative",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "im just saving up astrites",
+        "neutral",
+        "0.97",
+        "[\"商业化\"]"
+      ],
+      [
+        "as free 2 play got few astrites for suisui.",
+        "neutral",
+        "0.68",
+        "[\"商业化\"]"
+      ],
+      [
+        "great video lost my 50/50 as f2p it's really painfull",
+        "negative",
+        "0.76",
+        "[\"商业化\"]"
+      ],
+      [
+        "wow",
+        "positive",
+        "0.76",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "54 astrite left what will i get with it 🙄 all in on aemeath",
+        "negative",
+        "0.84",
+        "[\"商业化\"]"
+      ],
+      [
+        "lunite lunite lunite",
+        "neutral",
+        "0.7032283569157738",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "only have 60 pulls saved up for qingxiao 😭",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "should be enough to get changlis signature",
+        "neutral",
+        "0.82",
+        "[\"商业化\"]"
+      ],
+      [
+        "i hope my savings will be enough until 3.7. if you kept losing 50/50, you just (ex. assuming you have 13000 saved up), you just disregard like the 8k or 11k of those.",
+        "neutral",
+        "0.76",
+        "[\"商业化\"]"
+      ],
+      [
+        "im just lost 50/50 😭🥀🥀",
+        "negative",
+        "0.98",
+        "[\"商业化\"]"
+      ],
+      [
+        "i have 100 pulls in savings i want to pull qingxiao and mornye to complete aemeath team . and next patch is hsin 😵‍💫😵‍💫",
+        "neutral",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "gotta farm and dailies but i have no lunite 😭😭😭",
+        "negative",
+        "0.91",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "i accidentally got suisui in 10x pull 13 pity. yes accidentally. now my jingran is in danger😭",
+        "neutral",
+        "0.72",
+        "[\"商业化\"]"
+      ],
+      [
+        "i am pulling for qingxiao and hiyuki",
+        "neutral",
+        "0.96",
+        "[\"商业化\"]"
+      ],
+      [
+        "next qingxiao",
+        "neutral",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "i lost in the first banner of aemeath at 68 pity and again in her rerun lost at 72 and then again i puller and got her at 73 pulls like i wasted my 23000 approx astrites just by grinding hard... i didn't spin for yangyang neither suisui ... and even my exploration everything is completed so no chances of getting any astrites now for me 🙂...",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "if i lose 50/50 on aemeath imma crash out",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i have 13k astrities saved up for jingran",
+        "neutral",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "i lost 50-50 on suisui and now i have only 35 asterials😢",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i will leave it to fate the giveaway",
+        "neutral",
+        "0.72",
+        "[\"商业化\"]"
+      ],
+      [
+        "i'm torn between hsin and qingqiao 😢 i can only choose 1 😢",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "i got s1 suisui and her weapon with just 73 pulls today and now i feel like i just used all my ancestors luck in this banner. i still have 50 pulls left and i want qingxiao and need to get ready to lose my next 4 50/50 losses🛐. hope kuro can bless my account again and give me qingxiao🛐",
+        "positive",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "total pulls for suisui + weapon: 135 which is pretty avg. but winning the 50-50 is the most important part.",
+        "neutral",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "did i got it wrong or u counted weekly and fottg separately? 2:41 and 6:25",
+        "neutral",
+        "0.8021985270597041",
+        "[\"商业化\"]"
+      ],
+      [
+        "rip i gotta go for aemeath my acc has no characters",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "pray",
+        "neutral",
+        "0.5808695511243807",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i got 5 5star resonators since xbox launch😂",
+        "positive",
+        "0.91",
+        "[\"版本内容\"]"
+      ],
+      [
+        "from now on i'm pulling for who i like, not meta. as a f2p player, pulling meta is difficult lol",
+        "neutral",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "went to hard pity on suisui and now i have 100 astrites 😅",
+        "negative",
+        "0.85",
+        "[\"商业化\"]"
+      ],
+      [
+        "had 18k, spent 5k for suisui, 65 pity lost 50/50😭💔, now waiting for qinxiao with 13k but i'll definitely get suisui some other day 🥹",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i need that bro... a9ayattt",
+        "positive",
+        "0.72",
+        "[\"商业化\"]"
+      ],
+      [
+        "maybe you count fantasy of thousand gateways twice😅",
+        "neutral",
+        "0.85",
+        "[\"社区生态\"]"
+      ],
+      [
+        "i'll skip everyone until iuno rerun or shorekeeper",
+        "neutral",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "i want qingxiao 😭",
+        "positive",
+        "0.76",
+        "[\"商业化\"]"
+      ],
+      [
+        "ok",
+        "neutral",
+        "0.99",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i think i have one pull for qingxiao...",
+        "negative",
+        "0.8",
+        "[\"商业化\"]"
+      ],
+      [
+        "who is also pulling jingran?",
+        "neutral",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "w hsin",
+        "neutral",
+        "0.7646131691655306",
+        "[\"商业化\"]"
+      ],
+      [
+        "wish to win 50-50 to get suisui",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i need jingraaan😭",
+        "positive",
+        "0.76",
+        "[\"商业化\"]"
+      ],
+      [
+        "40 something pulls when 50/50 exists is just not enough",
+        "negative",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "got 0 on my acc spent it on lynnae 🤧🤧🤧",
+        "negative",
+        "0.82",
+        "[\"商业化\"]"
+      ],
+      [
+        "i have 128 astride",
+        "neutral",
+        "0.8532014850785264",
+        "[\"商业化\"]"
+      ],
+      [
+        "i’m so poor it hurts",
+        "negative",
+        "0.89",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i lost four times in a row and all in late pity so four late pity loss and four late pity wins so... 300 pulls gone",
+        "negative",
+        "0.99",
+        "[\"商业化\"]"
+      ],
+      [
+        "i really want aemeath. i lost 50/50 on encore. it sounds silly, but i cried all day and all night because of it.😂 so now i'm clearing achievements for 5 astrites, because i don't even know where else to get pulls from...",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "skip 3.6 and go for hsin",
+        "neutral",
+        "0.95",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "hsin will get all my f2p astrites with my broke college ahh 🦊💔🥀",
+        "negative",
+        "0.76",
+        "[\"商业化\"]"
+      ],
+      [
+        "please speed i need this, my account is kinda astritesless",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "lost my 50/50 on suisui - time to save for hsin 😊",
+        "neutral",
+        "0.72",
+        "[\"商业化\"]"
+      ],
+      [
+        "welp,guess i’m skipping this and the next patch 🥴",
+        "negative",
+        "0.84",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "tldw second phase you won't get much astrites, no big events, something around 1000",
+        "negative",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "bro just tell me🥲🥲... qingxiao can be paired with denia and mornye(s1) i am all in for her...with her weapon! hope...i can get her in 10k astrites...(will be farming more if possible)",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "why don't they give the character their weapon directly? 🤔 why aren't there weapon alternatives?",
+        "neutral",
+        "0.8628403262596118",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "yo i have 25k astrites and i am at 40 pity and 10 pity in signature weapon and i want qingxiao and hsin and their signature weapon and i am f2p and i even completed all map exploration anyone can think i can pull thos and their signature weapon 😭❤",
+        "neutral",
+        "0.72",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "let me win pls god",
+        "positive",
+        "0.74",
+        "[\"商业化\"]"
+      ],
+      [
+        "qingxiao of f2p account. jingran of main account. i don't have any intrest in hsin and suoming both are skip.",
+        "neutral",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "lost 50/50 for suisui",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "just lost my 50/50 on sui sui. commenting to let my wallet breathe",
+        "negative",
+        "0.76",
+        "[\"商业化\"]"
+      ],
+      [
+        "i worked so hard for aemath s2 please god let me win and get her s3",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "qingxiao is what jinhsi should have been... its so jinzhouver",
+        "negative",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "lost 3rd time in a row. 😒",
+        "negative",
+        "0.97",
+        "[\"商业化\"]"
+      ],
+      [
+        "sooo...i went from having 12k+ today to not having almost any: granted, i got suisui and her weapon and got pretty lucky on the char pulls, but i'm still drained. i'm probably skipping qingxiao and start saving for hsin unless we get crazy amounts of astrites in 3.6. little correction though: you seemingly counted fantasies of a thousand gateways twice! you counted it in the weeklies and in the endgame modes, but you get rewards only once, so - 480 astrites",
+        "negative",
+        "0.76",
+        "[\"商业化\"]"
+      ],
+      [
+        "these banners bros 😭😭",
+        "negative",
+        "0.77",
+        "[\"商业化\"]"
+      ],
+      [
+        "pls bro lunite subscription i lost my 50/50",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "hsin",
+        "neutral",
+        "0.8758405886297126",
+        "[\"商业化\"]"
+      ],
+      [
+        "yeah but zzz",
+        "neutral",
+        "0.72",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "you can't count the pull we get from the toa with the total pull count cause it not from this patch also fotfg ? are you drunk or something they removed this event and its now in the weekly missions so unless its a new addition or something you probably yapping finally whiwa gives about 500 astrites no 800 so you basically added 1580 from nothing",
+        "negative",
+        "0.98",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "quingxiao looks cool but her gameplay is kinda disappointing for me",
+        "negative",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "i didn't get sui2 signature 😩😩😩",
+        "negative",
+        "0.98",
+        "[\"商业化\"]"
+      ],
+      [
+        "3 ads in 1 video. not thanks. see you never",
+        "negative",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "it would be great if wuwa was like zzz and the hsin banner lasted 40 days 🫠",
+        "neutral",
+        "0.72",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "i’m broke as shit and i want everyone i’m absolutely screwed 🥹",
+        "negative",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "hello",
+        "neutral",
+        "0.841021451849355",
+        "[\"商业化\"]"
+      ],
+      [
+        "for mod commission inquiry, you can read the terms here : ================= get up to 28% off for wuthering waves top up by using my special link : simple, fast, and works globally. how to top-up in lootbar :",
+        "neutral",
+        "0.72",
+        "[\"商业化\"]"
+      ],
+      [
+        "oh my god i've been searching problem for this issue for days, thank you so much",
+        "positive",
+        "0.99",
+        "[\"社区生态\"]"
+      ],
+      [
+        "it finally works! thank you so much! i thank you sooooo muchh!",
+        "positive",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "woju save again wuwa, thanks you, see you next patch :'( !",
+        "positive",
+        "0.84",
+        "[\"社区生态\"]"
+      ],
+      [
+        "thank you so muchhhhh",
+        "positive",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "thank you woju.",
+        "positive",
+        "0.96",
+        "[\"社区生态\"]"
+      ],
+      [
+        "i can't play ww without you! thanks, boss!",
+        "positive",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "thank you for your hard work!",
+        "positive",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "that's a reason why woju was the goat of wuwa modding community thanks for your hardwork as always",
+        "positive",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "love the new fixer batch! thank you woju!",
+        "positive",
+        "0.97",
+        "[\"社区生态\"]"
+      ],
+      [
+        "damm finally understand where to put the rabbitfx to, i thought it have to be every single resonator files",
+        "positive",
+        "0.84",
+        "[\"技术体验\"]"
+      ],
+      [
+        "this got everything working thank you. one thing is still buggy even without mods. iunos hair doesnt render the proper color after her ult.",
+        "neutral",
+        "0.67",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "love your work! but weapons mod still broken after fix",
+        "negative",
+        "0.76",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "hello! for some mods that have toggle features, it doesnt seem to work on them. do yk a way to fix this?",
+        "neutral",
+        "0.93",
+        "[\"技术体验\"]"
+      ],
+      [
+        "idk why but the hair and face on my ciaconna and phoebe mods is the wrong color",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "i have an issue where the textures are the correct color and seem normal. but, there is wavy \"pixelation\" on the textures themselves of both body parts and clothes. was there any mentioned solutions for this anywhere?",
+        "negative",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "hi woju! i was wondering if you got my commission request for rebecca on jetavie from pgr?",
+        "neutral",
+        "0.98",
+        "[\"商业化\"]"
+      ],
+      [
+        "i need that hiyuki mod gang, when are you dropping it?",
+        "positive",
+        "0.74",
+        "[\"商业化\"]"
+      ],
+      [
+        "my problem is that whenever i use hiyuki 2nd form the mod textures always break. no matter what mod it is. help?",
+        "negative",
+        "0.94",
+        "[\"技术体验\"]"
+      ],
+      [
+        "i also have another question, why does the blur happend even though i have rabbitfx on?",
+        "neutral",
+        "0.76",
+        "[\"技术体验\"]"
+      ],
+      [
+        "why does your mod fixer cap the game at 60 fps and limit the resolution to 1440p? before using it, i was running the game at 4k and around 140 fps. now, the maximum settings available are 1440p and max fps 60.",
+        "negative",
+        "0.97",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "hi, i turn on ultra lod and used rabbit fx 7.5 same as you but it’s not working in world except i zoom in, can you help ?",
+        "neutral",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "ini bisa fix pas switch char texturenya rusak kalo gk dizoom",
+        "neutral",
+        "0.86",
+        "[\"商业化\"]"
+      ],
+      [
+        "i still had the lod issue and ive done everything each update of the meshes i just cant fix it",
+        "negative",
+        "0.96",
+        "[\"商业化\"]"
+      ],
+      [
+        "i still don't know how rabbitfx run, does it base on mods ?",
+        "neutral",
+        "0.7966010777775483",
+        "[\"技术体验\"]"
+      ],
+      [
+        "link to that hiyuki mod?",
+        "neutral",
+        "0.9082665928997948",
+        "[\"商业化\"]"
+      ],
+      [
+        "hello, i download your mods and follow your step in this video to fix . i download your fixer and 3.5.04 files. after fix, all mods still broken. i dont know why.",
+        "negative",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "question: this fix works in normal yangyang or premium yanyang?",
+        "neutral",
+        "0.98",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "thx but new json file link is leading to a susui mod",
+        "negative",
+        "0.78",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "lynae and zani skin when ? 👉🏻👈🏻",
+        "neutral",
+        "0.97",
+        "[\"商业化\"]"
+      ],
+      [
+        "has this been updated? old mods still broken.",
+        "negative",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "can this work on mobile",
+        "neutral",
+        "0.99",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "bang, sisa aemeath yg ga kefix. char menu aman tpi di openworld belum kefix, chara yg lain uda fixed. kenapa ya kira2",
+        "negative",
+        "0.91",
+        "[\"商业化\"]"
+      ],
+      [
+        "how to fix weapons nowadays?",
+        "neutral",
+        "0.98",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "higher lod is frying my pc",
+        "negative",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "\"wojufixer_v3.5.0.1\" not working - always show error: \"could not find hashes.jason next to the app executable\"...",
+        "neutral",
+        "0.7967363156601097",
+        "[\"商业化\"]"
+      ],
+      [
+        "hehe my favs no longer lose their frequencies when i'm too far now and the no delay thing is peak! 🥹🥹🥹 thank you boss",
+        "positive",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "aemeath and cartethyia cannot benefit entirely forn her kit but can get the general buffs (suisui is not the best option for them, but i decided to include them in the showcase). also, this is a casual showcase to show the performance most player would be getting, so no quickswap has been used.",
+        "neutral",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "i like how she has exclusive intro voiceline if yangyang is outroing into her",
+        "positive",
+        "0.98",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "yangyang xl's ult look so beautiful with suisui's",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "sui sui is so smooth to play ngl",
+        "positive",
+        "0.94",
+        "[\"社区生态\"]"
+      ],
+      [
+        "flexing my suysuy",
+        "positive",
+        "0.82",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "won't it be better for yangyang to outro to chisa? she gives havoc dmg bonus if the next char inflicts havoc bane",
+        "neutral",
+        "0.97",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "i don't have chisa and i don't think i ever will because she already reran like 2 times this year",
+        "neutral",
+        "0.8077118732746885",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "let's not spread false advertising. she only has two teams, not four. she doesnt work for carte or aemeath. they just get the general buffs everyone else gets with chisa being the better option for both.",
+        "negative",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "shouldn't you be running chisa on moonlit clouds?",
+        "neutral",
+        "0.9268199857332403",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "is it worth to get her if i don't have lucilla in my hiyuki team?",
+        "neutral",
+        "0.8257806602487138",
+        "[\"商业化\"]"
+      ],
+      [
+        "f2p team with suisui video?",
+        "neutral",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "i heard she is only compatible with yang yang and hiyuki not with aemeath and carte. now i am confused lol",
+        "neutral",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "what about zani and dps phoebe?",
+        "neutral",
+        "0.8988468254576597",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "no 3 stocks why?",
+        "neutral",
+        "0.72",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "chisa might be the worst character kuro ever made , i think they are constantly tried to kill her, now suisui and i think yanyang will also get her dedicated and better sub dps later, poor chisa goodbye.",
+        "negative",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "wait, is it suisui out yet?",
+        "neutral",
+        "0.88",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "only 500 points difference with yangyang and aemeth? and to think suisui is just s0, how much more if s1. and to also think it's yangyang's prem support. nah, yangyang is a trash.",
+        "negative",
+        "0.98",
+        "[\"商业化\"]"
+      ],
+      [
+        "i just realized that after 5 minutes (after the time ran out) you can kill the boss really fast using hiyuki during 30 stress stars as long as you don't get hit after that.",
+        "neutral",
+        "0.96",
+        "[\"商业化\"]"
+      ],
+      [
+        "it was kinda fun grinding and long fights with enemy it was really stress level but it was so fun",
+        "positive",
+        "0.94",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "this guy was easy enough... but the next one, the twins, i lasted 5 minutes, but then, i just started dying and i just ran out of interest. i feel it was too hard for the reward, so i think this is the limit.",
+        "negative",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "這次也是都沒歪!🎉🎉🎉",
+        "positive",
+        "0.99",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "清霄在后面,把手忍住...",
+        "neutral",
+        "0.79",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "什麼沒劇情 這麽棒的俏皮人設塑造是沒看到嗎😅",
+        "positive",
+        "0.91",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "下半池全球第三有夠誇張",
+        "positive",
+        "0.78",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "聖女卡提 千咲 愛彌斯 達妮婭 必抽 我已經將其中三位抽到滿鏈了 威力強大 劈天開地",
+        "positive",
+        "0.99",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "要不是愛彌斯是復刻 估計還會出貨更多隻",
+        "neutral",
+        "0.79",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "強度頂級。建模頂級 除了3.5劇情爛之外沒什麼好挑的 不如說搞中國風有這樣成績已經不錯",
+        "positive",
+        "0.82",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "我泱泱反而是看他強才抽的 他姊雖然劇情鋪墊比較少無奈腳色性格太可愛了",
+        "positive",
+        "0.96",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "同意,國風最頂也就是這樣了",
+        "positive",
+        "0.74",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "啥意思 絕區零buff拉滿打不嬴鳴潮普通池?",
+        "positive",
+        "0.78",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "原來是這次復刻有人抽了😮 那難怪這麼高,話說這粉毛的抽取率也太高,說好的復刻沒人抽呢😅一個粉毛就帶飛下半,直接就把上半有大小月卡+皮膚+一堆劇情+一堆老角色復刻池的看板娘給反超了,太誇張了吧🫨",
+        "positive",
+        "0.76",
+        "[\"商业化\"]"
+      ],
+      [
+        "where is fking chart ?",
+        "negative",
+        "0.94",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "秧秧強度膨脹、輪椅,持有率卻低得可怕。說明大量玩家根本對劇情塑造無感。反倒是穗穗沒那麼多塑造,玩家都要抽。玩家寧願抽復刻的小愛也不抽秧秧。",
+        "negative",
+        "0.91",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "歪了 只好慢慢攢活動星聲來抽了",
+        "negative",
+        "0.96",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "虽然视频内的评论不能苟同,但数据确实没问题,steam也太强了",
+        "neutral",
+        "0.75",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "歪了,太極拳滿鏈了⋯。",
+        "negative",
+        "0.98",
+        "[\"商业化\"]"
+      ],
+      [
+        "70抽中了沒歪",
+        "neutral",
+        "0.7512034624400357",
+        "[\"商业化\"]"
+      ],
+      [
+        "不得不說鳴潮愛彌絲劇情頂到肺了,讓玩家強制開啟情感共鳴,我相信看過3.1跟3.3的人包准都會抽愛彌絲,粉毛真的天下第一",
+        "positive",
+        "0.98",
+        "[\"音频表现\"]"
+      ],
+      [
+        "老庫拉了 流水沒有贏蕾米埃爾",
+        "negative",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "別再武俠風了 市場毒藥 加上劇情又是國仇家恨灑狗血那套 看了想吐 異環個人淘汰掉了",
+        "negative",
+        "0.99",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i tried to use the 4-cost crit.dmg% echo on suisui, doesn't seem to be a lot of difference since i also lost a lot of hp in doing so. no sig weapon on her either. but if you have it, and have enough resource to min-max your echo, try giving it a shot. you might find a sweet spot between damage and survivability if you manage to reach 40k hp with 250% crit.dmg.",
+        "neutral",
+        "0.94",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "suisui's \"mmmmm...\" always makes me addicted to hearing it. 💛💛💛",
+        "positive",
+        "0.92",
+        "[\"音频表现\"]"
+      ],
+      [
+        "honestly yangyang suisui chisa feels like the cartethyia chisa aero rover kinda stacking. because apparently they won’t double stack outros so you can’t double dip. kuro probably knew to try to balance this.",
+        "neutral",
+        "0.87",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "puntaje del diablo😨😨",
+        "positive",
+        "0.72",
+        "[\"商业化\"]"
+      ],
+      [
+        "how about reverse rotation? can u do some guide about yangyang team second flours?",
+        "neutral",
+        "0.97",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "lol sigrika x phrolova team the best for any whiwa reset😂. 3380 under aero resistance and no gold tokken. i lost my 50/50 on siggy i'm waiting her rerun to finally complete this monster team",
+        "positive",
+        "0.79",
+        "[\"商业化\"]"
+      ],
+      [
+        "can you make a video with mortefi instead of chisa pls",
+        "neutral",
+        "0.98",
+        "[\"社区生态\"]"
+      ],
+      [
+        "so which one is better crit dmg or hp% for those who have suisui without her sig",
+        "neutral",
+        "0.88",
+        "[\"商业化\"]"
+      ],
+      [
+        "token?",
+        "neutral",
+        "0.9077912915612681",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "for 3d model wuwa didnt lose to any game. just they purposely flatten some part of 3d model to make characters appear more 2d like. its fk harder than using only 3d model.",
+        "positive",
+        "0.91",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "they have been going hard on their characters designs, yeah? looking at the clothes textures for example, and how great they convey the quality of the clothes she's wearing. i can already tell she's in a different tax bracket compared to all other people in the game hahaha.",
+        "positive",
+        "0.93",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "the attention to detail in this game is incredible tbh (the lanterns in yangyang's ult?!). i was so stunned by so many of suisui's fx and animations that i had to pull lol. she's already elevating my hiyuki team!",
+        "positive",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "hold on wtf you made better combat showcase video than wuwa itself lmaoooo so good 🎉🎉🎉",
+        "positive",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "it is exquisitely crafted—as beautiful as a painting!",
+        "positive",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "its goon-i mean observing time 👀",
+        "neutral",
+        "0.7444176645482212",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "it's a shame her birb hairpin is so static. i'd hope it would have its animations coordinate with her movements. even in just character menu. still she has such ethereal and graceful attacks. like she's dancing",
+        "positive",
+        "0.76",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "mind you, last time i was this downbad for a character in wuwa was galbrena",
+        "positive",
+        "0.93",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "elegantoo",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "another masterpieces 👏👏👏😭😭😭",
+        "positive",
+        "0.98",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "she's stunning! although i didn't manage to deal with her yet in combat, only looking at her movements makes me mesmerized.",
+        "positive",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "verrrrrrryyyyy niccceee! keep it comin'!",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "so smooth ❤",
+        "positive",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "2:39 🥵",
+        "positive",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "suisui very beautiful!",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "💛💛💛",
+        "positive",
+        "0.98",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "schmidley",
+        "neutral",
+        "0.93",
+        "[\"商业化\"]"
+      ],
+      [
+        "holy futch, finally we have 2 dodge animation now 😂 lol, whats next zzz players?😅",
+        "positive",
+        "0.76",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "can u make as video showing ur settings and filters pls",
+        "neutral",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "i have a question can you tell me how to spoof my graphic cards like you did to enable the ultra quality in the graphic quality menu sitting game",
+        "neutral",
+        "0.88",
+        "[\"技术体验\"]"
+      ],
+      [
+        "hey @bleeforever can you tell how you can get this close up 3:06 , without the character fading.",
+        "neutral",
+        "0.88",
+        "[\"技术体验\"]"
+      ],
+      [
+        "❤❤❤",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "get 28% off on wuwa crystals! safe & convenient! visit lootbar:",
+        "neutral",
+        "0.88",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "what do you think of suisui?",
+        "neutral",
+        "0.99",
+        "[\"社区生态\"]"
+      ],
+      [
+        "echo set?",
+        "neutral",
+        "0.9052245343811036",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i really want to know what i need to prioritize. i've got chisa s0 with sig weapon same with suisui. should i have s1 suisui or hiyuki s2? both have sig weapon. i don't have lucilla btw. i am able to clear toa for now. i plan to skip new banner until hsin. should i save until hsin?",
+        "neutral",
+        "0.97",
+        "[\"商业化\"]"
+      ],
+      [
+        "yea the results varies especially suisui isnt on her sig, but ive seen other comparisons and the difference is still not as much as i expected, suisui clears faster but the little difference makes her not really a must have for those who already got chisa and especially her sig, like i do... kuro did pretty well to keep suisui from completely overshadow chisa...and now im more glad that i lost on suisui banner lol",
+        "positive",
+        "0.76",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "w video!",
+        "positive",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "i assume if you already using her in hiyuki/lucilla or yangyang/chisa teams, going s1 does absolutely nothing damage wise compare to s0?",
+        "neutral",
+        "0.8068848752043807",
+        "[\"商业化\"]"
+      ],
+      [
+        "here i am wondering if getting lucky on a double is worth anything lol",
+        "neutral",
+        "0.75",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "i am wondering how people think suisui goes into aemeath fusion burst i'm sorry? aemeath does not consume fusion burst when she explodes it meaning she does not consume negative status so she gets no buff from suisui's giving next resonator mist outro thing",
+        "neutral",
+        "0.86",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "does her s1 allow quickswap...?",
+        "neutral",
+        "0.7744812928701399",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "hey, i just got her sig weapon, and if i wonder that worth it to buy suisui sequence node in shop for s1, im have 450 ish coral.",
+        "neutral",
+        "0.98",
+        "[\"商业化\"]"
+      ],
+      [
+        "is she worth a c6? for hiyuki and lucilla team",
+        "neutral",
+        "0.9053434781999752",
+        "[\"商业化\"]"
+      ],
+      [
+        "i believe she will be chisa \"2.0\" for next versions. qingxiao, hsin need her",
+        "neutral",
+        "0.74",
+        "[\"商业化\"]"
+      ],
+      [
+        "🔥 lootbar | save up to 25% off on game top-ups here 🎮 wuthering waves | 🎮 genshin impact, hsr, zzz, endfield, nte | 🎮 hoyo games: get extra coupon using code \"luckup\" 🎮 gift card link: 🔥 gear up for windows |",
+        "neutral",
+        "0.99",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "guys, tried to get s3 ameath but lost to lion boy, with this have lost 18 times to 50/50. and then just did a 10 pull in frustration on sui sui and got her s1 dupe, i don't know whether to laugh or cry. is s1 sui sui youseful ? i have all negative status resonators except hyuki",
+        "negative",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "she looks great...buuuuut i dumped all my saved pulls to take aemeath from s1 to s6 and only needed 5 bucks. i think i made the right choice",
+        "positive",
+        "0.76",
+        "[\"商业化\"]"
+      ],
+      [
+        "i've used alot or resources to get lucy because she might not come back... i rarely use her and don't really like her play style. then i used the rest of my resources to get suisui... i got jianxin instead... 😢the 1 time i actually get a support unit instead of a dps...",
+        "negative",
+        "0.96",
+        "[\"商业化\"]"
+      ],
+      [
+        "i have s2 ameath, and currently on 74 pity with no guarantee. i have all her premium supports and another 5 fully buit other teams. should i go for new resonator in next patch or go for s3 ameath",
+        "neutral",
+        "0.98",
+        "[\"商业化\"]"
+      ],
+      [
+        "i lost the 50/50 to lingyang i don't want to play wuwa anymore.",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "nah",
+        "negative",
+        "0.62",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i think chisa outperforms suisui when it comes to qs. but it's not meant for everyone.",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "the chisa part has a lot of mistake while the other was a smooth run. the loop rotation for chisa should be intro to ba34 cancel with liberation, chainsaw then tap the chainsaw atk. no wonder you're having longer rotation on chisa if you're doing it that way.",
+        "negative",
+        "0.97",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "watching a non quick swap chisa gameplay is painful ngl",
+        "negative",
+        "0.98",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "hi harbinger, are you planning on doing an arcane from arknights video? i assuming you dropped the game as i haven't seen much videos on the game.",
+        "neutral",
+        "0.91",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "sui sui rotation is fast compare to chisa",
+        "neutral",
+        "0.72",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i see 0 proper usage of chisa here lol",
+        "negative",
+        "0.96",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "btw you're not doing hiyuki's rotation correctly so you're missing out on a lot of dmg. on her first rotation you're supposed to tap the ult so you keep your stacks, then you'll be at max stacks on the 2nd rotation and you hold the ult button then",
+        "neutral",
+        "0.91",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "hats off!",
+        "neutral",
+        "0.8063856313553235",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "nice one so clean",
+        "positive",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "why did youtube send me a notification now? after a day",
+        "negative",
+        "0.82",
+        "[\"商业化\"]"
+      ],
+      [
+        "sheesh, wish i could do the same with my xuanling team, tho content is too hard ugh",
+        "negative",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "how are you able to use gleaming edge and fervent crescendo buffs for this boss? it says not available for me",
+        "neutral",
+        "0.98",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "can you make a video for hiyuki, lucilla, suisui in matrix?",
+        "neutral",
+        "0.8733216757802342",
+        "[\"社区生态\"]"
+      ],
+      [
+        "if you do not have chisa who would you slot in this team? i also don’t have rebecca, is there any upcoming or 4* characters that would work until chisa gets a rerun? right now im running mortefi and i just don’t like him tbh",
+        "neutral",
+        "0.76",
+        "[\"商业化\"]"
+      ],
+      [
+        "don't have chisa 😢",
+        "neutral",
+        "0.7238474272957318",
+        "[\"商业化\"]"
+      ],
+      [
+        "why don't use reju set?",
+        "neutral",
+        "0.9617910983198895",
+        "[\"商业化\"]"
+      ],
+      [
+        "how can this normal rot have higher score than a quickswap rot",
+        "neutral",
+        "0.77",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "하인아 모두를 위해 어떤 게임 정보인지 앞에다 좀 적어주면 좋겠다",
+        "neutral",
+        "0.72",
+        "[\"社区生态\"]"
+      ]
+    ]
+  }
+}
