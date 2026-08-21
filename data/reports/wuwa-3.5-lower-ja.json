@@ -8,7 +8,7 @@
     "date_start": "2026-07-30",
     "date_end": "2026-07-31",
     "platform": "YouTube（日语）",
-    "generated_at": "2026-08-20T18:24"
+    "generated_at": "2026-08-21T09:55"
   },
   "analysis": {
     "total_comments": 1563,
@@ -153,7 +153,7 @@
       "insight_input_neutral": 220,
       "estimated_insight_input_tokens": 12063,
       "agent_labeled_count": 600,
-      "translated_quote_count": 30,
+      "translated_quote_count": 90,
       "estimated_agent_tokens": 13899,
       "quality_gate": {
         "thresholds": {
@@ -235,175 +235,295 @@
     "overall_conclusion": "中性讨论占43.1%，正面认可免费体验、主角塑造与版本投入；负面集中于皮肤方向、定价和实装错配，最需改善高质量服装供给与价格策略。",
     "sentiments": {
       "positive": {
-        "summary": "正面讨论集中在鸣潮对主角、版本内容和免费体验的投入：玩家尤其认可漂泊者的强度与演出，并对新图标和更新内容表现出明显兴奋。",
+        "summary": "正面讨论主要赞赏鸣潮在免费体验、主角塑造、角色设计和版本内容上的投入。玩家通过与原神、绝区零及崩坏：星穹铁道比较，进一步肯定漂泊者的实战与演出表现；新秧秧图标、剧情细节和角色演出也激发了明显期待与长期支持。",
         "topics": [
           {
             "rank": 1,
-            "title": "鸣潮免费体验与主角、内容投入获认可",
-            "detail": "该簇是正面讨论中规模最大的焦点。玩家称赞游戏在不强制付费的情况下仍提供完整体验，也认可漂泊者兼具剧情气场、实战价值与动画表现；小规模地图扩展仍投入充分内容，强化了对开发投入的肯定。",
+            "title": "鸣潮免费体验、主角与角色设计投入获赞",
+            "detail": "规模最大的正面簇同时肯定鸣潮的低付费门槛、漂泊者在剧情和实战中的气场、角色服装及重要NPC设计，以及小型地图扩展仍保持较高投入。玩家不仅认可现有内容，也希望优秀服装、NPC和移动方式进一步实装。",
             "count": 88,
             "share_percent": 14.5937,
             "quotes": [
               "i love that you can play wuwa from start to finish without spending a $ , it's how gaming used to be , we used to play mmorpg for free and ppl would spend on cosmetics and look super cool but other than that games had freedom of creation and experiencing every aspect of the game for free , now rare are the gacha games that allow that, the free rebecca was insane as well , it feels like this game want the money but is also investing back in game and allowing player to play and try the game 😊",
               "my first gacha was genshin, still play, still enjoy although my enjoyment has decreased lately. 2nd gacha is wuwa. because of genshin, i expected rover to be a wet noodle. imagine my pleasant surprise when rover turned out to be an aura farmer in lore and in kit. traveler's pathetic animations really annoy me as the mc. oh well.",
+              "aemeath's outfit makes her look like a pop idol, it's literally perfect. i feel like she needs to have one like that because she has a personality outside being the exostrider's resonator",
+              "definitely put i gotta give them the fact that they release very pretty skins when they do, unlike others that were there for 6 years 🙄",
               "wuwa and zzz devs be like: “let’s cook some sick animations for the mc and give them free skins(will that part for zzz) and make them meta”",
-              "i think they kinda go all out for just tiny map expansion 😂. even the another fandom compare it with their new nation lmao."
+              "i think they kinda go all out for just tiny map expansion 😂. even the another fandom compare it with their new nation lmao.",
+              "has to be npc, cuzz kuro keep cooking with their character design but, cmon make them playable even 4* will do !",
+              "resident evil skin solos, they should let us roam freely with bike or wings, personally i'd prefer wings it's much easier to control on the phone compared to the bike.",
+              "rover’s going all out in the next patch while aether can’t use all his elements without resonating with a god’s statue.",
+              "i thought suisui was gonna be ur typical goofy blond, but she seems to be way more classy than i thought"
             ],
             "quote_translations": [
               "我喜欢鸣潮从头到尾不花一分钱也能玩，这很像过去的游戏：玩家可以免费体验全部内容，只为外观付费。现在很少有抽卡游戏允许这样做，免费赠送蕾贝卡也很惊喜；它既想赚钱，也把钱重新投入游戏，让玩家能自由游玩和体验。",
               "我的第一款抽卡游戏是原神，现在仍在玩，但乐趣有所下降；第二款是鸣潮。受原神影响，我原以为漂泊者会很弱，没想到漂泊者在剧情和玩法上都很有气场，这让我非常惊喜。相比之下，旅行者作为主角的动画表现让我很不满。",
+              "Aemeath的服装让她看起来像流行偶像，简直完美。我觉得她需要这样的服装，因为除了作为Exostrider的共鸣者，她还有属于自己的个性。",
+              "必须承认，他们推出皮肤时确实都非常漂亮，不像有些已经运营六年的游戏。",
               "鸣潮和绝区零的开发组就像在说：给主角做一套酷炫动画，再送免费皮肤，并让主角进入强势环境。",
-              "我觉得他们连一个小型地图扩展都会全力制作，甚至其他游戏社区都拿它和自家的新国度比较。"
+              "我觉得他们连一个小型地图扩展都会全力制作，甚至其他游戏社区都拿它和自家的新国度比较。",
+              "肯定是NPC，因为库洛总能把角色设计做得很好。但拜托让他们可玩吧，哪怕做成四星也行！",
+              "生化危机皮肤完胜；他们应该让我们骑摩托或用翅膀自由探索。个人更喜欢翅膀，因为手机上操控起来比摩托更容易。",
+              "漂泊者在下个版本火力全开，而空还得与神像共鸣才能使用不同元素。",
+              "我原以为穗穗会是典型的搞怪金发角色，结果她比我想象中优雅得多。"
             ]
           },
           {
             "rank": 2,
-            "title": "鸣潮与同类游戏主角表现获集中称赞",
-            "detail": "玩家把鸣潮与绝区零、崩坏：星穹铁道并列，认为这些作品认真塑造并强化了主角。正面评价既涉及实战可用性，也涉及剧情地位、角色气场和大招动画，漂泊者因此成为跨游戏比较中的主要加分项。",
+            "title": "鸣潮与同类游戏主角演出获集中称赞",
+            "detail": "第二大正面簇把鸣潮、绝区零和崩坏：星穹铁道放在一起比较，认为这些作品认真对待主角，让其兼具实战价值、五星级气场和有辨识度的演出。漂泊者的新属性、动画与音乐同步尤其被视为持续加分项。",
             "count": 83,
             "share_percent": 13.7645,
             "quotes": [
               "wuwa and zzz treating their mcs right",
+              "music should've played only for zzz and wuwa hsr's animations for mc are also... well, you see.",
               "bro hsr and wuwa mc is so usable",
-              "wuwa, hsr, zzz :peak 5 star energy both lore and gameplay gi: strong in lore only, 3 star design, no ult animation"
+              "zzz is the peak",
+              "wuwa, hsr, zzz :peak 5 star energy both lore and gameplay gi: strong in lore only, 3 star design, no ult animation",
+              "zzz 🤝 wuwa",
+              "i love how the beat drops at wuwa, absolutely peak 🎉🎉",
+              "wuwa, hsr, zzz ❤❤❤❤❤❤",
+              "my best gacha games wuwa and zzz 🔥🔥🔥💪🏼💪🏼",
+              "every new attribute wuwa mc feels like free new 5* chara"
             ],
             "quote_translations": [
               "鸣潮和绝区零都在认真对待各自的主角。",
+              "音乐本来应该只在绝区零和鸣潮出场时播放；星铁主角的动画也……你懂的。",
               "兄弟，星铁和鸣潮的主角都非常实用。",
-              "鸣潮、星铁和绝区零在剧情与玩法上都有顶级五星气场；原神则只在剧情里强，设计像三星，也没有大招动画。"
+              "绝区零就是巅峰。",
+              "鸣潮、星铁和绝区零在剧情与玩法上都有顶级五星气场；原神则只在剧情里强，设计像三星，也没有大招动画。",
+              "绝区零与鸣潮惺惺相惜。",
+              "我喜欢音乐节拍在鸣潮出场时落下的方式，绝对巅峰。",
+              "鸣潮、星铁、绝区零，全部喜欢。",
+              "我最喜欢的抽卡游戏是鸣潮和绝区零。",
+              "鸣潮主角每获得一种新属性，都像免费送了一个新的五星角色。"
             ]
           },
           {
             "rank": 3,
-            "title": "新图标与版本更新激发兴奋和长期支持",
-            "detail": "玩家注意到应用图标换成新秧秧，并把本次内容直接评价为“神更新”。感谢、持续追随和继续收集角色的表达显示，这轮更新不仅带来即时惊喜，也增强了对鸣潮后续运营的信心。",
+            "title": "新图标、角色演出与版本更新激发积极反应",
+            "detail": "第三大正面簇中，玩家频繁注意到应用图标换成新秧秧，并直接称赞本次更新；戴维德、蕾贝卡与露西相关剧情细节、丹雅救赎期待、角色外观和声优关联也带来惊喜。感谢和持续追随的表达显示出较强的版本认同。",
             "count": 58,
             "share_percent": 9.6186,
             "quotes": [
+              "アイコン変わってる!",
+              "アイコン変わってらァ!",
+              "・空席のままにしてくれてありがとう ・幻影でもいいからデイビッド座らさしてくれええええええ ・シナリオ良すぎてレベッカとルーシー隣に座らせたくなってきた好きな男の思い出話語らってほしい 心がみっつある〜",
               "ほんまにすげーなクロゲームス✨ そしてアイコン❗️アイコンが新ヤンヤンになってる❗️",
+              "ダーニャが救われるストーリーも期待したい!",
               "まじで神アプでty",
+              "今日も私の推しちゃんが可愛い(巴御前)",
+              "横腹?腰?の部分やっっっべぇ!",
+              "緋雪さんと虚照さん同じ声優なのびっくり",
               "まじでありがと〜鳴潮! 一生ついて行く〜! 今のとこ女子の全キャラ確保してるけど、今後も頑張る!"
             ],
             "quote_translations": [
+              "图标变了！",
+              "图标变了啊！",
+              "谢谢你们让座位保持空着；即便只是幻影，也请让戴维德坐下啊啊啊；剧情太好了，我开始想让蕾贝卡和露西坐在一起，聊聊她们喜欢的男人的回忆。我的心分成三份了。",
               "库洛游戏真的太厉害了✨而且图标！图标换成新秧秧了！",
+              "也期待一个丹雅得到救赎的故事！",
               "真的是神级更新，谢谢。",
+              "今天我推的角色也很可爱（巴御前）。",
+              "侧腹？腰？那部分也太不得了了！",
+              "绯雪和虚照是同一个声优，真令人惊讶。",
               "真的谢谢你，鸣潮！我会一辈子跟着你！目前所有女角色我都已经拿到了，今后也会继续努力！"
             ]
           }
         ]
       },
       "negative": {
-        "summary": "负面讨论主要集中在皮肤设计与付费内容错配、跨游戏主角待遇对比，以及官方被讽刺“不会把购买意愿转化为收入”。前三大全量语义簇合计133条，占负面评论46.34%。",
+        "summary": "负面讨论中，皮肤方向与付费设计错配最突出，其次是对原神主角长期缺乏投入的跨游戏批评，以及凌阳等常驻角色反复歪卡造成的强烈挫败。三个可稳定归纳的重点簇合计127条，占负面评论44.25%。",
         "topics": [
           {
             "rank": 1,
-            "title": "皮肤方向、定价与实装节奏错配",
-            "detail": "最高热度簇集中质疑联动宣传中的高质量服装未被实装，现有泳装与角色气质不符，摩托外观又存在高价、组合绑定及跨版本可用性疑虑。部分自称愿意重氪的玩家明确表示，只要设计合适、价格更合理就会购买；当前做法反而让消费意愿转为劝退。",
+            "title": "皮肤设计、定价与实装策略错配",
+            "detail": "最高热度簇集中批评联动广告中的高质量服装没有实装，现有泳装与角色气质不符，摩托外观又存在高价、组合绑定及跨版本可用性疑虑。多名明确愿意付费的玩家认为，当前供给没有承接真实购买需求，反而形成“不会赚钱”的讽刺。",
             "count": 75,
             "share_percent": 26.13,
             "quotes": [
               "instead we get those horrible swim suits. chisa would never wear pink like that it clashes with her ascetic and vibe so much. for some reason wuwa has missed the mark on every skin released so far. and in a whale. i 💯 would buy them if i liked them. i bought the mornye skin and still just use her default skin because i like it sm more. we out here fighting monsters in the mud we need armor and shit not coffee date and bathing suits",
               "they pormote sooo many of these good fing skins aand they not actually making them. tho i can figure to understand to a degree that you can just iinterject skins if it is you care and want to maintain the charactors characteristics behhind there lore, but come on, jhinsi/shorekeeper/chisa/aemeath could definatly rock those outfits, surly you could pass it off to one of them or two. that sk fit looked dam good, same with aemeeath, could pass it off as a fit shes using in a concert or something, shes a singer do it.",
+              "they have these designs and they give us swimsuits, i don't buy and i wouldn't buy even if they release those , but it's ridiculous, they have amazing choices for skins , i never understood carlotta's skin , it doesn't fit her character and now chisa has the same issue, lynae fit tho , it fits her personality very well",
+              "i think i lowkey knew why they don't sell nice skins. it's because the more money you spend on these skins, the less money you will likely spend on characters, who will make you stick playing the game longer.",
+              "imagine paying 50 dollars only to get powercrept 2 patches later",
+              "i want giveaway motorbike yangyang xuanling, but i scared because need buy in game shop t_t",
+              "they're not sexualized enough, that's why they'll never release",
+              "all these ultra high quality designs just for collab ads. i wonder how much money they could make from these alone. haaaahhh! looks like kuro actually doesn't know how to make money. one dev doesn't know how to make money and yet delivers the absolute and the another dev makes money so greedily but is too lazy about giving quality.",
               "i was honestly surprised we could even use the bike outside of lahai roi, but who knows if it holds for 4.x it’s also quite hilarious how if you bought premium skins before you can’t use them with this new premium look because it’s a full package with bike body and livery. as usual, big bait, don’t waste your money!",
               "30$? yeah, way too expensive. but if that's what keeps the game high quality. i would have bought it if it was 10$ but i guess there aren't that many people paying for cosmetics anyway and people who do pay for them don't mind paying more."
             ],
             "quote_translations": [
               "结果我们得到的却是那些糟糕的泳装。千咲绝不会穿那种粉色，和她的审美与气质太冲突。鸣潮目前推出的每款皮肤似乎都没抓准方向。我还是个重氪玩家，只要喜欢就百分百会买。我买了莫宁的皮肤，却仍只用默认外观，因为默认更合我意。我们是在泥地里打怪，需要的是盔甲之类，不是咖啡约会和泳装。",
-              "他们宣传了这么多好得不行的皮肤，却不真正做出来。某种程度上我能理解，为了维护角色背景和特征不能随便塞皮肤，但今汐、守岸人、千咲、艾梅斯完全能驾驭这些服装，总能给其中一两个吧。守岸人和艾梅斯那套都很好看；艾梅斯还是歌手，完全可以说是演唱会服装，做出来吧。",
+              "他们宣传了这么多好得不行的皮肤，却不真正做出来。某种程度上我能理解，为维护角色背景和特征不能随便塞皮肤，但今汐、守岸人、千咲、艾梅斯完全能驾驭这些服装，总能给其中一两个吧。守岸人和艾梅斯那套都很好看；艾梅斯还是歌手，完全可以说是演唱会服装，做出来吧。",
+              "他们明明有这些设计，却只给我们泳装。我不买，即使推出那些也不会买，但这太荒谬了；明明有很多很棒的皮肤选择。我一直不理解卡洛塔的皮肤，它不符合角色，千咲也有同样问题；琳奈的倒是符合她的个性。",
+              "我大概明白他们为什么不卖好看的皮肤了：你在皮肤上花的钱越多，就越可能减少角色消费，而角色更能让你长期留在游戏里。",
+              "想象一下花50美元购买，结果两个版本后就被迭代掉。",
+              "我想要赠送的秧秧、玄岭摩托，但又害怕必须在游戏商店购买T_T。",
+              "这些设计还不够性化，所以它们永远不会推出。",
+              "这么多超高质量设计却只用于联动广告。我很好奇光靠它们能赚多少钱。唉，看来库洛真的不会赚钱：一个开发商不会赚钱却能交出顶级质量，另一个贪婪赚钱却懒得提供品质。",
               "说实话，摩托能在拉海洛之外使用已经让我意外，但谁知道4.x还能不能用。更好笑的是，即使之前买过高级皮肤，也不能与这套新高级外观一起使用，因为它是摩托车身与涂装的完整套装。还是老样子的大诱饵，别浪费钱！",
               "30美元？对，太贵了。但如果这能维持游戏的高品质，也能理解。若是10美元我会买；不过愿意为装饰付费的人可能本来就不多，而愿意付的人也许并不介意多付。"
             ]
           },
           {
             "rank": 2,
-            "title": "原神主角待遇与表现成为负面对照",
-            "detail": "第二大簇以鸣潮、崩铁和绝区零的主角升级、强度及演出为参照，集中批评原神旅行者在动画、技能实用性和长期培养价值上缺乏投入。“游戏太旧”等解释也被认为站不住脚，比较语气带有明显失望与嘲讽。",
+            "title": "原神主角与运营表现成为负面对照",
+            "detail": "第二大簇以鸣潮、崩铁和绝区零的主角升级、强度和演出为参照，集中批评原神旅行者的队伍价值、动画投入及长期成长停滞。“游戏太旧”等解释被认为缺乏说服力，男性角色实装与玩法复用也引发悲观预测。",
             "count": 30,
             "share_percent": 10.45,
             "quotes": [
+              "the \"game is too old\" genshin's community trying to use the same excuse to cope. also in wuwa they're able to make rover wield different elements in game story but they'll make it an actual character gameplay. hi3 is older than genshin and also a hoyo game but why it's better than genshin, lmao",
+              "for genshin, i predict that pantalone is not going to be playable and only two of those other new male characters will be 5-stars. like this is genshin we're talking about. also that's 2 patches of hsr compared to an entire year of genshin...",
+              "i usually download games to pull male characters. but nah i'm not downloading genshin cuz i know the gameplay will be shit and copy of existing characters' moveset",
+              "genshin mc don't have an actual viable team, hsr and wuwa have mc on some meta teams, sorry zzz but i stoped playing after v 1.0 and as far as i know mc is not playable until recently",
               "i thought genshin dev would finally give their mc an upgrade in snezhnaya but once again...they just make him rot but nobody play as mc in genshin bcause they sucks af",
+              "genshin is a gacha for female players. explain a lot why people keep playing it despite the trash gameplay.",
               "traveler is more meta now, and the cryo traveler early kit maybe gonna be an f2p option if don't have tsaritsa. about the animation, genshin still genshin, what you expect?😅",
+              "i feel bad for genshin because it's a good game but the devs keps making it looks bad",
+              "genshin ran out at 5.0",
               "mc in gacha games be like : hsr, wuwa, zzz : be upgraded. be meta genshin : be genshin"
             ],
             "quote_translations": [
+              "原神社区又拿“游戏太老”当借口来自我安慰。鸣潮能让漂泊者在剧情里使用不同属性，也会真正做成可玩的角色机制。崩坏3比原神更老，同样是米哈游游戏，为什么反而做得更好，笑死。",
+              "对原神，我预测潘塔罗涅不会实装，其他新男性角色里也只有两个会是五星。毕竟这可是原神。况且那只是崩铁两个版本的量，却相当于原神一整年……",
+              "我通常会为了抽男性角色下载游戏，但我不会下载原神，因为我知道玩法会很糟，动作组也只是复制已有角色。",
+              "原神主角没有真正可用的队伍，崩铁和鸣潮主角都能进入一些强势队伍。抱歉绝区零，我1.0后就不玩了，据我所知主角也是最近才可玩。",
               "我本以为原神开发者终于会在至冬给主角升级，结果又一次让他烂在那里。原神没人玩主角，因为实在太差。",
+              "原神是给女性玩家玩的抽卡游戏。这很能解释为什么玩法这么差还有人一直玩。",
               "旅行者现在更符合强度环境了，冰旅行者的早期技能组也许能给没有冰之女皇的零氪玩家使用。至于动画，原神还是原神，你还能期待什么？😅",
+              "我替原神感到难过，因为它本来是款好游戏，但开发者总让它显得很糟。",
+              "原神在5.0时就已经耗尽了。",
               "抽卡游戏主角大概是这样：崩铁、鸣潮、绝区零——升级、进入强势环境；原神——继续当原神。"
             ]
           },
           {
             "rank": 3,
-            "title": "“库洛不想赚钱”的反讽短评",
-            "detail": "第三大簇用“怕赚钱”“不肯收钱”等高度重复的反话，讽刺官方拥有可直接商业化的角色服装设计，却没有及时转化为游戏内皮肤。短评把玩家的购买需求、官方的皮肤供给不足与制造争议的运营观感直接绑定。",
-            "count": 28,
-            "share_percent": 9.76,
+            "title": "凌阳等常驻角色重复歪卡与出货失衡",
+            "detail": "在语义混杂的零散短评簇之后，常驻池歪卡是规模最大的可稳定归纳问题。玩家反复提到凌阳、维里奈、卡卡罗和安可出货极不均衡：部分角色已满链甚至超过十次，目标常驻仍未出现，凌阳的登场台词也因持续歪卡而成为负面触发点。",
+            "count": 22,
+            "share_percent": 7.67,
             "quotes": [
-              "i hate kuro for not wanting to take my money",
-              "kuro scared of money 😞",
-              "kuro priority: ragebaiting > money"
+              "獅子舞とヴェリーナは完凸なのに未だにカカロが出ない",
+              "獅子舞とカカロ全く出ない代わりにヴェリーナとアンコがそろそろ完凸しそう。",
+              "獅子舞の被害多いけど自分永遠とヴェリーナ?出てくるのなんなん?もう10凸以上してる。他1凸か2凸くらいやのに",
+              "獅子舞とカカロだけ異様に出過ぎなんだよクソが、せめて振り分けてくれ",
+              "獅子舞もう見たくないわ",
+              "獅子舞だけ恒常の中で出る率高い、もう顔見るだけでイラつくくらいに 声は良いけどガオッ!は聴きたくない",
+              "獅子舞ガチャでここまでヘイト集めてるやつなかなかおらんぞ",
+              "獅子舞でやすさ異常多分こいつだけ乱数バグっとる",
+              "あぁそうだ、獅子舞。お前はもう終われ",
+              "今月始めたから、すり抜け未経験だけど、「獅子舞の開演だぁ!」とかスマホから聞こえた瞬間に投げ捨てて叫ぶかも"
             ],
             "quote_translations": [
-              "我讨厌库洛不肯收我的钱。",
-              "库洛怕赚钱😞",
-              "库洛的优先级：挑起争议 > 赚钱。"
+              "凌阳和维里奈都已经满共鸣链了，可我到现在还没抽到卡卡罗。",
+              "凌阳和卡卡罗完全不出，反倒是维里奈和安可快要满共鸣链了。",
+              "很多人都被凌阳折磨，但我这里为什么永远出维里奈？都已经十链以上了，其他角色才一链或二链左右。",
+              "凌阳和卡卡罗出得异常多，真该死，至少给我分散一点吧。",
+              "我已经不想再看到凌阳了。",
+              "常驻角色里凌阳的出现率特别高，高到光看见他的脸就烦。声音是不错，但我不想再听到“嗷！”了。",
+              "因为凌阳歪卡而招来这么多仇恨的角色，还真不多见。",
+              "凌阳太容易出了，估计只有他的随机数出故障了。",
+              "啊，对了，凌阳。你已经可以结束了。",
+              "我这个月才开始玩，还没经历过歪卡，但如果手机里响起“舞狮开演啦！”的瞬间，我可能会把手机扔出去大叫。"
             ]
           }
         ]
       },
       "neutral": {
-        "summary": "中性讨论集中在Severian等角色身份补充、鸣潮皮肤与摩托资源投入比较，以及按G查看攻击力的翻译双关。",
+        "summary": "中性讨论集中在Severian等遗漏角色的身份核对、白发角色可玩性与摩托后续用途推测，以及按G查看攻击力的字幕双关。",
         "topics": [
           {
             "rank": 1,
-            "title": "Severian遗漏与预告角色身份核对",
-            "detail": "最大中性簇主要用短句补充或追问Severian、Billy等角色是否应计入，并穿插对新面孔、NPC可玩性及预告片段的即时辨认；大量内容是名录纠错而非明确褒贬。",
+            "title": "Severian遗漏与绝区零男性角色身份核对",
+            "detail": "最大中性簇反复补充Severian，追问他为何未被计入绝区零男性角色名录，并以即将登场、被视频作者忘记和可能只是NPC等说法核对角色身份。",
             "count": 127,
             "share_percent": 18.87,
             "quotes": [
+              "severian",
+              "i mean, we should have severian for zenless...",
+              "bro forgot severian",
               "severian?",
-              "doesn't billy count? i know he's a robot, but technically he's a man 🤔",
-              "カルロッタとクラレッタ",
-              "35:00 曲付きpvイイネ✨"
+              "severian for zenless✌️",
+              "severian is coming soon",
+              "severian btw",
+              "zzz i pray for severian.",
+              "the male one is definitely an npc",
+              "bro forgot severian😂 what a fraud"
             ],
             "quote_translations": [
+              "Severian。",
+              "我的意思是，绝区零这里应该把Severian算进去……",
+              "兄弟把Severian忘了。",
               "Severian呢？",
-              "Billy不算吗？我知道他是机器人，但严格来说他是男性吧🤔",
-              "卡洛塔和克拉蕾塔。",
-              "35:00，带歌曲的PV不错呢✨"
+              "绝区零的Severian✌️",
+              "Severian很快就要来了。",
+              "顺带一提，还有Severian。",
+              "绝区零啊，我祈祷Severian能来。",
+              "那个男性角色肯定是NPC。",
+              "兄弟把Severian忘了😂，也太不靠谱了。"
             ]
           },
           {
             "rank": 2,
-            "title": "鸣潮皮肤制作、摩托用途与男性角色投放比较",
-            "detail": "讨论把鸣潮皮肤的建模与优化成本、摩托在4.x后能否继续使用，和鸣潮、原神、星铁、绝区零的男性角色投放节奏放在一起核对，整体以资源优先级和版本口径分析为主。",
+            "title": "白发角色可玩性与鸣潮摩托皮肤后续用途推测",
+            "detail": "玩家根据预告判断白发角色究竟是可玩角色还是支线NPC，同时讨论摩托皮肤在4.x后能否继续使用、飞行是否更高效，以及是否应优化爱弥斯与绯雪摩托并为更多角色配置专属载具。",
             "count": 84,
             "share_percent": 12.48,
             "quotes": [
-              "making skins aren't easy, you can see in wuwa. mornye skin is just same as her design but they add the sleeve+re texture on her shirt to make it like a coat. same goes for alot of other characters",
+              "they probably be our zhaira & iris of the region. just like how we got rosemary & margherita in rinascita. or don't forget yhan in jinzhou. npc characters that will have some sort of side quest for us to do.",
+              "yep, this like other game the pv only show some playable character, but in the real story will see many new character posible playable character.",
               "the temptation to buy a motorcycle skin is really strong, but on the other hand, i'm worried that the motorbike will no longer be usable after patch 4.x. so i'll probably just skip it.",
-              "wuwa gives you the token guy once every arc, just because it kind of has to. genshin forgets about guys for a long while, then pulls out tons of them in one blow. star rail is pretty consistent, never gives too many or too few of them. zenless makes them very good for some reason but then tries to make you forget they exist(?)"
+              "you forgot severian in zzz, seth's older brother plus i'm sure we'll get more males soon since there are 2 male first generation void hunters and we know hoyo will make them playable since they're void hunters",
+              "the white haired one will be a character for sure",
+              "i'm a genshin larper, i really thought the gun was going to be his gameplay. i don't want to hear immersion breaking cus there are characters who fly and fight on a gun.",
+              "idk ifnim.being delusional but i really hope the bikes and other skins sell well so in the future the game would ve less predatory and maybe gives more pull per patch 😅",
+              "could the white haired person be that legendary master buling and jianxin mentioned? this should be the region where he lives after all.",
+              "i just want them to optimize aemeaths & hiyuki's bikes + i have been asking that every character has their own bike when we change them (most prob wont happen but hoping)",
+              "riding a bike is cool and all but flying is way more effective and efficient , that's just how i feel though ."
             ],
             "quote_translations": [
-              "制作皮肤并不容易，鸣潮就是例子。莫宁耶的皮肤基本沿用原设计，只增加袖子并重新处理上衣纹理，让它看起来像外套；很多其他角色也是如此。",
-              "摩托皮肤确实很诱人，但我担心4.x之后摩托就不能再用了，所以大概还是会跳过。",
-              "鸣潮每个篇章像是不得不安排一位代表性男性角色；原神会很久不管男性角色，然后一次放出很多；星铁比较稳定，不多也不少；绝区零不知为何会把男性角色做得很好，之后又让人忘记他们存在。"
+              "他们大概会是这个地区的Zhaira和Iris，就像黎那汐塔的Rosemary、Margherita，或者今州的Yhan；都是会给我们支线任务的NPC角色。",
+              "对，就像其他游戏一样，PV只展示部分可玩角色，正式剧情里还会看到很多可能成为可玩角色的新人物。",
+              "摩托皮肤确实很诱人，但我担心4.x之后摩托就不能继续用了，所以大概还是会跳过。",
+              "你忘了绝区零的Severian，也就是Seth的哥哥；而且之后肯定还会有更多男性角色，因为初代虚狩中有两名男性，米哈游既然设定他们是虚狩，就会让他们可玩。",
+              "那个白发人物肯定会成为可玩角色。",
+              "我是个原神云玩家，我本来真以为枪会成为他的战斗机制。别再说破坏沉浸感了，游戏里本来就有会飞、会站在枪上战斗的角色。",
+              "不知道是不是我想多了，但我真希望摩托和其他皮肤卖得好，这样以后游戏或许能少一点逼氪，每个版本也可能多送些抽卡资源😅",
+              "那个白发人物会不会就是卜灵和鉴心提过的传奇大师？毕竟这里应该就是他居住的地区。",
+              "我只希望他们优化爱弥斯和绯雪的摩托；我也一直希望切换角色时每个人都有自己的摩托，虽然大概不会实现，但还是期待。",
+              "骑摩托确实很酷，但飞行明显更实用、更高效；这只是我的个人感受。"
             ]
           },
           {
             "rank": 3,
-            "title": "按G查看攻击力翻译双关与弹幕核对",
-            "detail": "观众围绕按G向下看、查看角色数值和获得更高伤害的字幕含义互相纠正，同时借攻击力与画面构图的双关反复玩梗，形成以翻译核对为核心的中性互动。",
+            "title": "按G查看攻击力字幕双关与战斗片段反应",
+            "detail": "观众围绕按G向下看、查看角色数值和获得更高伤害的字幕含义互相核对，并借攻击力大小、沉默后如何闪避及画面动作形成连续弹幕玩梗。",
             "count": 51,
             "share_percent": 7.58,
             "quotes": [
-              "聊天室是說按g往下看會有更高的傷害",
+              "確實是持查看角色數值 攻擊力",
+              "沒錯啊 就說是否查看到角色數值",
               "這角色數值非常大",
-              "就問你有沒有看到角色攻擊力嘛。 網友誠不欺我。"
+              "就問你有沒有看到角色攻擊力嘛。 網友誠不欺我。",
+              "他沒說錯 確實有很強的攻擊力",
+              "我有沒有看錯 他後面真的有這些動作?",
+              "這數值確實很大",
+              "聊天室是說按g往下看會有更高的傷害",
+              "都被沈默了 怎麼閃",
+              "早就反应过来了,要不然反而会不停🤣🤣"
             ],
             "quote_translations": [
-              "聊天室说按G往下看会有更高的伤害。",
+              "确实是在查看角色数值——攻击力。",
+              "没错啊，就是在说有没有查看到角色数值。",
               "这个角色的数值非常大。",
-              "就问你有没有看到角色攻击力嘛，网友诚不欺我。"
+              "就问你有没有看到角色攻击力嘛，网友诚不欺我。",
+              "他说得没错，确实有很强的攻击力。",
+              "我有没有看错？他后面真的做了这些动作吗？",
+              "这个数值确实很大。",
+              "聊天室说按G往下看会有更高的伤害。",
+              "都被沉默了，要怎么闪避？",
+              "早就反应过来了，不然反而会一直看个不停🤣🤣"
             ]
           }
         ]
