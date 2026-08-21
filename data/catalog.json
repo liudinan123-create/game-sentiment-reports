@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-17",
+  "updated_at": "2026-08-21",
   "timezone": "Asia/Shanghai",
   "games": [
     {
@@ -4500,6 +4500,21 @@
               "status": "ready",
               "data_source": "data/reports/genshin-7.0-upper-zh.json",
               "download_name": "原神-7.0上半-B站_舆情分析报告.html"
+            },
+            "en": {
+              "status": "ready",
+              "data_source": "data/reports/genshin-7.0-upper-en.json",
+              "download_name": "原神-7.0上半-英语_舆情分析报告.html"
+            },
+            "ja": {
+              "status": "ready",
+              "data_source": "data/reports/genshin-7.0-upper-ja.json",
+              "download_name": "原神-7.0上半-日语_舆情分析报告.html"
+            },
+            "ko": {
+              "status": "ready",
+              "data_source": "data/reports/genshin-7.0-upper-ko.json",
+              "download_name": "原神-7.0上半-韩语_舆情分析报告.html"
             }
           },
           "confidence": "official",
