@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-21",
+  "source": "监控模板12212.xlsx / 小版本敏捷监控",
+  "aggregation": "sum_nonempty_language_sources",
+  "nodes": [
+    { "phase_id": "zzz-3-0-34", "video_count": 1161, "total_views": 56754250, "total_comments": 271404, "source_count": 4 },
+    { "phase_id": "wuwa-3-4-38", "video_count": 1533, "total_views": 177614500, "total_comments": 312598, "source_count": 4 },
+    { "phase_id": "nte-1-1-4", "video_count": 1280, "total_views": 309021180, "total_comments": 72123, "source_count": 4 },
+    { "phase_id": "genshin-月之七-101", "video_count": 2151, "total_views": 427116777, "total_comments": 1185856, "source_count": 4 },
+    { "phase_id": "endfield-1-3-9", "video_count": 983, "total_views": 52645852, "total_comments": 93749, "source_count": 4 },
+    { "phase_id": "hsr-4-3-57", "video_count": 1516, "total_views": 64558026, "total_comments": 212412, "source_count": 4 },
+    { "phase_id": "nte-1-2-5", "video_count": 1827, "total_views": 52529395, "total_comments": 325227, "source_count": 4 },
+    { "phase_id": "genshin-6-7-102", "video_count": 1804, "total_views": 243420278, "total_comments": 591597, "source_count": 4 },
+    { "phase_id": "zzz-3-0-35", "video_count": 1312, "total_views": 20517476, "total_comments": 31515, "source_count": 4 },
+    { "phase_id": "wuwa-3-5-39", "video_count": 2056, "total_views": 589810683, "total_comments": 539828, "source_count": 4 },
+    { "phase_id": "endfield-1-4-10", "video_count": 1902, "total_views": 62930393, "total_comments": 218770, "source_count": 4 },
+    { "phase_id": "hsr-4-4-58", "video_count": 668, "total_views": 58160085, "total_comments": 35880, "source_count": 4 },
+    { "phase_id": "nte-1-2-6", "video_count": 1256, "total_views": 12308158, "total_comments": 37405, "source_count": 4 },
+    { "phase_id": "nte-1-3-7", "video_count": 1013, "total_views": 20711710, "total_comments": 160278, "source_count": 4 },
+    { "phase_id": "genshin-7-0-104", "video_count": 1554, "total_views": 79604960, "total_comments": 232906, "source_count": 4 },
+    { "phase_id": "wuwa-3-5-40", "video_count": 780, "total_views": 9613153, "total_comments": 65662, "source_count": 4 }
+  ]
+}

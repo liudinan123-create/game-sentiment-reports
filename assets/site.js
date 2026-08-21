@@ -1,4 +1,5 @@
 const CATALOG_URL = "data/catalog.json";
+const VERSION_METRICS_URL = "data/version-metrics.json";
 const CACHE_TOKEN = Date.now().toString(36);
 const LANGUAGES = [
   ["zh", "中文"],
@@ -10,6 +11,7 @@ const LANGUAGES = [
 const state = {
   catalog: null,
   expandedGames: new Set(),
+  trendCharts: new Map(),
   query: "",
   game: "all",
   report: "all",
@@ -149,6 +151,68 @@ function reportButtons(phase) {
   }).join("");
 }
 
+function completeVideoMetrics(metrics) {
+  if (!metrics) return false;
+  return ["video_count", "total_views", "total_comments"].every((key) => {
+    const value = Number(metrics[key]);
+    return Number.isFinite(value) && value >= 0;
+  });
+}
+
+function phaseVideoMetrics(phase) {
+  if (completeVideoMetrics(phase.imported_video_metrics)) return phase.imported_video_metrics;
+  if (completeVideoMetrics(phase.video_metrics)) return phase.video_metrics;
+  return phase.resolved_video_metrics || null;
+}
+
+function applyImportedMetrics(catalog, metricsData) {
+  if (metricsData?.schema_version !== 1 || !Array.isArray(metricsData.nodes)) return;
+  const phaseIndex = new Map();
+  catalog.games.forEach((game) => game.phases.forEach((phase) => phaseIndex.set(phase.id, phase)));
+  metricsData.nodes.forEach((node) => {
+    const phase = phaseIndex.get(node.phase_id);
+    if (!phase || !completeVideoMetrics(node)) return;
+    phase.imported_video_metrics = {
+      video_count: Number(node.video_count),
+      total_views: Number(node.total_views),
+      total_comments: Number(node.total_comments),
+      source: `${metricsData.source}（${node.source_count || 1}个语种/平台合计）`,
+    };
+  });
+}
+
+async function hydratePhaseMetrics(catalog) {
+  const jobs = [];
+  catalog.games.forEach((game) => {
+    game.phases.forEach((phase) => {
+      if (completeVideoMetrics(phaseVideoMetrics(phase))) return;
+      const candidate = LANGUAGES
+        .map(([code, label]) => ({ code, label, report: phase.reports?.[code] }))
+        .find(({ report }) => report?.status === "ready" && report.data_source);
+      if (!candidate) return;
+      jobs.push((async () => {
+        try {
+          const response = await fetch(freshDataUrl(candidate.report.data_source), { cache: "no-store" });
+          if (!response.ok) return;
+          const report = await response.json();
+          const metrics = report?.analysis?.video_metrics;
+          if (!completeVideoMetrics(metrics)) return;
+          phase.resolved_video_metrics = {
+            video_count: Number(metrics.video_count),
+            total_views: Number(metrics.total_views),
+            total_comments: Number(metrics.total_comments),
+            source: metrics.source || `${candidate.label}报告统计`,
+            language: candidate.code,
+          };
+        } catch (_) {
+          // 历史报告可能缺失或为旧格式；趋势图保留该节点空白。
+        }
+      })());
+    });
+  });
+  await Promise.all(jobs);
+}
+
 function phaseMatches(phase) {
   const reportReady = hasReport(phase);
   if (state.report === "ready" && !reportReady) return false;
@@ -172,25 +236,15 @@ function formatMetric(value) {
   return number.toLocaleString("zh-CN");
 }
 
-function metricCell(value) {
-  const formatted = formatMetric(value);
-  if (formatted === null) return '<div class="phase-metric"><span class="metric-value pending">待统计</span></div>';
-  return `<div class="phase-metric"><span class="metric-value" title="${escapeHtml(Number(value).toLocaleString("zh-CN"))}">${escapeHtml(formatted)}</span></div>`;
-}
-
 function phaseRow(phase) {
   const status = phaseStatus(phase);
   const activeClass = status === "active" ? " active-row" : "";
-  const metrics = phase.video_metrics || {};
   return `
     <div class="phase-row${activeClass}">
       <div class="phase-version">${escapeHtml(phase.version)}</div>
       <div class="phase-name">${escapeHtml(phase.phase)}</div>
       <div class="phase-time ${phase.end_estimated ? "estimated" : ""}">${escapeHtml(phase.start)} — ${phase.end_estimated ? "预估" : ""}${escapeHtml(phase.end)}</div>
       <div class="phase-characters">${characterTags(phase.characters)}</div>
-      ${metricCell(metrics.video_count)}
-      ${metricCell(metrics.total_views)}
-      ${metricCell(metrics.total_comments)}
       <div class="report-cell">${reportButtons(phase)}</div>
     </div>`;
 }
@@ -221,15 +275,104 @@ function gamePanel(game, matched) {
         </div>
         <span class="phase-count">${matched.length} 个版本阶段</span>
       </div>
-      <div class="phase-table-head" aria-hidden="true">
-        <span>版本</span><span>阶段</span><span>卡池区间</span><span>卡池角色</span><span class="metric-head">视频总数</span><span class="metric-head">视频总播放量</span><span class="metric-head">视频总评论数</span><span class="report-head-label">舆情报告</span>
+      <div class="game-panel-body">
+        <div class="phase-table-wrap">
+          <div class="phase-table-head" aria-hidden="true">
+            <span>版本</span><span>阶段</span><span>卡池区间</span><span>卡池角色</span><span class="report-head-label">舆情报告</span>
+          </div>
+          <div>${visible.map(phaseRow).join("")}</div>
+          ${hiddenCount > 0 || expanded ? `<button class="expand-panel" type="button" data-expand-game="${escapeHtml(game.id)}">${expanded ? "收起历史版本" : `展开其余 ${hiddenCount} 个历史阶段`}</button>` : ""}
+        </div>
+        <aside class="trend-panel" aria-label="${escapeHtml(game.name)}版本传播趋势">
+          <div class="trend-head">
+            <div><strong>版本传播趋势</strong><span>各指标独立量纲 · 点击图例开关</span></div>
+            <span class="trend-data-count" data-trend-count="${escapeHtml(game.id)}">读取中</span>
+          </div>
+          <div class="trend-chart-shell"><canvas class="trend-canvas" data-game-id="${escapeHtml(game.id)}"></canvas></div>
+        </aside>
       </div>
-      <div>${visible.map(phaseRow).join("")}</div>
-      ${hiddenCount > 0 || expanded ? `<button class="expand-panel" type="button" data-expand-game="${escapeHtml(game.id)}">${expanded ? "收起历史版本" : `展开其余 ${hiddenCount} 个历史阶段`}</button>` : ""}
     </article>`;
 }
 
+function destroyTrendCharts() {
+  state.trendCharts.forEach((chart) => chart.destroy());
+  state.trendCharts.clear();
+}
+
+function trendDataset(label, key, color, yAxisID, phases) {
+  return {
+    label,
+    data: phases.map((phase) => phaseVideoMetrics(phase)?.[key] ?? null),
+    borderColor: color,
+    backgroundColor: color,
+    yAxisID,
+    borderWidth: 2,
+    pointRadius: 3,
+    pointHoverRadius: 5,
+    pointBorderWidth: 0,
+    tension: 0.26,
+    spanGaps: false,
+  };
+}
+
+function renderTrendCharts() {
+  if (typeof Chart === "undefined") return;
+  destroyTrendCharts();
+  document.querySelectorAll(".trend-canvas[data-game-id]").forEach((canvas) => {
+    const gameId = canvas.dataset.gameId;
+    const game = state.catalog.games.find((item) => item.id === gameId);
+    if (!game) return;
+    const phases = game.phases.filter(phaseMatches).sort((a, b) => a.start.localeCompare(b.start));
+    const available = phases.filter((phase) => completeVideoMetrics(phaseVideoMetrics(phase))).length;
+    const counter = document.querySelector(`[data-trend-count="${CSS.escape(gameId)}"]`);
+    if (counter) counter.textContent = available ? `${available} 个有数据节点` : "暂无统计";
+    if (!available) {
+      canvas.parentElement.classList.add("is-empty");
+      canvas.parentElement.insertAdjacentHTML("beforeend", '<div class="trend-empty">暂无可用的版本传播统计</div>');
+      return;
+    }
+    const chart = new Chart(canvas, {
+      type: "line",
+      data: {
+        labels: phases.map((phase) => `${phase.version}${phase.phase}`),
+        datasets: [
+          trendDataset("视频总数", "video_count", "#3157D5", "yVideos", phases),
+          trendDataset("视频总播放量", "total_views", "#16825D", "yViews", phases),
+          trendDataset("视频总评论数", "total_comments", "#D97706", "yComments", phases),
+        ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: "index", intersect: false },
+        plugins: {
+          legend: { position: "top", align: "start", labels: { usePointStyle: true, boxWidth: 8, boxHeight: 8, padding: 12, font: { size: 10 } } },
+          tooltip: {
+            filter: (item) => item.raw !== null,
+            callbacks: {
+              label: (item) => `${item.dataset.label}：${Number(item.raw).toLocaleString("zh-CN")}`,
+              afterBody: (items) => {
+                const phase = phases[items[0]?.dataIndex];
+                const source = phaseVideoMetrics(phase)?.source;
+                return source ? `口径：${source}` : "";
+              },
+            },
+          },
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 7, color: "#8b95a7", font: { size: 9 } } },
+          yViews: { position: "left", beginAtZero: true, grid: { color: "#edf0f5" }, ticks: { color: "#16825D", callback: (value) => formatMetric(value), font: { size: 9 } } },
+          yComments: { position: "right", beginAtZero: true, grid: { drawOnChartArea: false }, ticks: { color: "#D97706", callback: (value) => formatMetric(value), font: { size: 9 } } },
+          yVideos: { display: false, beginAtZero: true },
+        },
+      },
+    });
+    state.trendCharts.set(gameId, chart);
+  });
+}
+
 function renderArchive() {
+  destroyTrendCharts();
   const selectedGames = state.catalog.games.filter((game) => state.game === "all" || game.id === state.game);
   const panels = [];
   let resultCount = 0;
@@ -247,6 +390,7 @@ function renderArchive() {
   elements.archiveGrid.innerHTML = panels.length
     ? panels.join("")
     : '<div class="empty-results">没有找到符合条件的版本。请尝试清除筛选条件。</div>';
+  requestAnimationFrame(renderTrendCharts);
 }
 
 function populateFilters() {
@@ -373,12 +517,17 @@ function bindEvents() {
 
 async function init() {
   try {
-    const response = await fetch(CATALOG_URL, { cache: "no-store" });
-    if (!response.ok) throw new Error(`目录读取失败：HTTP ${response.status}`);
-    state.catalog = await response.json();
+    const [catalogResponse, metricsResponse] = await Promise.all([
+      fetch(CATALOG_URL, { cache: "no-store" }),
+      fetch(VERSION_METRICS_URL, { cache: "no-store" }),
+    ]);
+    if (!catalogResponse.ok) throw new Error(`目录读取失败：HTTP ${catalogResponse.status}`);
+    state.catalog = await catalogResponse.json();
     if (state.catalog.schema_version !== 1 || !Array.isArray(state.catalog.games)) {
       throw new Error("目录格式不受支持");
     }
+    if (metricsResponse.ok) applyImportedMetrics(state.catalog, await metricsResponse.json());
+    await hydratePhaseMetrics(state.catalog);
     elements.updateBadge.textContent = `数据更新：${state.catalog.updated_at}`;
     elements.footerUpdated.textContent = `目录更新时间：${state.catalog.updated_at}`;
     populateFilters();
