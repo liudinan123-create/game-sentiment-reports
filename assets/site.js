@@ -322,8 +322,11 @@ function renderTrendCharts() {
     const gameId = canvas.dataset.gameId;
     const game = state.catalog.games.find((item) => item.id === gameId);
     if (!game) return;
-    const phases = game.phases.filter(phaseMatches).sort((a, b) => a.start.localeCompare(b.start));
-    const available = phases.filter((phase) => completeVideoMetrics(phaseVideoMetrics(phase))).length;
+    const phases = game.phases
+      .filter(phaseMatches)
+      .filter((phase) => completeVideoMetrics(phaseVideoMetrics(phase)))
+      .sort((a, b) => a.start.localeCompare(b.start));
+    const available = phases.length;
     const counter = document.querySelector(`[data-trend-count="${CSS.escape(gameId)}"]`);
     if (counter) counter.textContent = available ? `${available} 个有数据节点` : "暂无统计";
     if (!available) {
