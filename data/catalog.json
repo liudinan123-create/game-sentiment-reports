@@ -4756,7 +4756,20 @@
               "type": "new-char"
             }
           ],
-          "reports": {},
+          "video_metrics": {
+            "video_count": 344,
+            "total_views": 33005293,
+            "total_comments": 124030,
+            "updated_at": "2026-08-10",
+            "source": "B站关键词多查询；统计区间2026-08-09至2026-08-10；相关视频最低播放量大于100；汇总全部相关视频"
+          },
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "data_source": "data/reports/endfield-1.4-lower-zh.json",
+              "download_name": "终末地-1.4下半-B站_舆情分析报告.html"
+            }
+          },
           "confidence": "official",
           "sources": [
             {
