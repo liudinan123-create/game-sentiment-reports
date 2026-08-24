@@ -4769,6 +4769,11 @@
               "data_source": "data/reports/endfield-1.4-lower-zh.json",
               "download_name": "终末地-1.4下半-B站_舆情分析报告.html"
             },
+            "en": {
+              "status": "ready",
+              "data_source": "data/reports/endfield-1.4-lower-en.json",
+              "download_name": "终末地-1.4下半-英语_舆情分析报告.html"
+            },
             "ja": {
               "status": "ready",
               "data_source": "data/reports/endfield-1.4-lower-ja.json",
