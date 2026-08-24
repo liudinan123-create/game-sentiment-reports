@@ -4768,6 +4768,11 @@
               "status": "ready",
               "data_source": "data/reports/endfield-1.4-lower-zh.json",
               "download_name": "终末地-1.4下半-B站_舆情分析报告.html"
+            },
+            "ja": {
+              "status": "ready",
+              "data_source": "data/reports/endfield-1.4-lower-ja.json",
+              "download_name": "终末地-1.4下半-日语_舆情分析报告.html"
             }
           },
           "confidence": "official",

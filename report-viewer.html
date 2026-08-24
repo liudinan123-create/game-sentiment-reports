@@ -233,6 +233,7 @@ function renderReport(){
   }
   const p=a.sentiments.positive.percent,n=a.sentiments.negative.percent;
   document.querySelector('.donut').style.background=`conic-gradient(var(--positive) 0 ${p}%,var(--negative) ${p}% ${p+n}%,var(--neutral) ${p+n}% 100%)`;
+  document.querySelector('.donut').setAttribute('aria-label',`正面${p.toFixed(1)}%，负面${n.toFixed(1)}%，中性${a.sentiments.neutral.percent.toFixed(1)}%`);
   document.querySelector('.donut-center b').textContent=Number(a.total_comments).toLocaleString();
   document.querySelector('.legend').innerHTML=`<span><i class="p"></i>正面 ${p.toFixed(1)}%</span><span><i class="n"></i>负面 ${n.toFixed(1)}%</span><span><i class="u"></i>中性 ${a.sentiments.neutral.percent.toFixed(1)}%</span>`;
   const maxKeyword=Math.max(...a.keywords.map(k=>k.count),1);
