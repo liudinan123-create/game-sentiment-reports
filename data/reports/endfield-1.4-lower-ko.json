@@ -8,7 +8,7 @@
     "date_start": "2026-08-09",
     "date_end": "2026-08-10",
     "platform": "YouTube（韩语检索）",
-    "generated_at": "2026-08-24T16:53"
+    "generated_at": "2026-08-24T17:20"
   },
   "analysis": {
     "total_comments": 852,
@@ -21,16 +21,16 @@
     },
     "sentiments": {
       "positive": {
-        "count": 372,
-        "percent": 43.7
+        "count": 330,
+        "percent": 38.7
       },
       "negative": {
-        "count": 115,
-        "percent": 13.5
+        "count": 154,
+        "percent": 18.1
       },
       "neutral": {
-        "count": 365,
-        "percent": 42.8
+        "count": 368,
+        "percent": 43.2
       }
     },
     "keywords": [
@@ -79,232 +79,247 @@
       {
         "name": "商业化",
         "total": 170,
-        "positive_percent": 47.6,
-        "negative_percent": 20.6,
-        "neutral_percent": 31.8
+        "positive_percent": 39.4,
+        "negative_percent": 27.1,
+        "neutral_percent": 33.5
       },
       {
         "name": "其他讨论",
         "total": 161,
-        "positive_percent": 46.0,
-        "negative_percent": 6.2,
-        "neutral_percent": 47.8
+        "positive_percent": 38.5,
+        "negative_percent": 9.9,
+        "neutral_percent": 51.6
       },
       {
         "name": "战斗体验",
         "total": 158,
         "positive_percent": 29.1,
-        "negative_percent": 12.0,
-        "neutral_percent": 58.9
+        "negative_percent": 19.6,
+        "neutral_percent": 51.3
       },
       {
         "name": "社区生态",
         "total": 119,
-        "positive_percent": 63.9,
-        "negative_percent": 10.1,
-        "neutral_percent": 26.1
+        "positive_percent": 58.0,
+        "negative_percent": 12.6,
+        "neutral_percent": 29.4
       },
       {
         "name": "角色讨论",
         "total": 71,
-        "positive_percent": 45.1,
+        "positive_percent": 40.8,
         "negative_percent": 7.0,
-        "neutral_percent": 47.9
+        "neutral_percent": 52.1
       },
       {
         "name": "视觉表现",
         "total": 39,
-        "positive_percent": 53.8,
-        "negative_percent": 23.1,
-        "neutral_percent": 23.1
+        "positive_percent": 46.2,
+        "negative_percent": 28.2,
+        "neutral_percent": 25.6
       },
       {
         "name": "养成资源",
         "total": 34,
-        "positive_percent": 23.5,
-        "negative_percent": 11.8,
-        "neutral_percent": 64.7
+        "positive_percent": 20.6,
+        "negative_percent": 17.6,
+        "neutral_percent": 61.8
       },
       {
         "name": "竞品讨论",
         "total": 28,
-        "positive_percent": 17.9,
-        "negative_percent": 21.4,
-        "neutral_percent": 60.7
+        "positive_percent": 21.4,
+        "negative_percent": 25.0,
+        "neutral_percent": 53.6
       },
       {
         "name": "技术体验",
         "total": 28,
-        "positive_percent": 28.6,
-        "negative_percent": 32.1,
-        "neutral_percent": 39.3
+        "positive_percent": 35.7,
+        "negative_percent": 35.7,
+        "neutral_percent": 28.6
       },
       {
         "name": "剧情内容",
         "total": 22,
-        "positive_percent": 36.4,
+        "positive_percent": 13.6,
         "negative_percent": 9.1,
-        "neutral_percent": 54.5
+        "neutral_percent": 77.3
       }
     ],
     "pipeline_metrics": {
-      "insight_input_positive": 168,
-      "insight_input_negative": 112,
-      "insight_input_neutral": 156,
-      "estimated_insight_input_tokens": 7360,
-      "agent_labeled_count": 400,
+      "insight_input_positive": 180,
+      "insight_input_negative": 150,
+      "insight_input_neutral": 168,
+      "estimated_insight_input_tokens": 8132,
+      "agent_labeled_count": 852,
       "translated_quote_count": 90,
-      "estimated_agent_tokens": 8195,
+      "estimated_agent_tokens": 8132,
       "quality_gate": {
-        "thresholds": {
-          "validation_accuracy": 0.85,
-          "per_class_precision": 0.8,
-          "per_class_recall": 0.8,
-          "high_confidence_audit_error": 0.08,
-          "model_rule_conflict": 0.15
-        },
-        "decision": "finalized",
-        "stage": 2,
-        "trigger_reasons": [],
-        "precise_label_cap": 400,
-        "agent_labeled_count": 400,
-        "current_batch_by_provisional_group": {
-          "positive": 40,
-          "negative": 0,
-          "neutral": 40
-        },
-        "estimated_sentiment_label_tokens": 835,
+        "decision": "finalized_full_precision",
+        "stage": "full_precision_revision",
+        "precise_label_cap": 852,
+        "agent_labeled_count": 852,
         "remaining_budget": 0,
         "validation": {
           "status": "ok",
-          "validation_count": 29528,
-          "validation_accuracy": 0.611352,
+          "validation_scope": "原模型标签与852条最终Agent精标/交叉复核标签比较",
+          "validation_count": 852,
+          "validation_accuracy": 0.602113,
           "per_class_precision": {
-            "positive": 0.592156,
-            "negative": 0.602726,
-            "neutral": 0.629859
+            "positive": 0.577103,
+            "negative": 0.6,
+            "neutral": 0.634218
           },
           "per_class_recall": {
-            "positive": 0.575817,
-            "negative": 0.610166,
-            "neutral": 0.634658
+            "positive": 0.748485,
+            "negative": 0.331169,
+            "neutral": 0.584239
           },
           "per_class_f1": {
-            "positive": 0.583872,
-            "negative": 0.606423,
-            "neutral": 0.632249
+            "positive": 0.651715,
+            "negative": 0.426778,
+            "neutral": 0.608204
           },
           "per_class_support": {
-            "positive": 7683,
-            "negative": 9640,
-            "neutral": 12205
+            "positive": 330,
+            "negative": 154,
+            "neutral": 368
           },
           "confusion_matrix": [
             [
-              4424,
-              1283,
-              1976
+              247,
+              10,
+              73
             ],
             [
-              1182,
-              5882,
-              2576
+              52,
+              51,
+              51
             ],
             [
-              1865,
-              2594,
-              7746
+              129,
+              24,
+              215
             ]
           ],
           "label_order": [
             "positive",
             "negative",
             "neutral"
-          ],
-          "cv_folds": 5
+          ]
         },
         "audit": {
-          "high_confidence_audit_count": 5,
-          "high_confidence_audit_error": 0.0,
-          "model_rule_conflict": 0.576291
+          "prior_precise_reviewed_count": 400,
+          "prior_precise_agreement_count": 364,
+          "prior_precise_disagreement_count": 36,
+          "prior_precise_agreement_rate": 0.91,
+          "adjudicated_count": 36,
+          "old_to_audit_matrix": {
+            "positive": {
+              "positive": 130,
+              "negative": 0,
+              "neutral": 9
+            },
+            "negative": {
+              "positive": 0,
+              "negative": 101,
+              "neutral": 9
+            },
+            "neutral": {
+              "positive": 11,
+              "negative": 7,
+              "neutral": 133
+            }
+          }
+        },
+        "final_counts": {
+          "positive": 330,
+          "neutral": 368,
+          "negative": 154
+        },
+        "source_counts": {
+          "agent_cross_verified": 364,
+          "agent_adjudicated": 36,
+          "agent_full_precision": 452
         }
       }
     }
   },
   "generated": {
-    "overall_conclusion": "梨诺的必抽吸引力、对장방이与自然队的强化获得认可，但专武依赖、定位争议和装备管理负担突出，最需关注连续保底与歪卡叠加的资源焦虑。",
+    "overall_conclusion": "梨诺的抽取吸引力及对方一、自然队的强化获认可；专武依赖、属性门槛与歪池压力拖累体验，最需关注专武绑定及付费升级焦虑。",
     "sentiments": {
       "positive": {
-        "summary": "正向舆情集中在梨诺抽取收获与角色吸引力、对장방이及自然队的显著增益，以及主播抽卡和高质量角色内容带来的社区欢乐反馈。",
+        "summary": "全量精标后的正向反馈主要来自梨诺的顺利出货与必抽吸引力、对장방이及自然队的显著增益，以及主播抽卡和高投入角色内容带来的社区热烈互动。",
         "topics": [
           {
             "rank": 1,
             "title": "梨诺顺利出货与必抽吸引力",
-            "detail": "玩家大量分享免费抽、首十连或较低抽数获得梨诺的喜悦，也因她的外形、队伍适配和角色吸引力将其列为必抽目标；顺利出货明显放大了卡池的正向体验。",
-            "count": 51,
-            "share_percent": 13.7097,
+            "detail": "玩家集中分享免费抽、首十连和较低抽数获得梨诺的喜悦，并因她的队伍适配、外形和角色吸引力形成明确必抽意愿；顺利出货进一步强化了版本卡池的正向体验。",
+            "count": 46,
+            "share_percent": 13.9394,
             "quotes": [
               "just got arcane from liino banner, then got her at 100th pull. for someone who only pulls when have enough for a guarantee...feels good man!",
-              "i got liino in the first 10 pull! 😊 i'm so happy, arcane took 120 pulls and i was pretty much broke after that banner 😅",
               "i got her on my first free pull 😭😭 i just logged in yesterday to claim the free pulls so of course i need to upgrade her now",
+              "i got liino in the first 10 pull! 😊 i'm so happy, arcane took 120 pulls and i was pretty much broke after that banner 😅",
               "got her in 20 pulls just using the free pulls, discount pulls and dossier. si is guaranteed baby! but now my zhuang will feel more clean.",
               "got her and 1 copy of arcane in 40 pulls. life is good. hope that we will have info about si's banner soon since i don't have enough resource to raise another temp team for arcane mdps.",
-              "got her in my first 10pull with the free timelimited tickets after going to 60 for arcane lol guess ill get sui then... game really wants to build nature team 😂",
+              "i was waiting for liino for my fangyi but regreted skipping for arcane, but got arcane on the 50/50 and could be more happier now i have 2 operators that i want",
               "must pull :d",
-              "i got her early yay",
-              "리노 뽑고 정독합니다!",
-              "이거 보고 결시작 뉴비 리노뽑았다"
+              "30 pulls hell yeah",
+              "im lucky i pulled her twice early, time to save my remaining liths",
+              "리노는 착해 총 50트만에 리노랑 무기도 나오다니"
             ],
             "quote_translations": [
               "刚在梨诺卡池抽到弧光，随后第100抽拿到梨诺；我只在资源够保底时抽卡，这次感觉真不错！",
-              "第一个十连就抽到梨诺了，我太开心了；弧光之前花了120抽，那个卡池几乎让我破产。",
               "第一次免费抽就拿到她了；我昨天只是登录领免费抽，所以现在当然得把她培养起来。",
+              "第一个十连就抽到梨诺了，我太开心了；弧光之前花了120抽，那个卡池几乎让我破产。",
               "只用免费抽、折扣抽和档案奖励，20抽就拿到她；烬已经稳了，我的庄队也会更顺畅。",
               "40抽拿到她和一只弧光，感觉真好；希望尽快公布烬的卡池，因为我没有资源再养一套弧光主C临时队。",
-              "弧光花了60抽后，我用限时免费券首个十连就抽到她；看来接下来能抽隋了，游戏真的想让我组自然队。",
+              "我一直等梨诺来配方仪，也后悔为了弧光跳过角色；但弧光50/50也出了，现在两个想要的干员都有了，开心得不能再开心。",
               "必抽。",
-              "很早就抽到她了，太好了！",
-              "抽到梨诺后再来认真看攻略！",
-              "看完这个视频，刚从结入坑的新人去抽了梨诺。"
+              "30抽拿下，太爽了！",
+              "我运气很好，很早就抽到她两次；现在可以保存剩余资源了。",
+              "梨诺真友好，总共50抽就把梨诺和武器都拿到了。"
             ]
           },
           {
             "rank": 2,
             "title": "梨诺强化장방이与自然队配队",
-            "detail": "玩家普遍认可梨诺在장방이、结和佩丽卡相关队伍中的辅助价值：增伤、治疗与属性联动显著提升输出和容错，部分体验甚至认为强度提升过大；围绕未来自然队的抽取规划也随之升温。",
-            "count": 41,
-            "share_percent": 11.0215,
+            "detail": "玩家认可梨诺在장방이、结和佩丽卡相关队伍中的增伤、治疗与属性联动价值，认为她显著提高输出和站桩容错；与此同时，对未来自然队角色的规划也推动了抽取讨论。",
+            "count": 32,
+            "share_percent": 9.697,
             "quotes": [
               "장방이 파티에 리노 넣어서 한번 써보면 느끼실 겁니다 원래 미쳐 날뛰던 장방이가 리노 넣으니 이게 맞나 싶을 정도로 성능이 얼탱이가 없음 +펠리카 자리 탕탕이로 대체 된다고 했는데 결 조합이랑 헷갈려서 잘못 말했습니다 장방이 파티는 무조건 펠리카 써야해요!",
               "리노는 풀돌-풀재 해야겠다 맘 거의 90프로 먹었는데... 장방이 조합에 들어가면서 딜이 너무 세져서 오히려 약간 재미가 떨어졌다 느낄정도로 파워업한 느낌이듦. 장방이-펠리카를 메인/섭딜로 하는데 진짜 데미지 체감폭이 엄청 커짐. 그래서 이거저거 써보다 결 메인으로 굴리는 조합으로 결질펠리 써봤는데 이게 딜도 좋고 손맛도 좀 있고 괜찮아보임. 카뮤도 넣으니 좋던데 질베 넣었을때보다 약한 느낌. 그래도 재밌게함. 암튼 장방이 이후로 성능이 아주 만족스럽게 체감되는 오퍼레이터라 아주 좋아 p.s 그리고 시롤이 잘뽑아줘서 더 맘에 드는듯🎉",
               "아니 리노 넣으면... 장방이 성능이 너무 좋아져서 진짜 너무하다 싶음",
-              "장방이 결 이본만 뽑아놔서 리노 나오니까 너무좋음",
               "리노 넣고 생체 세트 끼니까 장방이가 맞으면서 딜해도 안아픔 ᄏᄏ",
+              "장방이 결 이본만 뽑아놔서 리노 나오니까 너무좋음",
               "장방이 서폿결 리노 조합이 강하긴 강한게 조작감이 좀 그래서 결 메인딜 너무조아",
-              "make 장방이 great again!",
               "장방이의 완성을 위해 뽑아야겠네요! 좋은 정보 고마워요~",
               "일단 버퍼인데 힐러라는점이 ᅲ 폰엔필 하다보면 회피도 하기싫은 만사 귀찮을때 있는데 리노뽑고 그냥 장방이 맞딜쳐도 현재 컨텐츠 풀별하더라구요 편해요 편해",
-              "다 명함 전무인데 결 50만딜 처음 보네요ᄃᄃ장비 단조 재료 구매 수량을 다써서 아직 장비 단조가 안돼있는데두 말이죠, 마스터리도 거의 안되어있고... 장방이파티에서 서폿 결이랑 같이 써봐야겠습니다"
+              "난 원래 밍순이 때문에 결 + 리노 둘다 거를까도 생각해봤는데 뽑아보니까 생각이 바뀜. 둘 합쳐서 뽑기를 많이 소진하긴 해서, 아쉽긴 하지만 결 / 장방이 메인 쓸거면 주인장 말대로 거의 필수급이라고 생각함. 밍순이는 돈좀 과금하면 120뽑 모을 수 있으니까... 모션도 이쁘고 해서 절대 후회는 안할듯. 성능이 뱅가드 + 힐러 + 서폿(딜증폭) 다 압축에다가 감전도 거는 캐스터 역할까지. 얘하나가 수행하는 역할이 너무너무많음.",
+              "자연스트라이커 밍순이를 위한 빅픽쳐 ... 결 리노는 무적권 뽑는다"
             ],
             "quote_translations": [
               "把梨诺放进장방이队试一次就能感受到，原本就很强的장방이获得了夸张提升；同时更正，장방이队必须使用佩丽卡，不能用唐棠替代。",
               "我已有九成想把梨诺满潜满精；她进入장방이队后伤害提升巨大，甚至强到略微降低乐趣。尝试结主C等组合后，整体输出和手感都不错，梨诺是장방이之后强度体感最令人满意的干员。",
               "把梨诺放进去后，장방이的性能好得有些过分。",
-              "我之前只抽了장방이、结和伊冯，梨诺上线让我非常开心。",
               "梨诺配生体套后，장방이可以顶着攻击输出也不觉得疼。",
+              "我之前只抽了장방이、结和伊冯，梨诺上线让我非常开心。",
               "장방이、辅助结和梨诺的组合确实很强；虽然操作手感略有问题，但结主C非常好用。",
-              "让장방이再次伟大！",
               "为了让장방이队完整，我看来得抽梨诺了；谢谢这份好信息。",
               "她既是增益辅助又能治疗；手机玩时懒得闪避，抽到梨诺后让장방이直接站桩也能满星通关当前内容，非常省心。",
-              "全队都只是本体加专武，我第一次看到结打出50万伤害；装备和精通还没完成，之后想在장방이队里和辅助结一起试试。"
+              "我原本为了밍순이想跳过结和梨诺，但抽到后改变了想法；如果主玩结或장방이，她几乎是必需角色，集先锋、治疗、增伤辅助和感电于一身。",
+              "这是为自然强攻型밍순이铺的大棋；结和梨诺一定要抽。"
             ]
           },
           {
             "rank": 3,
             "title": "主播抽卡与梨诺内容引发欢乐社区反馈",
-            "detail": "围绕主播抽卡出货、直播反应和连续发布梨诺内容，社区以大量笑声、祝贺和玩梗互动回应；同时，角色模型、爱心细节、终结技镜头及四语完整MV的高投入也获得明显认可。",
-            "count": 30,
-            "share_percent": 8.0645,
+            "detail": "社区围绕主播抽卡出货、直播反应和连续发布梨诺内容进行祝贺与玩梗；角色模型、爱心细节、终结技镜头、技能强度及四语完整MV的高投入也得到明显认可。",
+            "count": 25,
+            "share_percent": 7.5758,
             "quotes": [
               "잡을 땐 또 기가 막히게 잡네 ᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏ",
               "이게 완벽한 조련이지 ᄏᄏᄏᄏᄏᄏᄏᄏ",
@@ -333,197 +348,197 @@
         ]
       },
       "negative": {
-        "summary": "韩语检索负面舆情的前三个全量语义簇显示，玩家一方面质疑梨诺的专武依赖、战斗定位和角色设计，另一方面持续抱怨装备预设等基础体验缺失；反复触发保底、连续歪卡和资源不足又放大了抽卡压力，并让部分玩家产生跳过或退坑意愿。",
+        "summary": "全量精标修订后的韩语负面舆情主要落在三处：梨诺专武与属性门槛放大付费压力，连续保底和歪卡让玩家资源枯竭且质疑实战收益，工厂负担、装备预设缺失及剧情演出问题进一步削弱游玩意愿。",
         "topics": [
           {
             "rank": 1,
-            "title": "梨诺专武依赖、战斗定位与角色设计引发跳过意愿",
-            "detail": "最大负面簇集中讨论梨诺在缺少专武时的强度落差、意志属性门槛、对旧辅助角色的替代，以及偶像定位和外观设计不合口味。玩家认为支持角色也被绑定高成本专武，部分人因此直接选择跳过。",
+            "title": "梨诺专武依赖、属性门槛与战斗定位受到集中质疑",
+            "detail": "最大负面簇覆盖梨诺抽卡、配装与角色评价。核心意见包括专武相对替代品过强、1500意志难以达到、缺专武时强度落差明显，以及唱歌期间无法闪避攻击带来的生存风险；部分玩家因此要求重做武器池或直接跳过。",
             "count": 36,
-            "share_percent": 31.3043,
+            "share_percent": 23.3766,
             "quotes": [
+              "ake devs should stop making sig weapons so overpowered compared to other choices... not that you have a choice if you didnt purchase the batte pass, but if you do not have the limited weapon, you are so weak it's unreal. idk why are they keep doing this sh1t. atk is such a strong stat rn in the game and you made a weapon that gives you 22%? the battle pass is not even giving any atk like wtf. one of the many reasons why this game is in a sharp decline.",
+              "if the gacha system in this wasn't so awful i'd try to pull for her but as it is its just a waste of time. i hope the devs eventually wake up and realise not letting the pity carry over is costing them money.",
+              "that she can't dodge and atk during her song is worrying, it's a way bigger downside than it might sound like. for the easy stuff she definitely is a qol character, but for the hard things, idk if her healing and buffs will be enough to keep her alive for multiple waves or boss rounds. could become pretty random if she stays alive or not xd depending on the ai's movement.",
               "i really hate weapon banner, wonfor liino and now i cant get her weapon, and no alternatives because battlepass went for arcane",
-              "they need to buff the 0.04 per will thing, it's impossible to get 1500 will 😭",
-              "up to 60% amp, bruh. gilberta is so dead",
-              "man, this waepon banner need rework as soon as possible.",
-              "why is no one talking about the horrible weapon system?! 😭",
               "so if i won't go for a sig shes worse then a 4 star on arcane team? great game design!",
-              "a lil bit boring and cliche operator imho, imma skip for si 😊",
-              "i realy dont like idols, should stayed in story, not on front line",
-              "15% worse weapon on a support and in a weapon gacha system like endfield's is horrible",
-              "ake devs should stop making sig weapons so overpowered compared to other choices... not that you have a choice if you didnt purchase the batte pass, but if you do not have the limited weapon, you are so weak it's unreal. idk why are they keep doing this sh1t. atk is such a strong stat rn in the game and you made a weapon that gives you 22%? the battle pass is not even giving any atk like wtf. one of the many reasons why this game is in a sharp decline."
+              "they need to buff the 0.04 per will thing, it's impossible to get 1500 will 😭",
+              "she really has that main character energy after taking me to 120 pulls.",
+              "man, this waepon banner need rework as soon as possible.",
+              "i am so glad i dropped this game. terrible combat, terrible gacha system. carried only by factory system. this game doesnt respect your time.",
+              "how the fuck do you have over 1050 will? i cant get it wtf? im capped at 1000"
             ],
             "quote_translations": [
-              "我真的讨厌武器池。梨诺是抽到了，但现在拿不到她的武器，也没有替代品，因为通行证武器已经给 Arcane 了。",
-              "他们需要加强每点意志 0.04 的换算，1500 意志根本不可能达到。",
-              "最高能有 60% 增幅，兄弟，吉尔伯塔彻底没位置了。",
+              "开发者应该停止让专武比其他选择强得过分。没买通行证时几乎没有选择，没有限定武器角色就弱得离谱；攻击力如此重要，他们却做出提供22%攻击的武器，而通行证武器连攻击都不给。这是游戏明显下滑的原因之一。",
+              "如果抽卡系统没这么糟，我会尝试抽她；但现在只是浪费时间。希望开发者意识到保底不继承正在让他们损失收入。",
+              "她唱歌时不能闪避和攻击，这一点很令人担忧，负面影响比看起来更大。简单内容里她确实方便，但高难多波次或Boss战中，治疗和增益是否足以让她存活很随机，还取决于AI移动。",
+              "我真的讨厌武器池。梨诺抽到了，但拿不到她的武器，也没有替代品，因为通行证武器已经给了Arcane。",
+              "所以不抽专武的话，她在Arcane队里甚至不如四星？真是优秀的游戏设计。",
+              "应该加强每点意志0.04的换算，1500意志根本不可能达到。",
+              "让我抽到120抽后，她确实很有主角气场。",
               "这个武器池必须尽快重做。",
-              "为什么没人讨论这个糟糕的武器系统？",
-              "所以如果不抽专武，她在 Arcane 队里甚至不如四星？真是优秀的游戏设计。",
-              "在我看来，她的技能组和设计都有点平庸套路，我准备跳过她等 Si。",
-              "我真的不喜欢偶像角色，她应该留在剧情里，而不是上前线。",
-              "辅助角色的替代武器还差 15%，放在终末地这种武器抽卡系统里实在糟糕。",
-              "开发者该停止让专武比其他选择强得过分。没买通行证时甚至没有选择；没有限定武器，角色就弱得离谱。攻击力这么强，他们却做了提供 22% 攻击的武器，而通行证武器连攻击都不给。这是游戏明显下滑的原因之一。"
+              "我很庆幸自己退坑了。战斗糟、抽卡系统也糟，只剩工厂系统撑着，而且游戏不尊重玩家时间。",
+              "你到底怎么超过1050意志的？我完全做不到，最多只能到1000。"
             ]
           },
           {
             "rank": 2,
-            "title": "装备管理缺失与长期抽卡挫败加重游玩负担",
-            "detail": "第二大负面簇同时反映了系统和社区体验压力：玩家希望将工厂负担与角色演出分离、补充装备预设，并要求攻略明确展示满潜或低配条件；长期全保底和连续歪卡则直接促成退坑及自嘲。",
-            "count": 17,
-            "share_percent": 14.7826,
+            "title": "连续保底、歪卡与专武付费升级造成资源焦虑",
+            "detail": "第二大负面簇以韩语短评集中记录未出货、双保底、多游戏连续歪卡和专武逐渐必需化。部分玩家同时发现将梨诺替换进队后通关时间没有变化，从而质疑持续追加投入的回报，并出现退坑念头。",
+            "count": 23,
+            "share_percent": 14.9351,
             "quotes": [
+              "안나왓다고...!",
+              "쌍천장 쳐서 아픕니다...",
+              "이럴거면 패스무기 존재 이유가 뭔지...",
+              "안된다... 엔필은 여기서 더 늘어나면 감당이 안된다. .",
+              "엔필 초반이랑 다르게 가면 갈수록 전무가 필수급이 되네요 결국 명전도 돈을 점점 더 많이 질러야겠구나...",
+              "전무가 본체급이라 쌀먹이 안된다는게 유일한 단점...",
+              "리노야 노래하는건 좋은데 왜 천장이야...",
+              "명조,엔필 픽뜷4번째...",
+              "뭐지 대체?... 아델 빼고 리노넣었는데 클리어타임이 똑같은데?...",
+              "카뮤 2픽뚫이 나고 결국 못뽑고 이번 신케 뽑을려니깐 1픽뚫이 났습니다...예...음...접을까? ᅲ"
+            ],
+            "quote_translations": [
+              "就是没抽到啊！",
+              "吃了双保底，很痛苦。",
+              "这样的话，通行证武器存在的意义到底是什么？",
+              "不行，终末地再继续增加负担的话，我真的承受不住了。",
+              "和开服时不同，越往后专武越接近必需品，最终连零潜加专武都要投入越来越多的钱。",
+              "唯一缺点是专武几乎等于角色本体，根本没法低成本玩。",
+              "梨诺，你唱歌是很好，但为什么偏偏让我吃满保底？",
+              "鸣潮和终末地加起来已经是第四次歪卡了。",
+              "到底怎么回事？把Adele换成梨诺后，通关时间竟然完全一样。",
+              "连续两次歪到Camille，最后还是没抽到；这次抽新角色又歪了一次。嗯……要不要退坑？"
+            ]
+          },
+          {
+            "rank": 3,
+            "title": "工厂负担、装备预设缺失与剧情演出问题削弱游玩意愿",
+            "detail": "第三大负面簇体现系统与内容层面的综合不满：玩家希望工厂玩法不要挤压角色和演出体验，要求补充装备预设并明确攻略测试条件；同时对Bug、故事质量、角色设计突兀和观看比亲自游玩更有趣等问题表达失望。",
+            "count": 19,
+            "share_percent": 12.3377,
+            "quotes": [
+              "easy skip for me",
               "엔필아 공장은 따로빼서 공장장이들 전용으로 만들자 우린 저 캐디랑 연출에 집중하게해줘",
+              "bug field",
               "멀리서 보기만 할때 가장 재밌는 게임",
               "아니 님 장비가 6:16 풀단조 장비가 수십개 있는거 뭐에요? 똑같은 오픈유저고 맨날 단조제 다사도 필요한 장비만 단조하는데 이분은 뭔 핵이라도 쓴거마냥 같은장비 풀단조가 주르륵 있는거 말안되는데? 아니 풀돌풀재를 많이하면 관리권을 더주는 그런것도 아닐텐데 진짜 어케한거지... 해명부탁합니다!",
               "해묘야 장비 프리셋 좀 넣어다오",
               "제발 프리셋 기능좀 ᅲᅲᅲᅲᅲᅲᅲ",
               "플돌인지 명전인지 얘기해줘야 하는거 아닌가요 대부분 명전일텐데 아무나 풀돌하는거 아니잖아요",
-              "그래도 건담다리는 용서못함",
-              "난 이번까지 전 픽업 천장쳤어 먼저 접을게 ᅲ",
-              "본인 미브 픽업때 유입했음 로시 놓친걸 후회 미브 명함뽑고 로시 픽뚫 리스트에 있길래 뇌빼고 들어감 진심 픽뚫 한번도 안나고 미브 풀돌했음 바로 접음",
-              "10연속 픽뚫 아쉬우면 개추"
+              "리노야 너 이쁜건 알겠는데 스토리 작가들 빠따좀 치고와라 이게 뭐니",
+              "공장 때문에 이미 망했어요"
             ],
             "quote_translations": [
-              "终末地，把工厂单独拆出去给喜欢经营工厂的人吧，让我们专注于角色设计和演出。",
+              "对我来说很容易跳过。",
+              "终末地，把工厂单独拆出去给喜欢经营的人吧，让我们专注于角色设计和演出。",
+              "Bug终末地。",
               "这游戏在远处看别人玩的时候最好玩。",
-              "你在 6:16 展示的几十件满锻造装备是怎么回事？我也是开服玩家，每天买完锻造剂也只能做需要的装备；你却像开了外挂一样有一排相同的满锻装备。多抽满潜满精也不会多给管理权限吧，到底怎么做到的？请解释一下。",
+              "你在6:16展示的几十件满锻造装备是怎么回事？我也是开服玩家，每天买完锻造剂也只能做需要的装备；你却像开挂一样有成排相同满锻装备。多抽满潜满精也不会多给管理权限吧，请解释到底怎么做到的。",
               "海猫，求你加入装备预设吧。",
               "拜托加个预设功能吧。",
               "不是应该说明这是满潜还是零潜加专武吗？多数人只有零潜加专武，不是谁都能满潜。",
-              "但那双高达腿我还是无法原谅。",
-              "截至这次，我所有限定池都吃满保底，我先退坑了。",
-              "我是 Mive 卡池入坑的，因为错过 Rossi 很后悔；看到 Rossi 在歪卡列表里就无脑抽，结果一次都没歪，反而把 Mive 抽满潜，然后马上退坑。",
-              "连续十次歪卡，觉得可惜的点个赞。"
-            ]
-          },
-          {
-            "rank": 3,
-            "title": "连续保底与歪卡造成资源焦虑，部分玩家质疑梨诺实战收益",
-            "detail": "第三大负面簇以韩语省略式短评记录抽卡失利：双保底、多游戏连续歪卡、专武越来越接近必需品和资源规模失控。与此同时，有玩家发现替换梨诺后通关时间没有改善，使高投入是否值得受到质疑。",
-            "count": 15,
-            "share_percent": 13.0435,
-            "quotes": [
-              "예뻐서 뽑고는 싶은데 흠... 준네 뭔가 뭔가네",
-              "쌍천장 쳐서 아픕니다...",
-              "안된다... 엔필은 여기서 더 늘어나면 감당이 안된다. .",
-              "엔필 초반이랑 다르게 가면 갈수록 전무가 필수급이 되네요 결국 명전도 돈을 점점 더 많이 질러야겠구나...",
-              "너가 안 왔잖아...",
-              "명조,엔필 픽뜷4번째...",
-              "뭐지 대체?... 아델 빼고 리노넣었는데 클리어타임이 똑같은데?...",
-              "왔다 내 엔필 사전 ... ... ... ... ... 그래서 내 리노는 어디간거지",
-              "아... 모든 픽업 풀천장이라 무기뽑기재화 쌓인게 6만개... 왜 주인장은 오늘 행복엔필인가",
-              "...명조,엔필 4연속픽뜷로 결,장방못뽑고 수수도 못뽑게생김"
-            ],
-            "quote_translations": [
-              "因为漂亮是想抽的，但总觉得哪里很微妙。",
-              "吃了双保底，很痛苦。",
-              "不行，终末地再继续增加负担的话，我真的承受不住了。",
-              "和终末地开服时不同，越往后专武越接近必需品，最终连零潜加专武都要投入越来越多的钱。",
-              "因为你根本没来啊。",
-              "鸣潮和终末地加起来已经是第四次歪卡了。",
-              "到底怎么回事？我把 Adele 换成梨诺，结果通关时间完全一样。",
-              "我的终末地纪录来了……所以我的梨诺到底去哪了？",
-              "唉，所有限定池都吃满保底，所以武器抽卡资源已经攒到六万了；为什么主播今天玩的是幸福终末地？",
-              "鸣潮和终末地连续四次歪卡，导致 Gyeol、Zhuang Fangyi 都没抽到，现在连 Susu 也可能抽不到。"
+              "梨诺，我知道你很漂亮，但能不能先去教训一下剧情编剧，这写的到底是什么？",
+              "游戏已经被工厂玩法毁了。"
             ]
           }
         ]
       },
       "neutral": {
-        "summary": "中性讨论集中在梨诺专武与后续卡池的资源取舍、结和佩丽卡的配装循环，以及장방이队的成员替换与操作顺序，整体以攻略问答和抽取规划为主。",
+        "summary": "中立讨论主要围绕方一队的装备与循环校准、梨诺专武及抽取资源权衡，以及梨诺加入方一队后的配队替换和操作顺序。玩家多以提问、实测补充和条件比较交换攻略信息。",
         "topics": [
           {
             "rank": 1,
-            "title": "梨诺专武、后续卡池与抽取资源取舍",
-            "detail": "玩家反复询问梨诺专武是否必需、通行证武器能否替代，并把本体和专武投入与结复刻、밍순이等后续目标比较，核心是有限抽卡资源下的优先级安排。",
-            "count": 38,
-            "share_percent": 10.4111,
-            "quotes": [
-              "늦어버렸지만 모르겠고 마레 공략쓸게! + 질문은 언제든지 환영입니다! 대신, hype 한번씩 부탁드려요! --- 리노에 대한 개인적인 의견은... '말도 안되는 수준의 버프를 주지만, 체감은 생각보다 그렇지 않다'에 가깝습니다. 사실상 전기 / 자연 속성의 오퍼레이터를 키우지 않겠다고 하시면 채용할 이유가 없을 수준이라고 봅니다 (단순 공증 10%만 봤을 때) 단, 전무를 끼면 공증 수치가 기하급수적으로 높아지기 때문에, 무기를 돌파하실 분들의 입장에서는 진짜 만능급 오퍼가 맞습니다",
-              "전무 필수라는데 그냥 패스 적당히 써도 될듯",
-              "일단 몸은 뽑았는데 전무를 뽑을지 말지 고민인데 페스로 그냥 버텨도 괜찮을까요",
-              "전무는 가능하면 필수임.",
-              "전무랑 전성기 둘 다 없으면 뭐 쓰나요?",
-              "리노뽑아서 기뻐했지만 전무 문제가 있음ᄏᄏ",
-              "풀돌...ᄃᄃ;;근데 전무 3옵은 풀피일때 효과는 못 보는거죠?",
-              "리노 명함 안챙겨도 후회 안할까요?",
-              "잠시 접어서 결 못 뽑았는데 복각은 내년초에라도 할까요? 리노 뽑으면서 2번이나 6성이 떴는데 결이 안 나와서 복각을 노려야 할 것 같은데...",
-              "전무를 뽑으라니... 담버전 밍순이 전무랑 저울질 해봐야겠구만..."
-            ],
-            "quote_translations": [
-              "虽然来晚了，但不管了，我来写攻略，问题随时欢迎。个人看法是：梨诺给的增益夸张，但实际体感没那么明显；若不练电或自然属性角色，单看10%攻击提升甚至缺乏上场理由。不过装上专武后攻击提升会大幅增长，对准备精炼武器的玩家来说确实接近万能辅助。",
-              "都说专武必需，不过感觉用通行证武器凑合也行。",
-              "本体已经抽到了，但还在犹豫要不要抽专武；只用通行证武器撑着可以吗？",
-              "有条件的话，专武基本是必需的。",
-              "专武和‘全盛期’都没有的话该用什么？",
-              "抽到梨诺很开心，但专武成了问题，哈哈。",
-              "满潜……厉害；不过专武第三条效果在满血时是不是吃不到？",
-              "不拿梨诺零潜，以后会不会后悔？",
-              "之前暂时退坑没抽到结，她会在明年初左右复刻吗？抽梨诺时出了两次六星却都不是结，看来只能等复刻了。",
-              "既然要抽专武，那就得和下个版本밍순이的专武权衡一下了。"
-            ]
-          },
-          {
-            "rank": 2,
-            "title": "结与佩丽卡的装备选择及技能循环",
-            "detail": "讨论重点是结四潜前后的充能循环差异、佩丽卡是否必须入队及其武器套装选择，同时延伸到梨诺技能返还、霸体中断和不同队伍的终极技充能配置。",
-            "count": 23,
-            "share_percent": 6.3014,
+            "title": "方一队装备套装与技能循环校准",
+            "detail": "讨论集中于结的突破差异如何改变充能循环、佩丽卡与梨诺的装备套装选择、技能释放顺序及不同队伍条件下的收益换算。玩家会用实战和数值补充攻略中的适用前提。",
+            "count": 41,
+            "share_percent": 11.1413,
             "quotes": [
               "결 궁극기 사이클이 이상하게 안 맞는 분들은 아마 4돌파 미만인 분들일건데 풀돌 기준으로 테스트해서 깜빡하고 설명을 못했네요... 결 4돌 미만은 배연배 배연배 배연\"배\" 까지 하면 궁극기가 찬다고 합니다 쏘리! + 지금 질베르타 없는분들은 질베르타 자리를 자이히or탕탕이로 대체 하셔도 괜찮고 펠리카 육성이 안된분들은 펠리카 자리 탕탕이로 대체하셔도 됩니다 자이히 넣는분들은 장비 식양 풀세트에 방어구 글러브 궁충으로 껴주셔야 하니 참고",
               "실전콤보에서 마지막 결 2차 궁 펠리카 궁 하셨는데 펠리카 궁 다음 결 2차 궁 써도 상관없죠?",
               "사이클이 왜 안떨어지나 했는데 결 4돌에 궁 에너지 감소 달려있네요... 4돌 미만은 배연배 배연배 배연\"배\" 까지 해야 궁 차네요",
               "한가지 장방이팟 펠리카는 황무지를 쓰든가 망각 들고 딜펠 가든가 해야됩니다. 정 없으면 무가내하로 아츠 강도를 챙긴다든가... 망자 공증 옵션은 펠리카와 속성이 다른 캐릭터만 받는거라 장방이는 효과가 없기 때문에",
-              "무조건 펠리카를 파티에 넣는게 좋을까요? 펠리카 하나도 안 키워놔서 곤란쓰한데...",
-              "결이랑 펠리카는 무슨장비를 줘야하나요?",
+              "참고로 오늘에서야 신뢰도 충족으로 확인 가능했던 리노 의지량 고점은 1435 x 0.04% = 전기증폭 57.4% 인것을 확인했습니다 ᄏᄏ 생체 장갑이 아니라 절망 장갑을 가 준다면 의지량이 30 정도 추가되지만 절망 장갑은 배스대미지 증가라서 별로고 생체 장갑은 궁충까지 달려있어서 빠른 궁극기가 중요한 리노 입장에서는 실질적 의지 1435 가 고점이라 생각하면 되겠습니다 :) 참고로 제 유투브에도 올려놨지만 천고 1분컷까지 가능한데 장방이 파티 구성에서는 궁충만 몰빵 했다간 타이밍이 너무 빠른 감이 있어서 ( 장방이 변신이 그래도 얼추 맞아야하니 ) 조합마다 달라지겠지만 장방이 기준에서는 더더욱 생체 세트를 추천",
+              "3:28 리노 궁에도 감전있어서 리노 궁쓰기전에 펠리카 배스로 자연스택 털면 안됩니다 😅",
               "리노가 배틀스킬 게이지를 25 소모하는데 1돌파하면 25를 추가로 반환해주니까 공짜 스킬이잖아?",
-              "2:21 반환말고 회복으로 해주면 안되나 명함이랑 1잠이랑 사이클 달라질거같은데 저거때문에 에충안되면 석나갈듯",
-              "배스 도중에 연계쓰면 다시 배스로 이어져야 되는데 연계 끝나고 배스 다시 쓸때 슈아가 잠시 풀리는건지 지속시간 남아있는데도 맞고 구르는 경우가 있다네요",
-              "굉장히 이제와서지만... 펠리카 장갑을 꼭 식양의 흐름 보호 장갑으로 해야하는 이유가 따로 있는건가요? 펄스식 장갑도 스텟은 똑같은거 같은데 펄스식4셋하지 않고 펄스/식양흐름 3/1 세트로 하는 이유가 혹시 따로 있는건지. 아니면 그냥 새로 만들필요 없이 이미 있는걸 쓸 수 있어서 그렇게 하신건지가 궁금합니다."
+              "굉장히 이제와서지만... 펠리카 장갑을 꼭 식양의 흐름 보호 장갑으로 해야하는 이유가 따로 있는건가요? 펄스식 장갑도 스텟은 똑같은거 같은데 펄스식4셋하지 않고 펄스/식양흐름 3/1 세트로 하는 이유가 혹시 따로 있는건지. 아니면 그냥 새로 만들필요 없이 이미 있는걸 쓸 수 있어서 그렇게 하신건지가 궁금합니다.",
+              "6:11 부가적인 설명을 하자면 엔드필드는 장비 피증이 곱연산이 아닌 합연산이라 개장빙 파티에 한해서 실증가율이 2~3%까지 곤두박질 칩니다(개장빙 궁 25초 식양 효과 15초 + 개장빙 혼자 피증수치가 어마어마해서 식양 효율이 지속시간 고려안해도 4%대) 그래서 펠앜리 조합에서도 명떡님 셋팅과 동일하게 식양보다 생보판 2개들어가는 치유셋이 더 좋습니다(생보판 실증가율 5%) 장펠결리면 애초에 결이 식양 쓰니까 의미x 다만 딜결을 사용한다면 6배스 3연계로 리노 궁이 켜져야하므로 3궁충을 챙겨야하니 식양셋을 쓰는게 좋아보입니다",
+              "장비세팅은 장방이 파티의 경우에는 아츠 이상과 아츠 이상 소모가 빈번하게 나오는 편이라 리노 라이브만 신경 써주면 리노 연계가 자주 나와서 생체 3셋으로 극의지 증폭세팅이 체감상 더 나은거 같은데 아츠 이상을 자주 걸 수 없는 파티의 경우에는 빠른 궁사이클을 위해서 식양궁충이 더 나은 경우도 있을테니 파티에서 아츠 이상을 얼마나 자주쓰냐로 보고 장비 고르면 될듯합니다"
             ],
             "quote_translations": [
-              "结的终极技循环对不上的玩家可能低于四潜；视频按满潜测试所以漏讲了。四潜以下要多打一段循环才能充满。没有吉尔伯塔可用夏希或汤汤替代，没练佩丽卡也可换汤汤；使用夏希时要穿完整食养套，并在护甲和手套上堆终极技充能。",
-              "实战连招最后用了结的第二段终极技再接佩丽卡终极技，那么先用佩丽卡终极技、再用结的第二段也没问题吧？",
-              "我还奇怪循环为什么对不上，原来结四潜有终极技能量消耗降低；四潜以下必须把那段循环再多打一下才能充满。",
-              "장방이队的佩丽卡要么用荒芜，要么拿忘却走输出；实在没有就用武器堆法术强度。亡者的攻击提升只给与佩丽卡属性不同的角色，장방이吃不到。",
-              "一定要把佩丽卡放进队里吗？我完全没练她，所以有点为难。",
-              "结和佩丽卡分别该带什么装备？",
-              "梨诺战斗技能消耗25点槽，一潜又返还25点，那不就等于免费技能吗？",
-              "2:21那里不能把‘返还’改成‘恢复’吗？零潜和一潜的循环看起来会不同，如果因此充不上能量会很难受。",
-              "在演奏中接连携后本应继续演奏，但重新使用演奏时似乎会短暂失去霸体；明明持续时间还在，却可能被打倒翻滚。",
-              "虽然现在才问，佩丽卡手套一定要用食养之流防护手套有什么特别原因吗？脉冲手套数值似乎相同；不用脉冲四件套而采用脉冲/食养3+1，是机制需要，还是只是为了复用已有装备？"
+              "结的终结技循环对不上的人可能是突破低于4。我按满破测试，忘了说明：4破以下需要做到‘战技—连携—战技’三轮并再补一次战技才能充满。没有吉尔伯塔可换赛希或唐棠，佩丽卡没养也可换唐棠；上赛希时建议食养全套，防具和手套带终结技充能。",
+              "实战连招最后用了结的第二段终结技再接佩丽卡终结技，那么先放佩丽卡终结技、再放结的第二段也没关系吧？",
+              "我还在奇怪循环为什么对不上，原来结4破有终结技能量降低。4破以下得做完三轮‘战技—连携—战技’，再补一次战技才能充满。",
+              "补充一点，方一队的佩丽卡应当用荒野，或者拿遗忘走输出佩丽卡；实在没有也可用无可奈何补法术强度。亡者的攻击加成只给与佩丽卡属性不同的角色，所以方一吃不到。",
+              "今天信赖度终于达标，确认梨诺意志上限为1435×0.04%=57.4%电属性增幅。绝望手套虽能多约30意志，但加的是战技伤害；生体手套还有终结技充能，因此1435可视为实用上限。方一队若只堆充能节奏会过快，难与方一变身对齐，所以更推荐生体套。",
+              "3:28 梨诺的终结技也带感电，所以在梨诺开大前不要用佩丽卡战技把自然层数消耗掉。",
+              "梨诺的战斗技能消耗25点技能量，1破又返还25点，所以相当于免费技能吧？",
+              "虽然现在才问，佩丽卡手套一定要用食养之流防护手套有什么特别原因吗？脉冲式手套属性看起来一样；为何不是脉冲4件套，而是脉冲/食养之流3+1？还是只是为了复用已有装备、不必重做？",
+              "补充说明，终末地的装备增伤是加算而非乘算，因此在相关方一队里实际增幅会降到2%—3%。佩丽卡、弧光、梨诺组合也更适合带两块生体辅助板的治疗套；若使用输出结，为让梨诺终结技在6次战技、3次连携后启动，则应堆3条终结技充能，食养套更合适。",
+              "方一队频繁触发和消耗法术异常，只要照顾梨诺的演出机制便能频繁触发连携，体感上生体3件的极限意志增幅更好；若队伍不常触发异常，则食养充能有利于快速终结技循环，应按异常触发频率选装备。"
+            ]
+          },
+          {
+            "rank": 2,
+            "title": "梨诺专武、抽取与资源投入取舍",
+            "detail": "玩家反复比较梨诺专武的增益、通行证武器替代性、专武与其他角色或后续角色的优先级，并结合歪池、保底和养成资源决定抽取深度。",
+            "count": 39,
+            "share_percent": 10.5978,
+            "quotes": [
+              "오늘 리노 뽑아서 비틱 한번만 하겠습니다. 결 50 1돌, 리노 40명함 치고 너무 기뻐서 전무 뽑는데 다 필뚫처나서 확정으로 얻음...",
+              "늦어버렸지만 모르겠고 마레 공략쓸게! + 질문은 언제든지 환영입니다! 대신, hype 한번씩 부탁드려요! --- 리노에 대한 개인적인 의견은... '말도 안되는 수준의 버프를 주지만, 체감은 생각보다 그렇지 않다'에 가깝습니다. 사실상 전기 / 자연 속성의 오퍼레이터를 키우지 않겠다고 하시면 채용할 이유가 없을 수준이라고 봅니다 (단순 공증 10%만 봤을 때) 단, 전무를 끼면 공증 수치가 기하급수적으로 높아지기 때문에, 무기를 돌파하실 분들의 입장에서는 진짜 만능급 오퍼가 맞습니다",
+              "이 영상보고 일단 전무 뽑음",
+              "전무 필수라는데 그냥 패스 적당히 써도 될듯",
+              "일단 몸은 뽑았는데 전무를 뽑을지 말지 고민인데 페스로 그냥 버텨도 괜찮을까요",
+              "리노뽑아서 기뻐했지만 전무 문제가 있음ᄏᄏ",
+              "전무가 ᄅᄋ 본체임 스킬 게이지 25 딸깍에 공증 20%~40%주는 거라",
+              "so now that i have both arcane and liino but neither of their signature weapons, which one should i prioritize? my arcane is on oblivion and i still have the battle pass weapon selector saved. i haven't pulled on arcane's weapon at all, so pity is at max.",
+              "i'm torn between pulling her and saving for si, i have both fangyi and arcane 😭",
+              "i pull with chartered ticket, got her in 1 10x pull. same with arcane banner. but i don't have enough resources to build them😢"
+            ],
+            "quote_translations": [
+              "今天抽到梨诺，容我晒一次：结50抽1破，梨诺40抽本体；太高兴又去抽专武，结果一路全歪，最后靠大保底拿到。",
+              "我对梨诺的看法是：她给的增益离谱，但体感没想象中强。如果不培养电系或自然系干员，单看10%攻击加成几乎没有上场理由；不过带专武后攻击加成会大幅上升，对愿意精炼武器的人来说确实是万能辅助。",
+              "看完这个视频，我先把专武抽了。",
+              "都说专武必备，但感觉用通行证武器凑合也可以。",
+              "角色本体已经抽到了，正在纠结要不要抽专武；只用通行证武器撑着也没问题吗？",
+              "抽到梨诺很开心，但专武成了问题，哈哈。",
+              "专武才是真正的本体，点一下消耗25技能量，就能给20%—40%攻击加成。",
+              "现在弧光和梨诺都有了，但两人的专武都没有，该优先哪一把？我的弧光用遗忘，战令武器自选箱还留着；弧光武器池完全没抽，保底进度还是初始状态。",
+              "我在抽她和为‘司’攒资源之间纠结；方一和弧光我都有。",
+              "我用特许寻访券，一个十连就出了她，弧光池也是如此；但我没有足够资源培养她们。"
             ]
           },
           {
             "rank": 3,
-            "title": "梨诺与장방이队的成员替换及操作顺序",
-            "detail": "玩家围绕是否必须持有장방이、结应走辅助还是输出、队伍站位顺序和终极技释放时机提问；已有经验认为该队循环可简化为挂感电、开演奏并在장방이终极技期间集中释放。",
-            "count": 20,
-            "share_percent": 5.4795,
+            "title": "梨诺加入方一队后的配队与操作方案",
+            "detail": "讨论聚焦方一是否必需、没有方一或结时的替代位、队伍站位顺序、不同持有和突破条件下的配装，以及方一队可简化到何种循环。",
+            "count": 19,
+            "share_percent": 5.163,
             "quotes": [
               "장방이팟 결이랑 리노는 둘이 템셋을 어떻게 가야하나요? 장방이 1돌이면 장방이 템셋도 달라질까요?",
               "장방이 없는데 꼭 뽑아야 할려나요... 장방이 이본 제외 올캐릭 명전이예여",
               "장방이 안쓰는데 안뽑아도 될까요...",
               "결, 장방 없는데 어케 짜야 할까요...질베, 펠리, 리노 마지막 한자리...",
               "팀 편성 순서는 상관없나요? 지금 펠리카 장방이 아크라 리노 순으로 쓰고있는데 바꿀게 있을까요?",
-              "장방이팟 결은 장비 뭐줘야하나요?",
+              "이본 결 장방이 다 풀돌풀재인데 리노도 풀돌풀재 해야할까요...?",
               "무한궁장방이 세팅한 상태 그대로 리노, 결 써도 되나요 ?",
+              "장방이+리노 vs 결+리노 어떤 파티가 더쌘가요 결이 2돌이긴 합니다",
               "장방이 파티로 할꺼면 딜결하면 안되죠?",
-              "장방이파티(펠리카+결+리노)에서는 콤보 빡빡하게 필요없더라 1. 감전 묻히고 베스쓰기 2. 장방이 궁은 돌떄마다쓰고 결,펠리카,리노궁은 그냥 장방이 궁 켜져있으면 써준다. 이게 다임.",
-              "장방이 쓰는 결은 서폿결, 딜결 둘다 써도됨?"
+              "장방이파티(펠리카+결+리노)에서는 콤보 빡빡하게 필요없더라 1. 감전 묻히고 베스쓰기 2. 장방이 궁은 돌떄마다쓰고 결,펠리카,리노궁은 그냥 장방이 궁 켜져있으면 써준다. 이게 다임."
             ],
             "quote_translations": [
-              "在장방이队里，结和梨诺分别该怎么配装？如果장방이是一潜，她的装备也要改变吗？",
-              "我没有장방이，有必要一定抽她吗？除了장방이和伊冯之外，其他角色我都是零潜加专武。",
-              "我不用장방이，可以不抽梨诺吗？",
-              "没有结和장방이的话该怎么组？目前是吉尔伯塔、佩丽卡、梨诺，最后一个位置不知道放谁。",
-              "队伍编成顺序有影响吗？我现在按佩丽卡、장방이、弧光、梨诺排列，需要调整吗？",
-              "장방이队里的结应该带什么装备？",
-              "已经配好的无限终极技장방이装备，可以原样搭配梨诺和结吗？",
-              "如果玩장방이队，结就不该走输出路线吧？",
-              "장방이队（佩丽卡+结+梨诺）的连招不需要卡得很紧：先挂感电再开演奏；장방이终极技好了就用，结、佩丽卡、梨诺的终极技只要在장방이终极技开启时释放即可。",
-              "장방이使用的结，辅助流和输出流都可以吗？"
+              "方一队里结和梨诺分别该怎么配装备？如果方一1破，方一的装备配置也会变化吗？",
+              "我没有方一，是不是必须抽？除了方一和伊冯，其他角色都是本体加专武。",
+              "我不用方一，可以不抽吗？",
+              "没有结和方一，该怎么组队？吉尔伯塔、佩丽卡、梨诺之后最后一个位置放谁？",
+              "队伍编成顺序有关系吗？我现在按佩丽卡、方一、弧光、梨诺排列，需要调整吗？",
+              "伊冯、结和方一都满破满精，梨诺也需要满破满精吗？",
+              "可以沿用无限终结技方一的原有配置，直接搭配梨诺和结吗？",
+              "方一+梨诺和结+梨诺，哪队更强？我的结是2破。",
+              "如果玩方一队，就不该用输出结，对吧？",
+              "方一队（佩丽卡+结+梨诺）的连招不用卡得很紧：先附加感电再放战技；方一终结技转好就开，结、佩丽卡、梨诺的终结技只要在方一终结技开启时放即可，就这么简单。"
             ]
           }
         ]
@@ -571,25 +586,25 @@
       [
         "just got arcane from liino banner, then got her at 100th pull. for someone who only pulls when have enough for a guarantee...feels good man!",
         "positive",
-        "0.805195550561875",
+        "0.88",
         "[\"商业化\"]"
       ],
       [
         "5:47 must have been the wind",
         "neutral",
-        "0.8870632050039221",
+        "0.92",
         "[\"其他讨论\"]"
       ],
       [
         "i like watching guides for characters i dont have",
         "positive",
-        "0.94",
+        "0.86",
         "[\"战斗体验\"]"
       ],
       [
         "i remember when almost everyone said skip gilberta, i'm not gonna fall for that and skip another support and be sorry later.",
-        "neutral",
-        "0.82",
+        "positive",
+        "0.88",
         "[\"竞品讨论\"]"
       ],
       [
@@ -601,331 +616,331 @@
       [
         "it's funny the minute long skill is the thing that gets me with her. it lasts so long you stop thinking about it and then you suddenly realize \"oh crap she's not floating!\" adding nature to the sp return since the initial reveal is what sold her to me, being strictly lightning was a tough sell but two elements is pretty good",
         "positive",
-        "0.88",
+        "0.92",
         "[\"技术体验\"]"
       ],
       [
         "i main physical and ice teams and i still will get her. she is too cute.",
         "positive",
-        "0.7716111673056333",
+        "0.97",
         "[\"角色讨论\"]"
       ],
       [
         "3:45 for better explaning about that misinfomation he meant \"-20% dmg taken\" basically means you take less dmg from enemys",
         "neutral",
-        "0.6263669173508287",
+        "0.79",
         "[\"战斗体验\"]"
       ],
       [
         "ready to pull on here 🎉",
         "positive",
-        "0.9435387775756608",
+        "0.91",
         "[\"商业化\"]"
       ],
       [
         "i do appreciate some warrioland 4 music background (for the knowledgeable folks)",
-        "neutral",
-        "0.8257528558909845",
+        "positive",
+        "0.92",
         "[\"音频表现\"]"
       ],
       [
         "thank you man as always",
         "positive",
-        "0.9736261602791767",
+        "0.88",
         "[\"社区生态\"]"
       ],
       [
         "i was waiting for liino for my fangyi but regreted skipping for arcane, but got arcane on the 50/50 and could be more happier now i have 2 operators that i want",
         "positive",
-        "0.88",
+        "0.92",
         "[\"商业化\"]"
       ],
       [
         "got her in the 10x headhunting dossier pulls!",
         "positive",
-        "0.7881131674874801",
+        "0.97",
         "[\"商业化\"]"
       ],
       [
         "13:05 i love the side image where it shows the rotation in text! easier to refer to",
         "positive",
-        "0.8842174858931879",
+        "0.97",
         "[\"技术体验\"]"
       ],
       [
         "if si is going to be a nature dps operator, hopes she is more than 2 patches away",
         "neutral",
-        "0.8292998267671867",
+        "0.79",
         "[\"角色讨论\"]"
       ],
       [
         "lmao those radahn family jewels and descendence dreams and aspirations comment killed me 🤣🤣🤣",
         "positive",
-        "0.7027371536003538",
+        "0.94",
         "[\"音频表现\"]"
       ],
       [
         "i know, you know, liino",
-        "positive",
-        "0.773881931331842",
+        "neutral",
+        "0.8",
         "[\"角色讨论\"]"
       ],
       [
         "when i heard liino voice when i rolled i swore i thought i got gilberta again. they are so similar energy",
-        "positive",
-        "0.7358977825495129",
+        "neutral",
+        "0.68",
         "[\"角色讨论\"]"
       ],
       [
         "ahh yes, just the vid i need after pulling liino",
         "positive",
-        "0.8431224220472496",
+        "0.9",
         "[\"商业化\"]"
       ],
       [
         "ty",
-        "neutral",
-        "0.7565061616494838",
+        "positive",
+        "0.95",
         "[\"其他讨论\"]"
       ],
       [
         "the only thing that this guide is missing showing what rare materials are needed to upgrade her skills.",
-        "neutral",
-        "0.748651347213349",
+        "negative",
+        "0.84",
         "[\"养成资源\"]"
       ],
       [
         "20 pulls and a dream as i am saving for si 🗿🗿🗿",
-        "positive",
-        "0.6355565226584198",
+        "neutral",
+        "0.78",
         "[\"商业化\"]"
       ],
       [
         "she's a strike witch!",
         "neutral",
-        "0.91",
+        "0.85",
         "[\"角色讨论\"]"
       ],
       [
         "i got her early yay",
         "positive",
-        "0.783400502062102",
+        "0.99",
         "[\"商业化\"]"
       ],
       [
         "you won't fool me into spending currency when si just got shown",
         "neutral",
-        "0.6313438125785279",
+        "0.68",
         "[\"音频表现\"]"
       ],
       [
         "*penlight waving intensifies*",
         "positive",
-        "0.8270369056464522",
+        "0.87",
         "[\"角色讨论\"]"
       ],
       [
         "suerte a todos en sus tiradas 💃🏻🎤🪩",
-        "neutral",
-        "0.8180852534112067",
+        "positive",
+        "0.91",
         "[\"视觉表现\"]"
       ],
       [
         "спасибо, крутой обзор 🎉",
         "positive",
-        "0.89",
+        "0.935",
         "[\"其他讨论\"]"
       ],
       [
         "* \"no rodagns have been hurt in the making of this video!\"",
         "neutral",
-        "0.627720536680193",
+        "0.79",
         "[\"竞品讨论\"]"
       ],
       [
         "she is the nanami of ake",
         "neutral",
-        "0.8813452909902979",
+        "0.95",
         "[\"竞品讨论\"]"
       ],
       [
         "8:51 pulled up all the game terms until you finally used ‘potential’ for p5 xd",
-        "positive",
-        "0.8615829220247568",
+        "neutral",
+        "0.88",
         "[\"社区生态\"]"
       ],
       [
         "i wish we'd be getting more 4 or 5 stars aswell...",
         "negative",
-        "0.72",
+        "0.82",
         "[\"视觉表现\"]"
       ],
       [
         "i got her on my free 10 pulls and i'm super happy about it. now can save for su sibling",
         "positive",
-        "0.8702459430389516",
+        "0.88",
         "[\"商业化\"]"
       ],
       [
         "oh geat si pls be the top tier nature dps",
         "positive",
-        "0.8183714910029873",
+        "0.88",
         "[\"视觉表现\"]"
       ],
       [
         "just returned to the game, had a gilberta and sig weapon. tried to pull for arcane / emillie but ended up liino early 😂",
-        "neutral",
-        "0.8118808901873312",
+        "positive",
+        "0.77",
         "[\"商业化\"]"
       ],
       [
         "would be nice to say when crit buffs are used",
-        "positive",
-        "0.5231777196682486",
+        "negative",
+        "0.84",
         "[\"战斗体验\"]"
       ],
       [
         "she really has that main character energy after taking me to 120 pulls.",
-        "positive",
-        "0.7459073460447874",
+        "negative",
+        "0.8",
         "[\"竞品讨论\"]"
       ],
       [
         "buffs, heals, aura, waves, even her drums... basically lol's sona 3d prime skin. don't remember name of it and too lazy to look for :p",
         "neutral",
-        "0.9",
+        "0.845",
         "[\"商业化\"]"
       ],
       [
         "welp, i was gonna get her bp weapon to save up for si, but since it's so good i'll have to gamble on it. at least weapon banners last 3 banner runs",
         "neutral",
-        "0.75",
+        "0.715",
         "[\"商业化\"]"
       ],
       [
         "i am not into the idol characters delirium, but forced to admit that her leg weapon concept is pretty badass, hope they give her some battle attire in the future if they start adding skins~ since i plan on maining arcane for a long while, any character that can cross nature with another element seems like a good investment, so pull i might :p can't wait for one that crosses nature and fire >:d",
         "positive",
-        "0.68",
+        "0.81",
         "[\"竞品讨论\"]"
       ],
       [
         "was dreading this banner but i managed to get her in 30 and her weapon in 40, thank goodness. the arsenal tickets are where i always sweat the most. i think that's actually pretty awesome how you can give her lynx and just stack a tonne of agility. maybe pair her with ember and just make ember completely unkillable lmao. so glad to see the newer releases are more flexible. wonder if they will go back and update older ones? i am still kinda stunned that fluorite wasn't just a default inclusion for arcane.",
         "positive",
-        "0.7251079924257108",
+        "0.95",
         "[\"技术体验\"]"
       ],
       [
         "where do you get your calculations for gear for example the list you gave at 10:23 ? im a bit curious because gear on tangtang changes from the arcane build video and other characters so i feel like im always playing catch up to variations im not sure if its a big change or not. also is the lvl 60 aic fieldwork wraps on xaihi really better then some lvl 70 gear?",
         "neutral",
-        "0.99",
+        "0.89",
         "[\"技术体验\"]"
       ],
       [
         "mecha-angelic buster has come to arknights! already dumped funds ( in game)",
         "positive",
-        "0.8363307825141769",
+        "0.88",
         "[\"社区生态\"]"
       ],
       [
         "كلعادة خوش فديو",
-        "neutral",
-        "0.5947381382111397",
+        "positive",
+        "0.93",
         "[\"其他讨论\"]"
       ],
       [
         "thanks for your service antal but it's time to rest",
-        "positive",
-        "0.910385240425555",
+        "neutral",
+        "0.82",
         "[\"社区生态\"]"
       ],
       [
         "i got her on my first free pull 😭😭 i just logged in yesterday to claim the free pulls so of course i need to upgrade her now",
         "positive",
-        "0.8848524767956302",
+        "0.88",
         "[\"商业化\"]"
       ],
       [
         "i love this game",
         "positive",
-        "0.9616543251192422",
+        "0.99",
         "[\"技术体验\"]"
       ],
       [
         "i know, you know, we know, liino",
-        "positive",
-        "0.7412831509559831",
+        "neutral",
+        "0.8",
         "[\"角色讨论\"]"
       ],
       [
         "30 pulls hell yeah",
         "positive",
-        "0.8410643892805724",
+        "0.88",
         "[\"商业化\"]"
       ],
       [
         "i didn't pull arcane but i want si so i guess i could pull liino if she's gonna support si",
         "neutral",
-        "0.94",
+        "0.865",
         "[\"商业化\"]"
       ],
       [
         "im lucky i pulled her twice early, time to save my remaining liths",
         "positive",
-        "0.88",
+        "0.93",
         "[\"商业化\"]"
       ],
       [
         "got her in 20 pulls just using the free pulls, discount pulls and dossier. si is guaranteed baby! but now my zhuang will feel more clean.",
         "positive",
-        "0.9129281050435013",
+        "0.98",
         "[\"商业化\"]"
       ],
       [
         "my girl gilberta finally getting some competition💀",
-        "neutral",
-        "0.5914560452345065",
+        "positive",
+        "0.86",
         "[\"角色讨论\"]"
       ],
       [
         "yet another game comes out where i beg iwtl to look up the pronunciation of concerto. (chair)",
         "negative",
-        "0.91",
+        "0.905",
         "[\"社区生态\"]"
       ],
       [
         "must pull :d",
         "positive",
-        "0.7149894541129699",
+        "0.88",
         "[\"商业化\"]"
       ],
       [
         "ok, returning just for her, any tips/changes i should be worried about?",
         "neutral",
-        "0.6108110155424695",
+        "0.96",
         "[\"战斗体验\"]"
       ],
       [
         "so, as someone who got boned trying to roll for arcane's signature (i did pick up p0 junction point), would liino's sig or arcane's sig be a better pickup at this point (assuming i get liino because she doesn't drop for a few hours in my region)?",
         "neutral",
-        "0.716782088184059",
+        "0.98",
         "[\"商业化\"]"
       ],
       [
         "question. i want to use liino in my zhuang arcane team. arcane already has the eternal xiranite gear, so i should use the lynx gear on liino right? because arcane amp being nature and cryo in an electric team stills activates the eternal xiranite effect right?",
         "neutral",
-        "0.6328381322552374",
+        "0.79",
         "[\"战斗体验\"]"
       ],
       [
         "i would not like to abandon my gilberta, but for the arcane team there does not seem to be so much change, so with the fangyi it would be better, but in that case my gilberta would be abandoned. 😢",
         "negative",
-        "0.8",
+        "0.81",
         "[\"战斗体验\"]"
       ],
       [
         "please what is the special material liino needs to max out her takents i want to pre-farm them",
         "neutral",
-        "0.6773704586112106",
+        "0.98",
         "[\"角色讨论\"]"
       ],
       [
@@ -937,7 +952,7 @@
       [
         "8:26 love all the references to other gacha games 😂",
         "positive",
-        "0.8871102599711435",
+        "0.96",
         "[\"竞品讨论\"]"
       ],
       [
@@ -949,151 +964,151 @@
       [
         "does she fit in a arcane, camille, wulgard and perlica team (can she replace perlica)",
         "neutral",
-        "0.6714493746837318",
+        "0.79",
         "[\"战斗体验\"]"
       ],
       [
         "ok, maybe someone can help me with arclight in these teams. why are we building secondary attribute when we are not using her battle skill at all. from what i understand you need to consume electrification with battle skill to get any use out of intellect, right? or is the attack boost from intellect worth more than combo skill damage or ultimate gain somehow?",
         "neutral",
-        "0.99",
+        "0.89",
         "[\"竞品讨论\"]"
       ],
       [
         "does a zhuang, perlica, arcane, liino team work or is that too sp hungry?",
         "neutral",
-        "0.99",
+        "0.89",
         "[\"战斗体验\"]"
       ],
       [
         "does arcane x gilberta x liino x xaihi team work? i don't have tangtang so wondering if this team works :3",
         "neutral",
-        "0.99",
+        "0.89",
         "[\"战斗体验\"]"
       ],
       [
         "got her in my first 10pull with the free timelimited tickets after going to 60 for arcane lol guess ill get sui then... game really wants to build nature team 😂",
         "positive",
-        "0.8087518929073236",
+        "0.97",
         "[\"商业化\"]"
       ],
       [
         "how is jet beating the banner weapon in team damage? why doesn't he even mention it?",
-        "neutral",
-        "0.634127048126264",
+        "negative",
+        "0.91",
         "[\"战斗体验\"]"
       ],
       [
         "12:43 nice ult...",
         "positive",
-        "0.88",
+        "0.895",
         "[\"其他讨论\"]"
       ],
       [
         "i got liino in the first 10 pull! 😊 i'm so happy, arcane took 120 pulls and i was pretty much broke after that banner 😅",
         "positive",
-        "0.8270621990587902",
+        "0.88",
         "[\"商业化\"]"
       ],
       [
         "i pull with chartered ticket, got her in 1 10x pull. same with arcane banner. but i don't have enough resources to build them😢",
         "neutral",
-        "0.76",
+        "0.78",
         "[\"商业化\"]"
       ],
       [
         "how much value is there in maxing her level and investing into her masteries?",
         "neutral",
-        "0.7591751096658217",
+        "0.98",
         "[\"养成资源\"]"
       ],
       [
         "hi hiii",
         "neutral",
-        "0.6992606784533704",
+        "0.86",
         "[\"角色讨论\"]"
       ],
       [
         "will we never get new 4-5 star characters? are we stuck with this cast forever?",
         "negative",
-        "0.75",
+        "0.855",
         "[\"竞品讨论\"]"
       ],
       [
         "first 10 pull i see 6 start, i was like damn please please please = got lifeng... 80 pulls after that 6 start again and i start praying = lifeng again i needed the whole 120pulls for her...",
-        "positive",
-        "0.9582986083089683",
+        "negative",
+        "0.84",
         "[\"商业化\"]"
       ],
       [
         "im doing one 10 pull if i dont get her im saving my pity for si wish me luck",
-        "positive",
-        "0.7406168704716422",
+        "neutral",
+        "0.85",
         "[\"商业化\"]"
       ],
       [
         "im so cooked i want liino sm but i dont have any other unit 😭 im a returning player i only have tangtang as my limited i only use lastrite since first day",
         "negative",
-        "0.97",
+        "0.94",
         "[\"技术体验\"]"
       ],
       [
         "to bad i dont have any weapon pulls since i always go to pity for each 1",
         "negative",
-        "0.93",
+        "0.94",
         "[\"商业化\"]"
       ],
       [
         "got here after getting liino from free pulls.",
-        "neutral",
-        "0.570625701169224",
+        "positive",
+        "0.91",
         "[\"商业化\"]"
       ],
       [
         "the rotation works best if you don't start by using perlica's skill; instead, simply execute the finishing blow right after liino's skill. this triggers the combo for everyone except fangyi. and here’s the secret: now you use perlica's skill and, after the finishing blow, trigger fangyi's combo (which you didn't activate earlier because you didn't start with perlica's combo), followed by liino's and archlight's combos again. this generates *much more* energy and swords from fangyi's passive, creating a rotation where your finishing blow almost always triggers a combo—and therefore generates more energy. then, simply repeat the process until your ultimate skills are ready. also, keep in mind that archlight's ultimate skill has already unlocked his enhanced skill.",
         "neutral",
-        "0.6882785322506695",
+        "0.79",
         "[\"战斗体验\"]"
       ],
       [
         "poor rodagnisvine",
-        "negative",
-        "0.78",
+        "neutral",
+        "0.82",
         "[\"角色讨论\"]"
       ],
       [
         "got her in my free 10 pull ahhh edit: sig in 20 pulls lets goo",
         "positive",
-        "0.9483251651419511",
+        "0.99",
         "[\"商业化\"]"
       ],
       [
         "so i plan to use liino with fangyi/perlica/arclight: is ex light (armor/hands/bracing slab) + lynx slab solid enough? here's the other members' build fyi: fangyi: xiranflow (light armor/gloves/baton) + lynx slab perlica: qingbo (light armor/double cask) + hot work gloves arclight: frontiers (protection suit/fiber gloves t1/extra o2 tube) + redeemer seal",
         "neutral",
-        "0.99",
+        "0.89",
         "[\"战斗体验\"]"
       ],
       [
         "can i use laevatain instead of akekuri",
         "neutral",
-        "0.7420916458020088",
+        "0.99",
         "[\"社区生态\"]"
       ],
       [
         "she is very cute and i am glad i pulled her. the biggest thing i'm worried about is the next cc. it will likely have a risk that heavily punishes healing and will make her unusable.",
         "positive",
-        "0.933894607592364",
+        "0.68",
         "[\"角色讨论\"]"
       ],
       [
         "just waiting for new supps to buff mifu, she's the only fun comp in the game, not requiring 20 yrs to set up ult burst windows. every single arts team is so backloaded its crazy.",
-        "neutral",
-        "0.5682393128931195",
+        "negative",
+        "0.94",
         "[\"技术体验\"]"
       ],
       [
         "8:26 we can tell that he is a gacha game guider",
         "neutral",
-        "0.6322938114152429",
+        "0.88",
         "[\"技术体验\"]"
       ],
       [
@@ -1104,8 +1119,8 @@
       ],
       [
         "if she works with camille i am in. that's all.",
-        "neutral",
-        "0.6391344684739014",
+        "positive",
+        "0.68",
         "[\"战斗体验\"]"
       ],
       [
@@ -1117,37 +1132,37 @@
       [
         "enfield marin kitagawa😅",
         "neutral",
-        "0.8267306917051004",
+        "0.94",
         "[\"竞品讨论\"]"
       ],
       [
         "me upgrading the basic attack talent to m3 anyway insert gigachad memes",
-        "neutral",
-        "0.6858008151242068",
+        "positive",
+        "0.74",
         "[\"养成资源\"]"
       ],
       [
         "just got her from free pull😅",
         "positive",
-        "0.7931685603910134",
+        "0.88",
         "[\"商业化\"]"
       ],
       [
         "omg",
-        "positive",
-        "0.8803931690898292",
+        "neutral",
+        "0.7",
         "[\"商业化\"]"
       ],
       [
         "5:48 the winds are quite strong today",
         "neutral",
-        "0.7580642071787936",
+        "0.85",
         "[\"视觉表现\"]"
       ],
       [
         "don't blink. the star is \"taunting\"",
         "neutral",
-        "0.7671095549940228",
+        "0.79",
         "[\"竞品讨论\"]"
       ],
       [
@@ -1159,61 +1174,61 @@
       [
         "is it worth replacing gilberta with her in an arcane/tantang/xaighi team?",
         "neutral",
-        "0.99",
+        "0.89",
         "[\"战斗体验\"]"
       ],
       [
         "so now that i have both arcane and liino but neither of their signature weapons, which one should i prioritize? my arcane is on oblivion and i still have the battle pass weapon selector saved. i haven't pulled on arcane's weapon at all, so pity is at max.",
         "neutral",
-        "0.99",
+        "0.89",
         "[\"商业化\"]"
       ],
       [
         "got her and 1 copy of arcane in 40 pulls. life is good. hope that we will have info about si's banner soon since i don't have enough resource to raise another temp team for arcane mdps.",
         "positive",
-        "0.94",
+        "0.955",
         "[\"商业化\"]"
       ],
       [
         "they need to buff the 0.04 per will thing, it's impossible to get 1500 will 😭",
         "negative",
-        "0.97",
+        "0.975",
         "[\"商业化\"]"
       ],
       [
         "cutecutecute",
         "positive",
-        "0.8754140406499076",
+        "0.99",
         "[\"角色讨论\"]"
       ],
       [
         "i'm torn between pulling her and saving for si, i have both fangyi and arcane 😭",
         "neutral",
-        "0.91",
+        "0.915",
         "[\"战斗体验\"]"
       ],
       [
         "this is exactly what i needed! seeing how much worse fangyi's team gets when arcane is swapped in for arclight has helped solidify my decision to skip arcane for liino, since i don't have tangtang/yvonne and won't have enough pulls for si. thanks!",
         "positive",
-        "0.88",
+        "0.93",
         "[\"商业化\"]"
       ],
       [
         "i lost mine with p1 arcane bruh",
         "negative",
-        "0.91",
+        "0.94",
         "[\"商业化\"]"
       ],
       [
         "i dont get how all these youtubers do so much to rhodagn, ill have all characters, abilities, weapons, gear max level and ive still never managed to bypass his 2nd phase",
         "negative",
-        "0.9",
+        "0.93",
         "[\"战斗体验\"]"
       ],
       [
         "i just want to say for us all gacha players, we love you man<3",
         "positive",
-        "0.7801131564515495",
+        "0.99",
         "[\"商业化\"]"
       ],
       [
@@ -1225,13 +1240,13 @@
       [
         "what does arcane really buff for zhuang team specifically?",
         "neutral",
-        "0.8967584635503305",
+        "0.79",
         "[\"战斗体验\"]"
       ],
       [
         "does liino make fangyi’s ult fill up faster?",
         "neutral",
-        "0.900328059449574",
+        "0.99",
         "[\"角色讨论\"]"
       ],
       [
@@ -1243,91 +1258,91 @@
       [
         "8:27 constellation 1 eidolon 2 sequence 3 mindscape 4 potential 5 yea you really need to get a good night sleep",
         "neutral",
-        "0.97",
+        "0.9",
         "[\"竞品讨论\"]"
       ],
       [
         "which have more value to pull, arcane sign or liino sign?",
         "neutral",
-        "0.99",
+        "0.89",
         "[\"商业化\"]"
       ],
       [
         "okay i am gonna be real here... i think we men know why we all pulled her... shes too freaking cute ... also i thought she could buff my roxy hahaha i screwed up bad but i needed a healer. so thsi works out.",
         "positive",
-        "0.68",
+        "0.79",
         "[\"角色讨论\"]"
       ],
       [
         "first limited character that actually looks nice.",
         "positive",
-        "0.88",
+        "0.92",
         "[\"视觉表现\"]"
       ],
       [
         "i just lose arcane in 20 to guarrantee and win lino 50/50 after hour update. im done",
-        "neutral",
-        "0.71",
+        "positive",
+        "0.79",
         "[\"商业化\"]"
       ],
       [
         "up to 60% amp, bruh. gilberta is so dead",
         "negative",
-        "0.95",
+        "0.945",
         "[\"战斗体验\"]"
       ],
       [
         "as long as the difference between her sig and other not exceeding 25% im good, skip for actual dps.",
         "neutral",
-        "0.8449682359736976",
+        "0.9",
         "[\"视觉表现\"]"
       ],
       [
         "i got her in first 10 pulls then i refresh yt lmao",
         "positive",
-        "0.9209870265473885",
+        "0.88",
         "[\"商业化\"]"
       ],
       [
         "hmmm",
-        "positive",
-        "0.7156655288833192",
+        "neutral",
+        "0.9",
         "[\"其他讨论\"]"
       ],
       [
         "first! (maybe)",
-        "positive",
-        "0.7967809063599922",
+        "neutral",
+        "0.92",
         "[\"角色讨论\"]"
       ],
       [
         "i got lucky and got arcane and two camille's within 120 pulls 🤩 plus lifeng...",
         "positive",
-        "0.7791433387485521",
+        "0.88",
         "[\"商业化\"]"
       ],
       [
         "what does r4 and r9 mean?",
         "neutral",
-        "0.9813129228754924",
+        "0.99",
         "[\"其他讨论\"]"
       ],
       [
         "gang",
-        "positive",
-        "0.6640572365571062",
+        "neutral",
+        "0.8",
         "[\"其他讨论\"]"
       ],
       [
         "i wanna skip so bad. i've got so much idol fatigue. every goddamn game. but my fangyi wants her 😭",
         "negative",
-        "0.94",
+        "0.955",
         "[\"商业化\"]"
       ],
       [
         "how tf do u guys get 1k? im at 666",
         "neutral",
-        "0.6957801681229473",
+        "0.79",
         "[\"商业化\"]"
       ],
       [
@@ -1339,91 +1354,91 @@
       [
         "how did you get 1k will? i'm using the bp weapon on r4. is it only able because it's the sig weapon?",
         "neutral",
-        "0.99",
+        "0.89",
         "[\"战斗体验\"]"
       ],
       [
         "you know? she kind of sounds what nicole should have been in genshin, instead we got a zhongli that gives 75%of bennet's buff at c0r0",
-        "negative",
-        "0.85",
+        "positive",
+        "0.72",
         "[\"竞品讨论\"]"
       ],
       [
         "she dies easily when using skill. she just stands. no youtuber is telling this.",
-        "neutral",
-        "0.5808270442355997",
+        "negative",
+        "0.97",
         "[\"战斗体验\"]"
       ],
       [
         "how the fuck do you have over 1050 will? i cant get it wtf? im capped at 1000",
         "negative",
-        "0.88",
+        "0.96",
         "[\"技术体验\"]"
       ],
       [
         "first",
-        "positive",
-        "0.7497553588764164",
+        "neutral",
+        "0.94",
         "[\"竞品讨论\"]"
       ],
       [
         "arcane drained everything i have and still dodged my pulls😭im cooked",
         "negative",
-        "0.99",
+        "0.985",
         "[\"商业化\"]"
       ],
       [
         "3:52 uhm yes, that is it. ez skip",
         "negative",
-        "0.96",
+        "0.95",
         "[\"视觉表现\"]"
       ],
       [
         "she came too soon!",
         "neutral",
-        "0.6202611977446763",
+        "0.68",
         "[\"角色讨论\"]"
       ],
       [
         "definite skip",
         "neutral",
-        "0.87",
+        "0.83",
         "[\"商业化\"]"
       ],
       [
         "easy skip for me",
-        "neutral",
-        "0.8172966778276779",
+        "negative",
+        "0.98",
         "[\"商业化\"]"
       ],
       [
         "zhuang fangyi is saved",
-        "neutral",
-        "0.798939702924509",
+        "positive",
+        "0.86",
         "[\"战斗体验\"]"
       ],
       [
         "i really want a spear character not avy or the upcoming male character",
         "neutral",
-        "0.6119934915042633",
+        "0.79",
         "[\"竞品讨论\"]"
       ],
       [
         "has no one, not even the wuwa community, after all this time corrected this guys pronunciation of concerto? bruh, its pronounced con-chair-toe",
         "negative",
-        "0.93",
+        "0.935",
         "[\"竞品讨论\"]"
       ],
       [
         "how do you get 1k will? mine is only 870",
         "neutral",
-        "0.9071582157635073",
+        "0.98",
         "[\"技术体验\"]"
       ],
       [
         "why is no one talking about the horrible weapon system?! 😭",
         "negative",
-        "0.98",
+        "0.985",
         "[\"竞品讨论\"]"
       ],
       [
@@ -1441,13 +1456,13 @@
       [
         "i realy dont like idols, should stayed in story, not on front line",
         "negative",
-        "0.99",
+        "0.985",
         "[\"剧情内容\"]"
       ],
       [
         "constellation 1, eidolon 2, sequence 3, mindscape 4, potential 5... i don't even remember anymore which game had which, they just keep inventing their bs names for \"copy\"",
         "negative",
-        "0.9",
+        "0.905",
         "[\"技术体验\"]"
       ],
       [
@@ -1459,13 +1474,13 @@
       [
         "dont like her design so another easy skip",
         "negative",
-        "0.98",
+        "0.985",
         "[\"视觉表现\"]"
       ],
       [
         "sorry but skip for me.",
         "neutral",
-        "0.86",
+        "0.825",
         "[\"商业化\"]"
       ],
       [
@@ -1477,13 +1492,13 @@
       [
         "if dei did nothing for marvel but hurt it, why beg sony to add it to future spiderman if it does nothing to benefit it? are they trying to sabotage sony? they don’t get tax incentives for this anymore...",
         "negative",
-        "0.92",
+        "0.93",
         "[\"技术体验\"]"
       ],
       [
         "such a mid kit and design, but getting off arclight is worth i guess",
         "negative",
-        "0.96",
+        "0.935",
         "[\"视觉表现\"]"
       ],
       [
@@ -1501,43 +1516,43 @@
       [
         "i got liino on my first 10 pull while sipping my coffee, i was shocked. link to short-",
         "positive",
-        "0.6779510424127756",
+        "0.99",
         "[\"商业化\"]"
       ],
       [
         "got camille first 10 pulls, were hoping to get either gilberta or liino but ok i guess 🥲 (i also had camille weapon before i even had him lol)",
         "negative",
-        "0.8",
+        "0.77",
         "[\"商业化\"]"
       ],
       [
         "와 진짜 개이쁘네... 이쁜거 보여줄려고 작정한 것 같음",
         "positive",
-        "0.9774396251470353",
+        "0.88",
         "[\"视觉表现\"]"
       ],
       [
         "그렇게 관리자의 정실이 한명 더 늘었습니다",
-        "positive",
-        "0.4801452263101185",
+        "neutral",
+        "0.91",
         "[\"剧情内容\"]"
       ],
       [
         "배개영업 프로 아이돌🥵❤️",
-        "neutral",
-        "0.7680300044919002",
+        "positive",
+        "0.88",
         "[\"角色讨论\"]"
       ],
       [
         "표정 진짜 귀여움ᄏᄏᄏ",
         "positive",
-        "0.9566543414558422",
+        "0.88",
         "[\"音频表现\"]"
       ],
       [
         "아이돌 카밀",
         "neutral",
-        "0.9",
+        "0.845",
         "[\"角色讨论\"]"
       ],
       [
@@ -1548,290 +1563,290 @@
       ],
       [
         "엠버야 카뮤야 니네가 나오면 난 어떡하니",
-        "neutral",
-        "0.5001438435889061",
+        "negative",
+        "0.87",
         "[\"商业化\"]"
       ],
       [
         "얘는 눈모양이 개추네",
         "positive",
-        "0.6860549477017784",
+        "0.93",
         "[\"社区生态\"]"
       ],
       [
         "손잡이가 공기역학적으로 생겼네",
         "neutral",
-        "0.79",
+        "0.85",
         "[\"其他讨论\"]"
       ],
       [
         "넣는순간 별이 하트로 바뀌겠네",
         "neutral",
-        "0.79",
+        "0.85",
         "[\"战斗体验\"]"
       ],
       [
         "어디 쳐다봐야 나오는 모션이지 저거",
         "neutral",
-        "0.8447409261204555",
+        "0.79",
         "[\"养成资源\"]"
       ],
       [
         "ᄀ귀엽ᄂ",
         "positive",
-        "0.96",
+        "0.92",
         "[\"其他讨论\"]"
       ],
       [
         "돔공연 축하해 리노짱 *푹찍*",
-        "neutral",
-        "0.7330448395733218",
+        "positive",
+        "0.76",
         "[\"其他讨论\"]"
       ],
       [
         "음...손잡이가 저렇게 생길 수도 있구나",
         "neutral",
-        "0.760615534109721",
+        "0.85",
         "[\"其他讨论\"]"
       ],
       [
         "아 이돌 같네 이 뻐 둘 이 보다 하나 죽어도 모를듯 쟤 낳 은 어머니는 전생에 영웅이셨나 아 부럽다",
         "positive",
-        "0.68",
+        "0.75",
         "[\"社区生态\"]"
       ],
       [
         "남팬들은 못 보는 경치 ♡",
         "positive",
-        "0.89",
+        "0.82",
         "[\"社区生态\"]"
       ],
       [
         "🥰🥰🥰🥰",
         "positive",
-        "0.89",
+        "0.94",
         "[\"其他讨论\"]"
       ],
       [
         "베개영업 마렵네;",
         "neutral",
-        "0.68",
+        "0.765",
         "[\"其他讨论\"]"
       ],
       [
         "valeu anime giri foi prazer pra mim tambem",
-        "neutral",
-        "0.847348167848672",
+        "positive",
+        "0.68",
         "[\"角色讨论\"]"
       ],
       [
         "복귀각인가",
         "neutral",
-        "0.614382551486624",
+        "0.83",
         "[\"其他讨论\"]"
       ],
       [
         "🫠",
         "neutral",
-        "0.5728123517085005",
+        "0.65",
         "[\"其他讨论\"]"
       ],
       [
         "저거 칼빵맞은 캐릭터랑 비슷하다",
-        "positive",
-        "0.6932491216598115",
+        "neutral",
+        "0.79",
         "[\"其他讨论\"]"
       ],
       [
         "돔공연 축하해...",
-        "neutral",
+        "positive",
         "0.75",
         "[\"其他讨论\"]"
       ],
       [
         "뭐? 3명이나 만들자고?",
         "neutral",
-        "0.7284405458914207",
+        "0.86",
         "[\"其他讨论\"]"
       ],
       [
         "★o★",
         "positive",
-        "0.7",
+        "0.79",
         "[\"其他讨论\"]"
       ],
       [
         "리노는 착해 총 50트만에 리노랑 무기도 나오다니",
         "positive",
-        "0.6694262460779441",
+        "0.98",
         "[\"商业化\"]"
       ],
       [
         "30연차에 리노뜨고 무뽑 10연차에 테르밋2개뜨고 정가 테르밋 1개가져가서 테르밋 풀재만듬",
         "positive",
-        "0.4370625571701715",
+        "0.68",
         "[\"商业化\"]"
       ],
       [
         "솔직히 저 뿔모양 너무 인위적으로 생겼음 꼭 날개없는 선풍기같음 심지어 머리띠까지 있으니깐 되게 이상함...",
         "negative",
-        "0.84",
+        "0.905",
         "[\"战斗体验\"]"
       ],
       [
         "서브컬쳐 게임 일정 대시보드: - 현재 5종의 게임만 지원합니다.(원신, 스타레일, 젠존제, 명조, 엔드필드) - 실제와 다를 수 있으니 가볍게 참고만 하세요.",
         "neutral",
-        "0.99",
+        "0.89",
         "[\"技术体验\"]"
       ],
       [
         "서사같은거 필요없이 그냥 쌩매력으로 대가리를 깨버리는 보법",
-        "neutral",
-        "0.7101723260918337",
+        "positive",
+        "0.95",
         "[\"其他讨论\"]"
       ],
       [
         "\"있다가 빼줄게!\"",
         "neutral",
-        "0.6434779375044278",
+        "0.77",
         "[\"竞品讨论\"]"
       ],
       [
         "분명 안 뽑으려 했는데 정신차리니까 뽑혀있음",
         "positive",
-        "0.88",
+        "0.885",
         "[\"商业化\"]"
       ],
       [
         "진짜 표정 잘써가지고 리노스토리밀때 스샷 개같이 찍었다...ᄏᄏᄏ",
         "positive",
-        "0.9538643007716437",
+        "0.88",
         "[\"音频表现\"]"
       ],
       [
         "출시 전 - 아이돌 컨셉 좀 과하다... 출시 후 - 리노는 최고의 아이돌이 맞다",
         "positive",
-        "0.98",
+        "0.985",
         "[\"角色讨论\"]"
       ],
       [
         "그냥 캐릭터 퀄리티가 개쩜...성능도 괴물",
         "positive",
-        "0.98",
+        "0.93",
         "[\"其他讨论\"]"
       ],
       [
         "니코니코니! 아나타노 하트에 니코니코니",
         "positive",
-        "0.7356411607434964",
+        "0.82",
         "[\"角色讨论\"]"
       ],
       [
         "00년대 일본 아키하바라 아이돌 모션...",
         "neutral",
-        "0.79",
+        "0.865",
         "[\"其他讨论\"]"
       ],
       [
         "이게 아이돌이지",
-        "neutral",
-        "0.7015163270094266",
+        "positive",
+        "0.96",
         "[\"社区生态\"]"
       ],
       [
         "모르겠고 화성! 갈끄니까아아아앗!",
-        "positive",
-        "0.580738389740602",
+        "neutral",
+        "0.79",
         "[\"其他讨论\"]"
       ],
       [
         "겨우 한 시간만에 매력 발산에 당해서 120뽑하고 오로베릴 350 남음",
-        "neutral",
-        "0.6139462555418977",
+        "negative",
+        "0.78",
         "[\"商业化\"]"
       ],
       [
         "하루카 리컨버너 나오기 전까진 리노가 최고 맞을듯",
         "positive",
-        "0.5338351302237722",
+        "0.91",
         "[\"商业化\"]"
       ],
       [
         "썸네일보고 들어왔습니다",
-        "positive",
-        "0.6010945489849326",
+        "neutral",
+        "0.79",
         "[\"其他讨论\"]"
       ],
       [
         "저게 아이돌이냐? 서큐버스지",
         "neutral",
-        "0.8046531493524123",
+        "0.88",
         "[\"角色讨论\"]"
       ],
       [
         "자거 뭔손동작이야...!",
-        "positive",
-        "0.7715148053520001",
+        "neutral",
+        "0.91",
         "[\"其他讨论\"]"
       ],
       [
         "난 항상 서브컬쳐겜 할때마다 하는말이 있음. 외모가 성능임. 리노 공개될때부터 저건 성능이 좋은거라고 말함",
         "positive",
-        "0.97",
+        "0.925",
         "[\"技术体验\"]"
       ],
       [
         "안나왓다고...!",
-        "positive",
-        "0.5849427907980802",
+        "negative",
+        "0.84",
         "[\"其他讨论\"]"
       ],
       [
         "엔필아 공장은 따로빼서 공장장이들 전용으로 만들자 우린 저 캐디랑 연출에 집중하게해줘",
         "negative",
-        "0.84",
+        "0.845",
         "[\"社区生态\"]"
       ],
       [
         "안뽑으려다가 성능픽이래서 뽑으려다가 파산...",
         "negative",
-        "0.84",
+        "0.885",
         "[\"商业化\"]"
       ],
       [
         "얘도 공장돌리러 감?",
         "neutral",
-        "0.6833138249598834",
+        "0.98",
         "[\"其他讨论\"]"
       ],
       [
         "분명 평 안좋았는데 출시 후 죄다 칭찬하는게 어이가 없네",
         "neutral",
-        "0.68",
+        "0.74",
         "[\"战斗体验\"]"
       ],
       [
         "남자가 모션 만드신거같은데... 그 원신에 클레처럼...",
         "negative",
-        "0.7",
+        "0.77",
         "[\"其他讨论\"]"
       ],
       [
         "히아킨같다",
         "neutral",
-        "0.79",
+        "0.865",
         "[\"社区生态\"]"
       ],
       [
         "어흐마렵네",
         "positive",
-        "0.5808847339818312",
+        "0.68",
         "[\"其他讨论\"]"
       ],
       [
         "주번째 모션은 입으로 뭘 해준다는거임?!?!?!?!",
         "neutral",
-        "0.82",
+        "0.805",
         "[\"角色讨论\"]"
       ],
       [
@@ -1843,445 +1858,445 @@
       [
         "그럼 그렇지 개같이 기대에 답하는구만 ᄏᄏᄏ 베개영업은 진짜...",
         "positive",
-        "0.68",
+        "0.765",
         "[\"视觉表现\"]"
       ],
       [
         "바로 어둠의 버전 ᄃᄃ",
-        "positive",
-        "0.9211127583787024",
+        "neutral",
+        "0.79",
         "[\"其他讨论\"]"
       ],
       [
         "역시 관리자야 사람도 하나의 볼트와 너트에 불과할 뿐이지!",
-        "positive",
-        "0.9010658366346783",
+        "neutral",
+        "0.93",
         "[\"剧情内容\"]"
       ],
       [
         "그래 좋게 넘어갈리가 없지",
         "negative",
-        "0.68",
+        "0.75",
         "[\"社区生态\"]"
       ],
       [
         "왜 좋게 가나 했다 ᄒᄒᄒ",
         "neutral",
-        "0.7360529745039545",
+        "0.71",
         "[\"剧情内容\"]"
       ],
       [
         "십ᄏᄏᄏ 두가지 버전 다 있네ᄏᄏᄏ",
         "positive",
-        "0.7820542178337672",
+        "0.68",
         "[\"社区生态\"]"
       ],
       [
         "칸니니 정신조종하는 디얄 ᄋᄃ",
         "neutral",
-        "0.79",
+        "0.84",
         "[\"角色讨论\"]"
       ],
       [
         "역시 아이돌의 중요한 덕목은 배개영업이지❤",
-        "positive",
-        "0.9432095180067008",
+        "neutral",
+        "0.89",
         "[\"其他讨论\"]"
       ],
       [
         "사진 조정하는데 숫자가...노린거겠지?",
         "neutral",
-        "0.8285887359435473",
+        "0.9",
         "[\"养成资源\"]"
       ],
       [
         "관리자가 만악의 근원이네ᄏᄏᄏ",
-        "positive",
-        "0.8201280885844265",
+        "neutral",
+        "0.79",
         "[\"剧情内容\"]"
       ],
       [
         "지하아이돌 버전 ᄃᄃ",
-        "positive",
-        "0.7843331005815644",
+        "neutral",
+        "0.91",
         "[\"其他讨论\"]"
       ],
       [
         "나아가기는 당신때문에 맨날 후진하잖아",
         "negative",
-        "0.67",
+        "0.755",
         "[\"剧情内容\"]"
       ],
       [
         "축협 출신이다 분명",
         "neutral",
-        "0.79",
+        "0.85",
         "[\"其他讨论\"]"
       ],
       [
         "진짜 당신은 반드시 공론화시키겠다",
-        "positive",
-        "0.9461200842767745",
+        "negative",
+        "0.83",
         "[\"音频表现\"]"
       ],
       [
         "저 마이크들 수상하게 서있네",
-        "positive",
-        "0.7706863382438054",
+        "neutral",
+        "0.79",
         "[\"其他讨论\"]"
       ],
       [
         "갑자기 지하 아이돌이 되어버렸네",
         "neutral",
-        "0.79",
+        "0.85",
         "[\"其他讨论\"]"
       ],
       [
         "아이돌 출신이면 버드비스트 비료나 채집할줄 알았는데 흠 아쉽구먼",
         "negative",
-        "0.79",
+        "0.78",
         "[\"战斗体验\"]"
       ],
       [
         "슬슬 배출할때 됬긴했었지 형",
         "neutral",
-        "0.73",
+        "0.76",
         "[\"其他讨论\"]"
       ],
       [
         "댓글 보면 뭔가 다들 이해하신 거 같은데 난 전혀 이해할 수가 없다... 무슨 일이 벌어지고 있는 거임",
         "neutral",
-        "0.6631242821166243",
+        "0.98",
         "[\"商业化\"]"
       ],
       [
         "리노가 황무지를 안 가도 되는 이유",
-        "positive",
-        "0.4687875466636083",
+        "neutral",
+        "0.86",
         "[\"商业化\"]"
       ],
       [
         "리노 리븃도 나오는거죠?",
         "neutral",
-        "0.97",
+        "0.88",
         "[\"商业化\"]"
       ],
       [
         "판은 순수했는데 관리자는...",
         "neutral",
-        "0.79",
+        "0.84",
         "[\"剧情内容\"]"
       ],
       [
         "돔공연 축하해 리노짱 (푹찍) (칼 아님)",
-        "neutral",
-        "0.75",
+        "positive",
+        "0.8",
         "[\"其他讨论\"]"
       ],
       [
         "여자한테만 베개영업하는 리노 이거 맛잘알이네",
         "positive",
-        "0.68",
+        "0.73",
         "[\"技术体验\"]"
       ],
       [
         "같은 노래, 다른 영상ᄏ",
         "neutral",
-        "0.79",
+        "0.85",
         "[\"视觉表现\"]"
       ],
       [
         "입가만 나오는게 진짜 꼴잘알인게 화나네",
         "positive",
-        "0.6726043462100789",
+        "0.68",
         "[\"音频表现\"]"
       ],
       [
         "아 설마 오리지늄을 거기에 소환하는...?",
         "neutral",
-        "0.7478515434469606",
+        "0.92",
         "[\"角色讨论\"]"
       ],
       [
         "인간이길 버린것이냐",
         "neutral",
-        "0.79",
+        "0.835",
         "[\"其他讨论\"]"
       ],
       [
         "으악",
         "neutral",
-        "0.65",
+        "0.72",
         "[\"其他讨论\"]"
       ],
       [
         "오 오랜만에 이해못함 ᄂᄋᄉ",
-        "positive",
-        "0.9410428304396133",
+        "neutral",
+        "0.84",
         "[\"商业化\"]"
       ],
       [
         "이게뭐지 이해를못하겟는딩",
         "neutral",
-        "0.79",
+        "0.865",
         "[\"社区生态\"]"
       ],
       [
         "이상하다. 정상적인 영업 뛰는 프로듀서인데... 내가 원하던 게 아닌 기분이야.",
         "negative",
-        "0.68",
+        "0.73",
         "[\"角色讨论\"]"
       ],
       [
         "ᄉᄑ 맨처음에 아이가 무릎 꿇고 있는 장면에서 길죽한게 튀어나와서 신고할뻔했다",
         "neutral",
-        "0.6332214648447482",
+        "0.79",
         "[\"剧情内容\"]"
       ],
       [
         "난 처음에 애기 보고 첩산진맥고 형이 이상한 짓 할까봐 식은땀 흘렸다",
         "neutral",
-        "0.8",
+        "0.795",
         "[\"视觉表现\"]"
       ],
       [
         "인간이길 택한것이냐",
         "neutral",
-        "0.79",
+        "0.835",
         "[\"其他讨论\"]"
       ],
       [
         "non-unhinged posting? that's new",
         "neutral",
-        "0.5542700291261607",
+        "0.88",
         "[\"技术体验\"]"
       ],
       [
         "정상적인 척하면서 뭔가 숨겨둔거 아니겠지...?",
         "neutral",
-        "0.8703285825522782",
+        "0.78",
         "[\"角色讨论\"]"
       ],
       [
         "리빙포인트) 팬더 캐릭터를 함부로 굴리다간 누군가를 화나게 할 수 있다",
         "neutral",
-        "0.86",
+        "0.825",
         "[\"其他讨论\"]"
       ],
       [
         "[폭풍전야]",
         "neutral",
-        "0.5985139181195259",
+        "0.79",
         "[\"其他讨论\"]"
       ],
       [
         "보아라 내 아이돌이 춤추는 모습을!",
         "positive",
-        "0.88",
+        "0.895",
         "[\"角色讨论\"]"
       ],
       [
         "폭풍이 휘몰아치기 전의 고요인가?",
         "neutral",
-        "0.8572835729923435",
+        "0.94",
         "[\"其他讨论\"]"
       ],
       [
         "그니까 초반에 아이보고 발1@기이이잇! 했다는거죠?🥵",
         "neutral",
-        "0.68",
+        "0.76",
         "[\"其他讨论\"]"
       ],
       [
         "프로듀사...!",
-        "positive",
-        "0.6611489919832841",
+        "neutral",
+        "0.82",
         "[\"角色讨论\"]"
       ],
       [
         "그냥 열심히 홍보하는 프로듀서였잖아 처음에 아이 나오길래 깜짝놀랐네",
         "neutral",
-        "0.88",
+        "0.835",
         "[\"剧情内容\"]"
       ],
       [
         "채널명 보고 각오했는데 정상이라서 당황했다",
         "neutral",
-        "0.79",
+        "0.835",
         "[\"商业化\"]"
       ],
       [
         "솔직히, 사업체 운영하는 판이 매니져 잘 할 것 같긴함. 성격도 시원해서 가끔 예능플 할때 씀",
         "neutral",
-        "0.79",
+        "0.855",
         "[\"角色讨论\"]"
       ],
       [
         "감동적이네요",
         "positive",
-        "0.6879899915558065",
+        "0.88",
         "[\"商业化\"]"
       ],
       [
         "흠...리노야 그렇게 됐다.",
         "neutral",
-        "0.6413894317193483",
+        "0.86",
         "[\"商业化\"]"
       ],
       [
         "첩산진맥고!",
-        "positive",
-        "0.661227661700317",
+        "neutral",
+        "0.78",
         "[\"其他讨论\"]"
       ],
       [
         "그저 열심히 일하는 사원 1이었다",
         "neutral",
-        "0.79",
+        "0.86",
         "[\"角色讨论\"]"
       ],
       [
         "판 썬글라스에 배경비치는건가",
         "neutral",
-        "0.96",
+        "0.875",
         "[\"视觉表现\"]"
       ],
       [
         "어쩐지 저번 영상이 정상적이더라",
         "neutral",
-        "0.79",
+        "0.84",
         "[\"视觉表现\"]"
       ],
       [
         "her biggest fan! this is a cute short",
         "positive",
-        "0.9811821429907868",
+        "0.88",
         "[\"视觉表现\"]"
       ],
       [
         "뭐지 진천우사랑단이라면 판이 리노 협박하면서 카메라보고 이름과 나이 말해보라고 하는 그런거 할줄 알았는데",
         "neutral",
-        "0.9",
+        "0.84",
         "[\"技术体验\"]"
       ],
       [
         "첩❤산❤진❤맥❤고❤",
-        "positive",
-        "0.7519625185195575",
+        "neutral",
+        "0.91",
         "[\"其他讨论\"]"
       ],
       [
         "정상인 걸 보니, 단단히 미친 듯... 음?",
         "neutral",
-        "0.76",
+        "0.775",
         "[\"其他讨论\"]"
       ],
       [
         "아니 분명 지인한테 채널 들켰다니까",
         "neutral",
-        "0.79",
+        "0.85",
         "[\"其他讨论\"]"
       ],
       [
         "왜 정상적이지 무섭게",
         "neutral",
-        "0.9490328627690202",
+        "0.79",
         "[\"剧情内容\"]"
       ],
       [
         "왜 정상임?...(의심...)",
         "neutral",
-        "0.78",
+        "0.785",
         "[\"角色讨论\"]"
       ],
       [
         "채널 주인장 바뀜? 왜 정상적이야",
         "neutral",
-        "0.78",
+        "0.785",
         "[\"社区生态\"]"
       ],
       [
         "뭔일로 정상적인게?",
         "neutral",
-        "0.914567623470145",
+        "0.79",
         "[\"角色讨论\"]"
       ],
       [
         "왜 정상임?",
         "neutral",
-        "0.8",
+        "0.795",
         "[\"剧情内容\"]"
       ],
       [
         "이게 왜 뒷골목 홍보가 아님?",
         "neutral",
-        "0.8287651221732886",
+        "0.91",
         "[\"社区生态\"]"
       ],
       [
         "사람의 마음 같은 것두 있는기가?",
         "neutral",
-        "0.8048360213371186",
+        "0.9",
         "[\"其他讨论\"]"
       ],
       [
         "왜 애가 정상인 건데.",
         "neutral",
-        "0.94533031904694",
+        "0.79",
         "[\"剧情内容\"]"
       ],
       [
         "쓰읍...이맛이 아닌데",
-        "neutral",
-        "0.6192774763399668",
+        "negative",
+        "0.77",
         "[\"角色讨论\"]"
       ],
       [
         "왜 정상이지",
         "neutral",
-        "0.9539944802369192",
+        "0.82",
         "[\"剧情内容\"]"
       ],
       [
         "...왜 불안하지?;;",
-        "neutral",
-        "0.7708402245473457",
+        "negative",
+        "0.68",
         "[\"其他讨论\"]"
       ],
       [
         "아이돌 빠돌이 판아저씨",
         "neutral",
-        "0.79",
+        "0.855",
         "[\"角色讨论\"]"
       ],
       [
         "nooo endmin got kidnapped 🥀",
         "neutral",
-        "0.722586259132336",
+        "0.84",
         "[\"角色讨论\"]"
       ],
       [
         "carried him like a freaking rice bag i’m sobbing 😭",
         "positive",
-        "0.88",
+        "0.83",
         "[\"角色讨论\"]"
       ],
       [
         "she's very strong",
-        "neutral",
-        "0.614764635069726",
+        "positive",
+        "0.98",
         "[\"角色讨论\"]"
       ],
       [
         "noo it should've been me, not him 🥀",
         "negative",
-        "0.88",
+        "0.89",
         "[\"其他讨论\"]"
       ],
       [
         "edmin: i would've preferred a princess carry... not a rice bag.*",
-        "negative",
-        "0.75",
+        "neutral",
+        "0.84",
         "[\"角色讨论\"]"
       ],
       [
@@ -2293,37 +2308,37 @@
       [
         "doctor: first time?",
         "neutral",
-        "0.9456167505403876",
+        "0.79",
         "[\"竞品讨论\"]"
       ],
       [
         "wait i've seen this before 😮",
         "neutral",
-        "0.5633814229565022",
+        "0.91",
         "[\"角色讨论\"]"
       ],
       [
         "bruh... one day after the update, maybe put a spoiler in the beginning?...",
         "negative",
-        "0.93",
+        "0.885",
         "[\"商业化\"]"
       ],
       [
         "whys he so stiff💔",
-        "neutral",
-        "0.8104583955690564",
+        "negative",
+        "0.91",
         "[\"角色讨论\"]"
       ],
       [
         "i wish we had more designs where the female characters have muscle definition, there is media of powerful woman but they always look like models. im not saying muscular woman cant look pretty or whatever but if theyre strong there should be muscle definition and some physical changes to the character",
         "negative",
-        "0.85",
+        "0.89",
         "[\"视觉表现\"]"
       ],
       [
         "что...",
         "neutral",
-        "0.7626435720351665",
+        "0.79",
         "[\"其他讨论\"]"
       ],
       [
@@ -2335,583 +2350,583 @@
       [
         "그에게 좋은 툴이 들어갔다...!",
         "positive",
-        "0.88",
+        "0.855",
         "[\"其他讨论\"]"
       ],
       [
         "너무커서 밀려나는구나ᄏᄏᄏᄏᄏ",
-        "positive",
-        "0.8366020938651616",
+        "neutral",
+        "0.94",
         "[\"社区生态\"]"
       ],
       [
         "그래서 이걸 이동하면 신기한 곳도 갈수 있으니 뽑으란러군요?",
         "neutral",
-        "0.673577598050296",
+        "0.91",
         "[\"其他讨论\"]"
       ],
       [
         "как всегда endfield player удивляет способностью находить новые баги 👍",
-        "neutral",
-        "0.72",
+        "positive",
+        "0.9",
         "[\"版本内容\"]"
       ],
       [
         "로봇 다리에 이런 기능까지...!",
         "positive",
-        "0.7919577090169098",
+        "0.88",
         "[\"其他讨论\"]"
       ],
       [
         "the moment i saw how lino play, i had a guess that she can be used for this. im glad it is true",
         "positive",
-        "0.88",
+        "0.915",
         "[\"技术体验\"]"
       ],
       [
         "the king of the field new liino tech just dropped 🔥",
-        "neutral",
-        "0.6198535624388009",
+        "positive",
+        "0.93",
         "[\"竞品讨论\"]"
       ],
       [
         "선생님 보통의 유저들은 저런데서 미세조정을 할 일이 없습니다...",
-        "positive",
-        "0.5674340193696468",
+        "neutral",
+        "0.86",
         "[\"其他讨论\"]"
       ],
       [
         "허허 이걸로 또 작품이 쏟아지겠구나",
         "positive",
-        "0.4912894819114072",
+        "0.68",
         "[\"社区生态\"]"
       ],
       [
         "먼소리야이게ᅮᅮ😢😢",
         "neutral",
-        "0.68",
+        "0.88",
         "[\"其他讨论\"]"
       ],
       [
         "ついに空中での方向転換まで出来るようになってしまったのか",
-        "positive",
-        "0.7256577311623301",
+        "neutral",
+        "0.96",
         "[\"战斗体验\"]"
       ],
       [
         "짚라인 설치 장인들 또 생기겠네",
-        "positive",
-        "0.4944747518893016",
+        "neutral",
+        "0.84",
         "[\"社区生态\"]"
       ],
       [
         "요즘은 너무 머리아파서 전봇대 정렬 미관, 맵 탈출 집라인도 내팽겨치고 이젠 공장도 뇌 타버려서 딸깍으로 함...",
         "negative",
-        "0.94",
+        "0.925",
         "[\"战斗体验\"]"
       ],
       [
         "대체 이런건 어떻게 알아내는건지 참 궁금하네... 이런 버그 영상 볼때마다 참 신기해...",
         "positive",
-        "0.68",
+        "0.86",
         "[\"社区生态\"]"
       ],
       [
         "a new meta for 0 sanity players.",
         "neutral",
-        "0.7567522637038514",
+        "0.68",
         "[\"社区生态\"]"
       ],
       [
         "ᄃᄃ",
-        "positive",
-        "0.8193397013135477",
+        "neutral",
+        "0.84",
         "[\"其他讨论\"]"
       ],
       [
         "음... 그냥 누가 공유해주면 써야지 내가 뚫진못하겠다...",
         "neutral",
-        "0.76",
+        "0.775",
         "[\"其他讨论\"]"
       ],
       [
         "wait liino can float!? hollyy! can wait to lose 50/50 tomorrow & cry (my exam will finally end tomorrow) 🥹",
-        "positive",
-        "0.9714495059752055",
+        "neutral",
+        "0.72",
         "[\"角色讨论\"]"
       ],
       [
         "and so... it s that reson liino must roll😅",
         "positive",
-        "0.88",
+        "0.835",
         "[\"角色讨论\"]"
       ],
       [
         "every new update a new movement tech, xd",
-        "neutral",
-        "0.7737253225591082",
+        "positive",
+        "0.68",
         "[\"技术体验\"]"
       ],
       [
         "bug field",
-        "neutral",
-        "0.5889662350673149",
+        "negative",
+        "0.91",
         "[\"战斗体验\"]"
       ],
       [
         "si apretas varias veces el básico aparecen emojis y espectadores",
         "neutral",
-        "0.79",
+        "0.88",
         "[\"角色讨论\"]"
       ],
       [
         "이게 무슨 ᄌ버그냐!(x) 아 리노는 히든 모험가구나!(0)",
-        "neutral",
-        "0.5394807619859151",
+        "positive",
+        "0.79",
         "[\"社区生态\"]"
       ],
       [
         "이건 혹시 탕탕 없으면 못하나요? 리노만 있으면 되는거면 해보고 싶은데 탕탕까지 필요한거면 답없어서요...",
         "neutral",
-        "0.8441856140767903",
+        "0.68",
         "[\"社区生态\"]"
       ],
       [
         "и как это использовать?/",
         "neutral",
-        "0.99",
+        "0.89",
         "[\"角色讨论\"]"
       ],
       [
         "포브스 선정 4번 자리에 있을 때 가장 귀여운 오퍼레이터 1위",
         "positive",
-        "0.88",
+        "0.93",
         "[\"其他讨论\"]"
       ],
       [
         "얼마나 올챙이크림 보습 받을지 감도 안옴",
         "neutral",
-        "0.6849167467994763",
+        "0.87",
         "[\"社区生态\"]"
       ],
       [
         "4번 자리에 잘 어울린다",
         "positive",
-        "0.88",
+        "0.89",
         "[\"其他讨论\"]"
       ],
       [
         "엔필 좀 현타와서 남은 50가챠중에 안뜨면 안뜬김에 접을려 했는데 떠버림 ᄌ됨",
         "positive",
-        "0.68",
+        "0.72",
         "[\"养成资源\"]"
       ],
       [
         "나만없어리노",
         "negative",
-        "0.92",
+        "0.88",
         "[\"商业化\"]"
       ],
       [
         "이마스구 린네!~",
-        "positive",
-        "0.5592205777367208",
+        "neutral",
+        "0.78",
         "[\"其他讨论\"]"
       ],
       [
         "진짜 잘 나왔네",
         "positive",
-        "0.9062647048256011",
+        "0.88",
         "[\"音频表现\"]"
       ],
       [
         "퇴근 후 뒷골목 아저씨들과 쿵짝쿵짝",
         "neutral",
-        "0.84",
+        "0.815",
         "[\"角色讨论\"]"
       ],
       [
         "her head is a big thorny 💖💜💖",
-        "neutral",
-        "0.5559071644350569",
+        "positive",
+        "0.9",
         "[\"视觉表现\"]"
       ],
       [
         "kawaiii❤❤❤❤❤",
         "positive",
-        "0.9292021913912185",
+        "0.99",
         "[\"其他讨论\"]"
       ],
       [
         "2번 놓을까 4번 놓을까 아직도 고민이다",
         "neutral",
-        "0.79",
+        "0.875",
         "[\"其他讨论\"]"
       ],
       [
         "예뻐서 뽑고는 싶은데 흠... 준네 뭔가 뭔가네",
-        "negative",
-        "0.78",
+        "neutral",
+        "0.82",
         "[\"商业化\"]"
       ],
       [
         "😍😍😍👍👍👍💯💯💯",
         "positive",
-        "0.6268143893525613",
+        "0.88",
         "[\"角色讨论\"]"
       ],
       [
         "탈로수 최고 아이돌 리노를 만날수 있는 절호의 기회 엔드필드 제강호 지금바로 탑승",
-        "neutral",
-        "0.6439043323752743",
+        "positive",
+        "0.95",
         "[\"战斗体验\"]"
       ],
       [
         "목에 목줄을? 심지어 벨트?! 와흐",
         "positive",
-        "0.79",
+        "0.835",
         "[\"角色讨论\"]"
       ],
       [
         "와 엔필 접었는데 진짜 레전드 귀여운 캐릭 나왔네 사랑스럽게 생겼다",
         "positive",
-        "0.89",
+        "0.94",
         "[\"养成资源\"]"
       ],
       [
         "여긴 엔평이 없어서 다행이야...",
         "positive",
-        "0.88",
+        "0.85",
         "[\"角色讨论\"]"
       ],
       [
         "돔공연 축하해",
         "neutral",
-        "0.8063538980747281",
+        "0.75",
         "[\"其他讨论\"]"
       ],
       [
         "손잡이 저건 진짜 노린거 아니냐",
-        "positive",
-        "0.8559134726585863",
+        "neutral",
+        "0.68",
         "[\"视觉表现\"]"
       ],
       [
         "멀리서 보기만 할때 가장 재밌는 게임",
         "negative",
-        "0.84",
+        "0.865",
         "[\"技术体验\"]"
       ],
       [
         "바리바리 무샤무샤!",
-        "positive",
-        "0.4952397986015124",
+        "neutral",
+        "0.86",
         "[\"其他讨论\"]"
       ],
       [
         "리노 덕에 공장에 다시 손대고 정착할수있었다",
         "positive",
-        "0.94",
+        "0.91",
         "[\"技术体验\"]"
       ],
       [
         "아 귀여워요 ❤ 애교 많아 보여요 ᅲ ᅲ",
         "positive",
-        "0.5506046706403256",
+        "0.99",
         "[\"其他讨论\"]"
       ],
       [
         "요망한",
-        "neutral",
-        "0.5485993544551991",
+        "positive",
+        "0.68",
         "[\"其他讨论\"]"
       ],
       [
         "으흐흐 일루와잇😊",
         "positive",
-        "0.7687173996929594",
+        "0.88",
         "[\"其他讨论\"]"
       ],
       [
         "바리바리 무샤무샤",
         "neutral",
-        "0.79",
+        "0.84",
         "[\"其他讨论\"]"
       ],
       [
         "진짜 잘잡히게 생겼네요^v^",
-        "positive",
-        "0.9486437263844028",
+        "neutral",
+        "0.69",
         "[\"音频表现\"]"
       ],
       [
         "이마스구 린네 할것같이 생겼잖아",
         "neutral",
-        "0.4521676655163344",
+        "0.68",
         "[\"其他讨论\"]"
       ],
       [
         "뎀~",
         "neutral",
-        "0.79",
+        "0.805",
         "[\"其他讨论\"]"
       ],
       [
         "아이돌에 눈에 별...? 혹시 이름이 호시노...읍읍",
         "neutral",
-        "0.790299105797311",
+        "0.93",
         "[\"角色讨论\"]"
       ],
       [
         "내 여자친구임❤",
         "positive",
-        "0.89",
+        "0.935",
         "[\"其他讨论\"]"
       ],
       [
         "진짜 모델링 하나는 이거이거👍",
         "positive",
-        "0.88",
+        "0.93",
         "[\"版本内容\"]"
       ],
       [
         "가이드 감사합니다",
         "positive",
-        "0.872090656234766",
+        "0.99",
         "[\"社区生态\"]"
       ],
       [
         "빠르다 ᄃᄃ",
         "positive",
-        "0.9188212482255257",
+        "0.88",
         "[\"社区生态\"]"
       ],
       [
         "퀄리티가 점점 좋아지네요 재밌게 보고 있습니다",
         "positive",
-        "0.573127604894256",
+        "0.98",
         "[\"养成资源\"]"
       ],
       [
         "와 빠른 영상 업로드 조와요",
         "positive",
-        "0.9106211480275769",
+        "0.98",
         "[\"视觉表现\"]"
       ],
       [
         "뽑았다 영상 봐야겠다",
         "positive",
-        "0.8298194496214467",
+        "0.88",
         "[\"社区生态\"]"
       ],
       [
         "!? 오늘 12시 시작아니었나요? 지금 1시인데 벌써 영상이",
         "neutral",
-        "0.8589494889792285",
+        "0.95",
         "[\"养成资源\"]"
       ],
       [
         "엔최미 캐디 너무예쁨",
         "positive",
-        "0.5684830103198903",
+        "0.99",
         "[\"战斗体验\"]"
       ],
       [
         "필수는 아니여도 없으면 꼬운 느낌이군요",
         "neutral",
-        "0.82",
+        "0.75",
         "[\"竞品讨论\"]"
       ],
       [
         "make 장방이 great again!",
         "positive",
-        "0.9748960094272422",
+        "0.88",
         "[\"战斗体验\"]"
       ],
       [
         "마! 주술마법!",
-        "positive",
-        "0.6722324851531828",
+        "neutral",
+        "0.89",
         "[\"其他讨论\"]"
       ],
       [
         "물리속성 채강 스트라이커! 판!",
         "positive",
-        "0.5850540081713693",
+        "0.88",
         "[\"其他讨论\"]"
       ],
       [
         "매번 칙칙한 아저씨 같은 의상 보다가 리노 옷 보니까 참 이쁘다 스킨급이야",
         "positive",
-        "0.88",
+        "0.93",
         "[\"角色讨论\"]"
       ],
       [
         "저 전무 10뽑에 나왔는데 지린건가요",
         "positive",
-        "0.87",
+        "0.875",
         "[\"商业化\"]"
       ],
       [
         "이거 보고 결시작 뉴비 리노뽑았다",
         "positive",
-        "0.89",
+        "0.905",
         "[\"商业化\"]"
       ],
       [
         "단조제 아낄려고 식양 부품 1개 대신 이번 지급장비 부품 하나 섞어썼습니다 ᄏᄏ 의치 10, 궁충 5%정도 낮긴 한데 나쁘진 않은듯",
         "neutral",
-        "0.79",
+        "0.875",
         "[\"商业化\"]"
       ],
       [
         "전무 뽑기 디지게 어렵게 만들어놓고 전무를 씨발 서폿까지 필수급으로 쳐내는구나 멋지다 진짜",
         "negative",
-        "0.99",
+        "0.915",
         "[\"版本内容\"]"
       ],
       [
         "테섭같은데서 초대 받으신건가",
         "neutral",
-        "0.98",
+        "0.885",
         "[\"战斗体验\"]"
       ],
       [
         "전무 필수라는데 그냥 패스 적당히 써도 될듯",
         "neutral",
-        "0.6455402512038141",
+        "0.68",
         "[\"其他讨论\"]"
       ],
       [
         "다 명함 전무인데 결 50만딜 처음 보네요ᄃᄃ장비 단조 재료 구매 수량을 다써서 아직 장비 단조가 안돼있는데두 말이죠, 마스터리도 거의 안되어있고... 장방이파티에서 서폿 결이랑 같이 써봐야겠습니다",
         "positive",
-        "0.88",
+        "0.925",
         "[\"战斗体验\"]"
       ],
       [
         "서큐버스에... 메카에... 아이돌...? 이 무슨 혼종이란말인가...",
         "neutral",
-        "0.7428474024333916",
+        "0.9",
         "[\"其他讨论\"]"
       ],
       [
         "가챠영상으로도 오디오 안비어서 만조쿠",
         "positive",
-        "0.89",
+        "0.895",
         "[\"商业化\"]"
       ],
       [
         "장비셋팅 좀 다르게 하고 싶은데 궁충 치유효율 주요능력치 셋중에 우선도가 어떻게 될까요?스탯은 의지에 몰빵할가요 민첩도 조금 챙겨주는게 나을가요",
         "neutral",
-        "0.6906228917141877",
+        "0.99",
         "[\"养成资源\"]"
       ],
       [
         "금ᄌ두가 조만간 전기팟으로 합류할 예정입니다",
         "neutral",
-        "0.79",
+        "0.94",
         "[\"其他讨论\"]"
       ],
       [
         "1시 업뎃 기다리고 있는데 이게뭐지¿",
         "neutral",
-        "0.79",
+        "0.85",
         "[\"商业化\"]"
       ],
       [
         "쌍천장 쳐서 아픕니다...",
         "negative",
-        "0.84",
+        "0.895",
         "[\"其他讨论\"]"
       ],
       [
         "밍순이 봐서 뽑을지 말지 정한다...ᅲᅲᅲ 재화 부족해!",
         "negative",
-        "0.68",
+        "0.795",
         "[\"商业化\"]"
       ],
       [
         "이럴거면 패스무기 존재 이유가 뭔지...",
-        "neutral",
-        "0.6200895524206219",
+        "negative",
+        "0.84",
         "[\"商业化\"]"
       ],
       [
         "마침 결 서포트 세팅 맞춰놓고 쓰고있었는데, 스킬 게이지 채워주는 아크라이트가 없어도 리노가 주는 게이지 반환만으로도 게이지 수급이 충분히 되는 건가요?",
         "neutral",
-        "0.5636678639713006",
+        "0.99",
         "[\"商业化\"]"
       ],
       [
         "개장빙만 쓰는 파츠일거라 생각햇는데 결한테도 좋네 굳",
         "positive",
-        "0.88",
+        "0.91",
         "[\"战斗体验\"]"
       ],
       [
         "결이 밍순이랑 같이 쓰인대서 결 명함 전무 천장 천장 쳤는데 리노까지 밍순이랑 같이 쓰인다뇨... 걸러야징 ᅲ",
-        "positive",
-        "0.5854381546851254",
+        "negative",
+        "0.91",
         "[\"战斗体验\"]"
       ],
       [
         "예? 영상 속도가 이상한디",
-        "positive",
-        "0.4987544491724034",
+        "neutral",
+        "0.79",
         "[\"视觉表现\"]"
       ],
       [
         "대 하 비 밍순이 자연스커 제발...",
         "positive",
-        "0.68",
+        "0.78",
         "[\"其他讨论\"]"
       ],
       [
         "초랭이를 뽑아야해서 넌 거른다...",
         "neutral",
-        "0.68",
+        "0.785",
         "[\"商业化\"]"
       ],
       [
         "필수전무? 그런게어딧어 너도 어김없이 쌀먹패스야",
         "neutral",
-        "0.70343524800708",
+        "0.8",
         "[\"战斗体验\"]"
       ],
       [
         "결은 픽띃나서 개망했는데",
-        "positive",
-        "0.6864147286252691",
+        "negative",
+        "0.94",
         "[\"商业化\"]"
       ],
       [
         "아니 님 장비가 6:16 풀단조 장비가 수십개 있는거 뭐에요? 똑같은 오픈유저고 맨날 단조제 다사도 필요한 장비만 단조하는데 이분은 뭔 핵이라도 쓴거마냥 같은장비 풀단조가 주르륵 있는거 말안되는데? 아니 풀돌풀재를 많이하면 관리권을 더주는 그런것도 아닐텐데 진짜 어케한거지... 해명부탁합니다!",
         "negative",
-        "0.97",
+        "0.905",
         "[\"视觉表现\"]"
       ],
       [
         "연계 배틀 궁극기 다 찍는데 마스터리 3랩도 찍는걸까요",
         "neutral",
-        "0.79",
+        "0.89",
         "[\"战斗体验\"]"
       ],
       [
         "질베르타 뽑고 접다가 이번에 리노보고 복귀했는데 픽뚫로 결 나오고 천장으로 리노뽑아서 한파티 완성됨 ᄒᄒ",
         "positive",
-        "0.88",
+        "0.915",
         "[\"商业化\"]"
       ],
       [
         "카뮤 결 리노 밍순이 4연타 버티려고 트럭까지 질러놨는데 죄다 비틱한 상황",
         "positive",
-        "0.68",
+        "0.785",
         "[\"商业化\"]"
       ],
       [
         "결이랑 펠리카는 무슨장비를 줘야하나요?",
         "neutral",
-        "0.99",
+        "0.89",
         "[\"养成资源\"]"
       ],
       [
@@ -2922,182 +2937,182 @@
       ],
       [
         "스킬은 머머 마스터 찍어야할까요? 일단 6666찍고 냅뒀는데",
-        "positive",
-        "0.6314000014632776",
+        "neutral",
+        "0.79",
         "[\"商业化\"]"
       ],
       [
         "장방이 파티에서 아크라이트 쓰기 싫었는데 아크라이트 빼야겠다 ᄏᄏᄏ",
         "positive",
-        "0.68",
+        "0.79",
         "[\"战斗体验\"]"
       ],
       [
         "고로 밍순이 보고나서 뽑아도 절대 늦지않고 지금 뽑아봐야 쓸곳은 장방팟뿐이다",
-        "positive",
-        "0.5947293639834821",
+        "neutral",
+        "0.96",
         "[\"其他讨论\"]"
       ],
       [
         "전무 못뽑았는디 패스무기보단 임시로 jet나 쓰는게 맞겠죠?",
         "neutral",
-        "0.8571576491030113",
+        "0.98",
         "[\"商业化\"]"
       ],
       [
         "스토리 보고있는데 카뮤보단 나은거같네",
         "positive",
-        "0.72",
+        "0.8",
         "[\"商业化\"]"
       ],
       [
         "밍순이옆에 사는 왜 붙나요? 죽음?",
         "neutral",
-        "0.9620370748511884",
+        "0.79",
         "[\"养成资源\"]"
       ],
       [
         "추천하신 결 리 펠 질 사용하려는데 펠,질 무기는 뭐 주는게 좋나요? 영감님들 도와줘...!",
         "neutral",
-        "0.737583519346802",
+        "0.99",
         "[\"养成资源\"]"
       ],
       [
         "결 궁극기 사이클이 이상하게 안 맞는 분들은 아마 4돌파 미만인 분들일건데 풀돌 기준으로 테스트해서 깜빡하고 설명을 못했네요... 결 4돌 미만은 배연배 배연배 배연\"배\" 까지 하면 궁극기가 찬다고 합니다 쏘리! + 지금 질베르타 없는분들은 질베르타 자리를 자이히or탕탕이로 대체 하셔도 괜찮고 펠리카 육성이 안된분들은 펠리카 자리 탕탕이로 대체하셔도 됩니다 자이히 넣는분들은 장비 식양 풀세트에 방어구 글러브 궁충으로 껴주셔야 하니 참고",
         "neutral",
-        "0.79",
+        "0.89",
         "[\"战斗体验\"]"
       ],
       [
         "이제 진짜 장비 프리셋이 필요한 시점인듯...",
         "negative",
-        "0.3983478040483515",
+        "0.89",
         "[\"音频表现\"]"
       ],
       [
         "장방이 없어서 리노뽑고 피규어로 써야하나싶었는데 이런영상을 발견했네 ᆪᆪ 다시복귀해서 장방이가 없어서막막했음",
         "positive",
-        "0.88",
+        "0.9",
         "[\"战斗体验\"]"
       ],
       [
         "오늘 바로바로 영상 다 올려주시네요. 항상 잘 보고 있습니다. 감사합니다. 다만 뽑기권 3일 나눠서 주는건 개선됐으면 좋겠네요. 뽑고 싶은데 아까워서 못뽑는중입니다...",
         "neutral",
-        "0.68",
+        "0.76",
         "[\"社区生态\"]"
       ],
       [
         "리노 궁컷씬이 맘에 특히 드시나 보네요 리노영상 3개 다 저 컷씬 ᄏᄏᄏᄏᄏᄏᄏᄏ 예쁘게 나오긴했어...",
         "positive",
-        "0.941029212415715",
+        "0.68",
         "[\"商业化\"]"
       ],
       [
         "장뱅이 파츠일거라 생각했는데 결파츠라서 결풀돌이라 너무 좋네용",
         "positive",
-        "0.96",
+        "0.965",
         "[\"战斗体验\"]"
       ],
       [
         "굉장히 이제와서지만... 펠리카 장갑을 꼭 식양의 흐름 보호 장갑으로 해야하는 이유가 따로 있는건가요? 펄스식 장갑도 스텟은 똑같은거 같은데 펄스식4셋하지 않고 펄스/식양흐름 3/1 세트로 하는 이유가 혹시 따로 있는건지. 아니면 그냥 새로 만들필요 없이 이미 있는걸 쓸 수 있어서 그렇게 하신건지가 궁금합니다.",
         "neutral",
-        "0.9231897671414396",
+        "0.99",
         "[\"战斗体验\"]"
       ],
       [
         "1:41 결 배연배쓰면 자연감소6초라 버프 잃는 경우가 있어서 일격두번쓰고 배연배하는거 추천. 일격두번 쓴뒤에 배연배하면 몹때문에 사이클 딜레이될순 있어도 꼬이진않음. 쾌적도가 차이나서 이게 편하더라구요,",
         "neutral",
-        "0.99",
+        "0.89",
         "[\"社区生态\"]"
       ],
       [
         "해묘야 장비 프리셋 좀 넣어다오",
         "negative",
-        "0.85",
+        "0.895",
         "[\"其他讨论\"]"
       ],
       [
         "콤보 외우기도 쉽다 문제는 뽑아야 하는데 안나온다는건데",
         "negative",
-        "0.84",
+        "0.855",
         "[\"养成资源\"]"
       ],
       [
         "제발 프리셋 기능좀 ᅲᅲᅲᅲᅲᅲᅲ",
         "negative",
-        "0.84",
+        "0.89",
         "[\"其他讨论\"]"
       ],
       [
         "개장빙 파티는 이제 도마뱀대가리 빼고 로켓다리 넣으면 된다는거지?",
         "neutral",
-        "0.6614968695382987",
+        "0.88",
         "[\"战斗体验\"]"
       ],
       [
         "3:28 리노 궁에도 감전있어서 리노 궁쓰기전에 펠리카 배스로 자연스택 털면 안됩니다 😅",
-        "positive",
-        "0.8537690142109116",
+        "neutral",
+        "0.79",
         "[\"战斗体验\"]"
       ],
       [
         "리노를 딜결에 붙여 봤는데 사밍순은 무조건 자연딜러 나와야한다 ᄏᄏᄏ너무 기대돼...",
         "positive",
-        "0.89",
+        "0.915",
         "[\"养成资源\"]"
       ],
       [
         "이번 전쟁의 메아리 컨텐츠 하면서 장방이랑 결의 체급이 미친듯이 오른게 느껴졌습니다 ᄃᄃᄃ 그전에는 장방이가 머리끄댕이잡고 겨우겨우 시간에 맞춰다면 지금은 아주 여유롭게 깨내요",
         "positive",
-        "0.8509319801090928",
+        "0.97",
         "[\"战斗体验\"]"
       ],
       [
         "오늘 리노 뽑아서 비틱 한번만 하겠습니다. 결 50 1돌, 리노 40명함 치고 너무 기뻐서 전무 뽑는데 다 필뚫처나서 확정으로 얻음...",
         "neutral",
-        "0.68",
+        "0.73",
         "[\"商业化\"]"
       ],
       [
         "섭딜 펠리카는 스킬 어캐찍어야해요?",
         "neutral",
-        "0.9317081386753708",
+        "0.99",
         "[\"养成资源\"]"
       ],
       [
         "결이 맞는 아이도루",
         "positive",
-        "0.88",
+        "0.89",
         "[\"角色讨论\"]"
       ],
       [
         "질베르타 안끼는곳이 없네 ᄏᄏᄏ",
-        "positive",
-        "0.644681529159703",
+        "neutral",
+        "0.79",
         "[\"社区生态\"]"
       ],
       [
         "장방이 결 리노 파티도 설명영상 존버중",
         "neutral",
-        "0.94",
+        "0.81",
         "[\"战斗体验\"]"
       ],
       [
         "질베는 식양셋으로 피증 받는거보다 검술사로 불균형쌓는게 더 밸류가 높은가요? 결 궁이 열작업받기 좀 빡빡해서 그런가",
         "neutral",
-        "0.99",
+        "0.89",
         "[\"战斗体验\"]"
       ],
       [
         "장방이 서폿결 리노 조합이 강하긴 강한게 조작감이 좀 그래서 결 메인딜 너무조아",
         "positive",
-        "0.89",
+        "0.905",
         "[\"战斗体验\"]"
       ],
       [
         "펠리카 또 너야?",
         "neutral",
-        "0.79",
+        "0.84",
         "[\"战斗体验\"]"
       ],
       [
@@ -3115,73 +3130,73 @@
       [
         "사이클이 왜 안떨어지나 했는데 결 4돌에 궁 에너지 감소 달려있네요... 4돌 미만은 배연배 배연배 배연\"배\" 까지 해야 궁 차네요",
         "neutral",
-        "0.79",
+        "0.885",
         "[\"战斗体验\"]"
       ],
       [
         "안녕하세요, 영상 잘 보고 있습니다. 질베 무가네하를 껴도 사명꼈을때보단 궁충이 약간 모자른데 그럼 갑바 장비만큼은 궁충껴줘도 되나요?",
         "neutral",
-        "0.9370031465104545",
+        "0.99",
         "[\"养成资源\"]"
       ],
       [
         "실전콤보에서 마지막 결 2차 궁 펠리카 궁 하셨는데 펠리카 궁 다음 결 2차 궁 써도 상관없죠?",
         "neutral",
-        "0.9177648764688223",
+        "0.99",
         "[\"战斗体验\"]"
       ],
       [
         "이걸 정상화라고 해야하나",
         "neutral",
-        "0.7453281656084001",
+        "0.68",
         "[\"技术体验\"]"
       ],
       [
         "질베르타 식양 셋말고 아츠강도 주는게 많이 차이날까요?",
         "neutral",
-        "0.9265027658867261",
+        "0.99",
         "[\"战斗体验\"]"
       ],
       [
         "장방이+리노 vs 결+리노 어떤 파티가 더쌘가요 결이 2돌이긴 합니다",
-        "positive",
-        "0.5066280881287392",
+        "neutral",
+        "0.99",
         "[\"战斗体验\"]"
       ],
       [
         "질베 연계기가 애매하게 안맞는데 이건 어쩔수 없느걸까요 ᅲ",
-        "neutral",
-        "0.5949226034254291",
+        "negative",
+        "0.84",
         "[\"战斗体验\"]"
       ],
       [
         "결 풀돌이 아닌 명함 기준으로는 어떨지... 모르겠네요... 혹시 명함 기준으로는 어떤가요...?",
         "neutral",
-        "0.6834225956418729",
+        "0.98",
         "[\"其他讨论\"]"
       ],
       [
         "질베 대신 자이라는요? 이중 버프 걸어서 필살딜몰 깡딜 되던데",
         "neutral",
-        "0.8842842352782823",
+        "0.94",
         "[\"战斗体验\"]"
       ],
       [
         "결, 장방 없는데 어케 짜야 할까요...질베, 펠리, 리노 마지막 한자리...",
         "neutral",
-        "0.8726599685287403",
+        "0.79",
         "[\"战斗体验\"]"
       ],
       [
         "무조건 펠리카를 파티에 넣는게 좋을까요? 펠리카 하나도 안 키워놔서 곤란쓰한데...",
-        "neutral",
-        "0.7700122785840781",
+        "negative",
+        "0.78",
         "[\"战斗体验\"]"
       ],
       [
         "리노 단점. 궁쓰면 연계 못씀. 근더이거말고 다 장점임ᄏᄏ",
         "positive",
-        "0.626695684612488",
+        "0.91",
         "[\"商业化\"]"
       ],
       [
@@ -3193,559 +3208,559 @@
       [
         "의외로 식양을 아무도 안쓰네",
         "neutral",
-        "0.79",
+        "0.875",
         "[\"其他讨论\"]"
       ],
       [
         "장방이 파티로 할꺼면 딜결하면 안되죠?",
         "neutral",
-        "0.7915081420808752",
+        "0.79",
         "[\"战斗体验\"]"
       ],
       [
         "식양셋은 파티에 안넣나요?",
         "neutral",
-        "0.9575736969571976",
+        "0.99",
         "[\"战斗体验\"]"
       ],
       [
         "혹시 질베 대체 캐릭은 뭐있나요",
         "neutral",
-        "0.5619616152743825",
+        "0.99",
         "[\"战斗体验\"]"
       ],
       [
         "리노 명함 안챙겨도 후회 안할까요?",
         "neutral",
-        "0.6252516064201018",
+        "0.68",
         "[\"商业化\"]"
       ],
       [
         "걱정마 칼 맞아서 전생한게 리노야",
         "neutral",
-        "0.82",
+        "0.75",
         "[\"商业化\"]"
       ],
       [
         "그래... 리노 너라도 행복해다오...",
         "positive",
-        "0.88",
+        "0.895",
         "[\"商业化\"]"
       ],
       [
         "언제 죽을지 모르니까 정을 주지 말아야겠다",
-        "neutral",
-        "0.7543586200572862",
+        "negative",
+        "0.91",
         "[\"社区生态\"]"
       ],
       [
         "공장공연 축하해...",
         "neutral",
-        "0.751235878321742",
+        "0.74",
         "[\"其他讨论\"]"
       ],
       [
         "날아다니잖아... 궤적보니까 쫓아가기도 힘듬 ᄏᄏᄏ",
         "neutral",
-        "0.79",
+        "0.845",
         "[\"社区生态\"]"
       ],
       [
         "푹-찍❤",
         "positive",
-        "0.7519625185195575",
+        "0.88",
         "[\"其他讨论\"]"
       ],
       [
         "아...왠지 몸에 칼맞을것같아...",
-        "neutral",
-        "0.78",
+        "negative",
+        "0.91",
         "[\"其他讨论\"]"
       ],
       [
         "안된다... 엔필은 여기서 더 늘어나면 감당이 안된다. .",
         "negative",
-        "0.84",
+        "0.88",
         "[\"商业化\"]"
       ],
       [
         "장방이 파티에 리노 넣어서 한번 써보면 느끼실 겁니다 원래 미쳐 날뛰던 장방이가 리노 넣으니 이게 맞나 싶을 정도로 성능이 얼탱이가 없음 +펠리카 자리 탕탕이로 대체 된다고 했는데 결 조합이랑 헷갈려서 잘못 말했습니다 장방이 파티는 무조건 펠리카 써야해요!",
         "positive",
-        "0.8296620252873809",
+        "0.98",
         "[\"战斗体验\"]"
       ],
       [
         "뭔가...임펙트에 비해서 데미지가 아쉬웠는데, 리노가 들어오고 떨어지는 번개가 '이제 맞으면 확실히 보내는구나' 싶은걸 떨어뜨림...매우 좋음",
         "positive",
-        "0.96",
+        "0.92",
         "[\"商业化\"]"
       ],
       [
         "증폭을 궁극기 딸깍으로 46퍼씩 주는게 어딨음 ᄏᄏ 개좋다 ᄏᄏ",
         "positive",
-        "0.6193987212444118",
+        "0.99",
         "[\"社区生态\"]"
       ],
       [
         "풀돌 빛나는 효과가 엄청나게 개선됬네요? 뒤만 빛나는게 아니라 벨트도 빛나고 꼬리도 빛나고 3가지나 빛나는데 거기다 그냥 빛나는게아니라 그라데이션으로 움직이면서 빛나고 또 이펙트도 있네요 ᄃᄃ;;;;; 대박이네",
         "positive",
-        "0.88",
+        "0.93",
         "[\"养成资源\"]"
       ],
       [
         "방금 해보고 왔는데 이조합 진짜 개미친거같은데;; 거의 원탑아님 이정도면?",
         "positive",
-        "0.7835627581945158",
+        "0.88",
         "[\"版本内容\"]"
       ],
       [
         "장방이 없는게 참...아쉽네요...ᅲᅲ",
         "negative",
-        "0.93",
+        "0.885",
         "[\"战斗体验\"]"
       ],
       [
         "리노 넣고 생체 세트 끼니까 장방이가 맞으면서 딜해도 안아픔 ᄏᄏ",
         "positive",
-        "0.6202721267349144",
+        "0.96",
         "[\"战斗体验\"]"
       ],
       [
         "장방이 파티 떡상? 리노는 아직 장비셋이 딱 이거다 하는게 앖는건지 나중에 맞춤 장비셋 나오면 한번 더 떡상각 나오나요 최근 오퍼들은 갈수록 돌파를 하면 보조에 생체보조판 더 많이 쓸 수 있는거 같아 차이가 더 벌어지는 느낌",
         "neutral",
-        "0.5362576497924174",
+        "0.91",
         "[\"战斗体验\"]"
       ],
       [
         "잠시 접어서 결 못 뽑았는데 복각은 내년초에라도 할까요? 리노 뽑으면서 2번이나 6성이 떴는데 결이 안 나와서 복각을 노려야 할 것 같은데...",
         "neutral",
-        "0.88",
+        "0.885",
         "[\"商业化\"]"
       ],
       [
         "전무를 뽑으라니... 담버전 밍순이 전무랑 저울질 해봐야겠구만...",
         "neutral",
-        "0.89",
+        "0.84",
         "[\"商业化\"]"
       ],
       [
         "일단 버퍼인데 힐러라는점이 ᅲ 폰엔필 하다보면 회피도 하기싫은 만사 귀찮을때 있는데 리노뽑고 그냥 장방이 맞딜쳐도 현재 컨텐츠 풀별하더라구요 편해요 편해",
         "positive",
-        "0.97",
+        "0.925",
         "[\"战斗体验\"]"
       ],
       [
         "장방이 결 이본만 뽑아놔서 리노 나오니까 너무좋음",
         "positive",
-        "0.7752923897362665",
+        "0.88",
         "[\"战斗体验\"]"
       ],
       [
         "이 영상보고 일단 전무 뽑음",
-        "positive",
-        "0.9356762215212",
+        "neutral",
+        "0.89",
         "[\"商业化\"]"
       ],
       [
         "기존에 쓰던 안탈 자리에 리노 들어가면 되겠내",
-        "positive",
-        "0.8449025498975571",
+        "neutral",
+        "0.89",
         "[\"商业化\"]"
       ],
       [
         "애초에 장방이 자체가 부착만 해주면 알아서 다 해버리니깐... 필수가 딱히 없는듯",
         "neutral",
-        "0.79",
+        "0.875",
         "[\"战斗体验\"]"
       ],
       [
         "리노 얘는 버프도 좋은데 생체보조세트 기준으로 받피감 32%라서 안정성도 너무 좋음 ᄏᄏ",
         "positive",
-        "0.6648774688347756",
+        "0.88",
         "[\"战斗体验\"]"
       ],
       [
         "엔필 초반이랑 다르게 가면 갈수록 전무가 필수급이 되네요 결국 명전도 돈을 점점 더 많이 질러야겠구나...",
         "negative",
-        "0.84",
+        "0.905",
         "[\"商业化\"]"
       ],
       [
         "증폭 46%가 필요없으면 없어도 됨ᄏᄏᄏᄏᄏᄏ 아 저걸 어떻게 포기함ᄏᄏᄏᄏ",
         "positive",
-        "0.725981646814047",
+        "0.91",
         "[\"社区生态\"]"
       ],
       [
         "뭔진 모르겠는데 리노 궁키면 조올라 쎔",
         "positive",
-        "0.6441882508353919",
+        "0.94",
         "[\"商业化\"]"
       ],
       [
         "티폰 풀돌을 위해 참아야 한다...",
         "neutral",
-        "0.4967181586826964",
+        "0.79",
         "[\"其他讨论\"]"
       ],
       [
         "자연스트라이커 밍순이를 위한 빅픽쳐 ... 결 리노는 무적권 뽑는다",
         "positive",
-        "0.89",
+        "0.915",
         "[\"商业化\"]"
       ],
       [
         "돌려 안 말함 걍 ᄏᄏ 뽑아야 돼요 후회하니까",
         "positive",
-        "0.7700780186326971",
+        "0.94",
         "[\"商业化\"]"
       ],
       [
         "플돌인지 명전인지 얘기해줘야 하는거 아닌가요 대부분 명전일텐데 아무나 풀돌하는거 아니잖아요",
         "negative",
-        "0.96",
+        "0.9",
         "[\"养成资源\"]"
       ],
       [
         "아니 리노 넣으면... 장방이 성능이 너무 좋아져서 진짜 너무하다 싶음",
         "positive",
-        "0.88",
+        "0.925",
         "[\"战斗体验\"]"
       ],
       [
         "하는게 젠이랑 엔 인데 젠쪽 아스트라 생각하면 뽑아가는게 맞을듯 배스 궁 딸깍 편의성이 말이안됨",
         "positive",
-        "0.88",
+        "0.91",
         "[\"战斗体验\"]"
       ],
       [
         "서폿에 필수급 전무넣을거면 무기징표 개선시급한데,지금 징표없으면 무조건 돈으로밖에 못사니까 게임에서 수급할수있는곳이 없어",
         "negative",
-        "0.84",
+        "0.91",
         "[\"养成资源\"]"
       ],
       [
         "장방이파티(펠리카+결+리노)에서는 콤보 빡빡하게 필요없더라 1. 감전 묻히고 베스쓰기 2. 장방이 궁은 돌떄마다쓰고 결,펠리카,리노궁은 그냥 장방이 궁 켜져있으면 써준다. 이게 다임.",
         "neutral",
-        "0.99",
+        "0.985",
         "[\"战斗体验\"]"
       ],
       [
         "이전에 다룬 걸 링크로 올려주면...",
         "neutral",
-        "0.86",
+        "0.77",
         "[\"其他讨论\"]"
       ],
       [
         "장펠결리 사이클영상 보고싶은데ᅲᅲ",
         "neutral",
-        "0.6282467029611555",
+        "0.92",
         "[\"战斗体验\"]"
       ],
       [
         "장방이 1돌전무, 결 1돌전무 + 리노 = 극락 확실하게 증명된 파츠는 대체무기로 쓰더라도 명함은 무조건 가져갈 것",
         "positive",
-        "0.97",
+        "0.925",
         "[\"战斗体验\"]"
       ],
       [
         "지금 카뮤 필수고, 결도 필수고, 리노도 필수고 미치겠네 ᄏᄏᄏᄏᄏ",
         "negative",
-        "0.68",
+        "0.76",
         "[\"社区生态\"]"
       ],
       [
         "이러고 사를 장방이처럼 자연 스트라이커로 내면 파티가 얼마나 쌔질지 감도 안옴...",
         "neutral",
-        "0.7910762161002587",
+        "0.79",
         "[\"战斗体验\"]"
       ],
       [
         "모든 건 장방이도 누구도 아닌 밍순이를 위해서다...",
         "neutral",
-        "0.88",
+        "0.85",
         "[\"战斗体验\"]"
       ],
       [
         "6:09 여기에 펠리카 빼고 사넣으면... 어흐",
         "neutral",
-        "0.8053783654366947",
+        "0.91",
         "[\"战斗体验\"]"
       ],
       [
         "재련효율은 좋나요...?테르밋커터 들어있길래 괜찮으면 쫌 돌릴까하는대...",
         "neutral",
-        "0.7406867456466143",
+        "0.98",
         "[\"社区生态\"]"
       ],
       [
         "난 원래 밍순이 때문에 결 + 리노 둘다 거를까도 생각해봤는데 뽑아보니까 생각이 바뀜. 둘 합쳐서 뽑기를 많이 소진하긴 해서, 아쉽긴 하지만 결 / 장방이 메인 쓸거면 주인장 말대로 거의 필수급이라고 생각함. 밍순이는 돈좀 과금하면 120뽑 모을 수 있으니까... 모션도 이쁘고 해서 절대 후회는 안할듯. 성능이 뱅가드 + 힐러 + 서폿(딜증폭) 다 압축에다가 감전도 거는 캐스터 역할까지. 얘하나가 수행하는 역할이 너무너무많음.",
         "positive",
-        "0.68",
+        "0.825",
         "[\"战斗体验\"]"
       ],
       [
         "일단 몸은 뽑았는데 전무를 뽑을지 말지 고민인데 페스로 그냥 버텨도 괜찮을까요",
         "neutral",
-        "0.79",
+        "0.89",
         "[\"商业化\"]"
       ],
       [
         "무한궁장방이 세팅한 상태 그대로 리노, 결 써도 되나요 ?",
         "neutral",
-        "0.805684979869333",
+        "0.79",
         "[\"战斗体验\"]"
       ],
       [
         "장방 결 리노에서 탕탕이넣으면 전기부착이랑 감전이 날라가는데 그래도 굴러가나요?",
         "neutral",
-        "0.6552558629427396",
+        "0.99",
         "[\"战斗体验\"]"
       ],
       [
         "테르밋커터랑 리노전무랑 하나만 선택해야하는데 어떤게 좋을까요?",
         "neutral",
-        "0.8533181829190581",
+        "0.99",
         "[\"养成资源\"]"
       ],
       [
         "필수가 강추보다 더 강한표현이라생각하면될까요?",
         "neutral",
-        "0.99",
+        "0.89",
         "[\"战斗体验\"]"
       ],
       [
         "장방이 쓰는 결은 서폿결, 딜결 둘다 써도됨?",
         "neutral",
-        "0.5281913251014688",
+        "0.79",
         "[\"战斗体验\"]"
       ],
       [
         "장펠결리 펠리카는 무기 뭐낄까요",
         "neutral",
-        "0.836095420108423",
+        "0.99",
         "[\"战斗体验\"]"
       ],
       [
         "장방이팟 결은 장비 뭐줘야하나요?",
         "neutral",
-        "0.8452750735033772",
+        "0.99",
         "[\"养成资源\"]"
       ],
       [
         "4:30 미짜 아니고서야 돈감당 안된다는건 말이안됨... 직딩은 말할 필요도 없구요, 서민기준으로 대학생이면 하루이틀만 알바해서 벌어서 지르면 명전은 갖고감! 돌파를 안하면 됩니다! 월정액 포함 월 몇만원은 게임이용료라 생각하고 쓰는게 올명전도 가능하고 모든컨텐츠 즐길수도 있고 훨씬 맘편해요~ 참고바랍니다!",
-        "positive",
-        "0.6496479455110099",
+        "neutral",
+        "0.68",
         "[\"养成资源\"]"
       ],
       [
         "?: 모르겠고 베프리 춤출께",
         "neutral",
-        "0.7810632254177728",
+        "0.9",
         "[\"其他讨论\"]"
       ],
       [
         "공장 어렵다고? 그런건 모르겠고 리노 노래할게~",
-        "neutral",
-        "0.8230771104533452",
+        "positive",
+        "0.83",
         "[\"技术体验\"]"
       ],
       [
         "브금 신나네",
         "positive",
-        "0.5416440467119342",
+        "0.88",
         "[\"其他讨论\"]"
       ],
       [
         "예쁘다😊",
         "positive",
-        "0.7551036724467953",
+        "0.99",
         "[\"角色讨论\"]"
       ],
       [
         "?: 자 이제 무대를 직접 만들어주세요 공장주님들",
         "neutral",
-        "0.79",
+        "0.86",
         "[\"社区生态\"]"
       ],
       [
         "오늘 점심 12시부터 가챠 시작",
         "neutral",
-        "0.5035892317192715",
+        "0.93",
         "[\"商业化\"]"
       ],
       [
         "공장? 모르겠다 리노뽑을게 어 근데 무기징표 어떻게 얻니?,공장에 가려진 무기징표수급처ᄃᄃ",
-        "neutral",
-        "0.4227741651759925",
+        "negative",
+        "0.84",
         "[\"养成资源\"]"
       ],
       [
         "전무는안줄게~",
         "neutral",
-        "0.76",
+        "0.72",
         "[\"其他讨论\"]"
       ],
       [
         "모르겠고 공장이나 지어줘",
         "neutral",
-        "0.8045771347022883",
+        "0.93",
         "[\"其他讨论\"]"
       ],
       [
         "근데 엔필은 걍 공장겜아니였음? 공장이 주력 컨텍츠인 겜아니였음?",
         "neutral",
-        "0.98",
+        "0.945",
         "[\"社区生态\"]"
       ],
       [
         "모르겠고 리노 노래할게~",
         "positive",
-        "0.706703570724897",
+        "0.83",
         "[\"商业化\"]"
       ],
       [
         "서사고 뭐고 나오지도 않았었지만 예쁘면 장땡이란걸 보여준 아이도루",
         "positive",
-        "0.85",
+        "0.865",
         "[\"战斗体验\"]"
       ],
       [
         "서큐버스+아이돌이라니...덕통사고 일으키겠다는 선언이잖아...",
-        "neutral",
-        "0.7357037170255513",
+        "positive",
+        "0.88",
         "[\"其他讨论\"]"
       ],
       [
         "종족 특성상 살카즈 중에서도 정신계열 공격이 특성인 종족임.",
         "neutral",
-        "0.79",
+        "0.885",
         "[\"其他讨论\"]"
       ],
       [
         "걍 존나 예쁨",
         "positive",
-        "0.89",
+        "0.94",
         "[\"社区生态\"]"
       ],
       [
         "옛말에 살카즈은 명방 최미라는 말이있다. 나는 이 말을 좋아한다",
         "positive",
-        "0.781540009077823",
+        "0.95",
         "[\"社区生态\"]"
       ],
       [
         "욕 쥰내하던놈들 다 사라진게 개웃김",
         "positive",
-        "0.6407812493568008",
+        "0.87",
         "[\"社区生态\"]"
       ],
       [
         "진짜 아이돌이네 ᄏᄏᄏ",
         "positive",
-        "0.9494466037408096",
+        "0.88",
         "[\"视觉表现\"]"
       ],
       [
         "하루카? 아베무지카? 이젠 내가 하늘에 서겠다",
         "neutral",
-        "0.5155259503542607",
+        "0.92",
         "[\"战斗体验\"]"
       ],
       [
         "아이돌에 이쁘고 귀엽지 성능까지 현제 최고인 무친 캐릭터~",
         "positive",
-        "0.776894154475197",
+        "0.99",
         "[\"角色讨论\"]"
       ],
       [
         "어디까지 하나 봤는데 진짜 끝까지 해버린 해묘",
         "positive",
-        "0.88",
+        "0.74",
         "[\"版本内容\"]"
       ],
       [
         "처음엔 약간 빡통캐인가했는데 혀내미는거보니까 착정머신이 확실함 아흑",
         "positive",
-        "0.68",
+        "0.86",
         "[\"其他讨论\"]"
       ],
       [
         "성능보고 더 충격 ᄏᄏᄏᄏ",
         "positive",
-        "0.6865214700908989",
+        "0.88",
         "[\"社区生态\"]"
       ],
       [
         "모델링도 모델링인데 저 하트구멍이 존나 킥임ᄏᄏᄏ",
         "positive",
-        "0.6564905462200584",
+        "0.97",
         "[\"社区生态\"]"
       ],
       [
         "스토리보다가 흠...하다가 정신차려보니 스샷만 몇백장찍었네... 풀돌하면 의상 꼬리.리본부분 빛나요 님들 풀돌하세요 ᄒ.ᄒ...",
         "positive",
-        "0.91",
+        "0.895",
         "[\"战斗体验\"]"
       ],
       [
         "니케 민트 성우",
         "neutral",
-        "0.79",
+        "0.875",
         "[\"音频表现\"]"
       ],
       [
         "으악 플라잉 서큐버스 아이도루다!",
         "positive",
-        "0.7260429113522031",
+        "0.91",
         "[\"角色讨论\"]"
       ],
       [
         "아 서사 몰라 걍 뽑아",
         "positive",
-        "0.88",
+        "0.895",
         "[\"角色讨论\"]"
       ],
       [
         "저는 그래도 하루카 짱이 끌려요! ᄏᄏ",
         "positive",
-        "0.7490955703959358",
+        "0.68",
         "[\"社区生态\"]"
       ],
       [
         "모티브가 서큐버스였구나... 아하...",
         "neutral",
-        "0.79",
+        "0.875",
         "[\"其他讨论\"]"
       ],
       [
         "생각보다 방구터보대쉬 만족스러우면 개추ᄏᄏ",
         "positive",
-        "0.88",
+        "0.89",
         "[\"社区生态\"]"
       ],
       [
         "살카즈랑 아이돌이 매칭이 가능한거였구나 ᄏᄏ",
-        "neutral",
-        "0.491169883788284",
+        "positive",
+        "0.88",
         "[\"社区生态\"]"
       ],
       [
         "스토리 잘 짰던데?",
-        "neutral",
-        "0.5412505543834242",
+        "positive",
+        "0.94",
         "[\"其他讨论\"]"
       ],
       [
         "라벤더. 보라색. 아이도루... 보다보니까 괜찮음. 깡깡다리ᅳ 로봇다리에서, 계속보니까 힐신발 오마주한거 같은... 힐 신발이 불편하긴 해서 ... 아이돌의 삶. 부담감 그런거에서 착안한게 아닌가함... 중간에 스샷은 좀 찍게 해주는 기능은 넣어주지. 구도가 이건 괜찮아서 바탕화면 만들까 싶었는데 없어서 지나감...ᄏᄏᄏ 음악도 괜찮은거 있던데 제강호에서 듣게 해주지... 메인퀘는 빨리하고 공장 가야되서 몰입 안되는데, 서브퀘 천천히 미니까 나름 괜찮긴 했음.",
         "neutral",
-        "0.74",
+        "0.73",
         "[\"商业化\"]"
       ],
       [
         "유서깊은 디얄의 품격",
         "positive",
-        "0.68",
+        "0.755",
         "[\"其他讨论\"]"
       ],
       [
@@ -3757,115 +3772,115 @@
       [
         "그냥 ᄌᄂ 생뚱맞음",
         "negative",
-        "0.84",
+        "0.87",
         "[\"其他讨论\"]"
       ],
       [
         "그래도 건담다리는 용서못함",
         "negative",
-        "0.93",
+        "0.885",
         "[\"社区生态\"]"
       ],
       [
         "2:08 ?: 그런데 짜잔, 밍순이는 열기속성 오퍼레이터였습니다",
-        "positive",
-        "0.7138935642612237",
+        "neutral",
+        "0.79",
         "[\"社区生态\"]"
       ],
       [
         "엔필토크에서 형보다 이거보니 편안하네 그냥 ᄏᄏᄏᄏᄏ 역시 전투 컨텐츠는 명떡이햄",
         "positive",
-        "0.88",
+        "0.915",
         "[\"剧情内容\"]"
       ],
       [
         "6:44 없다 다음에 없다! 가 나와서 깜놀",
         "neutral",
-        "0.79",
+        "0.84",
         "[\"角色讨论\"]"
       ],
       [
         "개장빙을 다시 위대하게(원래도 위대함)",
         "positive",
-        "0.6275195048899808",
+        "0.94",
         "[\"其他讨论\"]"
       ],
       [
         "난다...없으면 두고 두고 놀림당할 옆동네의 파란 나비의 향기가",
-        "neutral",
-        "0.6959525058202122",
+        "negative",
+        "0.7",
         "[\"竞品讨论\"]"
       ],
       [
         "이본 결 장방이 다 풀돌풀재인데 리노도 풀돌풀재 해야할까요...?",
         "neutral",
-        "0.98",
+        "0.885",
         "[\"战斗体验\"]"
       ],
       [
         "개장빙 미챴지! 너무 강하지!",
         "positive",
-        "0.7024033780976756",
+        "0.88",
         "[\"战斗体验\"]"
       ],
       [
         "개장빙 단독픽업의 이유가 있었네 이렇게 밀어준다는 예고였어",
         "positive",
-        "0.7742040796988198",
+        "0.92",
         "[\"社区生态\"]"
       ],
       [
         "아 앞부분만 보고 달려가서 뽑았는데",
         "neutral",
-        "0.7",
+        "0.725",
         "[\"商业化\"]"
       ],
       [
         "엔필도 돌파 꽤 많이 하시네요? 실례지만...",
         "neutral",
-        "0.92",
+        "0.855",
         "[\"战斗体验\"]"
       ],
       [
         "이미 날개 달린 호랑이에 제트엔진을 달아버림...",
         "positive",
-        "0.85",
+        "0.765",
         "[\"其他讨论\"]"
       ],
       [
         "내 멈춰있던 장방이가 움직이기 시작했다!",
         "positive",
-        "0.88",
+        "0.92",
         "[\"战斗体验\"]"
       ],
       [
         "결 후기가 올라오지 않길래 엔필은 놓아준 줄 알았습니다...",
-        "neutral",
-        "0.79",
+        "negative",
+        "0.69",
         "[\"社区生态\"]"
       ],
       [
         "리노뽑아서 기뻐했지만 전무 문제가 있음ᄏᄏ",
         "neutral",
-        "0.72",
+        "0.7",
         "[\"商业化\"]"
       ],
       [
         "5:50 ᄋᄏ요",
         "neutral",
-        "0.79",
+        "0.96",
         "[\"商业化\"]"
       ],
       [
         "장빙이는 전용 뱅가드 나올 때까지 서비스 종료다",
         "negative",
-        "0.84",
+        "0.86",
         "[\"其他讨论\"]"
       ],
       [
         "하지만 난 딜결이랑 쓸 테야!",
         "positive",
-        "0.86",
+        "0.87",
         "[\"战斗体验\"]"
       ],
       [
@@ -3876,410 +3891,410 @@
       ],
       [
         "결하고 리노 뽑아놨는데 문제는 공장이었습니다... 공장 무릉에 있는거 싸그리 뒤엎고 다시 지어야함 ᄏᄏᄏᄏ 오랜만에 청사진 써보기로 했음... 이번 기체가 진짜 레전드임",
-        "positive",
-        "0.7335799815873846",
+        "negative",
+        "0.76",
         "[\"商业化\"]"
       ],
       [
         "이거보고 리노 평타 선마스터리함",
         "positive",
-        "0.8935499697962208",
+        "0.68",
         "[\"商业化\"]"
       ],
       [
         "장방이가 갖고싶은 뉴비",
-        "neutral",
-        "0.79",
+        "positive",
+        "0.72",
         "[\"战斗体验\"]"
       ],
       [
         "개장빙 풀풀 연전연승",
         "positive",
-        "0.5876846383726794",
+        "0.95",
         "[\"其他讨论\"]"
       ],
       [
         "명떡님이 말아주시는 엔필!",
         "positive",
-        "0.89",
+        "0.905",
         "[\"社区生态\"]"
       ],
       [
         "장 어 게 인",
         "neutral",
-        "0.78",
+        "0.785",
         "[\"社区生态\"]"
       ],
       [
         "내가 뭘본거지...?",
         "neutral",
-        "0.8704705678058471",
+        "0.85",
         "[\"角色讨论\"]"
       ],
       [
         "6:11 부가적인 설명을 하자면 엔드필드는 장비 피증이 곱연산이 아닌 합연산이라 개장빙 파티에 한해서 실증가율이 2~3%까지 곤두박질 칩니다(개장빙 궁 25초 식양 효과 15초 + 개장빙 혼자 피증수치가 어마어마해서 식양 효율이 지속시간 고려안해도 4%대) 그래서 펠앜리 조합에서도 명떡님 셋팅과 동일하게 식양보다 생보판 2개들어가는 치유셋이 더 좋습니다(생보판 실증가율 5%) 장펠결리면 애초에 결이 식양 쓰니까 의미x 다만 딜결을 사용한다면 6배스 3연계로 리노 궁이 켜져야하므로 3궁충을 챙겨야하니 식양셋을 쓰는게 좋아보입니다",
         "neutral",
-        "0.98",
+        "0.885",
         "[\"战斗体验\"]"
       ],
       [
         "6:50 명떡씨 둘다 같은말 아닌가요 없다! 없다! 두번쨰는 식양효과를 받는 캐릭이 없다는 말?",
         "neutral",
-        "0.79",
+        "0.885",
         "[\"商业化\"]"
       ],
       [
         "리노 픽뚫나면 카뮤 나옴.",
-        "positive",
-        "0.5078729156838058",
+        "neutral",
+        "0.79",
         "[\"商业化\"]"
       ],
       [
         "스킬게이지 안써도 된다는게 처음에 25쓰고 25반환되는거때문에 그런가요? 근데 그거 1돌효과 아니었나",
         "neutral",
-        "0.8202877315818508",
+        "0.99",
         "[\"养成资源\"]"
       ],
       [
         "다음버전 밍순이 확정인가? 티폰 나오는거 아님?",
         "neutral",
-        "0.7049756365527599",
+        "0.99",
         "[\"其他讨论\"]"
       ],
       [
         "장어게인",
         "neutral",
-        "0.79",
+        "0.845",
         "[\"战斗体验\"]"
       ],
       [
         "참고로 밍순이는 1.6버전 출시 가능성이 높습니다 보라머리 활캐랑 말탄 창쓰는 금발남캐가 1.5버전에 나올 가능성이 높습니다",
-        "positive",
-        "0.5821814710852355",
+        "neutral",
+        "0.79",
         "[\"社区生态\"]"
       ],
       [
         "레바 이본은 애초에 전기 자연이 아니라 테마도 안맞는걸",
         "neutral",
-        "0.79",
+        "0.88",
         "[\"战斗体验\"]"
       ],
       [
         "꼬접했다가 개장빙때 개같이 달려온 사람이라 장방이랑 결 파티 겨우 완성했는데 얘 뽑을지 밍순이 기다릴지 고민이 막막함... 이겜 왜이렇게 힐러가 없니",
-        "positive",
-        "0.8132131667824825",
+        "negative",
+        "0.94",
         "[\"战斗体验\"]"
       ],
       [
         "1돌 장방이가 120만 박는거 보고 뽑길 잘했다 생각함",
         "positive",
-        "0.96",
+        "0.92",
         "[\"战斗体验\"]"
       ],
       [
         "연계쿨 가치가 그렇게 낮은가? 연계 쓰면 메인 오퍼 궁충이 줄어드는데... 연계 최대한 쿨 줄이면 그만큼 장방이 궁극기에 빨리 닿으니까 연계 3마+3돌 효과는 개인적으로 좋아보이네용",
         "neutral",
-        "0.7728012969501512",
+        "0.93",
         "[\"战斗体验\"]"
       ],
       [
         "일러땜에 1돌간다 드가자",
         "positive",
-        "0.88",
+        "0.9",
         "[\"社区生态\"]"
       ],
       [
         "명함패스 명함전무 차이 큰가요?",
         "neutral",
-        "0.8909873577470673",
+        "0.79",
         "[\"养成资源\"]"
       ],
       [
         "탕탕이 복각 좀...(냉기파티 유저는 고달프다...)",
-        "neutral",
-        "0.5055635467495089",
+        "negative",
+        "0.9",
         "[\"其他讨论\"]"
       ],
       [
         "전무가 본체급이라 쌀먹이 안된다는게 유일한 단점...",
-        "neutral",
-        "0.5820111300695814",
+        "negative",
+        "0.98",
         "[\"商业化\"]"
       ],
       [
         "풀돌...ᄃᄃ;;근데 전무 3옵은 풀피일때 효과는 못 보는거죠?",
         "neutral",
-        "0.5288799226201997",
+        "0.79",
         "[\"商业化\"]"
       ],
       [
         "장판이 너무 좁은데?",
         "negative",
-        "0.94",
+        "0.945",
         "[\"战斗体验\"]"
       ],
       [
         "리노, 넌 티폰이나 밍순이 픽업때 픽뚫로 만나자",
-        "positive",
-        "0.5011885751916956",
+        "neutral",
+        "0.86",
         "[\"剧情内容\"]"
       ],
       [
         "엔드필드 하는 사람들 공장땜에 스트레스 이만저만 이라던데 사실인가요? 이게임 할려고하는데 할만한가요?",
         "neutral",
-        "0.851624666698784",
+        "0.94",
         "[\"技术体验\"]"
       ],
       [
         "아사람 접은거 아니었나요",
         "neutral",
-        "0.79",
+        "0.85",
         "[\"养成资源\"]"
       ],
       [
         "전 리노 상당히 고점캐라 봅니다 자연덱을 굴릴때 어마어마 할거라 생각하는데 자연덱을 굴리면 필연적으로 발생할 부식(아츠저항 감소) + 리노 배스의 감전(대상의 받는 아츠피해 증가) + 리노 궁극기의 전기 자연피해증폭+ 안정적인 토템형 힐(현재 주로 사용되는 힐러는 힐조건이 까다로움 / 엠버-선피격 후힐이라 선피격에 죽으면 무의미 / 아델리아-힐받으려면 스킬쓰다 움직여야함 / 젤리-배스 2명이상 대상 동시 피격시 힐) 이라 나중에 밍순이가 아니더라도 자연덱을 생각한다면 리노를 대체할 캐릭이 얼마나 빨리나올진 모르겠으나 자연덱 기준으론 리노 유무에 따라 고점차이가 확연히 달라지지 않을까 싶습니다",
         "positive",
-        "0.95",
+        "0.945",
         "[\"战斗体验\"]"
       ],
       [
         "이러고 협약에 힐제약나온다 해묘 제삿날임 ᄋᄋ;;",
         "negative",
-        "0.85",
+        "0.88",
         "[\"竞品讨论\"]"
       ],
       [
         "그래그래 엔필 계속하자",
         "positive",
-        "0.522600872310632",
+        "0.68",
         "[\"社区生态\"]"
       ],
       [
         "근데 결이 이미 자연 딜러로 충분한데 굳이? 솔직히 열기 딜러 충분이 가능할 듯?",
         "neutral",
-        "0.68",
+        "0.82",
         "[\"战斗体验\"]"
       ],
       [
         "형 살카즈는 뭔지알아?",
         "neutral",
-        "0.8416262940774584",
+        "0.99",
         "[\"剧情内容\"]"
       ],
       [
         "장방이 픽업때 엔필을 접은... 장방이 복각점...",
         "negative",
-        "0.9",
+        "0.87",
         "[\"战斗体验\"]"
       ],
       [
         "ᄅᄋ 모션이 다 아이돌 포즈 공격하다 멈추면 싹다 포즈ᄏᄏ",
         "positive",
-        "0.7037788153764113",
+        "0.89",
         "[\"社区生态\"]"
       ],
       [
         "젠장 또 손흥민이야",
-        "positive",
-        "0.6146495580431695",
+        "neutral",
+        "0.79",
         "[\"社区生态\"]"
       ],
       [
         "리노야 노래하는건 좋은데 왜 천장이야...",
-        "neutral",
-        "0.5935172592507859",
+        "negative",
+        "0.95",
         "[\"视觉表现\"]"
       ],
       [
         "리노야 빨리 뽑혀서 고맙다 밍순이 재화 아꼇다",
         "positive",
-        "0.8212539814986592",
+        "0.99",
         "[\"商业化\"]"
       ],
       [
         "리노 이쁘다!",
         "positive",
-        "0.9462642662863722",
+        "0.88",
         "[\"角色讨论\"]"
       ],
       [
         "❤",
         "positive",
-        "0.8238561663477391",
+        "0.92",
         "[\"其他讨论\"]"
       ],
       [
         "내아내임",
         "positive",
-        "0.94",
+        "0.91",
         "[\"其他讨论\"]"
       ],
       [
         "song name?",
         "neutral",
-        "0.9227050603154305",
+        "0.99",
         "[\"音频表现\"]"
       ],
       [
         "красотка❤❤",
         "positive",
-        "0.8801154476489912",
+        "0.88",
         "[\"其他讨论\"]"
       ],
       [
         "리노야 너 이쁜건 알겠는데 스토리 작가들 빠따좀 치고와라 이게 뭐니",
-        "positive",
-        "0.8462316471442303",
+        "negative",
+        "0.94",
         "[\"社区生态\"]"
       ],
       [
         "너가 안 왔잖아...",
         "negative",
-        "0.91",
+        "0.875",
         "[\"视觉表现\"]"
       ],
       [
         "처음에는 캐디가 안 끌렸는데 보다보니 미묘하게 끌리고 이쁜 듯",
         "positive",
-        "0.88",
+        "0.905",
         "[\"视觉表现\"]"
       ],
       [
         "리노 기본공격 복귀모션별로 포즈 다르게 취하는데 개귀여움...",
         "positive",
-        "0.88",
+        "0.93",
         "[\"商业化\"]"
       ],
       [
         "하트 보고 어느 세계 핑뚝이 궁극기 조각 생각 했네.",
         "neutral",
-        "0.701362957754886",
+        "0.86",
         "[\"战斗体验\"]"
       ],
       [
         "한국성우는 너무 연기톤이다",
         "negative",
-        "0.85",
+        "0.88",
         "[\"战斗体验\"]"
       ],
       [
         "무릉도 콘서트 해줄거지? ᄒᄅ",
-        "neutral",
-        "0.7502336244657564",
+        "positive",
+        "0.68",
         "[\"其他讨论\"]"
       ],
       [
         "십뽑에 나와주다니 고맙다",
         "positive",
-        "0.98",
+        "0.93",
         "[\"其他讨论\"]"
       ],
       [
         "50뽑 반천",
-        "positive",
-        "0.5712305534927231",
+        "neutral",
+        "0.93",
         "[\"商业化\"]"
       ],
       [
         "명조,엔필 픽뜷4번째...",
         "negative",
-        "0.84",
+        "0.895",
         "[\"社区生态\"]"
       ],
       [
         "ᄒᄒᄒ여평 3돌했다 히히히",
         "positive",
-        "0.68",
+        "0.8",
         "[\"剧情内容\"]"
       ],
       [
         "고것 참 돔공연 축하해주러 가고 싶네",
         "positive",
-        "0.89",
+        "0.9",
         "[\"其他讨论\"]"
       ],
       [
         "진짜 눈 감고 붉은 빛 나오는 소리 들릴때까지 기도하고 6성 연술 나오면 오랜만이야 라는 말이 들리면 좋겠다고 정말 빌었다... 두번의 소원 실패가 있었지만... 결국 해냈다...",
         "positive",
-        "0.68",
+        "0.82",
         "[\"商业化\"]"
       ],
       [
         "70뽑 2개, 전무 1뽑 고맙다.",
-        "neutral",
-        "0.6241149412557202",
+        "positive",
+        "0.96",
         "[\"商业化\"]"
       ],
       [
         "please just take it as a rough reference i wish we had a feature to lower pots too 적당히 참고 정도만 해주세요 저도 돌파를 내리는 기능이 있으면 좋겠습니다",
-        "positive",
-        "0.6156412646034313",
+        "neutral",
+        "0.68",
         "[\"视觉表现\"]"
       ],
       [
         "진짜 까뮤 2연타 버프는 전설이다",
         "positive",
-        "0.5818567194332823",
+        "0.96",
         "[\"音频表现\"]"
       ],
       [
         "tysm, i can finally clear alleikhros in just around 2 minutes with scuffed rotation.",
         "positive",
-        "0.88",
+        "0.935",
         "[\"战斗体验\"]"
       ],
       [
         "이상할 정도로 세다 싶었더니 풀돌풀재 였군요",
-        "positive",
-        "0.5358844715065901",
+        "neutral",
+        "0.83",
         "[\"社区生态\"]"
       ],
       [
         "how much will did you manage to achieve on liino at the full potential of the weapon? great result.",
         "positive",
-        "0.72",
+        "0.7",
         "[\"竞品讨论\"]"
       ],
       [
         "what the rotation without ulti?",
         "neutral",
-        "0.9126462030213452",
+        "0.79",
         "[\"战斗体验\"]"
       ],
       [
         "크리떴으면 567만이네ᄃᄃᄃ",
         "positive",
-        "0.88",
+        "0.91",
         "[\"社区生态\"]"
       ],
       [
         "idk my gilberta have the same amount of ugo and the same weapon she can`t ult that fast like you on bear. i have done the same rotation. pots don't have difference, because you are have only one, other char don`t have pluses to ugp, only gilberta + 7%. what i am doing wrong? (gear also the same).",
         "neutral",
-        "0.7754007010578983",
+        "0.99",
         "[\"竞品讨论\"]"
       ],
       [
         "what gear sets would arcane and liino use in the fangyi arcane perlica and liino team?",
         "neutral",
-        "0.8684277894969024",
+        "0.99",
         "[\"战斗体验\"]"
       ],
       [
         "i only need liino i only need liino someone plz bless me some luck",
         "positive",
-        "0.8505700027540314",
+        "0.88",
         "[\"角色讨论\"]"
       ],
       [
         "올명전 유저도 이파티 사이클 똑같이 돌아가나요?",
         "neutral",
-        "0.98",
+        "0.885",
         "[\"养成资源\"]"
       ],
       [
         "that camille double link timing on rhodagn was so tight. how did you do that?",
         "neutral",
-        "0.6723102012936655",
+        "0.94",
         "[\"战斗体验\"]"
       ],
       [
@@ -4291,223 +4306,223 @@
       [
         "결 1돌,전무 명함 리노 명전 질베 명전 자이히 기사도 명함 새삼 쟁쟁한 6성 사이에 있는 자이히가 대단해보이네...",
         "positive",
-        "0.89",
+        "0.9",
         "[\"商业化\"]"
       ],
       [
         "서포터 출시했다? 뽑아. 절대 거르지 말고 뽑아. 엔필뿐만 아니라 모든 서브컬쳐 게임의 유구한 전통이다. 서포터는 인권이다.",
         "positive",
-        "0.98",
+        "0.93",
         "[\"其他讨论\"]"
       ],
       [
         "리노 힐링팩터 때문에 풀피에서 발동하는 자이히 배쓰 효과도 편하게 먹을 수 있어서 좋네요 ᄏᄏ",
         "positive",
-        "0.88",
+        "0.925",
         "[\"商业化\"]"
       ],
       [
         "아 알람 왜 안울려 14분이나 늦었잖아 근데 브금 어디서 많이 들었는데 혹시?",
-        "neutral",
-        "0.74",
+        "negative",
+        "0.76",
         "[\"战斗体验\"]"
       ],
       [
         "밍순이가 자연 스트라이커로 나오면... 저걸 이겨야한다고...? 스트라이커들 초 비이상!",
         "neutral",
-        "0.79",
+        "0.735",
         "[\"其他讨论\"]"
       ],
       [
         "나만 리노 안나와 곧 천장인데",
-        "positive",
-        "0.6736451933533096",
+        "negative",
+        "0.97",
         "[\"商业化\"]"
       ],
       [
         "장비 세팅은 뭔가요? 결 1돌 열 보조 골격/ 열 보호 장갑/ 식양 숨결 충전 코어/열 단열판 (전체 지능단조만 최대) 질베 3돌 검술사 세트 단조x 경장갑/ 전술 장갑/ 단검x2 자이히 극지능 셋 단조x 식숨 경량 방어구1/ 절망보호장갑/개척 증량 산소 공급 장치 1x2 리노 단조x 식양 경량 방어구/ 식숨 장갑/식숨 보조 어깨/ 생보판 이렇게 세팅해놨는데 59만 정도 나오네요 기질도 식각 안한 상태라서 그런가 기질 식각 단조 차이가 심한가",
         "neutral",
-        "0.8568425740429846",
+        "0.79",
         "[\"商业化\"]"
       ],
       [
         "노궁컨텐츠가 많아지니 이런거봐도 식상해지네요😅",
-        "positive",
-        "0.5809642484248374",
+        "negative",
+        "0.88",
         "[\"视觉表现\"]"
       ],
       [
         "간만에 또 겜잘알 시롤님 가이드 영상 보니 묵은 오로베릴이 쏘옥~ 빠져나갔어요~",
         "positive",
-        "0.865888177779152",
+        "0.86",
         "[\"视觉表现\"]"
       ],
       [
         "장방이의 완성을 위해 뽑아야겠네요! 좋은 정보 고마워요~",
         "positive",
-        "0.97",
+        "0.925",
         "[\"战斗体验\"]"
       ],
       [
         "영상 빨리 올려주시고 감사합니다~",
         "positive",
-        "0.88",
+        "0.93",
         "[\"社区生态\"]"
       ],
       [
         "잘 보고 갑니다",
         "positive",
-        "0.5133458001761931",
+        "0.88",
         "[\"其他讨论\"]"
       ],
       [
         "오늘 장방이하고 써보니 궁타이밍도 거의 비슷하고 쓰기 좋더군요",
         "positive",
-        "0.88",
+        "0.915",
         "[\"战斗体验\"]"
       ],
       [
         "감사합니다",
         "positive",
-        "0.8657871952848135",
+        "0.98",
         "[\"社区生态\"]"
       ],
       [
         "자연파티를위해서 꼭 뽑아야겠다...",
         "positive",
-        "0.89",
+        "0.915",
         "[\"商业化\"]"
       ],
       [
         "리노 진짜 잘 뽑혔어 그리고 실제로 시롤이 잘 뽑아줘서 너무 행복해",
         "positive",
-        "0.9005193800740988",
+        "0.99",
         "[\"战斗体验\"]"
       ],
       [
         "최애의 리노",
         "positive",
-        "0.71",
+        "0.795",
         "[\"商业化\"]"
       ],
       [
         "포그랑 여풍 나오고 천장쳐서 눈물나지만 이쁘니깐 만족...",
         "positive",
-        "0.84",
+        "0.76",
         "[\"商业化\"]"
       ],
       [
         "왔다 내 교과서",
         "positive",
-        "0.88",
+        "0.91",
         "[\"其他讨论\"]"
       ],
       [
         "확실히 예상대로 거르면 꼬울거 같은 성능이네요. 잠깐 써보니 배스 쓰면 평타 조차도 못 치는 순수 딸깍 캐릭이드라구요ᄏᄏ (나는 왜 평타 레벨을 올린것이냐...) 저는 결 - 탕탕 - 펠리카 - 리노 조합부터 굴려보려 합니다. 다음 영상도 기대할게요!",
         "positive",
-        "0.86",
+        "0.77",
         "[\"战斗体验\"]"
       ],
       [
         "@4:09 알겠어요... 쿨에 맞출게요 화내지마세요...",
         "neutral",
-        "0.6736082824000957",
+        "0.68",
         "[\"社区生态\"]"
       ],
       [
         "성능캐 엄청나오네 ᄃᄃ",
         "positive",
-        "0.921190339298561",
+        "0.9",
         "[\"其他讨论\"]"
       ],
       [
         "9분전인데 늦었다니 ᅲᅲ",
         "negative",
-        "0.6958212911733191",
+        "0.74",
         "[\"战斗体验\"]"
       ],
       [
         "무릉 아이돌 장방이 붙여주면 미친 파티 탄생하네요 정말",
-        "neutral",
-        "0.5943077608842244",
+        "positive",
+        "0.88",
         "[\"战斗体验\"]"
       ],
       [
         "이럼 거를수 없지 어라 이미 뽑아버렸",
         "positive",
-        "0.7337918568411733",
+        "0.93",
         "[\"社区生态\"]"
       ],
       [
         "이렇게 빨리 올려주시다니 ᄃᄃ 세팅 보고 지금 바로 열심히 굴려봐야겠네요. 항상 고마워요 😊",
         "positive",
-        "0.6998647872114131",
+        "0.99",
         "[\"其他讨论\"]"
       ],
       [
         "영상을 보기 전에 이미 리노를 뽑아버렸어요",
         "positive",
-        "0.8569414740710687",
+        "0.88",
         "[\"视觉表现\"]"
       ],
       [
         "소과금이라 다음픽업을몰라서 못뽑겟어요 남캐면 뽑고 밍순이면 참을려고해요",
         "neutral",
-        "0.79",
+        "0.865",
         "[\"商业化\"]"
       ],
       [
         "약간 뜬금없는 아이돌이라서 어떨까 싶었는데, 캐릭터 디자인부터 진짜 있는 힘껏 캐릭터 깍아와서 ᄏᄏᄏᄏ 다른 의미의 진심이 느껴지는 오퍼레이터에요 ᄏᄏᄏᄏᄏ 일단 캐디도 디테일이 좀 이상하게 높고, 스킬 성능도 조합만 맞으면 좋아보이고, 4개국어 4분대 풀 보컬 mv 까지 대체 어디까지 해온건가 음반회사. 같은 느낌의 오퍼레이터네요 ᄏᄏᄏ 왜케 진심이야 🤣",
         "positive",
-        "0.921004866509361",
+        "0.99",
         "[\"商业化\"]"
       ],
       [
         "시롤 영상 바로 만들어줫구나 바로 세팅 하러 출발해",
         "positive",
-        "0.88",
+        "0.93",
         "[\"社区生态\"]"
       ],
       [
         "결국 밍순이를 위해 리노를 뽑아야 하는구나 주머니가 텅텅 비겠군요...슬픕니다...",
         "negative",
-        "0.4813900125804809",
+        "0.96",
         "[\"商业化\"]"
       ],
       [
         "2:21 반환말고 회복으로 해주면 안되나 명함이랑 1잠이랑 사이클 달라질거같은데 저거때문에 에충안되면 석나갈듯",
-        "neutral",
-        "0.5860290474978976",
+        "negative",
+        "0.84",
         "[\"战斗体验\"]"
       ],
       [
         "아델 풀돌인데 눈물이 절로나네요",
         "negative",
-        "0.68",
+        "0.75",
         "[\"商业化\"]"
       ],
       [
         "벌써 영상이 올라왔네요🎉 1돌 욕심이 생기네요 생각 외로 너무 빨리 뽑혀서 텅장으로도 명함 전무를 가져갈 수 있었어요😊",
         "positive",
-        "0.88",
+        "0.93",
         "[\"战斗体验\"]"
       ],
       [
         "보컬 모드 전환... 공증과 회복... 아이돌... 이거 완전 민트잖아",
         "neutral",
-        "0.94",
+        "0.865",
         "[\"其他讨论\"]"
       ],
       [
         "오늘 20뽑만에 나와준 리노가 제게는 80뽑에 나왔습니다😢",
         "negative",
-        "0.8",
+        "0.74",
         "[\"商业化\"]"
       ],
       [
         "로봇다리가 아니네요. 공연용으로 개발한 일종의 제트팩. 첫 10뽑에 6성 모션 나와서 기대했건만 흡혈귀만 2마리째",
         "negative",
-        "0.86",
+        "0.85",
         "[\"商业化\"]"
       ],
       [
@@ -4519,391 +4534,391 @@
       [
         "이러면 밍순이가 자연 스커인가 뱅가드인가...",
         "neutral",
-        "0.593583893205841",
+        "0.98",
         "[\"其他讨论\"]"
       ],
       [
         "장빙과 밍순을 위해...",
         "neutral",
-        "0.7009742288406758",
+        "0.83",
         "[\"其他讨论\"]"
       ],
       [
         "아델(풀돌됨...),여풍(없던거),결(1돌됨) 이렇게 나오고 리노 전무 20뽑에 뽑고 리노는 못뽑았음...",
-        "positive",
-        "0.6671375735452297",
+        "negative",
+        "0.84",
         "[\"商业化\"]"
       ],
       [
         "팀 편성 순서는 상관없나요? 지금 펠리카 장방이 아크라 리노 순으로 쓰고있는데 바꿀게 있을까요?",
         "neutral",
-        "0.9296211172891768",
+        "0.99",
         "[\"战斗体验\"]"
       ],
       [
         "왜 나는 탕탕이가 없는가... 그것은 미브유입이기 때문이지...",
-        "neutral",
-        "0.6585326812215936",
+        "negative",
+        "0.84",
         "[\"其他讨论\"]"
       ],
       [
         "뭐지 대체?... 아델 빼고 리노넣었는데 클리어타임이 똑같은데?...",
         "negative",
-        "0.73",
+        "0.91",
         "[\"战斗体验\"]"
       ],
       [
         "2:55 돌파 -> 잠재로 오타 나신 것 같아요!",
         "neutral",
-        "0.6215314808062244",
+        "0.79",
         "[\"其他讨论\"]"
       ],
       [
         "의지 1500은 리노 전용으로 새장비가 안 나오면 못 찍는건가",
         "neutral",
-        "0.99",
+        "0.985",
         "[\"商业化\"]"
       ],
       [
         "혹시 결 리노 카뮤 울가 조합 사이클좀 알려주실수 있을까용",
         "neutral",
-        "0.551181191403822",
+        "0.99",
         "[\"商业化\"]"
       ],
       [
         "리노가 배틀스킬 게이지를 25 소모하는데 1돌파하면 25를 추가로 반환해주니까 공짜 스킬이잖아?",
         "neutral",
-        "0.7285294106111342",
+        "0.96",
         "[\"剧情内容\"]"
       ],
       [
         "결, 장방이가 없으면 어케요...? 리노를 뽑긴했는데... 오랜만에 복귀해서... 결이랑 장방이가 없어ᅥ요...😢",
         "negative",
-        "0.91",
+        "0.93",
         "[\"战斗体验\"]"
       ],
       [
         "엔필 복귀하려는데 오로베릴 어케 모으나요",
         "neutral",
-        "0.99",
+        "0.89",
         "[\"养成资源\"]"
       ],
       [
         "뽑으려 했는데 2차 연속 카뮤가 나와 못뽑았습니다 위로 좀 ⬇️",
-        "positive",
-        "0.8170847450031316",
+        "negative",
+        "0.84",
         "[\"商业化\"]"
       ],
       [
         "장방이 안쓰는데 안뽑아도 될까요...",
         "neutral",
-        "0.98",
+        "0.885",
         "[\"战斗体验\"]"
       ],
       [
         "늦어버렸지만 모르겠고 마레 공략쓸게! + 질문은 언제든지 환영입니다! 대신, hype 한번씩 부탁드려요! --- 리노에 대한 개인적인 의견은... '말도 안되는 수준의 버프를 주지만, 체감은 생각보다 그렇지 않다'에 가깝습니다. 사실상 전기 / 자연 속성의 오퍼레이터를 키우지 않겠다고 하시면 채용할 이유가 없을 수준이라고 봅니다 (단순 공증 10%만 봤을 때) 단, 전무를 끼면 공증 수치가 기하급수적으로 높아지기 때문에, 무기를 돌파하실 분들의 입장에서는 진짜 만능급 오퍼가 맞습니다",
         "neutral",
-        "0.68",
+        "0.795",
         "[\"商业化\"]"
       ],
       [
         "리노의 등장으로 나의 딜결파티는 아이돌 파티가 되었다",
-        "neutral",
-        "0.7626133547290955",
+        "positive",
+        "0.92",
         "[\"战斗体验\"]"
       ],
       [
         "뿔이 자동차 스포일러마냥 유체역학적으로 생겼단 말이지...",
         "neutral",
-        "0.79",
+        "0.865",
         "[\"其他讨论\"]"
       ],
       [
         "5:32 아 어쩐지 궁 쓰고 딜 하다 보면 갑자기 노래 안 부르고 걸어다니던데 배스를 다시 써야하는구나 ᄏᄏᄏᄏ",
         "neutral",
-        "0.94",
+        "0.865",
         "[\"社区生态\"]"
       ],
       [
         "오늘 리노와 전무를 뽑아서 영상을 감상해 봅니다 항상 감사합니다",
         "positive",
-        "0.88",
+        "0.93",
         "[\"社区生态\"]"
       ],
       [
         "이 시간에 올리면 못 볼 줄 알았지",
         "positive",
-        "0.82",
+        "0.85",
         "[\"社区生态\"]"
       ],
       [
         "그래 이 목소리가 그리웟다",
         "positive",
-        "0.88",
+        "0.91",
         "[\"社区生态\"]"
       ],
       [
         "이 시간에 올리면 못 볼줄 알앗지ᅵᅵᅵᅵᅵ",
         "positive",
-        "0.68",
+        "0.9",
         "[\"社区生态\"]"
       ],
       [
         "왔구나 내 공식",
         "positive",
-        "0.6924047260336021",
+        "0.88",
         "[\"社区生态\"]"
       ],
       [
         "웰메이드 영상은 항상 감동을 준다 좋은 공략 감사합니다",
         "positive",
-        "0.89",
+        "0.94",
         "[\"社区生态\"]"
       ],
       [
         "이 시각에 올리면 못볼줄 알았죠!? 기다렸다구여",
         "positive",
-        "0.93",
+        "0.905",
         "[\"社区生态\"]"
       ],
       [
         "건방지게 새벽에 올려? 일단 좋아요 박아주지 으흐흐",
         "positive",
-        "0.5760119052854379",
+        "0.68",
         "[\"商业化\"]"
       ],
       [
         "드디어 대본을 다 쓰시고 만드셨군요 잘 활용하겠습니다",
         "positive",
-        "0.847179006171734",
+        "0.96",
         "[\"社区生态\"]"
       ],
       [
         "이 늦은 시간에... 잘 보겠습니다",
         "positive",
-        "0.9331157201766425",
+        "0.91",
         "[\"社区生态\"]"
       ],
       [
         "언제나 깔끔한 영상 추추~ 항상 감사합니다",
         "positive",
-        "0.8001451103108752",
+        "0.88",
         "[\"社区生态\"]"
       ],
       [
         "기다리던 영상!❤",
         "positive",
-        "0.8914245701229524",
+        "0.99",
         "[\"视觉表现\"]"
       ],
       [
         "가이드 감사합니다~",
         "positive",
-        "0.8040493174766977",
+        "0.99",
         "[\"社区生态\"]"
       ],
       [
         "배스 한번만쓰면 되는줄알았는데 완전꿀팁이네요",
         "positive",
-        "0.88",
+        "0.92",
         "[\"商业化\"]"
       ],
       [
         "정말 감사합니다",
         "positive",
-        "0.9265790148196413",
+        "0.88",
         "[\"社区生态\"]"
       ],
       [
         "리노❤",
         "positive",
-        "0.8897619706193317",
+        "0.99",
         "[\"商业化\"]"
       ],
       [
         "선생은 빨리 통통꼬리 메인딜조합영상을 올려라!",
-        "positive",
-        "0.7853718375849608",
+        "neutral",
+        "0.79",
         "[\"其他讨论\"]"
       ],
       [
         "리노 짱이쁨❤",
         "positive",
-        "0.8990258124428734",
+        "0.88",
         "[\"商业化\"]"
       ],
       [
         "버프는 탐나지만 힐을 생각하면 협약에서 쓰기엔 번거롭겠네요",
         "negative",
-        "0.68",
+        "0.82",
         "[\"战斗体验\"]"
       ],
       [
         "전장의 아이도루",
         "positive",
-        "0.72",
+        "0.8",
         "[\"其他讨论\"]"
       ],
       [
         "떴다 공식",
         "positive",
-        "0.88",
+        "0.92",
         "[\"其他讨论\"]"
       ],
       [
         "장방이를 더 위대하게!",
-        "neutral",
-        "0.4864470075081392",
+        "positive",
+        "0.95",
         "[\"战斗体验\"]"
       ],
       [
         "리노 뽑고 정독합니다!",
         "positive",
-        "0.8185497026057308",
+        "0.94",
         "[\"商业化\"]"
       ],
       [
         "전무가 ᄅᄋ 본체임 스킬 게이지 25 딸깍에 공증 20%~40%주는 거라",
         "neutral",
-        "0.5835234195723468",
+        "0.79",
         "[\"商业化\"]"
       ],
       [
         "오 많은 파티 조합 감사합니다. 장방 결 탕탕 다 없는데 ᄒ 감사합니다ᅮ",
         "positive",
-        "0.88",
+        "0.89",
         "[\"社区生态\"]"
       ],
       [
         "왔다 내 엔필 사전 ... ... ... ... ... 그래서 내 리노는 어디간거지",
         "negative",
-        "0.71",
+        "0.775",
         "[\"社区生态\"]"
       ],
       [
         "이걸 기다렸지! \"개장빙을 다시 위대하게\"",
         "positive",
-        "0.7316255114107372",
+        "0.97",
         "[\"其他讨论\"]"
       ],
       [
         "확실히 육성 다 해준 상태면 펠리카 딜도 많이 올라간게 느껴지더라고요. 좋은 가이드 영상 잘 봤습니다.",
         "positive",
-        "0.8399821384133384",
+        "0.98",
         "[\"战斗体验\"]"
       ],
       [
         "10:28 제강호 끝내버려 그러고보니 마레라고 부르시는군요 저는 그냥 순수하게 엠포알쓰리로 부르고있었는데 ᄏᄏᄏ",
-        "positive",
-        "0.8522992660691663",
+        "neutral",
+        "0.68",
         "[\"剧情内容\"]"
       ],
       [
         "장방이랑 쓰면서 느낀건데 리노에겐 미안하지만 너 진짜ᅡᅡᅡᅡ느려!",
-        "positive",
-        "0.9166574547160969",
+        "negative",
+        "0.91",
         "[\"战斗体验\"]"
       ],
       [
         "아크라이트야 고생했다 잘 가라",
-        "positive",
-        "0.7388669419795626",
+        "neutral",
+        "0.84",
         "[\"其他讨论\"]"
       ],
       [
         "테르밋을 두자루 쓰고싶다면 전무를 뽑으시오",
         "neutral",
-        "0.666377397378802",
+        "0.79",
         "[\"商业化\"]"
       ],
       [
         "장비세팅은 장방이 파티의 경우에는 아츠 이상과 아츠 이상 소모가 빈번하게 나오는 편이라 리노 라이브만 신경 써주면 리노 연계가 자주 나와서 생체 3셋으로 극의지 증폭세팅이 체감상 더 나은거 같은데 아츠 이상을 자주 걸 수 없는 파티의 경우에는 빠른 궁사이클을 위해서 식양궁충이 더 나은 경우도 있을테니 파티에서 아츠 이상을 얼마나 자주쓰냐로 보고 장비 고르면 될듯합니다",
         "neutral",
-        "0.98",
+        "0.885",
         "[\"战斗体验\"]"
       ],
       [
         "배스가 넉백형 공격에 끊길 수 있습니다 < 가끔가다 아니 왜 클탐이 이러지? 하면 꼭 궁 15초 끝나고 배스 리필 안함 or 끊김...",
         "neutral",
-        "0.6933335535455807",
+        "0.97",
         "[\"战斗体验\"]"
       ],
       [
         "마레님 혹시 펠리카 세팅 알수있을까요?! 저도 궁 딜 높게 띄워보고싶어서요! ᅲ.ᅲ) 가이드 항상 잘보고있습니다 너무 도움되구있어용~!",
         "positive",
-        "0.68",
+        "0.815",
         "[\"战斗体验\"]"
       ],
       [
         "장방이 풀돌이면 꼭 뽑아줘야겠죠😢 픽뚫이 밉다...",
         "negative",
-        "0.94",
+        "0.92",
         "[\"战斗体验\"]"
       ],
       [
         "리노 궁 아츠취약으로 바꾸고 탈로스 2를 박살내야한다~",
         "neutral",
-        "0.79",
+        "0.76",
         "[\"商业化\"]"
       ],
       [
         "공략 감사합니다 근데 식양장비 볼떄마다 매번 서포터들이 서로 쓰겠다고 난리인것 같은데 나중에 서포터용 다른 장비가 새로 나올라나 궁금하네요",
         "neutral",
-        "0.98",
+        "0.96",
         "[\"社区生态\"]"
       ],
       [
         "장방이팟 결이랑 리노는 둘이 템셋을 어떻게 가야하나요? 장방이 1돌이면 장방이 템셋도 달라질까요?",
         "neutral",
-        "0.7555962521953241",
+        "0.99",
         "[\"战斗体验\"]"
       ],
       [
         "장방이 없는데 꼭 뽑아야 할려나요... 장방이 이본 제외 올캐릭 명전이예여",
         "neutral",
-        "0.79",
+        "0.885",
         "[\"战斗体验\"]"
       ],
       [
         "잠을 안 자십니까? 안드레야?",
         "neutral",
-        "0.5924062792050996",
+        "0.79",
         "[\"其他讨论\"]"
       ],
       [
         "장방이 명전기준으로 생보판이랑 어깨 나뉘던데 뭐가 낫다고 보시나요?",
         "neutral",
-        "0.856310694571346",
+        "0.99",
         "[\"战斗体验\"]"
       ],
       [
         "주인장 추",
-        "neutral",
-        "0.4792070640990893",
+        "positive",
+        "0.88",
         "[\"社区生态\"]"
       ],
       [
         "식양이 나은가여 생체판2개 끼는 게 탐나는데",
         "neutral",
-        "0.79",
+        "0.89",
         "[\"战斗体验\"]"
       ],
       [
         "혹시 플루라이트 장비 정보 알 수 있을까요?",
         "neutral",
-        "0.894521406452754",
+        "0.79",
         "[\"养成资源\"]"
       ],
       [
         "스크립트 없어용~",
         "neutral",
-        "0.79",
+        "0.88",
         "[\"其他讨论\"]"
       ],
       [
         "펠리카 장비 알려주실수있나요?",
         "neutral",
-        "0.9474439401267282",
+        "0.99",
         "[\"战斗体验\"]"
       ],
       [
@@ -4915,7 +4930,7 @@
       [
         "전무는 가능하면 필수임.",
         "neutral",
-        "0.6371817375614824",
+        "0.86",
         "[\"战斗体验\"]"
       ],
       [
@@ -4927,319 +4942,319 @@
       [
         "아무것도 없지만 이뻐서 뽑을겁니다 밍순이는 뭐 나오든 안나오든 알빠겠습니까",
         "positive",
-        "0.91",
+        "0.935",
         "[\"商业化\"]"
       ],
       [
         "라스트 라이트 파티에 넣어도 괜찮을까요?",
         "neutral",
-        "0.8585133095098858",
+        "0.79",
         "[\"战斗体验\"]"
       ],
       [
         "거를건 내 끼니뿐",
         "positive",
-        "0.92",
+        "0.9",
         "[\"其他讨论\"]"
       ],
       [
         "공증도 그렇지만 주요능력치 퍼센트로 증가하는 거가 너무 커요. 의지가 너무 중요한 캐릭터라 ᄏᄏᄏ전무 무조건 그냥 세트입니다 ᄏᄏ저돌파 할 바엔 무기 재련하라는 말도 있습니다.",
         "neutral",
-        "0.94",
+        "0.885",
         "[\"养成资源\"]"
       ],
       [
         "1돌 전무했지만 재화가 바닥났습니다 😢",
         "negative",
-        "0.9",
+        "0.87",
         "[\"商业化\"]"
       ],
       [
         "밍순이 풀풀 원기옥 땜에 어쩔수 없이 빠빠이",
-        "positive",
-        "0.4898594721555921",
+        "negative",
+        "0.88",
         "[\"战斗体验\"]"
       ],
       [
         "잡을 땐 또 기가 막히게 잡네 ᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏ",
         "positive",
-        "0.8721505593577038",
+        "0.86",
         "[\"社区生态\"]"
       ],
       [
         "아니 ᄆᄎ... 로시때도 이러지 않았나? 어케 픽뚫로 못먹은거 저격을하지? 그냥 이 사람이야말로 엔필에서 운 제일 좋은사람 같은데...",
         "positive",
-        "0.74",
+        "0.71",
         "[\"其他讨论\"]"
       ],
       [
         "? : 녀석이 마음을 돌렸습니다. ? : 좋아. 다음번에 빨래질 돌려버리자고.",
         "neutral",
-        "0.7096777173914532",
+        "0.68",
         "[\"社区生态\"]"
       ],
       [
         "라방하면서 청자들이랑 소통한거 편집한것도 아닌거 같은데 혼자 녹화뜨면서 어쩜 이렇게 오디오가 한시도 안비고 텐션 유지가 되는건지 이것도 능력이라면 능력이네 😂",
         "positive",
-        "0.95",
+        "0.815",
         "[\"战斗体验\"]"
       ],
       [
         "축하합니다!",
         "positive",
-        "0.7354255664361701",
+        "0.99",
         "[\"其他讨论\"]"
       ],
       [
         "축하드립니다. 엔필 계속 해줘잉~",
         "positive",
-        "0.6094387524022702",
+        "0.98",
         "[\"社区生态\"]"
       ],
       [
         "엔필가챠가 제일 쫄깃함 ᄅᄋᄏᄏᄏ",
         "positive",
-        "0.88",
+        "0.87",
         "[\"社区生态\"]"
       ],
       [
         "와 이번엔 성공하셨네 축하드립니다",
         "positive",
-        "0.9774458041409272",
+        "0.88",
         "[\"其他讨论\"]"
       ],
       [
         "이번 엔딩은 해피엔딩이시네요 축하드려요",
         "positive",
-        "0.7393658797326942",
+        "0.98",
         "[\"商业化\"]"
       ],
       [
         "캬 이거지",
         "positive",
-        "0.88",
+        "0.925",
         "[\"社区生态\"]"
       ],
       [
         "아니 댕댕이 사진은 근데 어떻게 찾는건지 기가 맥힘",
         "positive",
-        "0.84",
+        "0.885",
         "[\"视觉表现\"]"
       ],
       [
         "선생님... 하아... 저는 오늘 잠 다 잤네요 7월의 악마같은 가챠 고생 많으셨어요~ 계속해서 화이팅 입니다!",
         "positive",
-        "0.88",
+        "0.915",
         "[\"其他讨论\"]"
       ],
       [
         "해묘가 엔필 유저 탈출률 데이터보고 위기감을 느낀게 분명하다... 여튼 대승리 축하드립니다!",
         "positive",
-        "0.68",
+        "0.8",
         "[\"社区生态\"]"
       ],
       [
         "ᄏᄏᄏ 축하드림다 앞으로도 엔필 뽑기 잘나오길",
         "positive",
-        "0.852226649947996",
+        "0.99",
         "[\"社区生态\"]"
       ],
       [
         "영상 길이보고 웃으며 들어온 소기견이면 개추 ᄏᄏ",
         "positive",
-        "0.8756580897257228",
+        "0.68",
         "[\"社区生态\"]"
       ],
       [
         "ᄏᄏᄏᄏᄏᄏᄏ반천에 결 비틱까지 하셨는데도 너무 재밌고 반응이 너무 재밌어서 오히려 엔필 안하실까봐 조마조마하면서 봤네요. 캬 해묘야 감 살아있구나? 다음에도 또 간당간당 멘헤라 오실때까지 잘 부탁해(?) 우리 방장님은 좀 굴리는 맛으로 보는 거거든요. 찰떡같은 개 썸네일보고 오늘 드디어 반천에 드셨구나하고 봤는데 딱 반천에 나와서 기분 좋네요.",
         "positive",
-        "0.68",
+        "0.82",
         "[\"养成资源\"]"
       ],
       [
         "이번엔 행복하십쇼",
         "positive",
-        "0.5814541075583937",
+        "0.94",
         "[\"社区生态\"]"
       ],
       [
         "여기선 행복해...",
-        "neutral",
-        "0.6247356065480033",
+        "positive",
+        "0.9",
         "[\"其他讨论\"]"
       ],
       [
         "왔다 내 치와와! 근데 8분이 아닌... 11분?!",
         "positive",
-        "0.88",
+        "0.83",
         "[\"其他讨论\"]"
       ],
       [
         "저도 픽뚫로 결나왓어용 리노는 고봉밥먹엇구요 축하드립니다",
         "positive",
-        "0.88",
+        "0.875",
         "[\"商业化\"]"
       ],
       [
         "이번에는 봐드리죠... 버티신 게 용하네요 ᄏᄏᄏᄏ",
-        "neutral",
-        "0.489228807086499",
+        "positive",
+        "0.68",
         "[\"社区生态\"]"
       ],
       [
         "캬 결까지 맛있노 엔필 계속 해야겠지...?",
         "positive",
-        "0.83",
+        "0.855",
         "[\"社区生态\"]"
       ],
       [
         "살려는 드릴게~",
         "neutral",
-        "0.79",
+        "0.84",
         "[\"其他讨论\"]"
       ],
       [
         "이분 엔필 영상 다 챙겨보면 비틱이란 말이 못 나옴",
         "positive",
-        "0.8624245914426485",
+        "0.9",
         "[\"社区生态\"]"
       ],
       [
         "ᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏᄏ 이제 잡은 물고기 소유찡! 과연 다음은 두군두근",
         "positive",
-        "0.8365289428328155",
+        "0.83",
         "[\"社区生态\"]"
       ],
       [
         "이게 완벽한 조련이지 ᄏᄏᄏᄏᄏᄏᄏᄏ",
         "positive",
-        "0.738463057991449",
+        "0.88",
         "[\"社区生态\"]"
       ],
       [
         "디얄의주문으로 현혹 당하셧어ᄏᄏᄏᄏᄏ",
-        "positive",
-        "0.6903937034689381",
+        "neutral",
+        "0.92",
         "[\"社区生态\"]"
       ],
       [
         "이 형이 이겜하면서 웃는거 보니까 내가 행복하네",
         "positive",
-        "0.6408225362806548",
+        "0.99",
         "[\"战斗体验\"]"
       ],
       [
         "가챠가 이렇게 잘되다니 축하드려요. 이제 남은 게임들은 다 픽뚫나면 아주 좋을 것 같아요!",
         "positive",
-        "0.68",
+        "0.755",
         "[\"社区生态\"]"
       ],
       [
         "고생이 많으셨습니다. 저는 리노 무기 가챠 때문에 많이 고생했습니다.😅",
-        "positive",
-        "0.6266006947416455",
+        "negative",
+        "0.68",
         "[\"商业化\"]"
       ],
       [
         "ᄏᄏᄏᄏ 나도 딱 저런 경우가 있었는데 그게 이본이랑 탕탕이였지 진짜 저러면 기분 개좋음ᄏᄏ",
         "positive",
-        "0.8980098233089863",
+        "0.96",
         "[\"社区生态\"]"
       ],
       [
         "담 가챠 기대하겠습니다 씁...",
-        "positive",
-        "0.6887466850295124",
+        "neutral",
+        "0.76",
         "[\"其他讨论\"]"
       ],
       [
         "11세카이중 행복한 세카이 하난 있어야죠 거기선 행복하시길 ᅲ",
-        "neutral",
-        "0.5567546506490962",
+        "positive",
+        "0.68",
         "[\"战斗体验\"]"
       ],
       [
         "드디어 행복한 소와와ᄏᄏᄏ 와 근데 생각해보니 신기하네요 나 접는다 협박하면 바로주네 진짜 조련방식이 ᄏᄏᄏᄏᄏᄏᄏ",
         "positive",
-        "0.983775760630606",
+        "0.97",
         "[\"视觉表现\"]"
       ],
       [
         "해묘의 조련솜씨에 행복한 청년이 된 주인장을 보니 배신당한 기분이야...",
         "negative",
-        "0.71",
+        "0.695",
         "[\"社区生态\"]"
       ],
       [
         "역시 앤필은 방장의 필수픽이야 그래서. 안 접을거죠? ᄏᄏᄏ 아니 근데 브금이 홀리 오더 인거보니 안접을듯 ᄏᄏ",
         "positive",
-        "0.89",
+        "0.91",
         "[\"社区生态\"]"
       ],
       [
         "와 무료뽑 결에다가 리노 반천? 대박 성공했네요 주인장님 ᄏᄏᄏᄏ 넘 축하드림다!",
         "positive",
-        "0.9798730389675234",
+        "0.99",
         "[\"商业化\"]"
       ],
       [
         "소와와 비명 언제 들어도 좋다",
         "positive",
-        "0.5995859607293147",
+        "0.88",
         "[\"其他讨论\"]"
       ],
       [
         "쉬벌 누군 엠버 픽뚫인데 내가 이 채널에서 부럽다는 댓글을 달거라고는 생각도 못했네",
         "negative",
-        "0.68",
+        "0.78",
         "[\"商业化\"]"
       ],
       [
         "주인장 행복엔필 하시길... 금젖두도 비틱기원",
-        "negative",
-        "0.3910474499895725",
+        "positive",
+        "0.92",
         "[\"社区生态\"]"
       ],
       [
         "이걸 살려주네",
         "positive",
-        "0.556315034829392",
+        "0.76",
         "[\"其他讨论\"]"
       ],
       [
         "진짜 내 마음이 다편하네",
         "positive",
-        "0.9520662300634807",
+        "0.88",
         "[\"音频表现\"]"
       ],
       [
         "다행이다 주인장 반천에 먹고 결도 먹고 이제 오래오래 엔필해줘 ᄏᄏᄏ",
         "positive",
-        "0.6802680025202165",
+        "0.98",
         "[\"社区生态\"]"
       ],
       [
         "“해묘에게 정기후원하는 사람“",
         "neutral",
-        "0.7516848385084131",
+        "0.82",
         "[\"角色讨论\"]"
       ],
       [
         "밍순이뽑을려고 재화모으고있는데 오늘 눈돌아가서 뽑앗네요",
-        "positive",
-        "0.655252794442374",
+        "neutral",
+        "0.68",
         "[\"商业化\"]"
       ],
       [
         "? : 녀석이 물었습니다. ᄒᄆ : 진행시켜",
         "neutral",
-        "0.7785044868025192",
+        "0.91",
         "[\"其他讨论\"]"
       ],
       [
         "해묘의 아슬아슬 줄타기 밀당 기술에 정신 못차리는 중",
         "neutral",
-        "0.7140103692522182",
+        "0.79",
         "[\"其他讨论\"]"
       ],
       [
@@ -5251,61 +5266,61 @@
       [
         "5:33 이걸 해내네? 7:08 주인장 행복사 리노덕에 엔필 더 볼수 있겠네요 ᄏᄏᄏ",
         "positive",
-        "0.3857540793757768",
+        "0.88",
         "[\"社区生态\"]"
       ],
       [
         "당신 못 도망가...",
         "neutral",
-        "0.68",
+        "0.78",
         "[\"其他讨论\"]"
       ],
       [
         "해묘가 이번 캐릭은 돈을 많이 쓴게 보였네요ᄏᄏᄏᄏᄆᄏᄏ 생각보다 메카다리가 막 거부감 있고 그러진 않은데 (굳이 메카여야 했을까 해묘야...) 캐디 너무 잘나왔는데다가 성능도 너무 좋아서 대만족입니다 (응 엠버 2돌 ᄉ1ᄇ)",
         "positive",
-        "0.68",
+        "0.825",
         "[\"战斗体验\"]"
       ],
       [
         "왜 전부터 꼬접한다니까 답지 않게 잘주냐고 따웨이거해묘;; (80에 변동먹었는데 이거 좋은건가요...)",
         "neutral",
-        "0.7476662753694859",
+        "0.76",
         "[\"其他讨论\"]"
       ],
       [
         "주인장 계속 못먹은거 생각나서 결 리노 떴을때 내가 다 기쁘네 ᄏᄏᄏᄏᄏ",
         "positive",
-        "0.7439425599355177",
+        "0.99",
         "[\"商业化\"]"
       ],
       [
         "저 야벅지 라인 지워버리는게 너무 아쉬움ᅲᅲ 외모는 엔필 거의 원탑급 같은데, 축하하오 주인장...",
-        "negative",
-        "0.87",
+        "neutral",
+        "0.7",
         "[\"养成资源\"]"
       ],
       [
         "결하고 리노가 생각보다 사기라던데 어떻게 딱 이번에 2명 다 얻으셨네",
         "positive",
-        "0.88",
+        "0.9",
         "[\"商业化\"]"
       ],
       [
         "요새 너무 잘 먹네... 업보 올 때 됐다...",
         "neutral",
-        "0.68",
+        "0.72",
         "[\"战斗体验\"]"
       ],
       [
         "역시 dna는 살카즈야 이쁜거 봐",
         "positive",
-        "0.760570818098685",
+        "0.88",
         "[\"其他讨论\"]"
       ],
       [
         "축하드립니다 다음에는 엔필 10연속 고봉픽뚫고봉천장을 기원하면서 스택 39 남았습니다!",
-        "positive",
-        "0.9329283317157763",
+        "negative",
+        "0.81",
         "[\"社区生态\"]"
       ],
       [
@@ -5317,199 +5332,199 @@
       [
         "엔필은 마피아가 아니였습니다!",
         "positive",
-        "0.5190683038828349",
+        "0.82",
         "[\"角色讨论\"]"
       ],
       [
         "?:소유가 마음을 돌렸습니다! ?:진행시켜",
-        "positive",
-        "0.6214445522351574",
+        "neutral",
+        "0.68",
         "[\"角色讨论\"]"
       ],
       [
         "아... 모든 픽업 풀천장이라 무기뽑기재화 쌓인게 6만개... 왜 주인장은 오늘 행복엔필인가",
         "negative",
-        "0.91",
+        "0.795",
         "[\"社区生态\"]"
       ],
       [
         "난 이번까지 전 픽업 천장쳤어 먼저 접을게 ᅲ",
         "negative",
-        "0.99",
+        "0.985",
         "[\"社区生态\"]"
       ],
       [
         "? : 가지마 너 없으면 겜 망해~",
         "neutral",
-        "0.5018535781305268",
+        "0.91",
         "[\"社区生态\"]"
       ],
       [
         "귀신같이 잡혔...ᄏ",
         "neutral",
-        "0.6413757781813281",
+        "0.75",
         "[\"其他讨论\"]"
       ],
       [
         "? : 그거 이번에도 안나오면 꼬접한다고 합니다. hm : 그럼 이번엔 적당히 비틱하게 해줘",
         "neutral",
-        "0.6017338127624994",
+        "0.68",
         "[\"社区生态\"]"
       ],
       [
         "미호요쪽 가차에 비하면 맵지는 않자나",
-        "positive",
-        "0.451777541734373",
+        "neutral",
+        "0.89",
         "[\"社区生态\"]"
       ],
       [
         "진짜 죽는다고 입에 총물어야 들어주는 해묘 너무 악독한데",
         "negative",
-        "0.85",
+        "0.895",
         "[\"版本内容\"]"
       ],
       [
         "본인 미브 픽업때 유입했음 로시 놓친걸 후회 미브 명함뽑고 로시 픽뚫 리스트에 있길래 뇌빼고 들어감 진심 픽뚫 한번도 안나고 미브 풀돌했음 바로 접음",
         "negative",
-        "0.84",
+        "0.88",
         "[\"其他讨论\"]"
       ],
       [
         "행복해보이니 추천ᄀᄀ",
         "positive",
-        "0.88",
+        "0.9",
         "[\"角色讨论\"]"
       ],
       [
         "해묘가 채찍과 당근 잘주네 ᄏ",
-        "positive",
-        "0.5615229241585757",
+        "neutral",
+        "0.78",
         "[\"其他讨论\"]"
       ],
       [
         "한정 픽뚫 그것도 무료뽑에서 ᄏᄏᄏᄏᄏᄏ",
         "positive",
-        "0.3946690160201886",
+        "0.68",
         "[\"社区生态\"]"
       ],
       [
         "카뮤 2픽뚫이 나고 결국 못뽑고 이번 신케 뽑을려니깐 1픽뚫이 났습니다...예...음...접을까? ᅲ",
         "negative",
-        "0.98",
+        "0.91",
         "[\"商业化\"]"
       ],
       [
         "와 접지말라고 붙잡는거보소",
         "positive",
-        "0.8990530228509082",
+        "0.88",
         "[\"其他讨论\"]"
       ],
       [
         "10연 픽뚫 ᄁᄇ",
         "negative",
-        "0.84",
+        "0.835",
         "[\"商业化\"]"
       ],
       [
         "쥔장 컨디션 안좋을만해...",
-        "neutral",
-        "0.5399560053347364",
+        "negative",
+        "0.83",
         "[\"其他讨论\"]"
       ],
       [
         "...명조,엔필 4연속픽뜷로 결,장방못뽑고 수수도 못뽑게생김",
         "negative",
-        "0.98",
+        "0.91",
         "[\"社区生态\"]"
       ],
       [
         "공장 때문에 이미 망했어요",
         "negative",
-        "0.84",
+        "0.9",
         "[\"技术体验\"]"
       ],
       [
         "이 영상 보니까 걍 픽뚫 나도 포기 안하고 120 천장까지 달린 내가 ᄇᄉ같은데...ᄏᄏ",
         "negative",
-        "0.84",
+        "0.885",
         "[\"商业化\"]"
       ],
       [
         "엔필 하다가 픽뚫이 너무 많이 나서 접었는데 엔필은 확률이 다른가",
-        "positive",
-        "0.5155150897396995",
+        "negative",
+        "0.84",
         "[\"养成资源\"]"
       ],
       [
         "이제 밍순이 픽업은 120\"고봉\"되실 예정입니다^^",
         "negative",
-        "0.75",
+        "0.715",
         "[\"商业化\"]"
       ],
       [
         "전 꼬접했습니다 후 ᅲᅲ",
         "negative",
-        "0.98",
+        "0.91",
         "[\"其他讨论\"]"
       ],
       [
         "ᄁᄇ",
         "neutral",
-        "0.5947381382111397",
+        "0.82",
         "[\"其他讨论\"]"
       ],
       [
         "10연속 픽뚫 아쉬우면 개추",
         "negative",
-        "0.8024234611688554",
+        "0.94",
         "[\"商业化\"]"
       ],
       [
         "무료뽑에서 전픽업 먹고 반천 스택 유지해서 픽업은 ᄉᄇ 먼 초식이냐;;",
         "neutral",
-        "0.66",
+        "0.73",
         "[\"商业化\"]"
       ],
       [
         "또 비틱했느냐?",
         "neutral",
-        "0.5800647752720235",
+        "0.68",
         "[\"社区生态\"]"
       ],
       [
         "복귀하고 오니까 메타가 다바뀌었네",
         "neutral",
-        "0.5119013630699393",
+        "0.94",
         "[\"商业化\"]"
       ],
       [
         "아 진짜 15세든 올려줘서 좀 더 맵게 안되나",
         "negative",
-        "0.68",
+        "0.715",
         "[\"视觉表现\"]"
       ],
       [
         "밤 만들수 있으면 적용좀 해주면 좋겠는데",
         "neutral",
-        "0.6332125943862593",
+        "0.89",
         "[\"战斗体验\"]"
       ],
       [
         "장방이랑 쓸때 펠리카 무기는 \"망각\"주고 굴렸습니다 표기오류 죄송합니다",
         "neutral",
-        "0.79",
+        "0.89",
         "[\"战斗体验\"]"
       ],
       [
         "옆집 장리 선생님도 인정한 장리펠라 조합!",
         "positive",
-        "0.81",
+        "0.845",
         "[\"其他讨论\"]"
       ],
       [
         "이번에 엔드필드는 진짜 한걸음 앞으로 나아갔어",
         "positive",
-        "0.8233506834642057",
+        "0.88",
         "[\"视觉表现\"]"
       ],
       [
@@ -5521,163 +5536,163 @@
       [
         "배스 도중에 연계쓰면 다시 배스로 이어져야 되는데 연계 끝나고 배스 다시 쓸때 슈아가 잠시 풀리는건지 지속시간 남아있는데도 맞고 구르는 경우가 있다네요",
         "neutral",
-        "0.8",
+        "0.74",
         "[\"战斗体验\"]"
       ],
       [
         "리노 이쁘긴 하다~!",
         "positive",
-        "0.9203317033887473",
+        "0.97",
         "[\"角色讨论\"]"
       ],
       [
         "하트눈 편집자 감다살",
         "positive",
-        "0.5105861750161994",
+        "0.95",
         "[\"社区生态\"]"
       ],
       [
         "뽈뽈 걸어다니는거 진짜 좋아하네 이양반 ᄏᄏ",
         "positive",
-        "0.9372616280762315",
+        "0.88",
         "[\"视觉表现\"]"
       ],
       [
         "장방이 대신 로시를 넣으면 파티이름이...",
         "neutral",
-        "0.8081432906860007",
+        "0.91",
         "[\"战斗体验\"]"
       ],
       [
         "언니겜에 뱅드림 콜라보 하고 동생겜에 우이카 성우 불러온것 보면 해묘는 뱅드림 광팬이 아닐까 싶다",
         "neutral",
-        "0.5368474776860258",
+        "0.93",
         "[\"竞品讨论\"]"
       ],
       [
         "카뮤가 리노 무기 착용하니까 십자가랑 마늘 마렵더라",
         "neutral",
-        "0.5471902400392066",
+        "0.79",
         "[\"商业化\"]"
       ],
       [
         "한가지 장방이팟 펠리카는 황무지를 쓰든가 망각 들고 딜펠 가든가 해야됩니다. 정 없으면 무가내하로 아츠 강도를 챙긴다든가... 망자 공증 옵션은 펠리카와 속성이 다른 캐릭터만 받는거라 장방이는 효과가 없기 때문에",
         "neutral",
-        "0.98",
+        "0.975",
         "[\"竞品讨论\"]"
       ],
       [
         "ᄋ영상이 너무 정상적인데...",
         "neutral",
-        "0.83",
+        "0.825",
         "[\"战斗体验\"]"
       ],
       [
         "장방, 결 없을때 할 수 있는 조합이 어떤것들이 있을까요?",
         "neutral",
-        "0.9607516999311524",
+        "0.99",
         "[\"战斗体验\"]"
       ],
       [
         "늦네에...",
         "negative",
-        "0.78",
+        "0.81",
         "[\"其他讨论\"]"
       ],
       [
         "10:25",
         "neutral",
-        "0.7238106220588861",
+        "0.99",
         "[\"剧情内容\"]"
       ],
       [
         "전무랑 전성기 둘 다 없으면 뭐 쓰나요?",
         "neutral",
-        "0.9039018061782156",
+        "0.79",
         "[\"社区生态\"]"
       ],
       [
         "best guides ever!",
         "positive",
-        "0.9792134650953691",
+        "0.99",
         "[\"角色讨论\"]"
       ],
       [
         "great job",
         "positive",
-        "0.88",
+        "0.935",
         "[\"其他讨论\"]"
       ],
       [
         "been waiting for your guide, thank you!",
         "positive",
-        "0.9643062194262839",
+        "0.99",
         "[\"社区生态\"]"
       ],
       [
         "i was hoping she would replace xaihi, for the arcane int team. that changes my plan. warming the bench she goes",
         "negative",
-        "0.84",
+        "0.88",
         "[\"战斗体验\"]"
       ],
       [
         "skipping her for sui sibling n typhon",
         "neutral",
-        "0.5890514211924036",
+        "0.79",
         "[\"商业化\"]"
       ],
       [
         "without tangtang it will be arcane liino xaihi kekuri? without perlica?",
         "neutral",
-        "0.9023263908043199",
+        "0.98",
         "[\"角色讨论\"]"
       ],
       [
         "that she can't dodge and atk during her song is worrying, it's a way bigger downside than it might sound like. for the easy stuff she definitely is a qol character, but for the hard things, idk if her healing and buffs will be enough to keep her alive for multiple waves or boss rounds. could become pretty random if she stays alive or not xd depending on the ai's movement.",
         "negative",
-        "0.84",
+        "0.89",
         "[\"竞品讨论\"]"
       ],
       [
         "how do you find she stacks up against gilberta as support? do you think she is more useable or serve different teams?",
         "neutral",
-        "0.9645084493200414",
+        "0.99",
         "[\"战斗体验\"]"
       ],
       [
         "i think thats pretty much thecomplete rotation, she pretty much do nothing except buffing.",
         "negative",
-        "0.84",
+        "0.75",
         "[\"战斗体验\"]"
       ],
       [
         "is getting her weapon really more important than getting a main dps weapon ?",
         "neutral",
-        "0.8460499935310671",
+        "0.79",
         "[\"商业化\"]"
       ],
       [
         "i just got her today, using the dossier carried from last banner. got to skip her weapon sadly and get the one from battle pass, savings everything i could for si. beside, \"meta\" and \"endgame\" in endfield just isn't delivered for me. i really needed a ranking list between sever players to feel motivated, as of now, getting trimmed metal and wait for people to visit your profile just not it, they don't even see how fast i clear the stages and i can't compete and show off with other people, what's the point of clearing it fast -.-. but tks alot for the guide.",
         "negative",
-        "0.89",
+        "0.785",
         "[\"技术体验\"]"
       ],
       [
         "her kit is nice! but i don't like her design. thankfully my gilberta leek team already clears endgame easily.",
-        "positive",
-        "0.6636429489589079",
+        "neutral",
+        "0.76",
         "[\"视觉表现\"]"
       ],
       [
         "its a jojo reference?!?",
         "neutral",
-        "0.79",
+        "0.87",
         "[\"角色讨论\"]"
       ],
       [
         "\"you used to give me 500 bucks every week\"",
         "neutral",
-        "0.99",
+        "0.935",
         "[\"社区生态\"]"
       ]
     ]
