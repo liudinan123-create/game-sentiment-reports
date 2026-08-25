@@ -1210,6 +1210,11 @@
               "status": "ready",
               "data_source": "data/reports/hsr-4.4-lower-ja.json",
               "download_name": "崩铁-4.4下半-YouTube日语_舆情分析报告.html"
+            },
+            "ko": {
+              "status": "ready",
+              "data_source": "data/reports/hsr-4.4-lower-ko.json",
+              "download_name": "崩铁-4.4下半-YouTube韩语_舆情分析报告.html"
             }
           },
           "confidence": "corroborated",
