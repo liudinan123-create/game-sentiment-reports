@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-21",
+  "updated_at": "2026-08-25",
   "timezone": "Asia/Shanghai",
   "games": [
     {
@@ -1188,7 +1188,20 @@
               "type": "reprint"
             }
           ],
-          "reports": {},
+          "video_metrics": {
+            "video_count": 1237,
+            "total_views": 25959153,
+            "total_comments": 94318,
+            "updated_at": "2026-08-25",
+            "source": "B站关键词“崩铁/崩坏星穹铁道”依次搜索、交叉去重及4.4下半相关性筛选"
+          },
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "data_source": "data/reports/hsr-4.4-lower-zh.json",
+              "download_name": "崩铁-4.4下半-B站_舆情分析报告.html"
+            }
+          },
           "confidence": "corroborated",
           "sources": [
             {
