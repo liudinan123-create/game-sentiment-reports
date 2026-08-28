@@ -1884,6 +1884,11 @@
               "download_name": "绝区零-3.1上半-日语_舆情分析报告.html",
               "data_source": "data/reports/zzz-3.1-upper-ja.json"
             },
+            "ko": {
+              "status": "ready",
+              "download_name": "绝区零-3.1上半-韩语_舆情分析报告.html",
+              "data_source": "data/reports/zzz-3.1-upper-ko.json"
+            },
             "zh": {
               "status": "ready",
               "download_name": "绝区零-3.1上半-B站_舆情分析报告.html",
