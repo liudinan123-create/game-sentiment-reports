@@ -2675,8 +2675,20 @@
               "type": "reprint"
             }
           ],
-          "reports": {},
-          "video_metrics": {},
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "data_source": "data/reports/wuwa-3.6-upper-zh.json",
+              "download_name": "鸣潮-3.6上半-B站_舆情分析报告.html"
+            }
+          },
+          "video_metrics": {
+            "video_count": 1000,
+            "total_views": 27617843,
+            "total_comments": 135100,
+            "updated_at": "2026-08-28",
+            "source": "B站关键词“鸣潮3.6”全量视频统计"
+          },
           "confidence": "corroborated",
           "sources": [
             {
