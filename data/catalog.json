@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-25",
+  "updated_at": "2026-08-28",
   "timezone": "Asia/Shanghai",
   "games": [
     {
@@ -161,8 +161,8 @@
           "version": "1.3",
           "phase": "上半",
           "start": "2026-08-13",
-          "end": "2026-09-03",
-          "end_estimated": true,
+          "end": "2026-09-02",
+          "end_estimated": false,
           "characters": [
             {
               "name": "残虹",
@@ -198,13 +198,11 @@
           "confidence": "official",
           "sources": [
             {
-              "title": "《异环》1.3版本更新公告",
               "url": "https://yh.wanmei.com/news/gamebroad/20260812/263538.html",
-              "published_at": "2026-08-12"
+              "title": "《异环》1.3版本「雾中朔望星回」更新公告"
             }
           ],
-          "estimate_basis": "官方已确认1.3版本于8月13日开启；下半卡池尚无官方日期，按三周阶段周期估算",
-          "notes": "按自然日口径，1.3首日归8月13日，1.2下半截止日自动调整为8月12日。"
+          "notes": "官方棋盘开放至2026年9月3日05:59；按自然日不重叠规则，网页截止日记为9月2日。"
         }
       ]
     },
@@ -1230,6 +1228,70 @@
             }
           ],
           "notes": "姬子·启行为全版本跃迁，下半继续开放。"
+        },
+        {
+          "id": "hsr-4.5-上半",
+          "version": "4.5",
+          "phase": "上半",
+          "start": "2026-08-26",
+          "end": "2026-09-11",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "知更鸟·晴歌",
+              "type": "new-char"
+            },
+            {
+              "name": "风堇",
+              "type": "reprint"
+            }
+          ],
+          "reports": {},
+          "video_metrics": {},
+          "confidence": "official",
+          "sources": [
+            {
+              "url": "https://www.hoyolab.com/article/46449452?reply=1",
+              "title": "Version 4.5 To Roll the Stars in Astropolis Update Details"
+            },
+            {
+              "url": "https://www.hoyolab.com/article/46287148",
+              "title": "A Brief on the Version 4.5 Special Program"
+            }
+          ],
+          "notes": "官方跃迁时刻为版本更新后至2026年9月12日11:59；按自然日不重叠规则，网页截止日记为9月11日。"
+        },
+        {
+          "id": "hsr-4.5-下半",
+          "version": "4.5",
+          "phase": "下半",
+          "start": "2026-09-12",
+          "end": "2026-09-27",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "砂金·戏浪",
+              "type": "new-char"
+            },
+            {
+              "name": "不死途",
+              "type": "reprint"
+            }
+          ],
+          "reports": {},
+          "video_metrics": {},
+          "confidence": "official",
+          "sources": [
+            {
+              "url": "https://www.hoyolab.com/article/46449452?reply=1",
+              "title": "Version 4.5 To Roll the Stars in Astropolis Update Details"
+            },
+            {
+              "url": "https://www.hoyolab.com/article/46287148",
+              "title": "A Brief on the Version 4.5 Special Program"
+            }
+          ],
+          "notes": "4.5版本于2026年9月28日06:00结束；按自然日不重叠规则，网页截止日记为9月27日。"
         }
       ]
     },
@@ -2574,6 +2636,74 @@
               "url": "https://www.taptap.cn/moment/823834749461070373"
             }
           ]
+        },
+        {
+          "id": "wuwa-3.6-上半",
+          "version": "3.6",
+          "phase": "上半",
+          "start": "2026-08-20",
+          "end": "2026-09-09",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "清宵",
+              "type": "new-char"
+            },
+            {
+              "name": "达妮娅",
+              "type": "reprint"
+            }
+          ],
+          "reports": {},
+          "video_metrics": {},
+          "confidence": "corroborated",
+          "sources": [
+            {
+              "url": "https://www.taptap.cn/app/234280/topic?page=3&type=official",
+              "title": "鸣潮官方3.6版本第一期角色/武器活动唤取"
+            },
+            {
+              "url": "https://forum.gamer.com.tw/Co.php?bsn=74934&sn=38231",
+              "title": "鸣潮3.6版本活动日程整理"
+            }
+          ],
+          "notes": "官方活动时刻为版本更新后至2026年9月10日09:59；按自然日不重叠规则，网页截止日记为9月9日。"
+        },
+        {
+          "id": "wuwa-3.6-下半",
+          "version": "3.6",
+          "phase": "下半",
+          "start": "2026-09-10",
+          "end": "2026-09-29",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "景燃",
+              "type": "new-char"
+            },
+            {
+              "name": "绯雪",
+              "type": "reprint"
+            },
+            {
+              "name": "莫宁",
+              "type": "reprint"
+            }
+          ],
+          "reports": {},
+          "video_metrics": {},
+          "confidence": "corroborated",
+          "sources": [
+            {
+              "url": "https://www.taptap.cn/moment/839214754839921356",
+              "title": "「蜃云灯影，凡尘剑心」3.6版本内容说明"
+            },
+            {
+              "url": "https://forum.gamer.com.tw/Co.php?bsn=74934&sn=38231",
+              "title": "鸣潮3.6版本活动日程整理"
+            }
+          ],
+          "notes": "第二期角色唤取时刻为2026年9月10日10:00至2026年9月29日11:59。"
         }
       ]
     },
@@ -4514,8 +4644,8 @@
           "version": "7.0",
           "phase": "上半",
           "start": "2026-08-12",
-          "end": "2026-09-02",
-          "end_estimated": true,
+          "end": "2026-08-31",
+          "end_estimated": false,
           "characters": [
             {
               "name": "奥黛塔",
@@ -4526,13 +4656,6 @@
               "type": "reprint"
             }
           ],
-          "video_metrics": {
-            "video_count": 475,
-            "total_views": 40018492,
-            "total_comments": 171860,
-            "updated_at": "2026-08-13",
-            "source": "B站关键词“原神7.0”严格版本过滤"
-          },
           "reports": {
             "zh": {
               "status": "ready",
@@ -4555,15 +4678,49 @@
               "download_name": "原神-7.0上半-韩语_舆情分析报告.html"
             }
           },
+          "video_metrics": {
+            "video_count": 475,
+            "total_views": 40018492,
+            "total_comments": 171860,
+            "updated_at": "2026-08-13",
+            "source": "B站关键词“原神7.0”严格版本过滤"
+          },
           "confidence": "official",
           "sources": [
             {
-              "title": "Version 7.0 Event Wishes Notice - Phase I",
-              "url": "https://www.hoyolab.com/article_pre/18014398241022483"
+              "url": "https://www.hoyolab.com/article/46208554",
+              "title": "Version 7.0 Event Wishes Notice - Phase I"
             }
           ],
-          "estimate_basis": "官方确认7.0上半于8月12日开启；下半祈愿公告尚未检索到，按三周阶段周期估算",
-          "notes": "结束日待官方下半祈愿公告发布后，以新卡池首日覆盖并自动修正为前一自然日。"
+          "notes": "官方第一期祈愿至2026年9月1日17:59；第二期同日18:00开启，按自然日不重叠规则，网页截止日记为8月31日。"
+        },
+        {
+          "id": "genshin-7.0-下半",
+          "version": "7.0",
+          "phase": "下半",
+          "start": "2026-09-01",
+          "end": "2026-09-22",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "菲林斯",
+              "type": "reprint"
+            },
+            {
+              "name": "伊涅芙",
+              "type": "reprint"
+            }
+          ],
+          "reports": {},
+          "video_metrics": {},
+          "confidence": "official",
+          "sources": [
+            {
+              "url": "https://www.hoyolab.com/accountCenter",
+              "title": "Version 7.0 Event Wishes Notice - Phase II（原神官方）"
+            }
+          ],
+          "notes": "官方第二期祈愿时刻为2026年9月1日18:00至2026年9月22日14:59。"
         }
       ]
     },
@@ -4776,21 +4933,14 @@
           "version": "1.4",
           "phase": "下半",
           "start": "2026-08-09",
-          "end": "2026-08-26",
-          "end_estimated": true,
+          "end": "2026-09-01",
+          "end_estimated": false,
           "characters": [
             {
               "name": "梨诺",
               "type": "new-char"
             }
           ],
-          "video_metrics": {
-            "video_count": 344,
-            "total_views": 33005293,
-            "total_comments": 124030,
-            "updated_at": "2026-08-10",
-            "source": "B站关键词多查询；统计区间2026-08-09至2026-08-10；相关视频最低播放量大于100；汇总全部相关视频"
-          },
           "reports": {
             "zh": {
               "status": "ready",
@@ -4813,19 +4963,118 @@
               "download_name": "终末地-1.4下半-韩语_舆情分析报告.html"
             }
           },
-          "confidence": "official",
+          "video_metrics": {
+            "video_count": 344,
+            "total_views": 33005293,
+            "total_comments": 124030,
+            "updated_at": "2026-08-10",
+            "source": "B站关键词多查询；统计区间2026-08-09至2026-08-10；相关视频最低播放量大于100；汇总全部相关视频"
+          },
+          "confidence": "corroborated",
           "sources": [
             {
-              "title": "《明日方舟：终末地》1.4版本下半活动公告",
-              "url": "https://endfield.hypergryph.com/news/9335"
+              "url": "https://endfield.hypergryph.com/news/1165",
+              "title": "「晨星于此闪耀」特许寻访说明"
             },
             {
-              "title": "晨星于此闪耀招募说明",
-              "url": "https://www.taptap.cn/moment/826580172495914096?group_id=323017"
+              "url": "https://www.taptap.cn/moment/839977082451660175",
+              "title": "终末地1.5「雪凇幽梦」版本前瞻"
             }
           ],
-          "estimate_basis": "官方公告仅写至下一版本维护前；按近期约六周版本周期估算下一次维护为8月27日",
-          "notes": "梨诺招募持续至下一版本更新维护前，页面结束日暂按版本周期预估。"
+          "notes": "梨诺寻访开放至下一版本维护前；1.5版本于9月2日开启，按自然日规则截止于9月1日。"
+        },
+        {
+          "id": "endfield-1.5-上半",
+          "version": "1.5",
+          "phase": "上半",
+          "start": "2026-09-02",
+          "end": "2026-09-23",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "提弗洛斯",
+              "type": "new-char"
+            }
+          ],
+          "reports": {},
+          "video_metrics": {},
+          "confidence": "corroborated",
+          "sources": [
+            {
+              "url": "https://endfield.hypergryph.com/operator",
+              "title": "明日方舟：终末地官方干员档案"
+            },
+            {
+              "url": "https://www.taptap.cn/moment/840153136281683111",
+              "title": "「雪凇幽梦」版本资讯"
+            },
+            {
+              "url": "https://m.ali213.net/news/gl2608/1802617.html",
+              "title": "终末地1.5版本更新时间与卡池整理"
+            }
+          ],
+          "notes": "提弗洛斯限定寻访自1.5更新后开启；9月24日新增伊冯重构寻访，按自然日拆分阶段。"
+        },
+        {
+          "id": "endfield-1.5-中期",
+          "version": "1.5",
+          "phase": "中期",
+          "start": "2026-09-24",
+          "end": "2026-09-30",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "提弗洛斯",
+              "type": "new-char"
+            },
+            {
+              "name": "伊冯",
+              "type": "reprint"
+            }
+          ],
+          "reports": {},
+          "video_metrics": {},
+          "confidence": "corroborated",
+          "sources": [
+            {
+              "url": "https://endfield.hypergryph.com/news/4776",
+              "title": "「雪凇幽梦」版本研发通讯与伊冯重构寻访说明"
+            },
+            {
+              "url": "https://www.taptap.cn/moment/840153136281683111",
+              "title": "「雪凇幽梦」版本资讯"
+            }
+          ],
+          "notes": "提弗洛斯寻访持续至9月30日11:59；伊冯重构寻访自9月24日12:00开启，故单独拆出并行阶段。"
+        },
+        {
+          "id": "endfield-1.5-下半",
+          "version": "1.5",
+          "phase": "下半",
+          "start": "2026-10-01",
+          "end": "2026-10-14",
+          "end_estimated": true,
+          "characters": [
+            {
+              "name": "伊冯",
+              "type": "reprint"
+            }
+          ],
+          "reports": {},
+          "video_metrics": {},
+          "confidence": "corroborated",
+          "sources": [
+            {
+              "url": "https://endfield.hypergryph.com/news/4776",
+              "title": "「雪凇幽梦」版本研发通讯与伊冯重构寻访说明"
+            },
+            {
+              "url": "https://www.taptap.cn/moment/840153136281683111",
+              "title": "「雪凇幽梦」版本资讯"
+            }
+          ],
+          "estimate_basis": "伊冯重构寻访官方仅标注持续至下一版本更新维护前；按终末地近期稳定的六周版本周期推算下一版本维护日为2026年10月15日，网页截止日取前一自然日。",
+          "notes": "伊冯重构寻访延续至下一版本维护前；正式维护公告发布后须立即覆盖预估截止日。"
         }
       ]
     }
