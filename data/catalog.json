@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-28",
+  "updated_at": "2026-08-30",
   "timezone": "Asia/Shanghai",
   "games": [
     {
@@ -2680,6 +2680,11 @@
               "status": "ready",
               "data_source": "data/reports/wuwa-3.6-upper-zh.json",
               "download_name": "鸣潮-3.6上半-B站_舆情分析报告.html"
+            },
+            "en": {
+              "status": "ready",
+              "data_source": "data/reports/wuwa-3.6-upper-en.json",
+              "download_name": "鸣潮-3.6上半-YouTube英语_舆情分析报告.html"
             }
           },
           "video_metrics": {
