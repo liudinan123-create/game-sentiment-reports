@@ -2685,6 +2685,11 @@
               "status": "ready",
               "data_source": "data/reports/wuwa-3.6-upper-en.json",
               "download_name": "鸣潮-3.6上半-YouTube英语_舆情分析报告.html"
+            },
+            "ja": {
+              "status": "ready",
+              "data_source": "data/reports/wuwa-3.6-upper-ja.json",
+              "download_name": "鸣潮-3.6上半-YouTube日语_舆情分析报告.html"
             }
           },
           "video_metrics": {
