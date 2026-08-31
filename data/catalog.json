@@ -1256,8 +1256,20 @@
               "type": "reprint"
             }
           ],
-          "reports": {},
-          "video_metrics": {},
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "data_source": "data/reports/hsr-4.5-upper-zh.json",
+              "download_name": "崩坏星穹铁道-4.5上半-B站_舆情分析报告.html"
+            }
+          },
+          "video_metrics": {
+            "video_count": 984,
+            "total_views": 16336537,
+            "total_comments": 87357,
+            "updated_at": "2026-08-31",
+            "source": "B站关键词“崩铁”4.5上半相关视频全量统计"
+          },
           "confidence": "official",
           "sources": [
             {
