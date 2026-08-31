@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-30",
+  "updated_at": "2026-08-31",
   "timezone": "Asia/Shanghai",
   "games": [
     {
@@ -1266,6 +1266,11 @@
               "status": "ready",
               "data_source": "data/reports/hsr-4.5-upper-ja.json",
               "download_name": "崩坏星穹铁道-4.5上半-日语_舆情分析报告.html"
+            },
+            "en": {
+              "status": "ready",
+              "data_source": "data/reports/hsr-4.5-upper-en.json",
+              "download_name": "崩坏星穹铁道-4.5上半-YouTube英语_舆情分析报告.html"
             }
           },
           "video_metrics": {
