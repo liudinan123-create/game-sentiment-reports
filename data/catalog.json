@@ -1261,6 +1261,11 @@
               "status": "ready",
               "data_source": "data/reports/hsr-4.5-upper-zh.json",
               "download_name": "崩坏星穹铁道-4.5上半-B站_舆情分析报告.html"
+            },
+            "ja": {
+              "status": "ready",
+              "data_source": "data/reports/hsr-4.5-upper-ja.json",
+              "download_name": "崩坏星穹铁道-4.5上半-日语_舆情分析报告.html"
             }
           },
           "video_metrics": {
