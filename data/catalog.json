@@ -1145,6 +1145,16 @@
               "download_name": "崩铁-4.4上半-日语_舆情分析报告.html",
               "data_source": "data/reports/hsr-4.4-upper-ja.json",
               "legacy_href": "崩铁-4.4上半-日语_舆情分析报告.html"
+            },
+            "en": {
+              "status": "ready",
+              "download_name": "崩铁-4.4上半-英语_舆情分析报告.html",
+              "data_source": "data/reports/hsr-4.4-upper-en.json"
+            },
+            "ko": {
+              "status": "ready",
+              "download_name": "崩铁-4.4上半-韩语_舆情分析报告.html",
+              "data_source": "data/reports/hsr-4.4-upper-ko.json"
             }
           },
           "confidence": "corroborated",
