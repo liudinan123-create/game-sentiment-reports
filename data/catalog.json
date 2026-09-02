@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-31",
+  "updated_at": "2026-09-02",
   "timezone": "Asia/Shanghai",
   "games": [
     {
@@ -1962,7 +1962,13 @@
               "type": "new-char"
             }
           ],
-          "reports": {},
+          "reports": {
+            "en": {
+              "status": "ready",
+              "download_name": "绝区零-3.1下半-英语_舆情分析报告.html",
+              "data_source": "data/reports/zzz-3.1-lower-en.json"
+            }
+          },
           "confidence": "official",
           "sources": [
             {
