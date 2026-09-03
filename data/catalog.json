@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-02",
+  "updated_at": "2026-09-03",
   "timezone": "Asia/Shanghai",
   "games": [
     {
@@ -1963,10 +1963,20 @@
             }
           ],
           "reports": {
+            "zh": {
+              "status": "ready",
+              "data_source": "data/reports/zzz-3.1-lower-zh.json",
+              "download_name": "绝区零-3.1下半-B站_舆情分析报告.html"
+            },
             "en": {
               "status": "ready",
               "download_name": "绝区零-3.1下半-英语_舆情分析报告.html",
               "data_source": "data/reports/zzz-3.1-lower-en.json"
+            },
+            "ja": {
+              "status": "ready",
+              "data_source": "data/reports/zzz-3.1-lower-ja.json",
+              "download_name": "绝区零-3.1下半-YouTube日语_舆情分析报告.html"
             }
           },
           "confidence": "official",
