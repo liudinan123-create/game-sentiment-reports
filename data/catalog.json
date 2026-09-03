@@ -1977,6 +1977,11 @@
               "status": "ready",
               "data_source": "data/reports/zzz-3.1-lower-ja.json",
               "download_name": "绝区零-3.1下半-YouTube日语_舆情分析报告.html"
+            },
+            "ko": {
+              "status": "ready",
+              "data_source": "data/reports/zzz-3.1-lower-ko.json",
+              "download_name": "绝区零-3.1下半-YouTube韩语_舆情分析报告.html"
             }
           },
           "confidence": "official",
