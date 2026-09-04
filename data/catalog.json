@@ -5107,6 +5107,11 @@
               "status": "ready",
               "data_source": "data/reports/endfield-1.5-upper-zh.json",
               "download_name": "终末地-1.5上半-B站_舆情分析报告.html"
+            },
+            "ko": {
+              "status": "ready",
+              "data_source": "data/reports/endfield-1.5-upper-ko.json",
+              "download_name": "终末地-1.5上半-YouTube韩语_舆情分析报告.html"
             }
           },
           "video_metrics": {
