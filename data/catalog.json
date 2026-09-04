@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-03",
+  "updated_at": "2026-09-04",
   "timezone": "Asia/Shanghai",
   "games": [
     {
@@ -5102,8 +5102,20 @@
               "type": "new-char"
             }
           ],
-          "reports": {},
-          "video_metrics": {},
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "data_source": "data/reports/endfield-1.5-upper-zh.json",
+              "download_name": "终末地-1.5上半-B站_舆情分析报告.html"
+            }
+          },
+          "video_metrics": {
+            "video_count": 1261,
+            "total_views": 14207132,
+            "total_comments": 71323,
+            "updated_at": "2026-09-02",
+            "source": "三次搜索全量合并去重后，经版本相关性判定保留的最终版本相关视频全集"
+          },
           "confidence": "corroborated",
           "sources": [
             {
