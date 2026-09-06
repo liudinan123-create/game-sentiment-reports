@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-04",
+  "updated_at": "2026-09-06",
   "timezone": "Asia/Shanghai",
   "games": [
     {
@@ -203,6 +203,34 @@
             }
           ],
           "notes": "官方棋盘开放至2026年9月3日05:59；按自然日不重叠规则，网页截止日记为9月2日。"
+        },
+        {
+          "id": "nte-1.3-下半",
+          "version": "1.3",
+          "phase": "下半",
+          "start": "2026-09-03",
+          "end": "2026-09-24",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "灵可",
+              "type": "new-char"
+            },
+            {
+              "name": "浔",
+              "type": "reprint"
+            }
+          ],
+          "reports": {},
+          "video_metrics": {},
+          "confidence": "official",
+          "sources": [
+            {
+              "url": "https://www.taptap.cn/moment/844181438868753170",
+              "title": "《异环》9月3日停服维护公告"
+            }
+          ],
+          "notes": "中国服务器；9月3日维护后开启，9月24日05:59结束；后续新阶段确认后按自然日互斥规则调整展示。"
         }
       ]
     },
@@ -1288,12 +1316,8 @@
           "confidence": "official",
           "sources": [
             {
-              "url": "https://www.hoyolab.com/article/46449452?reply=1",
-              "title": "Version 4.5 To Roll the Stars in Astropolis Update Details"
-            },
-            {
-              "url": "https://www.hoyolab.com/article/46287148",
-              "title": "A Brief on the Version 4.5 Special Program"
+              "url": "https://www.taptap.cn/moment/840997512444642592",
+              "title": "4.5版本活动跃迁（其一）"
             }
           ],
           "notes": "官方跃迁时刻为版本更新后至2026年9月12日11:59；按自然日不重叠规则，网页截止日记为9月11日。"
@@ -1960,6 +1984,18 @@
             {
               "name": "希格莉德",
               "type": "new-char"
+            },
+            {
+              "name": "琉音",
+              "type": "reprint"
+            },
+            {
+              "name": "浮波柚叶",
+              "type": "reprint"
+            },
+            {
+              "name": "浅羽悠真",
+              "type": "reprint"
             }
           ],
           "reports": {
@@ -1987,15 +2023,16 @@
           "confidence": "official",
           "sources": [
             {
-              "title": "Version 3.1 Signal Search Details",
-              "url": "https://zenless.hoyoverse.com/en-us/news/165410?catchSpider=1&lang=en-us&page=news"
+              "url": "https://www.taptap.cn/moment/830743692607229064",
+              "title": "3.1版本限时频段"
             },
             {
-              "title": "《绝区零》3.1版本调频说明",
-              "url": "https://www.taptap.cn/moment/830743692607229064"
+              "url": "https://www.taptap.cn/moment/838370603831396589",
+              "title": "3.1版本限时频段（下期）"
             }
           ],
-          "notes": "蕾米埃尔全版本继续开放，希格莉德于下半加入。"
+          "notes": "蕾米埃尔全版本开放；希格莉德及独家重映自选复刻琉音、浮波柚叶、浅羽悠真于8月19日12:00开启，9月8日14:59结束。",
+          "video_metrics": {}
         }
       ]
     },
@@ -2762,15 +2799,15 @@
             "updated_at": "2026-08-28",
             "source": "B站关键词“鸣潮3.6”全量视频统计"
           },
-          "confidence": "corroborated",
+          "confidence": "official",
           "sources": [
             {
-              "url": "https://www.taptap.cn/app/234280/topic?page=3&type=official",
-              "title": "鸣潮官方3.6版本第一期角色/武器活动唤取"
+              "url": "https://www.taptap.cn/moment/838864220035483348",
+              "title": "【3.6版本】角色/武器活动唤取·第一期"
             },
             {
-              "url": "https://forum.gamer.com.tw/Co.php?bsn=74934&sn=38231",
-              "title": "鸣潮3.6版本活动日程整理"
+              "url": "https://www.taptap.cn/moment/839214754839921356",
+              "title": "3.6版本内容说明"
             }
           ],
           "notes": "官方活动时刻为版本更新后至2026年9月10日09:59；按自然日不重叠规则，网页截止日记为9月9日。"
@@ -4822,8 +4859,8 @@
           "confidence": "official",
           "sources": [
             {
-              "url": "https://www.hoyolab.com/accountCenter",
-              "title": "Version 7.0 Event Wishes Notice - Phase II（原神官方）"
+              "url": "https://www.taptap.cn/moment/843528992349753017",
+              "title": "7.0版本活动祈愿预告第二期"
             }
           ],
           "notes": "官方第二期祈愿时刻为2026年9月1日18:00至2026年9月22日14:59。"
@@ -5121,22 +5158,18 @@
             "updated_at": "2026-09-02",
             "source": "三次搜索全量合并去重后，经版本相关性判定保留的最终版本相关视频全集"
           },
-          "confidence": "corroborated",
+          "confidence": "official",
           "sources": [
             {
-              "url": "https://endfield.hypergryph.com/operator",
-              "title": "明日方舟：终末地官方干员档案"
+              "url": "https://www.taptap.cn/moment/843580269528091747",
+              "title": "「冬猎」特许寻访说明"
             },
             {
-              "url": "https://www.taptap.cn/moment/840153136281683111",
-              "title": "「雪凇幽梦」版本资讯"
-            },
-            {
-              "url": "https://m.ali213.net/news/gl2608/1802617.html",
-              "title": "终末地1.5版本更新时间与卡池整理"
+              "url": "https://www.taptap.cn/moment/843864351713529143",
+              "title": "冬猎寻访9月2日开启"
             }
           ],
-          "notes": "提弗洛斯限定寻访自1.5更新后开启；9月24日新增伊冯重构寻访，按自然日拆分阶段。"
+          "notes": "冬猎提弗洛斯寻访9月2日版本开启后至9月30日11:59。现有目录以9月24日伊冯重构寻访为并行阶段边界；后续阶段结束时间仍待官方维护公告核验。"
         },
         {
           "id": "endfield-1.5-中期",
