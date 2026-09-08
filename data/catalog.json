@@ -231,6 +231,11 @@
               "status": "ready",
               "data_source": "data/reports/nte-1.3-lower-en.json",
               "download_name": "异环-1.3下半-英语_舆情分析报告.html"
+            },
+            "ja": {
+              "status": "ready",
+              "data_source": "data/reports/nte-1.3-lower-ja.json",
+              "download_name": "异环-1.3下半-日语_舆情分析报告.html"
             }
           },
           "video_metrics": {
