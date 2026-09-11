@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-09-06",
+  "scanned_at": "2026-09-11",
   "timezone": "Asia/Shanghai",
   "entries": [
     {
@@ -22,180 +22,184 @@
       "confidence": "official",
       "sources": [
         {
-          "url": "https://www.taptap.cn/moment/844181438868753170",
+          "url": "https://yh.wanmei.com/m/news/gamebroad/20260902/263842.html",
           "title": "《异环》9月3日停服维护公告"
         }
       ],
-      "notes": "中国服务器；9月3日维护后开启，9月24日05:59结束；后续新阶段确认后按自然日互斥规则调整展示。"
+      "notes": "中国服务器；9月3日维护后开启，9月24日05:59结束。"
     },
     {
       "game": "崩铁",
       "version": "4.5",
-      "phase": "上半",
-      "start": "2026-08-26",
-      "end": "2026-09-11",
+      "phase": "下半",
+      "start": "2026-09-12",
+      "end": "2026-09-27",
       "end_estimated": false,
       "characters": [
         {
-          "name": "知更鸟·晴歌",
+          "name": "砂金·戏浪",
           "type": "new-char"
         },
         {
-          "name": "风堇",
+          "name": "不死途",
           "type": "reprint"
         }
       ],
       "confidence": "official",
       "sources": [
         {
-          "url": "https://www.taptap.cn/moment/840997512444642592",
-          "title": "4.5版本活动跃迁（其一）"
+          "url": "https://www.taptap.cn/moment/846770765180174809",
+          "title": "4.5版本跃迁活动第二期"
+        },
+        {
+          "url": "https://www.hoyolab.com/article/46449452?reply=1",
+          "title": "Version 4.5 To Roll the Stars in Astropolis Update Details"
         }
       ],
-      "notes": "官方跃迁时刻为版本更新后至2026年9月12日11:59；按自然日不重叠规则，网页截止日记为9月11日。"
+      "notes": "第二期跃迁于2026年9月12日12:00开启；4.5版本于9月28日06:00结束，按自然日互斥规则展示至9月27日。"
     },
     {
       "game": "绝区零",
-      "version": "3.1",
-      "phase": "下半",
-      "start": "2026-08-19",
-      "end": "2026-09-08",
+      "version": "3.2",
+      "phase": "上半",
+      "start": "2026-09-09",
+      "end": "2026-09-29",
       "end_estimated": false,
       "characters": [
         {
-          "name": "蕾米埃尔",
+          "name": "克拉蕾",
           "type": "new-char"
         },
         {
-          "name": "希格莉德",
-          "type": "new-char"
-        },
-        {
-          "name": "琉音",
-          "type": "reprint"
-        },
-        {
-          "name": "浮波柚叶",
-          "type": "reprint"
-        },
-        {
-          "name": "浅羽悠真",
+          "name": "南宫羽",
           "type": "reprint"
         }
       ],
       "confidence": "official",
       "sources": [
         {
-          "url": "https://www.taptap.cn/moment/830743692607229064",
-          "title": "3.1版本限时频段"
+          "url": "https://zenless.hoyoverse.com/m/en-us/news/165979",
+          "title": "Version 3.2 Signal Search Details Phase I"
         },
         {
-          "url": "https://www.taptap.cn/moment/838370603831396589",
-          "title": "3.1版本限时频段（下期）"
+          "url": "https://www.taptap.cn/moment/842456482015347954",
+          "title": "《绝区零》3.2版本调频说明"
+        },
+        {
+          "url": "https://zenless.hoyoverse.com/zh-tw/news/166000?catchSpider=1",
+          "title": "3.2版本更新及補償說明"
         }
       ],
-      "notes": "蕾米埃尔全版本开放；希格莉德及独家重映自选复刻琉音、浮波柚叶、浅羽悠真于8月19日12:00开启，9月8日14:59结束。"
+      "notes": "3.2版本于9月9日维护后开启；上半官方时刻持续至9月30日11:59，按自然日互斥规则展示至9月29日。"
+    },
+    {
+      "game": "绝区零",
+      "version": "3.2",
+      "phase": "下半",
+      "start": "2026-09-30",
+      "end": "2026-10-20",
+      "end_estimated": false,
+      "characters": [
+        {
+          "name": "洛克茜",
+          "type": "new-char"
+        },
+        {
+          "name": "普罗米娅",
+          "type": "reprint"
+        }
+      ],
+      "confidence": "official",
+      "sources": [
+        {
+          "url": "https://www.taptap.cn/moment/842456482015347954",
+          "title": "《绝区零》3.2版本调频说明"
+        },
+        {
+          "url": "https://zenless.hoyoverse.com/zh-tw/news/166000?catchSpider=1",
+          "title": "3.2版本更新及補償說明"
+        }
+      ],
+      "notes": "下半于9月30日开启；3.2版本于10月21日06:00结束，按自然日互斥规则展示至10月20日。"
     },
     {
       "game": "鸣潮",
       "version": "3.6",
-      "phase": "上半",
-      "start": "2026-08-20",
-      "end": "2026-09-09",
+      "phase": "下半",
+      "start": "2026-09-10",
+      "end": "2026-09-29",
       "end_estimated": false,
       "characters": [
         {
-          "name": "清宵",
+          "name": "景燃",
           "type": "new-char"
         },
         {
-          "name": "达妮娅",
+          "name": "绯雪",
+          "type": "reprint"
+        },
+        {
+          "name": "莫宁",
           "type": "reprint"
         }
       ],
       "confidence": "official",
       "sources": [
         {
-          "url": "https://www.taptap.cn/moment/838864220035483348",
-          "title": "【3.6版本】角色/武器活动唤取·第一期"
+          "url": "https://www.taptap.cn/moment/846464073510947540",
+          "title": "3.6版本第二期角色活动唤取预告"
         },
         {
           "url": "https://www.taptap.cn/moment/839214754839921356",
-          "title": "3.6版本内容说明"
+          "title": "「蜃云灯影，凡尘剑心」3.6版本内容说明"
         }
       ],
-      "notes": "官方活动时刻为版本更新后至2026年9月10日09:59；按自然日不重叠规则，网页截止日记为9月9日。"
-    },
-    {
-      "game": "原神",
-      "version": "7.0",
-      "phase": "下半",
-      "start": "2026-09-01",
-      "end": "2026-09-22",
-      "end_estimated": false,
-      "characters": [
-        {
-          "name": "菲林斯",
-          "type": "reprint"
-        },
-        {
-          "name": "伊涅芙",
-          "type": "reprint"
-        }
-      ],
-      "confidence": "official",
-      "sources": [
-        {
-          "url": "https://www.taptap.cn/moment/843528992349753017",
-          "title": "7.0版本活动祈愿预告第二期"
-        }
-      ],
-      "notes": "官方第二期祈愿时刻为2026年9月1日18:00至2026年9月22日14:59。"
-    },
-    {
-      "game": "终末地",
-      "version": "1.5",
-      "phase": "上半",
-      "start": "2026-09-02",
-      "end": "2026-09-23",
-      "end_estimated": false,
-      "characters": [
-        {
-          "name": "提弗洛斯",
-          "type": "new-char"
-        }
-      ],
-      "confidence": "official",
-      "sources": [
-        {
-          "url": "https://www.taptap.cn/moment/843580269528091747",
-          "title": "「冬猎」特许寻访说明"
-        },
-        {
-          "url": "https://www.taptap.cn/moment/843864351713529143",
-          "title": "冬猎寻访9月2日开启"
-        }
-      ],
-      "notes": "冬猎提弗洛斯寻访9月2日版本开启后至9月30日11:59。现有目录以9月24日伊冯重构寻访为并行阶段边界；后续阶段结束时间仍待官方维护公告核验。"
+      "notes": "第二期角色唤取时刻为2026年9月10日10:00至2026年9月29日11:59。"
     }
   ],
   "pending": [
     {
-      "game": "绝区零",
-      "candidate": "3.2 上半/下半",
-      "reason": "已检索到9月9日上线及克拉蕾/洛克茜消息，但尚未取得完整官方角色调频详情；二手下半9月30日与官方音擎9月29日11:59结束信息存在日期疑点，不写入未核实排期。",
+      "game": "异环",
+      "candidate": "1.4",
+      "reason": "尚未找到官方版本卡池时间与完整角色公告",
       "sources": [
-        "https://www.gematsu.com/2026/08/zenless-zone-zero-version-3-2-update-their-secret-histories-launches-september-9",
-        "https://www.taptap.cn/app/234493/topic?hreflang=en_US&page=83"
+        "https://yh.wanmei.com/news/index.html"
+      ]
+    },
+    {
+      "game": "崩铁",
+      "candidate": "4.6",
+      "reason": "尚未找到官方版本卡池时间与完整角色公告",
+      "sources": []
+    },
+    {
+      "game": "绝区零",
+      "candidate": "3.3",
+      "reason": "尚未找到官方版本卡池时间与完整角色公告",
+      "sources": []
+    },
+    {
+      "game": "鸣潮",
+      "candidate": "3.7",
+      "reason": "官方已公开角色“心”的档案前瞻，但未公布完整卡池阶段、日期与角色阵容",
+      "sources": [
+        "https://www.taptap.cn/collection/moment?id=%E9%B8%A3%E6%BD%AE-%E8%AE%BA%E5%9D%9B%E5%AE%98%E6%96%B9%E5%86%85%E5%AE%B9-1123428006&page=33"
+      ]
+    },
+    {
+      "game": "原神",
+      "candidate": "7.1",
+      "reason": "官方仅公告9月12日版本前瞻直播，卡池时间与完整角色尚未公布",
+      "sources": [
+        "https://www.hoyolab.com/accountCenter/postList?id=1015537"
       ]
     },
     {
       "game": "终末地",
-      "candidate": "1.5 中期/下半",
-      "reason": "保留既有9月24日并行阶段及预估结束标记；本轮官网研发通讯详情无法读取，9月30日11:59提弗洛斯结束与既有10月1日阶段边界待精确校准，不将预估冒充新核验事实。",
+      "candidate": "1.6",
+      "reason": "尚未找到官方版本卡池时间与完整角色公告",
       "sources": [
-        "https://endfield.hypergryph.com/news/4776",
-        "https://www.taptap.cn/moment/840153136281683111"
+        "https://endfield.hypergryph.com/zh-tw/news"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-07",
+  "updated_at": "2026-09-11",
   "timezone": "Asia/Shanghai",
   "games": [
     {
@@ -253,11 +253,11 @@
           "confidence": "official",
           "sources": [
             {
-              "url": "https://www.taptap.cn/moment/844181438868753170",
+              "url": "https://yh.wanmei.com/m/news/gamebroad/20260902/263842.html",
               "title": "《异环》9月3日停服维护公告"
             }
           ],
-          "notes": "中国服务器；9月3日维护后开启，9月24日05:59结束；后续新阶段确认后按自然日互斥规则调整展示。"
+          "notes": "中国服务器；9月3日维护后开启，9月24日05:59结束。"
         }
       ]
     },
@@ -1371,15 +1371,15 @@
           "confidence": "official",
           "sources": [
             {
-              "url": "https://www.hoyolab.com/article/46449452?reply=1",
-              "title": "Version 4.5 To Roll the Stars in Astropolis Update Details"
+              "url": "https://www.taptap.cn/moment/846770765180174809",
+              "title": "4.5版本跃迁活动第二期"
             },
             {
-              "url": "https://www.hoyolab.com/article/46287148",
-              "title": "A Brief on the Version 4.5 Special Program"
+              "url": "https://www.hoyolab.com/article/46449452?reply=1",
+              "title": "Version 4.5 To Roll the Stars in Astropolis Update Details"
             }
           ],
-          "notes": "4.5版本于2026年9月28日06:00结束；按自然日不重叠规则，网页截止日记为9月27日。"
+          "notes": "第二期跃迁于2026年9月12日12:00开启；4.5版本于9月28日06:00结束，按自然日互斥规则展示至9月27日。"
         }
       ]
     },
@@ -2060,6 +2060,74 @@
           ],
           "notes": "蕾米埃尔全版本开放；希格莉德及独家重映自选复刻琉音、浮波柚叶、浅羽悠真于8月19日12:00开启，9月8日14:59结束。",
           "video_metrics": {}
+        },
+        {
+          "id": "zzz-3.2-上半",
+          "version": "3.2",
+          "phase": "上半",
+          "start": "2026-09-09",
+          "end": "2026-09-29",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "克拉蕾",
+              "type": "new-char"
+            },
+            {
+              "name": "南宫羽",
+              "type": "reprint"
+            }
+          ],
+          "reports": {},
+          "video_metrics": {},
+          "confidence": "official",
+          "sources": [
+            {
+              "url": "https://zenless.hoyoverse.com/m/en-us/news/165979",
+              "title": "Version 3.2 Signal Search Details Phase I"
+            },
+            {
+              "url": "https://www.taptap.cn/moment/842456482015347954",
+              "title": "《绝区零》3.2版本调频说明"
+            },
+            {
+              "url": "https://zenless.hoyoverse.com/zh-tw/news/166000?catchSpider=1",
+              "title": "3.2版本更新及補償說明"
+            }
+          ],
+          "notes": "3.2版本于9月9日维护后开启；上半官方时刻持续至9月30日11:59，按自然日互斥规则展示至9月29日。"
+        },
+        {
+          "id": "zzz-3.2-下半",
+          "version": "3.2",
+          "phase": "下半",
+          "start": "2026-09-30",
+          "end": "2026-10-20",
+          "end_estimated": false,
+          "characters": [
+            {
+              "name": "洛克茜",
+              "type": "new-char"
+            },
+            {
+              "name": "普罗米娅",
+              "type": "reprint"
+            }
+          ],
+          "reports": {},
+          "video_metrics": {},
+          "confidence": "official",
+          "sources": [
+            {
+              "url": "https://www.taptap.cn/moment/842456482015347954",
+              "title": "《绝区零》3.2版本调频说明"
+            },
+            {
+              "url": "https://zenless.hoyoverse.com/zh-tw/news/166000?catchSpider=1",
+              "title": "3.2版本更新及補償說明"
+            }
+          ],
+          "notes": "下半于9月30日开启；3.2版本于10月21日06:00结束，按自然日互斥规则展示至10月20日。"
         }
       ]
     },
@@ -2862,15 +2930,15 @@
           ],
           "reports": {},
           "video_metrics": {},
-          "confidence": "corroborated",
+          "confidence": "official",
           "sources": [
+            {
+              "url": "https://www.taptap.cn/moment/846464073510947540",
+              "title": "3.6版本第二期角色活动唤取预告"
+            },
             {
               "url": "https://www.taptap.cn/moment/839214754839921356",
               "title": "「蜃云灯影，凡尘剑心」3.6版本内容说明"
-            },
-            {
-              "url": "https://forum.gamer.com.tw/Co.php?bsn=74934&sn=38231",
-              "title": "鸣潮3.6版本活动日程整理"
             }
           ],
           "notes": "第二期角色唤取时刻为2026年9月10日10:00至2026年9月29日11:59。"
