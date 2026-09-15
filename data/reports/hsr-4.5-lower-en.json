@@ -1,0 +1,5593 @@
+{
+  "schema_version": 1,
+  "meta": {
+    "game": "崩坏：星穹铁道",
+    "version": "4.5",
+    "phase": "下半",
+    "character": "砂金·戏浪 / 不死途",
+    "date_start": "2026-09-12",
+    "date_end": "2026-09-12",
+    "platform": "YouTube英语",
+    "generated_at": "2026-09-15T11:45"
+  },
+  "analysis": {
+    "total_comments": 805,
+    "video_metrics": {
+      "video_count": 110,
+      "total_views": 913928,
+      "total_comments": 1328,
+      "updated_at": "2026-09-15",
+      "source": "YouTube英语区4.5下半相关视频当日全量统计"
+    },
+    "sentiments": {
+      "positive": {
+        "count": 395,
+        "percent": 49.1
+      },
+      "negative": {
+        "count": 135,
+        "percent": 16.8
+      },
+      "neutral": {
+        "count": 275,
+        "percent": 34.2
+      }
+    },
+    "keywords": [
+      {
+        "name": "商业化",
+        "count": 207
+      },
+      {
+        "name": "角色讨论",
+        "count": 140
+      },
+      {
+        "name": "战斗体验",
+        "count": 101
+      },
+      {
+        "name": "视觉表现",
+        "count": 75
+      },
+      {
+        "name": "剧情内容",
+        "count": 63
+      },
+      {
+        "name": "社区生态",
+        "count": 61
+      },
+      {
+        "name": "其他讨论",
+        "count": 56
+      },
+      {
+        "name": "竞品讨论",
+        "count": 39
+      },
+      {
+        "name": "音频表现",
+        "count": 26
+      },
+      {
+        "name": "技术体验",
+        "count": 25
+      }
+    ],
+    "topics": [
+      {
+        "name": "商业化",
+        "total": 207,
+        "positive_percent": 41.1,
+        "negative_percent": 30.0,
+        "neutral_percent": 29.0
+      },
+      {
+        "name": "角色讨论",
+        "total": 140,
+        "positive_percent": 54.3,
+        "negative_percent": 8.6,
+        "neutral_percent": 37.1
+      },
+      {
+        "name": "战斗体验",
+        "total": 101,
+        "positive_percent": 31.7,
+        "negative_percent": 16.8,
+        "neutral_percent": 51.5
+      },
+      {
+        "name": "视觉表现",
+        "total": 75,
+        "positive_percent": 76.0,
+        "negative_percent": 6.7,
+        "neutral_percent": 17.3
+      },
+      {
+        "name": "剧情内容",
+        "total": 63,
+        "positive_percent": 52.4,
+        "negative_percent": 9.5,
+        "neutral_percent": 38.1
+      },
+      {
+        "name": "社区生态",
+        "total": 61,
+        "positive_percent": 62.3,
+        "negative_percent": 13.1,
+        "neutral_percent": 24.6
+      },
+      {
+        "name": "其他讨论",
+        "total": 56,
+        "positive_percent": 55.4,
+        "negative_percent": 10.7,
+        "neutral_percent": 33.9
+      },
+      {
+        "name": "竞品讨论",
+        "total": 39,
+        "positive_percent": 35.9,
+        "negative_percent": 12.8,
+        "neutral_percent": 51.3
+      },
+      {
+        "name": "音频表现",
+        "total": 26,
+        "positive_percent": 61.5,
+        "negative_percent": 3.8,
+        "neutral_percent": 34.6
+      },
+      {
+        "name": "技术体验",
+        "total": 25,
+        "positive_percent": 44.0,
+        "negative_percent": 28.0,
+        "neutral_percent": 28.0
+      }
+    ],
+    "pipeline_metrics": {
+      "insight_input_positive": 192,
+      "insight_input_negative": 130,
+      "insight_input_neutral": 140,
+      "estimated_insight_input_tokens": 12368,
+      "agent_labeled_count": 805,
+      "translated_quote_count": 90,
+      "estimated_agent_tokens": 29257,
+      "quality_gate": {
+        "thresholds": {
+          "validation_accuracy": 0.85,
+          "per_class_precision": 0.8,
+          "per_class_recall": 0.8,
+          "high_confidence_audit_error": 0.08,
+          "model_rule_conflict": 0.15
+        },
+        "decision": "finalized_single_round",
+        "rounds": 1,
+        "quality_flags": [
+          "en:per_class_precision",
+          "en:per_class_recall",
+          "en:validation_accuracy",
+          "high_confidence_audit_error",
+          "ja:per_class_precision",
+          "ja:per_class_recall",
+          "ja:validation_accuracy",
+          "ko:per_class_precision",
+          "ko:per_class_recall",
+          "ko:validation_accuracy",
+          "model_rule_conflict",
+          "zh:per_class_precision",
+          "zh:per_class_recall",
+          "zh:validation_accuracy"
+        ],
+        "precise_label_cap": 805,
+        "agent_labeled_count": 805,
+        "current_batch_by_language": {
+          "zh": 1,
+          "en": 804,
+          "ja": 0,
+          "ko": 0
+        },
+        "current_batch_by_provisional_group": {
+          "positive": 345,
+          "negative": 131,
+          "neutral": 312
+        },
+        "estimated_sentiment_label_tokens": 16889,
+        "validation_by_language": {
+          "zh": {
+            "status": "ok",
+            "validation_count": 29880,
+            "validation_accuracy": 0.598059,
+            "per_class_precision": {
+              "positive": 0.548534,
+              "negative": 0.595981,
+              "neutral": 0.625905
+            },
+            "per_class_recall": {
+              "positive": 0.533372,
+              "negative": 0.603755,
+              "neutral": 0.628893
+            },
+            "per_class_f1": {
+              "positive": 0.540847,
+              "negative": 0.599843,
+              "neutral": 0.627396
+            },
+            "per_class_support": {
+              "positive": 6982,
+              "negative": 10120,
+              "neutral": 12778
+            },
+            "confusion_matrix": [
+              [
+                3724,
+                1281,
+                1977
+              ],
+              [
+                1184,
+                6110,
+                2826
+              ],
+              [
+                1881,
+                2861,
+                8036
+              ]
+            ],
+            "label_order": [
+              "positive",
+              "negative",
+              "neutral"
+            ],
+            "cv_folds": 5
+          },
+          "en": {
+            "status": "ok",
+            "validation_count": 9720,
+            "validation_accuracy": 0.63786,
+            "per_class_precision": {
+              "positive": 0.679865,
+              "negative": 0.594393,
+              "neutral": 0.633919
+            },
+            "per_class_recall": {
+              "positive": 0.64785,
+              "negative": 0.624767,
+              "neutral": 0.638122
+            },
+            "per_class_f1": {
+              "positive": 0.663472,
+              "negative": 0.609202,
+              "neutral": 0.636013
+            },
+            "per_class_support": {
+              "positive": 3419,
+              "negative": 2681,
+              "neutral": 3620
+            },
+            "confusion_matrix": [
+              [
+                2215,
+                491,
+                713
+              ],
+              [
+                385,
+                1675,
+                621
+              ],
+              [
+                658,
+                652,
+                2310
+              ]
+            ],
+            "label_order": [
+              "positive",
+              "negative",
+              "neutral"
+            ],
+            "cv_folds": 5
+          },
+          "ja": {
+            "status": "ok",
+            "validation_count": 2921,
+            "validation_accuracy": 0.62239,
+            "per_class_precision": {
+              "positive": 0.65416,
+              "negative": 0.531022,
+              "neutral": 0.632084
+            },
+            "per_class_recall": {
+              "positive": 0.670008,
+              "negative": 0.512324,
+              "neutral": 0.627163
+            },
+            "per_class_f1": {
+              "positive": 0.661989,
+              "negative": 0.521505,
+              "neutral": 0.629614
+            },
+            "per_class_support": {
+              "positive": 1197,
+              "negative": 568,
+              "neutral": 1156
+            },
+            "confusion_matrix": [
+              [
+                802,
+                118,
+                277
+              ],
+              [
+                132,
+                291,
+                145
+              ],
+              [
+                292,
+                139,
+                725
+              ]
+            ],
+            "label_order": [
+              "positive",
+              "negative",
+              "neutral"
+            ],
+            "cv_folds": 5
+          },
+          "ko": {
+            "status": "ok",
+            "validation_count": 2194,
+            "validation_accuracy": 0.610757,
+            "per_class_precision": {
+              "positive": 0.661502,
+              "negative": 0.442105,
+              "neutral": 0.632821
+            },
+            "per_class_recall": {
+              "positive": 0.627828,
+              "negative": 0.440945,
+              "neutral": 0.664155
+            },
+            "per_class_f1": {
+              "positive": 0.644225,
+              "negative": 0.441524,
+              "neutral": 0.648109
+            },
+            "per_class_support": {
+              "positive": 884,
+              "negative": 381,
+              "neutral": 929
+            },
+            "confusion_matrix": [
+              [
+                555,
+                98,
+                231
+              ],
+              [
+                86,
+                168,
+                127
+              ],
+              [
+                198,
+                114,
+                617
+              ]
+            ],
+            "label_order": [
+              "positive",
+              "negative",
+              "neutral"
+            ],
+            "cv_folds": 5
+          }
+        },
+        "audit": {
+          "high_confidence_audit_count": 260,
+          "high_confidence_audit_error": 0.115385,
+          "model_rule_conflict": 0.537888
+        },
+        "model_status": {
+          "zh": {
+            "status": "trained",
+            "training_count": 29880,
+            "model_path": "C:\\Users\\v_bdnliu\\Documents\\舆情分析\\acg_analysis\\崩铁_4.5下半_YouTube英语_20260915_112411\\03_calibration_models\\sentiment_zh.joblib"
+          },
+          "en": {
+            "status": "trained",
+            "training_count": 9720,
+            "model_path": "C:\\Users\\v_bdnliu\\Documents\\舆情分析\\acg_analysis\\崩铁_4.5下半_YouTube英语_20260915_112411\\03_calibration_models\\sentiment_en.joblib"
+          },
+          "ja": {
+            "status": "trained",
+            "training_count": 2921,
+            "model_path": "C:\\Users\\v_bdnliu\\Documents\\舆情分析\\acg_analysis\\崩铁_4.5下半_YouTube英语_20260915_112411\\03_calibration_models\\sentiment_ja.joblib"
+          },
+          "ko": {
+            "status": "trained",
+            "training_count": 2194,
+            "model_path": "C:\\Users\\v_bdnliu\\Documents\\舆情分析\\acg_analysis\\崩铁_4.5下半_YouTube英语_20260915_112411\\03_calibration_models\\sentiment_ko.joblib"
+          }
+        },
+        "missing_language_models": [],
+        "unsupported_language_count": 0
+      }
+    }
+  },
+  "generated": {
+    "overall_conclusion": "砂金剧情身份线索、配音演出与抽卡成果获认可；但抽卡失败、星琼枯竭及欢愉强推引发争议，最需关注角色保值与投资价值焦虑。",
+    "sentiments": {
+      "positive": {
+        "summary": "英语正向讨论主要由4.5剧情中虚谬（Nihilux）与Aha身份线索、砂金·浪花（Aventurine Waveflair）的抽卡及高星魂成果，以及其角色魅力、Camden配音和欢愉机制表现共同驱动。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "4.5剧情观感与虚谬/Aha身份线索",
+            "detail": "玩家称赞4.5剧情的推进与高潮感，围绕虚谬的新造型、王冠钢笔尖设计、Aha身份暗示及后续任务展开期待；部分评论还认可翡翠、砂金、托帕与真理医生等角色互动带来的叙事趣味。",
+            "count": 85,
+            "share_percent": 21.52,
+            "quotes": [
+              "finally here to watch the vod 🥳😭 was only able to watch the first few mins of stream, then i fell asleep (i was so sleepy pls lmao), and then woke up to see the last few mins of story before i had to prepare my late late lunch/early dinner 🤣😭🤣 but ahhhhg this story patch was so so good i love my bb nihilux sm 🥹 really excited for the next patch story as usual (the shorter story patches is great but man i lowkey miss the semi long ones 😭) also really looking forward for your playthough of the tb continuance and the zzz 3.2 story as well! ofc am willing to wait for that (it's always worth the wait 🙂‍↕️)... do catch up to all the stuff at your own pace and don't forget to get plenty of rest as well 🫡 lastly thank you for another fun stream! ♡",
+              "i missed the stream, but this patch was sooo hype, nihilux threw my pull plans out of the water with this, i cant wait to see the upcoming quest after that, also imagine getting spoiled by your own cosplay accessory lmaoo",
+              "sugilite as a mourning actor that loves watching people wallow in debt is not how i imagined mourning actors to be but i kinda love it! super relvent to the current state of the world and how much people understand finance.",
+              "my favorite part of nihilux’s new fit is the crown. if you look closely, yes the tips look like diamonds... but they also look fountain pens... to match the mangaka aesthetic.",
+              "those were so sick! phainon’s got that special treatment i love the carrying the weight of the world theme 🌍",
+              "5:58:56 even nihilux sus all the way over the quest , but the final review is stunning 💯💯",
+              "hoyoverse said, \"he's suffering,\" and the artists heard \"serving,\" and honestly? that makes it better.",
+              "you can see opal and obsidian for a short while in aventurine myriad celestia trailer, hope you react to it and not just check it on your own, there is a mindblowing reveal in it. ofc dont expect to hear or see these two a lot, is moslty about aventurine searching for the traitor",
+              "aventurine’s audacity needs to be studied/j fr though it’s so funny that he’s out here telling topaz to relax and then has ratio saying “i said before you wearing less doesn’t make you smarter,” like... aventurine 😏 bro really put the two in bi iykwim 😂",
+              "loolz. ave is so broken and way too strong. yet, i’m skipping both ; i’m taking a break from hsr. i will be back for 4.7 story and nihilux aha. i’m so ready for 5x especially if the rumors are true😅😊 ( we don’t know yet) wallet 💳 is waiting to heavily invest on aha and 5.x"
+            ],
+            "quote_translations": [
+              "终于来补录播了🥳😭。直播开头只看了几分钟就睡着了，醒来又赶上剧情最后几分钟，之后还得准备很晚的午餐/早晚餐🤣😭🤣。但啊啊啊这次剧情版本真的太棒了，我太爱我的宝贝虚谬了🥹，也一如既往很期待下个版本的剧情（短篇剧情版本很好，但我确实有点怀念较长的篇章😭）。也很期待你游玩开拓续闻和《绝区零》3.2剧情！我当然愿意等（永远值得🙂‍↕️）……请按自己的节奏补内容，也别忘了充分休息🫡。最后，谢谢又一次有趣的直播！♡",
+              "我错过了直播，但这个版本实在太燃了。虚谬彻底打乱了我的抽卡计划，我等不及想看接下来的任务；而且想象一下，居然被自己的COS配件剧透了，笑死。",
+              "砂金石作为一个喜欢看人们深陷债务的悲悼伶人，完全不是我原先想象中的样子，但我还挺喜欢！这和当下世界的状况以及人们对金融的理解特别贴切。",
+              "虚谬新造型里我最喜欢的是王冠。仔细看，尖端确实像钻石……但也像钢笔尖，正好呼应漫画家的美学。",
+              "那些太帅了！白厄得到了特别待遇，我喜欢这种扛起整个世界重量的主题🌍。",
+              "5:58:56 虚谬在整个任务里一直很可疑，但最后的揭晓太惊艳了💯💯。",
+              "米哈游说‘他在受苦’，画师听成了‘他在艳压’，说真的？反而更好了。",
+              "在砂金的《千星纪游》预告里能短暂看到欧泊和黑曜石，希望你能做反应视频，而不是自己私下看；里面有个令人震惊的揭示。当然别期待这两人有太多台词或镜头，内容主要是砂金寻找叛徒。",
+              "砂金这胆量真该拿来研究一下/开玩笑。说真的，他一边叫托帕放松，另一边真理医生又说‘我早说过，穿得少并不会让你更聪明’，真的……砂金😏，兄弟这是把双性恋两边都凑齐了，懂的都懂😂。",
+              "笑死，砂金强得离谱、简直超模。不过我两个都跳过；我正在暂离《崩铁》，会为了4.7剧情和虚谬/Aha回来。我已经准备好迎接5.x了，特别是如果传闻属实😅😊（目前还不知道）。钱包💳正等着重金投入Aha和5.x。"
+            ]
+          },
+          {
+            "rank": 2,
+            "title": "砂金·浪花抽卡成果与高星魂投入",
+            "detail": "大量玩家集中分享砂金·浪花的低抽数出货、连赢50/50、E2S1乃至E6S1成果，并把与灰刃等欢愉角色组队视为本期抽卡的主要满足感。",
+            "count": 55,
+            "share_percent": 13.92,
+            "quotes": [
+              "i got e2s1 waven in just about 240ish pulls, not losing a single 50/50 im really happy, aventurine is one of my favorite characters and i adore him so much. i already have e1s1 ashveil for him to play with and now im saving for mblades rerun to get him so i can complete the man team :d",
+              "i i had 138 pulls with a 50/50 i wanted both adventurine waveflair and ashveil, i got adventurine waveflair 80 pulls in and won the 50/50 after that i went to pull for ashveil’s banner and i got him soft pity while also winning the 50/50 again so my luck was great this patch!",
+              "man i lucked out this time. in 60 pulls i got ashveil, welt (lol e8 at this point) and adventurine 👌🏻 i have dubbed their team manly, alongside morton and dhpt and had almost all their stuff to hand (thank you random elation saving for nihilux). i'm a camper of the highest order of happiness 🥰",
+              "i'm so happy right now! i pulled a double for e1 at 56 pity with no guarantee, then his sig at 72 pity, and his e2 at 69 pity! this waveflair patch has been so good to me!",
+              "got him at 20 pity and ashveil at 70 without losing the 50/50! im so happyy",
+              "3:50 i wanted e2. i got my 2nd and 3rd copy in back to back 10 pulls. one of those 10 pulls had a yunli in it as well. easily the best luck i've had in hsr ever. now i plan to save for either nihilux or the inevitable kafka new form.",
+              "i impulse pulled on his banner with my few remaining pulls and got him at 7 pity 🤩✨ this video is very appreciated since i was totally unprepared for him 👍",
+              "i got so lucky on pulls went in with 340(before refunds from 4 stars) on 60 pity. wanting e2s1, and i pulled e2s1 with 200ish left and just decided to send with refunds and hit e5s1. just gotta build up jades over 2 weeks to try and hit my last copy.",
+              "lol aw wanted me so baaaaaaad i got him at 39 pity👌🏽👌🏽👌🏽👌🏽👌🏽👌🏽👌🏽",
+              "i got e6 s2 of my husband hehe and e0 s0 robin summeretto"
+            ],
+            "quote_translations": [
+              "我大约240抽就拿到了E2S1砂金·浪花，一次50/50都没歪，真的很开心。砂金是我最喜欢的角色之一，我特别爱他。我已经有E1S1灰刃和他搭配，现在正为魔刃复刻攒资源，好凑齐全男队 :d。",
+              "我有138抽且要过50/50，砂金·浪花和灰刃两个都想要。80抽拿到砂金·浪花并赢下50/50，之后转抽灰刃，也在小保底又赢了一次50/50，所以这个版本我的运气太好了！",
+              "天啊，这次我走大运了。60抽拿到灰刃、瓦尔特（笑死，都E8了）和砂金·浪花👌🏻。我把他俩再加上莫顿和丹恒·腾荒，命名为‘猛男队’，而且装备几乎都现成（感谢为了虚谬而随手攒的欢愉资源）。我现在幸福到顶点🥰。",
+              "我现在太开心了！没有大保底，56垫抽出了双黄拿到E1，然后72抽出专武、69抽出E2！这个浪花版本对我太好了！",
+              "20垫抽拿到他，70抽拿到灰刃，而且两个50/50都没输！太开心啦。",
+              "3:50 我本来想要E2，结果连续两个十连出了第2和第3个本体，其中一个十连还带了云璃。这绝对是我玩《崩铁》以来运气最好的一次。现在准备为虚谬或迟早会出的卡芙卡新形态攒资源。",
+              "我用仅剩的几抽冲动抽了他的卡池，7垫抽就出了🤩✨。我完全没为他做准备，所以这个视频特别有用👍。",
+              "我抽卡运气好到爆：带着340抽（未算四星返还）和60垫抽进池，本来想要E2S1，结果抽完E2S1还剩大约200抽，于是把返还也投入，冲到了E5S1。接下来两周只要再攒些星琼，争取最后一个本体。",
+              "笑死，砂金·浪花也太想跟我回家了吧，39垫抽就出了👌🏽👌🏽👌🏽👌🏽👌🏽👌🏽👌🏽。",
+              "嘿嘿，我把我老公抽到了E6S2，还拿了E0S0夏日知更鸟。"
+            ]
+          },
+          {
+            "rank": 3,
+            "title": "砂金角色魅力、Camden配音与欢愉演出",
+            "detail": "玩家以‘冲浪板’‘墨镜’等玩梗表达对砂金外形和无袖演出的喜爱，Camden的嗓音、与真理医生的互动及欢愉相关片段也引发暂停回味和重复观看。",
+            "count": 43,
+            "share_percent": 10.89,
+            "quotes": [
+              "he can indeed use me as a surfboard😌 also amazing art man you draw so elegantly",
+              "he can use me too bro and so smoth",
+              "he's got the hottest voice thank you camden 😩",
+              "hell yeah he can use me as a surf ✋😩🤚",
+              "aha just wanted to see shirtless aven. we offer our prayers in thanks",
+              "he can use me as his sunglasses",
+              "him and ratio let's go! but \"thank you camden!\"",
+              "i love aventurine",
+              "aventurine aventurine aventurine oh my goodnesss this is absolutely a masterpiece i'm using this edit as my pulling ritual edit: i won e0s1 let's goooo",
+              "ts is the best aventurine waveflair vid i’ve seen ever ty for the food father!"
+            ],
+            "quote_translations": [
+              "他确实可以拿我当冲浪板😌。另外这画也太棒了，兄弟，你画得真优雅。",
+              "兄弟，他也可以用我，而且画得太流畅了。",
+              "他的声音性感到不行，谢谢你，Camden😩。",
+              "当然可以，他尽管拿我来冲浪✋😩🤚。",
+              "Aha只是想看不穿上衣的砂金。我们献上祈祷以表感谢。",
+              "他可以拿我当他的墨镜。",
+              "他和真理医生，冲啊！不过还是要说‘谢谢你，Camden！’",
+              "我爱砂金。",
+              "砂金砂金砂金，天啊，这绝对是杰作。我要拿这个剪辑当抽卡仪式——更新：我抽到E0S1了，冲啊！",
+              "这是我看过最棒的砂金·浪花视频，感谢父亲投喂！"
+            ]
+          }
+        ]
+      },
+      "negative": {
+        "summary": "英语负面舆情主要围绕砂金（Aventurine/Waven）与Robin、Ashveil、Pearl连排造成的抽卡和星琼压力，以及欢愉体系强推、E1/E2/S1价值和4.5活动质量争议。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "抽卡失败与星琼枯竭",
+            "detail": "多个抽卡语义簇集中反映Robin、Ashveil、砂金和Pearl相邻卡池带来的资源压力；玩家频繁提到50/50失败、高保底、数百抽投入以及被迫延期或放弃目标角色。",
+            "count": 46,
+            "share_percent": 34.07,
+            "quotes": [
+              "i have hardly any jades i’m fucked 😃",
+              "still so mad that i saved up two patches of content, only to stop at 70 pulls on robin because i could not get mortenax, ashveil or hyacine due to all of them running with other must have units and crap rng (leave me tf alone clara my child, you're not even on my invite list yet i have you e3)",
+              "i got e5 seele and bailu lc going for e1 s1",
+              "i went around 500 pulls for e2s1 robin, so even with your unfortunate early luck here my pulls this patch were way worse hopefully things look up for us for pearl, grats on the e2 though!",
+              "it took 170 pulls to get him...",
+              "i had 70 pulls and got clara and gepard",
+              "i need to get him but idk how many pulls i did (around 30, and won my last 50/50) but i’m run out of tickets helppp i’ll have to get him on the rerun😩",
+              "dude i lost every single 50/50 and got e2 yunli before i got my e2 waven 😭",
+              "i didnt get him... im at 75 pity... and im on a 50/50... aventurine... come home...",
+              "149 pulls, 7 months of waiting, got 1 aventurine with 1 seele. yes got him at 79 pity... 😭😭😭"
+            ],
+            "quote_translations": [
+              "我几乎没有星琼了，我完蛋了😃",
+              "我攒了两个版本的资源却只在Robin池抽到70抽，还是因为其他必抽角色同时登场和糟糕运气，没能拿到Mortenax、Ashveil或Hyacine，这让我到现在都很生气。（Clara你放过我吧，你甚至不在我的邀请名单里，我却已经有E3了。）",
+              "为了抽E1S1，我拿到了E5希儿和白露光锥。",
+              "我大约花了500抽才拿到E2S1 Robin，所以即便你这里前期运气不佳，我这版本的抽卡还是糟糕得多；希望我们抽Pearl时能转运，也恭喜你拿到E2！",
+              "我花了170抽才拿到他……",
+              "我有70抽，结果拿到了Clara和Gepard。",
+              "我需要拿到他，但不知道自己已经抽了多少（大约30抽，而且上次赢了50/50），现在票已经用完了，救命，我只能等复刻了😩",
+              "兄弟，我每次50/50都输了，先拿到E2 Yunli才终于拿到E2 Waven😭",
+              "我没抽到他……现在75抽保底进度，而且还是50/50……Aventurine……快回家吧……",
+              "149抽、等了7个月，拿到1个Aventurine和1个Seele。对，他到79抽才来……😭😭😭"
+            ]
+          },
+          {
+            "rank": 2,
+            "title": "欢愉强推与角色保值、配队价值焦虑",
+            "detail": "玩家质疑欢愉体系与Pearl E1等机制导向，担心砂金的双定位会受5.x血量膨胀和体系针对影响；同时认为部分强度榜、满配队和新手配队建议缺少低成本可行性。",
+            "count": 38,
+            "share_percent": 28.15,
+            "quotes": [
+              "aventurine is like ruan mei. they do multiple things, but lack specialization. his elation damage ratio is a double-edge sword. he will get partial benefit from elation-shilling. though he will also get screwed when hoyo inevitably try to screw elation just like they do with -50% break damage. lol when 5.x hp inflation hits, the buff meant to keep elation afloat will be less effective on aven... so he would sink. aventurine may seem like he's getting the best of both world, but he is actually being screwed on both sides (a thought that might make aventurine-wanters flutter tbh)",
+              "honestly, seeing pearl's buffs in the past beta, how much time do you think it'll take until they make an boss who has instant death mechanics to shill pearl's e1?",
+              "why the cycle clear is the same as the tribbie-hyacine variant that you uploaded it 3 weeks ago? i usually think that aven is stronger than tribbie for ashblade team but the cycle clear is the same for 3 cycle. or, maybe aven is a fraud?",
+              "actually, this unit nor he is crucial elation f2p dps nor he is top sub dps. he is gona outclassed easily in the future. also, he has worst skill animation in the game for a 5 star.",
+              "this elation meta shilling has me completely tired and annoyed with the game is it worth to simply get eva's e1 (no lc), e0s0 yaoguang and call it a day? i wanna go back to good ol fua/ult teams 💔💔",
+              "this is like premium team for each one? no f2p options?",
+              "the saber disrespect is crazy, full saber premium is better than monorem at e0s1, idk why they're so conservative on bumping them up",
+              "most people being surprised by castorice's placement probably have invested monorem or never tried 4.x teams cuz the placement is deserved and she should've dropped earlier",
+              "the only characters that i have can fit with him is huohuo and hyacine, and i will never built elation team. damm, i'm playing honkai skip rail atp, haven't pull anyone since dahlia debut 😂.",
+              "as a new player, i can't enjoy this game. i only have archer team hahaha, so i rely on trial characters. rank a only :/"
+            ],
+            "quote_translations": [
+              "Aventurine就像Ruan Mei，能做很多事却缺乏专精。他的欢愉伤害占比是一把双刃剑：能部分吃到欢愉强推红利，但当官方像用减50%击破伤害那样针对欢愉时也会被波及。等5.x血量膨胀后，维持欢愉强度的增益对Aven效果会更差，他就会下沉；看似两头占优，其实两边都吃亏。",
+              "说实话，看到Pearl过去测试服的加强后，你觉得还要多久他们就会做一个带即死机制的Boss来强推Pearl E1？",
+              "为什么通关轮次和你三周前上传的Tribbie-Hyacine变体一样？我通常觉得Aven在Ashblade队里比Tribbie强，但两边都是3轮。还是说Aven其实名不副实？",
+              "实际上，这个角色既不是欢愉体系关键的平民主C，也不是顶级副C，未来很容易被淘汰，而且他的战技动画是五星里最差的。",
+              "强推欢愉环境让我对游戏彻底疲惫又烦躁；是不是拿Eva E1（不带光锥）和E0S0 Yaoguang就收手更划算？我想回到以前的追击/终结技队💔💔",
+              "这是不是每个角色都只给顶配队？没有平民选项吗？",
+              "这样轻视Saber太离谱了；E0S1下，Saber满配队比Monorem更强，我不知道他们为什么这么保守，不把评级往上调。",
+              "对Castorice排名感到惊讶的人，多半已经投资了Monorem，或者没试过4.x队伍；这个位置是合理的，她早就该降级了。",
+              "我现有角色里只有Huohuo和Hyacine能和他搭配，而且我绝不会组欢愉队。可恶，我现在玩的是《崩坏：跳过铁道》，从Dahlia登场后就再没抽过角色😂。",
+              "作为新玩家，我没法享受这个游戏。我只有Archer队，只能依赖试用角色，结果也只有A级:/"
+            ]
+          },
+          {
+            "rank": 3,
+            "title": "4.5活动质量与砂金、Ashveil投资价值争议",
+            "detail": "该语义簇同时出现对4.5活动乏味、缺少可记忆内容和末日幻影体验的批评，以及对砂金E2导向、Ashveil S1相较Topaz S1和免费光锥实际收益的质疑。",
+            "count": 19,
+            "share_percent": 14.07,
+            "quotes": [
+              "wtf is this bro ashveil lc is one of the best hunt lc if not the best, even if his e1 is ''better'' they are both great increase for an account and his e2 should never be counted in pull value unless you really like the character",
+              "idk why im even watching this video, i legit have 0 pulls and this game has no events or things to do for pulls :))",
+              "one has to see it to believe how bad this event is!",
+              "this game gon to slop lol",
+              "the free lc for me is ass tho, cuz i have topaz's lc",
+              "sparxie deserves this amount of overkill because of how terrible she is in this apoc",
+              "people hated amphoreus. but now we have nothing as memorable as this was",
+              "damn hoyo making every unit a e2 merchant nowadays . can’t even enjoy the game nw as a f2p",
+              "the craziest part is ashveil s1 provide 0 value over topaz s1.",
+              "what is this garbage event?"
+            ],
+            "quote_translations": [
+              "这是什么鬼，兄弟？Ashveil光锥就算不是最强，也是最好的巡猎光锥之一。即便他的E1“更好”，两者都能大幅提升账号；除非真的很喜欢这个角色，否则E2绝不该计入抽取价值。",
+              "我都不知道自己为什么还在看这个视频，我真的一抽都没有，而且游戏里也没有活动或内容让我获得抽数。:))",
+              "得亲眼看过才会相信这个活动有多差！",
+              "这游戏要变成流水线垃圾了，笑死。",
+              "不过对我来说免费光锥很差，因为我已经有Topaz的光锥。",
+              "Sparxie在这期末日幻影里表现太差，所以这种程度的碾压对比是她应得的。",
+              "以前大家讨厌Amphoreus，但现在却连像它那样让人记得住的内容都没有。",
+              "可恶，Hoyo现在把每个角色都做成E2推销员，平民玩家已经没法享受游戏了。",
+              "最离谱的是，Ashveil S1相比Topaz S1完全没有额外价值。",
+              "这是什么垃圾活动？"
+            ]
+          }
+        ]
+      },
+      "neutral": {
+        "summary": "中性讨论主要围绕Waveflair砂金的光锥与星魂投入、Nihilux/Aha及IPC设定和速度/欢愉机制考据，以及Ashveil、MBlade、Yaoguang阵容下的抽取配队规划展开。",
+        "topics": [
+          {
+            "rank": 1,
+            "title": "Waveflair砂金光锥替代与星魂投入比较",
+            "detail": "玩家集中比较S5战令欢愉光锥、黑塔商店光锥、活动光锥、托帕光锥与专属光锥，并讨论E1、E2和S1的资源优先级；相关全量语义簇共50条。",
+            "count": 50,
+            "share_percent": 18.18,
+            "quotes": [
+              "if i have s5 bp elation lc, is it even worth going for the sig? i plan for e2 on him cause i ended up really liking him but is the s1 really worth the extra cost? i also have a silver wolf lc but s5 bp cone looks better for him but idk. i really like him so if its a big difference i dont want to miss it.",
+              "its not a waste. going vertical on lc or eidolons isnt a bad choice since he has amazing vertical, sure not waven, sw or eva level of vertical but really high up. if you cant afford it, get topaz lc. if you can't do that either, use the herta shop lc, or the event one. hunt has some of the best lc choices in the game so whatever you run will most likely benefit him/the team.",
+              "just use the new event hunt lc or herta shop lc...i use herta shop lc it's great on him almost for every other hunt character too except boothill",
+              "should archer use that free to play options you just said or his s1 is better",
+              "is his s1 really that bad i been debating to go for e2 or s1",
+              "or get topaz lc in the shop. that's what i am using.",
+              "my r5 bp light cone is on eva now, but realized i have that tomorrow, together event light cone that gives cd and elation dmg to everyone after ulti, but no guide ever mentions that one. what are your thoughts on that lc?",
+              "what is a better investment? his e1 or light cone (the best light cone i have for him is s5 shroomy)",
+              "which signature light cone is more useful, his or pearls?",
+              "i pulled ashveil and i'm using herta's shop lightcone should i keep my light cone memory shards or would it be good if i use them to get topaz's lightcone"
+            ],
+            "quote_translations": [
+              "如果我有精五战令欢愉光锥，还有必要抽专属光锥吗？我因为后来很喜欢他，打算抽到二魂，但专武真的值得额外成本吗？我也有银狼光锥，可精五战令光锥看起来更适合他，只是不确定；如果差距很大，我不想错过。",
+              "这不算浪费。纵向投资光锥或星魂并不是坏选择，因为他的纵向提升很好；虽然不及Waven、银狼或Eva，但也很高。负担不起就换托帕光锥，再不行就用黑塔商店或活动光锥。巡猎有不少优秀光锥，基本都能让他或队伍受益。",
+              "直接用新的活动巡猎光锥或黑塔商店光锥吧……我用的是黑塔商店光锥，他用起来很好，除了波提欧外也适合几乎所有其他巡猎角色。",
+              "Archer应该用你刚才说的免费选项，还是他的专属光锥更好？",
+              "他的专属光锥真的那么差吗？我一直在纠结抽二魂还是专武。",
+              "或者去商店换托帕光锥，我现在就是这么用的。",
+              "我的精五战令光锥现在给Eva用了，但我发现自己还有‘明日相聚’活动光锥，终结技后能给全队暴伤和欢愉伤害，可从没见攻略提到它。你觉得这张光锥怎么样？",
+              "哪个投资更好：他的一魂还是光锥？我能给他的最好光锥是精五Shroomy。",
+              "哪一张专属光锥更有用，他的还是Pearl的？",
+              "我抽了Ashveil，现在用黑塔商店光锥。我该留着光锥记忆碎片，还是拿去换托帕光锥更好？"
+            ]
+          },
+          {
+            "rank": 2,
+            "title": "Nihilux/Aha剧情设定与Waveflair砂金机制考据",
+            "detail": "讨论通过剧情台词、资料库和技能描述推测Nihilux与Aha的关系、IPC对列车组的制约，并校正Waveflair砂金速度上限、欢愉伤害、追击转换和套装适配等机制；对应全量语义簇41条。",
+            "count": 41,
+            "share_percent": 14.91,
+            "quotes": [
+              "a few notes i want to mention because i couldn't add them to the video. 1: don't try to max out speed. his a2 major trace gives extra elation damage when exceeding 140 spd, up to a max of 200 spd. you shouldn't be trying to have all your substat rolls land on spd. the reason is that the extra damage you get from the speed isn't worth losing crit dmg/rate. that's why i said to get at least 160-ish and get the rest of the speed from allies like robin summertto or asta. 2: his elation could also be a follow-up. this is just a reminder that the a4 major trace can turn the elation skill into a follow-up if no one apart from aventurine waveflair himself does. that means he can be used in teams with follow-ups too. 3: be mindful of skill points i forgot to add this as a team, but aventurine waveflair likes to eat sp like it's a 5-course meal. you should try to be mindful of when you will need to basic attack or use a skill. of course, you can make it easier by using characters who don't need as much sp, like tribbie or robin summertto. you could also make it much easier by using sparkle.",
+              "i still think there is more to what nihilux meant by saying she is \"aha\"... personally i can't see nihilux as a person who would blow up planets just for shits and giggles (aha has done this in the past if u have read the data bank). so my theory is that she is actually the winner of the very first phantasmoon games held by aha and they gave her their all authority permanently instead of 1 minute to run away from the responsibility of having to fight voracity (himeko joked aha running away too, maybe it was foreshadowing).",
+              "3:13:08 ipc can put a bounty, they can disallow any credit transactions from the express, they can use penacony, planarcadia and belobog to threaten the crew, they can disallow light cone purchase since it's ipc and garden of recollection collab tech. heck they can even mess with the synesthesia beacons which is what allows for different civilizations and species to communicate with each other. and they are the ones investing in simulated universe. people really underestimate ipc influence",
+              "\"the express could probably beat anyone they sent over\" well, yes, but uh...don't forget the ipc owns credits as a currency. they could 100% freeze all astral express members' accounts, locking them out of the cosmic economy and making it impossible to get resources except through donations of material goods and what little local money we possess for the planets we've been to😅",
+              "reminder that at one point the \"original\" phainon and the one from the cycle he was had a fight and the game never told us which of them survived and continued in the other cycles",
+              "the reason why all the racers tied/all draw in 1st place is because nihilux voted for each and everyone of them so she intentionally used the power of elation so that it happens",
+              "i thought the duran set wouldn’t work because aven runs on elation dmg instead of normal dmg (including follow-up dmg buffs) you would still get 25% crit dmg tho. same with giving him a quantum dmg orb",
+              "3:39 200 is not the max it’s 200 extra. 340 is the max which is obviously never going to be hit but it’s important to note as speed above 200 is still buffing elation%",
+              "honestly eva and waven and himeko nova are the only main pushes they all have stupidly broken e1 snd e2 alot of low cost zero cycles from two of them i hope more unuts become like these 3 tbh i jst hope they dont make nhilux catered to silver wolf",
+              "what about e0 fugue? is she good already and worth pulling for superbreak? and all are without signatures wait, i'm sorry, but what is that spd..."
+            ],
+            "quote_translations": [
+              "补充几点视频里没加进去的内容：第一，不要硬堆满速度。A2行迹在速度超过140后增加欢愉伤害，上限按200速度计算，但为此牺牲暴击和暴伤不划算，所以自身约160速度即可，其余交给Robin Summertto或艾丝妲。第二，A4在除Waveflair砂金本人外无人触发时可把欢愉技能转为追击，因此也能进追击队。第三，他很吃战技点，要安排普攻与战技，或搭配Tribbie、Robin Summertto、花火等低耗点角色。",
+              "我仍觉得Nihilux说自己是‘Aha’另有含义。我无法想象她会像资料库里的Aha那样只为取乐就炸毁星球。我的猜测是，她赢下了Aha举办的第一届Phantasmoon Games，Aha把全部权能永久交给她，而不是只给一分钟，以逃避和贪饕作战的责任；姬子关于Aha逃跑的玩笑或许就是伏笔。",
+              "3:13:08 IPC可以发布悬赏、禁止列车组使用信用点交易，也能借匹诺康尼、Planarcadia和贝洛伯格威胁列车组；他们还能禁止购买与流光忆庭合作制造的光锥，甚至干扰让不同文明和物种沟通的联觉信标，而且模拟宇宙也由他们投资。大家确实低估了IPC的影响力。",
+              "‘列车组大概能打败他们派来的任何人’，是没错，但别忘了信用点这种货币归IPC掌控。他们完全可以冻结所有星穹列车成员的账户，让他们无法参与宇宙经济，只能依赖实物捐助和在去过的星球上拥有的一点本地货币。",
+              "提醒一下，曾经有一段是‘最初的’Phainon和他所在轮回中的另一个自己交战，而游戏从未告诉我们究竟是谁活下来并进入了后续轮回。",
+              "所有参赛者并列第一，是因为Nihilux给每个人都投了票；她有意使用欢愉之力促成了这个结果。",
+              "我原以为都蓝套不会生效，因为Aven造成的是欢愉伤害，不是普通伤害，其中也包括追击伤害加成；不过仍能得到25%暴伤。给他量子伤害球也是同理。",
+              "3:39，200不是上限，而是额外200；真正上限是340，虽然显然几乎不可能达到，但必须说明超过200的速度仍会继续提升欢愉伤害百分比。",
+              "老实说，Eva、Waven和Himeko Nova才是主要力推角色，他们的一魂二魂都强得离谱，其中两位能低金数零轮。我希望更多角色也像这三位，只希望别把Nihilux做成专门适配银狼的角色。",
+              "零魂停云怎么样？她现在就够好、值得为超击破抽吗？而且这些配置都没带专武——等等，抱歉，那是什么速度……"
+            ]
+          },
+          {
+            "rank": 3,
+            "title": "Ashveil、MBlade与Yaoguang阵容下的抽取配队规划",
+            "detail": "玩家结合自身持有角色、星琼和保底，询问Waveflair砂金E1/E2与Ashveil之间的取舍，并测试Jade、Welt、Topaz、Cipher、Dr. Ratio等替代队友；对应C03完整语义簇37条。",
+            "count": 37,
+            "share_percent": 13.45,
+            "quotes": [
+              "halo moon i have waven but i need help if i should pull his e1 or get ashveil instead? i don't have both ashveil and mblade though also i don't have yaogang for his elation team 😭",
+              "since i don't have ashveil cause i skip the game on 4.0 and 4.1, i use jade and welt for aven and i must say the results was better than i expected. in aoe content pf and this aa knight 1, her charging speed for aven was close or even equal to ashveil while allowing aven to reach almost 250 spd to also give jade wet drame as she can always get at least one or two whip per aven turn. and sometime they even fully charged him, drained his trace effect before he can even get his own turn. i would get ashveil or aven e1 but sadly i'm out of jade and money.",
+              "i don't have an elation dps,only yaoguang because i don't really like it much and i'm an f2p ,but because of the elation shill lately i think i need one😭 , so if i pull for aventurine e0s0 would he be enough? i love him but i don't wanna risk my jades.i already have the ashblade team .",
+              "what would be better for me? i current have e0 s1 mblade and i don't have both ashveil and waven i have like the cas rem team without robin sp(evernight, cyrene, hyacine all at e0s0, cas e0s1) and a pretty ok elation team (sw e2 s1, yao e0 s1 and the rest e0s0, but this team copes just fine) should i be waiting/saving for any character or invest in either ashveil/waven? i also have cedyra and sunday at e0s0, what would be the better move?",
+              "jokes on you, i got his lc on his first banner and i don't have enough jades for his eidolons yet sadly (i'm 20 pity away from a 5 star, i have enough pulls to reach that and i'm guaranteed but i'm waiting for the zzz collab :p). but he already works quite well with mblade and tribbie so i'll keep him like this for now.",
+              "what's better, e2 or e1s1? just got his e1, and for light cones i'm 30 pulls in the guaranteed, i could probably play and get enough for another 5*, but i also want pearl and nihilux. (new player currently in amphoreus, i have sw999 team, waven team with ashblade e1 both and archer team with rin)",
+              "i'm a bit low on pulls and planning to vertically invest into acheron (i have an e1 tribbie and e2 robin that sometimes get slotted in other teams). should i save for e2 mblade (e0 currently) or just pull e0 ashveil and hope i get lucky on mblade rerun? it's honkai: speculation rail with the acheron fua buff, so idk what to do tbh",
+              "i only have 58 pulls, and i have about 3080 jades, but i really wanna pull on ashveil's banner when he comes out in two hours over on my server. maybe i should farm for more jades cause i just returned back to hsr, and i'm still on the loufo quest",
+              "i've searched quite a bit and couldn't find any waventurine/topaz/cipher showcase. would this team be correct ? i do not have ashveil or blade and can't really pull on them. my cipher has been benched by rin in archer comp and i still have the golden statue to get topaz.",
+              "can dr ratio work in place of ashveil if morty blade is on the team? i know ashveil is in his own lane numbers wise but i mean as far as the frequent attack driving will he work?"
+            ],
+            "quote_translations": [
+              "Halo Moon，我有Waven，但想请教该抽他的一魂还是改抽Ashveil？我既没有Ashveil也没有MBlade，欢愉队里也没有Yaoguang。",
+              "因为4.0和4.1没玩，我没有Ashveil，所以给Aven配了Jade和Welt，效果比预期更好。在虚构叙事等群攻内容里，她给Aven充能的速度接近甚至等于Ashveil，同时能让Aven接近250速度，也让Jade受益，因为Aven每回合至少能让她触发一两次鞭击；有时他们甚至会在Aven行动前就给他充满并耗掉行迹效果。我本想抽Ashveil或Aven一魂，可惜星琼和钱都没了。",
+              "我没有欢愉主C，只有Yaoguang，因为我其实不太喜欢这个体系，而且是零氪；但最近一直在推欢愉，我觉得可能需要一个。如果抽零魂零专Waveflair砂金，强度够吗？我很喜欢他，但不想冒险花掉星琼；我已经有AshBlade队了。",
+              "对我来说怎么选更好？我有零魂一专MBlade，但没有Ashveil和Waven；有一套缺Robin SP的记忆队，也有一套还过得去的欢愉队。应该继续等和攒某个角色，还是投资Ashveil或Waven？我还有零魂零专Cedyra和Sunday，该怎么选？",
+              "可惜了，我在他第一次卡池时就抽了专武，但暂时没有足够星琼抽星魂。我离五星还有20抽，票够而且有大保底，不过在等绝区零联动。他和MBlade、Tribbie已经配合得很好，所以现在先保持这样。",
+              "二魂和一魂一专哪个更好？我刚抽到一魂，光锥池已有30抽并且大保底，继续玩应该能攒到另一个五星，但我还想要Pearl和Nihilux。我是刚到翁法罗斯的新玩家，有SW999队、AshBlade两人一魂的Waven队，以及Rin搭配Archer的队伍。",
+              "我的抽数有点紧，还打算纵向投资黄泉；Tribbie一魂、Robin二魂有时也会调去别队。我该为目前零魂的MBlade二魂攒资源，还是先抽零魂Ashveil，再赌MBlade复刻时的运气？考虑到黄泉可能获得追击强化，这游戏简直是‘崩坏：猜测铁道’，我确实不知道怎么选。",
+              "我只有58抽和大约3080星琼，但服务器两小时后开Ashveil卡池，我真的很想抽。也许该再多刷点星琼，因为我刚回归，还在做罗浮任务。",
+              "我找了很久都没看到Waveflair砂金、托帕、Cipher的实战展示，这个队伍可行吗？我没有Ashveil或Blade，也抽不了他们；Cipher在Archer队里被Rin替下了，我还有金色雕像可以换托帕。",
+              "如果队里有Mortenax Blade，Dr. Ratio能代替Ashveil吗？我知道Ashveil在数值上独一档，但只看高频攻击驱动的话，Dr. Ratio能用吗？"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "editorial_override": {
+    "overall_conclusion": null,
+    "sentiments": {
+      "positive": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "negative": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      },
+      "neutral": {
+        "summary": null,
+        "topics": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "updated_at": null
+  },
+  "annotated_data": {
+    "columns": [
+      "comment",
+      "sentiment",
+      "sentiment_confidence",
+      "topics"
+    ],
+    "rows": [
+      [
+        "hoyoverse said, \"he's suffering,\" and the artists heard \"serving,\" and honestly? that makes it better.",
+        "positive",
+        "0.78",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "it does look pretty memorable.",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "it's literally gving me chills in the best way possible",
+        "positive",
+        "0.95",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "there’s still nothing better than the 3.4 patch with phainon. *there were no super‐powerful bosses, no hype — just one small story, a billion years long, about one hero.",
+        "negative",
+        "0.92",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "reminder that at one point the \"original\" phainon and the one from the cycle he was had a fight and the game never told us which of them survived and continued in the other cycles",
+        "neutral",
+        "0.9",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "chat, i'm hearing the mahoraga wheel turning, am i cooked?",
+        "neutral",
+        "0.9",
+        "[\"音频表现\"]"
+      ],
+      [
+        "i need a continuation of amphoreus 😢",
+        "positive",
+        "0.78",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "my baby",
+        "positive",
+        "0.95",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i still hear his ost everytime i see him anywhere",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "peak cutscene",
+        "positive",
+        "0.95",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "people hated amphoreus. but now we have nothing as memorable as this was",
+        "negative",
+        "0.94",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "hoyo will never cook this hard ever again",
+        "positive",
+        "0.78",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "hands down the best artwork i saw in hsr and i am playing from 2023",
+        "positive",
+        "0.95",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "those were so sick! phainon’s got that special treatment i love the carrying the weight of the world theme 🌍",
+        "positive",
+        "0.95",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "i need the song version",
+        "positive",
+        "0.95",
+        "[\"音频表现\"]"
+      ],
+      [
+        "how i love atlas reference",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "i legit thought you said paimon",
+        "neutral",
+        "0.9",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "he has too much regression ngl😭",
+        "negative",
+        "0.78",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "made me feel like i'm watching got, peak 🙌",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "dude i have that as my pc wallpaper it just looks too cool",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "this was painful when i experienced it ☹️",
+        "negative",
+        "0.92",
+        "[\"版本内容\"]"
+      ],
+      [
+        "kevin.",
+        "neutral",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "wow this music is awesome what’s it called?",
+        "positive",
+        "0.95",
+        "[\"音频表现\"]"
+      ],
+      [
+        "#floptore_stays_dead",
+        "negative",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "#midtore_stays_dead",
+        "negative",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "im a genshin fan but ik some of phainons lorebwhy tf is he being impaled by clock thing while bench pressing it",
+        "neutral",
+        "0.78",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "it looks kinda crk to me ngl",
+        "neutral",
+        "0.9",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "song nammeee?",
+        "neutral",
+        "0.9",
+        "[\"音频表现\"]"
+      ],
+      [
+        "too bad i think he deserves it because i don't like him",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "aventurururiiin",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i wanna certified bang him",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "this game truly is honkai: speed rail where every new character released all want speed stats",
+        "neutral",
+        "0.9",
+        "[\"技术体验\"]"
+      ],
+      [
+        "i’m elating it, i’m elating it so good! ah yes, that’s what i’m talking about... you need to laugh, diamond, laugh! oh yes, all for the amber lord!",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "he's coming, and so am i",
+        "positive",
+        "0.78",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "0:05 does your wife know about your boyfriend (man-crush?)?",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "-exists -does damage -doesn't elaborate further it's honestly really nice to see how universal the summer sps are",
+        "positive",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "good luck with all y'all's pulls hope you win your 50/50's",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "peak elation",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "9:38 bro got distracted by aven's abs understandably",
+        "positive",
+        "0.95",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "3:39 200 is not the max it’s 200 extra. 340 is the max which is obviously never going to be hit but it’s important to note as speed above 200 is still buffing elation%",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "thank for your info explanation get well soon",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "btw he can use the yao guang set when he is e4+ and is played in the follow up team, so that def shred is not overcaped",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "get well soon brax! 🙌🙏",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "0:50 hydro is linked to quantum through the sea of quanta and we have 6 hydro characters right now (or 5 excluding pearl) - waven, bailu, dhil, hysilens, and evernight. astropolis is also the hydro region so i'm expecting sea of quanta lore.",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "actually waven is the 3rd hydro character. dhil, b**lu, and waven",
+        "neutral",
+        "0.9",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "i have a ten pull, ten pity, and a dream",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "god he looks so good",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "for teams i just put him in my superwolf team instead of sparxie, and it's great (sw999, yao guang, waventurine and dh pt)",
+        "positive",
+        "0.95",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "kudukuduring kudukuduring",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "lost my 50/50 for robin, here’s to hoping i can get aven. i need at least one summer unit please i need this 😭",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "ice elation's best man",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "0:24 i wanna dissect him too",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i skipped robinetto for waventurine pls come hooooome 😭 i’ll be going a bit off-path here but i plan on teaming him with sw999 (i didn’t get sparxie)",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "btw you can also use the elation support set on him!",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i want to ... if i say that i get banned nevermind",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "the only characters that i have can fit with him is huohuo and hyacine, and i will never built elation team. damm, i'm playing honkai skip rail atp, haven't pull anyone since dahlia debut 😂.",
+        "negative",
+        "0.94",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "4:08 it's actually 168, not 170, because his base spd is 107",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i'm i early?",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "e6s1 if i can 😅",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "take care of yourself bro",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "not the ai certified banger, im cryinggg xddd",
+        "positive",
+        "0.92",
+        "[\"技术体验\"]"
+      ],
+      [
+        "i have hardly any jades i’m fucked 😃",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i thought the duran set wouldn’t work because aven runs on elation dmg instead of normal dmg (including follow-up dmg buffs) you would still get 25% crit dmg tho. same with giving him a quantum dmg orb",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "he is so cool but i cant invest in yet another team #metaslave",
+        "neutral",
+        "0.78",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "should i pull him or pearl for nihilux?",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "0:48 third",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "is that s1 todays good luck? because i have s5",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "please tell me he can be used with sw999🙏🏻😭",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "will gilgamesh work with him? 😅",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "still so mad that i saved up two patches of content, only to stop at 70 pulls on robin because i could not get mortenax, ashveil or hyacine due to all of them running with other must have units and crap rng (leave me tf alone clara my child, you're not even on my invite list yet i have you e3)",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i lost my 50/50 2 times 💔 i only have him at e0",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "idk why im even watching this video, i legit have 0 pulls and this game has no events or things to do for pulls :))",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "im elated",
+        "positive",
+        "0.95",
+        "[\"技术体验\"]"
+      ],
+      [
+        "i only have s999 e0s1 but no yao guang and sparxie. meta wise, should i pull waventurine? or should i wait and pull s999 support?",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "is it fine to have him on 133 on eva cone? i ask because he’ll be ulting a lot and my eva already has a full set for both that she’ll be trading fyi i’m benching her due to lack of enjoyment in gameplay",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "what is a better investment? his e1 or light cone (the best light cone i have for him is s5 shroomy)",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "defensive orb lowkey better",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "why did i lose my 50/50s on both aventurine's 2.1 banner and this one...",
+        "negative",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "if his team is like this e0s0 adventurive w, e0s0 ashveil, e0s0 mblade and e0s0 huohuo/e0s0 hyacine. will this team able to clear every end-game content(not including anomally)",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "john dps",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "of course no elation is required - elation cannot survive aventurine's presence. he is a void where joy goes to die.",
+        "negative",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "so he basically gets 50%+ speed just from his ultimate and lightcone a e0s1 already making sw999 a laughing stock with that much speed since the speed he gets gets upkeep all the time as he will get a lot of turns from all that speed and his lc doesn't seem to have limited turns",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "2nd",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "it’s wraps for this game ✌️",
+        "negative",
+        "0.92",
+        "[\"技术体验\"]"
+      ],
+      [
+        "should i pull him if i don't have any elation char?",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "\"and his basic attack... doesn't exist, we don't talk about that\" no, no, we do talk about that, it's animation is a water shotgun. you can't just gloss over such a dumb and incredible idea.",
+        "positive",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "bahahaha stop the title is killing me but so real tho (the art is so sick im gonna eat it.)",
+        "positive",
+        "0.95",
+        "[\"音频表现\"]"
+      ],
+      [
+        "thankyou father for feeding us😍🙏",
+        "positive",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "ur art is so ridiculously satisfying ty for blessing my eyes",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "hell yeah he can use me as a surf ✋😩🤚",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "the pen stwist😍",
+        "positive",
+        "0.92",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "jfidgwzidowhwudgejeke it’s beautiful!",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "damn! i'm so jealous of you. you make such nice drawings. i love your drawings. the way your hand moves with such smooth strokes. damn...that was killing me. 😭",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "here before 10k!✨",
+        "positive",
+        "0.92",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "that's absolutely gorgeous 🔥",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "aaaaaaa your pictures and your tattoos on your hand are so amazing 🔥🔥😭",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "ur drawing is soo peak bro🥹 ty for blessing my eyes with yummy food🫶",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "absolute masterchef kiss! 😩🙏",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "i would pay millions for🤯",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "🙀💙💙💙💙💙💙💙💙💙💙💙💙💙 kawaiiiiiiiiii...🐈‍⬛",
+        "positive",
+        "0.95",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "are you kidding? i loved it, you're doing an amazing job! 😍😍😍",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "it's blessing my eyes",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "preciosos absolutamente precioso 💖",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "the way the pen moves 😩",
+        "positive",
+        "0.95",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "that's magical",
+        "positive",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "ts is the best aventurine waveflair vid i’ve seen ever ty for the food father!",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "woooooooooooooooow😭🔥✌️✨️ i also wanna draw like you but yours is very rare that there's no word ever born to describe your talent😎🫶🔥🔥 those smooth strokes...🤌✨️ those hairs...😍🔥🔥🔥 those eyes...🤭🔥 those hands...🤭🤭🤭 bro... i really am feeling like my eyes are seeing heaven👀✨️🔥😎 ( i have replayed it more than 30 time and still i don't wanna get my eyes off it😊😭🫶✨️🔥) i am really really jealous of you👀🤌🫶✨️🔥",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "thou eyes have been blessethed",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "he can indeed use me as a surfboard😌 also amazing art man you draw so elegantly",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "fall for your art style 😍❤",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "that much of control in your wrist and the strokes. sir, that's magnificent ✨ 😭 respectfully. marry me sir (jkjkjk) 🤧✨💍",
+        "positive",
+        "0.95",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "this is amazing,keep going😊",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "bro's art is holy majestic",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "the most perfect thing i have never seen in my whole life",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "i'm always in awww just how beautiful you draw majestically 😭🤌✨",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "bro your hand move 🫠its killing 🔥✨",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "i don’t know why but i feel like that slow brush stroke was on purpose💀... i mean im not complaining because im here for it-",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "the title matches this majestic art 🙂‍↕️",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "una pépito ❤✨",
+        "positive",
+        "0.78",
+        "[\"版本内容\"]"
+      ],
+      [
+        "father can you draw huacheng <3",
+        "positive",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "i always love the music you put!",
+        "positive",
+        "0.95",
+        "[\"音频表现\"]"
+      ],
+      [
+        "how the hell is a painting flirting with me",
+        "positive",
+        "0.92",
+        "[\"技术体验\"]"
+      ],
+      [
+        "bro plz draw gojo 💙💫",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "thank you father for the food i may now return to the basement",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "if you haven't already, could you draw scaramouche? thanks! ❤",
+        "positive",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "wowieeee i'm licking my screen w/ this w art!",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "holy the art 😭🤌🔥",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "this is so underrated",
+        "positive",
+        "0.95",
+        "[\"音频表现\"]"
+      ],
+      [
+        "thank you father. you have brought me an early pity of 47 for him. ily❤❤ and the art😅",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "i give you 100000 out of 10",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "this is to much smooth 😊😊❤❤",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "i love your art 🔥🔥",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "i love how smoothly u draw goodjob💕🌸i draw like a robot😂❤",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "your hands moves are sooo smood",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "oh my god, your answer makes me feel like it's your first day on earth, picking up a pen and paper to draw! 🥸✨💖",
+        "positive",
+        "0.78",
+        "[\"音频表现\"]"
+      ],
+      [
+        "bro ts fire omlllllllll❤❤❤",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "so cool❤",
+        "positive",
+        "0.95",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "agreed with the title",
+        "positive",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "you are very talented❤❤❤",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "addictive",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "nice hand✌️",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "❤you are very creative",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "wooow ❤",
+        "positive",
+        "0.95",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "can you do kaveh and alhaithem trusttt",
+        "neutral",
+        "0.82",
+        "[\"社区生态\"]"
+      ],
+      [
+        "where buy the hand? btw its so gorgeuss",
+        "positive",
+        "0.92",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "same bro 🙏",
+        "neutral",
+        "0.9",
+        "[\"社区生态\"]"
+      ],
+      [
+        "مثل همیشه خیلی قشنگه",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "creo que me he enamorado :')",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "this guy is obsessed with him",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "😭😭😭😭wow",
+        "positive",
+        "0.95",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "❤❤❤❤",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "painters : i want those paintbrushes right now.!",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "👌👌👌👌",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "he can use me as his sunglasses",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "воля !😆😅😊",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "❤❤❤❤❤",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "he can use me too bro and so smoth",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "all i have to say is yes.",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "comment je peux faire pour être aussi talentueuse que toi ?",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "i was scrolling and saw this peak video... i scrolled in the channel... and saw akaza... (i yelled \"akaza\" so loud when i saw him and my mom ran in my room and asked me if i was okay-)",
+        "positive",
+        "0.95",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "thank you,father,for feeding me again 😻✨️🤸‍♀️",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "can you draw nezuko for me please🙏🥺❤😊",
+        "positive",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "does this kind of art have a specific name? 🤩(i'm really curious)",
+        "positive",
+        "0.92",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "the caption 😂😂😂😂",
+        "positive",
+        "0.92",
+        "[\"技术体验\"]"
+      ],
+      [
+        "we will give him turns using us as a surfboard 😌",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "he came home in 34 pity. yoo hoo🎉",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "stop stop please you brake my heart why i can't do that 😭",
+        "negative",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "i like it so much 🫠😫❤",
+        "positive",
+        "0.95",
+        "[\"音频表现\"]"
+      ],
+      [
+        "not me erasing my pencil sketchs😂 while she does with ink straight up 😊😊😂",
+        "positive",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i didnt get him... im at 75 pity... and im on a 50/50... aventurine... come home...",
+        "negative",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "can you draw kachhan from my hero acadamia please",
+        "neutral",
+        "0.9",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "my first mind is lu guang from ling klick",
+        "neutral",
+        "0.9",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "а можно мне такую же уверенность в движениях...",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "صاحب الرسام قبل الرسمه 🤭🙂",
+        "neutral",
+        "0.82",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "can you teach me pls",
+        "neutral",
+        "0.9",
+        "[\"社区生态\"]"
+      ],
+      [
+        "dw you’re not alone with your wish 😌",
+        "positive",
+        "0.78",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "man, i feel sad. why are you doing this so easily?",
+        "negative",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "thank you for blessing my eyes, please don't go bald 🥹",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "نرسم خطين و... نضيف شوية تفاصيل هه😭😂😂",
+        "neutral",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "what the name of the song?",
+        "neutral",
+        "0.9",
+        "[\"音频表现\"]"
+      ],
+      [
+        "ليش تبينون الرسم سهل لهاذي الدرجة او لما اجربه يطلع بشع",
+        "negative",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "chuuya?",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "nah thats mydei himself he doesnt wanna lose to phainon (yaoguang)",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "aglaea really helped mydei and phainon with their transitioning...",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "ah yes finally someone acknowledges the castordei ship and not the same \"thailand transitioning\" i see everywhere",
+        "positive",
+        "0.92",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "i'm sure the star rail design team must imagine children of characters like that.",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "thailand strikes again!",
+        "neutral",
+        "0.9",
+        "[\"音频表现\"]"
+      ],
+      [
+        "she looks like aglea for me omg",
+        "neutral",
+        "0.9",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "their daughter looks beautiful; for example, phainon and mydei couldn't have children.",
+        "positive",
+        "0.78",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "nah mydei and phainon are trans guys trust",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "looks more like mydei and aglea i dont get the castorice",
+        "neutral",
+        "0.9",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "not even close to their child it’s similar to phadei kido(or gilgemash lol)",
+        "neutral",
+        "0.9",
+        "[\"技术体验\"]"
+      ],
+      [
+        "someone give me context as to why you are talking about thailand 😭😭",
+        "neutral",
+        "0.78",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "there is something still very unsettling about the trailblazer and how they are most definitely connected to akivili",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "further proving my theory that nanook is akivili who re-ascended",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "nah i just think that's the finality's vision, the fact that he always sees nanook could be because nanook has cast his gaze upon him first and because he kinda uses the stellaron to destroy planets",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "this guy has been hitting the same pose since 1.x bro, get the hell out nanook",
+        "negative",
+        "0.92",
+        "[\"版本内容\"]"
+      ],
+      [
+        "у меня есть теория. просто теория. что путь освоения противопоставляющий путь пути завершенности. если подумать, то везде где проходит освоение, мир оказывается на грани гибели ( завершенности) и присутствие экспресса спасает эти миры от их гибели. если не усложнять, то путь освоение, это как прямая, что простирается вперед, а завершенность, это точка на этой прямой. то есть пока есть идущий вперед поезд, завершеность не сможет наступить тк есть противоборствующий путь. я взял эту теорию исходя из концептуального противостояния путей: ненасытность -><- разрушение. есть конечно пути которые нельзя вписать в этй систему, но это млжно обьяснить их целями. эрудиция - следит за древом мнимости; фули важна лишь история и его не интересуют никакие конфликты; небытие - принциуп саморазрушения и бессмысленности- он уэе смирился с концом, ему просто все равно. и прочие пути, что не так глобальны. просто основные противоборствующие пути имеют своих лордов опустошителей, значит нанук видит угрозу в этих путях? альтернативный вариант: гг один иж потенциальных лордов опустошителей, поэтому нанук так внимательно на него смотрит. просто ну не может быть, чтобы элио случайно выбрал тело гг ( стела или келус) спасибо за прочтение моих мыслей, это просто мысли и не претендуют на правду.",
+        "neutral",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "we all know how topaz va was feeling",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "he's got the hottest voice thank you camden 😩",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "\"thank you camden!\" we say in unison!",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "bro's voiceline about ratio says it all😏",
+        "positive",
+        "0.95",
+        "[\"音频表现\"]"
+      ],
+      [
+        "him and ratio let's go! but \"thank you camden!\"",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "aventurine flirting with ratio while ratio was trying to insult him but he was thinking something else... he sure hesitated...",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i kinda hate how jade pointed out his eyes again, but all of the other join lines are so good! i love the topaz and aventurine so much. they're so cute whenever they show up together 😭",
+        "positive",
+        "0.78",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "aven asked topaz out? topaz va is gonna love this!",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "bro inviting topaz to a date",
+        "positive",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "oh shit, i didn't notice until they were all on screen but new aventurine really synergizes with the other playable ipc now (they're all frequent follow-up).",
+        "positive",
+        "0.78",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "aventurine’s audacity needs to be studied/j fr though it’s so funny that he’s out here telling topaz to relax and then has ratio saying “i said before you wearing less doesn’t make you smarter,” like... aventurine 😏 bro really put the two in bi iykwim 😂",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "thanks, camden! i pairing between aventurine / kakavasha & veritas is like kaveh & alhaitham.",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i love these kind of interactions and i love it when they can work well together in a team(gameplay wise)",
+        "positive",
+        "0.95",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "topaz and aven ship revived?!",
+        "positive",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "woah hold on did ratio say before? when before?",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "the way i started choking on air hearing the ratio one, what the fuck? what the fuck? who says this?",
+        "positive",
+        "0.92",
+        "[\"音频表现\"]"
+      ],
+      [
+        "i am ready to revel in joy",
+        "positive",
+        "0.95",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i need to save i need to save i need to save i nee-",
+        "neutral",
+        "0.82",
+        "[\"商业化\"]"
+      ],
+      [
+        "god i love him and ratio, does waven have a voice line about him actually? ratio has a new voice line about him but not sure if waven has one about our doctor",
+        "positive",
+        "0.95",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "i got him lets gooo",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "149 pulls, 7 months of waiting, got 1 aventurine with 1 seele. yes got him at 79 pity... 😭😭😭",
+        "negative",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "i got him in 12 pulls❤🎉",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "aventurine with ratio is like alhaitham with kaveh cuz their voice turns fruity lmao",
+        "neutral",
+        "0.9",
+        "[\"音频表现\"]"
+      ],
+      [
+        "50 pulls down the drain and i still didn't get him 😭😭😭😭😭😭😭😭😭",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "riney with riney 😂❤",
+        "positive",
+        "0.95",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "forgive me but i kinda ship him with robin after doing that trailblaze quest.",
+        "positive",
+        "0.92",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "wtf man... hes shirtless and op af... how is that fair click link for jades:",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "137 pulls, 1 aventurine, sig, ashveil, and bailu cuz i lost 1 50/50. absolute w!",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "hoyo serving us so well with him 😭😭❤️",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "after maintenance can't get here fast enough! pulling for my husbando aventurine again and guaranteed! good luck everyone pulling 🍀",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "2 hours until i can officially pull him! wish me luck!",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "great thumbnail 😂waven is such a nice shortening he‘s so cool",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "finally! an all male team that actually works!",
+        "positive",
+        "0.95",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "im pulling him today i was sure how to build him so your guide helped",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "yoo okay youtube recommended",
+        "positive",
+        "0.78",
+        "[\"社区生态\"]"
+      ],
+      [
+        "i'm so happy right now! i pulled a double for e1 at 56 pity with no guarantee, then his sig at 72 pity, and his e2 at 69 pity! this waveflair patch has been so good to me!",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "i lost to welt on robin sp so here i am",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "wasn’t planning on pulling for him but i think the universe wants me to get him cause i got 5 copies of that elation def shred/skill spam lc trying to get robins lc and i have a near perfect magic girl set sitting around that’s leftover from perfecting sw999’s build.",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "hehe...i got him, his sig lc and only one copy(i blame fu xuan for the 2nd pity that should've been his copy smh) and now i am watching this >^<",
+        "positive",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "cries 😭 took me all the way to 80 to get one of him then lose his lc to gepard's lc.",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i got him at 53 pity and again at 80, then got ashveil at 10:)",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "can dr ratio work in place of ashveil if morty blade is on the team? i know ashveil is in his own lane numbers wise but i mean as far as the frequent attack driving will he work?",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i pulled both ashveils and adventurine . saved enough for a 50 50 for mortenax blade however not sure if i should get eleions or not . i just want a second endgame team so please help",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "ashveil lc or aventurine? knowing i only have the mushroom lc for aventurine. with m2 blade",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "can i go with adven, yaoguang, sw 999 and huohuo?",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "dumb question, but where does aventurine gets free 48% crit rate?",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "why the description says \"robin build\"? 😭",
+        "neutral",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "ugh i wanna have a yaoi team with him but i don't have mblade or ashveil :(",
+        "negative",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i love men. so my mblade e2 and ashveil e1 are ready for him",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "for f2p, to push through the elation shill, would it be better to pull him or just save for pearl? :(",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "is this okay? hp: 3743 atk: 1671 def: 1057 spd: 143 crit rate: 77.1% crit dmg: 89.3%",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "which signature light cone is more useful, his or pearls?",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "what if i use luocha instead of dhpt bc as much as i love dan heng... he doesn't heal. m!blade needs that healing otherwise he becomes kind of a moot playable 😭",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "not me getting waiveflair without a stable dps and a fua elation... i need sp robin not him",
+        "negative",
+        "0.94",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "znowu mi ktoś ukradł pół pomidora",
+        "neutral",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "actually, this unit nor he is crucial elation f2p dps nor he is top sub dps. he is gona outclassed easily in the future. also, he has worst skill animation in the game for a 5 star.",
+        "negative",
+        "0.92",
+        "[\"技术体验\"]"
+      ],
+      [
+        "he's an elation? man i don't really want to go down the bullshit this oath has... eugh...",
+        "negative",
+        "0.94",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "she deserves it after all the trauma in the trailers",
+        "positive",
+        "0.78",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "yes, stelle is my princess",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "all hail the princess raccoon stelle!",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "compensating for trailer trauma.",
+        "neutral",
+        "0.78",
+        "[\"社区生态\"]"
+      ],
+      [
+        "top 10 f2p teams at 4 cost :",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "“dont get his lc!” oh, to late. i already got it...when he launched xd",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "just get herta shop lc... you don't even need to pull for his signature lc... best option for every hunt character almost 🤣🤣",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "yeah but- daddy oh ma gahd why you looking at me like that pookie i got nothing for you- aghh",
+        "positive",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "i got the topaz lc on him its been doing wonders",
+        "positive",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "thank you! now i know for which character this new 4-star light cone with racoon.",
+        "positive",
+        "0.95",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "i really need to not thirst at the lightcones but man i should get it because he's hot in it",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i got his lc for march 7th hunt just for fun lol.",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "man i lucked out this time. in 60 pulls i got ashveil, welt (lol e8 at this point) and adventurine 👌🏻 i have dubbed their team manly, alongside morton and dhpt and had almost all their stuff to hand (thank you random elation saving for nihilux). i'm a camper of the highest order of happiness 🥰",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "just use the new event hunt lc or herta shop lc...i use herta shop lc it's great on him almost for every other hunt character too except boothill",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "its not a waste. going vertical on lc or eidolons isnt a bad choice since he has amazing vertical, sure not waven, sw or eva level of vertical but really high up. if you cant afford it, get topaz lc. if you can't do that either, use the herta shop lc, or the event one. hunt has some of the best lc choices in the game so whatever you run will most likely benefit him/the team.",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "topaz larper",
+        "negative",
+        "0.82",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i want it for archer, team wide boost for him and rin",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i’m not poor, i got him e2s1 like i have with every character since 3.0. i also have yao guang e4s2 and anaxa e3s2",
+        "neutral",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "i really don’t care about the entire value. when i pull a character i will always pull for their light cones too just to feel complete. it’s fine if they’re not going to make the end game any easier. it is what it is.",
+        "neutral",
+        "0.78",
+        "[\"技术体验\"]"
+      ],
+      [
+        "or get topaz lc in the shop. that's what i am using.",
+        "neutral",
+        "0.9",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "nah. i got his light one and f2p m. blade and now he dps-ing more than castorice",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "too late, pulling a second one for archer",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "jokes on you, i got his lc on his first banner and i don't have enough jades for his eidolons yet sadly (i'm 20 pity away from a 5 star, i have enough pulls to reach that and i'm guaranteed but i'm waiting for the zzz collab :p). but he already works quite well with mblade and tribbie so i'll keep him like this for now.",
+        "neutral",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "why do you guys make getting e2 like a cake walk 😭 my f2p ass could never 🙏",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "e1s1 with like 50 pulls",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "i use topaz lc",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i'm pretty sure when compared to the herta store lc, the increase from his sig is about equal to the increase from his e1 iirc? signature lcs are usually easier/cheaper to get, but his e1 opens up his pretty good e2, so i think it's more about resources and preferences. his s1 definitely loses value if you have another premium option like ratio's sig, though.",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "soo... curious question. i have aventurine sp at e1. should i push to e2 or get ashveil's e1? i am so torn as like. no doubt aventurine will probably rerun faster than ashveil will but i really wanna max aventurine",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "wtf is this bro ashveil lc is one of the best hunt lc if not the best, even if his e1 is ''better'' they are both great increase for an account and his e2 should never be counted in pull value unless you really like the character",
+        "negative",
+        "0.94",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "damn hoyo making every unit a e2 merchant nowadays . can’t even enjoy the game nw as a f2p",
+        "negative",
+        "0.92",
+        "[\"技术体验\"]"
+      ],
+      [
+        "his lc is apparently the best lc for archer",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "e2 > e1 > s1",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "the free lc for me is ass tho, cuz i have topaz's lc",
+        "negative",
+        "0.94",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "should archer use that free to play options you just said or his s1 is better",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i pulled ashveil and i'm using herta's shop lightcone should i keep my light cone memory shards or would it be good if i use them to get topaz's lightcone",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "is his s1 really that bad i been debating to go for e2 or s1",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "does yanqing lc work on him? i already have that one built",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i got ashvale and his cone in 20 pulls... then is e1 in 30. but blade didnt want to join the team sadly.",
+        "positive",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "the new 4 star lc or stellar sea?",
+        "neutral",
+        "0.9",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "you know what i don't really care about ashveil lc because i didn't pull him 🗿🗿",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "is that light cone good f2p option for archer?",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "ok but it matches.",
+        "neutral",
+        "0.9",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "get eneba bropacks here: 🔥eneba - marketplace for gamers!: 🔥top up gacha games global:",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "today we so gay🏄‍♂️",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "next time you're gonna say \"i just wanted one of the entirety of hoyoverse\"",
+        "neutral",
+        "0.9",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "\"i want my boyfriend bro\" kekvin do you got something to tell us?",
+        "neutral",
+        "0.9",
+        "[\"社区生态\"]"
+      ],
+      [
+        "can't wait for elation only 2:28 i gen had to pause and process what i just heard...",
+        "positive",
+        "0.78",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "2:28 unc...you're not gonna beat the allegations like this",
+        "neutral",
+        "0.78",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "2:28 he’s down badddd( we all are)",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i support you. it's nice seeing you coming out to us this way. and considering those abs, who'd hate you for it?",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "kekvin bisexual crumbs in the big 2026?",
+        "positive",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "0:33 nah you are not going \"straight\" to it",
+        "neutral",
+        "0.9",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "back at it again with the 43324 jades i swear, this man's jades storage is limitless",
+        "positive",
+        "0.92",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "i tried going for e1/e2 aventurine...i now have e0 aventurine, sw and yunli, so i can relate",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "losing to yunli in hard pity is hard watch to see. time for you to f2p+ for aventurine waveflair.",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "im srs gonna cry if i dont get aventurine sp ive waited so long",
+        "negative",
+        "0.94",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "2:28 did he just moan ? are you getting cracked or smth ?",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "2:29 was that really nessesary kekvin- 😭🙏",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "gng i woould genuinely do anything adventurine asks me to do",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "after i lost the 50/50 to blade i got lucky and got my very first double😁",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "yeah. didn’t want aventurine. but did a cheeky 10pull for fun. now i’m with an aventurine...",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "he's so beautiful<3 got him e0s1",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "got myself a e6s1 on one account and a e2s1 on another he came home",
+        "positive",
+        "0.92",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "yes bro. i love aventurine sm. great video!",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "got e1s0 aven and e0s1 ashy home in 160 wishes. 🎉🎉",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "this is so peak😭😭😭😭😭😭",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i have played genshin for 2 years during its early days and started playing hsr for over a month. veteran tip try not to single pull near pity until you pull a 5 star, always 10 pullls. because thats the highest chance of a double 5star or triple 5star pull.",
+        "neutral",
+        "0.9",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "kekvin just keep getting fruity. him and his boyfriends smh 😂",
+        "neutral",
+        "0.82",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i respect the staling",
+        "positive",
+        "0.78",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "when he showed up on my screen i barked",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i got vary lucky i got him on the 3 pull",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "you know, i swear sometimes it feels bad when i get things so easily and then i watch streamers struggle so hard. i only use 2 10 pulls and got both a light cone and him",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "very first? erm, excuse me, mydei is right there.",
+        "neutral",
+        "0.9",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "now i'm thankful that i got him at 20 pity after i came back to the game after leaving it before christmas😭😭😭",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "yunli when i catch you...",
+        "negative",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "just spent 30k jades to get e0s1 aventurine, i really wanted ashbleid too but i guess that's out of the picture now",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "i got him in 60 pulls",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "\"beautiful eyes\" bro 😭💔",
+        "positive",
+        "0.78",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "i just noticed that aventurine actually looks similar to you 😂",
+        "neutral",
+        "0.82",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "i might've stole ur luck there. i got him yesterday at 9 pity with a 50 50 lol",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "i just wanted one too",
+        "negative",
+        "0.94",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "same i also lost tooooooo yunli 😢😢😢😢",
+        "negative",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "2 mins ago?",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "im pretty sure he does have a shirt it's just unbuttoned",
+        "neutral",
+        "0.9",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "i think he wants waveflair",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "sad day for you kekvin 🥀",
+        "negative",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "it took 170 to get him. i'm depressed too.",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "cant really blame kekvin can we",
+        "neutral",
+        "0.9",
+        "[\"社区生态\"]"
+      ],
+      [
+        "i got him with 2 pity and it was a double",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "lol aw wanted me so baaaaaaad i got him at 39 pity👌🏽👌🏽👌🏽👌🏽👌🏽👌🏽👌🏽",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "i got e5 seele and bailu lc going for e1 s1",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i had money for e2 waveflair but failed and got himiko instead so i only have e1 waveflair. so sad!😥",
+        "negative",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "noooo kekvin needs his boyfriend! i wish i could share mine with you, but i'm greedy lol. he's only e0s0 though, since i got summer robin e1s1, and i also pulled ashveil e0s0 cause i skipped his first run. trying for ash's lc right now, but i lost the 75/25 on it (third one in a row now! c'mon gaaaaaaame), but at least i've won the last few 50/50s i guess.",
+        "negative",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "again swiped",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "i went late pity to yunli too 😭😭😭😭💔💔💔fml",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "no bc why did i also lose to a destruction character at high pity 😭😭😭💔 im being so fr when i say i cried",
+        "negative",
+        "0.94",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "bi-king",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "best sp cause hes shirtless",
+        "positive",
+        "0.95",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i dont have any more jade huhuhuuh",
+        "negative",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i lost to argenti 😢",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "the luck seems so divided now 💔 i got my aven at 79 pity and his lc at 30",
+        "neutral",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "he ain't straight today is he",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "2:28 real",
+        "neutral",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i got e6s1 aventurine in 394 pulls",
+        "positive",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "you don't have pity man",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "17 seconds ago",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "fourth",
+        "neutral",
+        "0.9",
+        "[\"社区生态\"]"
+      ],
+      [
+        "this game gon to slop lol",
+        "negative",
+        "0.92",
+        "[\"版本内容\"]"
+      ],
+      [
+        "2:28 is aven under the table...?",
+        "neutral",
+        "0.9",
+        "[\"技术体验\"]"
+      ],
+      [
+        "\"very first shirtless man in honkai: starrail\" wow. i do agree he is hot, but not as hot as me",
+        "positive",
+        "0.78",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "🐰our🐰 🛠️boyfriend🛠️",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "boyfriend? did i miss a chapter or two?",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i got aventurine at 78 pity and won my 9th 50/50 in a row kekvin suck it",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "common kekvin l",
+        "negative",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "pathetic and hypocrite... addresses the horrible state the game is in and yet still spends money on monthly pass to give hoyo the false impression... good job you clown",
+        "negative",
+        "0.92",
+        "[\"技术体验\"]"
+      ],
+      [
+        "damn i hope to never have your luck",
+        "negative",
+        "0.94",
+        "[\"社区生态\"]"
+      ],
+      [
+        "i really like how amber lee connors said the line \"the lotto goddess\"",
+        "positive",
+        "0.95",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "my favorite part of nihilux’s new fit is the crown. if you look closely, yes the tips look like diamonds... but they also look fountain pens... to match the mangaka aesthetic.",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "i missed the stream, but this patch was sooo hype, nihilux threw my pull plans out of the water with this, i cant wait to see the upcoming quest after that, also imagine getting spoiled by your own cosplay accessory lmaoo",
+        "positive",
+        "0.95",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "finally here to watch the vod 🥳😭 was only able to watch the first few mins of stream, then i fell asleep (i was so sleepy pls lmao), and then woke up to see the last few mins of story before i had to prepare my late late lunch/early dinner 🤣😭🤣 but ahhhhg this story patch was so so good i love my bb nihilux sm 🥹 really excited for the next patch story as usual (the shorter story patches is great but man i lowkey miss the semi long ones 😭) also really looking forward for your playthough of the tb continuance and the zzz 3.2 story as well! ofc am willing to wait for that (it's always worth the wait 🙂‍↕️)... do catch up to all the stuff at your own pace and don't forget to get plenty of rest as well 🫡 lastly thank you for another fun stream! ♡",
+        "positive",
+        "0.95",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "thank you for the playthrough 🎉",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "sundayyyyyy myyyyyy boiiiiiii im so proudddddddddddd",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "5:58:56 even nihilux sus all the way over the quest , but the final review is stunning 💯💯",
+        "positive",
+        "0.95",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "5:59:10 this text sampo and sparkle said it too when they spoke to us.",
+        "neutral",
+        "0.78",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "i still think there is more to what nihilux meant by saying she is \"aha\"... personally i can't see nihilux as a person who would blow up planets just for shits and giggles (aha has done this in the past if u have read the data bank). so my theory is that she is actually the winner of the very first phantasmoon games held by aha and they gave her their all authority permanently instead of 1 minute to run away from the responsibility of having to fight voracity (himeko joked aha running away too, maybe it was foreshadowing).",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "2:39:18 kodla pls",
+        "neutral",
+        "0.9",
+        "[\"社区生态\"]"
+      ],
+      [
+        "5:45:25 after what yabuli says it feels very polka coded and at the same time she reminded me of mobius from hi3rd. about 1 year ago i saw a meme post about polka being adult mobius in hsr, would be funny if it's true after all😂😂😂",
+        "neutral",
+        "0.9",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "5:35:29 5:58:15 6:03:48 6:05:45",
+        "neutral",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "did you see all the honkai impact x cod mobile collab stuffs? they modeled the trio pretty well!",
+        "positive",
+        "0.95",
+        "[\"技术体验\"]"
+      ],
+      [
+        "i have a request \"unrelated\" to this game, but... when you return to zenless, be sure to watch claret's character demo before you play the new chapter❤ speaking of zenless, gotta admit...amber lee connors keeps getting better and better as nihilux!😊 and honestly, i never expected her glasses were used to mask her powers this whole time!😮",
+        "positive",
+        "0.78",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "you mentioned me?",
+        "neutral",
+        "0.9",
+        "[\"社区生态\"]"
+      ],
+      [
+        "nihilux(aha)!🎭🤍❤️",
+        "positive",
+        "0.92",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "canon aeon yuri 😂",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "at least use cannon caelus as akivili.",
+        "neutral",
+        "0.9",
+        "[\"社区生态\"]"
+      ],
+      [
+        "11:51 even waven cant escape the curse of 1% we are cooked",
+        "negative",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "0:21 hyacine's hp",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "his e0s0 is already broken!",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "redeem code: 8smsvjwjm7zt | wa4av2f24pyx good luck to everyone pulling for aventurine waveflair! he is strong!",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "the gameplay is so satisfying to watch, first i regretted silverwolf after seeing eva damage and aventurine",
+        "positive",
+        "0.78",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "é muito divertido jogar com ele, tava no garantido e agora to indo atras do cone de luz dele, ja que o jogo preferiu me dar uma cópia do cone do welt kkkkkk ótimo vídeo!❤",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "有爻光01砂金堆百爆的作用是?",
+        "neutral",
+        "0.99",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "bg gw gacha robin sp tpi lupa gada evernight... bisa dimainin ama casto ga ya? klo bisa ultinya robin dikasih siapa",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "poor lord ravager didn't even get to attack much",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "the boss having only 1 turn lmao",
+        "positive",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "he was just released gng💔",
+        "negative",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "get ahead of the waves... and the winner takes all!",
+        "positive",
+        "0.78",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "man his e6 is different",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "ur video convinces me to get waventurine as my first e6",
+        "positive",
+        "0.95",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "sugar bloody waven",
+        "neutral",
+        "0.9",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "holy",
+        "positive",
+        "0.95",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i cant even think there will be any other future team that can top this team dmg output... so crazy",
+        "positive",
+        "0.95",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "damnnnnn nice gameplay bro",
+        "positive",
+        "0.95",
+        "[\"音频表现\"]"
+      ],
+      [
+        "i have him at e3, out of tickets so guess i'll get him to e6 on his rerun😂",
+        "neutral",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "could i use robin summer if don't have mblade?",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "how much did u spend in ts",
+        "neutral",
+        "0.9",
+        "[\"社区生态\"]"
+      ],
+      [
+        "who would be a good replacement for ash?",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "shuhu should take notes fr, the planet he revives eat people alive 😭",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "how about ruan mei sp in future",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "ruan mei is really crazy about experiments",
+        "neutral",
+        "0.9",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "ruan mei mentioned ♥️. everything she creates are beautiful.",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i pray she becomes an aeon",
+        "positive",
+        "0.95",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "i wish i was ruan mei's test subject",
+        "positive",
+        "0.78",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "the earth he cares for looks cute",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "song name? ik it's lovestory but what remix",
+        "neutral",
+        "0.9",
+        "[\"音频表现\"]"
+      ],
+      [
+        "dang that's fast as heck😭",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "forgot to say: big aha dmg",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "broo is faster than speed☠️☠️",
+        "positive",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "gnarly",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "how r u so fast 😭",
+        "positive",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "nice i got him but i don't have a decent team for him :)",
+        "neutral",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "can i complete endgame with your \"i'm running out of team names\" team",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "which light cone is more important, his signature, or pearls?",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "not aha damage?",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "big ah- wait what...?",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "what about event lc? that we got from that car racing event?",
+        "neutral",
+        "0.9",
+        "[\"版本内容\"]"
+      ],
+      [
+        "should e1 or s1 be prioritized?",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "ok i get march and stelle but robin and adventurine they are to intelligent for that",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "robin thoungt he joking saying",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "ai slop",
+        "negative",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "ai",
+        "neutral",
+        "0.9",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "mommy robin 💙🥺",
+        "positive",
+        "0.92",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "aren't the actual animations done by humans though? i thought it was just the voiceovers that were ai and were scripted by people",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "when yah aku sehoki koh wtw",
+        "positive",
+        "0.92",
+        "[\"版本内容\"]"
+      ],
+      [
+        "jadi kesini hoki pull gw ilang...",
+        "negative",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "kalo aku sih ku nyalain aja itungannya hoki parah ini gak selalu dapet sampe e1",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "walawe telat",
+        "neutral",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "koh waven ku yang keluar asveil 😔",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "walawe curang a, aven nya udah e1",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "are you going to pull for aventurine waveflair, ashveil, or maybe pearl? :d if you do plan to top-up, consider using eneba with my link!",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "i got e2s0 aventurine as f2p , i finally cleared the king 0 cycle (the team is very expensive tho)",
+        "positive",
+        "0.78",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "with aventurine and robin waveflair now officially locked down on my account i can now do what i planned from day one of them being announced and make a team called \"summertime madness\" to play going into the fall as i listen to launa del rey and other chill cozy music as we move towards halloween",
+        "positive",
+        "0.95",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "noooo pompom not off the express ill miss you buddy 😭😭😭😭😭",
+        "negative",
+        "0.92",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "i went around 500 pulls for e2s1 robin, so even with your unfortunate early luck here my pulls this patch were way worse hopefully things look up for us for pearl, grats on the e2 though!",
+        "negative",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "after getting e2s0 robin in 200 pulls, it took me 500 for e0s0 ashveil, and e2s1 aventurine. i lost 4/4 50/50s, granted i got 2 welts, so that was nice, and i got ashveil in 40 pulls, and 2 of my losses were at 20 pity, but damn. did not expect to use nearly all of my saved up pulls for that. now i have about 130 left for mortenax (going for just him, e0s0)",
+        "negative",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "congrats destiny! i finally got new robin at 79 pity yay so happy! and im skipping new aven hes pretty cool but im sad because im saving for evanescia in next 4.6 rerun i hope she comes home. i already have ashveil in late march 2026 so lucky. once again congrats destiny!",
+        "positive",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "we gotta be kind to pom pom!",
+        "positive",
+        "0.78",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "nice video and the luck be bad today or something. my whole friend group and i all lost him :c",
+        "negative",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "got him in 30 pulls , his lightcone in 70... lost the 50/50 for ashveil but got him in the next 10 pull i did.",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "i've been locking in to grind for waven and ashveil since i have both blade and hyacine for wavens team comp and omg my luck is not saving me💔 hopefully waven comes home soon",
+        "negative",
+        "0.94",
+        "[\"养成资源\"]"
+      ],
+      [
+        "waiting patiently for him to come, 30 pulls in already and now i gotta farm more jades, hopefully i dont need to spend to get him lol",
+        "neutral",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "i am proud to say i got adventurine waveflare in my first 10 pull and he goes well with anaxa cause you apply quantum weak for break effect",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "congratulations sis",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "aventurine was very nice to me. got e1s1 waven and a happy bonus e4 blade with my 200 pulls 😊",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "got e0 ashveil and now i'm scrambling every penny i can rub together on my account to try to get waven",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "3:50 i wanted e2. i got my 2nd and 3rd copy in back to back 10 pulls. one of those 10 pulls had a yunli in it as well. easily the best luck i've had in hsr ever. now i plan to save for either nihilux or the inevitable kafka new form.",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "i i had 138 pulls with a 50/50 i wanted both adventurine waveflair and ashveil, i got adventurine waveflair 80 pulls in and won the 50/50 after that i went to pull for ashveil’s banner and i got him soft pity while also winning the 50/50 again so my luck was great this patch!",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "got ashveil's s1 in like 50. i was kinda disappointed aventurine was elation as i haven't and won't pull for the archetype on my own account. my ashblade is plenty strong as is right now, though, so i'm chilling.",
+        "neutral",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "i’m saving for pearl and i’m guaranteed on the light cone since i lost early at like 54 or 55 pity trying to get robins light cone banner",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "i got aventurine waveflair e0! unfortunately i can't go for his e1 or s1 because i don't have anymore pull but even without he doing 130-250k",
+        "positive",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "with me being f2p and blessed enough to get robin, losing a 50/50 for hyacine with only 10 pity, and pulling hyacine and both robin and hyacine's lightcones in about 120 pulls, i am fully expecting to fail to get aventurine.",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "got e0 ashveil and 55 pity in his weapon hopefully i don’t lose the weapon",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "god i love aventurine he’s so fun :d",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i got e6 s2 of my husband hehe and e0 s0 robin summeretto",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "i wish myself luck i want to pull for e6 nihilux on my second account",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "i've searched quite a bit and couldn't find any waventurine/topaz/cipher showcase. would this team be correct ? i do not have ashveil or blade and can't really pull on them. my cipher has been benched by rin in archer comp and i still have the golden statue to get topaz.",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "halo moon i have waven but i need help if i should pull his e1 or get ashveil instead? i don't have both ashveil and mblade though also i don't have yaogang for his elation team 😭",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "it took 170 pulls to get him...",
+        "negative",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "i didn't get ashveil...i had about 71 pulls and 2070 jades now i have 50 pulls and 1517 jades left",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i want to pull him but i have 0 jades,im lazy to farm and im f2p (farming jades is a pain in the butt)",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "what's better, e2 or e1s1? just got his e1, and for light cones i'm 30 pulls in the guaranteed, i could probably play and get enough for another 5*, but i also want pearl and nihilux. (new player currently in amphoreus, i have sw999 team, waven team with ashblade e1 both and archer team with rin)",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i got him e0... no signature 😢",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "low pity w no pulls i am cooked 😅",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "it seems everyone had horrible luck on aven's banner",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "con sk si jingran tiene 50 de prob te basta y te sobra, si quieres saber como buildear de la mejor persona, te recomiendo el canal de kanen, es el mayor conosedor de wuwa inclusp tiene una pagina donde te pone como hacer las rotaciones de equipo, ds muy minucioso",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "throw pompom off!",
+        "negative",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "7:17 just a tip dont advertise the eneba boost packs, (the illegal gambling) to kids like kekvin does when they approach you for it ty.",
+        "negative",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "i spent 240 tickets, i got aventurine e2s1 a seele eidolon too xd, and an ashveil e0s1",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i got e2s1 waven in just about 240ish pulls, not losing a single 50/50 im really happy, aventurine is one of my favorite characters and i adore him so much. i already have e1s1 ashveil for him to play with and now im saving for mblades rerun to get him so i can complete the man team :d",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "dzisiaj mi ktoś ukradł dwie pieczarki",
+        "neutral",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i had 70 pulls and got clara and gepard",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i got his e6s1 in 394 pulls🥹🥹🥹",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "check out enjoygm here 👇:",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i use full male team (aventurine,ashveil,mblade and dhpt) and dear god i can finally complete my shadow of apocalypse getting the 13/13 stars",
+        "positive",
+        "0.95",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "la stelle chibi es tremenda xd",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "la que es muy sobre explotada, huo huo xd",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "these mega whales scare me-",
+        "negative",
+        "0.92",
+        "[\"音频表现\"]"
+      ],
+      [
+        "holy leviathan",
+        "positive",
+        "0.95",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "what the helly, also i only play genshin but like aventurine really wants me to return to my hsr account😭 maybe after my finals",
+        "positive",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "here",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "how long ago did the banners go up? 😭",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "i’m so happy i got him and ashveil on 47 wishessss",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "i will have to farm jades like animal if i want to get both him and asheville 😭",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "can he have yao guang lc? if so what's its dmg percent compared to s2 bp lc and s5 mushy shroomy?",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "song name",
+        "neutral",
+        "0.9",
+        "[\"音频表现\"]"
+      ],
+      [
+        "i impulse pulled on his banner with my few remaining pulls and got him at 7 pity 🤩✨ this video is very appreciated since i was totally unprepared for him 👍",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "thanks for the avneturine waveflair guide! 🌊 it was very helpful",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "i got so lucky on pulls went in with 340(before refunds from 4 stars) on 60 pity. wanting e2s1, and i pulled e2s1 with 200ish left and just decided to send with refunds and hit e5s1. just gotta build up jades over 2 weeks to try and hit my last copy.",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "thank you, ive needed this so badly, bcs of how my team is with him, i get to a high amount of def ignore without set, so i was worried i would lose out the effectiveness of the def ignore, so im going to put him on diviner now ( i have better pieces on there anyhow soo win win ) thanks",
+        "positive",
+        "0.95",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i won 50/50 now im here 😎",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "i had saved 320 pills for him and others and i got aventurine, ashviel, rin, and aventurine’s lc! (ik people said eidolons were better investment but his lc was pretty and i wanted it. anyways i’m going for e2 on his rerun!)",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "my favorite elation dps by far. i wish he would have been the main push so i didn ́t have to waste a pull for sw999 because of her global passive",
+        "positive",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "i lost two 50/50s leaving me with e0s0 waven and no ashveil",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i randomly managed to get s5 a little getaway. would you recommend i just use that or still try and get his sig",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "if i have s5 bp elation lc, is it even worth going for the sig? i plan for e2 on him cause i ended up really liking him but is the s1 really worth the extra cost? i also have a silver wolf lc but s5 bp cone looks better for him but idk. i really like him so if its a big difference i dont want to miss it.",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "my r5 bp light cone is on eva now, but realized i have that tomorrow, together event light cone that gives cd and elation dmg to everyone after ulti, but no guide ever mentions that one. what are your thoughts on that lc?",
+        "neutral",
+        "0.9",
+        "[\"技术体验\"]"
+      ],
+      [
+        "omg i miscalulated i thought he was coming in a few days ahhhhhhhhhhh-",
+        "negative",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "congratulations 🎉 thank you for the luck i got him with 40 pityyy🔥",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "got him at 20 pity and ashveil at 70 without losing the 50/50! im so happyy",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "congrats! i'm happy for you! *clenched fist*",
+        "positive",
+        "0.78",
+        "[\"社区生态\"]"
+      ],
+      [
+        "i just got him too, at 76 pity, he is just as fine as ppl said, ratio really is a lucky man",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i got him e3!",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "got fu xuan on 76 then aven at 80 🗿💔 his lc came on 7 thanks god",
+        "positive",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "i love aventurine",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i win his and ashveil 50/50 so im sooooo happy",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "i got a double aventurine waveflair at 70 pity, so i got e1s0",
+        "positive",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "congratulations !",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "lost my 50/50 to silver wolf, but i finally got him at 5 pulls 😭 he knows i really loves him so much 😭",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "i'm saving up for something else i'm not getting adventurine sorry–",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "got him at 30 pity! going for ashveil next",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "i don't have any steller jades left ! 😢😢😢",
+        "negative",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "im not winning but happy for uu",
+        "positive",
+        "0.78",
+        "[\"技术体验\"]"
+      ],
+      [
+        "i dont even have hsr and yet i want him",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "got him in in the 56 pull. so happy 😊😊🎉.",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "i got him at 80 pity without losing, so now all i have to do is try to obtain his light cone. 😅",
+        "positive",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "i need to get him but idk how many pulls i did (around 30, and won my last 50/50) but i’m run out of tickets helppp i’ll have to get him on the rerun😩",
+        "negative",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "lost my 50/50 to yanqing 💔",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i spend all my pulls on this man and now i need to skip both him and pearl in order to get nihilux 😭😭😭😭😭",
+        "negative",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "erm... summer robin banner ended 💀?",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "congratsss! i got him at 80 pity + e1 and later his lightcone too yeahhhh🤩",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "i lost him to argenti 😭😭😭",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i lost.",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i̇ losee him🫠😭",
+        "negative",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "w edit 🔥",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "ayoooo",
+        "positive",
+        "0.78",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "stella x advent wow 😮",
+        "positive",
+        "0.95",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "wow",
+        "positive",
+        "0.95",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "help ahhhha your wife's reaction is valid",
+        "positive",
+        "0.95",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "2:55 “can we watch it again?” girl same😂😂",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "1:41 valid reaction maem. i hysterically s(c)reamed and my bf was like “wth is happening” 😂😂😂",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "watch it many many ...many times 🔥🔥🔥",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "mrs pp's reactions in the background are soo relatable lmfao",
+        "positive",
+        "0.95",
+        "[\"音频表现\"]"
+      ],
+      [
+        "just so we're clear; this is furbobo tv by fulwish tv. furbobo weekly is totally innocent >.<",
+        "neutral",
+        "0.9",
+        "[\"版本内容\"]"
+      ],
+      [
+        "aha just wanted to see shirtless aven. we offer our prayers in thanks",
+        "positive",
+        "0.95",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "3:21 well most of it was just drunk aventurine, only the furbo ad is ai generated",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "mogged xdd fishin",
+        "neutral",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "congratulations on e6s1 though maybe choosing a room where he was tormented by sunday was not a good choice of place to pull him i have a question i’m high at pity on lc banner so should i go for wavebturine lc (he is now e1s0) or got for ashviel lc (he is e0s0) or save for nihillux lc in the future",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "aventurine is currently my strongest character at e6s1 snd 42 substats, he is my first e6 character and i'm happy that it's him cuz he is my favourite character of all time",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "whoooo! yay chewy! it couldn't have happened to a better husbando lover!",
+        "positive",
+        "0.95",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "dude i lost every single 50/50 and got e2 yunli before i got my e2 waven 😭",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i missed the stream...",
+        "negative",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "what an whale",
+        "neutral",
+        "0.82",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "yabuli merchant? 🎉 kardz top-up deal 💳 start your top-up here: 💰 10% instant cashback on every k-coin wallet top-up (no cap!) 🏷 up to 40% off for new users (can be stacked with cashback) 🎮 self top-up for hsr / genshin impact / zenless zone zero 📖 cloud top-up tutorial (claim a free $1 wallet credit):",
+        "neutral",
+        "0.9",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "the queen pulling out all the bathroom talk for this one! urine?! dictator?! double dictator?! husbandos bringing out the best out of my cc! thank you adventure man!",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "despite the little thumbnail joke, xolze did not trash on aven at all! love that",
+        "positive",
+        "0.95",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "bro is recommending a whole unit just for a single patch",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "aventurine is like ruan mei. they do multiple things, but lack specialization. his elation damage ratio is a double-edge sword. he will get partial benefit from elation-shilling. though he will also get screwed when hoyo inevitably try to screw elation just like they do with -50% break damage. lol when 5.x hp inflation hits, the buff meant to keep elation afloat will be less effective on aven... so he would sink. aventurine may seem like he's getting the best of both world, but he is actually being screwed on both sides (a thought that might make aventurine-wanters flutter tbh)",
+        "negative",
+        "0.94",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "as a gay man, they are very worth it ❤❤❤",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "honestly, seeing pearl's buffs in the past beta, how much time do you think it'll take until they make an boss who has instant death mechanics to shill pearl's e1?",
+        "negative",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "people said wait for nihilux to make sw broken unknowingly they can make waven even more broken with nihilux leaks",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "we went from rem slop to elation slop and soon finality slop😭🙏🏼(i’m definitely getting kafka sp if she’s real)",
+        "negative",
+        "0.78",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "that e6 on aventurine is kinda nuts, expecting aven/nihilux/yaoguang/robinetto for 0avs",
+        "neutral",
+        "0.9",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "monogay 😭",
+        "neutral",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "glad they fixed him. considered pulling him for a team with the fox since i’m a little iffy with pearl wanting 4 elation to even be worth pulling.",
+        "positive",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "ashveil being double bitcoin because acheron's augment core is gonna give her a fua and more ults to spam to fit ashblade better (allegedelly)",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "sw > waven and eva not because 0av performance, but global passive. in 2 years all of these characters will be powercrept anyway, but passive won't",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "we all saved for nihilux",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "what do you think about ahsveil’s value in the context of the paid acheron buff supposedly coming soon? right now i’m running e2s1 acheron with e2 mblade, e1s1 tribbie, and e0 hyacine for sustain or e4 welt for sustainless. also have e6s1 robins, but she’s kinda glued to saber gil. i can use her in acheron king runs, or if saber gil has the leeway to downgrade to rmc (right now they do but skeptical about that lasting long). it feels like right now e0 ash would be a very big upgrade for sustainless and a medium upgrade for sustained, but a lot of that is his own damage contribution. if acheron’s damage suddenly quadruples, i’m not sure e0 ash would be much of an upgrade over e1s1 tribbie (who he’s competing against in sustained gameplay, and potentially sustainless as well if i give robin to this team). and my tribbie currently has nowhere else to go. i can probably only get e0 ash since robin e6 emptied me, and that brings up another point, if they buff acheron they will probably buff her eidolons too, at which point i need to start adding a potentially busted new e6 acheron into the calculus... i say all this and it seems like a no brainer to skip ash and save for e6 acheron, but then what if half the buff’s power budget is into amp for other teammates and they make her into the same sort of half dps half support character as ash and blade, which then ashveil doing actual damage vs tribbie suddenly matters a lot more again... future rail sure does suck. hopefully we will get some more detailed leaks in the last couple days of the patch.",
+        "neutral",
+        "0.78",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "honestly eva and waven and himeko nova are the only main pushes they all have stupidly broken e1 snd e2 alot of low cost zero cycles from two of them i hope more unuts become like these 3 tbh i jst hope they dont make nhilux catered to silver wolf",
+        "neutral",
+        "0.78",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "loolz. ave is so broken and way too strong. yet, i’m skipping both ; i’m taking a break from hsr. i will be back for 4.7 story and nihilux aha. i’m so ready for 5x especially if the rumors are true😅😊 ( we don’t know yet) wallet 💳 is waiting to heavily invest on aha and 5.x",
+        "positive",
+        "0.78",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "i'm a bit low on pulls and planning to vertically invest into acheron (i have an e1 tribbie and e2 robin that sometimes get slotted in other teams). should i save for e2 mblade (e0 currently) or just pull e0 ashveil and hope i get lucky on mblade rerun? it's honkai: speculation rail with the acheron fua buff, so idk what to do tbh",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "silverabomination999 betting powercrept in 21 days then again three parches later",
+        "negative",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "what would be better for me? i current have e0 s1 mblade and i don't have both ashveil and waven i have like the cas rem team without robin sp(evernight, cyrene, hyacine all at e0s0, cas e0s1) and a pretty ok elation team (sw e2 s1, yao e0 s1 and the rest e0s0, but this team copes just fine) should i be waiting/saving for any character or invest in either ashveil/waven? i also have cedyra and sunday at e0s0, what would be the better move?",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "generational thumbnail, ma’am i will be skipping both though since i’ve skipped all of elation and i do technically have 3 teams (i split remembrance into 2) so i might just save for finality ✌️ (kafka please be real...)",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i pulled sw999 bc everyone said she was busted and i regret it so much, i had to skip evanescia for her. aven feels so much better than sw even though i haven't finished levelling his traces yet. should've been listening to you back then smh",
+        "negative",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "is aven even worth spending on if you have no ashveil and mortenax? and if yes can he work with e1s1 topaz😭?",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "can 3 cost ash blade/bobin aven do yabuli gold banner",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "thoughts on his e1 and e2?",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "yea hoyo take all the pink money from that needy demographic, we need nodus fall asap.",
+        "negative",
+        "0.78",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "i got him e2 in 140 pulls :d",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "this elation meta shilling has me completely tired and annoyed with the game is it worth to simply get eva's e1 (no lc), e0s0 yaoguang and call it a day? i wanna go back to good ol fua/ult teams 💔💔",
+        "negative",
+        "0.92",
+        "[\"技术体验\"]"
+      ],
+      [
+        "lowest cost king and plight clear belong to sw (yes, she's mogging waven and eva) and pearl already makes sw be able to do 7 ebas in 80~70av, with nihilux release sw will probably be able to 0av too since it's the only thing sw is lacking rn",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "pull neither, save for sw. then get pearl and then nihilux. giga team formed.",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "i lost on robin's banner...i wanted to pull for aven because i love him but i don't have neither blade nor ashveil. this game is getting boring",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "which is the best elation team for him?",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "love how gilgamesh just wipes out 27% of the bosses hp in one go",
+        "positive",
+        "0.95",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "also your himeko nova double mode gameplay is pretty next level.",
+        "positive",
+        "0.95",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "seeing this after losing my 50/50 to argenti",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i beg that i must won on pearl and her lc",
+        "positive",
+        "0.78",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "daily mission (1/1)",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "f2p ashveil or f2p aventurine? (if that's even possible?)",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "silver wolf made you lose the 50/50 and you immediately put her to work 🤣🤣🤣 anyways, i'll have to grind in the du (*gulp*) for more pulls, i ended up getting robertto so like... now wanturine is gonna be a \"either i win the 50/50 or f- you\"",
+        "negative",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "ye but you have your own premium team for every lineup",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "this event so... :d",
+        "neutral",
+        "0.78",
+        "[\"版本内容\"]"
+      ],
+      [
+        "one has to see it to believe how bad this event is!",
+        "negative",
+        "0.94",
+        "[\"版本内容\"]"
+      ],
+      [
+        "this is like premium team for each one? no f2p options?",
+        "negative",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "as a new player, i can't enjoy this game. i only have archer team hahaha, so i rely on trial characters. rank a only :/",
+        "negative",
+        "0.94",
+        "[\"技术体验\"]"
+      ],
+      [
+        "what is this garbage event?",
+        "negative",
+        "0.92",
+        "[\"版本内容\"]"
+      ],
+      [
+        "video guide terngebut yg pernah kutonton, langsung straight to the poin semua 😂",
+        "positive",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "guru: presentasi maksimal 10 menit rey: bet",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "presentasi ta iki😹🥀",
+        "neutral",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "gua datang kesini krna ngebadut gaca",
+        "negative",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "berasa lihat presentasi di kelas",
+        "neutral",
+        "0.9",
+        "[\"音频表现\"]"
+      ],
+      [
+        "thanks bang...",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "oke ganteng",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "njay",
+        "neutral",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "ok, thank you sudah dibikinin bang",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "mending hyacine gak sih daripada huohuo?",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "gua udah kalah 50/50 5kali berturut-turut. udah nyerah gua sama game ini",
+        "negative",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "syukur kemaren dapet e1 waven. kondisi tim ane ada mblade, tribbie e0, sama huo huo. enaknya pull ashveil atau lanjut e2 waven ya?",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "aku kan untuk sekarang tim nya aven, yao, 3b, huo2 ya, dan lagi otw pull ashveil. kalau dpt ashveil, bisa gak dia ngegantiin 3b? jdi tim nya aven, yao, ash, huo2 (atau udh ganti aja yao nya, kaya yg di video).",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "bang gua kan f2p kira kira bisa ga ya aventurine gua komboin bareng archer,dan heng premansor, sparkle soalnya baru dapat ini",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "bang build ashveil buat subdps nya waven gimana? pake sepatu spd apa atk? terus stat goalnya spd, cr, cdm sampe brp bangg",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "mau nanya, should i get e1 waven or e1 ashveil?",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "bang gw aven nya e1 (dapet double), apakah wajib e2? soalnya gak sanggup lagi nih sj gw...",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "bang mending gacha e1 aventurine, apa gacha la mancha buat team full lanang. jujur gua gada mblade dan la mancha",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "bang gw barusan kalah rate off daoet welt, gara gara elu nih😠",
+        "negative",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "ain't no way the title is \"novaflare\" and not a single person noticed or mentioned it 😭",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "bro ashblade teams are so fun to play",
+        "positive",
+        "0.95",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "love your vídeos! keep doing",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "heyo! i think you meant aventurine -novaflare- waveflare! since novaflare is a buff for old characters!",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "is it better to use huo huo or hyacine in this team?",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "why the cycle clear is the same as the tribbie-hyacine variant that you uploaded it 3 weeks ago? i usually think that aven is stronger than tribbie for ashblade team but the cycle clear is the same for 3 cycle. or, maybe aven is a fraud?",
+        "negative",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "the strongest elation dps :real:",
+        "positive",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i don't have an elation dps,only yaoguang because i don't really like it much and i'm an f2p ,but because of the elation shill lately i think i need one😭 , so if i pull for aventurine e0s0 would he be enough? i love him but i don't wanna risk my jades.i already have the ashblade team .",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "шикарный трейлер у авантюрина: прибоя👏 обожаю шип аванстелла🥰",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "omggg soo underrated 😫✨✨",
+        "positive",
+        "0.95",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "one of the best ways to describe his kit, i love it🤣",
+        "positive",
+        "0.95",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "actually helpful ngl",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "waventurine is the first (and most likely only) elation character i’ve pulled. heh, i’ve grown so used to the elation shill going against my teams having aven is spoiling me. the fua boys are demolishing even the hardest content. ( _i could clear aa knights and 3star the king before but it took multiple tries. they did it in one go_ .)",
+        "positive",
+        "0.95",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "as expected monorem players getting furious about not being triple t0 lol",
+        "neutral",
+        "0.9",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "the saber disrespect is crazy, full saber premium is better than monorem at e0s1, idk why they're so conservative on bumping them up",
+        "negative",
+        "0.94",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "my goat phainon in the trenches",
+        "positive",
+        "0.95",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "most people being surprised by castorice's placement probably have invested monorem or never tried 4.x teams cuz the placement is deserved and she should've dropped earlier",
+        "negative",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "ashviel the goat",
+        "positive",
+        "0.95",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i'm probably playing it wrong, but i've found that it's getting harder to clear quickly with the monorem cassie team (especially if they're not quantum-weak enemies)",
+        "negative",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "there's no way there's so many units on the same tier as waven at e0.",
+        "negative",
+        "0.92",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "also w agl vegito blue ost. based",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "yeah castorice with acheron, dot, and saber is actual jokes. especially with robin comin out, who advances hyacine and basically gives cas damn near 100% uptime at e0",
+        "negative",
+        "0.78",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i lost my pity to robin 🥀 but time to get ts one lol",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "ig robin really does work in every team",
+        "positive",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "kris, get the banana",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "potassium",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "firefly😍😍😍😍",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "omg ily 🥰🥰😍😍",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "oh boy😪 looks like fugue is out of her job",
+        "negative",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        ":tingsly:",
+        "neutral",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "new mono rem 16 cost vs 4.6 aa plight next?",
+        "neutral",
+        "0.9",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "yo i kid you not i pulled summer robin this morning in 35 pity and in 20 of those pulls i didn’t spend a single jade as i got it from store exchange absolutely insane!",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "good luck on the dokkan pulls tonight if they banners do drop after the livestream!",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "“are you joking?!” i mean, he’s an elation character, so he could be",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "coming back from austin so i haven’t had the chance to pull yet, i lowkey need him so wish me luck! also nice video, definitely an underrated cc, hope u get ashveil",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "shouldve gotten e1",
+        "negative",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "what did you guys think of the trailblaze continuance story quest? any thoughts or theories?",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "sugilite as a mourning actor that loves watching people wallow in debt is not how i imagined mourning actors to be but i kinda love it! super relvent to the current state of the world and how much people understand finance.",
+        "positive",
+        "0.95",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "they added mr.beast into hsr 😳😳😳",
+        "neutral",
+        "0.78",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "so far one of the funniest quests in the game. and the presentation ain't half bad",
+        "positive",
+        "0.95",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "4:23:19 it's the gopher wood's music box, he gives it to sugilite so he can \"give\" it to robin in the auction",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "haven't had this much fun doing quest like this in a long time.",
+        "positive",
+        "0.95",
+        "[\"音频表现\"]"
+      ],
+      [
+        "the reason why all the racers tied/all draw in 1st place is because nihilux voted for each and everyone of them so she intentionally used the power of elation so that it happens",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "3:13:08 ipc can put a bounty, they can disallow any credit transactions from the express, they can use penacony, planarcadia and belobog to threaten the crew, they can disallow light cone purchase since it's ipc and garden of recollection collab tech. heck they can even mess with the synesthesia beacons which is what allows for different civilizations and species to communicate with each other. and they are the ones investing in simulated universe. people really underestimate ipc influence",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "\"the express could probably beat anyone they sent over\" well, yes, but uh...don't forget the ipc owns credits as a currency. they could 100% freeze all astral express members' accounts, locking them out of the cosmic economy and making it impossible to get resources except through donations of material goods and what little local money we possess for the planets we've been to😅",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "you are right about the world building, world building help us understand how each character's values , emotional structure that forces them on how they act and it mirrors their struggles which help us like a character more",
+        "positive",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "i love that they added sunday ready to throw hands... or wings?",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "2:10:50 it's kengan asura (goated series btw)",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "great story and great trio",
+        "positive",
+        "0.95",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "finally you are backkkk",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "you can see opal and obsidian for a short while in aventurine myriad celestia trailer, hope you react to it and not just check it on your own, there is a mindblowing reveal in it. ofc dont expect to hear or see these two a lot, is moslty about aventurine searching for the traitor",
+        "positive",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "all for the amber lord ✋😐🤚",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "its soo geh lite",
+        "neutral",
+        "0.9",
+        "[\"社区生态\"]"
+      ],
+      [
+        "4:02:55 no. that's why aventurine use his card to create one.",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "they literaly say her name in the game, how are you struggling to say siobhan, if i can try my best to pronounce quinque you can try harder with her name",
+        "negative",
+        "0.94",
+        "[\"社区生态\"]"
+      ],
+      [
+        "this quest was okay, but it's definitely my least favorite of the 4.0 version so far.",
+        "negative",
+        "0.94",
+        "[\"社区生态\"]"
+      ],
+      [
+        "i am speed! one more hour before genshin live stream 6 years anniversary incident 😁",
+        "positive",
+        "0.92",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "yay! my baby is finally here and he looks so pretty ! he isn't in the server i play right now so im watching this to pass the time, hopefully i will win the 50/50🍀",
+        "positive",
+        "0.95",
+        "[\"技术体验\"]"
+      ],
+      [
+        "he looks gorgeous i wish i won't lose the 50/50😅",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "congratulations 🎊 im still 4 hours away from him dropping 😂❤",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "ughh he's gorgeous ❤ congratulations. i lost 😩",
+        "neutral",
+        "0.78",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "👏👏👏👏👏👏👏👏",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i pulled e2 waven yesterday, i saved like 3 patches for this , i'm planning on pulling nihilix too , good luck to us both ♥️✨",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "omg w!❤",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "omg i love this video",
+        "positive",
+        "0.95",
+        "[\"技术体验\"]"
+      ],
+      [
+        "congrats on getting him do you think you'll get pearlllll 😅",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "you are so fast wth",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "i only have 58 pulls, and i have about 3080 jades, but i really wanna pull on ashveil's banner when he comes out in two hours over on my server. maybe i should farm for more jades cause i just returned back to hsr, and i'm still on the loufo quest",
+        "neutral",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "do you love aventio? 🥹",
+        "neutral",
+        "0.78",
+        "[\"技术体验\"]"
+      ],
+      [
+        "i’ve dealt with complaints in genshin like they’re doing in hsr and honestly most players are going to come back, their words are futile. hoyo won’t do anything unless the chinese side complains. plus lads is doing worse than hsr, sooo 🤷‍♀️. also this is no hate to you, this is just to those players that say they’ll quit but will come back.",
+        "negative",
+        "0.78",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "lmao help",
+        "neutral",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "the mono man team seems to be dwindling",
+        "negative",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "enjoy an extra 8% coupon as a new user with enjoygm:",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "meu novo hiperfoco, ver os vídeos do magnus com essas belíssimas skins",
+        "positive",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "quick question: does the order of the gays matter in the mono men team? i have aven, dh, bladie, ashveil in that order—just wanna know if the arrangement influences anything, i got that planetary set on dhpt that boosts the attack of the first person in the party 🤔",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "since i don't have ashveil cause i skip the game on 4.0 and 4.1, i use jade and welt for aven and i must say the results was better than i expected. in aoe content pf and this aa knight 1, her charging speed for aven was close or even equal to ashveil while allowing aven to reach almost 250 spd to also give jade wet drame as she can always get at least one or two whip per aven turn. and sometime they even fully charged him, drained his trace effect before he can even get his own turn. i would get ashveil or aven e1 but sadly i'm out of jade and money.",
+        "neutral",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "wait... magnus voice reveal? 🤔",
+        "neutral",
+        "0.82",
+        "[\"音频表现\"]"
+      ],
+      [
+        "magnus, could you someday share the links for the skins? i can't find them on search",
+        "neutral",
+        "0.9",
+        "[\"社区生态\"]"
+      ],
+      [
+        "does anyone give me the steps to download the game and then put a swimsuit on my characters?😊😊😊",
+        "neutral",
+        "0.9",
+        "[\"技术体验\"]"
+      ],
+      [
+        "i lost ashveil who i can use?",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "blade mod please",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "bem feito 😂😂😂😂😂😂",
+        "positive",
+        "0.78",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "foi boa man, na próxima vai ter mais sorte☝🏻",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "já peguei o meu aventuras com cone 🙌😄 agora farmar pra tentar a e1",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "perder 50/50 em pity alto dói demais.",
+        "negative",
+        "0.94",
+        "[\"商业化\"]"
+      ],
+      [
+        "cara que ódio, eu fui dar uns tirinhos no banner de arma da robin só pra ver se vinha o t4 da euforia novo, tava pity 0, pouco tiro, então não tinha o que se preocupar, ou assim eu pensei, porque no pity 5 me brilha dourado e pego o cone da robin, sem nem ter tiros o suficiente pra pegar a própria robin 😑😑 se eu soubesse que ia brilhar eu atirava no banner de arma da hyacine 😑😑 quando a robin voltar num rerun vou tentar pegar ela, por enquanto eu vou usar esse cone na minha noite eterna que tava usando o t4 da cirene até hoje 😅",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "имба!",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "так хочется ради него в хср вернуться😭😭😭",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "the craziest part is ashveil s1 provide 0 value over topaz s1.",
+        "negative",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "woah pokke corp is alive?",
+        "neutral",
+        "0.82",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "0.o",
+        "neutral",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "этот потрясающий мужчина выпал мне почти на 80 крутке на 100% гаранте после проигрыша, и сигна его далеко не ушла, разве что на пару круток раньше... очень иронично: не повезло на банере везунчика;)",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "sparxie deserves this amount of overkill because of how terrible she is in this apoc",
+        "negative",
+        "0.94",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "3:19 bloody hell",
+        "neutral",
+        "0.9",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "man i love you with all of my heart",
+        "positive",
+        "0.95",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "2:30 96 punchline is diabolical 😂 that’s how many actions the team took out of turn (well relative to waven punchline gain) and it kept going",
+        "positive",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "yep, washblade is broken",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "robin bikini mmd",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "aventurine aventurine aventurine oh my goodnesss this is absolutely a masterpiece i'm using this edit as my pulling ritual edit: i won e0s1 let's goooo",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "in etoile we trust she never fails to deliver she never fails to amaze us all with each edit being better than the last you my friend are the true peak",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "yo congratulations on 7k this is so peak thé graphs are smooth af",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "this is the aventurine waveflair edit! it even shows the dark side of stuff i love it",
+        "positive",
+        "0.95",
+        "[\"技术体验\"]"
+      ],
+      [
+        "i've been scrolling through your edits for half an hour and i'm stunned 🥹 they're all so freaking creative and beautiful, you should really have 100k+ subscribers right now. i hope one of your edits goes viral and you gain thousands of subs etoile 🫶 your edits make me so happy, you're a big inspiration",
+        "positive",
+        "0.95",
+        "[\"社区生态\"]"
+      ],
+      [
+        "omgomg i love the way you do text your editing style is so unique and amazing ahhh🥹 i’ll forever be the biggest etoile glazer i swear-",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "the typography my jaw on the floor",
+        "positive",
+        "0.92",
+        "[\"技术体验\"]"
+      ],
+      [
+        "holy ethereal omg",
+        "positive",
+        "0.95",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "omg i love this- this is really the vibe this trailer lowk gave me",
+        "positive",
+        "0.95",
+        "[\"技术体验\"]"
+      ],
+      [
+        "also i always like how u make the color scheme of the text (and overlays) match the character ur editing. even though that’s a rlly simple thing to do u just do it super well 💖",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "woah masterpiece as always ml",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "peak as alwayss",
+        "positive",
+        "0.95",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "i’m crine ur style is so bubbly and cute and paired with an angst edit is so wonderful 🥹",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "yess keep using the black and white text !️",
+        "positive",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "girllll it's fine as heck",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "holyy shizzz this is amazing",
+        "positive",
+        "0.95",
+        "[\"音频表现\"]"
+      ],
+      [
+        "am i early to an etoile edit? fuck yesss",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "etoile as a 7k special (cg btw <3) you should post a tut plsssssss ill give my kidneys",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "its so smooth ahhhhhhhhhhhhhhhjglsjhssjghsjsgjgssjgsh i luv ur style sm dghskjhlsijdk",
+        "positive",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "waaaaa my day got better",
+        "positive",
+        "0.95",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "here i thought you couldn't get any better",
+        "positive",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "yo peak aventurine editt",
+        "positive",
+        "0.95",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "avennnn❤❤❤❤❤",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i love",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i only have 234 gems now... ☝🏻🤓",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "she have the character, and the icon againnnn—wtff",
+        "neutral",
+        "0.9",
+        "[\"剧情内容\"]"
+      ],
+      [
+        "god... you have the new character you want again 🤣 i lost my 50/50",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i see... you're lucky, more than me 🐸 i think honkai love you, huh ~",
+        "neutral",
+        "0.78",
+        "[\"社区生态\"]"
+      ],
+      [
+        "i think it's because you are pretty... girl i lost my 50/50 😂😢",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "i think she has everything she wants, eh 👀",
+        "neutral",
+        "0.82",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "lucky girl",
+        "positive",
+        "0.95",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i want the same luck huh 🤞🏻",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "one more time, you are lucky. i want to be lucky than you girl💥",
+        "positive",
+        "0.78",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i have robin but i lost my 50/50 with aventurine 😂😭",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "✨ with the music of camille 🥹🪄",
+        "positive",
+        "0.95",
+        "[\"音频表现\"]"
+      ],
+      [
+        "i don't know why, but i think honkai star rail is giving you a little favoritism by always making you win your 50/50 huhhhh 🍎",
+        "neutral",
+        "0.78",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "⚠️no templates were used⚠️",
+        "neutral",
+        "0.9",
+        "[\"社区生态\"]"
+      ],
+      [
+        "i got my first ever win 50/50 back to back (literally one right after another) ever. i’ve had back to back 5stars before but never won both 50/50s. just in time for me to delete this game lol",
+        "negative",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "i also have nothing, i hole i get your luck😢",
+        "negative",
+        "0.94",
+        "[\"技术体验\"]"
+      ],
+      [
+        "gameplay pistolet a eau, c'est aventurine sp hamza la douane ^^",
+        "neutral",
+        "0.78",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "je l'ai pull 🎉 e1s1, je cherche encore sa e2, j'ai avancé dans mes pulls de 60. d'ici qu'il parte j'espère l'avoir 🙏🏻",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "a sub-dps meant for sw (that's failing on that porpuse) vs... an actual main dps on focused constant attacks—",
+        "negative",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "congratulations!🍾🎉 aventurine waveflair is so cool",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "congrats for getting aventurine waveflair and his lightcone! btw did you have a guarantee?",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "a few notes i want to mention because i couldn't add them to the video. 1: don't try to max out speed. his a2 major trace gives extra elation damage when exceeding 140 spd, up to a max of 200 spd. you shouldn't be trying to have all your substat rolls land on spd. the reason is that the extra damage you get from the speed isn't worth losing crit dmg/rate. that's why i said to get at least 160-ish and get the rest of the speed from allies like robin summertto or asta. 2: his elation could also be a follow-up. this is just a reminder that the a4 major trace can turn the elation skill into a follow-up if no one apart from aventurine waveflair himself does. that means he can be used in teams with follow-ups too. 3: be mindful of skill points i forgot to add this as a team, but aventurine waveflair likes to eat sp like it's a 5-course meal. you should try to be mindful of when you will need to basic attack or use a skill. of course, you can make it easier by using characters who don't need as much sp, like tribbie or robin summertto. you could also make it much easier by using sparkle.",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "all the way to 90 pity...hoyo needs to chill",
+        "negative",
+        "0.94",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "ty",
+        "positive",
+        "0.95",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "ez and fast :d",
+        "positive",
+        "0.95",
+        "[\"音频表现\"]"
+      ],
+      [
+        "tava doido de tanto esperar o seu guia do ash",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "o guia do suporte do aventurine chegou finalmente",
+        "positive",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "ai sim meu guri, vou atirar nele agora",
+        "positive",
+        "0.78",
+        "[\"竞品讨论\"]"
+      ],
+      [
+        "até queria pegar ele mas não dar certo não, a pérola tá logo aí e não tenho sorte pra isso não, boa sorte pra quem for rodar pelo lobão.",
+        "negative",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "oii shinazuu, pro time de dps do ashveil, vale mais a pena usar o mortenax de set de vento ou com o dele mesmo?",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "melhor vídeo do melhor boneco do jogo🔥🔥🔥",
+        "positive",
+        "0.92",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "um guia excelente de um main. está completinho, não tenho nada a adicionar. acho que a única coisa que ficou faltando, foi enfatizar o dublador japonês dele. essa é uma informação muito importante do kit dele. o meu ashveil eu deixo de duran, mesmo quando ele está de subdps. o dano crítico é um buff abundante no time dele, então o cidade acaba não fazendo tanta falta pra mim. eu gosto mais de focar no dano pessoal dele, então todo mundo bate forte. excelente vídeo, parceiro.",
+        "positive",
+        "0.92",
+        "[\"商业化\"]"
+      ],
+      [
+        "perdi o 50/50 da robin e agora já to no pity 65. até o fim da atualização o ash vem pra mim",
+        "positive",
+        "0.82",
+        "[\"商业化\"]"
+      ],
+      [
+        "muito bom o vídeo. consegui o aventurine pro meu ashblade, futuramente vou querer a e1 do ash, infelizmente não vale a pena pegar a assinatura dele porque já tenho o do ratio e topaz (maldita mania de amar combinar os cones com personagens). vai pegar a pearl?",
+        "positive",
+        "0.92",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "mano qual o melhor cone f2p pra ele? o da loja da herta mar estelar ou o do evento corrida ao horizonte?",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "veloce ed efficace",
+        "positive",
+        "0.92",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "per le lightcone, non ho nessuna di quelle, che si fa?",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "is there a replacement for sparxi?",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "tuff",
+        "positive",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "looks awesome. these look stunning 🎉",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "excellent",
+        "positive",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "i just got e0s0 ashveil this banner and got to 46 pity in waventurine's one, hope i don't loose the 50/50 🙏🏻",
+        "neutral",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "hopefully, i can get his e1 before his banner ends. that would be lovely. i wish everyone the best of luck with their pulls... how many wavens did you get?🤩🤩",
+        "positive",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "\"ah a new dps character i wonder in what team can he work-\"",
+        "negative",
+        "0.92",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "5:24 love the sound effects you gave him for his ult haha",
+        "positive",
+        "0.95",
+        "[\"音频表现\"]"
+      ],
+      [
+        "yaya aventurinee nice video",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "what about e0 fugue? is she good already and worth pulling for superbreak? and all are without signatures wait, i'm sorry, but what is that spd...",
+        "neutral",
+        "0.9",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "wow rmc instead of emc here is crazy. is it only better for this run?",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "🌲 🪓",
+        "neutral",
+        "0.9",
+        "[\"其他讨论\"]"
+      ],
+      [
+        "nice, reserve jumpscare",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "good luck on ur pulls guys",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ],
+      [
+        "u folded for aven 🫡",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "lucky u, na still got 13 more hours till we can pull ❤",
+        "positive",
+        "0.78",
+        "[\"商业化\"]"
+      ],
+      [
+        "got them both in 100 pulls",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "lc u gacha or no?",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "nice run! i also have the same comp but e6s5 everyone 🎉 i love that sobin can buff the freak out of waven 🤤 truly double summer fun! i will use this comp to clear every aa plight possible lol.",
+        "positive",
+        "0.95",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "ouu shii",
+        "neutral",
+        "0.9",
+        "[\"角色讨论\"]"
+      ],
+      [
+        "i was there. i was there. i was there when they got double waven lc. me. oh yeah and the other two",
+        "neutral",
+        "0.9",
+        "[\"版本内容\"]"
+      ],
+      [
+        "congrats on your e6 waven 🎉",
+        "positive",
+        "0.95",
+        "[\"视觉表现\"]"
+      ],
+      [
+        "sebenernya gameplay timnya asik tapi ga punya ashveil 😔",
+        "neutral",
+        "0.9",
+        "[\"商业化\"]"
+      ],
+      [
+        "sudah berapa lama semenjak nih yt ada aktifitas",
+        "negative",
+        "0.92",
+        "[\"社区生态\"]"
+      ],
+      [
+        "lc f2p waven bagusan pake lc jamur atau lc b4 baru (yg gambar pearl sama topaz)?",
+        "neutral",
+        "0.9",
+        "[\"战斗体验\"]"
+      ],
+      [
+        "you got e2 thats huge!",
+        "positive",
+        "0.95",
+        "[\"商业化\"]"
+      ]
+    ]
+  }
+}
