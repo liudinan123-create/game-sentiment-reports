@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-11",
+  "updated_at": "2026-09-15",
   "timezone": "Asia/Shanghai",
   "games": [
     {
@@ -1366,8 +1366,20 @@
               "type": "reprint"
             }
           ],
-          "reports": {},
-          "video_metrics": {},
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "data_source": "data/reports/hsr-4.5-lower-zh.json",
+              "download_name": "崩铁-4.5下半-B站_舆情分析报告.html"
+            }
+          },
+          "video_metrics": {
+            "video_count": 140,
+            "total_views": 1484623,
+            "total_comments": 12827,
+            "updated_at": "2026-09-14",
+            "source": "B站“崩铁/崩坏星穹铁道/崩铁4.5”当日交叉搜索，合并去重并筛选4.5下半相关视频"
+          },
           "confidence": "official",
           "sources": [
             {
