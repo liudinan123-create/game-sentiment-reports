@@ -2110,6 +2110,11 @@
               "status": "ready",
               "data_source": "data/reports/zzz-3.2-upper-zh.json",
               "download_name": "绝区零-3.2上半-B站_舆情分析报告.html"
+            },
+            "en": {
+              "status": "ready",
+              "data_source": "data/reports/zzz-3.2-upper-en.json",
+              "download_name": "绝区零-3.2上半-YouTube英语_舆情分析报告.html"
             }
           },
           "video_metrics": {},
