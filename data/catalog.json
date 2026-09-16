@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-15",
+  "updated_at": "2026-09-16",
   "timezone": "Asia/Shanghai",
   "games": [
     {
@@ -2105,7 +2105,13 @@
               "type": "reprint"
             }
           ],
-          "reports": {},
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "data_source": "data/reports/zzz-3.2-upper-zh.json",
+              "download_name": "绝区零-3.2上半-B站_舆情分析报告.html"
+            }
+          },
           "video_metrics": {},
           "confidence": "official",
           "sources": [
