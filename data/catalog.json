@@ -2976,7 +2976,13 @@
               "type": "reprint"
             }
           ],
-          "reports": {},
+          "reports": {
+            "zh": {
+              "status": "ready",
+              "data_source": "data/reports/wuwa-3.6-lower-zh.json",
+              "download_name": "鸣潮-3.6下半-B站_舆情分析报告.html"
+            }
+          },
           "video_metrics": {},
           "confidence": "official",
           "sources": [
